@@ -177,7 +177,7 @@ export default function DrainfieldFailing() {
               This is often the first sign, and it&apos;s the easiest to misdiagnose. If multiple fixtures &mdash; sinks, showers, toilets &mdash; are draining slowly at the same time, the problem is likely systemic, not a single clogged pipe. When the drainfield can&apos;t absorb effluent fast enough, the entire system backs up incrementally.
             </p>
             <p className='text-slate-600 leading-relaxed mb-4'>
-              <strong>What it could also be:</strong> A full tank that needs <Link href='/guides/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-900'>pumping</Link>, a clogged effluent filter, or a blocked outlet baffle. These are cheaper fixes. Have the tank inspected first before assuming it&apos;s the drainfield.
+              <strong>What it could also be:</strong> A full tank that needs <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-900'>pumping</Link>, a clogged effluent filter, or a blocked outlet baffle. These are cheaper fixes. Have the tank inspected first before assuming it&apos;s the drainfield.
             </p>
             <p className='text-slate-600 leading-relaxed'>
               <strong>What to do:</strong> Call a septic professional for an inspection. They&apos;ll pump the tank, check the filter and baffles, and assess whether effluent is draining properly to the distribution box and drainfield.
@@ -269,7 +269,7 @@ export default function DrainfieldFailing() {
             <div className='border-l-4 border-amber-500 pl-6'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Solids Escaping the Tank <span className='text-amber-700 text-sm font-normal'>(Most Common Cause)</span></h3>
               <p className='text-slate-600 leading-relaxed'>
-                When the septic tank isn&apos;t <Link href='/guides/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-900'>pumped on schedule</Link>, sludge and scum accumulate until they overflow into the drainfield. These solids clog the gravel, soil pores, and perforated pipes. Over time, a thick layer of biological material called biomat builds up on the trench surfaces and seals the soil, preventing effluent from percolating. This is the number one cause of premature drainfield failure &mdash; and it is entirely preventable with regular pumping.
+                When the septic tank isn&apos;t <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-900'>pumped on schedule</Link>, sludge and scum accumulate until they overflow into the drainfield. These solids clog the gravel, soil pores, and perforated pipes. Over time, a thick layer of biological material called biomat builds up on the trench surfaces and seals the soil, preventing effluent from percolating. This is the number one cause of premature drainfield failure &mdash; and it is entirely preventable with regular pumping.
               </p>
             </div>
 
@@ -399,7 +399,7 @@ export default function DrainfieldFailing() {
             </div>
             <div className='flex items-start space-x-3'>
               <span className='text-amber-600 font-bold mt-1'>&#10003;</span>
-              <p className='text-slate-600'><strong>Only <Link href='/guides/what-can-cannot-flush-septic-system' className='text-amber-700 underline hover:text-amber-900'>flush appropriate materials</Link>.</strong> Everything that clogs the drainfield started as something flushed or poured down a drain that shouldn&apos;t have been.</p>
+              <p className='text-slate-600'><strong>Only <Link href='/articles/what-can-cannot-flush-septic-system' className='text-amber-700 underline hover:text-amber-900'>flush appropriate materials</Link>.</strong> Everything that clogs the drainfield started as something flushed or poured down a drain that shouldn&apos;t have been.</p>
             </div>
             <div className='flex items-start space-x-3'>
               <span className='text-amber-600 font-bold mt-1'>&#10003;</span>
@@ -506,7 +506,7 @@ export default function DrainfieldFailing() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
               <p className='text-slate-600 text-xs'>Real pricing by tank size, region, and hidden fees to watch for.</p>
             </Link>
-            <Link href='/guides/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
               <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size.</p>
             </Link>
