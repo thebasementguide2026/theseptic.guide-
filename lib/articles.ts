@@ -48,6 +48,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/1.jpg',
   },
+    {
+    title: 'Signs Your Drainfield Is Failing: Warning Signs, Causes & What to Do',
+    description: 'Learn the 7 warning signs of drainfield failure from earliest to latest. Understand what causes drainfield problems, which ones are fixable, and when you need a full replacement.',
+    slug: 'drainfield-failing',
+    category: 'Problem',
+    readTime: '20 min read',
+    image: '/drainfieldexample.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
