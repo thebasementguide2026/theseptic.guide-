@@ -12,6 +12,7 @@ const guides = [
   { title: 'How to Find Your Septic Tank', href: '/guides/find-your-septic-tank', description: 'Methods to locate your septic tank on your property.' },
   { title: 'Septic Dos and Don\'ts', href: '/guides/septic-dos-and-donts', description: 'Essential rules every septic system owner should follow.' },
   { title: 'How Often to Pump Your Septic Tank', href: '/articles/how-often-pump-septic-tank', description: 'Find your exact pumping schedule by tank size and household size, with EPA-based guidelines.' },
+  { title: 'What You Can and Cannot Flush', href: '/articles/what-can-cannot-flush-septic-system', description: 'The complete list of what is safe to flush, what to keep out of your drains, and why it matters.' },
 ]
 
 export default function GuidesPage() {
