@@ -43,7 +43,7 @@ export const articles: Article[] = [
     {
     title: 'Septic Tank Backing Up? Causes, Fixes, and When to Call a Pro',
     description: 'Learn why your septic tank is backing up, how to diagnose the problem, emergency steps, and when professional help is needed. Complete troubleshooting guide.',
-    slug: 'tank-backing-up',
+    slug: 'problems/tank-backing-up',
     category: 'Problem',
     readTime: '22 min read',
     image: '/1.jpg',
@@ -51,7 +51,7 @@ export const articles: Article[] = [
     {
     title: 'Signs Your Drainfield Is Failing: Warning Signs, Causes & What to Do',
     description: 'Learn the 7 warning signs of drainfield failure from earliest to latest. Understand what causes drainfield problems, which ones are fixable, and when you need a full replacement.',
-    slug: 'drainfield-failing',
+    slug: 'problems/drainfield-failing',
     category: 'Problem',
     readTime: '20 min read',
     image: '/drainfieldexample.jpg',
