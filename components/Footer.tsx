@@ -4,7 +4,7 @@ const footerSections = [
   {
     title: 'GUIDES',
     links: [
-      { label: 'Complete Septic Guide', href: '/guides/complete-septic-guide' },
+      { label: 'Complete Septic Guide', href: '/articles/complete-septic-guide' },
       { label: 'Maintenance Guide', href: '/guides/maintenance-guide' },
       { label: 'Buying a Home with Septic', href: '/guides/buying-home-with-septic' },
       { label: 'How to Find Your Septic Tank', href: '/guides/find-your-septic-tank' },
