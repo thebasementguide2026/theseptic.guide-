@@ -2,55 +2,37 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Septic Cost Guides | The Septic Guide',
-  description: 'Transparent cost breakdowns for septic services. Know what to expect before you hire.',
+  description: 'Transparent cost breakdowns for septic services. Know what to expect before you call a contractor.',
 }
 
-const costItems = [
-  { service: 'Septic Tank Pumping', range: '$300 - $600', frequency: 'Every 3-5 years' },
-  { service: 'Septic Inspection', range: '$100 - $250', frequency: 'Every 1-3 years' },
-  { service: 'New System Installation', range: '$3,000 - $15,000+', frequency: 'One-time' },
-  { service: 'Drain Field Repair', range: '$1,500 - $5,000', frequency: 'As needed' },
-  { service: 'Tank Replacement', range: '$3,000 - $7,000', frequency: 'Every 25-30 years' },
-  { service: 'Baffle Repair', range: '$300 - $900', frequency: 'As needed' },
-  { service: 'Pipe Repair', range: '$150 - $1,000', frequency: 'As needed' },
-  { service: 'System Replacement', range: '$5,000 - $20,000+', frequency: 'Every 25-30 years' },
+const costGuides = [
+  { title: 'Septic Tank Pumping Cost', range: '$300 - $600', href: '/cost-guides/pumping-cost', description: 'Average costs for septic tank pumping by tank size and location.' },
+  { title: 'Septic System Installation Cost', range: '$3,000 - $15,000+', href: '/cost-guides/installation-cost', description: 'Complete breakdown of new septic system installation costs.' },
+  { title: 'Drainfield Replacement Cost', range: '$5,000 - $20,000+', href: '/cost-guides/drainfield-replacement-cost', description: 'What to expect when replacing a failed drainfield.' },
+  { title: 'Septic System Repair Cost', range: '$150 - $5,000', href: '/cost-guides/repair-cost', description: 'Common septic repairs and their typical costs.' },
+  { title: 'Septic Inspection Cost', range: '$100 - $250', href: '/cost-guides/inspection-cost', description: 'Costs for routine and pre-purchase septic inspections.' },
 ]
 
 export default function CostGuidesPage() {
   return (
     <>
-      <section className="bg-brand-green-dark text-white py-16">
+      <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom">
-          <h1 className="text-4xl font-bold mb-4">Septic Cost Guides</h1>
-          <p className="text-brand-green-light text-lg max-w-2xl">Know what to expect before you hire. Detailed cost articles coming soon.</p>
+          <h1 className="text-4xl font-extrabold mb-4">Septic Cost Guides</h1>
+          <p className="text-lg opacity-70 max-w-2xl">Transparent cost breakdowns for every septic service. Know what to expect before you call a contractor.</p>
         </div>
       </section>
       <section className="py-16">
-        <div className="container-custom max-w-4xl">
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-            <table className="w-full">
-              <thead>
-                <tr className="bg-brand-green-dark text-white">
-                  <th className="text-left p-4 font-semibold">Service</th>
-                  <th className="text-left p-4 font-semibold">Cost Range</th>
-                  <th className="text-left p-4 font-semibold hidden md:table-cell">Frequency</th>
-                </tr>
-              </thead>
-              <tbody>
-                {costItems.map((item) => (
-                  <tr key={item.service} className="border-t border-gray-100 hover:bg-gray-50">
-                    <td className="p-4 font-medium text-brand-green-dark">{item.service}</td>
-                    <td className="p-4 text-gray-700">{item.range}</td>
-                    <td className="p-4 text-gray-500 hidden md:table-cell">{item.frequency}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="mt-12 text-center">
-            <Link href="/get-quote" className="inline-block bg-brand-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-brand-green-dark transition-colors">
-              Get a Free Quote
-            </Link>
+        <div className="container-custom">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {costGuides.map((guide) => (
+              <Link key={guide.href} href={guide.href} className="bg-white rounded-xl p-6 shadow-sm border border-[#E8E4DE] hover:shadow-md transition-shadow">
+                <span className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-3" style={{ backgroundColor: '#F3EAE0', color: '#8B5E3C' }}>Cost Guide</span>
+                <h2 className="text-lg font-bold text-[#2C3E50] mb-2">{guide.title}</h2>
+                <p className="text-2xl font-extrabold text-[#C8875F] mb-2">{guide.range}</p>
+                <p className="text-sm text-[#5A6B7A]">{guide.description}</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
