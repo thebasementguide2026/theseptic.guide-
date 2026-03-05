@@ -56,6 +56,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/drainfieldexample.jpg',
   },
+  {
+    title: 'Septic System Installation Cost 2026: Complete Price Breakdown by Type',
+    description: 'A new septic system costs $3,000 to $20,000 installed. Complete price breakdown by system type, cost components, tank materials, hidden costs, and how to save money.',
+    slug: 'cost-guides/septic-system-installation-cost',
+    category: 'Cost Guide',
+    readTime: '25 min read',
+    image: '/costguide.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
