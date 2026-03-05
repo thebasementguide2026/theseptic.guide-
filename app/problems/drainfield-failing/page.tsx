@@ -152,6 +152,19 @@ export default function DrainfieldFailing() {
           </div>
         </div>
 
+        {/* Drainfield Reference Image */}
+        <div className='mt-16 mb-4'>
+          <div className='relative w-full aspect-video rounded-xl overflow-hidden shadow-lg'>
+            <Image
+              src='/drainfieldexample.jpg'
+              alt='Diagram showing the components of a septic drainfield system including perforated pipes, distribution box, and soil layers'
+              fill
+              className='object-cover'
+            />
+          </div>
+          <p className='text-sm text-slate-500 mt-3 text-center italic'>A typical drainfield layout showing the distribution box, perforated pipes, and gravel trenches.</p>
+        </div>
+
         {/* The Seven Warning Signs */}
         <div className='mt-16'>
           <h2 className='text-3xl font-black text-slate-900 mb-2'>The Seven Warning Signs</h2>
