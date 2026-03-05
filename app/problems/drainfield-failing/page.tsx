@@ -159,7 +159,7 @@ export default function DrainfieldFailing() {
               src='/drainfieldexample.jpg'
               alt='Diagram showing the components of a septic drainfield system including perforated pipes, distribution box, and soil layers'
               fill
-              className='object-cover'
+              className='object-contain'
             />
           </div>
           <p className='text-sm text-slate-500 mt-3 text-center italic'>A typical drainfield layout showing the distribution box, perforated pipes, and gravel trenches.</p>
