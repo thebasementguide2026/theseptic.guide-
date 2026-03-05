@@ -14,7 +14,7 @@ const featuredArticles = [
   {
     title: 'Complete Guide to Septic Systems',
     excerpt: 'Everything homeowners need to know about septic systems, from how they work to maintenance schedules.',
-    href: '/guides/complete-septic-guide',
+    href: '/articles/complete-septic-guide',
     badge: 'Guide',
     badgeBg: '#E0E6EC',
     badgeColor: '#2C3E50',
@@ -77,7 +77,7 @@ export default function HomePage() {
             <Link href="/get-quote" className="btn-primary text-lg px-8 py-3">
               Get Free Quotes
             </Link>
-            <Link href="/guides/complete-septic-guide" className="btn-ghost text-lg px-8 py-3 border-[#C8875F] text-[#C8875F] hover:bg-[#C8875F] hover:text-white">
+            <Link href="/articles/complete-septic-guide" className="btn-ghost text-lg px-8 py-3 border-[#C8875F] text-[#C8875F] hover:bg-[#C8875F] hover:text-white">
               Read Our Guide
             </Link>
           </div>
