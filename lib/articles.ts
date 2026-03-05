@@ -24,4 +24,12 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/pumpingcostguide.jpg',
   },
+  {
+    title: 'How Often Should You Pump Your Septic Tank? 2026 Schedule',
+    description: 'Find your exact septic pumping schedule by tank size and household size. EPA-based table, factors that change your interval, and how to measure when your tank actually needs pumping.',
+    slug: 'how-often-pump-septic-tank',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/septicpump3.jpg',
+  },
 ]
