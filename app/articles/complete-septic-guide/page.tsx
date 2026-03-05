@@ -121,11 +121,11 @@ export default function CompleteSepticGuideArticle() {
       </section>
 
       {/* Main Content */}
-      <article className='max-w-4xl mx-auto px-6 py-16'>
-        <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+      <article className='max-w-4xl mx-auto px-4 py-12'>
+        <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
         </p>
-        <p className='text-lg text-slate-700 leading-relaxed mb-12'>
+        <p className='text-base text-slate-700 leading-relaxed mb-12'>
           This guide is the resource we wish existed when we started learning about septic systems. No contractor sales pitch, no government jargon. Just a clear, honest explanation of how your system works, what can go wrong, what maintenance actually matters, and how much things cost when they need fixing.
         </p>
 
@@ -138,7 +138,7 @@ export default function CompleteSepticGuideArticle() {
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>How Does a Septic System Work?</h2>
           <p className='text-slate-700 leading-relaxed mb-6'>A septic system does the same job as a municipal sewer treatment plant, just on a smaller scale, right in your yard. It collects all the wastewater from your home, separates solids from liquids, breaks down organic waste using naturally occurring bacteria, and returns treated water to the soil. The process happens in three stages across three main components.</p>
 
-          <h3 className='text-2xl font-bold text-slate-900 mb-4 mt-10'>Stage 1: Collection &mdash; The Septic Tank</h3>
+          <h3 className='text-xl font-bold text-slate-900 mb-3 mt-8'>Stage 1: Collection &mdash; The Septic Tank</h3>
           <p className='text-slate-700 leading-relaxed mb-4'>Every drain in your house connects to a single main sewer line that slopes downhill to your septic tank. The tank is a buried, watertight container usually made of concrete, fiberglass, or polyethylene. Most residential tanks hold between 1,000 and 1,500 gallons.</p>
           <p className='text-slate-700 leading-relaxed mb-4'>Inside the tank, wastewater naturally separates into three layers: heavy solids sink to the bottom forming <strong>sludge</strong>, oils and grease float to the top forming <strong>scum</strong>, and between them sits <strong>effluent</strong> &mdash; partially clarified liquid.</p>
           <p className='text-slate-700 leading-relaxed mb-4'>Anaerobic bacteria go to work in the tank, breaking down a portion of the solid waste. This reduces the volume of sludge over time, but it cannot eliminate it entirely. That is why the tank needs to be <Link href='/cost-guides' className='text-amber-700 underline hover:text-amber-800'>pumped periodically</Link>.</p>
@@ -146,10 +146,10 @@ export default function CompleteSepticGuideArticle() {
             <p className='text-slate-700 font-medium'>Most modern septic tanks have two compartments separated by a wall with an opening. This two-chamber design significantly improves the quality of the effluent that reaches your drainfield.</p>
           </div>
 
-          <h3 className='text-2xl font-bold text-slate-900 mb-4 mt-10'>Stage 2: Distribution</h3>
+          <h3 className='text-xl font-bold text-slate-900 mb-3 mt-8'>Stage 2: Distribution</h3>
           <p className='text-slate-700 leading-relaxed mb-4'>The clarified effluent exits the tank and flows into a distribution box (D-box). This small component divides the effluent equally among the drainfield pipes. In some systems, a pump chamber replaces the gravity-fed distribution box.</p>
 
-          <h3 className='text-2xl font-bold text-slate-900 mb-4 mt-10'>Stage 3: Treatment &mdash; The Drainfield</h3>
+          <h3 className='text-xl font-bold text-slate-900 mb-3 mt-8'>Stage 3: Treatment &mdash; The Drainfield</h3>
           <p className='text-slate-700 leading-relaxed mb-4'>The drainfield (also called a leach field) is where the real treatment happens. It is a network of perforated pipes laid in gravel-filled trenches, typically 18 to 36 inches below the surface. The effluent trickles out, filters through the gravel, and percolates into the surrounding soil where microorganisms remove harmful bacteria, viruses, and excess nutrients.</p>
           <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-8'>
             <p className='text-amber-900 font-semibold mb-1'>Key Point</p>
@@ -207,7 +207,7 @@ export default function CompleteSepticGuideArticle() {
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>How Often Does a Septic System Need Maintenance?</h2>
           <p className='text-slate-700 leading-relaxed mb-6'>The most important maintenance task is having the tank pumped to remove accumulated sludge and scum. The <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA recommends pumping every three to five years</a> for a typical household.</p>
 
-          <h3 className='text-2xl font-bold text-slate-900 mb-4 mt-10'>Pumping Schedule by Tank Size</h3>
+          <h3 className='text-xl font-bold text-slate-900 mb-3 mt-8'>Pumping Schedule by Tank Size</h3>
           <div className='overflow-x-auto my-8'>
             <table className='w-full border-collapse'>
               <thead>
@@ -409,7 +409,7 @@ export default function CompleteSepticGuideArticle() {
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>GLOSSARY</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Septic System Glossary</h2>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Septic System Glossary</h2>
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-4'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900'>Effluent</dt>
@@ -467,7 +467,7 @@ export default function CompleteSepticGuideArticle() {
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>FAQ</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
           <div className='space-y-4'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 cursor-pointer hover:bg-slate-50 rounded-lg'>How does a septic system work in simple terms?</summary>
