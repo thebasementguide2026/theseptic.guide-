@@ -64,6 +64,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/costguide.jpg',
   },
+  {
+    title: 'Septic Smell in Your Yard? 8 Causes and How to Fix Each One',
+    description: 'A septic smell in your yard is caused by hydrogen sulfide and methane gas escaping from your septic system. Learn the 8 most common causes, how to diagnose each one, and the specific fix and cost for each.',
+    slug: 'problems/septic-smell-in-yard',
+    category: 'Problem',
+    readTime: '20 min read',
+    image: '/badsepticsmell.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
