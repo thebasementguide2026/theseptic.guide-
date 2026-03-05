@@ -1,45 +1,62 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Septic Resources | The Septic Guide',
   description: 'Helpful septic system resources including FAQs, guides, and tools for homeowners.',
-}
+};
 
 const faqs = [
   { q: 'How often should I pump my septic tank?', a: 'Most tanks should be pumped every 3-5 years, depending on household size and tank capacity.' },
-  { q: 'What are signs my septic system is failing?', a: 'Slow drains, sewage odors, wet spots in the yard, and gurgling sounds in pipes are common warning signs.' },
-  { q: 'How long does a septic system last?', a: 'A well-maintained septic system can last 25-30 years or more. Neglected systems may fail in as few as 10 years.' },
-  { q: 'Can I use a garbage disposal with a septic system?', a: 'While possible, garbage disposals increase the load on your system and may require more frequent pumping.' },
+  { q: 'What are signs my septic system is failing?', a: 'Slow drains, sewage odors, wet spots in the yard, and gurgling pipes are common warning signs.' },
+  { q: 'How long does a septic system last?', a: 'A well-maintained septic system can last 25-30 years or more with proper care.' },
+  { q: 'Can I use a garbage disposal with a septic system?', a: 'While possible, garbage disposals increase solids in your tank and may require more frequent pumping.' },
   { q: 'How much does a new septic system cost?', a: 'Costs range from $3,000 to $15,000+ depending on system type, soil conditions, and local regulations.' },
-]
+  { q: 'What should I never put in my septic system?', a: 'Avoid grease, chemicals, medications, wipes, and excessive amounts of household cleaners.' },
+];
 
 export default function ResourcesPage() {
   return (
-    <>
-      <section className="bg-brand-green-dark text-white py-16">
-        <div className="container-custom">
-          <h1 className="text-4xl font-bold mb-4">Septic Resources</h1>
-          <p className="text-brand-green-light text-lg max-w-2xl">Helpful guides, FAQs, and tools to help you manage your septic system. More resources coming soon.</p>
+    <main className="min-h-screen bg-white">
+      <section className="bg-slate-900 text-white py-16">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Septic System Resources</h1>
+          <p className="text-xl text-slate-300">
+            Frequently asked questions and helpful resources for septic system owners
+          </p>
         </div>
       </section>
-      <section id="faqs" className="py-16">
-        <div className="container-custom max-w-3xl">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {faqs.map((faq) => (
-              <div key={faq.q} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-                <h3 className="text-lg font-semibold text-brand-green-dark mb-2">{faq.q}</h3>
-                <p className="text-gray-600">{faq.a}</p>
+
+      <section className="container mx-auto px-4 max-w-3xl py-16">
+        <h2 className="text-3xl font-bold text-slate-900 mb-8">Frequently Asked Questions</h2>
+        <div className="space-y-4">
+          {faqs.map((faq, i) => (
+            <details key={i} className="border border-slate-200 rounded-lg group">
+              <summary className="p-4 font-semibold text-slate-900 cursor-pointer hover:bg-slate-50 rounded-lg">
+                {faq.q}
+              </summary>
+              <div className="px-4 pb-4 text-slate-600">
+                {faq.a}
               </div>
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <Link href="/get-quote" className="inline-block bg-brand-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-brand-green-dark transition-colors">
-              Get Expert Help
-            </Link>
-          </div>
+            </details>
+          ))}
         </div>
       </section>
-    </>
-  )
+
+      <section className="bg-slate-50 py-16">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">Have More Questions?</h2>
+          <p className="text-slate-600 mb-8">
+            Get personalized answers from local septic professionals.
+          </p>
+          <Link
+            href="/get-quote"
+            className="inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+          >
+            Get Free Quotes
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
 }
