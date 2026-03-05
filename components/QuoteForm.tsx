@@ -1,115 +1,127 @@
 'use client'
 import { useState } from 'react'
 
+const projectTypes = [
+  'Septic Tank Pumping',
+  'Septic System Inspection',
+  'Septic System Installation',
+  'Septic System Repair',
+  'Drainfield Replacement',
+  'Septic Tank Replacement',
+  'Aerobic System Service',
+  'Septic to Sewer Conversion',
+  'Other Septic Service',
+]
+
 export default function QuoteForm() {
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
     email: '',
     phone: '',
     zip: '',
-    serviceType: '',
-    message: '',
+    projectType: '',
+    description: '',
   })
   const [submitted, setSubmitted] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // API integration will be added later
     setSubmitted(true)
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
   if (submitted) {
     return (
-      <div className="bg-brand-green-light/20 border border-brand-green rounded-xl p-8 text-center">
-        <div className="text-4xl mb-4">\u2705</div>
-        <h3 className="text-2xl font-bold text-brand-green-dark mb-2">Thank You!</h3>
-        <p className="text-gray-600">We've received your request. A qualified septic professional will contact you shortly.</p>
+      <div className="text-center py-12">
+        <div className="text-4xl mb-4">{"\u2705"}</div>
+        <h3 className="text-2xl font-bold text-[#2C3E50] mb-2">Thank You!</h3>
+        <p className="text-[#5A6B7A]">We&apos;ll connect you with qualified septic professionals in your area.</p>
       </div>
     )
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-md p-8 border border-gray-100">
-      <h3 className="text-2xl font-bold text-brand-green-dark mb-6">Get Your Free Quote</h3>
+    <form onSubmit={handleSubmit} className="space-y-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">First Name *</label>
           <input
-            type="text"
-            required
-            value={formData.name}
-            onChange={(e) => setFormData({...formData, name: e.target.value})}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
-            placeholder="John Smith"
+            type="text" name="firstName" required
+            value={formData.firstName} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
+            placeholder="John"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Last Name *</label>
           <input
-            type="email"
-            required
-            value={formData.email}
-            onChange={(e) => setFormData({...formData, email: e.target.value})}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
+            type="text" name="lastName" required
+            value={formData.lastName} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
+            placeholder="Smith"
+          />
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Email *</label>
+          <input
+            type="email" name="email" required
+            value={formData.email} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
             placeholder="john@example.com"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Phone Number</label>
           <input
-            type="tel"
-            value={formData.phone}
-            onChange={(e) => setFormData({...formData, phone: e.target.value})}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
+            type="tel" name="phone"
+            value={formData.phone} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
             placeholder="(555) 123-4567"
           />
         </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">ZIP Code *</label>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">ZIP Code *</label>
           <input
-            type="text"
-            required
-            value={formData.zip}
-            onChange={(e) => setFormData({...formData, zip: e.target.value})}
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
+            type="text" name="zip" required
+            value={formData.zip} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
             placeholder="12345"
           />
         </div>
+        <div>
+          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Project Type *</label>
+          <select
+            name="projectType" required
+            value={formData.projectType} onChange={handleChange}
+            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent bg-white"
+          >
+            <option value="">Select a service...</option>
+            {projectTypes.map((type) => (
+              <option key={type} value={type}>{type}</option>
+            ))}
+          </select>
+        </div>
       </div>
-      <div className="mt-4">
-        <label className="block text-sm font-medium text-gray-700 mb-1">Service Needed *</label>
-        <select
-          required
-          value={formData.serviceType}
-          onChange={(e) => setFormData({...formData, serviceType: e.target.value})}
-          className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
-        >
-          <option value="">Select a service...</option>
-          <option value="installation">New Septic Installation</option>
-          <option value="pumping">Septic Pumping</option>
-          <option value="inspection">Septic Inspection</option>
-          <option value="repair">Septic Repair</option>
-          <option value="drain-field">Drain Field Service</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-      <div className="mt-4">
-        <label className="block text-sm font-medium text-gray-700 mb-1">Additional Details</label>
+      <div>
+        <label className="block text-sm font-medium text-[#2C3E50] mb-1">Brief Description (optional)</label>
         <textarea
-          value={formData.message}
-          onChange={(e) => setFormData({...formData, message: e.target.value})}
-          rows={3}
-          className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-green focus:border-transparent"
-          placeholder="Describe your septic needs..."
+          name="description" rows={3}
+          value={formData.description} onChange={handleChange}
+          className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
+          placeholder="Tell us about your septic needs..."
         />
       </div>
-      <button
-        type="submit"
-        className="mt-6 w-full bg-brand-green text-white py-3 rounded-lg font-semibold hover:bg-brand-green-dark transition-colors"
-      >
-        Submit Quote Request
+      <button type="submit" className="btn-primary w-full text-center py-3 text-lg">
+        Get Free Quotes
       </button>
-      <p className="mt-3 text-xs text-gray-500 text-center">Free, no-obligation quotes from qualified professionals.</p>
     </form>
   )
 }
