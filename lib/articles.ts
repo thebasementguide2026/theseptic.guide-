@@ -22,6 +22,6 @@ export const articles: Article[] = [
     slug: 'septic-tank-pumping-cost',
     category: 'Cost Guide',
     readTime: '18 min read',
-    image: '/costguide.jpg',
+    image: '/pumpingcostguide.jpg',
   },
 ]
