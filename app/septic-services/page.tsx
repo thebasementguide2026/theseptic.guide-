@@ -57,7 +57,7 @@ export default function SepticServicesPage() {
                 <ul className="space-y-2">
                   {service.details.map((detail) => (
                     <li key={detail} className="flex items-start gap-2 text-gray-700">
-                      <span className="text-brand-green mt-1">\u2713</span>
+                      <span className="text-brand-green mt-1">✓</span>
                       <span>{detail}</span>
                     </li>
                   ))}
