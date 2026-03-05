@@ -32,6 +32,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/septicpump3.jpg',
   },
+  {
+    title: 'What You Can and Cannot Flush with a Septic System: The Complete List',
+    description: 'The complete list of what is safe to flush, what should never be flushed, and what to keep out of your drains. Protect your septic tank and drainfield from costly damage.',
+    slug: 'what-can-cannot-flush-septic-system',
+    category: 'Guide',
+    readTime: '18 min read',
+    image: '/flushing.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
