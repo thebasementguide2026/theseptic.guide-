@@ -45,23 +45,15 @@ const footerSections = [
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: '#1A2636' }} className="text-white">
-      <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+    <footer className="bg-[#1A2636] text-white">
+      <div className="container mx-auto px-4 max-w-6xl py-16">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand Column */}
-          <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 5 L35 17 L35 35 L5 35 L5 17 Z" fill="none" stroke="#C8875F" strokeWidth="2" />
-                <rect x="14" y="19" width="12" height="10" rx="1.5" fill="none" stroke="#C8875F" strokeWidth="1.5" opacity="0.5" />
-                <line x1="20" y1="35" x2="20" y2="39" stroke="#C8875F" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
-              </svg>
-              <span className="text-lg">
-                <span className="font-semibold opacity-55">The </span>
-                <span className="font-extrabold">Septic Guide</span>
-              </span>
-            </div>
-            <p style={{ color: 'rgba(255,255,255,0.45)' }} className="text-sm leading-relaxed">
+          <div className="col-span-2 md:col-span-1">
+            <Link href="/" className="text-xl font-bold">
+              The <span className="text-white">Septic Guide</span>
+            </Link>
+            <p className="mt-4 text-sm text-slate-400">
               Independent resource for septic system maintenance, repair, and cost guidance. Written for homeowners, not contractors.
             </p>
           </div>
@@ -69,15 +61,11 @@ export default function Footer() {
           {/* Link Columns */}
           {footerSections.map((section) => (
             <div key={section.title}>
-              <h4 className="text-sm font-bold mb-4 tracking-wider">{section.title}</h4>
+              <h4 className="font-semibold text-sm tracking-wider mb-4">{section.title}</h4>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      style={{ color: 'rgba(255,255,255,0.45)' }}
-                      className="text-sm hover:text-[#C8875F] transition-colors"
-                    >
+                    <Link href={link.href} className="text-sm text-slate-400 hover:text-white transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -87,15 +75,23 @@ export default function Footer() {
           ))}
         </div>
 
+        {/* Sister Sites */}
+        <div className="border-t border-slate-700 mt-12 pt-8">
+          <div className="flex flex-wrap items-center gap-2 text-sm text-slate-400">
+            <span>Our Network:</span>
+            <a href="https://thebasement.guide/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline">
+              The Basement Guide
+            </a>
+          </div>
+        </div>
+
         {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-white/10 text-center">
-          <p style={{ color: 'rgba(255,255,255,0.35)' }} className="text-sm">
-            &copy; {new Date().getFullYear()} The Septic Guide. All rights reserved.
-          </p>
-          <div className="flex justify-center gap-6 mt-3">
-            <Link href="/privacy" style={{ color: 'rgba(255,255,255,0.35)' }} className="text-xs hover:text-[#C8875F] transition-colors">Privacy Policy</Link>
-            <Link href="/terms" style={{ color: 'rgba(255,255,255,0.35)' }} className="text-xs hover:text-[#C8875F] transition-colors">Terms of Use</Link>
-            <Link href="/affiliate-disclosure" style={{ color: 'rgba(255,255,255,0.35)' }} className="text-xs hover:text-[#C8875F] transition-colors">Affiliate Disclosure</Link>
+        <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
+          <p>&copy; {new Date().getFullYear()} The Septic Guide. All rights reserved.</p>
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
+            <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link>
           </div>
         </div>
       </div>
