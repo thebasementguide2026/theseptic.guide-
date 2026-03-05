@@ -402,6 +402,65 @@ export default function CompleteSepticGuideArticle() {
           </div>
         </div>
 
+
+                {/* Section 8 — Glossary */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-6'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>GLOSSARY</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Septic System Glossary</h2>
+          <div className='grid md:grid-cols-2 gap-x-8 gap-y-4'>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Effluent</dt>
+              <dd className='text-slate-600 text-sm'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Sludge</dt>
+              <dd className='text-slate-600 text-sm'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Scum</dt>
+              <dd className='text-slate-600 text-sm'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Drainfield (Leach Field)</dt>
+              <dd className='text-slate-600 text-sm'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Distribution Box (D-Box)</dt>
+              <dd className='text-slate-600 text-sm'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Anaerobic Bacteria</dt>
+              <dd className='text-slate-600 text-sm'>Bacteria that break down waste without oxygen, found inside the septic tank.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Aerobic Bacteria</dt>
+              <dd className='text-slate-600 text-sm'>Bacteria that require oxygen to function, used in aerobic treatment units (ATUs) for enhanced waste breakdown.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Perc Test (Percolation Test)</dt>
+              <dd className='text-slate-600 text-sm'>A soil test that measures how quickly water drains, used to determine if a site is suitable for a septic drainfield.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Baffle</dt>
+              <dd className='text-slate-600 text-sm'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Riser</dt>
+              <dd className='text-slate-600 text-sm'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Greywater</dt>
+              <dd className='text-slate-600 text-sm'>Wastewater from sinks, showers, and laundry — everything except toilet waste.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900'>Blackwater</dt>
+              <dd className='text-slate-600 text-sm'>Wastewater from toilets containing human waste and pathogens.</dd>
+            </div>
+          </div>
+        </div>
         {/* Section 8 - FAQ */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-6'>
