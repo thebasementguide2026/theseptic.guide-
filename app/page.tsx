@@ -12,6 +12,8 @@ const categories = [
   { label: '📖 Start Here', href: '/articles/complete-septic-guide' },
 ]
 
+
+const getArticleHref = (slug: string) => slug.startsWith('problems/') ? `/${slug}` : `/articles/${slug}`
 export default function HomePage() {
   const featured = articles.find((a) => a.slug === 'complete-septic-guide')
   const sidebarArticles = articles.filter((a) => a.slug !== 'complete-septic-guide')
@@ -23,7 +25,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Main featured story */}
           {featured && (
-            <Link href={`/articles/${featured.slug}`} className="lg:col-span-2 group relative rounded-xl overflow-hidden block" style={{ minHeight: '400px' }}>
+            <Link href={getArticleHref(featured.slug)} className="lg:col-span-2 group relative rounded-xl overflow-hidden block" style={{ minHeight: '400px' }}>
               {featured.image && (
                 <Image
                   src={featured.image}
@@ -51,7 +53,7 @@ export default function HomePage() {
           {/* Sidebar stories */}
           <div className="space-y-4">
             {sidebarArticles.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="flex gap-4 group">
+              <Link key={article.slug} href={getArticleHref(article.slug)} className="flex gap-4 group">
                 {article.image && (
                   <div className="relative w-24 h-20 flex-shrink-0 rounded-lg overflow-hidden">
                     <Image
@@ -103,7 +105,7 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {articles.map((article) => (
-            <Link key={article.slug} href={`/articles/${article.slug}`} className="group rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
+            <Link key={article.slug} href={getArticleHref(article.slug)} className="group rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
               {article.image && (
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -143,7 +145,7 @@ export default function HomePage() {
             {articles
               .filter((a) => a.category === 'Cost Guide')
               .map((article) => (
-                <Link key={article.slug} href={`/articles/${article.slug}`} className="flex items-center gap-4 bg-white p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow group">
+                <Link key={article.slug} href={getArticleHref(article.slug)} className="flex items-center gap-4 bg-white p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow group">
                   <span className="text-2xl">💰</span>
                   <div className="flex-1">
                     <h3 className="font-bold text-sm text-gray-900 group-hover:text-[#2C3E50]">{article.title}</h3>
