@@ -6,7 +6,7 @@ export const metadata = {
 }
 
 const guides = [
-  { title: 'Complete Guide to Septic Systems', href: '/guides/complete-septic-guide', description: 'Everything homeowners need to know about how septic systems work, types, and maintenance.' },
+  { title: 'Complete Guide to Septic Systems', href: '/articles/complete-septic-guide', description: 'Everything homeowners need to know about how septic systems work, types, and maintenance.' },
   { title: 'Septic Maintenance Guide', href: '/guides/maintenance-guide', description: 'Step-by-step maintenance schedule to keep your septic system running smoothly.' },
   { title: 'Buying a Home with Septic', href: '/guides/buying-home-with-septic', description: 'What every homebuyer should know before purchasing a home with a septic system.' },
   { title: 'How to Find Your Septic Tank', href: '/guides/find-your-septic-tank', description: 'Methods to locate your septic tank on your property.' },
