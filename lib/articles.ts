@@ -40,6 +40,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/flushing.jpg',
   },
+    {
+    title: 'Septic Tank Backing Up? Causes, Fixes, and When to Call a Pro',
+    description: 'Learn why your septic tank is backing up, how to diagnose the problem, emergency steps, and when professional help is needed. Complete troubleshooting guide.',
+    slug: 'tank-backing-up',
+    category: 'Problem',
+    readTime: '22 min read',
+    image: '/1.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
