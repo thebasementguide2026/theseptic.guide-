@@ -16,4 +16,12 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/septic1.jpg',
   },
+  {
+    title: 'Septic Tank Pumping Cost 2026: What You\'ll Actually Pay',
+    description: 'The average septic tank pumping costs $300 to $600. Real pricing by tank size, region, hidden fees to watch for, and the questions to ask before hiring.',
+    slug: 'septic-tank-pumping-cost',
+    category: 'Cost Guide',
+    readTime: '18 min read',
+    image: '/costguide.jpg',
+  },
 ]
