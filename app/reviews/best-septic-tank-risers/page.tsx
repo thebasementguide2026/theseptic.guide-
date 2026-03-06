@@ -35,7 +35,6 @@ const articleSchema = {
 export default function BestSepticTankRisers() {
   return (
     <>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image src='/riser.jpg' alt='Septic tank riser installed at ground level on residential property' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
@@ -92,7 +91,126 @@ export default function BestSepticTankRisers() {
           <h3 className='text-lg font-bold text-slate-900 mb-3'>3. Tank Material</h3>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The adapter ring needs to seal properly to the tank surface. Concrete tanks require an adapter ring that bonds using butyl sealant or adhesive. Plastic and fiberglass tanks may need a different adapter.</p>
         </div>
-        {/* PART2_PLACEHOLDER */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Our Picks</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Best Septic Tank Risers: Our Picks</h2>
+          <div className='space-y-8'>
+            <div className='bg-white border border-slate-200 rounded-lg p-5'>
+              <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best Overall: Polylok 20&quot; Riser Kit (14&quot; Tall)</h3><span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>Best Overall</span></div>
+              <p className='text-slate-600 text-xs mb-3'>Includes: 20&quot; adapter ring, 20&quot;x12&quot; riser, 20&quot; flat lid, 20&quot; safety screen, installation kit with stainless steel screws and sealant</p>
+              <p className='text-slate-700 text-sm mb-3'>Polylok is the industry standard for septic risers. This kit includes everything needed for a complete installation with no additional purchases required. The 20-inch diameter fits the majority of residential tanks. The 14 inches of height handles most buried-lid situations. Additional 20-inch risers can be stacked on top if you need more height. The safety screen is a critical inclusion that prevents anyone from falling into the tank if the lid is removed. Made in the USA from heavy-duty polyethylene.</p>
+              <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Most homeowners retrofitting risers onto an existing concrete or plastic tank with a 20-inch access opening.</p>
+              <a href='https://amzn.to/4uexUDA' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Current Price on Amazon</a>
+            </div>
+            <div className='bg-white border border-slate-200 rounded-lg p-5'>
+              <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best 24-Inch: Polylok 24&quot; Riser Kit (14&quot; Tall)</h3><span className='bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded'>Best 24&quot;</span></div>
+              <p className='text-slate-600 text-xs mb-3'>Includes: 24&quot; adapter ring, 24&quot;x12&quot; riser, 24&quot; flat lid, 24&quot; safety screen, installation kit with stainless steel screws</p>
+              <p className='text-slate-700 text-sm mb-3'>Same quality as the 20-inch kit but for tanks with larger 24-inch access openings. The larger diameter provides more working room for the pumping crew and makes filter cleaning easier. Stackable for additional height. The 24-inch safety screen is rated at 250 lbs per square foot. This is the size most septic professionals prefer because it gives them the best access.</p>
+              <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Newer tanks with 24-inch openings, or homeowners who want maximum service access.</p>
+              <a href='https://amzn.to/4aQRU7C' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Current Price on Amazon</a>
+            </div>
+            <div className='bg-white border border-slate-200 rounded-lg p-5'>
+              <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best Budget: Tuf-Tite 20&quot; Bundle</h3><span className='bg-green-100 text-green-800 text-xs font-bold px-2 py-1 rounded'>Best Budget</span></div>
+              <p className='text-slate-600 text-xs mb-3'>Includes: 20&quot;x12&quot; riser, 20&quot; domed lid, 20&quot; adapter ring, stainless steel screws</p>
+              <p className='text-slate-700 text-sm mb-3'>Tuf-Tite is the other major name in septic risers and their products are widely used by professional installers. This three-piece bundle costs less than the Polylok equivalent while offering comparable durability and fit. The domed lid sheds water and debris better than a flat lid in areas with heavy rain or leaf fall.</p>
+              <div className='bg-amber-50 border border-amber-200 rounded-lg p-3 mb-3'><p className='text-amber-800 text-xs'><strong>Note:</strong> This bundle does not include a safety screen. If you want that added layer of protection (recommended, especially with children on the property), you will need to purchase the Tuf-Tite safety pan separately ($30 to $50).</p></div>
+              <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Budget-conscious homeowners who want a reliable riser from a trusted brand at a lower price point.</p>
+              <a href='https://amzn.to/4so9PIx' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Current Price on Amazon</a>
+            </div>
+            <div className='bg-white border border-slate-200 rounded-lg p-5'>
+              <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best for Deep Burial: Polylok 24&quot; Kit + Extra Risers</h3><span className='bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded'>Deep Burial</span></div>
+              <p className='text-slate-600 text-xs mb-3'>Includes: 24&quot; adapter ring, 24&quot;x6&quot; riser, 24&quot; flat lid, 24&quot; safety screen, installation kit</p>
+              <p className='text-slate-700 text-sm mb-3'>This kit starts at 8 inches of height, but the real advantage is that Polylok 24-inch risers stack. If your tank is buried 24 to 36 inches deep, you buy this base kit plus two or three additional 24&quot;x12&quot; riser sections ($50 to $80 each) and stack them to reach grade. The system seals between sections with butyl rope sealant, creating a watertight column from tank to surface.</p>
+              <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Tanks buried more than 18 inches below grade that need multiple riser sections stacked to reach the surface.</p>
+              <a href='https://amzn.to/4liOQ80' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Current Price on Amazon</a>
+            </div>
+            <div className='bg-white border border-slate-200 rounded-lg p-5'>
+              <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best Complete Bundle: Tuf-Tite 20&quot; Four-Piece</h3><span className='bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded'>Complete Bundle</span></div>
+              <p className='text-slate-600 text-xs mb-3'>Includes: 20&quot;x12&quot; riser, 20&quot; domed lid, 20&quot; adapter ring, 20&quot; safety lid</p>
+              <p className='text-slate-700 text-sm mb-3'>This bundle packages all four essential components from Tuf-Tite into a single purchase. The safety lid is included (unlike the standard Tuf-Tite kit), so you do not need to buy it separately. The domed lid design is practical for areas with rainfall. All hardware included.</p>
+              <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Homeowners who want a complete, safety-included package in a single order.</p>
+              <a href='https://amzn.to/4rejjVW' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2 px-6 rounded-lg transition-colors text-sm'>Check Current Price on Amazon</a>
+            </div>
+          </div>
+        </div>
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Costs</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Riser Cost Breakdown</h2>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The total cost of adding risers depends on two factors: the kit itself and whether you install it yourself or hire a professional.</p>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full text-xs border-collapse'>
+              <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Item</th><th className='p-2 text-left font-semibold'>DIY Cost</th><th className='p-2 text-left font-semibold'>Professional Cost</th></tr></thead>
+              <tbody>
+                <tr className='border-b border-slate-200'><td className='p-2'>20&quot; riser kit (single section)</td><td className='p-2'>$100 &ndash; $200</td><td className='p-2'>$100 &ndash; $200</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>24&quot; riser kit (single section)</td><td className='p-2'>$150 &ndash; $300</td><td className='p-2'>$150 &ndash; $300</td></tr>
+                <tr className='border-b border-slate-200'><td className='p-2'>Additional riser sections</td><td className='p-2'>$50 &ndash; $80 each</td><td className='p-2'>$50 &ndash; $80 each</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Butyl sealant</td><td className='p-2'>$10 &ndash; $20</td><td className='p-2'>Included</td></tr>
+                <tr className='border-b border-slate-200'><td className='p-2'>Installation labor (per access point)</td><td className='p-2'>$0 (your time)</td><td className='p-2'>$100 &ndash; $300</td></tr>
+                <tr className='bg-amber-50 font-bold'><td className='p-2'>Total per access point</td><td className='p-2'>$110 &ndash; $300</td><td className='p-2'>$250 &ndash; $600</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Most residential tanks have two access points (inlet and outlet). If you&apos;re doing both, double the cost above. Many homeowners install risers on both access points at the same time to save on labor.</p>
+          <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'><p className='text-slate-700 font-medium text-sm'>The math is simple: if your pumping company charges $100 to dig out your lids, the riser pays for itself by the second or third service visit. After that, every visit saves you money.</p></div>
+        </div>
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Installation</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>DIY vs. Professional Installation</h2>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Riser installation is one of the few septic tasks that a handy homeowner can realistically do themselves. Here&apos;s what&apos;s involved:</p>
+          <h3 className='text-lg font-bold text-slate-900 mb-3'>DIY Installation Steps</h3>
+          <ol className='space-y-3 mb-6 text-sm text-slate-700 list-decimal list-inside'>
+            <li>Locate your tank and dig down to expose the access lid(s)</li>
+            <li>Clean the top surface of the tank around the opening</li>
+            <li>Apply butyl sealant rope around the opening</li>
+            <li>Set the adapter ring onto the sealant and press firmly</li>
+            <li>Stack riser sections to reach ground level</li>
+            <li>Apply sealant between each section</li>
+            <li>Secure with stainless steel screws</li>
+            <li>Install safety screen and lid</li>
+            <li>Backfill around the riser with soil</li>
+          </ol>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The entire process takes <strong>2 to 4 hours per access point</strong> for someone comfortable with basic tools and manual digging. The hardest part is the digging, especially in clay or rocky soil.</p>
+          <h3 className='text-lg font-bold text-slate-900 mb-3'>When to Hire a Pro</h3>
+          <ul className='space-y-2 mb-6 text-sm text-slate-700'>
+            <li className='flex items-start gap-2'><span className='text-amber-700 font-bold'>&#8226;</span>Your tank is buried more than 24 inches deep</li>
+            <li className='flex items-start gap-2'><span className='text-amber-700 font-bold'>&#8226;</span>You&apos;re not sure where your tank is located</li>
+            <li className='flex items-start gap-2'><span className='text-amber-700 font-bold'>&#8226;</span>The existing concrete lid is cracked or damaged and needs replacement</li>
+            <li className='flex items-start gap-2'><span className='text-amber-700 font-bold'>&#8226;</span>You want the riser installed during a scheduled pumping visit (many companies offer a discount when combined)</li>
+            <li className='flex items-start gap-2'><span className='text-amber-700 font-bold'>&#8226;</span>Local codes require a licensed installer for septic work</li>
+          </ul>
+          <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'><p className='text-slate-700 font-medium text-sm'>Ask your pumping company about riser installation during your next service. Many will install risers while they already have the tank exposed, saving you the digging cost entirely.</p></div>
+        </div>
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>FAQ</span><div className='flex-1 h-px bg-slate-200'></div></div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
+          <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+          <div className='space-y-6'>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>How much does a septic tank riser cost?</h3>
+              <p className='text-slate-700 text-sm'>A complete riser kit costs $100 to $300 for a standard 20-inch or 24-inch single-section kit. Professional installation adds $100 to $300 per access point. Most residential tanks have one or two access points, so total installed cost is $200 to $600 for the complete job.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Are septic tank risers worth it?</h3>
+              <p className='text-slate-700 text-sm'>Yes. Risers eliminate $50 to $200 in digging fees at every service visit. With pumping every 3 to 5 years plus annual inspections, the riser pays for itself within two to three visits and saves money for the remaining life of the system.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Can I install a septic tank riser myself?</h3>
+              <p className='text-slate-700 text-sm'>Yes. Riser installation is a manageable DIY project for homeowners comfortable with basic tools and digging. The process takes 2 to 4 hours per access point.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>What size riser do I need?</h3>
+              <p className='text-slate-700 text-sm'>Measure the inside diameter of your tank access opening. The three standard sizes are 16-inch, 20-inch, and 24-inch. The 20-inch size fits the majority of residential tanks.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Do I need a riser for every access point?</h3>
+              <p className='text-slate-700 text-sm'>Ideally yes. Most residential tanks have two access points. The outlet side is the most important because that is where the effluent filter is located. At minimum, install a riser on the outlet access point.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-4'>
+              <h3 className='text-base font-bold text-slate-900 mb-2'>Will a riser affect my lawn appearance?</h3>
+              <p className='text-slate-700 text-sm'>Riser lids sit at or slightly above ground level. They are typically green or black and about 20 to 24 inches in diameter. Most homeowners find them unobtrusive.</p>
+            </div>
+          </div>
+        </div>
       </article>
     </>
   )
