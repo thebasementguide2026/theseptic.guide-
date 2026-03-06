@@ -152,6 +152,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/drainfieldcost.jpg',
   },
+    {
+      title: 'Septic System vs Sewer: Costs, Pros and Cons, and Which Is Better',
+      description: 'Septic costs $3,500 to $12,000 to install with no monthly bill. Sewer costs $1,500 to $6,000 plus $15 to $150/month. Complete 20-year cost comparison.',
+      slug: 'comparisons/septic-vs-sewer',
+      category: 'Comparison',
+      readTime: '22 min read',
+      image: '/heroseptic-sewer.jpg',
+    },
 ]
 
 export function searchArticles(query: string): Article[] {
