@@ -136,6 +136,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/aerovsanarobichero.jpg',
   },
+    {
+    title: 'Best Septic Tank Risers 2026: The Upgrade That Pays for Itself',
+    description: 'A septic tank riser costs $100 to $400 and eliminates the $50 to $200 digging fee at every service visit. Compare the best riser kits, learn how to choose the right size, and whether to DIY or hire a pro.',
+    slug: 'reviews/best-septic-tank-risers',
+    category: 'Review',
+    readTime: '18 min read',
+    image: '/riser.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
