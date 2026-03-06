@@ -96,6 +96,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/septicinspection.jpg',
   },
+    {
+      title: 'Best Toilet Paper for Septic Systems 2026: Tested and Ranked',
+      description: 'The best toilet paper for septic systems dissolves fast, skips the chemicals, and protects your tank. We tested and ranked the top septic-safe brands so you know exactly what to buy.',
+      slug: 'reviews/best-toilet-paper-for-septic',
+      category: 'Review',
+      readTime: '18 min read',
+      image: '/toiletpaper.jpg',
+    },
 ]
 
 export function searchArticles(query: string): Article[] {
