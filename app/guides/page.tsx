@@ -13,6 +13,7 @@ const guides = [
   { title: 'Septic Dos and Don\'ts', href: '/guides/septic-dos-and-donts', description: 'Essential rules every septic system owner should follow.' },
   { title: 'How Often to Pump Your Septic Tank', href: '/articles/how-often-pump-septic-tank', description: 'Find your exact pumping schedule by tank size and household size, with EPA-based guidelines.' },
   { title: 'What You Can and Cannot Flush', href: '/articles/what-can-cannot-flush-septic-system', description: 'The complete list of what is safe to flush, what to keep out of your drains, and why it matters.' },
+    { title: 'Does Insurance Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
 ]
 
 export default function GuidesPage() {
