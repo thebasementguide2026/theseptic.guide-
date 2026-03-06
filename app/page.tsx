@@ -13,7 +13,7 @@ const categories = [
 ]
 
 
-const getArticleHref = (slug: string) => slug.startsWith('problems/') || slug.startsWith('cost-guides/') || slug.startsWith('reviews/') ? `/${slug}` : `/articles/${slug}`
+const getArticleHref = (slug: string) => slug.startsWith('problems/') || slug.startsWith('cost-guides/') || slug.startsWith('reviews/') || slug.startsWith('comparisons/') ? `/${slug}` : `/articles/${slug}`
 export default function HomePage() {
   const featured = articles.find((a) => a.slug === 'complete-septic-guide')
   const sidebarArticles = articles.filter((a) => a.slug !== 'complete-septic-guide')
