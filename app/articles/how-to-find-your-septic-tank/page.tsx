@@ -67,7 +67,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'How to Find Your Septic Tank: 5 Methods That Work',
   description: 'Your septic tank is buried 5 to 25 feet from your house. Learn 5 proven methods to locate it, from checking records to using a soil probe, plus what to do after you find it.',
-  image: 'https://theseptic.guide/septic1.jpg',
+  image: 'https://theseptic.guide/how to find your septic tank.jpg',
   datePublished: '2026-03-05',
   dateModified: '2026-03-05',
   author: {
@@ -97,7 +97,7 @@ export default function HowToFindYourSepticTank() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/septic1.jpg'
+          src='/how to find your septic tank.jpg'
           alt='Homeowner locating septic tank in yard'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
