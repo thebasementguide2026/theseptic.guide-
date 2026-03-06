@@ -112,6 +112,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
         image: '/how to find your septic tank.jpg',
     },
+  {
+    title: 'Septic System Repair Cost 2026: Every Repair Priced Out',
+    description: 'Septic system repairs cost $600 to $3,000 on average. Complete pricing for every repair from $50 filter cleaning to $15,000 drainfield replacement.',
+    slug: 'cost-guides/septic-system-repair-cost',
+    category: 'Cost Guide',
+    readTime: '22 min read',
+    image: '/septic repair.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
