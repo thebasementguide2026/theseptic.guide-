@@ -52,7 +52,7 @@ export default function HomePage() {
 
           {/* Sidebar stories */}
           <div className="space-y-4">
-            {sidebarArticles.map((article) => (
+            {sidebarArticles.slice(0, 5).map((article) => (
               <Link key={article.slug} href={getArticleHref(article.slug)} className="flex gap-4 group">
                 {article.image && (
                   <div className="relative w-24 h-20 flex-shrink-0 rounded-lg overflow-hidden">
