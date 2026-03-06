@@ -6,7 +6,7 @@ export const metadata = {
 }
 
 const reviews = [
-  { title: 'Best Septic Tank Treatments', href: '/reviews/best-septic-treatments', description: 'Top-rated septic treatments and additives that actually help your system.' },
+  { title: 'Best Septic Tank Treatments', href: '/reviews/best-septic-tank-treatments', description: 'Top-rated septic treatments and additives that actually help your system.' },
   { title: 'Best Tank Risers', href: '/reviews/best-tank-risers', description: 'Make pumping easier with our top riser picks.' },
   { title: 'Best System Alarms', href: '/reviews/best-system-alarms', description: 'Early warning alarms to prevent septic emergencies.' },
   { title: 'Best Toilet Paper for Septic', href: '/reviews/best-toilet-paper-for-septic', description: 'Septic-safe toilet paper that dissolves quickly.' },
