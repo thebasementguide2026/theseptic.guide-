@@ -110,7 +110,7 @@ export const articles: Article[] = [
     slug: 'how-to-find-your-septic-tank',
     category: 'Guide',
     readTime: '18 min read',
-    image: '/septic1.jpg',
+        image: '/how to find your septic tank.jpg',
     },
 ]
 
