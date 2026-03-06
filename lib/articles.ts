@@ -120,6 +120,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/septic repair.jpg',
   },
+    {
+    title: 'Aerobic vs Anaerobic Septic Systems: Differences, Costs, and Which You Need',
+    description: 'Anaerobic septic systems cost $3,000 to $8,000. Aerobic systems cost $10,000 to $20,000. Complete comparison of costs, maintenance, pros, cons, and which system your property requires.',
+    slug: 'comparisons/aerobic-vs-anaerobic-septic-systems',
+    category: 'Comparison',
+    readTime: '18 min read',
+    image: '/aerovsanarobichero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
