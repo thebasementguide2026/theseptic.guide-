@@ -116,10 +116,6 @@ export default function BestToiletPaperForSeptic() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
-        {/* Affiliate Disclosure */}
-        <div className='bg-slate-100 border border-slate-200 rounded-lg p-4 mb-8'>
-          <p className='text-slate-600 text-xs'>This article contains affiliate links. If you purchase a product through our links, we may earn a small commission at no additional cost to you. This helps support our site and allows us to continue providing honest, independent reviews. See our <Link href='/affiliate-disclosure' className='text-amber-700 underline hover:text-amber-800'>affiliate disclosure</Link> for details.</p>
-        </div>
 
         {/* Intro */}
         <div className='mb-12'>
@@ -354,10 +350,15 @@ export default function BestToiletPaperForSeptic() {
         </div>
 
         {/* CTA */}
-        <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
+        <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center mb-10'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need Professional Septic Service?</h2>
           <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with licensed septic professionals in your area for pumping, inspection, or repair.</p>
           <Link href='/get-quote' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-sm'>Get Free Quotes</Link>
+        </div>
+
+        {/* Affiliate Disclosure */}
+        <div className='bg-slate-100 border border-slate-200 rounded-lg p-4'>
+          <p className='text-slate-600 text-xs'>This article contains affiliate links. If you purchase a product through our links, we may earn a small commission at no additional cost to you. This helps support our site and allows us to continue providing honest, independent reviews. See our <Link href='/affiliate-disclosure' className='text-amber-700 underline hover:text-amber-800'>affiliate disclosure</Link> for details.</p>
         </div>
 
       </article>
