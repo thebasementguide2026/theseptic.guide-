@@ -121,6 +121,14 @@ export const articles: Article[] = [
     image: '/septic repair.jpg',
   },
     {
+    title: 'Does Insurance Cover Septic System Repair or Replacement?',
+    description: 'Standard homeowners insurance does not cover most septic repairs. Learn what is and isn\'t covered, which add-on coverages are worth buying, and how to protect yourself financially.',
+    slug: 'articles/does-insurance-cover-septic-repair-replacement',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/insurance.jpg',
+  },
+    {
     title: 'Aerobic vs Anaerobic Septic Systems: Differences, Costs, and Which You Need',
     description: 'Anaerobic septic systems cost $3,000 to $8,000. Aerobic systems cost $10,000 to $20,000. Complete comparison of costs, maintenance, pros, cons, and which system your property requires.',
     slug: 'comparisons/aerobic-vs-anaerobic-septic-systems',
