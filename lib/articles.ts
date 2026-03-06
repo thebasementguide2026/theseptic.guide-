@@ -88,6 +88,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/fiberglassplasticconcret.jpg',
   },
+    {
+    title: 'Buying a Home with a Septic System: What to Know Before You Close',
+    description: 'A septic inspection before closing costs $300-$1,000 and can reveal problems costing $5,000-$25,000 to fix. Learn what to ask, what to inspect, and how to negotiate.',
+    slug: 'guides/buying-home-with-septic',
+    category: 'Guide',
+    readTime: '25 min read',
+    image: '/septicinspection.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
