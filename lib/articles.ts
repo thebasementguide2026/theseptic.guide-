@@ -78,6 +78,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-septic-tank-treatments',
     category: 'Review',
     readTime: '22 min read',
+          image: '/septicsavor.jpg',
   },
 ]
 
