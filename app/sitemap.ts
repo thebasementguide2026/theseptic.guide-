@@ -19,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
-    url: `${baseUrl}/${article.slug.startsWith('problems/') || article.slug.startsWith('cost-guides/') ? article.slug : `articles/${article.slug}`}`,
+    url: `${baseUrl}/${article.slug.startsWith('problems/') || article.slug.startsWith('cost-guides/') || article.slug.startsWith('reviews/') ? article.slug : `articles/${article.slug}`}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
