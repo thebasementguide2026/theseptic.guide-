@@ -123,7 +123,7 @@ export const articles: Article[] = [
     {
     title: 'Does Insurance Cover Septic System Repair or Replacement?',
     description: 'Standard homeowners insurance does not cover most septic repairs. Learn what is and isn\'t covered, which add-on coverages are worth buying, and how to protect yourself financially.',
-    slug: 'articles/does-insurance-cover-septic-repair-replacement',
+    slug: 'does-insurance-cover-septic-repair-replacement',
     category: 'Guide',
     readTime: '20 min read',
     image: '/insurance.jpg',
