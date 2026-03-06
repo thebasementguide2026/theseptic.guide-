@@ -144,6 +144,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/riser.jpg',
   },
+    {
+    title: 'Drainfield Replacement Cost 2026: What to Expect and How to Save',
+    description: 'Drainfield replacement costs $5,000 to $15,000 for a conventional system. Mound system replacement costs $10,000 to $20,000. Complete cost breakdown, rejuvenation vs replacement, and how to save money.',
+    slug: 'cost-guides/drainfield-replacement-cost',
+    category: 'Cost Guide',
+    readTime: '20 min read',
+    image: '/drainfieldcost.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
