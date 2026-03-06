@@ -40,7 +40,7 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/flushing.jpg',
   },
-    {
+  {
     title: 'Septic Tank Backing Up? Causes, Fixes, and When to Call a Pro',
     description: 'Learn why your septic tank is backing up, how to diagnose the problem, emergency steps, and when professional help is needed. Complete troubleshooting guide.',
     slug: 'problems/tank-backing-up',
@@ -48,7 +48,7 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/1.jpg',
   },
-    {
+  {
     title: 'Signs Your Drainfield Is Failing: Warning Signs, Causes & What to Do',
     description: 'Learn the 7 warning signs of drainfield failure from earliest to latest. Understand what causes drainfield problems, which ones are fixable, and when you need a full replacement.',
     slug: 'problems/drainfield-failing',
@@ -72,13 +72,21 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/badsepticsmell.jpg',
   },
-    {
+  {
     title: 'Best Septic Tank Treatments 2025: Honest Reviews After Real Testing',
     description: 'We tested the top septic tank treatments and additives. See which products actually work, which are a waste of money, and what science says about bacterial and enzyme treatments.',
     slug: 'reviews/best-septic-tank-treatments',
     category: 'Review',
     readTime: '22 min read',
-          image: '/septicsavor.jpg',
+    image: '/septicsavor.jpg',
+  },
+  {
+    title: 'Concrete vs. Plastic vs. Fiberglass Septic Tanks: Full 2025 Comparison',
+    description: 'Compare concrete, plastic, and fiberglass septic tanks side by side. Costs, lifespan, pros and cons, installation differences, and which material is best for your property.',
+    slug: 'comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks',
+    category: 'Comparison',
+    readTime: '22 min read',
+    image: '/fiberglassplasticconcret.jpg',
   },
 ]
 
