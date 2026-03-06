@@ -72,6 +72,13 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/badsepticsmell.jpg',
   },
+    {
+    title: 'Best Septic Tank Treatments 2025: Honest Reviews After Real Testing',
+    description: 'We tested the top septic tank treatments and additives. See which products actually work, which are a waste of money, and what science says about bacterial and enzyme treatments.',
+    slug: 'reviews/best-septic-tank-treatments',
+    category: 'Review',
+    readTime: '22 min read',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
