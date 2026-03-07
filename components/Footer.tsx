@@ -77,7 +77,7 @@ export default function Footer() {
         {/* Sister Sites */}
         <div className='border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4'>
           <p className='text-slate-500 text-xs'>
-            Our Network: <a href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500 transition-colors'>The Basement Guide</a>
+            Our Network: <a href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500 transition-colors'>The Basement Guide</a> | <a href='https://thegarage.guide/' className='text-slate-400 hover:text-amber-500 transition-colors'>The Garage Guide</a>
           </p>
         </div>
         {/* Bottom */}
