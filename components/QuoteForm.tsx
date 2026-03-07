@@ -15,19 +15,42 @@ const projectTypes = [
 
 export default function QuoteForm() {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    zip: '',
-    projectType: '',
-    description: '',
+    firstName: '', lastName: '', email: '', phone: '', zip: '', projectType: '', description: '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    setLoading(true)
+    setError('')
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/thebasementguide@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: `New Septic Lead: ${formData.projectType} - ${formData.zip}`,
+          'First Name': formData.firstName,
+          'Last Name': formData.lastName,
+          'Email': formData.email,
+          'Phone': formData.phone,
+          'ZIP Code': formData.zip,
+          'Project Type': formData.projectType,
+          'Description': formData.description,
+          _template: 'table',
+        }),
+      })
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        setError('Something went wrong. Please try again.')
+      }
+    } catch {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -38,89 +61,52 @@ export default function QuoteForm() {
     return (
       <div className="text-center py-12">
         <div className="text-4xl mb-4">{"\u2705"}</div>
-        <h3 className="text-2xl font-bold text-[#2C3E50] mb-2">Thank You!</h3>
-        <p className="text-[#5A6B7A]">We&apos;ll connect you with qualified septic professionals in your area.</p>
+        <h3 className="text-xl font-bold text-gray-900">Thank You!</h3>
+        <p className="text-gray-600 mt-2">We&apos;ll connect you with qualified septic professionals in your area.</p>
       </div>
     )
   }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4">
         <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">First Name *</label>
-          <input
-            type="text" name="firstName" required
-            value={formData.firstName} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-            placeholder="John"
-          />
+          <label className="block text-sm font-medium text-gray-700 mb-1">First Name *</label>
+          <input type="text" name="firstName" required value={formData.firstName} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="John" />
         </div>
         <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Last Name *</label>
-          <input
-            type="text" name="lastName" required
-            value={formData.lastName} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-            placeholder="Smith"
-          />
-        </div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Email *</label>
-          <input
-            type="email" name="email" required
-            value={formData.email} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-            placeholder="john@example.com"
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Phone Number</label>
-          <input
-            type="tel" name="phone"
-            value={formData.phone} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-            placeholder="(555) 123-4567"
-          />
-        </div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">ZIP Code *</label>
-          <input
-            type="text" name="zip" required
-            value={formData.zip} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-            placeholder="12345"
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-[#2C3E50] mb-1">Project Type *</label>
-          <select
-            name="projectType" required
-            value={formData.projectType} onChange={handleChange}
-            className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent bg-white"
-          >
-            <option value="">Select a service...</option>
-            {projectTypes.map((type) => (
-              <option key={type} value={type}>{type}</option>
-            ))}
-          </select>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Last Name *</label>
+          <input type="text" name="lastName" required value={formData.lastName} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="Smith" />
         </div>
       </div>
       <div>
-        <label className="block text-sm font-medium text-[#2C3E50] mb-1">Brief Description (optional)</label>
-        <textarea
-          name="description" rows={3}
-          value={formData.description} onChange={handleChange}
-          className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent"
-          placeholder="Tell us about your septic needs..."
-        />
+        <label className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+        <input type="email" name="email" required value={formData.email} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="john@example.com" />
       </div>
-      <button type="submit" className="btn-primary w-full text-center py-3 text-lg">
-        Get Free Quotes
+      <div className="grid grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+          <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="(555) 123-4567" />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">ZIP Code *</label>
+          <input type="text" name="zip" required value={formData.zip} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="12345" />
+        </div>
+      </div>
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">Project Type *</label>
+        <select name="projectType" required value={formData.projectType} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent bg-white">
+          <option value="">Select a service...</option>
+          {projectTypes.map((type) => (<option key={type} value={type}>{type}</option>))}
+        </select>
+      </div>
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">Brief Description (optional)</label>
+        <textarea name="description" rows={3} value={formData.description} onChange={handleChange} className="w-full px-4 py-3 border border-[#D5D0CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#C8875F] focus:border-transparent" placeholder="Tell us about your septic needs..." />
+      </div>
+      {error && <p className="text-red-600 text-sm">{error}</p>}
+      <button type="submit" disabled={loading} className="btn-primary w-full text-center py-3 text-lg disabled:opacity-50">
+        {loading ? 'Sending...' : 'Get Free Quotes'}
       </button>
     </form>
   )
