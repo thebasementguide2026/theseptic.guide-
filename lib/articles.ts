@@ -166,7 +166,7 @@ export const articles: Article[] = [
     slug: 'problems/septic-overflow-after-rain',
     category: 'Problem',
     readTime: '18 min read',
-    image: '/images/septic-overflow-after-rain.jpg',
+    image: '/septicafterrain.jpg',
   },
 ]
 
