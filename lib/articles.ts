@@ -160,6 +160,14 @@ export const articles: Article[] = [
       readTime: '22 min read',
       image: '/heroseptic-sewer.jpg',
     },
+  {
+    title: 'Septic Overflow After Rain? Why It Happens and How to Fix It',
+    description: 'Septic overflow after rain is caused by groundwater saturating your drainfield, stormwater entering your tank, or a system near capacity. Learn the 5 mechanisms, emergency steps, and long-term fixes.',
+    slug: 'problems/septic-overflow-after-rain',
+    category: 'Problem',
+    readTime: '18 min read',
+    image: '/images/septic-overflow-after-rain.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
