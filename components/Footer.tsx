@@ -8,7 +8,7 @@ const footerSections = [
       { label: 'How Often to Pump', href: '/articles/how-often-pump-septic-tank' },
       { label: 'Maintenance Guide', href: '/guides/maintenance-guide' },
       { label: 'Buying a Home with Septic', href: '/guides/buying-home-with-septic' },
-      { label: 'How to Find Your Septic Tank', href: '/guides/find-your-septic-tank' },
+      { label: 'How to Find Your Septic Tank', href: '/articles/how-to-find-your-septic-tank' },
       { label: 'Dos and Don\'ts', href: '/guides/septic-dos-and-donts' },
     ],
   },

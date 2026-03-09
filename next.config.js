@@ -13,6 +13,11 @@ const nextConfig = {
         destination: '/maintenance/septic-system-maintenance-checklist',
         permanent: true,
       },
+            {
+        source: '/guides/find-your-septic-tank',
+        destination: '/articles/how-to-find-your-septic-tank',
+        permanent: true,
+      },
     ]
   },
 }
