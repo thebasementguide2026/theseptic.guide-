@@ -18,6 +18,11 @@ const nextConfig = {
         destination: '/articles/how-to-find-your-septic-tank',
         permanent: true,
       },
+            {
+        source: '/articles/guides/buying-home-with-septic',
+        destination: '/guides/buying-home-with-septic',
+        permanent: true,
+      },
     ]
   },
 }
