@@ -67,7 +67,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Septic Overflow After Rain: Why It Happens and How to Fix It',
   description: 'Septic overflow after rain is caused by groundwater saturating your drainfield, stormwater entering your tank, or a system near capacity. Learn the 5 mechanisms, emergency steps, and long-term fixes.',
-  image: 'https://theseptic.guide/images/septic-overflow-after-rain.jpg',
+  image: 'https://theseptic.guide/septicafterrain.jpg',
   datePublished: '2026-03-09',
   dateModified: '2026-03-09',
   author: {
@@ -97,7 +97,7 @@ export default function SepticOverflowAfterRain() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/septic-overflow-after-rain.jpg'
+          src='/septicafterrain.jpg'
           alt='Septic system overflow after heavy rain with saturated drainfield'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
