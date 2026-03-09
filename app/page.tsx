@@ -10,8 +10,10 @@ const categories = [
   { label: '⚠️ Problems', href: '/problems' },
   { label: '🏡 Buying a Home', href: '/guides/buying-home-with-septic' },
   { label: '📖 Start Here', href: '/articles/complete-septic-guide' },
+    { label: '\u2705 Dos & Don\u2019ts', href: '/guides/septic-dos-and-donts' },6
+    
 ]
-  { label: '\u2705 Dos & Don\u2019ts', href: '/guides/septic-dos-and-donts' },
+  
 
 
 const getArticleHref = (slug: string) => slug.startsWith('problems/') || slug.startsWith('cost-guides/') || slug.startsWith('reviews/') || slug.startsWith('comparisons/') || slug.startsWith('guides/') ? `/${slug}` : `/articles/${slug}`
