@@ -176,6 +176,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/slowdrainseptic.jpg',
   },
+    {
+    title: 'Septic Inspection Cost 2026: What Each Type Costs and What\u2019s Actually Included',
+    description: 'A septic inspection costs $150 to $650 depending on the type. Compare visual, routine, comprehensive, and real estate inspection costs, what each includes, hidden fees, and how to choose an inspector.',
+    slug: 'cost-guides/septic-inspection-cost',
+    category: 'Cost Guide',
+    readTime: '22 min read',
+    image: '/septic inspection.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
