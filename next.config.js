@@ -23,6 +23,11 @@ const nextConfig = {
         destination: '/guides/buying-home-with-septic',
         permanent: true,
       },
+            {
+        source: '/articles/guides/septic-tank-size-guide',
+        destination: '/guides/septic-tank-size-guide',
+        permanent: true,
+      },
     ]
   },
 }
