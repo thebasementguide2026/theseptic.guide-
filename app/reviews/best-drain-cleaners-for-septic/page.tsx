@@ -278,6 +278,7 @@ export default function BestDrainCleanersPage() {
                 </ul>
               </div>
             </div>
+              <a href="https://amzn.to/4uddnPD" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 2 */}
@@ -312,6 +313,7 @@ export default function BestDrainCleanersPage() {
                 </ul>
               </div>
             </div>
+              <a href="https://amzn.to/4be3f0t" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 3 */}
@@ -346,6 +348,7 @@ export default function BestDrainCleanersPage() {
                 </ul>
               </div>
             </div>
+              <a href="https://amzn.to/47Blgoj" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 4 */}
@@ -380,6 +383,7 @@ export default function BestDrainCleanersPage() {
                 </ul>
               </div>
             </div>
+              <a href="https://amzn.to/4bga01G" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 5 */}
@@ -414,6 +418,7 @@ export default function BestDrainCleanersPage() {
                 </ul>
               </div>
             </div>
+              <a href="https://amzn.to/4rXUaQl" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
         </section>
 
