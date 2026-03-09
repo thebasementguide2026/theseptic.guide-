@@ -168,7 +168,7 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/septicafterrain.jpg',
       },
-    },
+      {
       title: 'Slow Drains with a Septic System: 5 Causes and How to Fix Each One',
     description: 'Slow drains with a septic tank? Learn the 5 most common causes from P-trap venting to full tanks, plus a one-fixture test to find the problem fast.',
     slug: 'problems/slow-drains',
