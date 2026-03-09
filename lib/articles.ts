@@ -200,6 +200,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/septicalarms.jpg',
   },
+  {
+    title: 'Septic System Maintenance Checklist: The Complete Seasonal Guide for Homeowners',
+    description: 'The four essential septic maintenance tasks, seasonal checklists for spring, summer, fall, and winter, maintenance by system type, DIY vs pro tasks, and warning signs that mean call a pro now.',
+    slug: 'maintenance/septic-system-maintenance-checklist',
+    category: 'Maintenance',
+    readTime: '25 min read',
+    image: '/septicmaintaince.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
