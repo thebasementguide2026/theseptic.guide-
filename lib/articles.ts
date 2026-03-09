@@ -216,6 +216,14 @@ export const articles: Article[] = [
     readTime: '30 min read',
     image: '/dos and donts.jpg',
   },
+    {
+    title: 'Septic Tank Size Guide: What Size Septic Tank Do You Need?',
+    description: 'The minimum septic tank size for most homes is 1,000 gallons. Size by bedroom count, how to calculate your actual need, when to go bigger, and how tank size affects pumping cost.',
+    slug: 'guides/septic-tank-size-guide',
+    category: 'Guide',
+    readTime: '25 min read',
+    image: '/septictanksize.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
