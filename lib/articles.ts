@@ -208,6 +208,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/septicmaintaince.jpg',
   },
+    {
+    title: 'Septic System Dos and Don\u2019ts: The Rules That Protect a $15,000 Investment',
+    description: 'Every do and don\u2019t for septic system owners with specific damage and repair costs for each violation. Flushing rules, chemical warnings, drainfield protection, and daily habits.',
+    slug: 'guides/septic-dos-and-donts',
+    category: 'Guide',
+    readTime: '30 min read',
+    image: '/dos and donts.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
