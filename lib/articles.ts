@@ -224,6 +224,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/septictanksize.jpg',
   },
+    {
+    title: 'How Long Does a Septic System Last? Lifespan by Component, Material & Maintenance',
+    description: 'A septic system lasts 20 to 30 years on average. Concrete tanks last 40-50 years, drainfields 20-30 years. Lifespan by every component, material, and maintenance level.',
+    slug: 'how-long-does-a-septic-system-last',
+    category: 'Article',
+    readTime: '30 min read',
+    image: '/tanklast.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
