@@ -232,6 +232,14 @@ export const articles: Article[] = [
     readTime: '30 min read',
     image: '/tanklast.jpg',
   },
+  {
+    title: 'Garbage Disposal and Septic Systems: Can You Use One Safely? 2026 Guide',
+    description: 'Can you use a garbage disposal with a septic system? Yes, but it depends on how you use it. Research-backed guide covering costs, safe foods, rules, and septic-specific disposal models.',
+    slug: 'guides/garbage-disposal-septic-systems',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/garbage disposal .jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
