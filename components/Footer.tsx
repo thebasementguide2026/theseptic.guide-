@@ -6,7 +6,7 @@ const footerSections = [
     links: [
       { label: 'Complete Septic Guide', href: '/articles/complete-septic-guide' },
       { label: 'How Often to Pump', href: '/articles/how-often-pump-septic-tank' },
-      { label: 'Maintenance Guide', href: '/guides/maintenance-guide' },
+      { label: 'Maintenance Guide', href: '/maintenance/septic-system-maintenance-checklist' },
       { label: 'Buying a Home with Septic', href: '/guides/buying-home-with-septic' },
       { label: 'How to Find Your Septic Tank', href: '/articles/how-to-find-your-septic-tank' },
       { label: 'Dos and Don\'ts', href: '/guides/septic-dos-and-donts' },
@@ -16,10 +16,10 @@ const footerSections = [
     title: 'COST GUIDES',
     links: [
       { label: 'Pumping Cost', href: '/articles/septic-tank-pumping-cost' },
-      { label: 'Installation Cost', href: '/cost-guides/installation-cost' },
+      { label: 'Installation Cost', href: '/cost-guides/septic-system-installation-cost' },
       { label: 'Drainfield Replacement', href: '/cost-guides/drainfield-replacement-cost' },
-      { label: 'Repair Cost', href: '/cost-guides/repair-cost' },
-      { label: 'Inspection Cost', href: '/cost-guides/inspection-cost' },
+      { label: 'Repair Cost', href: '/cost-guides/septic-system-repair-cost' },
+      { label: 'Inspection Cost', href: '/cost-guides/septic-inspection-cost' },
     ],
   },
   {
@@ -28,18 +28,18 @@ const footerSections = [
       { label: 'Tank Backing Up', href: '/problems/tank-backing-up' },
       { label: 'Septic Smell in Yard', href: '/problems/septic-smell-in-yard' },
       { label: 'Drainfield Failing', href: '/problems/drainfield-failing' },
-      { label: 'Overflow After Rain', href: '/problems/overflow-after-rain' },
+      { label: 'Overflow After Rain', href: '/problems/septic-overflow-after-rain' },
       { label: 'Slow Drains', href: '/problems/slow-drains' },
     ],
   },
   {
     title: 'REVIEWS',
     links: [
-      { label: 'Best Septic Treatments', href: '/reviews/best-septic-treatments' },
-      { label: 'Best Tank Risers', href: '/reviews/best-tank-risers' },
-      { label: 'Best System Alarms', href: '/reviews/best-system-alarms' },
+      { label: 'Best Septic Treatments', href: '/reviews/best-septic-tank-treatments' },
+      { label: 'Best Tank Risers', href: '/reviews/best-septic-tank-risers' },
+      { label: 'Best System Alarms', href: '/reviews/best-septic-system-alarms' },
       { label: 'Best TP for Septic', href: '/reviews/best-toilet-paper-for-septic' },
-      { label: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners' },
+      { label: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners-for-septic' },
     ],
   },
 ]
