@@ -10,6 +10,10 @@ const footerSections = [
       { label: 'Buying a Home with Septic', href: '/guides/buying-home-with-septic' },
       { label: 'How to Find Your Septic Tank', href: '/articles/how-to-find-your-septic-tank' },
       { label: 'Dos and Don\'ts', href: '/guides/septic-dos-and-donts' },
+      { label: 'What to Flush', href: '/articles/what-can-cannot-flush-septic-system' },
+      { label: 'Insurance Coverage', href: '/articles/does-insurance-cover-septic-repair-replacement' },
+      { label: 'Tank Size Guide', href: '/guides/septic-tank-size-guide' },
+      { label: 'How Long Systems Last', href: '/articles/how-long-does-a-septic-system-last' },
     ],
   },
   {
@@ -33,6 +37,14 @@ const footerSections = [
     ],
   },
   {
+    title: 'COMPARISONS',
+    links: [
+      { label: 'Septic vs Sewer', href: '/comparisons/septic-vs-sewer' },
+      { label: 'Aerobic vs Anaerobic', href: '/comparisons/aerobic-vs-anaerobic-septic-systems' },
+      { label: 'Concrete vs Plastic vs Fiberglass', href: '/comparisons/concrete-vs-plastic-vs-fiberglass' },
+    ],
+  },
+  {
     title: 'REVIEWS',
     links: [
       { label: 'Best Septic Treatments', href: '/reviews/best-septic-tank-treatments' },
@@ -48,7 +60,7 @@ export default function Footer() {
   return (
     <footer className='bg-slate-900 text-white'>
       <div className='max-w-7xl mx-auto px-6 py-16'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10'>
           {/* Brand Column */}
           <div className='lg:col-span-1'>
             <Link href='/' className='text-xl font-black tracking-tight'>
@@ -74,19 +86,23 @@ export default function Footer() {
             </div>
           ))}
         </div>
+
         {/* Sister Sites */}
-        <div className='border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4'>
+        <div className='border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4'>
           <p className='text-slate-500 text-xs'>
-            Our Network: <a href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500 transition-colors'>The Basement Guide</a> | <a href='https://thegarage.guide/' className='text-slate-400 hover:text-amber-500 transition-colors'>The Garage Guide</a>
+            Our Network: <Link href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500'>The Basement Guide</Link> | <Link href='https://thegarage.guide/' className='text-slate-400 hover:text-amber-500'>The Garage Guide</Link>
           </p>
         </div>
+
         {/* Bottom */}
-        <div className='border-t border-slate-800 mt-6 pt-6 flex flex-col md:flex-row items-center justify-between gap-4'>
-          <p className='text-slate-500 text-xs'>&copy; {new Date().getFullYear()} The Septic Guide. All rights reserved.</p>
-          <div className='flex gap-6'>
-            <Link href='/privacy' className='text-slate-500 text-xs hover:text-slate-300 transition-colors'>Privacy Policy</Link>
-            <Link href='/terms' className='text-slate-500 text-xs hover:text-slate-300 transition-colors'>Terms of Use</Link>
-            <Link href='/affiliate-disclosure' className='text-slate-500 text-xs hover:text-slate-300 transition-colors'>Affiliate Disclosure</Link>
+        <div className='border-t border-slate-800 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center gap-4'>
+          <p className='text-slate-500 text-xs'>
+            © {new Date().getFullYear()} The Septic Guide. All rights reserved.
+          </p>
+          <div className='flex gap-4'>
+            <Link href='/privacy' className='text-slate-500 hover:text-slate-300 text-xs'>Privacy Policy</Link>
+            <Link href='/terms' className='text-slate-500 hover:text-slate-300 text-xs'>Terms of Use</Link>
+            <Link href='/affiliate-disclosure' className='text-slate-500 hover:text-slate-300 text-xs'>Affiliate Disclosure</Link>
           </div>
         </div>
       </div>
