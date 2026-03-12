@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Septic System vs Sewer: Costs, Pros and Cons, and Which Is Better | The Septic Guide',
