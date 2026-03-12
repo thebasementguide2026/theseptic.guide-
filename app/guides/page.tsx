@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata = {
   title: 'Septic System Guides | The Septic Guide',
@@ -14,7 +15,8 @@ const guides = [
   { title: 'How Often to Pump Your Septic Tank', href: '/articles/how-often-pump-septic-tank', description: 'Find your exact pumping schedule by tank size and household size, with EPA-based guidelines.' },
   { title: 'What You Can and Cannot Flush', href: '/articles/what-can-cannot-flush-septic-system', description: 'The complete list of what is safe to flush, what to keep out of your drains, and why it matters.' },
   { title: 'Garbage Disposal and Septic Systems', href: '/guides/garbage-disposal-septic-systems', description: 'Can you use a garbage disposal with a septic system? Research-backed guide with costs, safe foods, rules, and recommendations.' },
-    { title: 'Does Insurance Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
+    { title: 'Does Insura999
+      nce Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
 ]
 
 export default function GuidesPage() {

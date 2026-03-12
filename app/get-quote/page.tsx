@@ -1,4 +1,4 @@
-import QuoteForm from '@/components/QuoteForm'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata = {
   title: 'Get a Free Septic Quote | The Septic Guide',
@@ -17,7 +17,7 @@ export default function GetQuotePage() {
       <section className="py-16">
         <div className="container-custom max-w-2xl">
           <div className="bg-white rounded-xl p-8 shadow-md border border-[#E8E4DE]">
-            <QuoteForm />
+            <LeadForm />
           </div>
         </div>
       </section>

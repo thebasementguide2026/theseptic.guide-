@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -62,7 +63,8 @@ const faqSchema = {
   ],
 }
 
-const articleSchema = {
+const article9999
+ = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'The Complete Guide to Septic Systems: How They Work, Types, and What Every Homeowner Needs to Know',
@@ -85,7 +87,9 @@ const articleSchema = {
 export default function CompleteSepticGuideArticle() {
   return (
     <div>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faq999
+        
+      ) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       {/* Article Hero */}
@@ -532,7 +536,15 @@ export default function CompleteSepticGuideArticle() {
           <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with qualified septic professionals in your area. Free estimates, no obligation.</p>
           <Link href='/get-quote' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-sm'>Get Free Quotes</Link>
         </div>
-      </article>
+      {/* Lead Form */}
+            <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+              <div className='max-w-2xl mx-auto px-4'>
+                <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
+                <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
+                <LeadForm />
+              </div>
+            </section>
+          </article>
     </div>
   )
 }

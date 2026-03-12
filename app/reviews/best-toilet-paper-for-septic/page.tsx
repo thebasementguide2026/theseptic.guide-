@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -361,7 +362,15 @@ export default function BestToiletPaperForSeptic() {
           <p className='text-slate-600 text-xs'>This article contains affiliate links. If you purchase a product through our links, we may earn a small commission at no additional cost to you. This helps support our site and allows us to continue providing honest, independent reviews. See our <Link href='/affiliate-disclosure' className='text-amber-700 underline hover:text-amber-800'>affiliate disclosure</Link> for details.</p>
         </div>
 
-      </article>
+      {/* Lead Form */}
+            <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+              <div className='max-w-2xl mx-auto px-4'>
+                <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
+                <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
+                <LeadForm />
+              </div>
+            </section>
+          </article>
     </>
   )
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata = {
   title: 'Septic Product Reviews | The Septic Guide',

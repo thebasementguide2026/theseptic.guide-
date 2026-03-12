@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import Link from 'next/link'
+import LeadForm from '@/components/LeadForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

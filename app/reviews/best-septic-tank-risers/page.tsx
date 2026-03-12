@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -211,7 +212,15 @@ export default function BestSepticTankRisers() {
             </div>
           </div>
         </div>
-      </article>
+      {/* Lead Form */}
+            <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+              <div className='max-w-2xl mx-auto px-4'>
+                <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
+                <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
+                <LeadForm />
+              </div>
+            </section>
+          </article>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import { articles } from '@/lib/articles'
-import QuoteForm from '@/components/QuoteForm'
 
 const categories = [
   { label: '🔧 Maintenance', href: '/guides/maintenance-guide' },
@@ -174,7 +174,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div>
-            <QuoteForm />
+            <LeadForm />
           </div>
         </div>
       </section>

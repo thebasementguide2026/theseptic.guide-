@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Garbage Disposal and Septic Systems: Can You Use One Safely? 2026 Guide | The Septic Guide',
@@ -268,7 +269,15 @@ export default function GarbageDisposalSepticPage() {
           <p className="text-slate-300 mb-6 max-w-xl mx-auto">Connect with certified septic professionals in your area for inspections, pumping, and repairs.</p>
           <Link href="/get-quote" className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full transition-colors">Get Free Quotes</Link>
         </section>
-      </article>
+      {/* Lead Form */}
+            <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+              <div className='max-w-2xl mx-auto px-4'>
+                <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
+                <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
+                <LeadForm />
+              </div>
+            </section>
+          </article>
     </>
   )
 }
