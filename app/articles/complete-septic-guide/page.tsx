@@ -63,7 +63,7 @@ const faqSchema = {
   ],
 }
 
-const article9999
+const articleSchema
  = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -87,7 +87,7 @@ const article9999
 export default function CompleteSepticGuideArticle() {
   return (
     <div>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faq999
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema
         
       ) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
