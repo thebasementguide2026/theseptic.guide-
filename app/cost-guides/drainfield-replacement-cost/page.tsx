@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Drainfield Replacement Cost 2026: What to Expect and How to Save | The Septic Guide',
