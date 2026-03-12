@@ -15,8 +15,7 @@ const guides = [
   { title: 'How Often to Pump Your Septic Tank', href: '/articles/how-often-pump-septic-tank', description: 'Find your exact pumping schedule by tank size and household size, with EPA-based guidelines.' },
   { title: 'What You Can and Cannot Flush', href: '/articles/what-can-cannot-flush-septic-system', description: 'The complete list of what is safe to flush, what to keep out of your drains, and why it matters.' },
   { title: 'Garbage Disposal and Septic Systems', href: '/guides/garbage-disposal-septic-systems', description: 'Can you use a garbage disposal with a septic system? Research-backed guide with costs, safe foods, rules, and recommendations.' },
-    { title: 'Does Insura999
-      nce Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
+        { title: 'Does Insurance Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
 ]
 
 export default function GuidesPage() {
@@ -41,6 +40,14 @@ export default function GuidesPage() {
           </div>
         </div>
       </section>
+              {/* Lead Form */}
+        <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+          <div className='max-w-2xl mx-auto px-4'>
+            <h2 className='text-2xl md:text-3xl font-bold text-[#2C3E50] text-center mb-4'>Get Free Septic Quotes</h2>
+            <p className='text-gray-600 text-center mb-8'>Connect with top-rated local septic professionals. Fast, free, no obligation.</p>
+            <LeadForm />
+          </div>
+        </section>
     </>
   )
 }
