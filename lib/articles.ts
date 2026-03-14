@@ -248,6 +248,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/septictosewer.jpg',
   },
+  {
+    title: 'Best Septic-Safe Laundry Detergent 2026: Top 6 Picks Ranked',
+    description: 'The best septic-safe laundry detergents in 2026, ranked by septic impact, cleaning power, and value. Seventh Generation, ECOS, Earth Breeze, and more tested and reviewed.',
+    slug: 'reviews/best-septic-safe-laundry-detergent',
+    category: 'Review',
+    readTime: '20 min read',
+    image: '/laundry-detergent.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
