@@ -240,6 +240,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/garbage disposal .jpg',
   },
+  {
+    title: 'Septic to Sewer Conversion Cost 2026: Complete Price Breakdown',
+    description: 'Septic to sewer conversion costs $5,000 to $15,000 in 2026, with a national average of $7,000 to $10,000. Full cost breakdown, when conversion makes financial sense, grants, and step-by-step process.',
+    slug: 'cost-guides/septic-to-sewer-conversion-cost',
+    category: 'Cost Guide',
+    readTime: '22 min read',
+    image: '/septictosewer.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
