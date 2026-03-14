@@ -53,6 +53,7 @@ const footerSections = [
       { label: 'Best System Alarms', href: '/reviews/best-septic-system-alarms' },
       { label: 'Best TP for Septic', href: '/reviews/best-toilet-paper-for-septic' },
       { label: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners-for-septic' },
+      { label: 'Best Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent' },
     ],
   },
 ]
