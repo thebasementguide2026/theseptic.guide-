@@ -12,6 +12,7 @@ const reviews = [
   { title: 'Best System Alarms', href: '/reviews/best-system-alarms', description: 'Early warning alarms to prevent septic emergencies.' },
   { title: 'Best Toilet Paper for Septic', href: '/reviews/best-toilet-paper-for-septic', description: 'Septic-safe toilet paper that dissolves quickly.' },
   { title: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners', description: 'Septic-safe drain cleaners for slow drains.' },
+  { title: 'Best Septic-Safe Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent', description: 'Top septic-safe laundry detergents ranked by safety, cleaning power, and value.' },
 ]
 
 export default function ReviewsPage() {
