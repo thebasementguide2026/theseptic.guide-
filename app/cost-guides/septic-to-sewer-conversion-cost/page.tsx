@@ -411,48 +411,6 @@ export default function SepticToSewerConversionCostPage() {
           </div>
         </div>
 
-        {/* Affiliate Products */}
-        <div className="mb-16">
-          <div className="flex items-center space-x-3 mb-4">
-            <span className="text-amber-700 font-bold tracking-[0.3em] text-xs uppercase">Recommended Products</span>
-            <div className="flex-1 h-px bg-slate-200"></div>
-          </div>
-          <h2 className="text-2xl font-bold text-slate-900 mb-2">Products You May Need During or After Conversion</h2>
-          <p className="text-slate-700 text-sm mb-6">These are products commonly needed during a septic to sewer conversion or for managing your property during the transition.</p>
-          <p className="text-xs text-slate-400 mb-6">As an Amazon Associate, The Septic Guide earns from qualifying purchases.</p>
-          <div className="grid md:grid-cols-2 gap-6">
-
-            <div className="bg-white border border-slate-200 rounded-lg p-5">
-              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">Sewer Inspection</p>
-              <h3 className="font-bold text-slate-900 mb-2">Sewer Camera Inspection Scope</h3>
-              <p className="text-slate-600 text-xs mb-4">Know what you&apos;re dealing with before you hire a contractor. A drain camera lets you inspect your existing line from the house to the street to identify blockages, root intrusion, or pipe damage before getting quotes.</p>
-              <a href="https://amzn.to/4iFFVjJ" target="_blank" rel="noopener noreferrer sponsored" className="inline-block bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold py-2 px-4 rounded transition-colors">Check Price on Amazon &rarr;</a>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-5">
-              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">Sewage Pump</p>
-              <h3 className="font-bold text-slate-900 mb-2">Sewage Ejector Pump</h3>
-              <p className="text-slate-600 text-xs mb-4">Required when your home sits below the level of the sewer main. A sewage ejector pump grinds and pumps waste uphill to the municipal sewer connection point. Essential for basement bathrooms after conversion.</p>
-              <a href="https://amzn.to/4kSDXdN" target="_blank" rel="noopener noreferrer sponsored" className="inline-block bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold py-2 px-4 rounded transition-colors">Check Price on Amazon &rarr;</a>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-5">
-              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">Pipe & Fittings</p>
-              <h3 className="font-bold text-slate-900 mb-2">4-Inch PVC Sewer Pipe</h3>
-              <p className="text-slate-600 text-xs mb-4">The standard pipe for residential sewer line installation. Schedule 40 PVC is the most common specification required by municipalities for the lateral from your home to the connection point.</p>
-              <a href="https://amzn.to/4aPIXtN" target="_blank" rel="noopener noreferrer sponsored" className="inline-block bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold py-2 px-4 rounded transition-colors">Check Price on Amazon &rarr;</a>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-5">
-              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">Drain Cleaner</p>
-              <h3 className="font-bold text-slate-900 mb-2">Septic-Safe Drain Cleaner (Pre-Conversion)</h3>
-              <p className="text-slate-600 text-xs mb-4">Before your conversion is complete, keep using septic-safe enzyme drain cleaners to clear any slow drains without harming your tank&apos;s beneficial bacteria. Also useful for maintaining your new sewer line after conversion.</p>
-              <a href="https://amzn.to/4qXyOBt" target="_blank" rel="noopener noreferrer sponsored" className="inline-block bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold py-2 px-4 rounded transition-colors">Check Price on Amazon &rarr;</a>
-            </div>
-
-          </div>
-        </div>
-
         {/* Glossary */}
         <div className="mb-16">
           <div className="flex items-center space-x-3 mb-4">
