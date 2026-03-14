@@ -68,7 +68,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Best Septic-Safe Laundry Detergent 2026: Top 6 Picks Ranked',
   description: 'The best septic-safe laundry detergents in 2026, ranked by septic impact, cleaning power, and value.',
-  image: 'https://theseptic.guide/laundry-detergent.jpg',
+  image: 'https://theseptic.guide/laundry.jpg',
   datePublished: '2026-04-01',
   dateModified: '2026-04-01',
   author: {
@@ -111,7 +111,7 @@ export default function BestSepticSafeLaundryDetergent() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/laundry-detergent.jpg'
+          src='/laundry.jpg'
           alt='Best septic-safe laundry detergent 2026'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
