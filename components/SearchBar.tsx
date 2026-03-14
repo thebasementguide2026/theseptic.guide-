@@ -5,6 +5,11 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { searchArticles, type Article } from '@/lib/articles'
 
+function getArticleHref(slug: string): string {
+  if (slug.includes('/')) return `/${slug}`
+  return `/articles/${slug}`
+}
+
 export default function SearchBar({ onClose }: { onClose?: () => void }) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<Article[]>([])
@@ -76,16 +81,16 @@ export default function SearchBar({ onClose }: { onClose?: () => void }) {
       </form>
 
       {isOpen && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 overflow-hidden">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50">
           {results.map((article) => (
             <Link
               key={article.slug}
-              href={`/articles/${article.slug}`}
+              href={getArticleHref(article.slug)}
               onClick={() => { setIsOpen(false); onClose?.() }}
               className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 transition-colors"
             >
               <div className="flex items-center gap-2 mb-0.5">
-                <span className="text-xs font-medium text-[#2C3E50] bg-slate-100 px-1.5 py-0.5 rounded">{article.category}</span>
+                <span className="text-xs font-medium text-[#2C3E50] bg-gray-100 px-1.5 py-0.5 rounded">{article.category}</span>
                 <span className="text-xs text-gray-400">{article.readTime}</span>
               </div>
               <div className="text-sm font-medium text-gray-900">{article.title}</div>
@@ -102,7 +107,7 @@ export default function SearchBar({ onClose }: { onClose?: () => void }) {
       )}
 
       {isOpen && query.length >= 2 && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-6 text-center">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50">
           <p className="text-gray-500 text-sm">No guides found for &quot;{query}&quot;</p>
           <p className="text-gray-400 text-xs mt-1">Try a different search term</p>
         </div>
