@@ -256,6 +256,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/laundry-detergent.jpg',
   },
+    {
+    title: 'Selling a Home with a Septic System: The Complete 2026 Seller\u2019s Guide',
+    description: 'Selling a home with a septic system requires a pre-sale inspection ($300\u2013$600), current pumping records, and proper disclosure. Complete guide to pre-listing preparation, disclosure requirements, negotiation strategies, and closing.',
+    slug: 'guides/selling-home-with-septic-system',
+    category: 'Guide',
+    readTime: '25 min read',
+    image: '/sellinghomeonseptic.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
