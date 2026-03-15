@@ -280,6 +280,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/cleanerssepticsafe.jpg',
   },
+    {
+    title: 'Septic System Winter Care 2026: How to Winterize Your Septic System',
+    description: 'Septic system winter care covers winterizing pipes, tanks, and drainfields to prevent freezing and costly repairs.',
+    slug: 'guides/septic-system-winter-care',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/septicwinter.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
