@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 import LeadForm from '@/components/LeadForm'
 
@@ -36,6 +37,7 @@ export default function SepticVsSewer() {
   return (
     <>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+              <Breadcrumbs />
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image src='/heroseptic-sewer.jpg' alt='Septic system and sewer comparison for residential properties' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
