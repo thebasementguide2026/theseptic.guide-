@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: 'How Long Does a Septic System Last? Lifespan by Component, Material & Maintenance | The Septic Guide',
@@ -88,7 +89,9 @@ export default function HowLongSepticSystemLastPage() {
         </div>
       </section>
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <Breadcrumbs items={[{ label: 'Articles', href: '/articles' }, { label: 'How Long Does a Septic System Last?' }]} />
+
+        <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <p className="text-lg text-slate-700 mb-6 leading-relaxed">A septic system lasts 20 to 30 years on average. But that average hides enormous variation. A well-maintained concrete tank with a properly sized drainfield in good soil can last 40 to 50 years. A neglected steel tank with a clogged drainfield can fail in under 15. The difference is not luck. It is maintenance, material choices, and soil conditions, all of which are within your control or at least knowable before you buy a home.</p>
         <p className="text-lg text-slate-700 mb-10 leading-relaxed">This guide breaks down lifespan by every individual component, every tank material, and every maintenance level so you can estimate how many years your system has left and what to do about it. If you are new to septic systems, start with our <Link href="/articles/complete-septic-guide" className="text-amber-700 underline hover:text-amber-900">complete guide to how septic systems work</Link>.</p>
 
