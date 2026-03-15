@@ -43,6 +43,7 @@ const navItems = [
       { label: 'Drainfield Failing', href: '/problems/drainfield-failing' },
       { label: 'Overflow After Rain', href: '/problems/overflow-after-rain' },
       { label: 'Slow Drains', href: '/problems/slow-drains' },
+            { label: 'Septic Smell in House', href: '/problems/septic-smell-inside-house' },
     ],
   },
   {
