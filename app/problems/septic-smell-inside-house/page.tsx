@@ -92,11 +92,37 @@ const articleSchema = {
   publisher: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
 }
 
+const datasetSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Indoor Septic Smell Causes Comparison: Diagnosis, DIY Cost, and Professional Cost',
+  description: 'Structured comparison of 10 causes of septic smell inside a house with location, diagnosis method, DIY fix cost, and professional repair cost for each cause.',
+  url: 'https://theseptic.guide/problems/septic-smell-inside-house',
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  creator: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
+  datePublished: '2026-03-15',
+  variableMeasured: ['Cause Name', 'Location', 'Diagnosis Method', 'DIY Cost USD', 'Professional Cost USD'],
+  distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/ld+json', contentUrl: 'https://theseptic.guide/problems/septic-smell-inside-house' }],
+  mainEntity: [
+    { '@type': 'DefinedTerm', name: 'Dry P-Trap', description: 'Location: Single fixture or room. DIY Cost: $0-$5. Pro Cost: $0. Fix: Run water 15-30 seconds.' },
+    { '@type': 'DefinedTerm', name: 'Blocked or Damaged Vent Stack', description: 'Location: Multiple rooms or whole house. DIY Cost: $0-$50. Pro Cost: $150-$300. Fix: Clear debris or snake vent.' },
+    { '@type': 'DefinedTerm', name: 'Full Septic Tank', description: 'Location: Whole house. DIY Cost: N/A. Pro Cost: $300-$600. Fix: Schedule septic pumping.' },
+    { '@type': 'DefinedTerm', name: 'Partial Drain Clog', description: 'Location: Single sink shower or tub. DIY Cost: $5-$20. Pro Cost: $100-$250. Fix: Enzyme cleaner or drain snake.' },
+    { '@type': 'DefinedTerm', name: 'Failed Wax Seal or Loose Toilet', description: 'Location: Near toilet base. DIY Cost: $3-$10. Pro Cost: $100-$200. Fix: Replace wax ring.' },
+    { '@type': 'DefinedTerm', name: 'Ejector Pump Basket Seal', description: 'Location: Basement near ejector pump. DIY Cost: $10-$80. Pro Cost: $500-$1500. Fix: Replace gasket or lid.' },
+    { '@type': 'DefinedTerm', name: 'Loose or Missing Cleanout Plug', description: 'Location: Basement near cleanout. DIY Cost: $2-$10. Pro Cost: $0. Fix: Tighten or replace plug.' },
+    { '@type': 'DefinedTerm', name: 'Saturated or Failing Drainfield', description: 'Location: Whole house worse after rain. DIY Cost: $0. Pro Cost: $5000-$20000+. Fix: Reduce water use or replace drainfield.' },
+    { '@type': 'DefinedTerm', name: 'Vent Stack Too Short or Wind Downdraft', description: 'Location: Comes and goes windy days. DIY Cost: $20-$50. Pro Cost: $200-$500. Fix: Extend vent or add wind cap.' },
+    { '@type': 'DefinedTerm', name: 'Washing Machine Drain Trap Issue', description: 'Location: Laundry area. DIY Cost: $0. Pro Cost: $100-$200. Fix: Adjust hose or install P-trap.' },
+  ],
+}
+
 export default function SepticSmellInsideHouse() {
   return (
     <div>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}></script>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}></script>
+              <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}></script>
 
       <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Septic Smell Inside the House' }]} />
 
