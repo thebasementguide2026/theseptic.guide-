@@ -90,7 +90,7 @@ export default function DrainfieldFailing() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Drainfield Failing' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
