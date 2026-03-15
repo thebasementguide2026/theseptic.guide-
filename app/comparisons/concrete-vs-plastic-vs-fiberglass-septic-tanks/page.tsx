@@ -86,10 +86,7 @@ const articleSchema = {
 
 export default function ConcreteVsPlasticVsFiberglass() {
   return (
-    <div>
-      
-      
-
+        <>
       {/* Article Hero */}
         <Breadcrumbs />
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
@@ -471,6 +468,6 @@ export default function ConcreteVsPlasticVsFiberglass() {
               </div>
             </section>
           </article>
-    </div>
+    </>
   )
 }
