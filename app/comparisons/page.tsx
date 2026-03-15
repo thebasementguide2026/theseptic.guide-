@@ -56,7 +56,7 @@ const comparisons = [
 export default function ComparisonsPage() {
   return (
     <main className="min-h-screen bg-white">
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Comparisons' }]} />
       <section className="bg-slate-900 text-white py-16">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Septic System Comparisons</h1>
