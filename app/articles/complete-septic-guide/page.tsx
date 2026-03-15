@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -118,7 +119,9 @@ export default function CompleteSepticGuideArticle() {
         </div>
       </section>
 
-      {/* Main Content */}
+      <Breadcrumbs items={[{ label: 'Articles', href: '/articles' }, { label: 'Complete Septic Guide' }]} />
+
+        {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
