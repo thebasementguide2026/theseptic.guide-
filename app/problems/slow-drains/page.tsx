@@ -138,7 +138,7 @@ export default function SlowDrains() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
       />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Slow Drains' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
