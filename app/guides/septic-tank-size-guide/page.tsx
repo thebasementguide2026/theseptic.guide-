@@ -72,7 +72,7 @@ export default function SepticTankSizeGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Guides', href: '/guides' }, { label: 'Septic Tank Size Guide' }]} />
       {/* Hero */}
       <section className="relative w-full" style={{ minHeight: '420px' }}>
         <Image src="/septictanksize.jpg" alt="Septic Tank Size Guide" fill className="object-cover" priority />
