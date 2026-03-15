@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata = {
@@ -27,6 +28,11 @@ export default function GuidesPage() {
           <p className="text-lg opacity-70 max-w-2xl">Comprehensive, homeowner-focused guides on every aspect of septic systems.</p>
         </div>
       </section>
+
+            <Breadcrumbs items={[
+              { label: 'Home', href: '/' },
+              { label: 'Guides' }
+            ]} />
       <section className="py-16">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
