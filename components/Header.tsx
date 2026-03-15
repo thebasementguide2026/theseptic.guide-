@@ -47,7 +47,7 @@ const navItems = [
     ],
   },
   {
-    label: 'Comparisons',
+               label: 'Comparisons',
     href: '/comparisons',
     dropdown: null,
   },
