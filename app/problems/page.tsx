@@ -18,7 +18,7 @@ const problems = [
 export default function ProblemsPage() {
   return (
     <>
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Problems' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom">
           <h1 className="text-4xl font-extrabold mb-4">Septic System Problems</h1>
