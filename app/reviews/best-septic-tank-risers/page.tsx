@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -53,6 +54,12 @@ export default function BestSepticTankRisers() {
           </div>
         </div>
       </section>
+
+            <Breadcrumbs items={[
+              { label: 'Home', href: '/' },
+              { label: 'Reviews', href: '/reviews' },
+              { label: 'Best Septic Tank Risers' }
+            ]} />
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>If your septic tank lids are buried, installing risers is the <strong>single highest-ROI upgrade</strong> you can make to your septic system. This guide covers how risers work, how to choose the right size, which kits are best, and whether to install them yourself or hire a professional.</p>
         <div className='mb-16'>
