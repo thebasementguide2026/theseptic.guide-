@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
@@ -52,6 +53,8 @@ export default function DrainFieldReplacementCost() {
           </div>
         </div>
       </section>
+
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Cost Guides', href: '/cost-guides' }, { label: 'Drainfield Replacement Cost' }]} />
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>Drainfield replacement is the <strong>most expensive septic repair a homeowner can face</strong>. This guide breaks down every cost component, explains what determines whether you need a full replacement or can get by with rejuvenation, and shows you how to avoid overpaying.</p>
         <div className='mb-16'>
