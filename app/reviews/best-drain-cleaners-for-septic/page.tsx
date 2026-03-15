@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -159,6 +160,12 @@ export default function BestDrainCleanersPage() {
           </div>
         </div>
       </section>
+
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Reviews', href: '/reviews' },
+        { label: 'Best Drain Cleaners for Septic' }
+      ]} />
 
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-4 py-16">
