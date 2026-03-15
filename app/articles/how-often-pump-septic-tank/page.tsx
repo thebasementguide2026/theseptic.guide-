@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -129,7 +130,9 @@ export default function HowOftenPumpSepticTank() {
         </div>
       </section>
 
-      {/* Main Content */}
+      <Breadcrumbs items={[{ label: 'Articles', href: '/articles' }, { label: 'How Often to Pump Your Septic Tank' }]} />
+
+        {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           The general rule is every three to five years. But that range is so wide it&apos;s almost useless. A two-person household with a 1,500-gallon tank and a six-person household with a 1,000-gallon tank have completely different needs, and treating them the same is how drainfields fail.
