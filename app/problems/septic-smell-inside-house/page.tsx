@@ -139,10 +139,7 @@ const datasetSchema = {
 export default function SepticSmellInsideHouse() {
   return (
       <div>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
-      <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Septic Smell Inside the House' }]} />
+                        <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Septic Smell Inside the House' }]} />
 
       {/* Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
