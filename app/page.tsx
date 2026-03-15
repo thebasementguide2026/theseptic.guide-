@@ -12,6 +12,7 @@ const categories = [
   { label: '📖 Start Here', href: '/articles/complete-septic-guide' },
     { label: '\u2705 Dos & Don\u2019ts', href: '/guides/septic-dos-and-donts' },
       { label: '📏 Tank Size Guide', href: '/guides/septic-tank-size-guide' },
+        { label: '❄️ Winter Care', href: '/guides/septic-system-winter-care' },
 
 ]
   
