@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -146,6 +147,12 @@ export default function BestSepticAlarmsPage() {
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-4 py-16">
 
+
+              <Breadcrumbs items={[
+              { label: 'Home', href: '/' },
+              { label: 'Reviews', href: '/reviews' },
+              { label: 'Best Septic System Alarms' }
+            ]} />
         {/* Who Needs a Septic Alarm */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Who Needs a Septic Alarm</h2>
