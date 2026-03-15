@@ -96,7 +96,7 @@ export default function SepticSmellInYard() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Septic Smell in Yard' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
