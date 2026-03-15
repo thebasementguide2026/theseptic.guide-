@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import Image from 'next/image'
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
@@ -140,6 +141,7 @@ export default function SellingHomeWithSepticSystem() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
 
+              <Breadcrumbs />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image src='/sellinghomeonseptic.jpg' alt='Selling a home with a septic system' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
