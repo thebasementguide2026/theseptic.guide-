@@ -13,12 +13,13 @@ const problems = [
   { title: 'Signs Your Drainfield Is Failing', href: '/problems/drainfield-failing', description: 'Warning signs and repair options for failing drainfields.' },
   { title: 'Septic Overflow After Rain', href: '/problems/overflow-after-rain', description: 'Why heavy rain causes septic problems and how to fix it.' },
   { title: 'Slow Drains with Septic', href: '/problems/slow-drains', description: 'Troubleshooting slow drains in homes with septic systems.' },
+  { title: 'Septic Smell Inside the House', href: '/problems/septic-smell-inside-house', description: 'Hydrogen sulfide and methane gas causes, diagnosis, and fixes for indoor septic odors.' },
 ]
 
 export default function ProblemsPage() {
   return (
     <>
-              <Breadcrumbs items={[{ label: 'Problems' }]} />
+            <Breadcrumbs items={[{ label: 'Problems' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom">
           <h1 className="text-4xl font-extrabold mb-4">Septic System Problems</h1>
