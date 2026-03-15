@@ -138,7 +138,7 @@ const datasetSchema = {
 
 export default function SepticSmellInsideHouse() {
   return (
-    <>
+      <div>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
@@ -440,7 +440,7 @@ export default function SepticSmellInsideHouse() {
 
     </div>
   </article>
-        </>
+      </div>
 );
 }
 
