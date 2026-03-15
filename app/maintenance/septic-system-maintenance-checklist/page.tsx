@@ -135,7 +135,7 @@ export default function SepticMaintenanceChecklistPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Maintenance', href: '/maintenance' }, { label: 'Maintenance Checklist' }]} />
       {/* Hero */}
       <section className="relative h-[70vh] min-h-[500px] flex items-center">
         <Image src="/septicmaintaince.jpg" alt="Septic System Maintenance Checklist 2026" fill className="object-cover" priority />
