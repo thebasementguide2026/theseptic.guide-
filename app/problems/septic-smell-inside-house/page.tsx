@@ -439,8 +439,8 @@ export default function SepticSmellInsideHouse() {
       </div>
 
     </div>
-  </main>
+  </article>
+        </>
 );
 }
 
-export default SepticSmellInsideHousePage;
