@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -89,6 +90,7 @@ export default function DrainfieldFailing() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
+              <Breadcrumbs />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
