@@ -86,9 +86,9 @@ const articleSchema = {
 
 export default function ConcreteVsPlasticVsFiberglass() {
   return (
-    <>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+    <div>
+      
+      
 
       {/* Article Hero */}
         <Breadcrumbs />
@@ -471,6 +471,6 @@ export default function ConcreteVsPlasticVsFiberglass() {
               </div>
             </section>
           </article>
-    </>
+    </div>
   )
 }
