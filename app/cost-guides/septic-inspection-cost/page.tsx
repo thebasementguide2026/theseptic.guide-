@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -185,6 +186,8 @@ export default function SepticInspectionCostPage() {
           </div>
         </div>
       </section>
+
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Cost Guides', href: '/cost-guides' }, { label: 'Septic Inspection Cost' }]} />
 
       {/* Intro Section */}
       <article className="max-w-4xl mx-auto px-4 py-12">
