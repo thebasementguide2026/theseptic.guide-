@@ -292,6 +292,54 @@ export default function SepticSmellInsideHouse() {
           </div>
         </div>
 
+                    {/* When to Call a Professional */}
+            <div className='mb-16'>
+              <div className='flex items-center space-x-3 mb-4'>
+                <span className='text-amber-700 font-bold tracking-[0.15em] text-xs uppercase'>When to Call a Pro</span>
+                <div className='flex-1 h-px bg-slate-200'></div>
+              </div>
+              <h2 className='text-2xl font-bold text-slate-900 mb-6'>When to Call a Professional</h2>
+              <div className='space-y-4'>
+                <p className='text-slate-700 text-sm'><strong>Fix causes 1, 4, 5, and 7 yourself.</strong> These are simple, inexpensive DIY repairs that most homeowners can handle in under an hour.</p>
+                <p className='text-slate-700 text-sm'><strong>Call a plumber ($150 to $300)</strong> for causes 2, 6, 9, and 10 if the DIY steps do not resolve the issue. A plumber can snake vent lines, inspect with a camera, replace ejector pump components, and modify drain configurations.</p>
+                <p className='text-slate-700 text-sm'><strong>Call a septic professional ($300 to $1,000)</strong> for causes 3 and 8. A full tank needs pumping, and drainfield issues need a licensed septic contractor to diagnose and repair. See our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete septic guide</Link> for understanding your system and our <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>septic system repair cost guide</Link> for pricing.</p>
+                <div className='bg-red-50 border border-red-200 rounded-lg p-4 mt-4'>
+                  <p className='text-red-800 text-sm font-bold mb-2'>Call immediately if:</p>
+                  <ul className='list-disc list-inside space-y-1 text-red-700 text-sm'>
+                    <li>You smell gas strongly in an enclosed space like a basement with no ventilation. Methane from septic systems is flammable and explosive in high concentrations.</li>
+                    <li>Hydrogen sulfide at high concentrations (above 100 ppm) can cause loss of smell, making you think the problem has resolved when it has actually worsened.</li>
+                    <li>If anyone in the household experiences persistent headaches, dizziness, nausea, or difficulty breathing, ventilate the area immediately (open windows and doors) and call a professional.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+                        {/* Health Risks Section */}
+            <div className='mb-16'>
+              <div className='flex items-center space-x-3 mb-4'>
+                <span className='text-amber-700 font-bold tracking-[0.15em] text-xs uppercase'>Health Risks</span>
+                <div className='flex-1 h-px bg-slate-200'></div>
+              </div>
+              <h2 className='text-2xl font-bold text-slate-900 mb-6'>Health Risks of Septic Gases Indoors</h2>
+              <p className='text-slate-700 text-sm mb-6'>Septic gases are not just unpleasant. They pose real health risks at sustained exposure levels.</p>
+              <div className='space-y-6'>
+                <div className='border border-slate-200 rounded-lg p-4'>
+                  <h3 className='font-bold text-slate-900 text-sm mb-2'>Hydrogen Sulfide (H&#8322;S)</h3>
+                  <p className='text-slate-700 text-sm'>The rotten egg smell. At low concentrations (0.01 to 1.5 ppm), it causes odor annoyance and eye irritation. At moderate concentrations (2 to 5 ppm), it causes headaches, nausea, and respiratory irritation. At high concentrations (above 100 ppm), it causes loss of smell (olfactory fatigue), serious respiratory damage, and can be life-threatening. Indoor septic leaks rarely reach dangerous concentrations, but enclosed basement spaces with poor ventilation are the highest risk.</p>
+                  <p className='text-slate-700 text-sm mt-2'>For detailed toxicological data, see the <a href='https://wwwn.cdc.gov/TSP/ToxFAQs/ToxFAQsDetails.aspx?faqid=388&toxid=67' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>ATSDR Hydrogen Sulfide ToxFAQs</a>.</p>
+                </div>
+                <div className='border border-slate-200 rounded-lg p-4'>
+                  <h3 className='font-bold text-slate-900 text-sm mb-2'>Methane (CH&#8324;)</h3>
+                  <p className='text-slate-700 text-sm'>Odorless and undetectable without instruments. Methane is flammable and explosive at concentrations of 5 to 15 percent in air. Indoor septic leaks are unlikely to reach explosive concentrations, but a persistent gas leak in a sealed basement is a theoretical fire risk.</p>
+                </div>
+                <div className='border border-slate-200 rounded-lg p-4'>
+                  <h3 className='font-bold text-slate-900 text-sm mb-2'>Ammonia (NH&#8323;)</h3>
+                  <p className='text-slate-700 text-sm'>Sharp, pungent odor at low concentrations. Causes eye and respiratory irritation.</p>
+                </div>
+              </div>
+              <p className='text-slate-700 text-sm mt-6'>The presence of any septic smell indoors means gas is entering your living space and should be fixed promptly. Prolonged exposure, even at low concentrations, can cause chronic headaches, fatigue, and respiratory issues.</p>
+            </div>
+
         {/* FAQ Section */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
