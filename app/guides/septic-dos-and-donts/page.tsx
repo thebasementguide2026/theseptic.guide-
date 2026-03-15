@@ -75,7 +75,7 @@ export default function SepticDosAndDontsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }} />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Guides', href: '/guides' }, { label: "Septic Dos and Don'ts" }]} />
       {/* Hero */}
       <section className="relative w-full" style={{ minHeight: '420px' }}>
         <Image src="/dos and donts.jpg" alt="Septic System Dos and Donts" fill className="object-cover" priority />
