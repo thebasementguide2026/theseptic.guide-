@@ -272,6 +272,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/septicsmellhouse.jpg',
   },
+    {
+    title: 'Best Septic-Safe Cleaning Products 2026: Bathroom, Kitchen & Floor',
+    description: 'The best septic-safe cleaning products use plant-based, biodegradable formulas that clean effectively without harming septic tank bacteria.',
+    slug: 'reviews/best-septic-safe-cleaning-products',
+    category: 'Review',
+    readTime: '22 min read',
+    image: '/cleanerssepticsafe.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
