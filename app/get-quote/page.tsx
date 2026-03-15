@@ -1,4 +1,5 @@
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata = {
   title: 'Get a Free Septic Quote | The Septic Guide',
@@ -8,6 +9,7 @@ export const metadata = {
 export default function GetQuotePage() {
   return (
     <>
+      <Breadcrumbs items={[{ label: 'Get a Free Quote' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom text-center">
           <h1 className="text-4xl font-extrabold mb-4">Get Your Free Septic Quote</h1>
