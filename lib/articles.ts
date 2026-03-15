@@ -264,6 +264,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/sellinghomeonseptic.jpg',
   },
+    {
+    title: 'Septic Smell Inside the House: 10 Causes and How to Fix Each One',
+    description: 'A septic smell inside the house is caused by hydrogen sulfide and methane gas escaping from the septic system. Learn the 10 most common causes, how to diagnose each one, and the specific fix and cost for each.',
+    slug: 'problems/septic-smell-inside-house',
+    category: 'Problem',
+    readTime: '22 min read',
+    image: '/septicsmellhouse.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
