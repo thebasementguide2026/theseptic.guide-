@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm';
 import { Metadata } from 'next';
 
@@ -37,6 +38,7 @@ const services = [
 export default function SepticServicesPage() {
   return (
     <main className="min-h-screen bg-white">
+              <Breadcrumbs />
       <section className="bg-slate-900 text-white py-16">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Septic Services Guide</h1>
