@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -126,6 +127,8 @@ export default function HowToFindYourSepticTank() {
           </div>
         </div>
       </section>
+
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/articles' }, { label: 'How to Find Your Septic Tank' }]} />
 
       {/* Article Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
