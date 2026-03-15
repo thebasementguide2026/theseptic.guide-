@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 import Image from 'next/image'
 import type { Metadata } from 'next'
@@ -90,10 +91,10 @@ export default function ConcreteVsPlasticVsFiberglass() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       {/* Article Hero */}
+        <Breadcrumbs />
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image src='/fiberglassplasticconcret.jpg' alt='Concrete vs plastic vs fiberglass septic tanks comparison' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
-        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+                ssName='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-amber-700'></div>
             <span className='text-amber-500 font-bold tracking-[0.3em] text-sm uppercase'>Comparison</span>
