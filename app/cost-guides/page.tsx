@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata = {
@@ -18,6 +19,7 @@ const costGuides = [
 export default function CostGuidesPage() {
   return (
     <>
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Cost Guides' }]} />
       <section style={{ backgroundColor: '#2C3E50' }} className="text-white py-16">
         <div className="container-custom">
           <h1 className="text-4xl font-extrabold mb-4">Septic Cost Guides</h1>
