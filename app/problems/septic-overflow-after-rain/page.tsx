@@ -96,7 +96,7 @@ export default function SepticOverflowAfterRain() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
-              <Breadcrumbs />
+              <Breadcrumbs items={[{ label: 'Problems', href: '/problems' }, { label: 'Septic Overflow After Rain' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
