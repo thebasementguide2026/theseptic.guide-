@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import Image from 'next/image'
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
@@ -121,6 +122,12 @@ export default function BuyingHomeWithSepticPage() {
           </div>
         </div>
       </section>
+
+            <Breadcrumbs items={[
+              { label: 'Home', href: '/' },
+              { label: 'Guides', href: '/guides' },
+              { label: 'Buying a Home with Septic' }
+            ]} />
 
             {/* Main Article */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
