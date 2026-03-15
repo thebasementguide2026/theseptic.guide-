@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
@@ -121,7 +122,9 @@ export default function InsuranceCoverSepticArticle() {
         </div>
       </section>
 
-      {/* Main Content */}
+      <Breadcrumbs items={[{ label: 'Articles', href: '/articles' }, { label: 'Does Insurance Cover Septic Repair?' }]} />
+
+        {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Standard homeowners insurance <strong>does not cover most septic system repairs or replacements</strong>. Septic failures caused by wear and tear, lack of maintenance, root intrusion, or gradual deterioration are excluded from virtually all standard policies.
