@@ -215,6 +215,58 @@ export default function BestSepticTankTreatments() {
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Best Septic Tank Treatments and Enzyme Products 2026</h2>
 
+                        {/* Product Comparison Table */}
+              <div className='overflow-x-auto mb-8'>
+                <table className='w-full text-sm border-collapse'>
+                  <thead>
+                    <tr className='bg-slate-100'>
+                      <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Product</th>
+                      <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Type</th>
+                      <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Supply</th>
+                      <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Price</th>
+                      <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Best For</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className='hover:bg-slate-50'>
+                      <td className='p-3 border border-slate-200 font-semibold text-slate-900'>Rid-X Septic Treatment</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Bacteria + enzyme powder</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>3-month supply</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>$10 to $15</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Best overall monthly maintenance</td>
+                    </tr>
+                    <tr className='hover:bg-slate-50'>
+                      <td className='p-3 border border-slate-200 font-semibold text-slate-900'>Green Gobbler Septic Saver</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Bacteria + enzyme pods</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>6-month supply</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>$15 to $20</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Best value</td>
+                    </tr>
+                    <tr className='hover:bg-slate-50'>
+                      <td className='p-3 border border-slate-200 font-semibold text-slate-900'>Bio-Clean Drain Septic Bacteria</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Concentrated bacteria + enzyme powder</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Bulk canister</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>$20 to $25</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Best for neglected systems</td>
+                    </tr>
+                    <tr className='hover:bg-slate-50'>
+                      <td className='p-3 border border-slate-200 font-semibold text-slate-900'>Cabin Obsession Septic Treatment</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Bacteria + enzyme pods</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>12-month supply</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>$18 to $22</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Best full-year supply</td>
+                    </tr>
+                    <tr className='hover:bg-slate-50'>
+                      <td className='p-3 border border-slate-200 font-semibold text-slate-900'>Walex Bio-Active Septic Treatment</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Bacteria + enzyme pods</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>12-month supply</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>$15 to $20</td>
+                      <td className='p-3 border border-slate-200 text-slate-600'>Best post-pumping starter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
           <div className='space-y-6'>
             {/* Rid-X */}
             <div className='bg-white border-2 border-amber-200 rounded-xl p-6'>
