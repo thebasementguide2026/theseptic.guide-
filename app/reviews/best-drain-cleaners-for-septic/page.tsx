@@ -581,7 +581,7 @@ export default function BestDrainCleanersPage() {
             </Link>
             <Link href="/problems/septic-tank-overflow" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/septicafter.guide" alt="Septic Tank Overflow" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/septicafterrain.jpg" alt="Septic Tank Overflow" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
