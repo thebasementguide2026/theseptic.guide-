@@ -158,8 +158,7 @@ export default function BestToiletPaperForSeptic() {
             </div>
           </div>
           <p className='text-slate-700 leading-relaxed mt-4 text-sm'>The National Sanitation Foundation (NSF) tests and certifies products for septic safety. Products carrying NSF certification have been independently verified to dissolve adequately for septic use. Look for this certification when available, though not all quality septic-safe papers carry it.</p>
-        </div>
-
+<table
         {/* Product Reviews */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -423,8 +422,7 @@ export default function BestToiletPaperForSeptic() {
             <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Guide to Septic Systems</h3>
               <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
-            <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+Best Overall            <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
               <p className='text-slate-600 text-xs'>Warning signs that your drainfield needs attention or replacement.</p>
             </Link>
