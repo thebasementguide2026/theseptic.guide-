@@ -383,7 +383,7 @@ export default function BestToiletPaperForSeptic() {
         {/* Related Guides */}
         <div className='mb-16'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
+                    <div className='grid md:grid-cols-2 gap-4'>
             <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
               <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
@@ -392,14 +392,59 @@ export default function BestToiletPaperForSeptic() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
               <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
             </Link>
+            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost</h3>
+              <p className='text-slate-600 text-xs'>What to expect to pay for pumping and what affects the price.</p>
+            </Link>
             <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
               <p className='text-slate-600 text-xs'>Which bacteria-based products actually work and which to skip.</p>
             </Link>
+            <Link href='/reviews/best-drain-cleaners-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Drain Cleaners for Septic</h3>
+              <p className='text-slate-600 text-xs'>Safe drain cleaning options that won&apos;t harm your septic bacteria.</p>
+            </Link>
+            <Link href='/reviews/best-septic-safe-laundry-detergent' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Laundry Detergent</h3>
+              <p className='text-slate-600 text-xs'>Top-rated detergents that protect your septic system.</p>
+            </Link>
+            <Link href='/reviews/best-septic-safe-cleaning-products' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Cleaning Products</h3>
+              <p className='text-slate-600 text-xs'>Household cleaners that are safe for your septic tank.</p>
+            </Link>
+            <Link href='/articles/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Don&apos;ts</h3>
+              <p className='text-slate-600 text-xs'>Essential rules every septic system owner should follow.</p>
+            </Link>
+            <Link href='/articles/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
+              <p className='text-slate-600 text-xs'>A step-by-step checklist to keep your system running smoothly.</p>
+            </Link>
             <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Guide to Septic Systems</h3>
               <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
             </Link>
+            <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+              <p className='text-slate-600 text-xs'>Warning signs that your drainfield needs attention or replacement.</p>
+            </Link>
+            <Link href='/articles/slow-drains-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains with Septic</h3>
+              <p className='text-slate-600 text-xs'>Causes and fixes for slow drains in septic-connected homes.</p>
+            </Link>
+            <Link href='/articles/septic-tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up</h3>
+              <p className='text-slate-600 text-xs'>What to do when your septic system backs up into your home.</p>
+            </Link>
+            <Link href='/articles/how-long-does-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last</h3>
+              <p className='text-slate-600 text-xs'>Lifespan expectations and what affects how long your system lasts.</p>
+            </Link>
+          </div>
+          <div className='mt-6 p-4 bg-slate-50 border border-slate-200 rounded-lg'>
+            <h3 className='font-bold text-slate-900 text-sm mb-2'>Our Network</h3>
+            <p className='text-slate-600 text-xs mb-2'><a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>The Basement Guide</a> covers <a href='https://thebasement.guide/basement-bathroom-guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>basement bathroom guide</a> and <a href='https://thebasement.guide/basement-plumbing' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>basement plumbing</a>, which are relevant for homeowners adding below-grade bathrooms connected to septic systems where toilet paper choice and drain care are especially important.</p>
+            <p className='text-slate-600 text-xs'><a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>The Garage Guide</a> covers <a href='https://thegarage.guide/garage-bathroom-conversion' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>garage bathroom conversion</a>, which involves connecting new fixtures to existing septic systems.</p>
           </div>
         </div>
 
