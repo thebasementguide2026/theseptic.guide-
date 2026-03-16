@@ -137,11 +137,7 @@ export default function BestSepticTankTreatments() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
 
-        {/* Affiliate Disclosure */}
-        <div className='bg-slate-100 border border-slate-200 rounded-lg p-4 mb-8'>
-          <p className='text-slate-600 text-xs'>This article contains affiliate links. If you purchase a product through our links, we may earn a small commission at no additional cost to you. This helps support our site and allows us to continue providing honest, independent reviews. See our <Link href='/affiliate-disclosure' className='text-amber-700 underline hover:text-amber-800'>affiliate disclosure</Link> for details.</p>
-        </div>
-
+        
         {/* Intro */}
         <div className='mb-12'>
                         <p className='text-slate-700 leading-relaxed text-sm mb-4'>A septic tank treatment is a biological additive containing concentrated live bacteria and enzymes that supplement the naturally occurring microorganisms in a septic tank to help break down solid waste, grease, toilet paper, and organic material. The best septic tank treatments in 2026 cost $8 to $25 per year, use multiple bacteria strains with billions of colony-forming units (CFUs) per dose, and include complementary enzymes like cellulase, lipase, protease, and amylase. This guide reviews the 5 best septic tank treatment products, explains which types of treatments actually work (and which are a waste of money), and tells you exactly when a treatment is worth buying and when it is not.</p>
@@ -487,6 +483,12 @@ export default function BestSepticTankTreatments() {
                 <LeadForm />
               </div>
             </section>
+
+            {/* Affiliate Disclosure */}
+        <div className='bg-slate-100 border border-slate-200 rounded-lg p-4 mb-8'>
+          <p className='text-slate-600 text-xs'>This article contains affiliate links. If you purchase a product through our links, we may earn a small commission at no additional cost to you. This helps support our site and allows us to continue providing honest, independent reviews. See our <Link href='/affiliate-disclosure' className='text-amber-700 underline hover:text-amber-800'>affiliate disclosure</Link> for details.</p>
+        </div>
+
           </article>
     </>
   )
