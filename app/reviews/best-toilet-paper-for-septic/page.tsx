@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'What toilet paper is safest for septic systems?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'Scott 1000 is the safest widely available toilet paper for septic systems. It is single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand in independent testing. For homeowners who prefer 2-ply, Cottonelle Ultra CleanCare and Seventh Generation 100 percent Recycled are the best options that balance comfort with fast dissolution. The safest toilet papers share three characteristics: they dissolve quickly in water, they are free of dyes, fragrances, chlorine bleach, and lotions, and they use short fibers (recycled or bamboo) that separate easily. Look for products labeled septic-safe or biodegradable, and prioritize brands that carry NSF certification when available. You can verify any brand yourself using the mason jar test described in this guide.',
+        text: 'Single-ply recycled or bamboo-based toilet papers that are free of dyes, fragrances, and chlorine bleach are the safest for septic systems. Scott 1000, Cottonelle Ultra Clean, and Who Gives A Crap 100% Bamboo are among the top-rated options. Look for products labeled septic-safe or biodegradable, and prioritize fast-dissolving formulas.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'Is 2-ply toilet paper OK for septic systems?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'Yes, 2-ply toilet paper is safe for septic systems as long as you choose a brand that is labeled septic-safe and dissolves quickly in water. Single-ply dissolves faster and is technically the best option for minimizing solid buildup in your tank, but quality 2-ply brands like Cottonelle Ultra CleanCare and Seventh Generation perform well in dissolve testing and are a reasonable compromise between comfort and septic safety. The key is avoiding ultra-thick, quilted, or cushioned 2-ply products that prioritize softness over dissolution. If you use 2-ply, run the mason jar test to confirm your specific brand breaks apart within 10 seconds of shaking. Avoid any 2-ply product with added lotion, aloe, or skin conditioning agents, as these coat fibers to prevent breakdown and also suppress the beneficial bacteria in your tank.',
+        text: 'Yes, 2-ply toilet paper is fine for most septic systems as long as it is labeled septic-safe and dissolves quickly. Single-ply dissolves faster and is technically better for the tank, but quality 2-ply brands like Cottonelle Clean Care and Seventh Generation perform well in dissolve tests. Avoid 3-ply, ultra-thick, quilted, or lotion-infused products.',
       },
     },
     {
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'Can I use Charmin with a septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'Charmin Ultra Soft and Charmin Ultra Strong are among the worst toilet paper choices for septic systems. Both are thick, multi-ply products engineered for softness and strength, which means they resist the dissolution that septic systems require. In independent jar tests, Charmin Ultra Soft remains largely intact after vigorous shaking, while septic-safe brands like Scott 1000 dissolve almost completely. If you strongly prefer Charmin, Charmin Essentials Soft is the thinnest option in their lineup and performs somewhat better, but it still does not dissolve as fast as dedicated septic-safe brands. Using Charmin Ultra regularly accelerates sludge buildup in your tank, shortens the interval between pumpings, and increases the risk of solids migrating to your drainfield. Switching to a septic-safe brand costs the same or less per roll and protects your system long-term.',
+        text: 'Charmin Ultra Soft and Charmin Ultra Strong are among the worst choices for septic systems. They are thick, multi-ply products that dissolve slowly and contribute to sludge buildup. Charmin Essentials Soft (single-ply) is a better option, but still not among the top performers. If you prefer Charmin, choose the thinnest available option and use conservatively.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'How do I test if my toilet paper is septic-safe?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'Fill a mason jar or clear container halfway with room-temperature water. Add 4 to 6 sheets of the toilet paper you want to test, which approximates the amount used in a single bathroom visit. Seal the jar tightly and shake it vigorously for 10 seconds to simulate the agitation inside your pipes and tank. Hold the jar up to light and evaluate the results: septic-safe paper will have broken into small pieces or dissolved almost entirely, while problematic paper will remain largely intact. For the most useful comparison, test your current brand side by side with Scott 1000 or Seventh Generation so you can see the difference in dissolve speed directly. If your current brand stays together after shaking, switch to one of the recommended brands in this guide.',
+        text: 'Fill a mason jar halfway with water. Add a few sheets of toilet paper. Seal the jar and shake it vigorously for 10 seconds. Septic-safe paper will break apart significantly or completely dissolve. Paper that stays mostly intact after this test will cause problems in your septic system. This is the same basic principle behind commercial dissolve testing.',
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: 'Does bamboo toilet paper dissolve faster than regular toilet paper?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to $0.50 to $0.75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.',
+        text: 'Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options.',
       },
     },
     {
@@ -158,7 +158,8 @@ export default function BestToiletPaperForSeptic() {
             </div>
           </div>
           <p className='text-slate-700 leading-relaxed mt-4 text-sm'>The National Sanitation Foundation (NSF) tests and certifies products for septic safety. Products carrying NSF certification have been independently verified to dissolve adequately for septic use. Look for this certification when available, though not all quality septic-safe papers carry it.</p>
-<table
+        </div>
+
         {/* Product Reviews */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -239,10 +240,10 @@ export default function BestToiletPaperForSeptic() {
                   {/* Which Toilet Paper Is Right */}
           <div className='mb-16'>
             <div className='flex items-center space-x-3 mb-4'>
-              <span className='text-amber-700 font-bold tracking-wider text-xs uppercase'>Quick Match</span>
+              <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Quick Match</span>
               <div className='flex-1 h-px bg-slate-200'></div>
             </div>
-            <h2 className='text-2xl font-bold text-slate-900 mb-2'>Which Toilet Paper Is Right for Your Septic System?</h2>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>Which Toilet Paper Is Right for Your Septic System?</h2>
             <p className='text-slate-700 leading-relaxed mb-6'>Find the best pick for your specific situation.</p>
             <div className='overflow-x-auto'>
               <table className='w-full border-collapse text-sm'>
@@ -298,7 +299,6 @@ export default function BestToiletPaperForSeptic() {
               </table>
             </div>
           </div>
-
 
         {/* Brands to Avoid */}
         <div className='mb-16'>
@@ -371,23 +371,24 @@ export default function BestToiletPaperForSeptic() {
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
-                            <div className='px-4 pb-4 text-slate-600 text-sm'>Scott 1000 is the safest widely available toilet paper for septic systems. It is single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand in independent testing. For homeowners who prefer 2-ply, Cottonelle Ultra CleanCare and Seventh Generation 100 percent Recycled are the best options that balance comfort with fast dissolution. The safest toilet papers share three characteristics: they dissolve quickly in water, they are free of dyes, fragrances, chlorine bleach, and lotions, and they use short fibers (recycled or bamboo) that separate easily. Look for products labeled septic-safe or biodegradable, and prioritize brands that carry NSF certification when available. You can verify any brand yourself using the mason jar test described in this guide.</div>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper is safest for septic systems?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Single-ply recycled or bamboo-based toilet papers that are free of dyes, fragrances, and chlorine bleach are the safest for septic systems. Scott 1000, Cottonelle Ultra CleanCare, and Who Gives A Crap 100% Bamboo are among the top-rated options. Look for products labeled septic-safe or biodegradable, and prioritize fast-dissolving formulas.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Is 2-ply toilet paper OK for septic systems?</summary>
-                            <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, 2-ply toilet paper is safe for septic systems as long as you choose a brand that is labeled septic-safe and dissolves quickly in water. Single-ply dissolves faster and is technically the best option for minimizing solid buildup in your tank, but quality 2-ply brands like Cottonelle Ultra CleanCare and Seventh Generation perform well in dissolve testing and are a reasonable compromise between comfort and septic safety. The key is avoiding ultra-thick, quilted, or cushioned 2-ply products that prioritize softness over dissolution. If you use 2-ply, run the mason jar test to confirm your specific brand breaks apart within 10 seconds of shaking. Avoid any 2-ply product with added lotion, aloe, or skin conditioning agents, as these coat fibers to prevent breakdown and also suppress the beneficial bacteria in your tank.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, 2-ply toilet paper is fine for most septic systems as long as it is labeled septic-safe and dissolves quickly. Single-ply dissolves faster and is technically better for the tank, but quality 2-ply brands like Cottonelle Clean Care and Seventh Generation perform well in dissolve tests. Avoid 3-ply, ultra-thick, quilted, or lotion-infused products.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can I use Charmin with a septic system?</summary>
-                            <div className='px-4 pb-4 text-slate-600 text-sm'>Charmin Ultra Soft and Charmin Ultra Strong are among the worst toilet paper choices for septic systems. Both are thick, multi-ply products engineered for softness and strength, which means they resist the dissolution that septic systems require. In independent jar tests, Charmin Ultra Soft remains largely intact after vigorous shaking, while septic-safe brands like Scott 1000 dissolve almost completely. If you strongly prefer Charmin, Charmin Essentials Soft is the thinnest option in their lineup and performs somewhat better, but it still does not dissolve as fast as dedicated septic-safe brands. Using Charmin Ultra regularly accelerates sludge buildup in your tank, shortens the interval between pumpings, and increases the risk of solids migrating to your drainfield. Switching to a septic-safe brand costs the same or less per roll and protects your system long-term.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Charmin Ultra Soft and Charmin Ultra Strong are among the worst choices for septic systems. They are thick, multi-ply products that dissolve slowly and contribute to sludge buildup. Charmin Essentials Soft (single-ply) is a better option, but still not among the top performers. If you prefer Charmin, choose the thinnest available option and use conservatively.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How do I test if my toilet paper is septic-safe?</summary>
-                            <div className='px-4 pb-4 text-slate-600 text-sm'>Fill a mason jar or clear container halfway with room-temperature water. Add 4 to 6 sheets of the toilet paper you want to test, which approximates the amount used in a single bathroom visit. Seal the jar tightly and shake it vigorously for 10 seconds to simulate the agitation inside your pipes and tank. Hold the jar up to light and evaluate the results: septic-safe paper will have broken into small pieces or dissolved almost entirely, while problematic paper will remain largely intact. For the most useful comparison, test your current brand side by side with Scott 1000 or Seventh Generation so you can see the difference in dissolve speed directly. If your current brand stays together after shaking, switch to one of the recommended brands in this guide.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Fill a mason jar halfway with water. Add a few sheets of toilet paper. Seal the jar and shake it vigorously for 10 seconds. Septic-safe paper will break apart significantly or completely dissolve. Paper that stays mostly intact after this test will cause problems in your septic system.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does bamboo toilet paper dissolve faster than regular toilet paper?</summary>
-                            <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to $0.50 to $0.75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper brands should I avoid with a septic system?</summary>
@@ -396,57 +397,10 @@ export default function BestToiletPaperForSeptic() {
           </div>
         </div>
 
-        {/* Glossary */}
-        <div className='mb-16'>
-          <div className='flex items-center space-x-3 mb-4'>
-            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Glossary</span>
-            <div className='flex-1 h-px bg-slate-200'></div>
-          </div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Glossary of Septic Toilet Paper Terms</h2>
-          <div className='space-y-4'>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Septic-Safe Label</h3>
-              <p className='text-slate-600 text-xs'>A manufacturer&apos;s claim that a toilet paper product is compatible with septic systems. This label is not regulated by any federal agency and any manufacturer can print it on packaging without independent verification. To evaluate whether a product is genuinely septic-safe, look for fast dissolution in water, absence of chemical additives, and ideally NSF certification. The mason jar test is the most reliable way to verify the claim yourself.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>NSF Certification</h3>
-              <p className='text-slate-600 text-xs'>An independent testing and certification by the National Sanitation Foundation that verifies a toilet paper product dissolves adequately for use in septic systems. NSF-certified products have been tested under standardized conditions and confirmed to break apart within acceptable timeframes. Not all quality septic-safe papers carry NSF certification, but those that do have the strongest third-party verification.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Dissolve Speed (Dissolution Rate)</h3>
-              <p className='text-slate-600 text-xs'>The time it takes for toilet paper to break apart into small pieces or fully disintegrate when submerged in water and agitated. Faster dissolve speed means less solid material accumulating in the septic tank. Septic-safe papers begin disintegrating within seconds of contact with water, while ultra-thick premium papers can take minutes or hours to break down.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Ply</h3>
-              <p className='text-slate-600 text-xs'>The number of layers bonded together in a single sheet of toilet paper. Single-ply (1-ply) has one layer and dissolves fastest. Two-ply has two bonded layers and is the most common compromise between comfort and septic safety. Three-ply and ultra products have three or more layers, dissolve slowest, and are the most problematic for septic systems.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Virgin Wood Pulp</h3>
-              <p className='text-slate-600 text-xs'>Paper fiber made from freshly harvested wood that has not been previously used or recycled. Virgin pulp fibers are longer and stronger than recycled fibers, which makes the paper softer and more durable but also slower to dissolve in water and in a septic tank.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Recycled Fiber</h3>
-              <p className='text-slate-600 text-xs'>Paper fiber made from previously used paper products that have been processed and reformed into new sheets. Recycled fibers are shorter than virgin pulp fibers, which means they separate more easily in water and dissolve faster in a septic environment. Seventh Generation 100 percent Recycled is our top pick in this category.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Bamboo Fiber</h3>
-              <p className='text-slate-600 text-xs'>Paper fiber derived from bamboo plants rather than wood trees. Bamboo fibers are naturally short and separate easily in water, making bamboo toilet paper one of the fastest-dissolving options available despite often being 2-ply or 3-ply. Bamboo is also a rapidly renewable resource that grows to harvest maturity in 3 to 5 years compared to 20 to 30 years for trees.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Optical Brighteners</h3>
-              <p className='text-slate-600 text-xs'>Synthetic chemicals added to some toilet papers during manufacturing to make the paper appear whiter and brighter. Optical brighteners do not biodegrade readily in septic environments and can accumulate in the tank and drainfield soil over time. Unbleached and recycled papers typically do not contain optical brighteners.</p>
-            </div>
-            <div className='border border-slate-200 rounded-lg p-4'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Biodegradable</h3>
-              <p className='text-slate-600 text-xs'>A product that breaks down naturally through biological processes into harmless components. For septic systems, biodegradable toilet paper is processed by the same anaerobic bacteria that break down human waste in the tank. All toilet paper is technically biodegradable, but the rate of biodegradation varies dramatically between brands, which is why dissolve speed matters more than the biodegradable label alone.</p>
-            </div>
-          </div>
-        </div>
-
         {/* Related Guides */}
         <div className='mb-16'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-                    <div className='grid md:grid-cols-2 gap-4'>
+          <div className='grid md:grid-cols-2 gap-4'>
             <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
               <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
@@ -455,58 +409,14 @@ export default function BestToiletPaperForSeptic() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
               <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
             </Link>
-            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost</h3>
-              <p className='text-slate-600 text-xs'>What to expect to pay for pumping and what affects the price.</p>
-            </Link>
             <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
               <p className='text-slate-600 text-xs'>Which bacteria-based products actually work and which to skip.</p>
             </Link>
-            <Link href='/reviews/best-drain-cleaners-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Drain Cleaners for Septic</h3>
-              <p className='text-slate-600 text-xs'>Safe drain cleaning options that won&apos;t harm your septic bacteria.</p>
-            </Link>
-            <Link href='/reviews/best-septic-safe-laundry-detergent' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Laundry Detergent</h3>
-              <p className='text-slate-600 text-xs'>Top-rated detergents that protect your septic system.</p>
-            </Link>
-            <Link href='/reviews/best-septic-safe-cleaning-products' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Cleaning Products</h3>
-              <p className='text-slate-600 text-xs'>Household cleaners that are safe for your septic tank.</p>
-            </Link>
-            <Link href='/articles/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Don&apos;ts</h3>
-              <p className='text-slate-600 text-xs'>Essential rules every septic system owner should follow.</p>
-            </Link>
-            <Link href='/articles/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
-              <p className='text-slate-600 text-xs'>A step-by-step checklist to keep your system running smoothly.</p>
-            </Link>
             <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Guide to Septic Systems</h3>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
               <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-Best Overall            <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs that your drainfield needs attention or replacement.</p>
             </Link>
-            <Link href='/articles/slow-drains-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains with Septic</h3>
-              <p className='text-slate-600 text-xs'>Causes and fixes for slow drains in septic-connected homes.</p>
-            </Link>
-            <Link href='/articles/septic-tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up</h3>
-              <p className='text-slate-600 text-xs'>What to do when your septic system backs up into your home.</p>
-            </Link>
-            <Link href='/articles/how-long-does-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last</h3>
-              <p className='text-slate-600 text-xs'>Lifespan expectations and what affects how long your system lasts.</p>
-            </Link>
-          </div>
-          <div className='mt-6 p-4 bg-slate-50 border border-slate-200 rounded-lg'>
-            <h3 className='font-bold text-slate-900 text-sm mb-2'>Our Network</h3>
-            <p className='text-slate-600 text-xs mb-2'><a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>The Basement Guide</a> covers <a href='https://thebasement.guide/basement-bathroom-guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>basement bathroom guide</a> and <a href='https://thebasement.guide/basement-plumbing' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>basement plumbing</a>, which are relevant for homeowners adding below-grade bathrooms connected to septic systems where toilet paper choice and drain care are especially important.</p>
-            <p className='text-slate-600 text-xs'><a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>The Garage Guide</a> covers <a href='https://thegarage.guide/garage-bathroom-conversion' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>garage bathroom conversion</a>, which involves connecting new fixtures to existing septic systems.</p>
           </div>
         </div>
 
