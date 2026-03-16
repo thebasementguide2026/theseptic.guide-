@@ -30,7 +30,7 @@ const navItems = [
       { label: 'Tank Risers', href: '/reviews/best-septic-tank-risers' },
       { label: 'System Alarms', href: '/reviews/best-septic-system-alarms' },
       { label: 'TP for Septic', href: '/reviews/best-toilet-paper-for-septic' },
-      { label: 'Drain Cleaners', href: '/reviews/best-drain-cleaners' },
+      { label: 'Drain Cleaners', href: '/reviews/best-drain-cleaners-for-septic' },
               { label: 'Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent' },
     ],
   },
