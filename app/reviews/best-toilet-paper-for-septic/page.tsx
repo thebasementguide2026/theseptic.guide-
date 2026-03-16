@@ -308,7 +308,6 @@ export default function BestToiletPaperForSeptic() {
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
-                            <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper is safest for septic systems?</summary>
                             <div className='px-4 pb-4 text-slate-600 text-sm'>Scott 1000 is the safest widely available toilet paper for septic systems. It is single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand in independent testing. For homeowners who prefer 2-ply, Cottonelle Ultra CleanCare and Seventh Generation 100 percent Recycled are the best options that balance comfort with fast dissolution. The safest toilet papers share three characteristics: they dissolve quickly in water, they are free of dyes, fragrances, chlorine bleach, and lotions, and they use short fibers (recycled or bamboo) that separate easily. Look for products labeled septic-safe or biodegradable, and prioritize brands that carry NSF certification when available. You can verify any brand yourself using the mason jar test described in this guide.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
@@ -331,6 +330,53 @@ export default function BestToiletPaperForSeptic() {
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper brands should I avoid with a septic system?</summary>
               <div className='px-4 pb-4 text-slate-600 text-sm'>Avoid Charmin Ultra Soft, Charmin Ultra Strong, Quilted Northern Ultra Plush, Angel Soft Plus with lotion, and any toilet paper labeled ultra-thick, cushioned, or with added lotions or aloe. These products dissolve slowly and accelerate sludge buildup in your tank.</div>
             </details>
+          </div>
+        </div>
+
+        {/* Glossary */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Glossary</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Glossary of Septic Toilet Paper Terms</h2>
+          <div className='space-y-4'>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Septic-Safe Label</h3>
+              <p className='text-slate-600 text-xs'>A manufacturer&apos;s claim that a toilet paper product is compatible with septic systems. This label is not regulated by any federal agency and any manufacturer can print it on packaging without independent verification. To evaluate whether a product is genuinely septic-safe, look for fast dissolution in water, absence of chemical additives, and ideally NSF certification. The mason jar test is the most reliable way to verify the claim yourself.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>NSF Certification</h3>
+              <p className='text-slate-600 text-xs'>An independent testing and certification by the National Sanitation Foundation that verifies a toilet paper product dissolves adequately for use in septic systems. NSF-certified products have been tested under standardized conditions and confirmed to break apart within acceptable timeframes. Not all quality septic-safe papers carry NSF certification, but those that do have the strongest third-party verification.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Dissolve Speed (Dissolution Rate)</h3>
+              <p className='text-slate-600 text-xs'>The time it takes for toilet paper to break apart into small pieces or fully disintegrate when submerged in water and agitated. Faster dissolve speed means less solid material accumulating in the septic tank. Septic-safe papers begin disintegrating within seconds of contact with water, while ultra-thick premium papers can take minutes or hours to break down.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Ply</h3>
+              <p className='text-slate-600 text-xs'>The number of layers bonded together in a single sheet of toilet paper. Single-ply (1-ply) has one layer and dissolves fastest. Two-ply has two bonded layers and is the most common compromise between comfort and septic safety. Three-ply and ultra products have three or more layers, dissolve slowest, and are the most problematic for septic systems.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Virgin Wood Pulp</h3>
+              <p className='text-slate-600 text-xs'>Paper fiber made from freshly harvested wood that has not been previously used or recycled. Virgin pulp fibers are longer and stronger than recycled fibers, which makes the paper softer and more durable but also slower to dissolve in water and in a septic tank.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Recycled Fiber</h3>
+              <p className='text-slate-600 text-xs'>Paper fiber made from previously used paper products that have been processed and reformed into new sheets. Recycled fibers are shorter than virgin pulp fibers, which means they separate more easily in water and dissolve faster in a septic environment. Seventh Generation 100 percent Recycled is our top pick in this category.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Bamboo Fiber</h3>
+              <p className='text-slate-600 text-xs'>Paper fiber derived from bamboo plants rather than wood trees. Bamboo fibers are naturally short and separate easily in water, making bamboo toilet paper one of the fastest-dissolving options available despite often being 2-ply or 3-ply. Bamboo is also a rapidly renewable resource that grows to harvest maturity in 3 to 5 years compared to 20 to 30 years for trees.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Optical Brighteners</h3>
+              <p className='text-slate-600 text-xs'>Synthetic chemicals added to some toilet papers during manufacturing to make the paper appear whiter and brighter. Optical brighteners do not biodegrade readily in septic environments and can accumulate in the tank and drainfield soil over time. Unbleached and recycled papers typically do not contain optical brighteners.</p>
+            </div>
+            <div className='border border-slate-200 rounded-lg p-4'>
+              <h3 className='font-bold text-slate-900 text-sm mb-1'>Biodegradable</h3>
+              <p className='text-slate-600 text-xs'>A product that breaks down naturally through biological processes into harmless components. For septic systems, biodegradable toilet paper is processed by the same anaerobic bacteria that break down human waste in the tank. All toilet paper is technically biodegradable, but the rate of biodegradation varies dramatically between brands, which is why dissolve speed matters more than the biodegradable label alone.</p>
+            </div>
           </div>
         </div>
 
