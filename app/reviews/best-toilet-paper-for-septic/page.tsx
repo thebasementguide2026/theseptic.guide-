@@ -167,6 +167,57 @@ export default function BestToiletPaperForSeptic() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Best Toilet Paper for Septic Systems</h2>
+
+                      <div className='overflow-x-auto mb-6'>
+              <table className='w-full text-sm border border-slate-200 rounded-lg'>
+                <thead>
+                  <tr className='bg-slate-50'>
+                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Brand</th>
+                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Ply</th>
+                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Dissolve Speed</th>
+                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Material</th>
+                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Best For</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 font-semibold text-slate-900'>Scott 1000</td>
+                    <td className='p-3 text-slate-700'>1-ply</td>
+                    <td className='p-3 text-slate-700'>Fastest</td>
+                    <td className='p-3 text-slate-700'>Virgin pulp</td>
+                    <td className='p-3 text-slate-700'>Best overall, safest choice</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 font-semibold text-slate-900'>Cottonelle Ultra CleanCare</td>
+                    <td className='p-3 text-slate-700'>2-ply</td>
+                    <td className='p-3 text-slate-700'>Fast</td>
+                    <td className='p-3 text-slate-700'>Virgin pulp</td>
+                    <td className='p-3 text-slate-700'>Best 2-ply comfort</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 font-semibold text-slate-900'>Who Gives A Crap</td>
+                    <td className='p-3 text-slate-700'>3-ply</td>
+                    <td className='p-3 text-slate-700'>Fast</td>
+                    <td className='p-3 text-slate-700'>100% bamboo</td>
+                    <td className='p-3 text-slate-700'>Best eco-friendly premium</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 font-semibold text-slate-900'>Seventh Generation</td>
+                    <td className='p-3 text-slate-700'>2-ply</td>
+                    <td className='p-3 text-slate-700'>Fast</td>
+                    <td className='p-3 text-slate-700'>100% recycled</td>
+                    <td className='p-3 text-slate-700'>Best recycled and unbleached</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 font-semibold text-slate-900'>Angel Soft</td>
+                    <td className='p-3 text-slate-700'>2-ply</td>
+                    <td className='p-3 text-slate-700'>Moderate</td>
+                    <td className='p-3 text-slate-700'>Virgin pulp</td>
+                    <td className='p-3 text-slate-700'>Best budget option</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           <div className='space-y-6'>
 
             {/* Scott 1000 */}
