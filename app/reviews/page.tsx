@@ -10,7 +10,7 @@ export const metadata = {
 const reviews = [
   { title: 'Best Septic Tank Treatments', href: '/reviews/best-septic-tank-treatments', description: 'Top-rated septic treatments and additives that actually help your system.' },
   { title: 'Best Tank Risers', href: '/reviews/best-septic-tank-risers', description: 'Make pumping easier with our top riser picks.' },
-  { title: 'Best System Alarms', href: '/reviews/best-system-alarms', description: 'Early warning alarms to prevent septic emergencies.' },
+  { title: 'Best System Alarms', href: '/reviews/best-septic-system-alarms', description: 'Early warning alarms to prevent septic emergencies.' },
   { title: 'Best Toilet Paper for Septic', href: '/reviews/best-toilet-paper-for-septic', description: 'Septic-safe toilet paper that dissolves quickly.' },
   { title: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners', description: 'Septic-safe drain cleaners for slow drains.' },
   { title: 'Best Septic-Safe Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent', description: 'Top septic-safe laundry detergents ranked by safety, cleaning power, and value.' },
