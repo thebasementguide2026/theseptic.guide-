@@ -219,6 +219,41 @@ export default function BestSepticTankRisers() {
             </div>
           </div>
         </div>
+
+                  <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Glossary</span><div className='flex-1 h-px bg-slate-200'></div></div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>Glossary of Septic Tank Riser Terms</h2>
+            <div className='space-y-6'>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Septic tank riser</h3>
+                <p className='text-slate-700 text-sm'>A cylindrical extension made of polyethylene, PVC, or concrete that connects a buried septic tank access opening to ground level. Risers eliminate the need to dig up the yard for pumping, inspection, or repair. They come in standard diameters 16-inch, 20-inch, and 24-inch and stack in 6-inch and 12-inch sections to reach any burial depth.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Adapter ring</h3>
+                <p className='text-slate-700 text-sm'>The base component of a riser system that attaches directly to the top of the septic tank around the access opening. The adapter ring creates a sealed connection between the tank surface and the first riser section using butyl sealant or adhesive. It must match the diameter of the tank&apos;s existing access opening.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Butyl sealant (butyl rope)</h3>
+                <p className='text-slate-700 text-sm'>A flexible, waterproof sealing material used between the adapter ring and the tank surface and between stacked riser sections. Butyl sealant creates a watertight seal that prevents groundwater from entering the tank and prevents odors from escaping. It comes in a rope form that is pressed into place during installation.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Safety screen (safety pan)</h3>
+                <p className='text-slate-700 text-sm'>A grated or mesh barrier installed inside the riser below the lid that prevents people, children, or animals from falling into the open tank if the lid is removed. Safety screens are rated by weight capacity typically 250 pounds per square foot and are considered an essential safety component, especially for homes with children.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Effluent filter</h3>
+                <p className='text-slate-700 text-sm'>A filter device installed in the outlet baffle of the septic tank that catches solids before they exit to the drainfield. The effluent filter must be removed and cleaned during every pumping visit, which is why having a riser on the outlet access point is the highest priority. Without a riser, the pumping crew must dig to reach the filter each time.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Access opening (access port)</h3>
+                <p className='text-slate-700 text-sm'>The hole in the top of a septic tank that allows service professionals to pump, inspect, and maintain the tank. Most residential tanks have two access openings one over the inlet baffle and one over the outlet baffle. Standard diameters are 16, 20, and 24 inches.</p>
+              </div>
+              <div className='border-b border-slate-200 pb-4'>
+                <h3 className='text-base font-bold text-slate-900 mb-2'>Flat lid vs. domed lid</h3>
+                <p className='text-slate-700 text-sm'>The two styles of riser covers. Flat lids sit flush with the ground and are less visible but can collect standing water. Domed lids sit slightly higher and shed rainwater and debris naturally. Both styles are available in green and black to blend with lawn surfaces.</p>
+              </div>
+            </div>
+          </div>
       {/* Lead Form */}
             <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
               <div className='max-w-2xl mx-auto px-4'>
