@@ -28,6 +28,11 @@ const nextConfig = {
         destination: '/guides/septic-tank-size-guide',
         permanent: true,
       },
+            {
+        source: '/reviews/best-septic-treatments',
+        destination: '/reviews/best-septic-tank-treatments',
+        permanent: true,
+      },
     ]
   },
 }
