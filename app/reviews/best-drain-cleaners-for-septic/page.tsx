@@ -541,27 +541,27 @@ export default function BestDrainCleanersPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Enzyme Cleaner</h3>
-              <p className="text-gray-500 text-sm">A drain cleaning product that uses naturally occurring enzymes to break down organic matter like hair, grease, and food waste.</p>
+              <p className="text-gray-500 text-sm">A drain cleaning product that uses naturally occurring enzymes to break down organic matter like hair, grease, and food waste into smaller particles that rinse away easily. Enzyme cleaners are the preferred choice for homes with septic systems because they work biologically rather than chemically, leaving the beneficial bacteria in your tank completely unharmed. For best results, pour enzyme cleaners at night so they have 6 to 8 hours of uninterrupted dwell time inside the pipe.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Bacterial Cleaner</h3>
-              <p className="text-gray-500 text-sm">A product containing live bacteria cultures that colonize pipes and continuously digest organic buildup over time.</p>
+              <p className="text-gray-500 text-sm">A product containing live bacteria cultures that colonize the inner walls of your pipes and continuously digest organic buildup over time. Unlike enzyme-only cleaners that stop working once they rinse away, bacterial cleaners establish an ongoing biological presence that keeps pipes cleaner between applications. Products like Bio-Clean use this approach for long-term maintenance, making them a strong complement to your regular septic tank treatment routine.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Caustic Cleaner</h3>
-              <p className="text-gray-500 text-sm">A chemical drain opener (like Drano) that uses lye or acid to dissolve clogs. Harmful to septic systems.</p>
+              <p className="text-gray-500 text-sm">A chemical drain opener, such as Drano or Liquid-Plumr, that uses sodium hydroxide lye or sulfuric acid to dissolve clogs by chemically burning through the blockage. While caustic cleaners work quickly, they also kill the beneficial bacteria colonies inside your septic tank that are responsible for breaking down solid waste. Repeated use can accelerate sludge buildup, clog your drain field, and lead to repairs that cost thousands of dollars -- see our complete septic guide for a full breakdown of what harms septic systems.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Dwell Time</h3>
-              <p className="text-gray-500 text-sm">The amount of time a drain cleaner needs to sit in contact with a clog or buildup to work effectively. Typically 6&#8211;8 hours for enzyme products.</p>
+              <p className="text-gray-500 text-sm">The amount of time a drain cleaner needs to sit in contact with a clog or buildup to work effectively, typically 6 to 8 hours for enzyme and bacterial products. Longer dwell time means more contact between the biological agents and the organic material they need to digest, which is why nighttime application is recommended. Reducing dwell time by running water too soon is one of the most common reasons enzyme cleaners appear to underperform.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Biofilm</h3>
-              <p className="text-gray-500 text-sm">A slimy layer of bacteria and organic material that builds up on pipe walls over time, gradually restricting flow.</p>
+              <p className="text-gray-500 text-sm">A slimy layer of bacteria and organic material -- including grease, soap residue, and decomposing food particles -- that builds up on pipe walls over time and gradually restricts water flow. Biofilm is the primary cause of slow drains in septic system homes, and it is exactly the type of organic material that bacterial and enzyme cleaners are designed to digest. Left untreated, thick biofilm buildup can cause the same symptoms as a full blockage -- visit our slow drains with a septic system guide for diagnosis and next steps.</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
               <h3 className="text-amber-600 font-semibold mb-1">Septic-Safe</h3>
-              <p className="text-gray-500 text-sm">A product that will not kill beneficial bacteria inside a septic tank. Enzyme and bacterial cleaners are inherently septic-safe.</p>
+              <p className="text-gray-500 text-sm">A label applied to products that will not kill the beneficial anaerobic bacteria inside a septic tank that are responsible for breaking down solid waste. For a drain cleaner to be genuinely septic-safe, it must contain no bleach, sodium hydroxide, sulfuric acid, or other antimicrobial chemicals that disrupt the tank&#39;s biological ecosystem. Enzyme and bacterial drain cleaners are inherently septic-safe and can actually improve tank health over time -- the same principle applies to septic-safe cleaning products used throughout your home.</p>
             </div>
           </div>
         </section>
