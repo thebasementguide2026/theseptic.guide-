@@ -246,6 +246,37 @@ export default function BestSepticAlarmsPage() {
           </div>
         </section>
 
+
+          {/* Which Septic Alarm Is Right */}
+          <section className="mb-16">
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-[2px] bg-amber-500" />
+              <span className="text-amber-500 font-semibold tracking-wider text-sm uppercase">Quick Match</span>
+            </div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Which Septic Alarm Is Right for Your Situation?</h2>
+            <div className="overflow-x-auto rounded-xl border border-gray-200">
+              <table className="w-full text-sm text-left">
+                <thead className="bg-gray-100 text-amber-600">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold">Your Situation</th>
+                    <th className="px-4 py-3 font-semibold">Our Pick</th>
+                    <th className="px-4 py-3 font-semibold">Why</th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-gray-900">Most homeowners (primary residence with pump)</td><td className="px-4 py-3">SJE Rhombus Tank Alert XT</td><td className="px-4 py-3">Industry standard, trusted by installers, auto-reset, doubles as junction box</td></tr>
+                  <tr><td className="px-4 py-3 font-medium text-gray-900">Budget is the priority</td><td className="px-4 py-3">Briidea High Water Alarm</td><td className="px-4 py-3">Under $50, loudest on list at 110 dB, plug-and-play, no electrician needed</td></tr>
+                  <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-gray-900">Want indoor mounting in basement or utility room</td><td className="px-4 py-3">Zoeller A-Pak</td><td className="px-4 py-3">Battery backup for power outages, auto-reset, 3-year warranty</td></tr>
+                  <tr><td className="px-4 py-3 font-medium text-gray-900">Vacation home or rental property</td><td className="px-4 py-3">Sump Alarm WiFi Sensor</td><td className="px-4 py-3">Free email alerts, server-side backup detects power and internet loss remotely</td></tr>
+                  <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-gray-900">Travel frequently or away from home often</td><td className="px-4 py-3">Sump Alarm WiFi Sensor</td><td className="px-4 py-3">Remote notifications mean you know about problems even when you are not on-site</td></tr>
+                  <tr><td className="px-4 py-3 font-medium text-gray-900">Installing a new pump chamber</td><td className="px-4 py-3">CINVEI Control Panel</td><td className="px-4 py-3">Combined alarm plus pump circuit breaker, complete solution in one box</td></tr>
+                  <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-gray-900">Worried about power outages</td><td className="px-4 py-3">Zoeller A-Pak</td><td className="px-4 py-3">Only alarm on this list with battery backup that monitors during outages</td></tr>
+                  <tr><td className="px-4 py-3 font-medium text-gray-900">Aerobic treatment unit (ATU)</td><td className="px-4 py-3">SJE Rhombus Tank Alert XT</td><td className="px-4 py-3">Professional-grade reliability for code-required alarm on mechanical systems</td></tr>
+                  <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-gray-900">Want the simplest DIY install</td><td className="px-4 py-3">Briidea High Water Alarm</td><td className="px-4 py-3">Mount, drop float, plug in &mdash; done in 15 minutes</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
         {/* Detailed Reviews */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Detailed Reviews</h2>
