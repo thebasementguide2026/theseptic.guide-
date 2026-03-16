@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'What toilet paper is safest for septic systems?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Scott 1000 is the safest widely available toilet paper for septic systems. It is single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand in independent testing. For homeowners who prefer 2-ply, Cottonelle Ultra CleanCare and Seventh Generation 100 percent Recycled are the best options that balance comfort with fast dissolution. The safest toilet papers share three characteristics: they dissolve quickly in water, they are free of dyes, fragrances, chlorine bleach, and lotions, and they use short fibers (recycled or bamboo) that separate easily. Look for products labeled septic-safe or biodegradable, and prioritize brands that carry NSF certification when available. You can verify any brand yourself using the mason jar test described in this guide.',
+        text: 'Single-ply recycled or bamboo-based toilet papers that are free of dyes, fragrances, and chlorine bleach are the safest for septic systems. Scott 1000, Cottonelle Ultra Clean, and Who Gives A Crap 100% Bamboo are among the top-rated options. Look for products labeled septic-safe or biodegradable, and prioritize fast-dissolving formulas.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'Is 2-ply toilet paper OK for septic systems?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, 2-ply toilet paper is safe for septic systems as long as you choose a brand that is labeled septic-safe and dissolves quickly in water. Single-ply dissolves faster and is technically the best option for minimizing solid buildup in your tank, but quality 2-ply brands like Cottonelle Ultra CleanCare and Seventh Generation perform well in dissolve testing and are a reasonable compromise between comfort and septic safety. The key is avoiding ultra-thick, quilted, or cushioned 2-ply products that prioritize softness over dissolution. If you use 2-ply, run the mason jar test to confirm your specific brand breaks apart within 10 seconds of shaking. Avoid any 2-ply product with added lotion, aloe, or skin conditioning agents, as these coat fibers to prevent breakdown and also suppress the beneficial bacteria in your tank.',
+        text: 'Yes, 2-ply toilet paper is fine for most septic systems as long as it is labeled septic-safe and dissolves quickly. Single-ply dissolves faster and is technically better for the tank, but quality 2-ply brands like Cottonelle Clean Care and Seventh Generation perform well in dissolve tests. Avoid 3-ply, ultra-thick, quilted, or lotion-infused products.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'How do I test if my toilet paper is septic-safe?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fill a mason jar or clear container halfway with room-temperature water. Add 4 to 6 sheets of the toilet paper you want to test, which approximates the amount used in a single bathroom visit. Seal the jar tightly and shake it vigorously for 10 seconds to simulate the agitation inside your pipes and tank. Hold the jar up to light and evaluate the results: septic-safe paper will have broken into small pieces or dissolved almost entirely, while problematic paper will remain largely intact. For the most useful comparison, test your current brand side by side with Scott 1000 or Seventh Generation so you can see the difference in dissolve speed directly. If your current brand stays together after shaking, switch to one of the recommended brands in this guide.',
+        text: 'Fill a mason jar halfway with water. Add a few sheets of toilet paper. Seal the jar and shake it vigorously for 10 seconds. Septic-safe paper will break apart significantly or completely dissolve. Paper that stays mostly intact after this test will cause problems in your septic system. This is the same basic principle behind commercial dissolve testing.',
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: 'Does bamboo toilet paper dissolve faster than regular toilet paper?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options..50 to Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options..75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.',
+                text: 'Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to $0.50 to $0.75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.',
       },
     },
     {
@@ -127,7 +127,7 @@ export default function BestToiletPaperForSeptic() {
 
         {/* Intro */}
         <div className='mb-12'>
-          <p className='text-slate-700 leading-relaxed text-sm mb-4'>Septic safe toilet paper is toilet paper that dissolves quickly in water, is free of dyes, fragrances, chlorine bleach, and lotions, and will not cause sludge buildup or bacterial harm in a septic tank. The best toilet paper for septic tanks in 2026 costs $0.50 to $1.50 per roll, uses recycled or bamboo fibers that break apart faster than virgin wood pulp, and is labeled septic-safe or biodegradable. Single-ply and recycled options dissolve fastest, while quality 2-ply septic-safe brands offer the best balance of comfort and dissolvability. The worst options for septic systems are ultra-thick, quilted, or lotion-infused papers that resist breakdown and accelerate sludge buildup. This guide ranks the 5 best toilet papers for septic systems, explains what actually makes toilet paper septic safe and why the label alone is not enough, and includes a simple home test you can do in 2 minutes to check any brand.</p>
+          <p className='text-slate-700 leading-relaxed text-sm mb-4'>The best toilet paper for septic systems dissolves quickly in water, is labeled septic-safe or biodegradable, and is free of dyes, fragrances, and chlorine bleach. Single-ply and recycled options dissolve fastest. Two-ply septic-safe brands offer the best balance of comfort and dissolvability. The worst options are ultra-thick, quilted, or lotion-infused papers that resist breakdown and accelerate sludge buildup.</p>
           <p className='text-slate-700 leading-relaxed text-sm mb-4'>Your toilet paper is the only solid material other than human waste that should enter your septic tank. It&apos;s also the single largest contributor to the solid layer in your tank after human waste itself. Choosing the right brand can extend your pumping intervals, protect your drainfield, and prevent the clogs that lead to backups into your house. Choosing the wrong one accelerates all of those problems.</p>
         </div>
 
@@ -167,57 +167,6 @@ export default function BestToiletPaperForSeptic() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Best Toilet Paper for Septic Systems</h2>
-
-                      <div className='overflow-x-auto mb-6'>
-              <table className='w-full text-sm border border-slate-200 rounded-lg'>
-                <thead>
-                  <tr className='bg-slate-50'>
-                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Brand</th>
-                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Ply</th>
-                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Dissolve Speed</th>
-                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Material</th>
-                    <th className='text-left p-3 font-bold text-slate-900 border-b border-slate-200'>Best For</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className='border-b border-slate-100'>
-                    <td className='p-3 font-semibold text-slate-900'>Scott 1000</td>
-                    <td className='p-3 text-slate-700'>1-ply</td>
-                    <td className='p-3 text-slate-700'>Fastest</td>
-                    <td className='p-3 text-slate-700'>Virgin pulp</td>
-                    <td className='p-3 text-slate-700'>Best overall, safest choice</td>
-                  </tr>
-                  <tr className='border-b border-slate-100'>
-                    <td className='p-3 font-semibold text-slate-900'>Cottonelle Ultra CleanCare</td>
-                    <td className='p-3 text-slate-700'>2-ply</td>
-                    <td className='p-3 text-slate-700'>Fast</td>
-                    <td className='p-3 text-slate-700'>Virgin pulp</td>
-                    <td className='p-3 text-slate-700'>Best 2-ply comfort</td>
-                  </tr>
-                  <tr className='border-b border-slate-100'>
-                    <td className='p-3 font-semibold text-slate-900'>Who Gives A Crap</td>
-                    <td className='p-3 text-slate-700'>3-ply</td>
-                    <td className='p-3 text-slate-700'>Fast</td>
-                    <td className='p-3 text-slate-700'>100% bamboo</td>
-                    <td className='p-3 text-slate-700'>Best eco-friendly premium</td>
-                  </tr>
-                  <tr className='border-b border-slate-100'>
-                    <td className='p-3 font-semibold text-slate-900'>Seventh Generation</td>
-                    <td className='p-3 text-slate-700'>2-ply</td>
-                    <td className='p-3 text-slate-700'>Fast</td>
-                    <td className='p-3 text-slate-700'>100% recycled</td>
-                    <td className='p-3 text-slate-700'>Best recycled and unbleached</td>
-                  </tr>
-                  <tr>
-                    <td className='p-3 font-semibold text-slate-900'>Angel Soft</td>
-                    <td className='p-3 text-slate-700'>2-ply</td>
-                    <td className='p-3 text-slate-700'>Moderate</td>
-                    <td className='p-3 text-slate-700'>Virgin pulp</td>
-                    <td className='p-3 text-slate-700'>Best budget option</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           <div className='space-y-6'>
 
             {/* Scott 1000 */}
@@ -360,11 +309,11 @@ export default function BestToiletPaperForSeptic() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper is safest for septic systems?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Scott 1000 is the safest widely available toilet paper for septic systems. It is single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand in independent testing. For homeowners who prefer 2-ply, Cottonelle Ultra CleanCare and Seventh Generation 100 percent Recycled are the best options that balance comfort with fast dissolution. The safest toilet papers share three characteristics: they dissolve quickly in water, they are free of dyes, fragrances, chlorine bleach, and lotions, and they use short fibers (recycled or bamboo) that separate easily. Look for products labeled septic-safe or biodegradable, and prioritize brands that carry NSF certification when available. You can verify any brand yourself using the mason jar test described in this guide.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Single-ply recycled or bamboo-based toilet papers that are free of dyes, fragrances, and chlorine bleach are the safest for septic systems. Scott 1000, Cottonelle Ultra CleanCare, and Who Gives A Crap 100% Bamboo are among the top-rated options. Look for products labeled septic-safe or biodegradable, and prioritize fast-dissolving formulas.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Is 2-ply toilet paper OK for septic systems?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, 2-ply toilet paper is safe for septic systems as long as you choose a brand that is labeled septic-safe and dissolves quickly in water. Single-ply dissolves faster and is technically the best option for minimizing solid buildup in your tank, but quality 2-ply brands like Cottonelle Ultra CleanCare and Seventh Generation perform well in dissolve testing and are a reasonable compromise between comfort and septic safety. The key is avoiding ultra-thick, quilted, or cushioned 2-ply products that prioritize softness over dissolution. If you use 2-ply, run the mason jar test to confirm your specific brand breaks apart within 10 seconds of shaking. Avoid any 2-ply product with added lotion, aloe, or skin conditioning agents, as these coat fibers to prevent breakdown and also suppress the beneficial bacteria in your tank.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, 2-ply toilet paper is fine for most septic systems as long as it is labeled septic-safe and dissolves quickly. Single-ply dissolves faster and is technically better for the tank, but quality 2-ply brands like Cottonelle Clean Care and Seventh Generation perform well in dissolve tests. Avoid 3-ply, ultra-thick, quilted, or lotion-infused products.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can I use Charmin with a septic system?</summary>
@@ -376,7 +325,7 @@ export default function BestToiletPaperForSeptic() {
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does bamboo toilet paper dissolve faster than regular toilet paper?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options..50 to Yes. Bamboo toilet paper has shorter fibers than virgin wood pulp paper, which allows it to break apart more quickly in water. Bamboo papers also tend to be free of chlorine bleach and chemical additives that can harm the bacterial population in your septic tank. Who Gives A Crap and Caboo are two well-regarded bamboo options..75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.</div>
+                            <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, bamboo toilet paper generally dissolves faster than virgin wood pulp toilet paper because bamboo fibers are naturally shorter and separate more easily in water. Bamboo papers also tend to be free of chlorine bleach, dyes, fragrances, and chemical additives that can harm the beneficial bacteria in your septic tank. Who Gives A Crap 100 percent Bamboo is our top bamboo pick because it dissolves quickly despite being 3-ply, outperforming many 2-ply mainstream brands in dissolution testing. The trade-off with bamboo toilet paper is cost: bamboo brands typically cost $1 to $1.50 per roll compared to $0.50 to $0.75 for mainstream septic-safe options like Scott 1000. For homeowners who prioritize both septic safety and environmental sustainability, bamboo is an excellent choice that delivers on both fronts.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What toilet paper brands should I avoid with a septic system?</summary>
