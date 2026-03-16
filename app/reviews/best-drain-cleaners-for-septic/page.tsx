@@ -567,38 +567,151 @@ export default function BestDrainCleanersPage() {
         </section>
 
         {/* Related Articles */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Articles</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link href="/problems/slow-drains-septic" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/slowdrainseptic.jpg" alt="Slow Drains With Septic System" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Slow Drains With a Septic System</h3>
-              </div>
-            </Link>
-            <Link href="/problems/septic-tank-overflow" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/septicafterrain.jpg" alt="Septic Tank Overflow" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Tank Overflow: Causes, Fixes &amp; Prevention</h3>
-              </div>
-            </Link>
-            <Link href="/cost-guides/septic-inspection-cost" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/Septic inspection.jpg" alt="Septic Inspection Cost" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Cost Guide</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Inspection Cost (2026)</h3>
-              </div>
-            </Link>
-          </div>
-        </section>
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Articles</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Link href="/problems/slow-drains" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/slowdrainseptic.jpg" alt="Slow Drains with a Septic System" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Slow Drains with a Septic System</h3>
+            </div>
+          </Link>
+          <Link href="/problems/tank-backing-up" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/septicafterrain.jpg" alt="Septic Tank Backing Up" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Tank Backing Up: Causes and Fixes</h3>
+            </div>
+          </Link>
+          <Link href="/problems/septic-smell-inside-house" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/badsepticsmell.jpg" alt="Septic Smell Inside the House" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Smell Inside the House</h3>
+            </div>
+          </Link>
+          <Link href="/guides/septic-dos-and-donts" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/flushing.jpg" alt="What You Can and Cannot Flush" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Guide</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">What You Can and Cannot Flush</h3>
+            </div>
+          </Link>
+          <Link href="/reviews/best-septic-tank-treatments" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/septicmaintaince.jpg" alt="Best Septic Tank Treatments" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Best Septic Tank Treatments</h3>
+            </div>
+          </Link>
+          <Link href="/reviews/best-septic-safe-cleaning-products" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/cleanerssepticsafe.jpg" alt="Best Septic-Safe Cleaning Products" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Best Septic-Safe Cleaning Products</h3>
+            </div>
+          </Link>
+          <Link href="/reviews/best-septic-safe-laundry-detergent" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/laundry.jpg" alt="Best Septic-Safe Laundry Detergent" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Best Septic-Safe Laundry Detergent</h3>
+            </div>
+          </Link>
+          <Link href="/guides/septic-dos-and-donts" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/dos and donts.jpg" alt="Septic Dos and Donts" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Guide</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Dos and Don&apos;ts</h3>
+            </div>
+          </Link>
+          <Link href="/maintenance/septic-system-maintenance-checklist" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/septicmaintaince.jpg" alt="Septic System Maintenance Checklist" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Maintenance</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic System Maintenance Checklist</h3>
+            </div>
+          </Link>
+          <Link href="/articles/how-often-pump-septic-tank" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/pumpingcostguide.jpg" alt="How Often to Pump Your Septic Tank" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Article</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">How Often to Pump Your Septic Tank</h3>
+            </div>
+          </Link>
+          <Link href="/articles/septic-tank-pumping-cost" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/pumpingcostguide.jpg" alt="Septic Tank Pumping Cost" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Cost Guide</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Tank Pumping Cost</h3>
+            </div>
+          </Link>
+          <Link href="/problems/drainfield-failing" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/drainfieldexample.jpg" alt="Signs Your Drainfield Is Failing" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Problems</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Signs Your Drainfield Is Failing</h3>
+            </div>
+          </Link>
+          <Link href="/cost-guides/septic-system-repair-cost" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/septic repair.jpg" alt="Septic System Repair Cost" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Cost Guide</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic System Repair Cost</h3>
+            </div>
+          </Link>
+          <Link href="/articles/complete-septic-guide" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
+            <div className="relative h-48">
+              <Image src="/septic1.jpg" alt="Complete Guide to Septic Systems" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div className="p-4">
+              <p className="text-amber-600 text-sm font-semibold mb-1">Guide</p>
+              <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Complete Guide to Septic Systems</h3>
+            </div>
+          </Link>
+        </div>
+      </section>
+      {/* Our Network */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Network</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a href="https://thebasement.guide" target="_blank" rel="noopener noreferrer" className="group bg-gray-50 border border-gray-200 rounded-xl p-6 hover:border-amber-400 transition-colors">
+            <h3 className="text-gray-900 font-bold text-lg group-hover:text-amber-600 transition-colors mb-2">The Basement Guide</h3>
+            <p className="text-gray-600 text-sm">Covers basement smells like sewage and basement plumbing guide, where slow drains and sewer odors often trace back to the same organic buildup that enzyme drain cleaners are designed to treat.</p>
+          </a>
+          <a href="https://thegarage.guide" target="_blank" rel="noopener noreferrer" className="group bg-gray-50 border border-gray-200 rounded-xl p-6 hover:border-amber-400 transition-colors">
+            <h3 className="text-gray-900 font-bold text-lg group-hover:text-amber-600 transition-colors mb-2">The Garage Guide</h3>
+            <p className="text-gray-600 text-sm">Covers garage floor drain guide, where floor drains connected to septic systems benefit from the same monthly enzyme maintenance to prevent grease and debris buildup.</p>
+          </a>
+        </div>
+      </section>
 
       {/* Lead Form */}
             <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
