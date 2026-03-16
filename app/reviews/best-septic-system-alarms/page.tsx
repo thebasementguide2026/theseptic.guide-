@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'Why is my septic alarm going off?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The most common causes are a tripped pump breaker, a failed effluent pump, a clogged effluent filter, heavy rain saturating the drainfield, or an overdue tank pumping. Silence the horn, reduce water use immediately, check the circuit breaker, and call a septic professional if you cannot identify the cause.',
+        text: 'The most common causes of a septic alarm going off are a tripped circuit breaker on the pump circuit, a failed effluent pump, a clogged effluent filter, heavy rain saturating the drainfield so the tank cannot discharge, or an overdue tank pumping that has allowed the tank to reach capacity. When the alarm sounds, silence the horn first, then immediately reduce all water use in the house because every gallon you send down the drain makes the situation worse. Check the pump circuit breaker next, and if it has tripped, reset it once and listen for the pump to activate. If the breaker trips again immediately, do not keep resetting it because the pump may have a short circuit or jammed impeller that requires professional repair. If the breaker is fine and the pump sounds normal, the issue may be a saturated drainfield from recent rain or a full tank that needs pumping. Call a septic professional if you cannot identify and resolve the cause within an hour.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'Can I install a septic alarm myself?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Plug-in models like the Briidea and basic Sump Alarm can be installed by any homeowner in under 30 minutes. Hardwired models like the SJE Rhombus and control panels like the CINVEI should be installed by an electrician unless you are comfortable working with 120V wiring.',
+        text: 'Plug-in models like the Briidea High Water Alarm and the Sump Alarm WiFi Sensor can be installed by any homeowner in under 30 minutes with no special tools or electrical knowledge. These models plug into a standard outdoor outlet, and installation involves mounting the control box, dropping the float switch into the tank at the correct height, and plugging it in. Hardwired models like the SJE Rhombus Tank Alert XT require a dedicated 120V circuit and should be installed by a licensed electrician, which typically costs 75 to 150 for the wiring. Control panels like the CINVEI that combine alarm and pump power management should always be installed by a professional because incorrect wiring can damage the pump motor or create a fire hazard. If you are unsure which type you have, ask your septic professional during your next pumping visit and they can recommend and often install the right alarm on the spot.',
       },
     },
     {
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'How loud should a septic alarm be?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'At least 90 dB, which is roughly the volume of a lawn mower. If the alarm is mounted outside and you need to hear it from inside the house, 110 dB is preferred. The Briidea and CINVEI are the loudest on this list at 110 dB.',
+        text: 'A septic alarm should be at least 90 decibels, which is roughly the volume of a lawn mower at close range. If the alarm control box is mounted outside and you need to hear it from inside the house with windows closed, 110 decibels is preferred. The Briidea and CINVEI are the loudest alarms on this list at 110 decibels, while the Sump Alarm WiFi is the quietest at 90 decibels but compensates with email and text notifications that alert you even when you are away from home. Volume matters because the alarm is useless if you cannot hear it, and septic emergencies often happen at night or during storms when background noise is higher. For vacation homes or rental properties where nobody may be on-site to hear a horn, a WiFi-enabled alarm with remote notifications is essential regardless of decibel rating.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'Do I need a WiFi septic alarm?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Only if you have a vacation home, rental property, or travel frequently and want remote notifications. For a primary residence where someone is home most of the time, a standard audible alarm with a bright warning light is sufficient and more reliable because it does not depend on an internet connection.',
+        text: 'A WiFi septic alarm is essential for vacation homes, rental properties, seasonal cabins, and any property where the owner is not on-site daily to hear an audible alarm. The Sump Alarm WiFi Sensor sends free unlimited email alerts when the float triggers, and its server-side backup detects when the alarm loses power or internet and notifies you of that too, which is critical during winter storms that can cause both power outages and frozen septic lines simultaneously. For a primary residence where someone is home most of the time, a standard audible alarm with a bright warning light is sufficient and more reliable because it does not depend on an internet connection or WiFi signal strength. WiFi alarms require a 2.4 GHz WiFi signal at the mounting location, which can be a challenge if the septic tank is far from the house. If you travel frequently for work or extended vacations, the 1.99 per month text and voice alert upgrade on the Sump Alarm is worth considering even for a primary residence.',
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: 'Is a septic alarm the same as a sump pump alarm?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Functionally, yes. Both use a float switch to detect high water and trigger an audible and visual alert. The only difference is the float switch material. Septic environments are more corrosive than clean groundwater, so look for polypropylene floats rated for sewage use.',
+        text: 'Functionally, septic alarms and sump pump alarms work the same way both use a float switch to detect rising water levels and trigger an audible and visual alert. The key difference is the float switch material and construction. Septic environments contain sewage gases, bacteria, and corrosive compounds that degrade standard float switches faster than clean groundwater in a sump pit. Look for float switches made from polypropylene or other materials rated for sewage or wastewater use. A sump pump alarm with a sewage-rated float switch can technically be used in a septic application, but purpose-built septic alarms like the SJE Rhombus and Zoeller are designed and tested specifically for the harsher conditions inside a septic tank or pump chamber. Using a cheap sump alarm with a non-rated float in a septic tank may result in premature float failure and a missed alarm when you need it most.',
       },
     },
     {
@@ -58,7 +58,7 @@ const faqSchema = {
       name: 'How often should I test my septic alarm?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'At least once a year, ideally in the fall before winter. Press the test button and confirm the horn and light work. If you have a WiFi alarm, verify you receive the notification.',
+        text: 'Test your septic alarm at least once a year, ideally in the fall before winter when power outages and frozen ground make septic emergencies most likely. Press the test button on the control box and confirm that both the audible horn and the warning light activate. If your alarm has battery backup like the Zoeller A-Pak, replace the batteries annually because humid conditions near septic tanks degrade batteries faster than normal indoor environments. Manually raise the float switch to confirm it triggers the alarm, and inspect the wire running from the tank to the control box for damage from lawn mowers, rodents, UV degradation, or frost heave. For WiFi alarms, trigger the float and verify you receive the email notification, then check the Sump Alarm dashboard to confirm the server-side backup connection is active. A severed wire or dead battery is the most common reason alarms fail to trigger during an actual emergency.',
       },
     },
     {
@@ -66,7 +66,7 @@ const faqSchema = {
       name: 'My alarm keeps going off after heavy rain. Is that normal?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'It can happen when the drainfield becomes saturated and the tank cannot discharge effluent. Reduce water use and the alarm should clear within 24 to 72 hours as the ground dries. If it happens every time it rains, you likely have a groundwater infiltration issue that needs professional evaluation.',
+        text: 'A septic alarm that triggers during or after heavy rain usually indicates that the drainfield is temporarily saturated and cannot absorb effluent from the tank, causing the water level inside the tank or pump chamber to rise above the float switch trigger point. This can happen during extended heavy rainfall, spring snowmelt, or in areas with high water tables, and it typically resolves within 24 to 72 hours as the ground dries and the drainfield resumes absorbing effluent. Reduce household water use until the alarm clears limit toilet flushes, take short showers, and delay laundry and dishwasher loads. If the alarm triggers every time it rains significantly, you likely have a chronic groundwater infiltration issue, a failing drainfield, or improper grading that directs surface water toward the drainfield. See our septic overflow after rain guide and signs your drainfield is failing guide for diagnosis and solutions. Repeated rain-triggered alarms that are ignored can lead to sewage backup into the home or permanent drainfield damage.',
       },
     },
   ],
