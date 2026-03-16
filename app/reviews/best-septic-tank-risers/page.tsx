@@ -254,6 +254,35 @@ export default function BestSepticTankRisers() {
               </div>
             </div>
           </div>
+
+                  <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Guides</span><div className='flex-1 h-px bg-slate-200'></div></div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
+              <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Tank Pumping Cost</Link>
+              <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>How Often to Pump Your Septic Tank</Link>
+              <Link href='/articles/how-to-find-your-septic-tank' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>How to Find Your Septic Tank</Link>
+              <Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Inspection Cost</Link>
+              <Link href='/maintenance/septic-system-maintenance-checklist' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic System Maintenance Checklist</Link>
+              <Link href='/reviews/best-septic-tank-treatments' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Best Septic Tank Treatments</Link>
+              <Link href='/reviews/best-septic-system-alarms' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Best Septic System Alarms</Link>
+              <Link href='/articles/complete-septic-guide' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Complete Guide to Septic Systems</Link>
+              <Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic System Installation Cost</Link>
+              <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic System Repair Cost</Link>
+              <Link href='/problems/drainfield-failing' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Signs Your Drainfield Is Failing</Link>
+              <Link href='/guides/septic-tank-size-guide' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Tank Size Guide</Link>
+              <Link href='/guides/buying-home-with-septic' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Buying a Home with Septic</Link>
+              <Link href='/guides/selling-home-with-septic-system' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Selling a Home with a Septic System</Link>
+            </div>
+            <div className='mt-6 pt-4 border-t border-slate-200'>
+              <p className='text-xs font-bold text-slate-500 uppercase tracking-wide mb-3'>Our Network</p>
+              <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
+                <a href='https://thebasement.guide/articles/sump-pump-buying-guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Sump Pump Guide &mdash; The Basement Guide</a>
+                <a href='https://thebasement.guide/articles/crawl-space-encapsulation-guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Crawl Space Encapsulation &mdash; The Basement Guide</a>
+                <a href='https://thegarage.guide/problems/water-leaking-into-garage' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Garage Floor Drain Guide &mdash; The Garage Guide</a>
+              </div>
+            </div>
+          </div>
       {/* Lead Form */}
             <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
               <div className='max-w-2xl mx-auto px-4'>
