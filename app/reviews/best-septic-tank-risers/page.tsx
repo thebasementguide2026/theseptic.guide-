@@ -102,6 +102,20 @@ export default function BestSepticTankRisers() {
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Our Picks</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Best Septic Tank Risers: Our Picks</h2>
+            <div className='overflow-x-auto my-6'>
+              <table className='w-full text-xs border-collapse'>
+                <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Your Situation</th><th className='p-2 text-left font-semibold'>Our Pick</th><th className='p-2 text-left font-semibold'>Why</th></tr></thead>
+                <tbody>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Most homeowners (20-inch tank opening)</td><td className='p-2 font-bold'>Polylok 20&quot; Riser Kit</td><td className='p-2'>Complete kit with safety screen, fits the majority of residential tanks</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Tank has a 24-inch opening</td><td className='p-2 font-bold'>Polylok 24&quot; Riser Kit</td><td className='p-2'>Same quality, larger diameter for maximum service access</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Budget is the priority</td><td className='p-2 font-bold'>Tuf-Tite 20&quot; Bundle</td><td className='p-2'>Reliable brand at a lower price, domed lid sheds water</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Tank buried deeper than 18 inches</td><td className='p-2 font-bold'>Polylok 24&quot; Kit + Extra Risers</td><td className='p-2'>Stackable sections reach any depth, 24-inch gives best access</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Want everything in one box including safety screen</td><td className='p-2 font-bold'>Tuf-Tite 20&quot; Four-Piece</td><td className='p-2'>Only bundle that includes safety lid standard, nothing extra to buy</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Homes with children</td><td className='p-2 font-bold'>Polylok 20&quot; or 24&quot; Kit</td><td className='p-2'>Includes safety screen rated at 250 lbs per square foot</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Selling your home soon</td><td className='p-2 font-bold'>Polylok 24&quot; Riser Kit</td><td className='p-2'>24-inch is what inspectors and pumpers prefer, best impression at inspection</td></tr>
+                </tbody>
+              </table>
+            </div>
           <div className='space-y-8'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <div className='flex items-center justify-between mb-3'><h3 className='text-lg font-bold text-slate-900'>Best Overall: Polylok 20&quot; Riser Kit (14&quot; Tall)</h3><span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>Best Overall</span></div>
