@@ -171,7 +171,10 @@ export default function BestDrainCleanersPage() {
       <article className="max-w-4xl mx-auto px-4 py-16">
         {/* Intro */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Most Drain Cleaners Destroy Septic Systems</h2>
+
+174
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+             Septic Systems</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Chemical drain cleaners like Drano, Liquid-Plumr, and store-brand lye-based products contain sodium hydroxide or sulfuric acid. These chemicals dissolve clogs quickly, but they also kill the beneficial bacteria colonies inside your septic tank that are responsible for breaking down solid waste.
           </p>
