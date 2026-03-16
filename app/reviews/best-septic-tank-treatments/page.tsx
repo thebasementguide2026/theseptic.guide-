@@ -210,8 +210,7 @@ export default function BestSepticTankTreatments() {
         {/* Product Reviews */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
-            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>>Our Picks</span>
-            </span>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Our Picks</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Best Septic Tank Treatments and Enzyme Products 2026</h2>
