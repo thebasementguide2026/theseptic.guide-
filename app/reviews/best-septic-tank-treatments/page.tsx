@@ -503,21 +503,76 @@ export default function BestSepticTankTreatments() {
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <div className='grid md:grid-cols-2 gap-4'>
             <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
-            </Link>
-            <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
-              <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
-            </Link>
-            <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
-              <p className='text-slate-600 text-xs'>8 causes and how to fix each one.</p>
-            </Link>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
+                <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
+              </Link>
+              <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
+                <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
+              </Link>
+              <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
+                <p className='text-slate-600 text-xs'>8 causes and how to fix each one.</p>
+              </Link>
+              <Link href='/problems/septic-smell-inside-house' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell Inside the House</h3>
+                <p className='text-slate-600 text-xs'>Common causes of indoor septic odors and how to eliminate them.</p>
+              </Link>
+              <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
+                <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
+              </Link>
+              <Link href='/guides/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Donts</h3>
+                <p className='text-slate-600 text-xs'>Essential rules for protecting your septic system.</p>
+              </Link>
+              <Link href='/articles/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Maintenance Checklist</h3>
+                <p className='text-slate-600 text-xs'>A complete maintenance schedule to keep your system healthy.</p>
+              </Link>
+              <Link href='/reviews/best-drain-cleaners-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Drain Cleaners for Septic</h3>
+                <p className='text-slate-600 text-xs'>Safe drain cleaners that won&apos;t harm your septic system.</p>
+              </Link>
+              <Link href='/reviews/best-septic-safe-laundry-detergent' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Laundry Detergent</h3>
+                <p className='text-slate-600 text-xs'>Top-rated detergents that are safe for septic systems.</p>
+              </Link>
+              <Link href='/reviews/best-septic-safe-cleaning-products' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Cleaning Products</h3>
+                <p className='text-slate-600 text-xs'>Cleaning products that protect your bacterial colony.</p>
+              </Link>
+              <Link href='/reviews/best-toilet-paper-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Toilet Paper for Septic</h3>
+                <p className='text-slate-600 text-xs'>Toilet paper that dissolves quickly and won&apos;t clog your system.</p>
+              </Link>
+              <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+                <p className='text-slate-600 text-xs'>Warning signs of drainfield failure and what to do next.</p>
+              </Link>
+              <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost</h3>
+                <p className='text-slate-600 text-xs'>What to expect to pay for septic pumping in 2026.</p>
+              </Link>
+              <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+                <p className='text-slate-600 text-xs'>Repair costs by problem type and component.</p>
+              </Link>
+            </div>
+            <h3 className='text-lg font-bold text-slate-900 mt-8 mb-4'>Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <a href='https://thebasement.guide/articles/musty-basement-smell' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Musty Basement Smell</h3>
+                <p className='text-slate-600 text-xs'>Odor problems that can originate from or be compounded by septic system issues.</p>
+              </a>
+              <a href='https://thebasement.guide/articles/basement-smells-like-sewage' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Basement Smells Like Sewage</h3>
+                <p className='text-slate-600 text-xs'>Sewage odors in basements that can be related to septic system issues.</p>
+              </a>
+              <a href='https://thegarage.guide/problems/water-leaking-into-garage' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Water Leaking Into Garage</h3>
+                <p className='text-slate-600 text-xs'>Septic-related drainage problems in garages with floor drains.</p>
+              </a>
           </div>
         </div>
 
