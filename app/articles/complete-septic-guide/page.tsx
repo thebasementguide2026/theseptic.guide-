@@ -123,6 +123,7 @@ export default function CompleteSepticGuideArticle() {
 
         {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
+        <p className='text-base text-slate-700 leading-relaxed mb-6'>A septic system is your property&rsquo;s private wastewater treatment plant &mdash; no sewer connection, no utility bill, just a buried tank and drainfield doing the work on your land. The basic setup has four parts: the septic tank, the distribution box, the drainfield (leach field), and the soil around it. With regular pump-outs every 3 to 5 years ($300 to $600) and responsible daily use, a well-built system lasts 25 to 40 years without major issues. This guide covers how every system type works, what maintenance it needs, what things cost when they go wrong, and the warning signs no homeowner should ignore.</p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
         </p>
