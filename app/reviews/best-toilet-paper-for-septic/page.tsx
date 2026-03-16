@@ -236,6 +236,70 @@ export default function BestToiletPaperForSeptic() {
           </div>
         </div>
 
+                  {/* Which Toilet Paper Is Right */}
+          <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-amber-700 font-bold tracking-wider text-xs uppercase'>Quick Match</span>
+              <div className='flex-1 h-px bg-slate-200'></div>
+            </div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-2'>Which Toilet Paper Is Right for Your Septic System?</h2>
+            <p className='text-slate-700 leading-relaxed mb-6'>Find the best pick for your specific situation.</p>
+            <div className='overflow-x-auto'>
+              <table className='w-full border-collapse text-sm'>
+                <thead>
+                  <tr className='bg-slate-800 text-white'>
+                    <th className='text-left p-3 font-semibold'>Your Situation</th>
+                    <th className='text-left p-3 font-semibold'>Our Pick</th>
+                    <th className='text-left p-3 font-semibold'>Why</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-200 bg-white'>
+                    <td className='p-3 text-slate-700 font-medium'>Want the safest option for your system</td>
+                    <td className='p-3 text-slate-900 font-bold'>Scott 1000</td>
+                    <td className='p-3 text-slate-600'>Fastest dissolving mainstream brand, single-ply, proven track record</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700 font-medium'>Want 2-ply comfort without septic risk</td>
+                    <td className='p-3 text-slate-900 font-bold'>Cottonelle Ultra CleanCare</td>
+                    <td className='p-3 text-slate-600'>Best dissolving 2-ply, septic-safe certified</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-white'>
+                    <td className='p-3 text-slate-700 font-medium'>Eco-conscious and want premium quality</td>
+                    <td className='p-3 text-slate-900 font-bold'>Who Gives A Crap Bamboo</td>
+                    <td className='p-3 text-slate-600'>Short bamboo fibers dissolve fast despite 3-ply, no chemical additives</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700 font-medium'>Want unbleached and recycled</td>
+                    <td className='p-3 text-slate-900 font-bold'>Seventh Generation Recycled</td>
+                    <td className='p-3 text-slate-600'>100% recycled fiber, no chlorine bleach, dissolves like single-ply</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-white'>
+                    <td className='p-3 text-slate-700 font-medium'>Budget is the priority</td>
+                    <td className='p-3 text-slate-900 font-bold'>Angel Soft (standard, not Plus)</td>
+                    <td className='p-3 text-slate-600'>Cheapest septic-safe option, widely available everywhere</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'>
+                    <td className='p-3 text-slate-700 font-medium'>Sensitive skin</td>
+                    <td className='p-3 text-slate-900 font-bold'>Who Gives A Crap Bamboo</td>
+                    <td className='p-3 text-slate-600'>Zero additives, no dyes, no fragrances, no chlorine, naturally soft</td>
+                  </tr>
+                  <tr className='border-b border-slate-200 bg-white'>
+                    <td className='p-3 text-slate-700 font-medium'>Vacation home or rental property</td>
+                    <td className='p-3 text-slate-900 font-bold'>Scott 1000</td>
+                    <td className='p-3 text-slate-600'>Fastest dissolving, lowest risk for systems with inconsistent use</td>
+                  </tr>
+                  <tr className='bg-slate-50'>
+                    <td className='p-3 text-slate-700 font-medium'>Have a garbage disposal on septic</td>
+                    <td className='p-3 text-slate-900 font-bold'>Scott 1000</td>
+                    <td className='p-3 text-slate-600'>System already handles extra solids, use the fastest-dissolving paper</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
         {/* Brands to Avoid */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
