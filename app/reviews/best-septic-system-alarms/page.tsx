@@ -553,36 +553,29 @@ export default function BestSepticAlarmsPage() {
         {/* Related Articles */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Articles</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Link href="/reviews/best-septic-tank-treatments" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/septicsavor.jpg" alt="Best Septic Tank Treatments" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Best Septic Tank Treatments 2025</h3>
-              </div>
-            </Link>
-            <Link href="/problems/tank-backing-up" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/1.jpg" alt="Septic Tank Backing Up" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Problem</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic Tank Backing Up? Causes &amp; Fixes</h3>
-              </div>
-            </Link>
-            <Link href="/cost-guides/septic-system-repair-cost" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
-              <div className="relative h-48">
-                <Image src="/septic repair.jpg" alt="Septic Repair Cost" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-              </div>
-              <div className="p-4">
-                <p className="text-amber-600 text-sm font-semibold mb-1">Cost Guide</p>
-                <h3 className="text-gray-900 font-bold group-hover:text-amber-600 transition-colors">Septic System Repair Cost (2026)</h3>
-              </div>
-            </Link>
-          </div>
-        </section>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Link href="/problems/tank-backing-up" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Tank Backing Up: Causes and Fixes</h3></Link>
+              <Link href="/problems/septic-overflow-after-rain" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Overflow After Rain</h3></Link>
+              <Link href="/problems/drainfield-failing" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Signs Your Drainfield Is Failing</h3></Link>
+              <Link href="/problems/septic-smell-inside-house" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Smell Inside the House</h3></Link>
+              <Link href="/problems/slow-drains" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Slow Drains with Septic</h3></Link>
+              <Link href="/cost-guides/septic-system-repair-cost" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic System Repair Cost</h3></Link>
+              <Link href="/articles/septic-tank-pumping-cost" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Tank Pumping Cost</h3></Link>
+              <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">How Often to Pump Your Septic Tank</h3></Link>
+              <Link href="/maintenance/septic-system-maintenance-checklist" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic System Maintenance Checklist</h3></Link>
+              <Link href="/reviews/best-septic-tank-treatments" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Best Septic Tank Treatments</h3></Link>
+              <Link href="/reviews/best-septic-tank-risers" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Best Septic Tank Risers</h3></Link>
+              <Link href="/comparisons/aerobic-vs-anaerobic-septic-systems" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Aerobic vs Anaerobic Septic Systems</h3></Link>
+              <Link href="/articles/complete-septic-guide" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Complete Guide to Septic Systems</h3></Link>
+              <Link href="/guides/septic-system-winter-care" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic System Winter Care</h3></Link>
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Our Network</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a href="https://thebasement.guide/articles/smart-sump-pumps-guide" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Smart Sump Pumps &mdash; The Basement Guide</h3><p className="text-gray-500 text-sm mt-1">Similar float switch and WiFi alert technology to monitor water levels and send smartphone notifications before flooding causes damage.</p></a>
+              <a href="https://thebasement.guide/articles/best-water-leak-detectors" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Best Water Leak Detectors &mdash; The Basement Guide</h3><p className="text-gray-500 text-sm mt-1">WiFi alert technology to monitor water levels and send smartphone notifications before flooding causes damage.</p></a>
+              <a href="https://thegarage.guide/problems/water-leaking-into-garage" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Water Leaking Into Garage &mdash; The Garage Guide</h3><p className="text-gray-500 text-sm mt-1">Water intrusion problems where high-water alarms and float switches can provide early warning.</p></a>
+            </div>
+          </section>
       {/* Lead Form */}
             <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
               <div className='max-w-2xl mx-auto px-4'>
