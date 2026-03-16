@@ -333,7 +333,7 @@ export default function HowToFindYourSepticTank() {
                 If your tank lids are buried below ground, installing risers (<strong>$200 to $400</strong>) brings the access lids to ground level permanently. This eliminates digging fees ($50 to $200) at every future pumping visit and makes routine inspections trivial.
               </p>
               <p className='text-slate-600 leading-relaxed'>
-                Risers pay for themselves in two to three service visits. This is the single best upgrade you can make after locating your tank. Learn more about risers in our <Link href='/reviews/best-tank-risers' className='text-amber-700 underline hover:text-amber-900'>best tank risers</Link> review.
+                Risers pay for themselves in two to three service visits. This is the single best upgrade you can make after locating your tank. Learn more about risers in our <Link href='/reviews/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-900'>best tank risers</Link> review.
               </p>
             </div>
             <div className='border border-slate-200 rounded-lg p-6'>
@@ -440,7 +440,7 @@ export default function HowToFindYourSepticTank() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
               <p className='text-slate-600 text-xs'>Real pricing by tank size, region, and hidden fees to watch for.</p>
             </Link>
-            <Link href='/reviews/best-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h3>
               <p className='text-slate-600 text-xs'>Top-rated risers to bring your tank lids to ground level.</p>
             </Link>
