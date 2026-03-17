@@ -298,7 +298,9 @@ export default function CompleteSepticGuideArticle() {
               </ul>
             </div>
             <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-              <p className='text-red-900 font-bold mb-2 text-sm'>Never Pour Down Drains</p>
+              <p className='text-red-900 font-bold mb-2 text-sm'>Never 308
+                
+              </p>
               <ul className='space-y-1 text-red-800 text-xs'>
                 <li>&#10005; Cooking oil or grease</li>
                 <li>&#10005; Paint or paint thinners</li>
@@ -308,6 +310,7 @@ export default function CompleteSepticGuideArticle() {
               </ul>
             </div>
           </div>
+                    <p className='text-slate-700 leading-relaxed mb-4 text-sm'>If you&rsquo;re a homeowner managing a septic system, water and moisture management in other parts of your property matters just as much. The Basement Guide covers <a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>sump pumps</a>, basement waterproofing, and water intrusion problems that can affect the water table around your drainfield. The Garage Guide covers <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>floor drains and garage drainage</a>. This is important if your garage drain ties into your septic system.</p>
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg my-6'>
             <p className='text-slate-700 font-medium text-sm'>The simplest rule: if it is not human waste or toilet paper, do not flush it. And if it would kill bacteria in a petri dish, do not pour it down the drain.</p>
           </div>
