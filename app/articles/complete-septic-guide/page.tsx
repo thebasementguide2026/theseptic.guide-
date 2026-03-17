@@ -431,7 +431,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the septic tank, held in place by the inlet baffle. Scum builds up over time just like sludge, and if it grows thick enough to reach the outlet pipe it will escape into the drainfield and cause blockages. Avoiding grease, cooking oils, and excessive use of dish soap helps slow scum accumulation between pump-outs.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
@@ -455,7 +455,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank.</dd>
+              <dd className='text-slate-600 text-xs'>A device inside the septic tank, at both the inlet and outlet, that controls how wastewater enters and exits the tank to prevent solids and scum from escaping. The inlet baffle slows incoming wastewater so it doesn&rsquo;t disturb the settled sludge layer, while the outlet baffle blocks floating scum from flowing out toward the drainfield. Damaged or missing baffles are one of the most common findings during septic inspections and are an inexpensive fix compared to the drainfield damage that results if they are left unrepaired.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
@@ -463,7 +463,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Greywater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, and laundry &mdash; everything except toilet waste.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, bathtubs, and laundry &mdash; everything except toilet waste, which is classified separately as blackwater. Greywater still contains soap residue, food particles, grease, and cleaning product chemicals that can harm your septic system&rsquo;s bacterial colony if the wrong products are used. Choosing septic-safe cleaning products and septic-safe laundry detergent significantly reduces the impact greywater has on your system over time.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
