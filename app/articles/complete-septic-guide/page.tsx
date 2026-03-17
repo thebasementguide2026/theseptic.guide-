@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'How does a septic system work in simple terms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A septic system is your home\'s private wastewater treatment setup, handling everything that goes down your drains and toilets without any connection to a city sewer. Wastewater flows into a buried tank where solids sink to the bottom, grease floats to the top, and the clarified liquid in the middle flows out to the drainfield. The drainfield is a network of perforated pipes in gravel trenches where the liquid slowly filters through the soil, and natural microorganisms remove harmful bacteria and contaminants before the water re-enters the groundwater. The whole process happens underground and automatically \u2014 most homeowners never think about it until something goes wrong. The key to keeping it working is protecting the bacterial colony inside the tank by avoiding chemical cleaners, flushing only appropriate materials, and pumping on schedule.',
+        text: 'Wastewater from your house flows into a buried tank where solids settle to the bottom and grease floats to the top. Bacteria break down some of the solids. The clarified liquid in the middle flows out to a drainfield, a network of pipes in gravel trenches buried in your yard. As the liquid filters through the soil, natural microorganisms remove harmful bacteria and contaminants.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'How often should a septic tank be pumped?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most households should pump their septic tank every 3 to 5 years, but the right interval depends on your specific situation. A 1,000-gallon tank serving 4 people needs pumping roughly every 2.5 years, while the same tank serving 2 people can go 5.5 years between pump-outs. Households with garbage disposals, large families, or high water usage should pump more frequently because solids accumulate faster. Skipping pump-outs is the single most common cause of drainfield failure when sludge overflows into the drainfield it clogs the soil and can require a full replacement costing 5,000 to 15,000. See our full septic tank pumping cost guide for a detailed breakdown by tank size and household size.',
+        text: 'Every three to five years for a typical household, according to the EPA. The exact timing depends on tank size, household size, water usage, and whether you use a garbage disposal.',
       },
     },
     {
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'What are the signs of a failing septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The earliest warning signs are slow drains throughout the house not just one fixture, but multiple drains running slowly at the same time and gurgling sounds in the plumbing after flushing or running water. As the problem progresses you may notice foul odors near the tank or drainfield area in the yard, which means effluent is surfacing or gases are escaping. Standing water or soggy soil over the drainfield, and unusually green or lush grass in that same area, are strong indicators that the drainfield is failing and can no longer absorb liquid. Sewage backing up into your lowest drains typically a basement floor drain or ground-floor toilet means the tank is full or there is a blockage that needs immediate attention. Any combination of these signs warrants a professional septic inspection before a manageable problem turns into a full system replacement.',
+        text: 'The most common warning signs are slow drains throughout the house, sewage backing up into drains, foul odors in the yard near the tank or drainfield, standing water or soggy soil over the drainfield, unusually lush green grass over the drainfield, and gurgling sounds in the plumbing.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'How long does a septic system last?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A well-maintained conventional septic system typically lasts 25 to 30 years, and concrete tanks often reach 40 years or more with no issues. The drainfield is generally the component with the shorter lifespan if it gets clogged with solids from an overfull tank or damaged by root intrusion, it may need replacement before the tank does. The three biggest factors that determine lifespan are pumping frequency, what gets flushed and poured down drains, and household water usage. Systems that are pumped on schedule, never receive chemical cleaners or non-biodegradable materials, and aren\'t overloaded with water routinely outlast their expected lifespan. See our dedicated guide on how long septic systems last for a full breakdown by system type and soil conditions.',
+        text: 'A well-maintained conventional system typically lasts 25 to 30 years. Concrete tanks can last 40 years. The drainfield usually fails before the tank. Regular pumping, responsible use, and annual inspections are the biggest factors in extending your system lifespan.',
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: 'Can you have a garbage disposal with a septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You can have a garbage disposal with a septic system, but most septic professionals advise against it or recommend using it as sparingly as possible. Garbage disposals grind food waste into fine particles that flow directly into your septic tank, significantly increasing the volume of solids that accumulate in the sludge layer. More solids means more frequent pump-outs a household with a garbage disposal may need to pump every 1 to 2 years instead of every 3 to 5. If you already have a disposal and don\'t want to remove it, limit use to small amounts, never grind fibrous or starchy foods, and increase your pumping frequency accordingly. Some homeowners install a separate small tank specifically for the disposal discharge, which keeps the added solids out of the main septic tank.',
+        text: 'Yes, but it is not ideal. Garbage disposals significantly increase the amount of solids entering the tank, which means more frequent pumping and faster sludge accumulation. Many septic professionals recommend avoiding garbage disposals entirely or using them sparingly.',
       },
     },
     {
@@ -58,7 +58,7 @@ const faqSchema = {
       name: 'Do septic additives work?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The EPA does not recommend septic additives, and most independent research supports that position a properly functioning septic system already contains all the bacteria it needs to break down waste. Biological additives like RID-X are generally harmless but unnecessary for a healthy system, and the money is better spent on staying current with pump-outs. Chemical additives are a different story and can actively cause harm by breaking up the sludge layer at the bottom of the tank, sending solids into the drainfield where they cause clogs. The one exception worth considering is using a bacterial product after a system has been stressed for example, after a large amount of antibacterial cleaner or bleach has been introduced to help restore bacterial populations. For routine maintenance, the only thing your system needs is pumping on schedule and responsible use. See our best septic tank treatments guide for a breakdown of what actually helps.',
+        text: 'The EPA does not recommend septic additives, and most septic professionals agree. A properly maintained septic system has all the bacteria it needs to function. Additives that claim to eliminate the need for pumping can actually harm your system by breaking up the sludge layer, causing solids to flow into the drainfield and clog it.',
       },
     },
   ],
@@ -123,7 +123,6 @@ export default function CompleteSepticGuideArticle() {
 
         {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>A septic system is your property&rsquo;s private wastewater treatment plant &mdash; no sewer connection, no utility bill, just a buried tank and drainfield doing the work on your land. The basic setup has four parts: the septic tank, the distribution box, the drainfield (leach field), and the soil around it. With regular pump-outs every 3 to 5 years ($300 to $600) and responsible daily use, a well-built system lasts 25 to 40 years without major issues. This guide covers how every system type works, what maintenance it needs, what things cost when they go wrong, and the warning signs no homeowner should ignore.</p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
         </p>
@@ -243,6 +242,28 @@ export default function CompleteSepticGuideArticle() {
                   <td className='p-2 text-center text-slate-700'>Every 3 yrs</td>
                 </tr>
               </tbody>
+            </table>
+          </div>
+
+                    <h3 className='text-xl font-bold text-slate-900 mb-3 mt-8'>Recommended Maintenance Schedule</h3>
+                              <div className='overflow-x-auto my-6'>
+                                            <table className='w-full text-xs border-collapse'>
+                                                            <thead>
+                <tr className='bg-slate-900 text-white'>
+                  <th className='p-2 text-left font-semibold'>Task</th>
+                  <th className='p-2 text-center font-semibold'>Frequency</th>
+                  <th className='p-2 text-left font-semibold'>Why It Matters</th>
+                  <th className='p-2 text-center font-semibold'>Guide</th>
+                </tr>
+              </thead>
+                            <tbody>
+                                              <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Pump the tank</td><td className='p-2 text-center text-slate-700'>Every 3 to 5 years</td><td className='p-2 text-slate-700'>Prevents sludge overflow into the drainfield</td><td className='p-2 text-center'><Link href='/cost-guides' className='text-amber-700 underline hover:text-amber-800'>Pumping Cost Guide</Link></td></tr>
+                                                              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Professional inspection</td><td className='p-2 text-center text-slate-700'>Every 1 to 3 years</td><td className='p-2 text-slate-700'>Catches failing baffles, cracks, and drainfield issues early</td><td className='p-2 text-center'><Link href='/cost-guides' className='text-amber-700 underline hover:text-amber-800'>Inspection Cost Guide</Link></td></tr>
+                                                                              <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Check risers and lids</td><td className='p-2 text-center text-slate-700'>Annually</td><td className='p-2 text-slate-700'>Ensures easy access and prevents surface water from entering the tank</td><td className='p-2 text-center'><Link href='/reviews/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800'>Best Septic Risers</Link></td></tr>
+                                                                                              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Add bacterial treatment</td><td className='p-2 text-center text-slate-700'>Monthly</td><td className='p-2 text-slate-700'>Replenishes beneficial bacteria, especially after heavy cleaning product use</td><td className='p-2 text-center'><Link href='/reviews/best-septic-tank-treatments' className='text-amber-700 underline hover:text-amber-800'>Best Septic Treatments</Link></td></tr>
+                                                                                                              <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Check drainfield area</td><td className='p-2 text-center text-slate-700'>Annually</td><td className='p-2 text-slate-700'>Look for soggy soil, odors, or unusually lush grass, indicating failure</td><td className='p-2 text-center'><Link href='/problems' className='text-amber-700 underline hover:text-amber-800'>Drainfield Failing</Link></td></tr>
+                                                                                                                              <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Divert surface water</td><td className='p-2 text-center text-slate-700'>As needed</td><td className='p-2 text-slate-700'>Excess water over the drainfield saturates soil and prevents proper treatment</td><td className='p-2 text-center'><Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>Complete Septic Guide</Link></td></tr>
+                                                                                                                                            </tbody>
             </table>
           </div>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Pumping costs typically run <strong>$300 to $600</strong>. Annual inspections ($100 to $300) are also recommended and can catch problems early.</p>
@@ -423,51 +444,51 @@ export default function CompleteSepticGuideArticle() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield after solids have settled and grease has floated to the surface. Effluent still contains dissolved organic material, pathogens, and nutrients that require further treatment, which is why the drainfield and surrounding soil are so critical to a functioning system. If effluent reaches the drainfield before it has been properly clarified &mdash; due to an overfull tank or damaged baffles &mdash; it can clog the soil and cause drainfield failure.</dd>
+              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time and is broken down slowly by anaerobic bacteria. Sludge accumulates faster than bacteria can digest it, which is why regular pumping every 3 to 5 years is essential &mdash; once sludge reaches the outlet baffle it begins flowing into the drainfield and causes irreversible damage.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the septic tank, held in place by the inlet baffle. Scum builds up over time just like sludge, and if it grows thick enough to reach the outlet pipe it will escape into the drainfield and cause blockages. Avoiding grease, cooking oils, and excessive use of dish soap helps slow scum accumulation between pump-outs.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>A network of perforated pipes laid in gravel-filled trenches where clarified effluent from the septic tank slowly filters down through the soil for final treatment. The surrounding soil is where the real work happens &mdash; naturally occurring microorganisms remove harmful bacteria, viruses, and excess nutrients before the water re-enters the groundwater supply. Drainfield replacement is the most expensive septic repair a homeowner can face, typically running $5,000 to $15,000, which is why protecting it through proper tank maintenance is so important.</dd>
+              <dd className='text-slate-600 text-xs'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-Box)</dt>
-              <dd className='text-slate-600 text-xs'>A small concrete or plastic box that receives effluent from the septic tank and divides it equally among the drainfield pipe lines. An uneven or clogged D-box causes some drainfield sections to receive too much effluent while others receive too little, accelerating failure in the overloaded areas. D-box inspections are a standard part of a professional septic inspection and can catch imbalances before they cause drainfield damage.</dd>
+              <dd className='text-slate-600 text-xs'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that break down organic waste without requiring oxygen, found naturally inside the septic tank where conditions are oxygen-free. These bacteria are responsible for digesting a portion of the solid waste in the sludge layer, reducing its volume and producing gases that vent through your home&rsquo;s plumbing stack. Protecting this bacterial colony by avoiding chemical drain cleaners, bleach, and antibacterial products is one of the most important things a septic system owner can do.</dd>
+              <dd className='text-slate-600 text-xs'>Bacteria that break down waste without oxygen, found inside the septic tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Aerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function and are used in aerobic treatment units (ATUs) to break down waste more efficiently than conventional anaerobic systems. Because aerobic bacteria are more active, ATUs produce a higher quality effluent that requires less drainfield area, making them a common choice for smaller lots or sites with poor soil conditions. ATUs require more maintenance than conventional systems, including regular inspections and occasional addition of chlorine for final disinfection.</dd>
+              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function, used in aerobic treatment units (ATUs) for enhanced waste breakdown.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Perc Test (Percolation Test)</dt>
-              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains through the ground, used to determine whether a site can support a septic drainfield and what type of system is appropriate. During a perc test, a technician digs test holes, saturates the soil, and measures how many minutes it takes for the water level to drop one inch &mdash; a rate of 1 to 60 minutes per inch is generally acceptable for a conventional drainfield. Sites that fail a perc test due to clay-heavy or saturated soil may still be buildable with an alternative system like a mound system or aerobic treatment unit.</dd>
+              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains, used to determine if a site is suitable for a septic drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A device inside the septic tank, at both the inlet and outlet, that controls how wastewater enters and exits the tank to prevent solids and scum from escaping. The inlet baffle slows incoming wastewater so it doesn&rsquo;t disturb the settled sludge layer, while the outlet baffle blocks floating scum from flowing out toward the drainfield. Damaged or missing baffles are one of the most common findings during septic inspections and are an inexpensive fix compared to the drainfield damage that results if they are left unrepaired.</dd>
+              <dd className='text-slate-600 text-xs'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid up to ground level, providing easy surface access for inspections and pump-outs without requiring excavation each time. Without risers, a technician has to dig up the yard to locate and open the tank lid every time the system needs service, adding time and cost to every visit. Installing risers is one of the most practical upgrades a septic homeowner can make.</dd>
+              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Greywater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, bathtubs, and laundry &mdash; everything except toilet waste, which is classified separately as blackwater. Greywater still contains soap residue, food particles, grease, and cleaning product chemicals that can harm your septic system&rsquo;s bacterial colony if the wrong products are used. Choosing septic-safe cleaning products and septic-safe laundry detergent significantly reduces the impact greywater has on your system over time.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, and laundry &mdash; everything except toilet waste.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens, which requires the full treatment process of the septic tank and drainfield before it can safely return to the environment. Blackwater has a much higher concentration of harmful bacteria and viruses than greywater, which is why what you flush directly impacts the health and longevity of your entire system. Only human waste and toilet paper should ever enter the blackwater stream.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens.</dd>
             </div>
           </div>
         </div>
@@ -482,31 +503,31 @@ export default function CompleteSepticGuideArticle() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How does a septic system work in simple terms?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A septic system is your home&rsquo;s private wastewater treatment setup, handling everything that goes down your drains and toilets without any connection to a city sewer. Wastewater flows into a buried tank where solids sink to the bottom, grease floats to the top, and the clarified liquid in the middle flows out to the drainfield. The drainfield is a network of perforated pipes in gravel trenches where the liquid slowly filters through the soil, and natural microorganisms remove harmful bacteria and contaminants before the water re-enters the groundwater. The whole process happens underground and automatically &mdash; most homeowners never think about it until something goes wrong. The key to keeping it working is protecting the bacterial colony inside the tank by avoiding chemical cleaners, flushing only appropriate materials, and pumping on schedule.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Wastewater from your house flows into a buried tank where solids settle to the bottom and grease floats to the top. Bacteria break down some of the solids. The clarified liquid flows out to a drainfield &mdash; a network of pipes in gravel trenches. As the liquid filters through the soil, natural microorganisms remove harmful bacteria and contaminants.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How often should a septic tank be pumped?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Most households should pump their septic tank every 3 to 5 years, but the right interval depends on your specific situation. A 1,000-gallon tank serving 4 people needs pumping roughly every 2.5 years, while the same tank serving 2 people can go 5.5 years between pump-outs. Households with garbage disposals, large families, or high water usage should pump more frequently because solids accumulate faster. Skipping pump-outs is the single most common cause of drainfield failure &mdash; when sludge overflows into the drainfield it clogs the soil and can require a full replacement costing $5,000 to $15,000.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Every three to five years for a typical household. The exact timing depends on tank size, household size, water usage, and whether you use a garbage disposal.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What are the signs of a failing septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The earliest warning signs are slow drains throughout the house &mdash; not just one fixture, but multiple drains running slowly at the same time &mdash; and gurgling sounds in the plumbing after flushing or running water. As the problem progresses you may notice foul odors near the tank or drainfield, standing water or soggy soil over the drainfield, and unusually green or lush grass in that same area. Sewage backing up into your lowest drains means the tank is full or there is a blockage that needs immediate attention. Any combination of these signs warrants a professional septic inspection.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Slow drains throughout the house, sewage backing up into drains, foul odors near the tank or drainfield, standing water or soggy soil over the drainfield, unusually lush grass over the drainfield, and gurgling sounds in the plumbing.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How long does a septic system last?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A well-maintained conventional septic system typically lasts 25 to 30 years, and concrete tanks often reach 40 years or more. The drainfield is generally the component with the shorter lifespan. The three biggest factors that determine lifespan are pumping frequency, what gets flushed and poured down drains, and household water usage. Systems that are pumped on schedule and never receive chemical cleaners routinely outlast their expected lifespan.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A well-maintained conventional system typically lasts 25 to 30 years. Concrete tanks can last 40 years. Regular pumping, responsible use, and annual inspections are the biggest factors.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can you have a garbage disposal with a septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>You can, but most septic professionals advise against it or recommend using it as sparingly as possible. Garbage disposals grind food waste into fine particles that significantly increase the volume of solids in the sludge layer. A household with a garbage disposal may need to pump every 1 to 2 years instead of every 3 to 5. If you already have one, limit use to small amounts and increase your pumping frequency accordingly.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, but it is not ideal. Garbage disposals significantly increase solids in the tank, meaning more frequent pumping. Many professionals recommend avoiding them or using them sparingly.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Do septic additives work?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA does not recommend septic additives, and most independent research supports that position. Biological additives like RID-X are generally harmless but unnecessary for a healthy system. Chemical additives can actively cause harm by breaking up the sludge layer, sending solids into the drainfield where they cause clogs. The one exception worth considering is using a bacterial product after a system has been stressed &mdash; for example, after a large amount of bleach has been introduced. For routine maintenance, the only thing your system needs is pumping on schedule and responsible use.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA does not recommend septic additives. A properly maintained system has all the bacteria it needs. Additives can actually harm your system by breaking up the sludge layer, causing solids to clog the drainfield.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What is the difference between a septic tank and a sewer system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A septic system treats wastewater entirely on your own property using a buried tank and drainfield &mdash; you own it, you maintain it, and you pay for pumping and repairs out of pocket. A municipal sewer system collects wastewater from many homes through underground pipes and transports it to a centralized treatment plant, where you pay a monthly sewer utility fee instead of maintenance costs. Septic systems are common in rural and suburban areas where homes are too spread out to connect to a sewer main economically. The upfront cost of installing a septic system ($3,000 to $20,000 depending on type) is offset over time by the absence of monthly sewer fees, which can run $50 to $100 per month in many areas.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A septic system treats wastewater on your property using a buried tank and drainfield &mdash; you own and maintain it. A municipal sewer collects wastewater from many homes and treats it at a centralized plant, and you pay a sewer fee.</div>
             </details>
           </div>
         </div>
