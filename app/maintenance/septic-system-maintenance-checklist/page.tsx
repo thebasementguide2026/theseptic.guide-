@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'How often should I maintain my septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Pump every 3 to 5 years, inspect annually or every 3 years for conventional systems, and clean the effluent filter every 6 to 12 months. The EPA recommends that alternative systems with mechanical components be inspected every year.',
+                  text: 'The core maintenance schedule for a conventional septic system is pump the tank every 3 to 5 years ($300 to $600), get a professional inspection every 3 years ($100 to $300), and clean the effluent filter every 6 to 12 months. If your system has any mechanical components -- a pump, aerator, float switch, or alarm -- it needs a professional inspection every year, not every three years, because electrical and mechanical components can fail without visible warning signs. The EPA recommends that alternative systems such as aerobic treatment units, mound systems, and pressure distribution systems be inspected annually, often as a condition of the operating permit. Beyond scheduled maintenance, seasonal checks -- walking the drainfield in spring, cleaning the filter in summer, pumping in fall if due, and monitoring for frozen pipes in winter -- catch problems before they become expensive failures.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'What is the most important septic maintenance task?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Pumping the tank on schedule. Regular pumping prevents solids from escaping into the drainfield, which is the primary cause of the most expensive septic failure: drainfield replacement at $5,000 to $15,000.',
+                  text: 'Pumping the tank on schedule is the single most important septic maintenance task, because it is the only way to remove the accumulated sludge that cannot be broken down by bacteria alone. When sludge builds up past the outlet baffle it begins flowing into the drainfield, clogging the perforated pipes and surrounding soil with solids that cannot be removed -- the damage is permanent and requires drainfield replacement at a cost of $5,000 to $15,000. A homeowner who pumps every 3 to 5 years for 25 years spends $2,000 to $3,500 total on pumping. A homeowner who skips pumping and suffers drainfield failure spends that same amount in a single repair visit, plus faces potential health department fines and landscaping costs on top of the repair.',
       },
     },
     {
@@ -34,15 +34,15 @@ const faqSchema = {
       name: 'When is the best time to pump a septic tank?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fall is ideal. The ground is accessible, the water table is typically at its lowest, and you are clearing the system before winter when access is hardest and problems are most expensive to address.',
       },
+                text: 'Fall is the best time to pump a septic tank for most homeowners. The ground is dry and accessible, the water table is typically at its lowest point of the year, septic companies are less booked than during the spring rush, and pumping in fall means your tank goes into the high-usage winter season with maximum capacity. Spring is the second-best option -- a spring pump-out lets a technician assess how the system handled winter stress while conditions are still assessable. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can shift or float upward. Winter pumping is possible in most climates but adds complexity from frozen ground and buried lids, and should be reserved for situations where pumping is overdue or a problem has been identified.',
     },
     {
       '@type': 'Question',
       name: 'Can I do septic maintenance myself?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Some tasks are DIY-friendly: cleaning the effluent filter, visual inspections, checking lids and ports, testing the alarm, and monitoring for warning signs. Pumping, professional inspections, and any repairs should always be done by licensed professionals. Never enter a septic tank.',
+                  text: 'Several septic maintenance tasks are genuinely DIY-friendly: cleaning the effluent filter (pull it out, hose it off over the open tank, reinsert -- takes five minutes), walking the drainfield seasonally to check for wet spots or odors, checking that lids and risers are secure and undamaged, testing the septic alarm by pressing the test button, and fixing leaky toilets and faucets that add unnecessary water volume to the system. Pumping, professional inspections, baffle repair, and any work that requires opening the main tank lid should always be done by a licensed professional. Never enter a septic tank under any circumstances -- the gases inside (hydrogen sulfide, methane, and carbon dioxide) can cause unconsciousness in seconds and death in minutes, even with the lid open. Even leaning over an open tank is dangerous and should be avoided.',
       },
     },
     {
@@ -51,14 +51,14 @@ const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: '$200 to $500 per year when annualized across pumping, inspections, and filter maintenance. This is a fraction of the cost of emergency repairs from deferred maintenance.',
-      },
     },
     {
+                text: 'When annualized across all tasks, septic maintenance costs $200 to $500 per year for a conventional system on a regular schedule. This breaks down as pumping every 3 to 5 years at $300 to $600 (roughly $75 to $150 per year), professional inspection every 3 years at $100 to $300 (roughly $35 to $100 per year), effluent filter cleaning at $0 if done yourself or up to $100 if done by a technician, and optional monthly bacterial treatment at $10 to $20 per month. Alternative systems with mechanical components (aerobic treatment units, mound systems) cost more -- typically $300 to $600 per year when annual inspections and component checks are included. For context, municipal sewer customers in most areas pay $300 to $600 per year in utility fees, making septic maintenance cost-competitive with sewer when the system is properly maintained.',
       '@type': 'Question',
       name: 'What should I never put in my septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Never flush anything except human waste and septic-safe toilet paper. Never pour grease, chemicals, or medications down drains. Never use chemical drain cleaners like Drano or Liquid-Plumr. Use enzyme-based drain cleaners instead.',
+                  text: 'Never flush anything except human waste and septic-safe toilet paper -- no wet wipes (including brands labeled flushable), no paper towels, no feminine products, no condoms, no dental floss, no medications, and no cigarette butts. Never pour grease, cooking oils, or fats down any drain -- these thicken the scum layer and can block the outlet baffle. Never use chemical drain cleaners like Drano or Liquid-Plumr, which kill the beneficial bacteria your tank depends on to break down solid waste -- use enzyme-based drain cleaners instead. Never pour paint, solvents, motor oil, pesticides, or large amounts of bleach or antibacterial cleaner down any drain.',
       },
     },
     {
@@ -66,15 +66,15 @@ const faqSchema = {
       name: 'Does my septic system need additives or treatments?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The EPA states that septic systems do not need additives to function properly. Enzyme-based treatments can support bacterial populations between pumpings, especially after heavy antibiotic use, but they are a supplement, not a substitute for pumping.',
       },
+                text: 'The EPA states that a properly functioning septic system does not need additives to operate correctly -- the system generates its own bacterial population from normal household waste and does not need supplementation under normal circumstances. Biological additives like monthly enzyme or bacterial treatments are generally harmless and can provide a useful boost after events that stress the bacterial colony -- a round of antibiotics, heavy use of bleach or antibacterial products, or a period of low household occupancy that reduces the natural bacterial input. Chemical additives are a different matter and can actively harm the system by breaking up the sludge layer at the tank bottom, sending solids into the drainfield where they cause irreversible clogs. If you want to use a monthly treatment, stick to enzyme-based or bacterial products. No additive replaces pumping on schedule.',
     },
     {
       '@type': 'Question',
       name: 'How do I know if my septic system is failing?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The most common warning signs are sewage backing up into the house, persistent sewage smell in the yard, standing water over the drainfield, bright green grass over the drainfield during dry weather, and multiple slow drains throughout the house.',
+                  text: 'The earliest warning signs of septic system failure are slow drains throughout the house -- not just one fixture, but multiple drains running slowly at the same time -- and gurgling sounds in the plumbing after flushing or running water. As the problem progresses, you may notice a persistent sewage smell in the yard near the tank or drainfield area, standing water or unusually soggy soil over the drainfield during dry weather, or grass that is noticeably greener over the drainfield than the rest of the yard. Sewage backing up into the lowest drains in the house -- typically a basement floor drain or ground-floor toilet -- is an emergency that requires same-day professional attention. A septic alarm sounding is also an immediate warning that water levels in the tank or pump chamber are dangerously high. Any combination of these signs warrants a professional inspection before a manageable problem turns into a full drainfield replacement.',
       },
     },
     {
@@ -82,8 +82,8 @@ const faqSchema = {
       name: 'Should I get a septic inspection before buying a home?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. A pre-purchase septic inspection ($300 to $500) can reveal problems that cost $5,000 to $25,000 to fix. Many buyers skip this and regret it.',
       },
+                text: 'Yes -- a pre-purchase septic inspection is one of the most important due diligence steps when buying a home on a septic system, and skipping it is one of the most common and costly mistakes home buyers make. A thorough inspection ($300 to $500) can reveal problems that cost $5,000 to $25,000 to repair -- drainfield failure, a cracked or deteriorating tank, missing baffles, or a system that is years overdue for pumping. More than 30 states require a septic inspection as part of a real estate transaction, but even in states where it is not required, an independent inspection before closing protects you from inheriting someone else\'s neglected system. If the inspection reveals problems, you can negotiate a repair credit, require the seller to fix issues before closing, or walk away from the deal entirely.',
     },
   ],
 }
