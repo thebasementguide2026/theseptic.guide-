@@ -165,6 +165,10 @@ export default function SepticMaintenanceChecklistPage() {
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-4 py-16">
 
+        <p className="text-base text-gray-700 leading-relaxed mb-6">A septic system maintenance checklist is a seasonal schedule of inspections, pump-outs, filter cleanings, and daily habits that keep a residential septic system functioning properly and prevent the drainfield failures that cost $5,000 to $15,000 to repair.</p>
+        <p className="text-base text-gray-700 leading-relaxed mb-6">The four essential septic maintenance tasks are pumping the tank every 3 to 5 years ($300 to $600), getting a professional inspection every 1 to 3 years ($100 to $300), cleaning the effluent filter every 6 to 12 months, and following septic-safe habits year-round.</p>
+        <p className="text-base text-gray-700 leading-relaxed mb-6">Maintenance requirements vary by system type &mdash; conventional gravity-fed systems need less frequent professional attention than aerobic treatment units, mound systems, and pressure distribution systems, all of which require annual inspections.</p>
+        <p className="text-base text-gray-700 leading-relaxed mb-12">This guide covers every maintenance task by season, what your specific system type needs, what a quality inspection includes, and the warning signs that mean call a pro immediately.</p>
         {/* Intro */}
         <section className="mb-16">
           <p className="text-gray-700 leading-relaxed mb-4">
