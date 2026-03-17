@@ -128,7 +128,10 @@ export default function DrainfieldFailing() {
 
         {/* Introduction */}
         <div className='prose prose-lg max-w-none'>
-          <p className='text-xl text-slate-700 leading-relaxed mb-8'>
+          <p className='text-slate-600 leading-relaxed mb-8'>
+              A failing drainfield is a septic system condition in which the underground network of perforated pipes and gravel-filled trenches that disperse wastewater into the soil can no longer absorb effluent at an adequate rate. The drainfield, also called a leach field or absorption field, is the final treatment stage of a conventional septic system, where soil microorganisms remove bacteria, viruses, and nutrients from partially treated wastewater before it reaches groundwater. Drainfield failure typically develops gradually over months or years and is most commonly caused by solid waste escaping a neglected septic tank, hydraulic overloading, soil compaction, tree root intrusion, or a drainfield that has reached the end of its 15 to 30 year lifespan. Early signs include slow drains throughout the house and sewage odor in the yard, while advanced failure produces soggy soil, standing sewage on the surface, and sewage backing up into the home.
+            </p>
+            <p className='text-xl text-slate-700 leading-relaxed mb-8'>
             Your drainfield is the most expensive component of your septic system &mdash; and the one most likely to fail. When it does, you&apos;re looking at <strong>$5,000 to $15,000</strong> for a replacement, plus weeks of disruption, landscape restoration, and potentially health department involvement.
           </p>
           <p className='text-slate-600 leading-relaxed mb-8'>
