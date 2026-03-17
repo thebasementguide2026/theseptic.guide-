@@ -454,43 +454,43 @@ export default function SepticPumpingCostArticle() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Septage</dt>
-              <dd className='text-slate-600 text-xs'>The combined mixture of sludge, scum, and liquid waste removed when pumping. Must be transported and disposed of at a licensed treatment facility.</dd>
+              <dd className='text-slate-600 text-xs'>Septage is the combined mixture of sludge, scum, and liquid waste that is removed from a septic tank during pumping, and it is classified as a regulated waste that must be transported and disposed of at a licensed treatment facility. The volume of septage removed during a pump-out is one of the factors that determines disposal fees, which some companies charge separately from their base pumping rate. Always ask your pumping company whether disposal is included in their quoted price or billed as a separate line item.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of heavy solid waste that settles to the bottom of the septic tank. The primary material removed during pumping.</dd>
+              <dd className='text-slate-600 text-xs'>Sludge is the layer of heavy solid waste that settles to the bottom of the septic tank over time and is the primary material targeted during pumping. Sludge accumulates faster than the anaerobic bacteria in the tank can digest it, which is why regular pump-outs every 3 to 5 years are essential to prevent overflow into the drainfield. When sludge depth reaches 30 percent of the tanks total capacity, pumping is overdue regardless of how recently the last service was performed -- see our how often to pump your septic tank guide for measurement guidelines.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the tank. Also removed during pumping.</dd>
+              <dd className='text-slate-600 text-xs'>Scum is the layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the septic tank, held in place by the inlet baffle. Like sludge, scum builds up over time and must be removed during pumping before it grows thick enough to reach the outlet pipe and escape into the drainfield. Minimizing cooking grease, oils, and harsh cleaning products going down your drains slows scum accumulation between pump-outs -- see our best septic-safe cleaning products guide for product recommendations.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially clarified liquid between the sludge and scum layers. After pumping, this is the first thing to refill the tank from normal household use.</dd>
+              <dd className='text-slate-600 text-xs'>Effluent is the partially clarified liquid that sits between the sludge and scum layers inside the septic tank, and it is the material that flows out to the drainfield during normal system operation. Effluent still contains dissolved organic material and pathogens that require further treatment by the soil and microorganisms in the drainfield before it can safely return to the groundwater supply. If sludge or scum levels get too high, these solids contaminate the effluent layer and begin flowing into the drainfield, which is the primary mechanism behind drainfield failure from skipped pumping.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A T-shaped fitting at the inlet and outlet of the septic tank that prevents scum and sludge from leaving the tank. Should be inspected during every pumping visit.</dd>
+              <dd className='text-slate-600 text-xs'>A baffle is a T-shaped fitting installed at the inlet and outlet of the septic tank that prevents scum and sludge from leaving the tank prematurely and entering the drainfield. The inlet baffle slows incoming wastewater so it does not disturb the settled sludge layer, while the outlet baffle blocks the floating scum layer from flowing out with the effluent. Baffles should be inspected during every pumping visit -- cracked or missing baffles are one of the most common causes of premature drainfield failure and cost 150 to 500 to repair, far less than the drainfield replacement they prevent.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent Filter</dt>
-              <dd className='text-slate-600 text-xs'>A screen installed at the tank outlet that catches suspended solids before they reach the drainfield. Needs cleaning or replacement during pumping.</dd>
+              <dd className='text-slate-600 text-xs'>An effluent filter is a screen installed at the tank outlet pipe that catches suspended solids in the effluent before they reach the drainfield, providing an additional layer of protection against clogs. Effluent filters need to be cleaned or replaced during every pumping visit -- a clogged filter can restrict flow and cause backups, while a filter that is never cleaned defeats its purpose entirely. If your tank has an effluent filter and your pumping company is not mentioning it during service, ask specifically whether it was inspected and cleaned.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe from the septic tank lid to ground level. Eliminates the need to dig for pumping and inspection access.</dd>
+              <dd className='text-slate-600 text-xs'>A septic tank riser is a vertical pipe that extends from the buried tank lid up to ground level, providing permanent above-ground access for pumping and inspection without requiring excavation. Installing risers is a one-time cost of 200 to 400 that eliminates the 50 to 200 digging fee charged at every future service visit, meaning they pay for themselves within two to three pump-outs. See our best septic tank risers guide for top-rated riser kits and installation guidance.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Hydro-jetting</dt>
-              <dd className='text-slate-600 text-xs'>A cleaning method using high-pressure water to break up compacted sludge inside the tank. Used when standard pumping cannot remove hardened material.</dd>
+              <dd className='text-slate-600 text-xs'>Hydro-jetting is a tank cleaning method that uses high-pressure water to break up and dislodge compacted sludge that has hardened along the tank walls and floor and cannot be removed by the vacuum pump alone. It is typically recommended for tanks that have gone 7 or more years without pumping, tanks with an unusually thick sludge layer, or systems where standard pumping leaves significant material behind. Hydro-jetting adds 200 to 300 to a standard pump-out and is not needed on every visit -- only when compacted material is found that the vacuum cannot fully extract.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-box)</dt>
-              <dd className='text-slate-600 text-xs'>A small underground box that receives effluent from the septic tank and divides it equally among the drainfield pipes.</dd>
+              <dd className='text-slate-600 text-xs'>A distribution box is a small concrete or plastic underground box that receives clarified effluent from the septic tank outlet and divides it equally among the drainfield pipe lines to ensure even distribution across the entire drainfield area. An uneven or clogged D-box causes some drainfield sections to receive too much effluent while others receive too little, which accelerates failure in the overloaded sections. D-box condition is typically assessed during a full septic inspection -- see our septic inspection cost guide for what a comprehensive inspection includes.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>The network of perforated pipes in gravel-filled trenches where effluent is filtered through soil. Drainfield failure from skipped pumping is the most expensive septic repair.</dd>
+              <dd className='text-slate-600 text-xs'>The drainfield is the network of perforated pipes laid in gravel-filled trenches where clarified effluent from the septic tank slowly filters down through the surrounding soil, where microorganisms remove pathogens and nutrients before the water re-enters the groundwater supply. The drainfield is the most expensive component of a septic system to repair or replace, typically costing 5,000 to 15,000, which is why protecting it through regular pumping is so critical. See our drainfield replacement cost guide and signs your drainfield is failing guide for full details.</dd>
             </div>
           </div>
         </div>
