@@ -423,11 +423,11 @@ export default function CompleteSepticGuideArticle() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
+              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield after solids have settled and grease has floated to the surface. Effluent still contains dissolved organic material, pathogens, and nutrients that require further treatment, which is why the drainfield and surrounding soil are so critical to a functioning system. If effluent reaches the drainfield before it has been properly clarified &mdash; due to an overfull tank or damaged baffles &mdash; it can clog the soil and cause drainfield failure.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time and is broken down slowly by anaerobic bacteria. Sludge accumulates faster than bacteria can digest it, which is why regular pumping every 3 to 5 years is essential &mdash; once sludge reaches the outlet baffle it begins flowing into the drainfield and causes irreversible damage.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
@@ -435,23 +435,23 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
+              <dd className='text-slate-600 text-xs'>A network of perforated pipes laid in gravel-filled trenches where clarified effluent from the septic tank slowly filters down through the soil for final treatment. The surrounding soil is where the real work happens &mdash; naturally occurring microorganisms remove harmful bacteria, viruses, and excess nutrients before the water re-enters the groundwater supply. Drainfield replacement is the most expensive septic repair a homeowner can face, typically running $5,000 to $15,000, which is why protecting it through proper tank maintenance is so important.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-Box)</dt>
-              <dd className='text-slate-600 text-xs'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
+              <dd className='text-slate-600 text-xs'>A small concrete or plastic box that receives effluent from the septic tank and divides it equally among the drainfield pipe lines. An uneven or clogged D-box causes some drainfield sections to receive too much effluent while others receive too little, accelerating failure in the overloaded areas. D-box inspections are a standard part of a professional septic inspection and can catch imbalances before they cause drainfield damage.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that break down waste without oxygen, found inside the septic tank.</dd>
+              <dd className='text-slate-600 text-xs'>Bacteria that break down organic waste without requiring oxygen, found naturally inside the septic tank where conditions are oxygen-free. These bacteria are responsible for digesting a portion of the solid waste in the sludge layer, reducing its volume and producing gases that vent through your home&rsquo;s plumbing stack. Protecting this bacterial colony by avoiding chemical drain cleaners, bleach, and antibacterial products is one of the most important things a septic system owner can do.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Aerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function, used in aerobic treatment units (ATUs) for enhanced waste breakdown.</dd>
+              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function and are used in aerobic treatment units (ATUs) to break down waste more efficiently than conventional anaerobic systems. Because aerobic bacteria are more active, ATUs produce a higher quality effluent that requires less drainfield area, making them a common choice for smaller lots or sites with poor soil conditions. ATUs require more maintenance than conventional systems, including regular inspections and occasional addition of chlorine for final disinfection.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Perc Test (Percolation Test)</dt>
-              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains, used to determine if a site is suitable for a septic drainfield.</dd>
+              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains through the ground, used to determine whether a site can support a septic drainfield and what type of system is appropriate. During a perc test, a technician digs test holes, saturates the soil, and measures how many minutes it takes for the water level to drop one inch &mdash; a rate of 1 to 60 minutes per inch is generally acceptable for a conventional drainfield. Sites that fail a perc test due to clay-heavy or saturated soil may still be buildable with an alternative system like a mound system or aerobic treatment unit.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
@@ -459,7 +459,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
+              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid up to ground level, providing easy surface access for inspections and pump-outs without requiring excavation each time. Without risers, a technician has to dig up the yard to locate and open the tank lid every time the system needs service, adding time and cost to every visit. Installing risers is one of the most practical upgrades a septic homeowner can make.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Greywater</dt>
@@ -467,7 +467,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens, which requires the full treatment process of the septic tank and drainfield before it can safely return to the environment. Blackwater has a much higher concentration of harmful bacteria and viruses than greywater, which is why what you flush directly impacts the health and longevity of your entire system. Only human waste and toilet paper should ever enter the blackwater stream.</dd>
             </div>
           </div>
         </div>
