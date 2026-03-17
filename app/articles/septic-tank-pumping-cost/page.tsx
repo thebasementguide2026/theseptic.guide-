@@ -124,7 +124,7 @@ export default function SepticPumpingCostArticle() {
         </div>
       </section>
 
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/articles' }, { label: 'Septic Tank Pumping Cost' }]} />
+      <Breadcrumbs items={[{ label: 'Articles', href: '/articles' }, { label: 'Septic Tank Pumping Cost' }]} />
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
