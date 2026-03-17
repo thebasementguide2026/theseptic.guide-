@@ -535,25 +535,69 @@ export default function SepticPumpingCostArticle() {
         </div>
 
         {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <div className='mb-16'>
+                            <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+                                      <div className='grid md:grid-cols-2 gap-4'>
+                                                    <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
+              <p className='text-slate-600 text-xs'>How your system works, the different types, maintenance schedules, and warning signs of failure.</p>
             </Link>
-            <Link href='/cost-guides' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>All Septic Cost Guides</h3>
-              <p className='text-slate-600 text-xs'>Installation, repair, inspection, and drainfield replacement costs.</p>
+                        <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
+              <p className='text-slate-600 text-xs'>Exact pumping schedules by tank size and household size with EPA-based intervals.</p>
             </Link>
-            <Link href='/problems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Common Septic Problems</h3>
-              <p className='text-slate-600 text-xs'>Diagnose and fix the most common septic issues.</p>
+                        <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+              <p className='text-slate-600 text-xs'>The 7 warning signs of drainfield failure and what skipped pumping does to your system over time.</p>
             </Link>
-            <Link href='/guides/find-your-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How to Find Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>Step-by-step guide to locating your tank before the pumper arrives.</p>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+              <p className='text-slate-600 text-xs'>Every septic repair priced out from a $50 filter cleaning to a $15,000 drainfield replacement.</p>
             </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
+              <p className='text-slate-600 text-xs'>Full cost breakdown for drainfield rejuvenation and full replacement by system type.</p>
+            </Link>
+            <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h3>
+              <p className='text-slate-600 text-xs'>What each type of inspection costs and what it should include.</p>
+            </Link>
+                        <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h3>
+              <p className='text-slate-600 text-xs'>The one upgrade that eliminates the digging fee at every future pump-out.</p>
+            </Link>
+            <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
+              <p className='text-slate-600 text-xs'>Monthly bacterial treatments that slow sludge accumulation between pump-outs.</p>
+            </Link>
+            <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up</h3>
+              <p className='text-slate-600 text-xs'>What to do if sewage is backing up into your home right now.</p>
+            </Link>
+            <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h3>
+              <p className='text-slate-600 text-xs'>Pre-sale pumping, inspection requirements, and disclosure rules by state.</p>
+            </Link>
+            <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Does Insurance Cover Septic Repair?</h3>
+              <p className='text-slate-600 text-xs'>What homeowners insurance covers and does not cover for septic failures.</p>
+            </Link>
+                      </div>
+        </div>
+
+        {/* From Our Network */}
+        <div className='mb-16'>
+          <h2 className='text-xl font-bold text-slate-900 mb-4'>From Our Network</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-4'>Managing a septic system is one part of a larger picture of home maintenance that most guides treat in isolation.</p>
+          <div className='grid md:grid-cols-2 gap-4'>
+            <a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>The Basement Guide</h3>
+              <p className='text-slate-600 text-xs'>Sump pumps, French drains, and interior drainage systems &mdash; all directly relevant to homeowners managing groundwater around a drainfield.</p>
+            </a>
+            <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>The Garage Guide</h3>
+              <p className='text-slate-600 text-xs'>Floor drains and garage drainage, which matter if your garage drain ties into your septic system.</p>
+            </a>
           </div>
         </div>
 
