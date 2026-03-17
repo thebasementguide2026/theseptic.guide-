@@ -34,9 +34,9 @@ const faqSchema = {
       name: 'When is the best time to pump a septic tank?',
       acceptedAnswer: {
         '@type': 'Answer',
-      },
-                text: 'Fall is the best time to pump a septic tank for most homeowners. The ground is dry and accessible, the water table is typically at its lowest point of the year, septic companies are less booked than during the spring rush, and pumping in fall means your tank goes into the high-usage winter season with maximum capacity. Spring is the second-best option -- a spring pump-out lets a technician assess how the system handled winter stress while conditions are still assessable. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can shift or float upward. Winter pumping is possible in most climates but adds complexity from frozen ground and buried lids, and should be reserved for situations where pumping is overdue or a problem has been identified.',
+                    text: 'Fall is the best time to pump a septic tank for most homeowners. The ground is dry and accessible, the water table is typically at its lowest point of the year, septic companies are less booked than during the spring rush, and pumping in fall means your tank goes into the high-usage winter season with maximum capacity. Spring is the second-best option -- a spring pump-out lets a technician assess how the system handled winter stress while conditions are still assessable. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can shift or float upward. Winter pumping is possible in most climates but adds complexity from frozen ground and buried lids, and should be reserved for situations where pumping is overdue or a problem has been identified.',
     },
+      },
     {
       '@type': 'Question',
       name: 'Can I do septic maintenance myself?',
@@ -50,10 +50,10 @@ const faqSchema = {
       name: 'How much does annual septic maintenance cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: '$200 to $500 per year when annualized across pumping, inspections, and filter maintenance. This is a fraction of the cost of emergency repairs from deferred maintenance.',
+                      text: 'When annualized across all tasks, septic maintenance costs $200 to $500 per year for a conventional system on a regular schedule. This breaks down as pumping every 3 to 5 years at $300 to $600 (roughly $75 to $150 per year), professional inspection every 3 years at $100 to $300 (roughly $35 to $100 per year), effluent filter cleaning at $0 if done yourself or up to $100 if done by a technician, and optional monthly bacterial treatment at $10 to $20 per month. Alternative systems with mechanical components (aerobic treatment units, mound systems) cost more -- typically $300 to $600 per year when annual inspections and component checks are included. For context, municipal sewer customers in most areas pay $300 to $600 per year in utility fees, making septic maintenance cost-competitive with sewer when the system is properly maintained.',
     },
-    {
-                text: 'When annualized across all tasks, septic maintenance costs $200 to $500 per year for a conventional system on a regular schedule. This breaks down as pumping every 3 to 5 years at $300 to $600 (roughly $75 to $150 per year), professional inspection every 3 years at $100 to $300 (roughly $35 to $100 per year), effluent filter cleaning at $0 if done yourself or up to $100 if done by a technician, and optional monthly bacterial treatment at $10 to $20 per month. Alternative systems with mechanical components (aerobic treatment units, mound systems) cost more -- typically $300 to $600 per year when annual inspections and component checks are included. For context, municipal sewer customers in most areas pay $300 to $600 per year in utility fees, making septic maintenance cost-competitive with sewer when the system is properly maintained.',
+    },
+        {
       '@type': 'Question',
       name: 'What should I never put in my septic system?',
       acceptedAnswer: {
@@ -66,9 +66,9 @@ const faqSchema = {
       name: 'Does my septic system need additives or treatments?',
       acceptedAnswer: {
         '@type': 'Answer',
-      },
                 text: 'The EPA states that a properly functioning septic system does not need additives to operate correctly -- the system generates its own bacterial population from normal household waste and does not need supplementation under normal circumstances. Biological additives like monthly enzyme or bacterial treatments are generally harmless and can provide a useful boost after events that stress the bacterial colony -- a round of antibiotics, heavy use of bleach or antibacterial products, or a period of low household occupancy that reduces the natural bacterial input. Chemical additives are a different matter and can actively harm the system by breaking up the sludge layer at the tank bottom, sending solids into the drainfield where they cause irreversible clogs. If you want to use a monthly treatment, stick to enzyme-based or bacterial products. No additive replaces pumping on schedule.',
     },
+          },
     {
       '@type': 'Question',
       name: 'How do I know if my septic system is failing?',
@@ -82,9 +82,9 @@ const faqSchema = {
       name: 'Should I get a septic inspection before buying a home?',
       acceptedAnswer: {
         '@type': 'Answer',
-      },
                 text: 'Yes -- a pre-purchase septic inspection is one of the most important due diligence steps when buying a home on a septic system, and skipping it is one of the most common and costly mistakes home buyers make. A thorough inspection ($300 to $500) can reveal problems that cost $5,000 to $25,000 to repair -- drainfield failure, a cracked or deteriorating tank, missing baffles, or a system that is years overdue for pumping. More than 30 states require a septic inspection as part of a real estate transaction, but even in states where it is not required, an independent inspection before closing protects you from inheriting someone else\'s neglected system. If the inspection reveals problems, you can negotiate a repair credit, require the seller to fix issues before closing, or walk away from the deal entirely.',
     },
+      },
   ],
 }
 
