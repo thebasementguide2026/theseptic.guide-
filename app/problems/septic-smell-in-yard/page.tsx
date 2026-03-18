@@ -188,7 +188,7 @@ export default function SepticSmellInYard() {
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>2. Damaged or Unsealed Tank Lid</h3>
               <p className='text-slate-700 text-sm mb-2'><strong>The cause:</strong> Your septic tank lid creates a seal that keeps gases contained. Concrete lids can crack or shift over time. Plastic lids have rubber gaskets that deteriorate. If the seal is broken, hydrogen sulfide escapes directly into the air above the tank.</p>
-              <p className='text-slate-700 text-sm mb-2'>This is the most overlooked cause of septic smell. According to the <a href='https://extension.umn.edu/septic-system-maintenance' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>University of Minnesota Onsite Sewage Treatment Program</a>, damaged rubber seals on plastic lids are a frequent source of yard odors.</p>
+              <p className='text-slate-700 text-sm mb-2'>This is the most overlooked cause of septic smell. According to the <a href='https://www.epa.gov/septic/how-your-septic-system-works' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA guidance on septic system maintenance</a>, damaged rubber seals on plastic lids are a frequent source of yard odors.</p>
               <p className='text-slate-700 text-sm mb-2'><strong>How to confirm:</strong> Locate your tank lid and check for visible cracks, a missing gasket, or a lid that doesn&apos;t sit flush. If you have risers, check that the riser-to-tank connection is sealed and the riser lid is tightly fastened.</p>
               <p className='text-amber-700 font-semibold text-sm'>The fix: Replace the rubber gasket on plastic lids ($10 to $30 DIY). Apply weather stripping to concrete lids as a temporary seal ($5 to $15). Replace a cracked lid entirely ($100 to $300). Upgrade to a modern riser with a screw-down lid and integrated gasket ($200 to $400) for a permanent solution.</p>
             </div>
@@ -324,35 +324,35 @@ export default function SepticSmellInYard() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Hydrogen Sulfide</dt>
-              <dd className='text-slate-600 text-xs'>A gas produced by anaerobic bacteria during waste decomposition. Responsible for the rotten-egg smell associated with septic systems. Unpleasant at low concentrations and potentially dangerous at high concentrations in enclosed spaces.</dd>
+              <dd className='text-slate-600 text-xs'>Hydrogen sulfide is a colorless gas produced by anaerobic bacteria during the decomposition of organic waste inside the septic tank, responsible for the distinctive rotten-egg smell associated with septic systems. At low concentrations found outdoors it is unpleasant but not immediately harmful, however at higher concentrations in enclosed spaces it can cause headaches, nausea, respiratory irritation, and loss of consciousness, which is why septic tanks must never be entered without proper confined space safety equipment.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Methane</dt>
-              <dd className='text-slate-600 text-xs'>A flammable, odorless gas produced during anaerobic decomposition in the septic tank. While methane itself has no smell, it is produced alongside hydrogen sulfide, which does.</dd>
+              <dd className='text-slate-600 text-xs'>Methane is a colorless, odorless, and highly flammable gas produced alongside hydrogen sulfide during anaerobic decomposition in the septic tank, posing a fire and explosion risk if it accumulates in an enclosed space such as a basement, crawl space, or utility room near a septic access point. While methane itself has no smell, its presence alongside hydrogen sulfide means that any detectable septic odor indicates methane is also being released.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Plumbing Vent Pipe</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe extending through the roof of your home that allows septic gases to escape above the roofline and equalizes air pressure in the plumbing system. A blocked or short vent causes gases to exit through the tank or back into the house.</dd>
+              <dd className='text-slate-600 text-xs'>The plumbing vent pipe is a vertical pipe that extends through the roof of the home, serving two functions: it allows septic gases to escape safely above the roofline where wind disperses them, and it equalizes air pressure in the plumbing system so drains flow freely without gurgling or siphoning. When the vent pipe is blocked by debris, ice, or a bird&apos;s nest, or when it is too short to clear roofline air currents in a sheltered location, gases back up and exit through the tank, inspection ports, or back into the home through floor drain P-traps.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe or shaft from the septic tank lid to ground level. Modern risers include screw-down lids with rubber gaskets that create an airtight seal, preventing gas escape. Older risers or poorly sealed lids are a common source of yard odors.</dd>
+              <dd className='text-slate-600 text-xs'>A septic tank riser is a vertical pipe or shaft that extends from the buried tank lid up to ground level, eliminating the need to excavate the yard for routine inspection and pumping access. Modern risers include screw-down lids with integrated rubber gaskets that create an airtight seal to prevent gas escape, while older risers or risers with deteriorated gaskets are a frequent and commonly overlooked source of persistent yard odor.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Biomat</dt>
-              <dd className='text-slate-600 text-xs'>A bacterial layer that forms on drainfield trench surfaces. When biomat becomes excessively thick from solids entering the drainfield, it traps gases beneath the soil surface, which eventually escape and produce odor in the yard.</dd>
+              <dd className='text-slate-600 text-xs'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent passes through, and a thin biomat is a normal and beneficial part of the treatment process. When biomat becomes excessively thick from solids entering the drainfield due to infrequent tank pumping, it seals the trench surfaces, traps gases beneath the soil, and eventually forces those gases to the surface where they produce a persistent sewage odor concentrated over the drainfield area.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Activated Carbon Filter</dt>
-              <dd className='text-slate-600 text-xs'>A filter placed on top of the plumbing vent pipe that absorbs hydrogen sulfide and other odorous gases before they enter the air. Needs to be replaced annually and removed during freezing weather to prevent ice blockage.</dd>
+              <dd className='text-slate-600 text-xs'>An activated carbon filter is a canister-style filter placed on top of the plumbing vent pipe that absorbs hydrogen sulfide and other odorous gases before they enter the surrounding air, providing a simple and inexpensive solution for homes where vent pipe gases are being pushed downward by wind rather than dispersed upward. The filter needs to be replaced annually as the carbon becomes saturated, and it must be removed during freezing weather because moisture condensation can cause it to ice over and block the vent entirely, which creates a more serious problem than the odor it was installed to solve.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>P-trap</dt>
-              <dd className='text-slate-600 text-xs'>A U-shaped pipe section under sinks and floor drains that holds water to create a seal against sewer gas. When the water in a P-trap evaporates from infrequent use, septic gases can enter the home through that drain.</dd>
+              <dd className='text-slate-600 text-xs'>A P-trap is the U-shaped pipe section installed under sinks, tubs, and floor drains that holds a small amount of standing water at all times, creating a water seal that blocks septic gases from traveling back up through the drain and into the living space. When a floor drain or infrequently used fixture goes dry because the water in the trap has evaporated, that seal is broken and septic gases can enter the home directly through the open drain, which is a common and easily overlooked cause of indoor septic odor that can be fixed by simply running water down the drain to refill the trap.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-box)</dt>
-              <dd className='text-slate-600 text-xs'>A small underground chamber that divides effluent equally among drainfield lines. A cracked or tilted D-box can cause uneven distribution, overloading one section of the drainfield and producing localized odor.</dd>
+              <dd className='text-slate-600 text-xs'>A distribution box is a small, watertight underground chamber that receives effluent from the septic tank outlet pipe and divides it equally among the multiple trench lines that make up the drainfield, ensuring no single section is overloaded. When the D-box cracks, shifts out of level, or becomes partially blocked, it sends a disproportionate volume of effluent to one drainfield section, overloading that area, causing localized odor above it, and leaving other sections underused.</dd>
             </div>
           </div>
         </div>
