@@ -580,28 +580,62 @@ export default function DrainfieldFailing() {
           </div>
         </div>
 
-        {/* Related Articles */}
-        <div className='mt-16'>
-          <h2 className='text-3xl font-black text-slate-900 mb-8'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-6'>
-            <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
-              <p className='text-slate-600 text-xs'>What to do when sewage backs up and how to prevent it.</p>
-            </Link>
-            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Real pricing by tank size, region, and hidden fees to watch for.</p>
-            </Link>
-            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
-              <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size.</p>
-            </Link>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and more.</p>
-            </Link>
+          {/* Related Guides */}
+          <div className='mt-16'>
+            <h2 className='text-3xl font-black text-slate-900 mb-8'>Related Guides</h2>
+
+            <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
+            <div className='grid md:grid-cols-2 gap-6 mb-10'>
+              <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
+                <p className='text-slate-600 text-xs'>What to do when sewage backs up into your home and how to prevent it from happening again.</p>
+              </Link>
+              <Link href='/problems/septic-smell-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
+                <p className='text-slate-600 text-xs'>What causes sewage odor outside, how to trace the source, and when it signals a drainfield problem.</p>
+              </Link>
+              <Link href='/problems/slow-drains' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains on a Septic System</h3>
+                <p className='text-slate-600 text-xs'>How to tell whether slow drains are a plumbing issue, a full tank, or an early sign of drainfield failure.</p>
+              </Link>
+              <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
+                <p className='text-slate-600 text-xs'>Real pricing by tank size and region, and why regular pumping is the single best way to protect your drainfield.</p>
+              </Link>
+              <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
+                <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size.</p>
+              </Link>
+              <Link href='/articles/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
+                <p className='text-slate-600 text-xs'>A full cost breakdown for conventional replacement, mound systems, and alternative technologies.</p>
+              </Link>
+              <Link href='/articles/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+                <p className='text-slate-600 text-xs'>What individual repairs cost, from D-box replacement to pipe repair to full drainfield rehabilitation.</p>
+              </Link>
+              <Link href='/articles/septic-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
+                <p className='text-slate-600 text-xs'>The complete maintenance schedule for keeping your septic system and drainfield healthy long-term.</p>
+              </Link>
+              <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
+                <p className='text-slate-600 text-xs'>How your entire septic system works, the role of the drainfield, and what proper maintenance looks like from start to finish.</p>
+              </Link>
+            </div>
+
+            <h3 className='text-lg font-bold text-slate-900 mb-4'>From Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-6'>
+              <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+                <p className='text-slate-600 text-xs'>If your yard has drainage problems that are stressing your drainfield, a properly installed sump pump system can help redirect groundwater away from the absorption area.</p>
+              </a>
+              <a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+                <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners managing water intrusion and yard drainage alongside a septic system.</p>
+              </a>
+            </div>
           </div>
-        </div>
 
       {/* Lead Form */}
             <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
