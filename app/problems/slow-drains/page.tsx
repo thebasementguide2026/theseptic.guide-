@@ -429,32 +429,62 @@ export default function SlowDrains() {
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <div className='grid md:grid-cols-2 gap-4'>
             <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up?</h3>
-              <p className='text-slate-600 text-xs'>Causes, emergency steps, and how to fix and prevent backups.</p>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
+              <p className='text-slate-600 text-xs'>When slow drains escalate into a full backup, this guide covers emergency steps, causes, and how to fix and prevent it.</p>
             </Link>
             <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs, causes, and what to do when your drainfield is struggling.</p>
+              <p className='text-slate-600 text-xs'>If slow drains persist after pumping, this guide walks through every drainfield warning sign and what each one means for repair or replacement.</p>
             </Link>
             <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
-              <p className='text-slate-600 text-xs'>8 causes of outdoor septic odor and the specific fix for each one.</p>
+              <p className='text-slate-600 text-xs'>Slow drains and yard odor often appear together as early warning signs of a system under stress. Eight causes and the specific fix for each.</p>
             </Link>
             <Link href='/problems/septic-overflow-after-rain' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Overflow After Rain</h3>
-              <p className='text-slate-600 text-xs'>Why it happens, emergency steps, and long-term fixes.</p>
+              <p className='text-slate-600 text-xs'>Why heavy rain causes slow drains and overflow in septic homes, and what to do when it happens.</p>
+            </Link>
+            <Link href='/problems/septic-smell-inside-house' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell Inside the House</h3>
+              <p className='text-slate-600 text-xs'>A blocked vent stack causing slow drains can also push septic gases back into the home. This guide covers the causes specific to indoor odor.</p>
             </Link>
             <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
+              <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size, since an overdue pump-out is the most common cause of whole-house slow drains.</p>
+            </Link>
+            <Link href='/cost-guides/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
+              <p className='text-slate-600 text-xs'>Real pricing by tank size and region so you know what to expect before calling for service.</p>
             </Link>
             <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
-              <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
+              <p className='text-slate-600 text-xs'>The complete list of what causes clogs, kills tank bacteria, and accelerates sludge buildup that leads to slow drains.</p>
+            </Link>
+            <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
+              <p className='text-slate-600 text-xs'>The full maintenance schedule for keeping your tank, effluent filter, and drainfield healthy and your drains flowing freely long term.</p>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+              <p className='text-slate-600 text-xs'>What individual repairs cost, from snaking a main line and replacing an effluent filter to drainfield rejuvenation and full replacement.</p>
+            </Link>
+            <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
+              <p className='text-slate-600 text-xs'>Bacteria-based treatments that support tank health and help reduce sludge accumulation between pump-outs.</p>
             </Link>
           </div>
+          <h3 className='text-lg font-bold text-slate-900 mt-8 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-4'>
+            <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+              <p className='text-slate-600 text-xs'>If seasonal groundwater or yard drainage issues are hydraulically overloading your septic system and slowing your drains, a properly designed sump pump system can redirect that water away from the septic area.</p>
+            </a>
+            <a href='https://thebasement.guide/reviews/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+              <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners dealing with water intrusion and drainage problems that contribute to septic system overload and slow drains.</p>
+            </a>
+          </div>
         </div>
-
         {/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Slow Drains Won&apos;t Fix Themselves</h2>
