@@ -345,6 +345,86 @@ export default function DrainfieldFailing() {
           </div>
         </div>
 
+                {/* Symptom Quick-Reference Chart */}
+        <div className='mt-16'>
+          <h2 className='text-3xl font-black text-slate-900 mb-6'>Symptom Quick-Reference Chart</h2>
+          <p className='text-slate-600 leading-relaxed mb-8'>Use this table to match your current symptoms to the most likely next step.</p>
+          <div className='overflow-x-auto mb-8'>
+            <table className='w-full border-collapse'>
+              <thead>
+                <tr className='bg-slate-900 text-white'>
+                  <th className='text-left p-4 font-bold'>Symptom or Condition</th>
+                  <th className='text-left p-4 font-bold'>Likely Cause</th>
+                  <th className='text-left p-4 font-bold'>Recommended Action</th>
+                  <th className='text-left p-4 font-bold'>Replacement Needed?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Slow drains, multiple fixtures</td>
+                  <td className='p-4 text-slate-600'>Full tank, clogged filter, early drainfield stress</td>
+                  <td className='p-4 text-slate-600'>Pump tank, inspect filter and baffles</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Not yet</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Gurgling sounds in plumbing</td>
+                  <td className='p-4 text-slate-600'>Restriction downstream of tank</td>
+                  <td className='p-4 text-slate-600'>Pump tank, inspect outlet pipe and D-box</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Not yet</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Sewage odor in yard, no visible pooling</td>
+                  <td className='p-4 text-slate-600'>Effluent near surface, early absorption failure</td>
+                  <td className='p-4 text-slate-600'>Reduce water use, professional inspection</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Possibly</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Lush green grass over drainfield</td>
+                  <td className='p-4 text-slate-600'>Effluent reaching root zone, absorption slowing</td>
+                  <td className='p-4 text-slate-600'>Pump tank, assess drainfield load</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Possibly</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Soggy or spongy soil in dry weather</td>
+                  <td className='p-4 text-slate-600'>Absorption capacity exceeded</td>
+                  <td className='p-4 text-slate-600'>Stop heavy water use, professional inspection</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Likely</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Standing water or surfacing sewage</td>
+                  <td className='p-4 text-slate-600'>Complete absorption failure in affected area</td>
+                  <td className='p-4 text-slate-600'>Emergency pump-out, stop all water use</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Very likely</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Sewage backing up into house</td>
+                  <td className='p-4 text-slate-600'>Total system failure</td>
+                  <td className='p-4 text-slate-600'>Emergency service, stop all water use</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Yes</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Temporary wet soil after heavy rain</td>
+                  <td className='p-4 text-slate-600'>Hydraulic overload from saturation</td>
+                  <td className='p-4 text-slate-600'>Reduce water use, allow drainfield to dry</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Not if it recovers</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>One drainfield section failing, others fine</td>
+                  <td className='p-4 text-slate-600'>Failing or unlevel distribution box</td>
+                  <td className='p-4 text-slate-600'>Replace D-box ($500 to $1,500)</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Not if caught early</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Pipes crushed or collapsed</td>
+                  <td className='p-4 text-slate-600'>Vehicle traffic or structural weight</td>
+                  <td className='p-4 text-slate-600'>Excavate and replace damaged lines</td>
+                  <td className='p-4 text-slate-900 font-semibold'>Partial or full</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* Drainfield Replacement */}
         <div className='mt-16'>
           <h2 className='text-3xl font-black text-slate-900 mb-6'>Drainfield Replacement: What to Expect</h2>
