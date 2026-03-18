@@ -467,35 +467,35 @@ export default function DrainfieldFailing() {
           <div className='space-y-6'>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Drainfield (leach field, absorption field)</h3>
-              <p className='text-slate-600 text-sm'>The network of perforated pipes in gravel-filled trenches where septic tank effluent is distributed into the soil for final treatment. The most expensive component of a septic system to replace.</p>
+              <p className='text-slate-600 text-sm'>The drainfield is the underground network of perforated pipes buried in gravel-filled trenches where septic tank effluent is distributed into the surrounding soil for final treatment and natural purification. It is the most expensive component of a conventional septic system to replace, with costs ranging from 5,000 to 20,000 depending on soil conditions and system type. See also Complete Septic System Guide and Drainfield Replacement Cost.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Biomat</h3>
-              <p className='text-slate-600 text-sm'>A layer of biological material (bacteria, organic solids, and slime) that forms on the bottom and sides of drainfield trenches. A thin biomat is normal and aids in treatment. A thick biomat caused by excess solids seals the soil and prevents effluent absorption, leading to failure.</p>
+              <p className='text-slate-600 text-sm'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent passes through. A thin biomat is normal and actually aids in treatment by filtering pathogens, but a thick biomat caused by excess solids entering the drainfield from a neglected septic tank seals the soil and prevents effluent absorption, which leads to system failure. See also How Often Should You Pump Your Septic Tank and Best Septic Tank Treatments.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Effluent</h3>
-              <p className='text-slate-600 text-sm'>The partially treated liquid that exits the septic tank and flows to the drainfield. Clean effluent keeps the drainfield healthy. Effluent contaminated with solids from a neglected tank damages the drainfield.</p>
+              <p className='text-slate-600 text-sm'>Effluent is the partially treated liquid wastewater that exits the septic tank after solids have settled to the bottom as sludge and lighter materials have floated to the top as scum. Clean effluent that is low in solids flows to the drainfield and percolates safely into the soil, while effluent contaminated with solids from a tank that has not been pumped on schedule clogs the drainfield and accelerates biomat formation. See also Complete Septic System Guide and What You Can and Cannot Flush.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Perc test (percolation test)</h3>
-              <p className='text-slate-600 text-sm'>A soil test that measures how quickly water drains through the soil at a specific site. Required before installing or replacing a drainfield to ensure the soil can absorb effluent at an adequate rate.</p>
+              <p className='text-slate-600 text-sm'>A perc test is a soil evaluation that measures how quickly water drains through the ground at a specific location, used to determine whether a site can support a septic drainfield and what type of system is appropriate. It is required by most local health departments before a new drainfield can be installed or an existing one replaced, and the results directly affect what type of system can be permitted and how much it will cost. See also Septic System Installation Cost and Drainfield Replacement Cost.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Distribution box (D-box)</h3>
-              <p className='text-slate-600 text-sm'>A small underground box that divides effluent equally among multiple drainfield trench lines. A failing D-box sends too much effluent to one section while the rest sits idle, overloading part of the drainfield.</p>
+              <p className='text-slate-600 text-sm'>A distribution box is a small, watertight underground box that receives effluent from the septic tank outlet pipe and divides it equally among the multiple trench lines that make up the drainfield. When a D-box cracks, shifts, or becomes unleveled, it sends a disproportionate volume of effluent to one section of the drainfield while other sections sit underused, overloading part of the system and causing premature failure in that area. See also Septic System Repair Cost.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Hydraulic overload</h3>
-              <p className='text-slate-600 text-sm'>When more water enters the septic system than the drainfield can absorb. Caused by excessive water use, leaky fixtures, or external water sources (rain, runoff) draining toward the drainfield.</p>
+              <p className='text-slate-600 text-sm'>Hydraulic overload occurs when the volume of water entering the septic system exceeds the drainfield&apos;s capacity to absorb and treat it, causing effluent to back up or rise toward the surface. Common causes include excessive daily water use, doing multiple loads of laundry in a single day, leaky toilets or faucets adding continuous low-level flow, and external water sources such as roof runoff or sump pump discharge draining toward the drainfield area. See also Septic System Maintenance Checklist and Septic Dos and Don&apos;ts.</p>
             </div>
             <div className='border-b border-slate-200 pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Soil compaction</h3>
-              <p className='text-slate-600 text-sm'>Permanent compression of soil caused by vehicle traffic, heavy structures, or construction equipment over the drainfield. Compacted soil loses its ability to absorb water and cannot be restored without excavation.</p>
+              <p className='text-slate-600 text-sm'>Soil compaction is the permanent compression of soil particles caused by vehicle traffic, heavy equipment, or the weight of structures placed over the drainfield, which reduces the pore space that allows effluent to percolate through the ground. Unlike other forms of drainfield damage, soil compaction cannot be reversed without full excavation and soil replacement, making prevention through the permanent exclusion of vehicles and structures from the drainfield area the only viable strategy. See also Septic System Maintenance Checklist.</p>
             </div>
             <div className='pb-4'>
               <h3 className='font-bold text-slate-900 mb-1'>Root intrusion</h3>
-              <p className='text-slate-600 text-sm'>When tree or shrub roots grow into drainfield pipes and trenches, blocking effluent distribution and potentially crushing pipe sections. Prevented by maintaining a 30-foot clearance between trees and drainfield components.</p>
+              <p className='text-slate-600 text-sm'>Root intrusion occurs when the roots of trees, shrubs, or other deep-rooted plants grow into drainfield pipes and trenches in search of the moisture and nutrients in effluent, physically blocking flow and potentially cracking or collapsing pipe sections over time. The standard prevention guideline is to maintain a minimum 30-foot clearance between any tree or large shrub and all drainfield components, including the distribution box and connecting pipes. See also How to Find Your Septic Tank.</p>
             </div>
           </div>
         </div>
