@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'What causes a septic tank to back up?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The most common cause is a tank that is overdue for pumping. Other causes include clogged inlet pipes from grease or tree roots, blocked inlet baffles, clogged effluent filters, drainfield failure, heavy rain saturating the soil, and flushing non-degradable items.',
+        text: 'The most common cause is a tank that is overdue for pumping, where accumulated sludge and scum leave no room for incoming wastewater to settle and block the outlet baffle so effluent cannot exit to the drainfield. Other causes include a clogged inlet pipe from grease buildup, non-flushable items, or tree roots growing into the line between the house and the tank. A blocked inlet baffle, a clogged effluent filter, drainfield failure, and heavy rain saturating the soil around the drainfield are all additional causes that produce similar symptoms. The fastest way to narrow down the cause is to check whether multiple fixtures are affected simultaneously, whether there is odor or wet soil in the yard, and whether the tank water level is above normal when inspected through the access port. A licensed septic professional can confirm the exact cause and recommend the appropriate repair during an inspection.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'Is sewage backing up dangerous?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Sewage contains bacteria including E. coli and Salmonella, viruses, parasites, and other pathogens that can cause serious illness through skin contact, ingestion, or inhalation of airborne particles. Wear protective gear during any contact with sewage and sanitize all affected surfaces thoroughly.',
+        text: 'Yes, sewage backup is a serious health hazard. Sewage contains bacteria including E. coli and Salmonella, viruses, parasites, and other pathogens capable of causing gastrointestinal illness, skin infections, and respiratory irritation from airborne gases including hydrogen sulfide and methane. Anyone who comes into contact with backed-up sewage should wash exposed skin thoroughly with soap and water, and protective gear including rubber gloves, waterproof boots, and a mask should be worn during any cleanup. Porous materials such as carpet, carpet padding, and upholstered furniture that have been saturated with sewage cannot be adequately sanitized and should be discarded. Children, elderly individuals, and anyone with a compromised immune system should be kept entirely away from affected areas until cleanup and sanitization are complete.',
       },
     },
     {
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'How much does it cost to fix a septic backup?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'It depends on the cause. A simple pump-out costs $300 to $600 plus $150 to $300 for emergency service. Clearing a clogged inlet pipe runs $100 to $500. Replacing an effluent filter costs $50 to $200. Drainfield repair or replacement is $5,000 to $15,000.',
+        text: 'The cost depends entirely on what is causing the backup. A routine pump-out to address a full tank costs 300 to 600, with an additional emergency surcharge of 150 to 300 for after-hours service. Clearing a clogged inlet pipe with a snake or hydro-jetting runs 100 to 500 depending on the severity and location of the blockage. An effluent filter cleaning is typically included in the cost of a pump-out, while replacement costs 50 to 200. If the backup is caused by drainfield failure, replacement costs 5,000 to 15,000 for a conventional system or up to 20,000 for a mound or alternative system. Professional biohazard cleanup for sewage that has entered the home adds 2,000 to 10,000 depending on the extent of contamination.',
       },
     },
     {
@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'Can heavy rain cause a septic backup?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Heavy or prolonged rain can saturate the soil around the drainfield, preventing it from absorbing effluent. This is usually temporary. Once the soil dries out and the tank is pumped, the system typically returns to normal function. Do not pump the tank during active flooding.',
+        text: 'Yes, heavy or prolonged rain can saturate the soil around the drainfield, temporarily preventing it from absorbing effluent and causing the system to back up into the house. This is one of the more common causes of backups that homeowners do not expect, particularly after several days of continuous rain or a major storm event. The situation is usually temporary and the system typically returns to normal once the soil dries out and the tank is pumped to relieve pressure on the drainfield. Do not pump the tank during active flooding because an empty tank in waterlogged, saturated soil can float out of the ground, causing significant and expensive damage. Long-term prevention involves directing roof runoff, downspouts, sump pump discharge, and surface water away from the tank and drainfield area.',
       },
     },
     {
@@ -50,7 +50,7 @@ const faqSchema = {
       name: 'Will pumping the tank fix the backup?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'If the backup was caused by a full tank, yes. But if the backup was caused by a clogged pipe, broken baffle, root intrusion, or drainfield failure, pumping alone will not solve the underlying issue.',
+        text: 'Pumping the tank will fix the backup if the cause was simply a tank that was full and overdue for service, which is the most common scenario. However, if the backup was caused by a clogged inlet pipe, a broken or blocked baffle, tree root intrusion into the sewer line, a clogged effluent filter, or drainfield failure, pumping will provide only temporary relief and the backup will return once the tank fills again. A professional septic pumper will typically inspect the baffles, check the effluent filter, and assess whether effluent is draining properly to the drainfield during the pump-out visit, which can help identify whether additional repairs are needed. If the backup returns within days or weeks of a pump-out, the underlying cause has not been addressed and a more thorough inspection is warranted. Always ask the technician to confirm the cause before assuming a pump-out has fully resolved the problem.',
       },
     },
     {
@@ -58,7 +58,7 @@ const faqSchema = {
       name: 'Should I use Drano or drain cleaner for a septic backup?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Never. Chemical drain cleaners contain harsh acids or alkalis that kill the bacteria your septic system depends on. A single dose can sterilize the tank for days, allowing raw sewage to pass through untreated. Use a plunger or a mechanical drain snake instead.',
+        text: 'Never use chemical drain cleaners for a septic backup. Products like Drano contain harsh caustic or acidic chemicals that kill the beneficial bacteria your septic tank depends on to break down waste, and a single application can disrupt the biological activity in the tank for days or weeks. Beyond harming the system, chemical drain cleaners will not clear a backup caused by a full tank, a blocked baffle, a clogged effluent filter, or drainfield failure, meaning they cause damage without solving the problem. For a localized clog in a single drain, a plunger or mechanical drain snake is a safe alternative that will not harm the septic system. For a system-wide backup affecting multiple fixtures, stop all water use and call a licensed septic professional rather than attempting any chemical or DIY fix.',
       },
     },
   ],
@@ -394,27 +394,27 @@ export default function SepticTankBackingUp() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What causes a septic tank to back up?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The most common cause is a tank that&apos;s overdue for pumping. Other causes include clogged inlet pipes (often from grease or tree roots), blocked inlet baffles, clogged effluent filters, drainfield failure, heavy rain saturating the soil, and flushing non-degradable items.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The most common cause is a tank that&apos;s overdue for pumping, where accumulated sludge and scum leave no room for incoming wastewater to settle and block the outlet baffle so effluent cannot exit to the drainfield. Other causes include a clogged inlet pipe from grease buildup, non-flushable items, or tree roots growing into the line between the house and the tank. A blocked inlet baffle, a clogged effluent filter, drainfield failure, and heavy rain saturating the soil around the drainfield are all additional causes that produce similar symptoms. The fastest way to narrow down the cause is to check whether multiple fixtures are affected simultaneously, whether there is odor or wet soil in the yard, and whether the tank water level is above normal when inspected through the access port. A licensed septic professional can confirm the exact cause and recommend the appropriate repair during an inspection.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Is sewage backing up dangerous?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes. Sewage contains bacteria including E. coli and Salmonella, viruses, parasites, and other pathogens that can cause serious illness. Wear protective gear during any contact and sanitize all affected surfaces thoroughly.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, sewage backup is a serious health hazard. Sewage contains bacteria including E. coli and Salmonella, viruses, parasites, and other pathogens capable of causing gastrointestinal illness, skin infections, and respiratory irritation from airborne gases including hydrogen sulfide and methane. Anyone who comes into contact with backed-up sewage should wash exposed skin thoroughly with soap and water, and protective gear including rubber gloves, waterproof boots, and a mask should be worn during any cleanup. Porous materials such as carpet, carpet padding, and upholstered furniture that have been saturated with sewage cannot be adequately sanitized and should be discarded. Children, elderly individuals, and anyone with a compromised immune system should be kept entirely away from affected areas until cleanup and sanitization are complete.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to fix a septic backup?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>It depends on the cause. A pump-out costs $300 to $600 plus $150 to $300 for emergency service. Clearing a clogged pipe runs $100 to $500. Effluent filter replacement costs $50 to $200. Drainfield replacement is $5,000 to $15,000. See our <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800'>pumping cost guide</Link> for details.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The cost depends entirely on what is causing the backup. A routine pump-out to address a full tank costs $300 to $600, with an additional emergency surcharge of $150 to $300 for after-hours service. Clearing a clogged inlet pipe with a snake or hydro-jetting runs $100 to $500 depending on the severity and location of the blockage. An effluent filter cleaning is typically included in the cost of a pump-out, while replacement costs $50 to $200. If the backup is caused by drainfield failure, replacement costs $5,000 to $15,000 for a conventional system or up to $20,000 for a mound or alternative system. Professional biohazard cleanup for sewage that has entered the home adds $2,000 to $10,000 depending on the extent of contamination. See our <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800'>pumping cost guide</Link> for details.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can heavy rain cause a septic backup?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes. Heavy or prolonged rain can saturate the soil around the drainfield. This is usually temporary. Once the soil dries and the tank is pumped, the system typically returns to normal. Do not pump during active flooding.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, heavy or prolonged rain can saturate the soil around the drainfield, temporarily preventing it from absorbing effluent and causing the system to back up into the house. This is one of the more common causes of backups that homeowners do not expect, particularly after several days of continuous rain or a major storm event. The situation is usually temporary and the system typically returns to normal once the soil dries out and the tank is pumped to relieve pressure on the drainfield. Do not pump the tank during active flooding because an empty tank in waterlogged, saturated soil can float out of the ground, causing significant and expensive damage. Long-term prevention involves directing roof runoff, downspouts, sump pump discharge, and surface water away from the tank and drainfield area.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Will pumping the tank fix the backup?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>If the backup was caused by a full tank, yes. But if it was caused by a clogged pipe, broken baffle, root intrusion, or drainfield failure, pumping alone won&apos;t solve the underlying issue.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Pumping the tank will fix the backup if the cause was simply a tank that was full and overdue for service, which is the most common scenario. However, if the backup was caused by a clogged inlet pipe, a broken or blocked baffle, tree root intrusion into the sewer line, a clogged effluent filter, or drainfield failure, pumping will provide only temporary relief and the backup will return once the tank fills again. A professional septic pumper will typically inspect the baffles, check the effluent filter, and assess whether effluent is draining properly to the drainfield during the pump-out visit, which can help identify whether additional repairs are needed. If the backup returns within days or weeks of a pump-out, the underlying cause has not been addressed and a more thorough inspection is warranted. Always ask the technician to confirm the cause before assuming a pump-out has fully resolved the problem.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Should I use Drano or drain cleaner for a septic backup?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Never. Chemical drain cleaners kill the bacteria your septic system depends on. A single dose can sterilize the tank for days. Use a plunger or mechanical drain snake instead. For a system-wide backup, call a professional.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Never use chemical drain cleaners for a septic backup. Products like Drano contain harsh caustic or acidic chemicals that kill the beneficial bacteria your septic tank depends on to break down waste, and a single application can disrupt the biological activity in the tank for days or weeks. Beyond harming the system, chemical drain cleaners will not clear a backup caused by a full tank, a blocked baffle, a clogged effluent filter, or drainfield failure, meaning they cause damage without solving the problem. For a localized clog in a single drain, a plunger or mechanical drain snake is a safe alternative that will not harm the septic system. For a system-wide backup affecting multiple fixtures, stop all water use and call a licensed septic professional rather than attempting any chemical or DIY fix.</div>
             </details>
           </div>
         </div>
