@@ -126,6 +126,12 @@ export default function SepticTankBackingUp() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
 
+                <div className='prose prose-lg max-w-none mb-12'>
+            <p className='text-slate-600 leading-relaxed'>
+              A septic tank backup is a plumbing emergency in which wastewater can no longer flow from the house through the septic system and instead reverses direction, entering the home through the lowest drains such as basement floor drains, ground-floor bathtubs, and toilets. A septic backup occurs when the system&apos;s capacity to move or absorb wastewater is blocked at one or more points, including a full tank, a clogged inlet or outlet pipe, a blocked baffle, a clogged effluent filter, or a drainfield that has failed or become temporarily saturated. Unlike a single drain clog, a septic backup affects multiple fixtures throughout the house simultaneously and is accompanied by gurgling sounds, sewage odor indoors or in the yard, and wastewater surfacing at the lowest points in the plumbing first. Septic backups require immediate action to stop water use, protect occupants from exposure to pathogens, and call a licensed septic professional to diagnose and resolve the underlying cause.
+            </p>
+          </div>
+
         {/* Emergency Steps */}
         <div className='bg-red-50 border-2 border-red-300 rounded-xl p-6 mb-12'>
           <h2 className='text-xl font-bold text-red-800 mb-4'>If Sewage Is Backing Up Right Now:</h2>
