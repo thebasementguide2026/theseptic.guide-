@@ -389,28 +389,63 @@ export default function SepticSmellInYard() {
         </div>
 
         {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
-            </Link>
-            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs, causes, and what to do when your drainfield is struggling.</p>
-            </Link>
-            <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up?</h3>
-              <p className='text-slate-600 text-xs'>Causes, emergency steps, and how to fix and prevent backups.</p>
-            </Link>
-            <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
-              <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe and what damages your system.</p>
-            </Link>
+          <div className='mb-16'>
+            <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+                <p className='text-slate-600 text-xs'>The full warning sign progression from earliest to latest, what causes drainfield failure, and when a persistent yard smell means the drainfield is in serious trouble.</p>
+              </Link>
+              <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
+                <p className='text-slate-600 text-xs'>What to do when a septic smell in the yard escalates into a full backup, including emergency steps and causes.</p>
+              </Link>
+              <Link href='/problems/slow-drains-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains on a Septic System</h3>
+                <p className='text-slate-600 text-xs'>How slow drains and yard odor often appear together as early warning signs of a system under stress.</p>
+              </Link>
+              <Link href='/problems/septic-smell-in-house' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell Inside the House</h3>
+                <p className='text-slate-600 text-xs'>If gases are entering the home rather than escaping outdoors, this guide covers the causes specific to indoor septic odor.</p>
+              </Link>
+              <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
+                <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size, since an overdue pump-out is the most common cause of yard odor.</p>
+              </Link>
+              <Link href='/cost-guides/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
+                <p className='text-slate-600 text-xs'>Real pricing by tank size and region so you know what to expect before you call.</p>
+              </Link>
+              <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h3>
+                <p className='text-slate-600 text-xs'>Upgrading to a riser with a sealed screw-down lid eliminates one of the most common and overlooked sources of yard odor permanently.</p>
+              </Link>
+              <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
+                <p className='text-slate-600 text-xs'>Bacteria-based treatments that can help restore bacterial balance and reduce gas production when chemical exposure is behind the smell.</p>
+              </Link>
+              <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
+                <p className='text-slate-600 text-xs'>The complete list of what kills beneficial bacteria, disrupts tank pH, and contributes to the kind of bacterial imbalance that causes excess odor.</p>
+              </Link>
+              <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+                <p className='text-slate-600 text-xs'>What individual repairs cost, from sewer line camera inspections and D-box replacement to full drainfield rehabilitation.</p>
+              </Link>
+            </div>
+            <h3 className='text-lg font-bold text-slate-900 mt-8 mb-4'>From Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+                <p className='text-slate-600 text-xs'>If seasonal groundwater or yard drainage issues are saturating your drainfield and causing recurring odor, a properly designed sump pump system can help redirect water away from the septic area.</p>
+              </a>
+              <a href='https://thebasement.guide/reviews/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+                <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners dealing with water intrusion and drainage problems that stress the septic system and contribute to yard odor.</p>
+              </a>
+            </div>
           </div>
-        </div>
-
+        
         {/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need Help Diagnosing the Smell?</h2>
