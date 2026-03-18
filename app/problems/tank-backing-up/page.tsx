@@ -191,7 +191,37 @@ export default function SepticTankBackingUp() {
           </div>
         </div>
 
-        {/* Seven Common Causes */}
+        {/* Backup Symptom Chart */}
+            <div className='mb-16'>
+              <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Is Causing My Backup?</h2>
+              <p className='text-slate-700 leading-relaxed mb-6 text-sm'>Match your symptoms to the most likely cause and recommended next step.</p>
+              <div className='overflow-x-auto my-6'>
+                <table className='w-full text-xs border-collapse'>
+                  <thead>
+                    <tr className='bg-slate-900 text-white'>
+                      <th className='p-2 text-left font-semibold'>What You Are Observing</th>
+                      <th className='p-2 text-left font-semibold'>Most Likely Cause</th>
+                      <th className='p-2 text-left font-semibold'>Recommended Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Only one fixture backing up, others drain fine</td><td className='p-2 text-slate-700'>Localized plumbing clog</td><td className='p-2 text-slate-700'>Call a plumber, snake the drain ($100 to $300)</td></tr>
+                    <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Multiple fixtures slow or backing up simultaneously</td><td className='p-2 text-slate-700'>Full tank, blocked baffle, or clogged effluent filter</td><td className='p-2 text-slate-700'>Stop water use, call septic professional for pump-out and inspection</td></tr>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Lowest drains affected first (basement, ground floor)</td><td className='p-2 text-slate-700'>Septic system backup, not a plumbing clog</td><td className='p-2 text-slate-700'>Stop water use immediately, call septic professional</td></tr>
+                    <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Gurgling from multiple fixtures when water runs</td><td className='p-2 text-slate-700'>Restriction downstream of tank</td><td className='p-2 text-slate-700'>Pump tank, inspect outlet baffle and effluent filter</td></tr>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Sewage odor indoors with no visible backup</td><td className='p-2 text-slate-700'>Blocked vent pipe or early system backup</td><td className='p-2 text-slate-700'>Inspect vent stack, have tank checked</td></tr>
+                    <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage odor in yard near tank or drainfield</td><td className='p-2 text-slate-700'>Effluent near surface, possible drainfield stress</td><td className='p-2 text-slate-700'>Professional inspection, check drainfield absorption</td></tr>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Soggy soil or standing water over drainfield</td><td className='p-2 text-slate-700'>Drainfield failure or temporary saturation</td><td className='p-2 text-slate-700'>Stop heavy water use, pump tank, assess drainfield</td></tr>
+                    <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Backup started after several days of heavy rain</td><td className='p-2 text-slate-700'>Soil saturation around drainfield</td><td className='p-2 text-slate-700'>Reduce water use, allow soil to dry, pump tank</td></tr>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Backup returned within weeks of a pump-out</td><td className='p-2 text-slate-700'>Underlying cause not resolved by pumping alone</td><td className='p-2 text-slate-700'>Full inspection for root intrusion, broken baffle, or drainfield failure</td></tr>
+                    <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Tank water level above inlet pipe on inspection</td><td className='p-2 text-slate-700'>Drainfield not accepting effluent</td><td className='p-2 text-slate-700'>Professional drainfield assessment, possible replacement</td></tr>
+                    <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Tank water level normal on inspection</td><td className='p-2 text-slate-700'>Blockage between house and tank</td><td className='p-2 text-slate-700'>Snake or hydro-jet the inlet pipe ($100 to $500)</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Seven Common Causes */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Causes</span>
