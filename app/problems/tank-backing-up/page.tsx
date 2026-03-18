@@ -449,28 +449,64 @@ export default function SepticTankBackingUp() {
           </div>
         </div>
 
-        {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
-            </Link>
-            <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
-              <p className='text-slate-600 text-xs'>The complete list of what&apos;s safe, what&apos;s harmful, and why it matters.</p>
-            </Link>
-            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Real pricing by tank size, region, and hidden fees.</p>
-            </Link>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
-          </div>
-        </div>
+            {/* Related Guides */}
+            <div className='mb-16'>
+              <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
+              <p className='text-slate-500 text-xs mb-4'>On theseptic.guide</p>
+              <div className='grid md:grid-cols-2 gap-4'>
+                <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+                  <p className='text-slate-600 text-xs'>The complete warning sign progression from earliest to latest, what causes drainfield failure, and when replacement is unavoidable.</p>
+                </Link>
+                <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
+                  <p className='text-slate-600 text-xs'>What causes sewage odor outside, how to trace the source, and when outdoor smell signals a backup is coming.</p>
+                </Link>
+                <Link href='/problems/slow-drains' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains on a Septic System</h3>
+                  <p className='text-slate-600 text-xs'>How to tell whether slow drains are a plumbing issue, a full tank, or an early warning sign of a system-wide backup.</p>
+                </Link>
+                <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
+                  <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size to prevent the most common cause of backups.</p>
+                </Link>
+                <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
+                  <p className='text-slate-600 text-xs'>Real pricing by tank size and region, plus emergency pump-out surcharges and what to expect from a service visit.</p>
+                </Link>
+                <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
+                  <p className='text-slate-600 text-xs'>The complete list of what is safe to flush, what causes clogs and backups, and what never belongs in a septic system.</p>
+                </Link>
+                <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
+                  <p className='text-slate-600 text-xs'>Full cost breakdown for conventional replacement, mound systems, and alternative technologies when drainfield failure is behind the backup.</p>
+                </Link>
+                <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
+                  <p className='text-slate-600 text-xs'>What individual repairs cost, from inlet pipe snaking and baffle replacement to full drainfield rehabilitation.</p>
+                </Link>
+                <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Does Insurance Cover Septic Repair and Replacement?</h3>
+                  <p className='text-slate-600 text-xs'>What standard policies cover, what they exclude, and how a water backup endorsement can protect you from cleanup and repair costs.</p>
+                </Link>
+                <Link href='/reviews/best-septic-system-alarms' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic System Alarms</h3>
+                  <p className='text-slate-600 text-xs'>Alarms that alert you when tank levels reach a critical point so you can act before a backup reaches your home.</p>
+                </Link>
+              </div>
+              <p className='text-slate-500 text-xs mt-6 mb-4'>From Our Network</p>
+              <div className='grid md:grid-cols-2 gap-4'>
+                <a href='https://thebasement.guide/sump-pumps/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+                  <p className='text-slate-600 text-xs'>If heavy rain is repeatedly saturating your drainfield and triggering backups, a properly designed sump pump system can redirect groundwater away from the septic area.</p>
+                </a>
+                <a href='https://thebasement.guide/sump-pumps/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+                  <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners dealing with water intrusion and yard drainage problems that stress the septic system.</p>
+                </a>
+              </div>
+            </div>
 
         {/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
