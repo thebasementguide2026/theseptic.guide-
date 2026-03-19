@@ -288,6 +288,22 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/septicwinter.jpg',
   },
+    {
+    title: 'Septic Tank Cleaning vs Pumping: What\u2019s the Difference and Which Do You Need?',
+    description: 'Septic tank cleaning and pumping are not the same service. Learn the difference, when you need each, what each costs, and how to avoid paying for work you don\u2019t need.',
+    slug: 'septic-tank-cleaning-vs-pumping',
+    category: 'Article',
+    readTime: '20 min read',
+    image: '/septictankcleaningvspumping.jpg',
+  },
+  {
+    title: 'Do Septic Tank Additives Work? The Complete 2026 Guide',
+    description: 'The EPA does not recommend septic additives for healthy systems. Here is exactly what each type does, what the research says, when a biological additive might actually help, and what to avoid entirely.',
+    slug: 'septic-tank-additives',
+    category: 'Article',
+    readTime: '20 min read',
+    image: '/septictanksadditives.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
