@@ -191,6 +191,9 @@ export default function SepticInspectionCostPage() {
 
       {/* Intro Section */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+                <p className="text-base text-slate-700 leading-relaxed mb-6">
+            A septic inspection is a professional evaluation of an on-site wastewater treatment system in which a licensed inspector assesses the condition and functionality of the septic tank, drainfield, baffles, effluent filter, and distribution box to determine whether the system is operating correctly and identify any deficiencies requiring repair. The EPA recommends inspections every one to three years for routine homeowner maintenance, and most real estate transactions involving a property with a septic system require one before closing. Unlike a home inspection, which covers the septic system only superficially, a dedicated septic inspection opens the tank, measures sludge and scum levels, and evaluates components that are entirely underground and invisible from the surface.
+          </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
           A septic inspection costs <strong>$150 to $650</strong> depending on the type. A routine maintenance inspection runs <strong>$150 to $300</strong> and takes 30 to 60 minutes. A real estate transaction inspection costs <strong>$300 to $650</strong> and takes 2 to 4 hours. A camera inspection adds <strong>$125 to $500</strong> on top of either type. The national average across all inspection types is approximately <strong>$400</strong>.
         </p>
