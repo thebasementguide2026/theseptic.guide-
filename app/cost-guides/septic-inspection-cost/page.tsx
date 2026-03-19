@@ -548,11 +548,11 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Comprehensive inspection</h4>
-            <p className="text-sm text-gray-700">A thorough evaluation that includes pumping the tank, measuring sludge and scum levels, inspecting baffles and filters, checking the distribution box, probing the drainfield, and producing a written report.</p>
+            <p className="text-sm text-gray-700">A comprehensive inspection is a thorough professional evaluation that includes pumping the tank, measuring sludge and scum levels with a sludge judge, inspecting the inlet and outlet baffles and effluent filter, opening and checking the distribution box, probing the drainfield for saturation or failure, running a flow test, and producing a detailed written report with photos and repair recommendations. It is the appropriate inspection level every three to five years for routine homeowner maintenance and the minimum standard for any real estate transaction involving a property with a septic system.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Title 5 inspection</h4>
-            <p className="text-sm text-gray-700">A state-mandated septic inspection protocol used in Massachusetts (and similar programs in other states) that is required at property transfer. More rigorous and more expensive than a standard inspection.</p>
+            <p className="text-sm text-gray-700">A Title 5 inspection is a state-mandated septic evaluation protocol required in Massachusetts at every property transfer, refinancing, and change of use, established under the Massachusetts Title 5 regulations to protect public health and groundwater quality. It is more rigorous and more expensive than a standard inspection, typically costing 400 to 900, and a system that fails Title 5 must be repaired or replaced before the property can be transferred.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Flow test</h4>
@@ -560,7 +560,7 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Dye test</h4>
-            <p className="text-sm text-gray-700">A diagnostic test where non-toxic dye is flushed into the system. The inspector then checks the drainfield area and surrounding soil for dye breakout, which indicates the drainfield is not containing effluent properly.</p>
+            <p className="text-sm text-gray-700">A dye test is a diagnostic procedure in which non-toxic colored dye is flushed into the septic system and the inspector then checks the drainfield area, surrounding soil, and nearby water features for dye breakout, which indicates that the drainfield is not properly containing and absorbing effluent. It is an effective and inexpensive way to confirm suspected drainfield failure or surface breakout of effluent, though it cannot detect problems in the tank interior or pipe condition.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Distribution box (D-box)</h4>
