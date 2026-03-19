@@ -692,7 +692,8 @@ export default function SepticInspectionCostPage() {
 
         {/* CTA */}
         <div className="bg-gray-900 text-white rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold mb-2">Need a Septic Inspection?</h2>
+          <h2 className="text-2xl font-bold mb-2">600
+             Inspection?</h2>
           <p className="text-gray-300 mb-4">Get free quotes from licensed septic inspectors in your area.</p>
           <Link href="/#get-quote" className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
             Get Free Quotes
