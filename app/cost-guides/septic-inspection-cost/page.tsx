@@ -544,7 +544,7 @@ export default function SepticInspectionCostPage() {
         <div className="space-y-4 mb-12">
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Visual inspection</h4>
-            <p className="text-sm text-gray-700">The most basic septic inspection level. The inspector walks the property and looks for external signs of problems without opening the tank. Does not measure sludge levels or inspect internal components.</p>
+            <p className="text-sm text-gray-700">A visual inspection is the most basic level of septic evaluation in which the inspector walks the property surface, checks the drainfield area for standing water, soggy soil, odor, and unusually green grass, and provides a verbal summary of findings without opening the tank or measuring any internal components. It is useful as a quick annual check between full inspections for a system known to be healthy and well-maintained, but it is not sufficient for a real estate transaction, a suspected problem, or any system that has not been professionally inspected in more than three years.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Comprehensive inspection</h4>
@@ -568,11 +568,11 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Sludge level</h4>
-            <p className="text-sm text-gray-700">The depth of settled solids at the bottom of the septic tank. When sludge reaches one-third of the tank&#39;s total depth, it is time to pump. Measured during inspections using a sludge judge or similar tool.</p>
+            <p className="text-sm text-gray-700">The sludge level is the measured depth of settled solid waste at the bottom of the septic tank, determined during an inspection using a sludge judge or similar measuring tool, and compared to the tanks total depth to calculate what percentage of the tanks capacity has been consumed by accumulated solids. When the sludge layer reaches one third of the tanks total depth or comes within 12 inches of the outlet tee, the EPA recommends pumping to prevent solids from escaping into the drainfield where they cause irreversible clogging.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Effluent filter</h4>
-            <p className="text-sm text-gray-700">A filter on the septic tank outlet pipe that catches solids before they reach the drainfield. Should be checked and cleaned at every inspection and pumping.</p>
+            <p className="text-sm text-gray-700">An effluent filter is a removable screen installed at the outlet pipe of the septic tank that catches suspended solids before they reach the drainfield, and it should be checked, cleaned, and if necessary replaced at every inspection and pump-out visit. A clogged effluent filter restricts outflow from the tank and produces the same whole-house slow drain symptoms as a full tank, making it one of the most commonly overlooked causes of apparent system problems that is actually an inexpensive maintenance fix.</p>
           </div>
         </div>
 
