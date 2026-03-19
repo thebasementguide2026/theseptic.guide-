@@ -133,16 +133,9 @@ export default function SepticInstallationCostArticle() {
                   <p className='text-base text-slate-700 leading-relaxed mb-6'>
             Septic system installation cost is the total expense of designing, permitting, excavating, and constructing a new on-site wastewater treatment system on a residential property, encompassing the septic tank, drainfield, connecting pipes, distribution box, and all associated labor, permitting, and site restoration. The installed cost ranges from $3,000 to $8,000 for a conventional gravity-fed system on a property with suitable soil to $10,000 to $20,000 or more for engineered alternatives such as aerobic treatment units and mound systems required when soil conditions, water table depth, or lot size prevent a conventional installation. The type of system required is determined entirely by a soil evaluation and percolation test conducted before permitting, meaning the homeowner&apos;s budget does not determine the system type the property&apos;s physical conditions do. Understanding what drives cost from the low end to the high end of the range, what hidden costs most contractor estimates omit, and what assistance programs exist is essential before requesting quotes or committing to a contractor.
           </p>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>
-          A new septic system costs <strong>$3,000 to $20,000</strong> installed. A conventional gravity-fed system costs <strong>$3,000 to $8,000</strong>. An aerobic treatment unit costs <strong>$10,000 to $20,000</strong>. A mound system costs <strong>$10,000 to $20,000</strong>. The national average for all types is approximately <strong>$8,000</strong>.
-        </p>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>
-          Those are the numbers. The rest of this guide explains exactly what drives your cost from one end of that range to the other, what each type of system costs and why, what hidden costs most estimates leave out, and how to avoid overpaying.
-        </p>
-        <p className='text-base text-slate-700 leading-relaxed mb-12'>
-          If you&apos;re new to septic systems entirely, start with our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete guide to how septic systems work</Link>.
-        </p>
-
+          <p className='text-base text-slate-700 leading-relaxed mb-12'>
+            The tables and sections below break down exactly what each system type costs, where your money goes component by component, what hidden costs most contractor estimates leave out, and how to avoid overpaying. If you&apos;re new to septic systems entirely, start with our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete guide to how septic systems work</Link>.
+          </p>
         {/* Section 1 - Cost by Type */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
