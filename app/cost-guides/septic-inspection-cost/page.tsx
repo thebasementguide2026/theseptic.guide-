@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'Is a septic inspection required when buying a house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Requirements vary by location. Some states (Massachusetts, parts of New Jersey, Connecticut) mandate a septic inspection at property transfer. Many mortgage lenders, especially FHA and VA loans, require one if the appraiser flags concerns. Even where not legally required, a septic inspection is strongly recommended. Skipping it risks inheriting a $5,000 to $25,000 problem.',
+        text: 'Requirements vary significantly by state and municipality, and in some cases by the type of mortgage financing involved. Massachusetts, parts of New Jersey, Connecticut, and several other states mandate a septic inspection at every property transfer, and in those states a system that fails inspection must be repaired or replaced before the sale can close. Many mortgage lenders, particularly those issuing FHA and VA loans, require a septic inspection if the appraiser flags any concerns about the systems condition or age, and some lenders require one as standard practice for all properties on septic. Even where a septic inspection is not legally required, skipping it when buying a home is one of the costlier due diligence mistakes a buyer can make, because a failed or failing system that was not disclosed can cost $5,000 to $25,000 to repair or replace after closing with no recourse against the seller. Check your states specific requirements with your real estate agent and ask your lender directly whether they require a septic inspection before assuming it is optional.',
       },
     },
     {
@@ -34,7 +34,7 @@ const faqSchema = {
       name: 'Can I do a septic inspection myself?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You can perform a basic visual check\u2014walking the drainfield area, checking for odors, monitoring drain speed. However, a proper inspection requires opening the tank, measuring sludge and scum levels, inspecting baffles, and potentially running camera or dye tests. These tasks require specialized equipment and training. DIY visual checks supplement but do not replace professional inspections.',
+        text: 'A homeowner can perform a basic visual check of the property by walking the drainfield area and looking for surface odors, soggy soil, standing water, or unusually green grass, and by monitoring whether all fixtures drain at normal speed throughout the house. However, a meaningful inspection requires opening the tank, measuring sludge and scum depth with a sludge judge, inspecting the inlet and outlet baffles for damage or blockage, checking and cleaning the effluent filter, and verifying that effluent is flowing properly to the distribution box and drainfield, none of which can be done without specialized tools and training. Camera inspection of the sewer line and drainfield probing require professional equipment that homeowners do not typically have access to. A DIY visual check is a useful supplement between professional inspections for a system you know is healthy and well-maintained, but it does not replace a professional inspection and is not acceptable for a real estate transaction, a suspected problem, or any system that has not been professionally inspected in more than three years. If you want to stay informed between professional visits, the most useful thing you can do is check the drainfield area seasonally and monitor drain speed throughout the house for early warning signs.',
       },
     },
     {
