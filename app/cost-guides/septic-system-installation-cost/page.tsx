@@ -306,6 +306,7 @@ export default function SepticInstallationCostArticle() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
             <p className='text-slate-700 font-medium text-sm'>The perc test result is the decision point. Until a licensed soil evaluator tests your property, any cost estimate is speculative. Budget for a conventional system as a baseline and treat the perc test result as the variable that either confirms that budget or expands it.</p>
           </div>
+                    </div>
 
 
         {/* System Type Details */}
