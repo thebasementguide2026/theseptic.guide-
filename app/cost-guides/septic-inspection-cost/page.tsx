@@ -564,7 +564,7 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Distribution box (D-box)</h4>
-            <p className="text-sm text-gray-700">A small concrete or plastic box between the septic tank and the drainfield that distributes effluent evenly across multiple drainfield lines. A cracked, tilted, or clogged D-box is a common and often overlooked failure point.</p>
+            <p className="text-sm text-gray-700">A distribution box is a small concrete or plastic underground chamber located between the septic tank outlet and the drainfield that receives effluent and divides it equally among multiple drainfield trench lines to prevent any single section from being hydraulically overloaded. A cracked, tilted, or partially blocked D-box is one of the most commonly overlooked failure points in a septic system and can cause premature drainfield failure in the overloaded section while leaving other sections underused.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Sludge level</h4>
