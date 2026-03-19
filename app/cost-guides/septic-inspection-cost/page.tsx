@@ -266,6 +266,35 @@ export default function SepticInspectionCostPage() {
           </table>
         </div>
 
+                  {/* Which Inspection Do I Need? */}
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-12">Which Inspection Do I Need?</h2>
+          <p className="text-gray-700 mb-6">Match your situation to the inspection type, minimum requirements, and realistic all-in budget.</p>
+          <div className="overflow-x-auto mb-8">
+            <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden">
+              <thead className="bg-gray-900 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left text-sm font-semibold">Your Situation</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold">Inspection Type Needed</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold">Minimum Requirements</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold">Realistic All-In Cost</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">Routine homeowner maintenance, system functioning normally</td><td className="px-4 py-3 text-sm text-gray-700">Routine maintenance inspection</td><td className="px-4 py-3 text-sm text-gray-700">Open tank, measure sludge and scum, check baffles and filter, written report</td><td className="px-4 py-3 text-sm text-gray-700">$150 &ndash; $300 plus $300 &ndash; $600 if pumping needed</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 text-sm font-medium text-gray-900">System not inspected in 3 or more years</td><td className="px-4 py-3 text-sm text-gray-700">Full comprehensive inspection</td><td className="px-4 py-3 text-sm text-gray-700">Everything above plus D-box check, drainfield probe, flow test</td><td className="px-4 py-3 text-sm text-gray-700">$300 &ndash; $500 including pump-out</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">Slow drains, odor in yard, or soggy drainfield</td><td className="px-4 py-3 text-sm text-gray-700">Diagnostic comprehensive inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection plus camera scope of sewer line and dye test</td><td className="px-4 py-3 text-sm text-gray-700">$500 &ndash; $900</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 text-sm font-medium text-gray-900">Buying a home with a septic system</td><td className="px-4 py-3 text-sm text-gray-700">Real estate transaction inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection, flow test, written report for lender, camera scope strongly recommended</td><td className="px-4 py-3 text-sm text-gray-700">$500 &ndash; $800</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">Selling a home with a septic system</td><td className="px-4 py-3 text-sm text-gray-700">Pre-listing comprehensive inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection, written report, all deficiencies identified before listing</td><td className="px-4 py-3 text-sm text-gray-700">$300 &ndash; $500</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 text-sm font-medium text-gray-900">State-mandated inspection at property transfer (MA, NJ, CT)</td><td className="px-4 py-3 text-sm text-gray-700">Title 5 or equivalent</td><td className="px-4 py-3 text-sm text-gray-700">State-specific protocol, written report filed with health department</td><td className="px-4 py-3 text-sm text-gray-700">$400 &ndash; $900</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">System is 15 or more years old</td><td className="px-4 py-3 text-sm text-gray-700">Annual comprehensive inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection plus camera scope of sewer line</td><td className="px-4 py-3 text-sm text-gray-700">$500 &ndash; $800</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 text-sm font-medium text-gray-900">Suspected root intrusion or pipe damage</td><td className="px-4 py-3 text-sm text-gray-700">Camera inspection add-on</td><td className="px-4 py-3 text-sm text-gray-700">Camera scope of sewer line from house to tank, written findings</td><td className="px-4 py-3 text-sm text-gray-700">$125 &ndash; $500 on top of base inspection</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">Property has both a well and a septic system</td><td className="px-4 py-3 text-sm text-gray-700">Combined well and septic inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full septic inspection plus well water quality testing</td><td className="px-4 py-3 text-sm text-gray-700">$600 &ndash; $1,200</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 text-sm font-medium text-gray-900">After heavy rain caused system overflow or backup</td><td className="px-4 py-3 text-sm text-gray-700">Emergency diagnostic inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection focused on drainfield saturation and tank capacity</td><td className="px-4 py-3 text-sm text-gray-700">$300 &ndash; $600</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 text-sm font-medium text-gray-900">New homeowner, no inspection history available</td><td className="px-4 py-3 text-sm text-gray-700">Full comprehensive inspection</td><td className="px-4 py-3 text-sm text-gray-700">Full inspection, establish baseline sludge accumulation rate</td><td className="px-4 py-3 text-sm text-gray-700">$300 &ndash; $500 including pump-out</td></tr>
+              </tbody>
+            </table>
+          </div>
+
         {/* What Each Inspection Level Includes */}
         <h2 className="text-3xl font-bold text-gray-900 mb-4">What Each Inspection Level Includes</h2>
         <p className="text-gray-700 mb-8">The biggest gap in this space is that nobody tells you exactly what you should get for your money. Here is what each tier should include, and what it should not.</p>
