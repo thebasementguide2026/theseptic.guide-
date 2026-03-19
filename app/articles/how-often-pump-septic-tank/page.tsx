@@ -487,30 +487,78 @@ export default function HowOftenPumpSepticTank() {
           </div>
         </div>
 
-        {/* Related Guides */}
+                {/* Related Guides */}
         <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+          <p className='text-slate-700 leading-relaxed mb-6 text-sm'>Continue learning about septic system care with these in-depth guides.</p>
           <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
             <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Real pricing by tank size, region, hidden fees, and how to avoid overpaying.</p>
+              <p className='text-slate-600 text-xs'>Real pricing by tank size and region, what drives costs up or down, emergency surcharges, and how to avoid being overcharged.</p>
             </Link>
-            <Link href='/cost-guides' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>All Septic Cost Guides</h3>
-              <p className='text-slate-600 text-xs'>Installation, repair, inspection, and drainfield replacement costs.</p>
+            <Link href='/articles/septic-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
+              <p className='text-slate-600 text-xs'>The full maintenance schedule for every component of your septic system, not just the tank, to maximize system lifespan.</p>
             </Link>
-            <Link href='/guides/find-your-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How to Find Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>Step-by-step guide to locating your tank before the pumper arrives.</p>
+            <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+              <p className='text-slate-600 text-xs'>What happens when pumping is deferred too long and solids reach the drainfield, with the full warning sign progression from earliest to latest.</p>
             </Link>
+            <Link href='/articles/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
+              <p className='text-slate-600 text-xs'>The 5,000 to 15,000 repair that skipped pump-outs make inevitable, with a full cost breakdown by system type.</p>
+            </Link>
+            <Link href='/articles/septic-tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
+              <p className='text-slate-600 text-xs'>What happens when a full tank is left too long, including emergency steps, causes, and how to fix and prevent backups.</p>
+            </Link>
+            <Link href='/articles/slow-drains-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains on a Septic System</h3>
+              <p className='text-slate-600 text-xs'>Whole-house slow drains are often the first sign a tank is overdue for pumping. How to diagnose the cause and determine the right fix.</p>
+            </Link>
+            <Link href='/articles/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
+              <p className='text-slate-600 text-xs'>Outdoor sewage odor is a common symptom of a tank that is overdue for service. Eight causes and the specific fix for each.</p>
+            </Link>
+            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
+              <p className='text-slate-600 text-xs'>How the entire septic system works, the role of each component, and how pumping frequency fits into the broader maintenance picture.</p>
+            </Link>
+            <Link href='/articles/what-not-to-flush-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>What You Can and Cannot Flush</h3>
+              <p className='text-slate-600 text-xs'>Everything that accelerates sludge accumulation and shortens your pumping interval, and what to keep out of the system entirely.</p>
+            </Link>
+            <Link href='/articles/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h3>
+              <p className='text-slate-600 text-xs'>What a professional inspection costs and why having sludge and scum levels measured gives you a data-driven pumping schedule instead of guesswork.</p>
+            </Link>
+            <Link href='/articles/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h3>
+              <p className='text-slate-600 text-xs'>How to determine your tanks capacity if you do not know it, which is the first step in finding your correct pumping interval.</p>
+            </Link>
+            <Link href='/articles/how-long-septic-system-lasts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last?</h3>
+              <p className='text-slate-600 text-xs'>How pumping frequency directly affects the lifespan of the entire system, including the tank, drainfield, and all components.</p>
+            </Link>
+          </div>
+          <h3 className='text-lg font-bold text-slate-900 mt-8 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-4'>
+            <a href='https://thebasement.guide/articles/best-sump-pumps' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+              <p className='text-slate-600 text-xs'>For homeowners managing both a septic system and a basement, a reliable sump pump with battery backup helps prevent the groundwater saturation that stresses drainfields and shortens pumping intervals.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/sump-pump-design-ideas' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+              <p className='text-slate-600 text-xs'>How to integrate basement water management equipment into a finished space, relevant for homes where the basement drainage system works alongside a septic system.</p>
+            </a>
           </div>
         </div>
 
-        {/* CTA */}
+{/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Ready to Get Your Tank Pumped?</h2>
           <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with licensed septic professionals in your area. Get free, no-obligation quotes and compare prices before you commit.</p>
