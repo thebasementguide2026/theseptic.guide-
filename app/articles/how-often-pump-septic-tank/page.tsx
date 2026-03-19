@@ -415,35 +415,35 @@ export default function HowOftenPumpSepticTank() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of heavy solid waste that settles to the bottom of the septic tank. Sludge accumulation is the primary reason tanks need pumping.</dd>
+              <dd className='text-slate-600 text-xs'>Sludge is the layer of heavy solid waste, including human waste, food particles, and inorganic materials, that settles to the bottom of the septic tank over time and cannot be broken down by bacteria alone. It is the primary reason septic tanks require periodic pumping, and when sludge accumulates beyond the safe threshold it begins escaping into the drainfield with the effluent, causing irreversible clogging that leads to system failure.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the tank. Scum is removed along with sludge during pumping.</dd>
+              <dd className='text-slate-600 text-xs'>Scum is the layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the septic tank, forming above the clarified effluent layer and below the tanks air space. Like sludge, scum is removed during pumping, and when it accumulates to the level of the outlet pipe it can block effluent flow and cause whole-house slow drains or backups.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially clarified liquid between the sludge and scum layers that flows out to the drainfield. The cleaner the effluent, the healthier your drainfield stays.</dd>
+              <dd className='text-slate-600 text-xs'>Effluent is the partially clarified liquid layer that occupies the middle zone of the septic tank between the settled sludge on the bottom and the floating scum on top, and it is the only material that should be exiting the tank through the outlet pipe to the drainfield. The cleaner and lower in suspended solids the effluent is when it reaches the drainfield, the longer the drainfield will function effectively, which is why keeping solids in the tank through regular pumping is the single most important maintenance action for the entire system.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Biomat</dt>
-              <dd className='text-slate-600 text-xs'>A bacterial layer that forms naturally on the bottom and sides of drainfield trenches. A thin biomat helps with treatment. A thick biomat (caused by excess solids escaping the tank) clogs the drainfield and causes failure.</dd>
+              <dd className='text-slate-600 text-xs'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent percolates through the soil, and a thin biomat is a normal and beneficial part of the wastewater treatment process. When solids escape a neglected tank and enter the drainfield, biomat accumulates far faster than it can be broken down, eventually sealing the trench surfaces and causing the drainfield to fail, which is the most expensive consequence of skipping scheduled pump-outs.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that live without oxygen inside the septic tank. They digest organic solids and reduce sludge volume. Harsh chemicals kill them, which slows digestion and accelerates sludge buildup.</dd>
+              <dd className='text-slate-600 text-xs'>Anaerobic bacteria are microorganisms that live and function without oxygen inside the septic tank, where they digest organic solids, reduce sludge volume, and break down waste into gases and liquids as part of the natural treatment process. These bacteria are essential to tank function and are killed by harsh chemicals including bleach, antibacterial soaps, paint, solvents, and chemical drain cleaners poured directly into drains, which slows digestion and accelerates sludge buildup between pump-outs.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Retention Time</dt>
-              <dd className='text-slate-600 text-xs'>The amount of time wastewater spends inside the septic tank before exiting to the drainfield. Longer retention time allows more solids to settle and more bacterial digestion to occur. High water use and undersized tanks reduce retention time.</dd>
+              <dd className='text-slate-600 text-xs'>Retention time is the amount of time wastewater spends inside the septic tank before exiting through the outlet pipe to the drainfield, during which solids settle, bacteria digest waste, and the effluent is clarified. Longer retention time produces cleaner effluent and a healthier drainfield, while high water use, undersized tanks, and excessive sludge accumulation all reduce retention time and send more suspended solids into the drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge Judge</dt>
-              <dd className='text-slate-600 text-xs'>A clear tube or measuring device used to determine sludge and scum depth inside a septic tank. Technicians use this during inspections to recommend whether pumping is needed.</dd>
+              <dd className='text-slate-600 text-xs'>A sludge judge is a clear acrylic or polycarbonate tube used by septic professionals to measure the depth of the sludge layer at the bottom of the tank and the scum layer at the top during an inspection, providing an objective measurement of how full the tank is relative to its total capacity. The EPA pumping threshold recommends pumping when the bottom of the scum layer is within six inches of the outlet tee or the top of the sludge layer is within 12 inches of the outlet tee, and a sludge judge is the tool that makes those measurements possible.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Outlet Tee (Baffle)</dt>
-              <dd className='text-slate-600 text-xs'>A T-shaped pipe fitting at the tank&apos;s outlet that prevents scum from flowing into the drainfield. The EPA pumping threshold is based on sludge and scum proximity to this fitting.</dd>
+              <dd className='text-slate-600 text-xs'>The outlet tee is a T-shaped pipe fitting at the tanks exit point that extends downward below the scum layer to draw clarified effluent from the middle zone of the tank rather than allowing floating scum or surface solids to exit with the effluent to the drainfield. When sludge accumulates to within 12 inches of the outlet tee or scum drops to within 6 inches of it, the EPA recommends pumping because solids are at risk of escaping into the drainfield and causing damage.</dd>
             </div>
           </div>
         </div>
