@@ -134,6 +134,9 @@ export default function HowOftenPumpSepticTank() {
 
         {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
+                  <p className='text-base text-slate-700 leading-relaxed mb-6'>
+            Septic tank pumping frequency is the recommended interval at which a septic tank should be emptied of accumulated sludge and scum to prevent solids from overflowing into the drainfield, where they cause irreversible clogging and system failure. A septic tank functions by holding wastewater long enough for heavy solids to settle to the bottom as sludge and lighter materials to float to the top as scum, with the clarified liquid layer in the middle flowing out to the drainfield for final treatment in the soil. When sludge and scum accumulate beyond one third of the tank&apos;s total volume, the clarified zone shrinks, solids begin escaping to the drainfield with the effluent, and the system begins failing in a way that cannot be reversed without drainfield replacement costing 5,000 to 15,000. The correct pumping interval for any household is determined primarily by tank size and the number of people using the system, with adjustments for garbage disposal use, water consumption habits, and whether any factors are accelerating the rate at which solids accumulate.
+          </p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           The general rule is every three to five years. But that range is so wide it&apos;s almost useless. A two-person household with a 1,500-gallon tank and a six-person household with a 1,000-gallon tank have completely different needs, and treating them the same is how drainfields fail.
         </p>
