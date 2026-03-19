@@ -18,7 +18,7 @@ const faqSchema = {
       name: 'How much does it cost to install a septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A conventional gravity-fed system costs $3,000 to $8,000 installed. An aerobic treatment unit costs $10,000 to $20,000. A mound system costs $10,000 to $20,000. The national average across all types is approximately $8,000. Your actual cost depends on system type, soil conditions, labor rates, and permitting fees in your area.',
+        text: 'A conventional gravity-fed septic system costs $3,000 to $8,000 installed, making it the most affordable option and the one used on approximately 70 percent of residential installations where soil conditions are suitable. An aerobic treatment unit costs $10,000 to $20,000 installed due to the added mechanical components, electrical connections, and ongoing maintenance requirements. A mound system costs $10,000 to $20,000 installed because of the imported sand and gravel, pump equipment, and engineering required to build the elevated drainfield above natural soil. The national average across all system types is approximately $8,000, but that average is heavily skewed toward conventional systems and is not a reliable planning figure for properties that require engineered alternatives. For a realistic budget, start with a soil evaluation and perc test to determine which system type your property requires, then get three to five quotes from licensed installers in your area.',
       },
     },
     {
@@ -26,7 +26,7 @@ const faqSchema = {
       name: 'How long does septic system installation take?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A conventional system takes one to two weeks from excavation to completion. Aerobic and mound systems take two to four weeks. Permitting can add one to six weeks before installation begins, depending on your local health department processing time.',
+        text: 'A conventional system typically takes one to two weeks from the start of excavation to completed installation and final inspection, assuming no unexpected site conditions such as rock, high groundwater, or access difficulties that require additional equipment or time. Aerobic treatment units and mound systems are more complex and typically take two to four weeks to complete because of the additional components, engineered sand beds, pump systems, and electrical connections involved. Permitting adds significant time before installation can begin, with the design review and approval process taking one to six weeks depending on the local health department&#39;s workload and whether the design requires revisions. The perc test and soil evaluation must be completed and approved before a permit is issued, so the full timeline from initial soil testing to a functioning system is typically four to twelve weeks for a straightforward installation and longer for complex sites. Scheduling in late summer or fall when contractors have more availability can reduce wait times compared to the busy spring season.',
       },
     },
     {
