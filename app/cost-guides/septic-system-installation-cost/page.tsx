@@ -215,6 +215,99 @@ export default function SepticInstallationCostArticle() {
           </div>
         </div>
 
+        {/* Which System Do I Need */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Which System</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Which System Do I Need? Property Conditions to System Type</h2>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Your property&apos;s physical conditions determine which system type will be permitted. Use this table to match your site conditions to the most likely system requirement and budget range.</p>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full text-xs border-collapse'>
+              <thead>
+                <tr className='bg-slate-900 text-white'>
+                  <th className='p-2 text-left font-semibold'>Property Condition</th>
+                  <th className='p-2 text-left font-semibold'>System Type Required</th>
+                  <th className='p-2 text-center font-semibold'>Estimated Installed Cost</th>
+                  <th className='p-2 text-left font-semibold'>Key Driver of Extra Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>Good soil drainage, low water table, adequate space</td>
+                  <td className='p-2 font-semibold text-slate-900'>Conventional (gravity-fed)</td>
+                  <td className='p-2 text-center text-slate-700'>$3,000 &ndash; $8,000</td>
+                  <td className='p-2 text-slate-700'>Baseline &mdash; no additional requirements</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-2 text-slate-700'>Good soil but gravel is expensive or unavailable locally</td>
+                  <td className='p-2 font-semibold text-slate-900'>Chamber system</td>
+                  <td className='p-2 text-center text-slate-700'>$5,000 &ndash; $12,000</td>
+                  <td className='p-2 text-slate-700'>Plastic chambers replace gravel trenches</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>High water table, shallow soil depth</td>
+                  <td className='p-2 font-semibold text-slate-900'>Mound system</td>
+                  <td className='p-2 text-center text-slate-700'>$10,000 &ndash; $20,000</td>
+                  <td className='p-2 text-slate-700'>Imported sand and gravel, pump equipment, engineering</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-2 text-slate-700'>Small lot, poor soil, strict treatment requirements</td>
+                  <td className='p-2 font-semibold text-slate-900'>Aerobic treatment unit</td>
+                  <td className='p-2 text-center text-slate-700'>$10,000 &ndash; $20,000</td>
+                  <td className='p-2 text-slate-700'>Aerator, electrical connection, ongoing maintenance</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>Challenging soil, environmentally sensitive site</td>
+                  <td className='p-2 font-semibold text-slate-900'>Sand filter system</td>
+                  <td className='p-2 text-center text-slate-700'>$7,000 &ndash; $18,000</td>
+                  <td className='p-2 text-slate-700'>Lined filter box, pump, additional piping</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-2 text-slate-700'>Shallow soil, irregular lot shape, limited space</td>
+                  <td className='p-2 font-semibold text-slate-900'>Drip distribution system</td>
+                  <td className='p-2 text-center text-slate-700'>$8,000 &ndash; $18,000</td>
+                  <td className='p-2 text-slate-700'>Pressure-dosed drip emitters, pump, controls</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>Arid or semi-arid climate with low rainfall</td>
+                  <td className='p-2 font-semibold text-slate-900'>Evapotranspiration system</td>
+                  <td className='p-2 text-center text-slate-700'>$10,000 &ndash; $15,000</td>
+                  <td className='p-2 text-slate-700'>Open-air bed design, climate-dependent viability</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-2 text-slate-700'>Multiple site challenges, fails standard perc test</td>
+                  <td className='p-2 font-semibold text-slate-900'>Engineered/complex system</td>
+                  <td className='p-2 text-center text-slate-700'>$15,000 &ndash; $50,000</td>
+                  <td className='p-2 text-slate-700'>Custom engineering, specialized components</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>Replacing failed drainfield, tank still usable</td>
+                  <td className='p-2 font-semibold text-slate-900'>Drainfield replacement only</td>
+                  <td className='p-2 text-center text-slate-700'>$5,000 &ndash; $15,000</td>
+                  <td className='p-2 text-slate-700'>New trenches, gravel, pipes, D-box</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-2 text-slate-700'>Replacing failed tank, drainfield still functional</td>
+                  <td className='p-2 font-semibold text-slate-900'>Tank replacement only</td>
+                  <td className='p-2 text-center text-slate-700'>$3,000 &ndash; $7,000</td>
+                  <td className='p-2 text-slate-700'>New tank, connections, decommissioning old tank</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-2 text-slate-700'>Buying land with no existing system</td>
+                  <td className='p-2 font-semibold text-slate-900'>New first-time installation</td>
+                  <td className='p-2 text-center text-slate-700'>$5,000 &ndash; $25,000</td>
+                  <td className='p-2 text-slate-700'>Perc test result determines system type and total cost</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
+            <p className='text-slate-700 font-medium text-sm'>The perc test result is the decision point. Until a licensed soil evaluator tests your property, any cost estimate is speculative. Budget for a conventional system as a baseline and treat the perc test result as the variable that either confirms that budget or expands it.</p>
+          </div>
+
+
         {/* System Type Details */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
