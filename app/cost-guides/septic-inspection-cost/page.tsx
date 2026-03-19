@@ -605,39 +605,89 @@ export default function SepticInspectionCostPage() {
           </div>
         </div>
 
-        {/* Related Articles */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Articles</h2>
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+                {/* Related Guides */}
+        <h2 className="text-3xl font-bold text-gray-900 mb-2">Related Guides</h2>
+        <h3 className="text-lg font-semibold text-gray-500 mb-6">On theseptic.guide</h3>
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
           <Link href="/articles/septic-tank-pumping-cost" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Cost Guide</span>
             <h3 className="text-lg font-bold text-gray-900 mt-2">Septic Tank Pumping Cost 2026</h3>
-            <p className="text-sm text-gray-600 mt-1">Real pricing by tank size, region, and hidden fees to watch for.</p>
-          </Link>
-          <Link href="/cost-guides/septic-system-repair-cost" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-            <span className="text-xs font-semibold text-amber-600 uppercase">Cost Guide</span>
-            <h3 className="text-lg font-bold text-gray-900 mt-2">Septic System Repair Cost 2026</h3>
-            <p className="text-sm text-gray-600 mt-1">Complete pricing for every repair from filter cleaning to drainfield replacement.</p>
-          </Link>
-          <Link href="/guides/buying-home-with-septic" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
-            <h3 className="text-lg font-bold text-gray-900 mt-2">Buying a Home with a Septic System</h3>
-            <p className="text-sm text-gray-600 mt-1">What to ask, what to inspect, and how to negotiate.</p>
+            <p className="text-sm text-gray-600 mt-1">What pump-outs cost by tank size and region, and how to combine pumping with your inspection to save on service call fees.</p>
           </Link>
           <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
             <h3 className="text-lg font-bold text-gray-900 mt-2">How Often Should You Pump Your Septic Tank?</h3>
-            <p className="text-sm text-gray-600 mt-1">EPA-based pumping schedule by tank size and household size.</p>
+            <p className="text-sm text-gray-600 mt-1">The EPA-based pumping and inspection schedule by tank size and household size, so you know how often to book each service.</p>
+          </Link>
+          <Link href="/cost-guides/septic-system-repair-cost" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Cost Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Septic System Repair Cost</h3>
+            <p className="text-sm text-gray-600 mt-1">What every common repair costs after a failed inspection, from a cracked baffle to full drainfield replacement.</p>
+          </Link>
+          <Link href="/cost-guides/septic-system-installation-cost" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Cost Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Septic System Installation Cost 2026</h3>
+            <p className="text-sm text-gray-600 mt-1">Full cost breakdown for new and replacement systems, relevant when an inspection reveals the system has reached end of life.</p>
+          </Link>
+          <Link href="/cost-guides/drainfield-replacement-cost" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Cost Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Drainfield Replacement Cost</h3>
+            <p className="text-sm text-gray-600 mt-1">The most expensive outcome of a failed inspection, with a full cost breakdown by system type and site condition.</p>
           </Link>
           <Link href="/problems/drainfield-failing" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Problem</span>
             <h3 className="text-lg font-bold text-gray-900 mt-2">Signs Your Drainfield Is Failing</h3>
-            <p className="text-sm text-gray-600 mt-1">The 7 warning signs from earliest to latest and what to do about each.</p>
+            <p className="text-sm text-gray-600 mt-1">The warning sign progression that a thorough inspection is designed to catch early, from slow drains to surfacing sewage.</p>
+          </Link>
+          <Link href="/guides/buying-home-with-septic" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Buying a Home with a Septic System</h3>
+            <p className="text-sm text-gray-600 mt-1">The complete homebuyer&#39;s guide to septic due diligence, what to insist on in the inspection, and how to negotiate repairs.</p>
+          </Link>
+          <Link href="/guides/selling-home-with-septic" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Selling a Home with a Septic System</h3>
+            <p className="text-sm text-gray-600 mt-1">How a pre-listing inspection protects your asking price and speeds up the closing process.</p>
+          </Link>
+          <Link href="/articles/septic-system-maintenance-checklist" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Septic System Maintenance Checklist</h3>
+            <p className="text-sm text-gray-600 mt-1">The full ongoing maintenance schedule that keeps your system in passing condition between professional inspections.</p>
           </Link>
           <Link href="/reviews/best-septic-tank-risers" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Review</span>
-            <h3 className="text-lg font-bold text-gray-900 mt-2">Best Septic Tank Risers 2026</h3>
-            <p className="text-sm text-gray-600 mt-1">The upgrade that eliminates digging fees at every service visit.</p>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Best Septic Tank Risers</h3>
+            <p className="text-sm text-gray-600 mt-1">The one upgrade that eliminates the $50 to $250 digging fee at every inspection and pump-out visit, paying for itself within two to three service calls.</p>
           </Link>
+          <Link href="/problems/slow-drains" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Problem</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Slow Drains on a Septic System</h3>
+            <p className="text-sm text-gray-600 mt-1">When slow drains prompt an unscheduled inspection, this guide helps you diagnose whether the cause is a full tank, a clogged filter, or a drainfield problem before you call.</p>
+          </Link>
+          <Link href="/articles/complete-septic-guide" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Complete Septic System Guide</h3>
+            <p className="text-sm text-gray-600 mt-1">How every component of the system works and what inspectors are looking for when they evaluate each one.</p>
+          </Link>
+          <Link href="/articles/does-insurance-cover-septic" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Does Insurance Cover Septic Repair and Replacement?</h3>
+            <p className="text-sm text-gray-600 mt-1">What homeowners insurance covers when an inspection reveals a failed component, and what riders are available to reduce out-of-pocket repair costs.</p>
+          </Link>
+        </div>
+
+        <h3 className="text-lg font-semibold text-gray-500 mb-6 mt-8">From Our Network</h3>
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <a href="https://thebasement.guide/articles/sump-pump-design-ideas" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Sump Pump Design Ideas for 2026</h3>
+            <p className="text-sm text-gray-600 mt-1">For homes where a basement inspection and a septic inspection are being scheduled together, this guide covers basement water management equipment that protects both systems.</p>
+          </a>
+          <a href="https://thebasement.guide/reviews/best-sump-pumps" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <span className="text-xs font-semibold text-amber-600 uppercase">Review</span>
+            <h3 className="text-lg font-bold text-gray-900 mt-2">Best Sump Pumps 2026</h3>
+            <p className="text-sm text-gray-600 mt-1">Homes on septic systems with high water tables often need sump pumps to manage groundwater that would otherwise saturate the drainfield. Reviewed and ranked for every budget.</p>
+          </a>
         </div>
 
         {/* CTA */}
