@@ -556,7 +556,7 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Flow test</h4>
-            <p className="text-sm text-gray-700">A procedure where a known volume of water is run through the system to verify it can handle a typical household load. Used in real estate transaction inspections to confirm the system functions under realistic conditions.</p>
+            <p className="text-sm text-gray-700">A flow test is a procedure conducted during a comprehensive or real estate transaction inspection in which a known volume of water is run through the household plumbing and into the septic system to verify that the system can handle a realistic household load and that effluent is flowing freely from the tank to the drainfield without backing up. A system that passes a static visual inspection but fails a flow test under realistic water use conditions reveals a functional limitation that would only become apparent when the home is occupied, making the flow test a critical component of any transaction inspection.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Dye test</h4>
