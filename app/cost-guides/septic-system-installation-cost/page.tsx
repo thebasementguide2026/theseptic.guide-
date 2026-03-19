@@ -523,35 +523,35 @@ export default function SepticInstallationCostArticle() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Perc test (percolation test)</dt>
-              <dd className='text-slate-600 text-xs'>A soil test that measures how fast water drains through the soil. Results determine which septic system types are permitted on a given property.</dd>
+              <dd className='text-slate-600 text-xs'>A perc test is a soil evaluation that measures how quickly water drains through the ground at a proposed drainfield location, expressed as the number of minutes it takes for water to drop one inch in a test hole. The results determine which septic system types are permitted on the property and where the drainfield can be located, and a failed perc test means a conventional system cannot be installed and a more expensive engineered alternative will be required.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Conventional (gravity-fed) system</dt>
-              <dd className='text-slate-600 text-xs'>The most common and least expensive type. Wastewater flows by gravity from house to tank to drainfield. No pumps or electricity required.</dd>
+              <dd className='text-slate-600 text-xs'>A conventional gravity-fed septic system is the most common and least expensive type of on-site wastewater treatment system, in which wastewater flows by gravity from the house to the septic tank and then from the tank outlet through a distribution box to perforated pipes in gravel-filled drainfield trenches where effluent percolates into the surrounding soil. No pumps, electrical connections, or mechanical components are required, which keeps installation cost low and eliminates ongoing operating expenses, making it the preferred system type when soil conditions support it.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Aerobic treatment unit (ATU)</dt>
-              <dd className='text-slate-600 text-xs'>A system that injects oxygen into the treatment tank to support bacteria that break down waste more efficiently. Produces cleaner effluent but costs more.</dd>
+              <dd className='text-slate-600 text-xs'>An aerobic treatment unit is a septic system that injects oxygen into the treatment tank to support aerobic bacteria that break down waste far more efficiently than the anaerobic bacteria in a conventional tank, producing cleaner effluent that requires less drainfield area and can be used on smaller lots or sites with poor soil conditions. ATUs cost significantly more than conventional systems because they include an aerator, electrical connections, a pump chamber, and alarm systems, and they require ongoing maintenance including annual or quarterly inspections and electricity to run the aerator year-round.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Mound system</dt>
-              <dd className='text-slate-600 text-xs'>A system that pumps effluent to an engineered sand mound built above natural soil. Used when native soil is too shallow or dense.</dd>
+              <dd className='text-slate-600 text-xs'>A mound system is an engineered septic system in which effluent is pumped from the septic tank up to an elevated drainfield constructed from imported sand and gravel built above the natural ground surface, used when native soil is too shallow, too dense, or the water table is too high for a conventional below-grade drainfield. Mound systems are among the most expensive residential septic options because of the volume of imported materials, the pump equipment required to move effluent uphill, and the engineering involved in designing and constructing the elevated sand bed.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution box (D-box)</dt>
-              <dd className='text-slate-600 text-xs'>A small underground chamber that receives effluent from the tank and divides it equally among drainfield trench lines.</dd>
+              <dd className='text-slate-600 text-xs'>A distribution box is a small, watertight underground chamber that receives effluent from the septic tank outlet pipe and divides it equally among the multiple perforated pipe lines that make up the drainfield, ensuring no single trench line receives a disproportionate volume of effluent that would cause premature failure in that section. When the D-box cracks, shifts out of level, or deteriorates, it creates uneven distribution that overloads one drainfield section while leaving others underused, which is a common and relatively inexpensive repair compared to drainfield replacement.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent filter</dt>
-              <dd className='text-slate-600 text-xs'>A screen at the tank outlet that catches suspended solids before they reach the drainfield. Costs $50 to $200 and significantly extends drainfield life.</dd>
+              <dd className='text-slate-600 text-xs'>An effluent filter is a removable screen installed at the outlet pipe of the septic tank that catches suspended solids and prevents them from reaching the drainfield, where they would clog the gravel trenches and accelerate biomat formation and drainfield failure. It costs $50 to $200 to install and is one of the highest-value components in the entire system relative to its cost, as it significantly extends drainfield lifespan by keeping solids in the tank where they belong.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe from the septic tank lid to ground level. Eliminates the need to dig for pumping and inspection access.</dd>
+              <dd className='text-slate-600 text-xs'>A septic tank riser is a vertical pipe or shaft that extends from the buried tank lid up to ground level, eliminating the need to excavate the yard to access the tank for routine pumping, inspection, and maintenance. Installing risers during the initial system installation costs only $200 to $400 and saves $50 to $200 on every future service visit by eliminating the digging fee, making them one of the best long-term value additions to any new installation.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Decommissioning</dt>
-              <dd className='text-slate-600 text-xs'>The process of properly shutting down an old septic tank. Involves pumping remaining waste, then crushing the tank or filling it with sand to prevent collapse.</dd>
+              <dd className='text-slate-600 text-xs'>Decommissioning is the process of properly shutting down and neutralizing an old septic tank that is being replaced or taken out of service, which involves pumping all remaining waste from the tank and then either crushing the tank in place or filling it completely with sand, gravel, or concrete to prevent future collapse that could create a dangerous sinkhole. Local health departments typically require proof of proper decommissioning before issuing a permit for a replacement system, and the cost of $500 to $2,000 is a hidden expense that many contractor estimates omit from their initial quotes.</dd>
             </div>
           </div>
         </div>
