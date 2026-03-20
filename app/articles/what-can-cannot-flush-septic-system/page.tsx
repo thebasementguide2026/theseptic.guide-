@@ -649,28 +649,93 @@ export default function WhatCanCannotFlushSeptic() {
         </div>
 
         {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
-            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
-            </Link>
-            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Real pricing by tank size, region, hidden fees, and how to avoid overpaying.</p>
-            </Link>
-            <Link href='/guides' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>All Septic System Guides</h3>
-              <p className='text-slate-600 text-xs'>Browse all our comprehensive septic system guides.</p>
-            </Link>
-          </div>
-        </div>
+                  <div className='mb-16'>
+            <h2 className='text-xl font-bold text-slate-900 mb-6'>Related Guides</h2>
 
+            <h3 className='text-sm font-bold text-amber-700 tracking-wide uppercase mb-3'>On theseptic.guide</h3>
+            <div className='grid md:grid-cols-2 gap-4 mb-8'>
+              <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
+                <p className='text-slate-600 text-xs'>How every component of the system works, why bacteria are central to tank function, and what proper maintenance looks like from installation through end of life.</p>
+              </Link>
+              <Link href='/articles/septic-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h3>
+                <p className='text-slate-600 text-xs'>The full ongoing maintenance schedule that works alongside proper flushing habits to maximize system lifespan.</p>
+              </Link>
+              <Link href='/articles/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Don&apos;ts</h3>
+                <p className='text-slate-600 text-xs'>The complete list of household habits that protect and harm a septic system, covering everything from water use to landscaping.</p>
+              </Link>
+              <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
+                <p className='text-slate-600 text-xs'>How flushing the wrong things accelerates sludge accumulation and shortens the pumping interval, with the exact schedule by tank size and household size.</p>
+              </Link>
+              <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
+                <p className='text-slate-600 text-xs'>Real pricing for the service that removes everything the system cannot break down on its own.</p>
+              </Link>
+              <Link href='/articles/septic-tank-additives' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Do Septic Tank Additives Work?</h3>
+                <p className='text-slate-600 text-xs'>Why additives cannot compensate for flushing the wrong things, which additive types are harmful, and what the EPA and independent research actually say.</p>
+              </Link>
+              <Link href='/articles/septic-tank-cleaning-vs-pumping' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Cleaning vs Pumping</h3>
+                <p className='text-slate-600 text-xs'>What happens inside the tank when non-biodegradable items accumulate, and why thorough pump-outs are more important than additive use.</p>
+              </Link>
+              <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
+                <p className='text-slate-600 text-xs'>What happens to the drainfield when grease, wipes, chemicals, and other harmful materials are consistently introduced into the system over time.</p>
+              </Link>
+              <Link href='/articles/slow-drains-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Slow Drains on a Septic System</h3>
+                <p className='text-slate-600 text-xs'>How flushing non-biodegradable items and grease causes the baffle blockages and pipe clogs that produce whole-house slow drains.</p>
+              </Link>
+              <Link href='/articles/septic-tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
+                <p className='text-slate-600 text-xs'>The emergency that flushing the wrong materials eventually causes, with immediate steps and how to prevent it.</p>
+              </Link>
+              <Link href='/articles/best-toilet-paper-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Toilet Paper for Septic Systems</h3>
+                <p className='text-slate-600 text-xs'>Reviewed and ranked septic-safe toilet paper brands that dissolve faster and reduce solid accumulation in the tank.</p>
+              </Link>
+              <Link href='/articles/best-septic-safe-cleaning-products' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Cleaning Products</h3>
+                <p className='text-slate-600 text-xs'>Reviewed and ranked cleaning products that are safe for the bacterial ecosystem in the tank without compromising cleaning effectiveness.</p>
+              </Link>
+              <Link href='/articles/best-septic-safe-laundry-detergent' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic-Safe Laundry Detergent</h3>
+                <p className='text-slate-600 text-xs'>Liquid detergents that clean effectively without the fillers and antibacterial agents that add to sludge accumulation or harm tank bacteria.</p>
+              </Link>
+              <Link href='/articles/best-drain-cleaners-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Drain Cleaners for Septic Systems</h3>
+                <p className='text-slate-600 text-xs'>Enzyme-based alternatives to chemical drain cleaners that clear organic buildup without killing the bacteria the system depends on.</p>
+              </Link>
+              <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
+                <p className='text-slate-600 text-xs'>The $5,000 to $15,000 consequence of consistently introducing grease, chemicals, and non-biodegradable materials into the system over years.</p>
+              </Link>
+            </div>
+
+            <h3 className='text-sm font-bold text-amber-700 tracking-wide uppercase mb-3'>From Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-4 mb-8'>
+              <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
+                <p className='text-slate-600 text-xs'>For homeowners finishing a basement that also has a septic system, this guide covers how to integrate drainage equipment without routing problematic discharge into the septic system.</p>
+              </a>
+              <a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
+                <p className='text-slate-600 text-xs'>Managing basement water correctly keeps it out of the septic drainfield, which is one of the most overlooked causes of hydraulic overload in homes with both systems.</p>
+              </a>
+            </div>
+
+            <h3 className='text-sm font-bold text-amber-700 tracking-wide uppercase mb-3'>External Resource</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>EPA Septic System Care Guidance</h3>
+                <p className='text-slate-600 text-xs'>The EPA&apos;s official guidance on what to keep out of your septic system, maintenance schedules, and how household habits directly affect system lifespan.</p>
+              </a>
+            </div>
+          </div>
         {/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need Help With Your Septic System?</h2>
