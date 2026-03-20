@@ -179,6 +179,10 @@ export default function DrainFieldReplacementCost() {
                   <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Drainfield and tank both failed or deteriorated</td><td className='p-2'>Full system failure</td><td className='p-2'>Complete system replacement, tank and drainfield</td><td className='p-2'>$8,000 &ndash; $20,000</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-2'>Soil fails new perc test at replacement area</td><td className='p-2'>Replacement area has poor drainage</td><td className='p-2'>Engineered alternative required (mound, sand filter, drip)</td><td className='p-2'>$10,000 &ndash; $20,000</td></tr>
                   <tr className='bg-amber-50 font-bold'><td className='p-2'>No reserve area available on property</td><td className='p-2'>Replacement area lost to construction or paving</td><td className='p-2'>Site engineering required to find viable location</td><td className='p-2'>$15,000 &ndash; $50,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>The Process</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>The Replacement Process Step by Step</h2>
