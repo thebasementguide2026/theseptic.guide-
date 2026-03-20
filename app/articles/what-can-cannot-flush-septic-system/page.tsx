@@ -87,8 +87,10 @@ const articleSchema = {
 export default function WhatCanCannotFlushSeptic() {
   return (
     <>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
 
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
@@ -106,7 +108,7 @@ export default function WhatCanCannotFlushSeptic() {
             <span className='text-amber-500 font-bold tracking-[0.3em] text-sm uppercase'>Guide</span>
           </div>
           <h1 className='text-4xl md:text-6xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            What You Can &amp; Cannot Flush<br />
+            What You Can & Cannot Flush<br />
             <span className='text-amber-500'>With a Septic System</span>
           </h1>
           <p className='text-lg text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
@@ -126,17 +128,17 @@ export default function WhatCanCannotFlushSeptic() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
-                  <p className='text-base text-slate-700 leading-relaxed mb-6'>
-            Septic system flushing guidelines are the rules governing what materials can safely enter an on-site wastewater treatment system through toilets, sinks, showers, and household drains without disrupting the biological treatment process or accelerating the accumulation of solids in the tank and drainfield. A septic system treats waste through a combination of physical settling and biological digestion by anaerobic bacteria, and both processes are disrupted by materials that do not break down, kill the bacterial colony, or add inorganic solids that accumulate as sludge faster than the system can manage. The only materials a septic system is designed to receive are human waste, toilet paper, and the normal water and diluted cleaning products that result from routine household use. Everything else &mdash; wipes, grease, chemicals, medications, paint, food scraps, and non-biodegradable items &mdash; either clogs pipes and baffles, kills the bacteria that make the system function, or adds to the sludge layer that requires periodic pump-out to remove.
-          </p>
-<p className='text-base text-slate-700 leading-relaxed mb-6'>
+        <p className='text-base text-slate-700 leading-relaxed mb-6'>
+          Septic system flushing guidelines are the rules governing what materials can safely enter an on-site wastewater treatment system through toilets, sinks, showers, and household drains without disrupting the biological treatment process or accelerating the accumulation of solids in the tank and drainfield. A septic system treats waste through a combination of physical settling and biological digestion by anaerobic bacteria, and both processes are disrupted by materials that do not break down, kill the bacterial colony, or add inorganic solids that accumulate as sludge faster than the system can manage. The only materials a septic system is designed to receive are human waste, toilet paper, and the normal water and diluted cleaning products that result from routine household use. Everything else &mdash; wipes, grease, chemicals, medications, paint, food scraps, and non-biodegradable items &mdash; either clogs pipes and baffles, kills the bacteria that make the system function, or adds to the sludge layer that requires periodic pump-out to remove.
+        </p>
+        <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Your septic system is a biological treatment plant in your yard. It relies on living bacteria to break down waste. Everything you flush, pour, or wash down a drain ends up in that system. Some of it helps. Most of it does nothing. And some of it actively destroys the process your system depends on to function.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           The core rule is simple &mdash; only human waste and toilet paper should be flushed. Everything else either goes in the trash, the compost, or a hazardous waste collection. But the nuance matters, and that&apos;s what most guides skip.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-12'>
-          For authoritative guidance on protecting your septic system, <a href='https://extension.psu.edu/what-not-to-flush-keep-your-septic-system-functioning-properly' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>Penn State Extension</a> provides research-backed recommendations. For a broader overview of how your system works, see our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete guide to septic systems</Link>.
+          For authoritative guidance on protecting your septic system, <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA septic system care guidance</a> provides research-backed recommendations. For a broader overview of how your system works, see our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete guide to septic systems</Link>.
         </p>
 
         {/* Section 1 - What's Safe to Flush */}
@@ -174,7 +176,7 @@ export default function WhatCanCannotFlushSeptic() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Should Never Be Flushed (Toilet)</h2>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>These items either don&apos;t break down, clog pipes, or damage the biological process inside your tank. According to <a href='https://extension.psu.edu/what-not-to-flush-keep-your-septic-system-functioning-properly' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>Penn State Extension&apos;s septic research</a>, flushing inappropriate items is one of the most common and preventable causes of expensive repairs.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>These items either don&apos;t break down, clog pipes, or damage the biological process inside your tank. According to <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA septic system care guidance</a>, flushing inappropriate items is one of the most common and preventable causes of expensive repairs.</p>
           <div className='space-y-3'>
             <div className='flex items-start gap-3 p-4 bg-red-50 border border-red-200 rounded-lg'>
               <span className='text-red-700 font-bold text-sm mt-0.5'>&times;</span>
@@ -361,35 +363,35 @@ export default function WhatCanCannotFlushSeptic() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that live without oxygen inside the septic tank. They digest organic solid waste and reduce sludge volume. Flushing harsh chemicals kills them and impairs your system&apos;s ability to treat waste.</dd>
+              <dd className='text-slate-600 text-xs'>Anaerobic bacteria are microorganisms that live and function without oxygen inside the septic tank, where they digest organic solids, reduce sludge volume, and break down waste into gases and simpler compounds as part of the natural treatment process. They are the foundation of every conventional septic system&apos;s function and are killed by harsh chemicals including bleach in concentrated doses, chemical drain cleaners, antibacterial products used heavily, and medications including antibiotics that pass through the body into the tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum Layer</dt>
-              <dd className='text-slate-600 text-xs'>The floating layer of oils, grease, and lightweight solids on top of the wastewater in the tank. Cooking grease and fats thicken this layer. A heavy scum layer can block the outlet baffle.</dd>
+              <dd className='text-slate-600 text-xs'>The scum layer is the floating layer of oils, grease, and lightweight organic solids that accumulates on the surface of the wastewater inside the septic tank, and it is removed along with sludge during every pump-out. Cooking grease, fats, oils, and heavily greasy wastewater thicken the scum layer faster than normal household use, and when scum accumulates to within six inches of the outlet tee the EPA recommends pumping because solids are at risk of escaping into the drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge Layer</dt>
-              <dd className='text-slate-600 text-xs'>The settled layer of heavy solids at the bottom of the tank. Everything that bacteria can&apos;t fully digest ends up here, including synthetic fibers and non-biodegradable materials. This is what pumping removes.</dd>
+              <dd className='text-slate-600 text-xs'>The sludge layer is the settled layer of heavy solids at the bottom of the septic tank that accumulates over time and includes both organic material that bacteria have partially digested and inorganic materials such as synthetic fibers, minerals, and non-biodegradable particles that no bacteria can break down. Everything that enters the system and cannot be biologically processed ends up in the sludge layer, which is why flushing non-biodegradable items accelerates the rate of sludge accumulation and shortens the interval between necessary pump-outs.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially clarified liquid between scum and sludge that flows out to the drainfield. The cleaner the effluent, the longer your drainfield lasts.</dd>
+              <dd className='text-slate-600 text-xs'>Effluent is the partially clarified liquid layer that occupies the middle zone of the septic tank between the settled sludge on the bottom and the floating scum on top, and it is the only material that should be exiting the tank through the outlet pipe to the drainfield for final soil treatment. The cleaner and lower in suspended solids the effluent is when it reaches the drainfield, the longer the drainfield will function effectively, which is why keeping non-biodegradable items, grease, and harsh chemicals out of the system directly protects drainfield lifespan.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>T-shaped fittings at the tank&apos;s inlet and outlet that prevent scum and large solids from leaving the tank. Flushable wipes and dental floss can wrap around or block baffles.</dd>
+              <dd className='text-slate-600 text-xs'>A baffle is a T-shaped pipe fitting installed at both the inlet and outlet of the septic tank that controls the direction of wastewater flow and prevents floating scum and settled sludge from escaping the tank into the drainfield. Flushable wipes, dental floss, feminine hygiene products, and other non-biodegradable materials that should not be flushed frequently accumulate around and inside baffles, causing blockages that restrict flow and in severe cases allow solids to bypass the baffle entirely.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Biomat</dt>
-              <dd className='text-slate-600 text-xs'>A bacterial layer that forms on drainfield trench surfaces. A thin biomat is normal and helps with treatment. A thick biomat caused by poor effluent quality clogs the drainfield and leads to system failure.</dd>
+              <dd className='text-slate-600 text-xs'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent percolates through the soil, and a thin biomat is a normal and beneficial part of the treatment process that aids in pathogen removal. When poor effluent quality from grease accumulation, non-biodegradable solids, or chemical disruption of the tank&apos;s bacterial process sends contaminated effluent into the drainfield, biomat accumulates faster than it can be broken down and eventually seals the trench surfaces causing drainfield failure.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>The network of buried pipes where effluent is filtered through soil. Everything you flush that shouldn&apos;t be flushed ultimately threatens this component, which costs $5,000 to $15,000 to replace.</dd>
+              <dd className='text-slate-600 text-xs'>The drainfield is the underground network of perforated pipes buried in gravel-filled trenches where septic tank effluent is distributed into the surrounding soil for final treatment and natural purification by soil microorganisms, and it is the most expensive component of a conventional septic system to replace at $5,000 to $15,000. Everything that enters the septic system through toilets and drains that should not be there ultimately threatens the drainfield either by clogging its pipes and gravel, degrading the quality of the effluent reaching it, or killing the bacteria that maintain the biological treatment process on both sides of the tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Hydraulic Overload</dt>
-              <dd className='text-slate-600 text-xs'>When more water enters the septic tank than it can process, reducing settling time and pushing solids into the drainfield. Caused by excessive water use, hot tub drainage, or water softener backwash.</dd>
+              <dd className='text-slate-600 text-xs'>Hydraulic overload is a condition in which more water enters the septic system over a given period than the tank and drainfield can process and discharge, reducing the retention time that allows solids to settle and bacteria to digest waste, and causing more suspended solids to escape into the drainfield with the effluent. Common causes include excessive daily water use, hot tub drainage into the system, water softener backwash cycles, doing multiple laundry loads back to back, and leaky toilets or faucets that add continuous low-level flow throughout the day.</dd>
             </div>
           </div>
         </div>
@@ -458,15 +460,16 @@ export default function WhatCanCannotFlushSeptic() {
           <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with licensed septic professionals in your area. Get free, no-obligation quotes and compare prices before you commit.</p>
           <Link href='/get-quote' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-sm'>Get Free Quotes</Link>
         </div>
-      {/* Lead Form */}
-            <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
-              <div className='max-w-2xl mx-auto px-4'>
-                <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
-                <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
-                <LeadForm />
-              </div>
-            </section>
-          </article>
+
+        {/* Lead Form */}
+        <section className='py-12 bg-[#F5F0EB] rounded-2xl mt-12'>
+          <div className='max-w-2xl mx-auto px-4'>
+            <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Expert Septic Help</h2>
+            <p className='text-gray-600 text-center mb-8'>Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
+            <LeadForm />
+          </div>
+        </section>
+      </article>
     </>
   )
 }
