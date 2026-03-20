@@ -323,32 +323,6 @@ export default function SepticRepairCostArticle() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
 
-                {/* Related Guides - Inspection Guide */}
-        <div className='bg-slate-50 border border-slate-200 rounded-xl p-6 mb-12'>
-          <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
-          <p className='text-sm font-semibold text-slate-600 mb-4'>On theseptic.guide</p>
-          <ul className='space-y-3 text-sm text-slate-700'>
-            <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link> &mdash; What pump-outs cost by tank size and region, and how to combine pumping with your inspection to save on service call fees.</li>
-            <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link> &mdash; The EPA-based pumping and inspection schedule by tank size and household size, so you know how often to book each service.</li>
-            <li><Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Repair Cost</Link> &mdash; What every common repair costs after a failed inspection, from a cracked baffle to full drainfield replacement.</li>
-            <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link> &mdash; Full cost breakdown for new and replacement systems, relevant when an inspection reveals the system has reached end of life.</li>
-            <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link> &mdash; The most expensive outcome of a failed inspection, with a full cost breakdown by system type and site condition.</li>
-            <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link> &mdash; The warning sign progression that a thorough inspection is designed to catch early, from slow drains to surfacing sewage.</li>
-            <li><Link href='/articles/buying-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Buying a Home with a Septic System</Link> &mdash; The complete homebuyer&apos;s guide to septic due diligence, what to insist on in the inspection, and how to negotiate repairs.</li>
-            <li><Link href='/articles/selling-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Selling a Home with a Septic System</Link> &mdash; How a pre-listing inspection protects your asking price and speeds up the closing process.</li>
-            <li><Link href='/articles/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link> &mdash; The full ongoing maintenance schedule that keeps your system in passing condition between professional inspections.</li>
-            <li><Link href='/articles/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link> &mdash; The one upgrade that eliminates the $50 to $250 digging fee at every inspection and pump-out visit, paying for itself within two to three service calls.</li>
-            <li><Link href='/problems/slow-drains-on-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link> &mdash; When slow drains prompt an unscheduled inspection, this guide helps you diagnose whether the cause is a full tank, a clogged filter, or a drainfield problem before you call.</li>
-            <li><Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Complete Septic System Guide</Link> &mdash; How every component of the system works and what inspectors are looking for when they evaluate each one.</li>
-            <li><Link href='/articles/does-insurance-cover-septic-repair' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link> &mdash; What homeowners insurance covers when an inspection reveals a failed component, and what riders are available to reduce out-of-pocket repair costs.</li>
-          </ul>
-          <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>From Our Network</p>
-          <ul className='space-y-3 text-sm text-slate-700'>
-            <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a> &mdash; For homes where a basement inspection and a septic inspection are being scheduled together, this guide covers basement water management equipment that protects both systems.</li>
-            <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a> &mdash; Homes on septic systems with high water tables often need sump pumps to manage groundwater that would otherwise saturate the drainfield. Reviewed and ranked for every budget.</li>
-          </ul>
-        </div>
-
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Septic system repairs cost <strong>$600 to $3,000</strong> on average. Minor repairs (filter replacement, baffle repair, lid fix) cost <strong>$100 to $500</strong>. Mid-range repairs (pump replacement, distribution box, line repair) cost <strong>$500 to $1,500</strong>. Major repairs (drainfield rejuvenation, tank crack repair, root removal) cost <strong>$1,000 to $5,000</strong>. Full drainfield replacement costs <strong>$5,000 to $15,000</strong>. Full system replacement costs <strong>$8,000 to $20,000+</strong>.
         </p>
@@ -689,6 +663,31 @@ export default function SepticRepairCostArticle() {
           </div>
         </div>
 
+                {/* Related Guides - Inspection Guide */}
+        <div className='bg-slate-50 border border-slate-200 rounded-xl p-6 mb-12'>
+          <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
+          <p className='text-sm font-semibold text-slate-600 mb-4'>On theseptic.guide</p>
+          <ul className='space-y-3 text-sm text-slate-700'>
+            <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link> &mdash; What pump-outs cost by tank size and region, and how to combine pumping with your inspection to save on service call fees.</li>
+            <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link> &mdash; The EPA-based pumping and inspection schedule by tank size and household size, so you know how often to book each service.</li>
+            <li><Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Repair Cost</Link> &mdash; What every common repair costs after a failed inspection, from a cracked baffle to full drainfield replacement.</li>
+            <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link> &mdash; Full cost breakdown for new and replacement systems, relevant when an inspection reveals the system has reached end of life.</li>
+            <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link> &mdash; The most expensive outcome of a failed inspection, with a full cost breakdown by system type and site condition.</li>
+            <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link> &mdash; The warning sign progression that a thorough inspection is designed to catch early, from slow drains to surfacing sewage.</li>
+            <li><Link href='/articles/buying-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Buying a Home with a Septic System</Link> &mdash; The complete homebuyer&apos;s guide to septic due diligence, what to insist on in the inspection, and how to negotiate repairs.</li>
+            <li><Link href='/articles/selling-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Selling a Home with a Septic System</Link> &mdash; How a pre-listing inspection protects your asking price and speeds up the closing process.</li>
+            <li><Link href='/articles/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link> &mdash; The full ongoing maintenance schedule that keeps your system in passing condition between professional inspections.</li>
+            <li><Link href='/articles/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link> &mdash; The one upgrade that eliminates the $50 to $250 digging fee at every inspection and pump-out visit, paying for itself within two to three service calls.</li>
+            <li><Link href='/problems/slow-drains-on-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link> &mdash; When slow drains prompt an unscheduled inspection, this guide helps you diagnose whether the cause is a full tank, a clogged filter, or a drainfield problem before you call.</li>
+            <li><Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Complete Septic System Guide</Link> &mdash; How every component of the system works and what inspectors are looking for when they evaluate each one.</li>
+            <li><Link href='/articles/does-insurance-cover-septic-repair' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link> &mdash; What homeowners insurance covers when an inspection reveals a failed component, and what riders are available to reduce out-of-pocket repair costs.</li>
+          </ul>
+          <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>From Our Network</p>
+          <ul className='space-y-3 text-sm text-slate-700'>
+            <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a> &mdash; For homes where a basement inspection and a septic inspection are being scheduled together, this guide covers basement water management equipment that protects both systems.</li>
+            <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a> &mdash; Homes on septic systems with high water tables often need sump pumps to manage groundwater that would otherwise saturate the drainfield. Reviewed and ranked for every budget.</li>
+          </ul>
+        </div>
         {/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need a Septic Repair Quote?</h2>
