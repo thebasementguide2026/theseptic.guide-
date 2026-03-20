@@ -131,6 +131,223 @@ export default function WhatCanCannotFlushSeptic() {
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Septic system flushing guidelines are the rules governing what materials can safely enter an on-site wastewater treatment system through toilets, sinks, showers, and household drains without disrupting the biological treatment process or accelerating the accumulation of solids in the tank and drainfield. A septic system treats waste through a combination of physical settling and biological digestion by anaerobic bacteria, and both processes are disrupted by materials that do not break down, kill the bacterial colony, or add inorganic solids that accumulate as sludge faster than the system can manage. The only materials a septic system is designed to receive are human waste, toilet paper, and the normal water and diluted cleaning products that result from routine household use. Everything else &mdash; wipes, grease, chemicals, medications, paint, food scraps, and non-biodegradable items &mdash; either clogs pipes and baffles, kills the bacteria that make the system function, or adds to the sludge layer that requires periodic pump-out to remove.
         </p>
+                  {/* Quick Reference Table */}
+          <div className='mb-12'>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>Quick Reference: Can I Flush or Drain This?</h2>
+            <p className='text-slate-700 leading-relaxed mb-6 text-sm'>The full guide below explains the why behind every category. Use this table for a fast answer.</p>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-sm border-collapse'>
+                <thead>
+                  <tr className='bg-slate-100'>
+                    <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Item</th>
+                    <th className='text-center p-3 font-bold text-slate-900 border border-slate-200'>Toilet</th>
+                    <th className='text-center p-3 font-bold text-slate-900 border border-slate-200'>Drain / Sink</th>
+                    <th className='text-left p-3 font-bold text-slate-900 border border-slate-200'>Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Human waste</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>What the system is designed for</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Toilet paper (standard)</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Dissolves quickly in water</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Toilet paper (septic-safe)</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Dissolves faster, preferred choice</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Flushable wipes</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Do not break down, clog baffles and pumps</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Baby wipes and cleaning wipes</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Thicker and more durable than flushable wipes</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Feminine hygiene products</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Expand and resist decomposition</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Paper towels and tissues</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Engineered to stay strong when wet</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Dental floss</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Wraps around pump components and baffles</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Cotton balls and swabs</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Clump together, do not biodegrade</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Condoms</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Latex does not decompose</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Cat litter</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Expands when wet, adds inert solids</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Diapers</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Can block a pipe entirely</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Medications</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Kill bacteria, contaminate groundwater</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Cigarette butts</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Cellulose acetate plastic, does not biodegrade</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Cooking grease and oils</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Thickens scum layer, blocks outlet baffle</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Coffee grounds</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Add directly to sludge layer, do not dissolve</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Food scraps (no disposal)</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Compost instead</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Chemical drain cleaners</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Kill tank bacteria on contact</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Bleach (concentrated)</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Crashes bacterial population</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Bleach (diluted, normal cleaning)</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Tolerable in small amounts, avoid daily use</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Antibacterial soap (heavy use)</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Kills bacteria in large quantities</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Antibacterial soap (normal use)</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Use standard soap instead where possible</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Paint and paint thinner</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Toxic to bacteria, contaminates groundwater</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Motor oil and automotive fluids</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Hazardous waste, take to collection facility</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Pesticides and herbicides</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Hazardous waste, take to collection facility</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Standard laundry detergent (liquid)</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Normal amounts fine, liquid preferred over powder</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Powdered laundry detergent</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Fillers add to sludge layer, switch to liquid</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Dish soap (normal use)</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Fine in normal household quantities</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Hot tub water</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-center text-red-700 font-semibold'>Never</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Volume overwhelms tank, chemicals harm bacteria</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Water softener discharge</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Route to dry well if possible, sodium affects drainfield</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Washing machine lint</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-amber-700 font-semibold'>Caution</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Install lint filter on discharge hose</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Septic-safe cleaning products</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Labeled biodegradable or septic-safe</td>
+                  </tr>
+                  <tr className='border-b border-slate-100'>
+                    <td className='p-3 border border-slate-200 font-medium text-slate-900'>Vinegar and baking soda</td>
+                    <td className='p-3 border border-slate-200 text-center text-slate-400'>&mdash;</td>
+                    <td className='p-3 border border-slate-200 text-center text-green-700 font-semibold'>Yes</td>
+                    <td className='p-3 border border-slate-200 text-slate-600'>Safest cleaning option for septic homes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Your septic system is a biological treatment plant in your yard. It relies on living bacteria to break down waste. Everything you flush, pour, or wash down a drain ends up in that system. Some of it helps. Most of it does nothing. And some of it actively destroys the process your system depends on to function.
         </p>
