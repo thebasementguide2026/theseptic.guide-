@@ -423,7 +423,7 @@ export default function SepticRepairCostArticle() {
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Distribution Box Replacement &mdash; $500 to $1,500</h3>
               <p className='text-slate-700 text-sm mb-2'>The distribution box divides effluent equally among the drainfield lines. When a D-box cracks, shifts, or becomes unleveled, one section of the drainfield gets overloaded while the rest sits idle.</p>
-              <p className='text-slate-700 text-sm'>Replacement involves excavating the box, installing a new one, and reconnecting the pipes. According to <a href='https://www.clemson.edu/extension/water/resources/be-septic-safe.html' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>Clemson University&apos;s septic maintenance resources</a>, ensuring equal distribution to all drainfield lines is critical for system longevity.</p>
+              <p className='text-slate-700 text-sm'>Replacement involves excavating the box, installing a new one, and reconnecting the pipes. According to <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA septic system maintenance guidance</a>, ensuring equal distribution to all drainfield lines is critical for system longevity.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Control Panel Replacement &mdash; $300 to $500</h3>
@@ -611,35 +611,35 @@ export default function SepticRepairCostArticle() {
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A T-shaped pipe fitting at the inlet and outlet of the septic tank. Baffles prevent solids from leaving the tank. A damaged outlet baffle is one of the most important repairs to address because it directly causes drainfield damage.</dd>
+              <dd className='text-slate-600 text-xs'>A baffle is a T-shaped pipe fitting installed at both the inlet and outlet of the septic tank that controls the direction of wastewater flow and prevents floating scum and settled sludge from escaping the tank. The outlet baffle is the more critical of the two because a cracked, deteriorated, or missing outlet baffle allows solids to flow directly into the drainfield with every flush, which is one of the fastest paths to drainfield failure and one of the most important repairs to address promptly when identified during an inspection.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution box (D-box)</dt>
-              <dd className='text-slate-600 text-xs'>A small chamber that divides effluent equally among drainfield lines. When a D-box fails, one section of the drainfield is overloaded while others sit idle, leading to uneven failure.</dd>
+              <dd className='text-slate-600 text-xs'>A distribution box is a small watertight underground chamber that receives effluent from the septic tank outlet pipe and divides it equally among the multiple perforated pipe lines that make up the drainfield, ensuring no single trench section receives a disproportionate volume of effluent that would cause premature failure in that area. When a D-box cracks, shifts out of level, or becomes partially blocked, it sends too much effluent to one drainfield section while leaving others underused, overloading that section and causing localized failure that can be mistaken for full drainfield failure.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent filter</dt>
-              <dd className='text-slate-600 text-xs'>A screen at the tank outlet that catches suspended solids. Requires regular cleaning every 1 to 3 years and occasional replacement ($50 to $200). The cheapest form of drainfield protection available.</dd>
+              <dd className='text-slate-600 text-xs'>An effluent filter is a removable screen installed at the outlet pipe of the septic tank that catches suspended solids before they reach the drainfield, and it is the cheapest and most effective form of drainfield protection available at $50 to $200 to replace. It is one of the most commonly overlooked causes of whole-house slow drains when clogged, and should be checked, cleaned, and if necessary replaced at every pump-out visit as a standard part of routine maintenance.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield rejuvenation</dt>
-              <dd className='text-slate-600 text-xs'>Techniques used to restore a struggling drainfield&apos;s absorption capacity without full replacement. Includes soil aeration, hydro-jetting, and bio-remediation. Costs $1,000 to $5,000 and works in some but not all cases.</dd>
+              <dd className='text-slate-600 text-xs'>Drainfield rejuvenation is the use of non-excavation techniques to restore absorption capacity in a struggling or partially failing drainfield, including soil aeration to fracture compacted soil and restore pore space, hydro-jetting to clear sediment and debris from perforated pipes, and bio-remediation to introduce bacteria that break down early-stage biomat on the trench surfaces. Rejuvenation costs $1,000 to $5,000 and works best when failure is caught early before complete soil sealing has occurred, but it rarely works on drainfields that have fully failed from years of solid accumulation, physical damage, or end-of-life soil capacity.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Hydro-jetting</dt>
-              <dd className='text-slate-600 text-xs'>High-pressure water cleaning used to clear roots, sediment, and buildup from septic pipes and drainfield lines. More effective than mechanical snaking for thorough cleaning.</dd>
+              <dd className='text-slate-600 text-xs'>Hydro-jetting is a professional cleaning method that uses a high-pressure stream of water delivered through a specialized nozzle to scour the interior walls of septic pipes, sewer lines, and drainfield lines, removing compacted sediment, grease buildup, and root intrusions that mechanical snaking cannot fully clear. It is more effective than standard snaking for severe or recurring blockages and costs $300 to $600 for a typical residential sewer line, with drainfield pipe jetting as part of a rejuvenation package typically running $500 to $1,500.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Biomat</dt>
-              <dd className='text-slate-600 text-xs'>The bacterial layer on the drainfield trench surfaces. Normal in thin layers, but excessive biomat from solid overflow seals the soil and causes drainfield failure. Rejuvenation targets biomat reduction.</dd>
+              <dd className='text-slate-600 text-xs'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent percolates through the soil, and a thin biomat is a normal and beneficial part of the wastewater treatment process. When solids escape a neglected tank and enter the drainfield, biomat accumulates far faster than it can be broken down, eventually sealing the trench surfaces completely and causing drainfield failure that cannot be reversed without replacement.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>50% rule</dt>
-              <dd className='text-slate-600 text-xs'>A decision guideline for repair vs. replacement. If the cost of repair exceeds 50% of the cost of full replacement, replacement is usually the more cost-effective long-term choice.</dd>
+              <dd className='text-slate-600 text-xs'>The 50 percent rule is a decision guideline for repair versus replacement that recommends choosing full system or component replacement when the cost of the repair exceeds 50 percent of what the full replacement would cost, because spending that level of money on an aging system typically delivers poor long-term value compared to investing in new equipment. The rule is a starting point rather than an absolute threshold and should be evaluated alongside the system&apos;s age, the frequency of recent repairs, and whether the drainfield is still functioning properly.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Camera inspection</dt>
-              <dd className='text-slate-600 text-xs'>A video scope is inserted into septic pipes to visually assess pipe condition, locate cracks, root intrusion, or blockages. Costs $125 to $500 and is essential for accurate diagnosis before committing to a repair.</dd>
+              <dd className='text-slate-600 text-xs'>A camera inspection is a diagnostic procedure in which a waterproof video scope is inserted into a septic pipe or sewer line to visually assess the pipe&apos;s interior condition, locate cracks, identify root intrusion, confirm blockage locations, and determine whether a pipe can be repaired or needs to be replaced. It costs $125 to $500 and is essential for accurate diagnosis before committing to any pipe repair, root removal, or line replacement, because it prevents guesswork and eliminates unnecessary excavation.</dd>
             </div>
           </div>
         </div>
