@@ -126,7 +126,10 @@ export default function WhatCanCannotFlushSeptic() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>
+                  <p className='text-base text-slate-700 leading-relaxed mb-6'>
+            Septic system flushing guidelines are the rules governing what materials can safely enter an on-site wastewater treatment system through toilets, sinks, showers, and household drains without disrupting the biological treatment process or accelerating the accumulation of solids in the tank and drainfield. A septic system treats waste through a combination of physical settling and biological digestion by anaerobic bacteria, and both processes are disrupted by materials that do not break down, kill the bacterial colony, or add inorganic solids that accumulate as sludge faster than the system can manage. The only materials a septic system is designed to receive are human waste, toilet paper, and the normal water and diluted cleaning products that result from routine household use. Everything else &mdash; wipes, grease, chemicals, medications, paint, food scraps, and non-biodegradable items &mdash; either clogs pipes and baffles, kills the bacteria that make the system function, or adds to the sludge layer that requires periodic pump-out to remove.
+          </p>
+<p className='text-base text-slate-700 leading-relaxed mb-6'>
           Your septic system is a biological treatment plant in your yard. It relies on living bacteria to break down waste. Everything you flush, pour, or wash down a drain ends up in that system. Some of it helps. Most of it does nothing. And some of it actively destroys the process your system depends on to function.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
