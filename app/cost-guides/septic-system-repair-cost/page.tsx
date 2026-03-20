@@ -520,6 +520,44 @@ export default function SepticRepairCostArticle() {
           </div>
         </div>
 
+                  {/* What Is My Symptom? */}
+          <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Symptom Guide</span>
+              <div className='flex-1 h-px bg-slate-200'></div>
+            </div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Is My Symptom? Find Your Repair and Cost</h2>
+            <p className='text-slate-700 leading-relaxed mb-6 text-sm'>Match what you are observing to the most likely repair needed and its realistic cost range.</p>
+            <div className='overflow-x-auto my-6'>
+              <table className='w-full text-xs border-collapse'>
+                <thead>
+                  <tr className='bg-slate-900 text-white'>
+                    <th className='p-2 text-left font-semibold'>What You Are Observing</th>
+                    <th className='p-2 text-left font-semibold'>Most Likely Cause</th>
+                    <th className='p-2 text-left font-semibold'>Repair Needed</th>
+                    <th className='p-2 text-center font-semibold'>Estimated Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Whole-house slow drains, tank recently pumped</td><td className='p-2 text-slate-700'>Clogged effluent filter</td><td className='p-2 text-slate-700'>Clean or replace effluent filter</td><td className='p-2 text-center text-slate-700'>$0 &ndash; $200</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage odor near tank, no visible pooling</td><td className='p-2 text-slate-700'>Cracked or unsealed tank lid</td><td className='p-2 text-slate-700'>Replace lid or riser seal</td><td className='p-2 text-center text-slate-700'>$100 &ndash; $400</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Whole-house slow drains, tank overdue for pumping</td><td className='p-2 text-slate-700'>Full tank</td><td className='p-2 text-slate-700'>Pump-out</td><td className='p-2 text-center text-slate-700'>$300 &ndash; $600</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Gurgling from multiple fixtures</td><td className='p-2 text-slate-700'>Blocked baffle or main line restriction</td><td className='p-2 text-slate-700'>Baffle replacement or pipe inspection</td><td className='p-2 text-center text-slate-700'>$250 &ndash; $900</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Slow drains plus sewage odor in yard</td><td className='p-2 text-slate-700'>Early drainfield stress or broken pipe</td><td className='p-2 text-slate-700'>Camera inspection plus repair or rejuvenation</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $5,000</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>One drainfield section wet, others dry</td><td className='p-2 text-slate-700'>Failing or unlevel distribution box</td><td className='p-2 text-slate-700'>D-box replacement</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $1,500</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Pump alarm activating on mound or ATU system</td><td className='p-2 text-slate-700'>Failed or failing septic pump</td><td className='p-2 text-slate-700'>Pump repair or replacement</td><td className='p-2 text-center text-slate-700'>$250 &ndash; $1,300</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage odor at specific point along house-to-tank route</td><td className='p-2 text-slate-700'>Cracked or separated sewer line</td><td className='p-2 text-slate-700'>Camera inspection plus pipe repair</td><td className='p-2 text-center text-slate-700'>$600 &ndash; $3,800</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Roots visible in tank or pipes on inspection</td><td className='p-2 text-slate-700'>Root intrusion</td><td className='p-2 text-slate-700'>Root removal plus camera inspection</td><td className='p-2 text-center text-slate-700'>$600 &ndash; $1,600</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Small crack visible in concrete tank on inspection</td><td className='p-2 text-slate-700'>Minor structural tank damage</td><td className='p-2 text-slate-700'>Tank crack repair with hydraulic cement</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $850</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Large structural crack or shifting tank</td><td className='p-2 text-slate-700'>Major tank failure</td><td className='p-2 text-slate-700'>Full tank replacement</td><td className='p-2 text-center text-slate-700'>$3,000 &ndash; $7,000</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Soggy soil over drainfield in dry weather, early stage</td><td className='p-2 text-slate-700'>Moderate drainfield clogging</td><td className='p-2 text-slate-700'>Drainfield rejuvenation</td><td className='p-2 text-center text-slate-700'>$1,000 &ndash; $5,000</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Standing water or surfacing sewage over drainfield</td><td className='p-2 text-slate-700'>Complete drainfield failure</td><td className='p-2 text-slate-700'>Full drainfield replacement</td><td className='p-2 text-center text-slate-700'>$5,000 &ndash; $15,000</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage backing up into house</td><td className='p-2 text-slate-700'>Total system failure</td><td className='p-2 text-slate-700'>Emergency pump-out plus full assessment</td><td className='p-2 text-center text-slate-700'>$300 &ndash; $20,000</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Multiple components failing simultaneously, system 20+ years old</td><td className='p-2 text-slate-700'>End of system lifespan</td><td className='p-2 text-slate-700'>Full system replacement</td><td className='p-2 text-center text-slate-700'>$8,000 &ndash; $20,000</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         {/* How to Save Money */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
