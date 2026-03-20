@@ -254,7 +254,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-septic-safe-laundry-detergent',
     category: 'Review',
     readTime: '20 min read',
-    image: '/laundry-detergent.jpg',
+    image: '/laundry.jpg',
   },
     {
     title: 'Selling a Home with a Septic System: The Complete 2026 Seller\u2019s Guide',
@@ -294,7 +294,7 @@ export const articles: Article[] = [
     slug: 'septic-tank-cleaning-vs-pumping',
     category: 'Article',
     readTime: '20 min read',
-    image: '/septictankcleaningvspumping.jpg',
+    image: '/septic pump.jpg',
   },
   {
     title: 'Do Septic Tank Additives Work? The Complete 2026 Guide',
