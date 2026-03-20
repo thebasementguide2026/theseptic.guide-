@@ -682,55 +682,37 @@ export default function SepticRepairCostArticle() {
           </div>
         </div>
 
-        {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Complete price breakdown by system type, materials, and hidden costs.</p>
-            </Link>
-            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>What pumping actually costs by tank size, region, and hidden fees.</p>
-            </Link>
-            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs, causes, and what to do about drainfield failure.</p>
-            </Link>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-            </Link>
+                  {/* Related Guides */}
+          <div className='bg-slate-50 border border-slate-200 rounded-xl p-6 mb-12'>
+            <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
+            <p className='text-sm font-semibold text-slate-600 mb-4'>On theseptic.guide</p>
+            <ul className='space-y-3 text-sm text-slate-700'>
+              <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link> &mdash; The most expensive single septic repair priced out in full, with a complete breakdown by system type, site conditions, and what drives cost from the low end to the high end.</li>
+              <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link> &mdash; The full warning sign progression from earliest to latest, what causes drainfield failure, and when the situation calls for rejuvenation versus replacement.</li>
+              <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link> &mdash; Full cost breakdown for new and replacement systems by type, relevant when repairs have reached the point where full replacement is the better investment.</li>
+              <li><Link href='/articles/septic-inspection-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Inspection Cost</Link> &mdash; What a professional inspection costs and why an accurate diagnosis before committing to any repair is essential for avoiding the wrong fix at the wrong price.</li>
+              <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link> &mdash; The $300 to $600 service that prevents the majority of expensive repairs, with real pricing by tank size and region.</li>
+              <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link> &mdash; The pumping schedule that keeps solids out of the drainfield and prevents the repair cascade that starts with a neglected tank.</li>
+              <li><Link href='/problems/septic-tank-backing-up' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Backing Up Into House</Link> &mdash; Emergency steps, causes, and what to do when a repair situation has escalated to sewage entering the home.</li>
+              <li><Link href='/problems/slow-drains-on-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link> &mdash; How to diagnose whether slow drains point to a localized pipe clog, a full tank, a clogged effluent filter, or a developing drainfield problem before calling for a repair.</li>
+              <li><Link href='/problems/septic-smell-in-yard' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Smell in Your Yard</Link> &mdash; Eight causes of outdoor septic odor, what each one means for the system&apos;s condition, and the specific repair or fix for each.</li>
+              <li><Link href='/articles/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link> &mdash; The complete ongoing maintenance schedule that prevents the majority of expensive repairs by catching developing problems at the inexpensive end of the repair spectrum.</li>
+              <li><Link href='/articles/does-insurance-cover-septic-repair' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link> &mdash; Why most repairs are out-of-pocket expenses and what policy options exist to reduce financial exposure before a failure occurs.</li>
+              <li><Link href='/articles/septic-tank-cleaning-vs-pumping' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Cleaning vs Pumping</Link> &mdash; The difference between a thorough pump-out and a basic service, and why incomplete pumping accelerates the solid accumulation that leads to the most expensive repairs.</li>
+              <li><Link href='/articles/do-septic-tank-additives-work' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Do Septic Tank Additives Work?</Link> &mdash; Why additives cannot replace repairs or pumping, and which additive types can actively cause the damage that leads to expensive system failures.</li>
+              <li><Link href='/articles/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link> &mdash; The one upgrade that reduces the cost of every future repair and service visit by eliminating excavation fees and giving technicians immediate access to the tank.</li>
+            </ul>
+            <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>From Our Network</p>
+            <ul className='space-y-3 text-sm text-slate-700'>
+              <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a> &mdash; For homes where groundwater management is contributing to drainfield saturation and accelerating repair costs, a properly designed sump pump system can redirect water away from the septic area.</li>
+              <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a> &mdash; Reviewed and ranked sump pump options for homeowners managing water intrusion and drainage problems that stress the septic system and increase repair frequency.</li>
+            </ul>
+            <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>External Resource</p>
+            <ul className='space-y-3 text-sm text-slate-700'>
+              <li><a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>EPA Septic System Maintenance Guidance</a> &mdash; The EPA&apos;s official guidance on septic system care including maintenance schedules, what to avoid, and how proper upkeep prevents the costly repairs covered in this guide.</li>
+            </ul>
           </div>
-        </div>
-
-                {/* Related Guides - Inspection Guide */}
-        <div className='bg-slate-50 border border-slate-200 rounded-xl p-6 mb-12'>
-          <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
-          <p className='text-sm font-semibold text-slate-600 mb-4'>On theseptic.guide</p>
-          <ul className='space-y-3 text-sm text-slate-700'>
-            <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link> &mdash; What pump-outs cost by tank size and region, and how to combine pumping with your inspection to save on service call fees.</li>
-            <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link> &mdash; The EPA-based pumping and inspection schedule by tank size and household size, so you know how often to book each service.</li>
-            <li><Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Repair Cost</Link> &mdash; What every common repair costs after a failed inspection, from a cracked baffle to full drainfield replacement.</li>
-            <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link> &mdash; Full cost breakdown for new and replacement systems, relevant when an inspection reveals the system has reached end of life.</li>
-            <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link> &mdash; The most expensive outcome of a failed inspection, with a full cost breakdown by system type and site condition.</li>
-            <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link> &mdash; The warning sign progression that a thorough inspection is designed to catch early, from slow drains to surfacing sewage.</li>
-            <li><Link href='/articles/buying-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Buying a Home with a Septic System</Link> &mdash; The complete homebuyer&apos;s guide to septic due diligence, what to insist on in the inspection, and how to negotiate repairs.</li>
-            <li><Link href='/articles/selling-home-with-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Selling a Home with a Septic System</Link> &mdash; How a pre-listing inspection protects your asking price and speeds up the closing process.</li>
-            <li><Link href='/articles/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link> &mdash; The full ongoing maintenance schedule that keeps your system in passing condition between professional inspections.</li>
-            <li><Link href='/articles/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link> &mdash; The one upgrade that eliminates the $50 to $250 digging fee at every inspection and pump-out visit, paying for itself within two to three service calls.</li>
-            <li><Link href='/problems/slow-drains-on-septic-system' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link> &mdash; When slow drains prompt an unscheduled inspection, this guide helps you diagnose whether the cause is a full tank, a clogged filter, or a drainfield problem before you call.</li>
-            <li><Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Complete Septic System Guide</Link> &mdash; How every component of the system works and what inspectors are looking for when they evaluate each one.</li>
-            <li><Link href='/articles/does-insurance-cover-septic-repair' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link> &mdash; What homeowners insurance covers when an inspection reveals a failed component, and what riders are available to reduce out-of-pocket repair costs.</li>
-          </ul>
-          <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>From Our Network</p>
-          <ul className='space-y-3 text-sm text-slate-700'>
-            <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a> &mdash; For homes where a basement inspection and a septic inspection are being scheduled together, this guide covers basement water management equipment that protects both systems.</li>
-            <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a> &mdash; Homes on septic systems with high water tables often need sump pumps to manage groundwater that would otherwise saturate the drainfield. Reviewed and ranked for every budget.</li>
-          </ul>
-        </div>
-        {/* CTA */}
+{/* CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
           <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need a Septic Repair Quote?</h2>
           <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with licensed septic professionals in your area. Get free, no-obligation quotes and compare prices before you commit.</p>
