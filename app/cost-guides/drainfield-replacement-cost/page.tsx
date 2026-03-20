@@ -263,35 +263,35 @@ export default function DrainFieldReplacementCost() {
           <div className='space-y-4'>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Drainfield (leach field)</h3>
-              <p className='text-slate-700 text-xs'>A network of perforated pipes in gravel-filled trenches that distributes septic tank effluent into the soil for final treatment. The most expensive component of a septic system to replace.</p>
+              <p className='text-slate-700 text-xs'>A drainfield is the underground network of perforated pipes buried in gravel-filled trenches where septic tank effluent is distributed into the surrounding soil for final treatment and natural purification by soil microorganisms, and it is the most expensive component of a conventional septic system to replace. When the drainfield fails, the entire septic system stops functioning because there is nowhere for treated effluent to go, which is why protecting the drainfield through regular tank pumping and proper maintenance is the central goal of all septic system care.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Reserve drainfield area</h3>
-              <p className='text-slate-700 text-xs'>A section of the property designated in the original septic permit for a future replacement drainfield. If this area has been built on or paved, replacement options become severely limited and more expensive.</p>
+              <p className='text-slate-700 text-xs'>A reserve drainfield area is a section of the property designated in the original septic permit specifically for a future replacement drainfield, set aside at the time of initial installation to ensure a viable location exists when the original field reaches the end of its lifespan. If the reserve area has been built on, paved, or compacted by vehicle traffic over the years, replacement options become severely limited and may require more expensive engineered alternatives or creative site engineering to find a viable location elsewhere on the property.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Perc test (percolation test)</h3>
-              <p className='text-slate-700 text-xs'>A soil test that measures absorption rate. Required before any drainfield installation or replacement. Results determine which type of drainfield the soil can support.</p>
+              <p className='text-slate-700 text-xs'>A perc test is a soil evaluation that measures how quickly water drains through the ground at a proposed drainfield location, expressed as the number of minutes it takes for water to drop one inch in a test hole, and is required before any drainfield installation or replacement to determine which system type the soil can support. A new perc test must be conducted on the replacement area before a replacement permit can be issued, and if the replacement area has different soil conditions than the original field, the results may require a more expensive system type than the one being replaced.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Rejuvenation</h3>
-              <p className='text-slate-700 text-xs'>Techniques used to restore a failing drainfield without full replacement. Includes soil aeration (fracturing compacted soil), hydro-jetting (clearing pipes), and bio-remediation (introducing bacteria to break down biomat). Costs $1,000 to $5,000.</p>
+              <p className='text-slate-700 text-xs'>Drainfield rejuvenation is the use of non-excavation techniques to restore absorption capacity in a struggling or failing drainfield, including soil aeration to fracture compacted soil and restore pore space, hydro-jetting to clear sediment and debris from the perforated pipes, and bio-remediation to introduce bacteria that break down early-stage biomat on the trench surfaces. Rejuvenation costs 1,000 to 5,000 and is most effective when the failure is caught early before complete soil sealing has occurred, but it rarely works on drainfields that have fully failed from years of solid accumulation or physical damage.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Biomat</h3>
-              <p className='text-slate-700 text-xs'>A bacterial layer on drainfield trench surfaces. Thin biomat is normal. Thick biomat from solid overflow seals the soil and prevents effluent absorption &mdash; the primary cause of drainfield failure.</p>
+              <p className='text-slate-700 text-xs'>A biomat is a dense layer of bacteria, organic solids, and biological slime that forms naturally on the bottom and sides of drainfield trenches as effluent percolates through the soil, and a thin biomat is a normal and beneficial part of the wastewater treatment process that aids in pathogen removal. When solids escape a neglected septic tank and enter the drainfield, biomat accumulates far faster than it can be broken down, eventually sealing the trench surfaces completely and preventing effluent from percolating into the ground, which is the primary mechanism of drainfield failure from deferred tank pumping.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Distribution box (D-box)</h3>
-              <p className='text-slate-700 text-xs'>Divides effluent equally among drainfield trench lines. Often replaced during drainfield replacement to ensure even distribution in the new field.</p>
+              <p className='text-slate-700 text-xs'>A distribution box is a small watertight underground chamber that receives effluent from the septic tank outlet pipe and divides it equally among the multiple perforated pipe lines that make up the drainfield, ensuring no single trench section receives a disproportionate volume of effluent that would cause premature failure in that area. The D-box is typically replaced during a drainfield replacement to ensure even distribution across all lines of the new field, and its replacement cost of 500 to 1,500 is usually included in the total project estimate.</p>
             </div>
             <div className='border-b border-slate-100 pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Abandonment</h3>
-              <p className='text-slate-700 text-xs'>The process of decommissioning an old drainfield. Typically involves covering old trenches with hydrated lime and topsoil. Most jurisdictions require a permit ($100 to $250).</p>
+              <p className='text-slate-700 text-xs'>Drainfield abandonment is the process of properly decommissioning an old failed drainfield that is being replaced, which typically involves covering the old trenches with hydrated lime to neutralize remaining pathogens and topsoil to restore the surface grade. Most jurisdictions require an abandonment permit costing 100 to 250 and a health department inspection of the abandoned field before the replacement system can be placed in service, and the old field lines are usually left in place rather than excavated unless the replacement system requires the same area.</p>
             </div>
             <div className='pb-4'>
               <h3 className='text-sm font-bold text-slate-900 mb-1'>Mound system</h3>
-              <p className='text-slate-700 text-xs'>An engineered drainfield built above natural ground level using imported sand and gravel. Required when the native soil is too shallow, too dense, or has a high water table. The most expensive drainfield type to install or replace.</p>
+              <p className='text-slate-700 text-xs'>A mound system is an engineered drainfield constructed above the natural ground surface using imported sand and gravel, required when native soil is too shallow, the water table is too high, or bedrock is too close to the surface for a conventional below-grade drainfield. Mound system replacement is the most expensive drainfield option at 10,000 to 20,000 because of the volume of imported materials, the pump equipment required to move effluent uphill to the mound, and the engineering required to design and construct the elevated sand bed to health department specifications.</p>
             </div>
           </div>
         </div>
