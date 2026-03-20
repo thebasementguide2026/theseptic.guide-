@@ -323,6 +323,10 @@ export default function SepticRepairCostArticle() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
 
+                <p className='text-base text-slate-700 leading-relaxed mb-6'>
+          Septic system repair cost is the expense of diagnosing and fixing a specific failed or failing component of an on-site wastewater treatment system, which includes the tank, inlet and outlet baffles, effluent filter, distribution box, connecting pipes, pump, and drainfield. Each component can fail independently and at a different price point, meaning the cost of any specific repair is determined entirely by which part failed and how severely, not by the system as a whole. The most expensive repairs are almost always the result of deferred maintenance, particularly skipping regular tank pumping, which allows solids to escape into the drainfield and turns a $300 preventive pump-out into a $5,000 to $15,000 drainfield replacement.
+        </p>
+
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Septic system repairs cost <strong>$600 to $3,000</strong> on average. Minor repairs (filter replacement, baffle repair, lid fix) cost <strong>$100 to $500</strong>. Mid-range repairs (pump replacement, distribution box, line repair) cost <strong>$500 to $1,500</strong>. Major repairs (drainfield rejuvenation, tank crack repair, root removal) cost <strong>$1,000 to $5,000</strong>. Full drainfield replacement costs <strong>$5,000 to $15,000</strong>. Full system replacement costs <strong>$8,000 to $20,000+</strong>.
         </p>
