@@ -433,7 +433,54 @@ export default function InsuranceCoverSepticArticle() {
             </div>
           </div>
 
-                  {/* FAQ */}
+                            {/* Glossary */}
+          <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Glossary</span>
+              <div className='flex-1 h-px bg-slate-200'></div>
+            </div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-6'>Glossary</h2>
+            <div className='space-y-6'>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>HO-3 Policy</h3>
+                <p className='text-slate-700 text-sm'>An HO-3 is the standard homeowners insurance policy held by the majority of American homeowners, providing open-peril coverage for the dwelling structure and named-peril coverage for personal property, with specific exclusions for flood, earthquake, and gradual damage from wear and deterioration. For septic systems specifically, an HO-3 covers damage caused only by sudden accidental covered perils and excludes all gradual failure from age, deferred maintenance, root intrusion, and normal wear, which covers the vast majority of real-world septic failures. See also <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link> and <Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800'>Drainfield Replacement Cost</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Covered Peril</h3>
+                <p className='text-slate-700 text-sm'>A covered peril is a specific cause of damage that a homeowners insurance policy explicitly agrees to pay for, such as fire, lightning, windstorm, hail, vandalism, and sudden accidental discharge of water from a plumbing system. Septic system damage is covered under an HO-3 policy only when a covered peril is the direct and sole cause of the damage, meaning a tree falling on the tank or a lightning strike damaging the electrical components of an aerobic system, not gradual failure from normal use or deferred maintenance. See also <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='text-amber-700 underline hover:text-amber-800'>Does Insurance Cover Septic Repair and Replacement?</Link></p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Water Backup Endorsement</h3>
+                <p className='text-slate-700 text-sm'>A water backup endorsement is an optional add-on to a standard homeowners policy that extends coverage to include interior damage caused by the backup of water or sewage through drains, sewer lines, or septic systems, which is excluded from virtually all base HO-3 policies. It costs 40 to 100 per year, provides limits typically ranging from 5,000 to 25,000 for interior cleanup, structural repairs, and personal property damage, and is one of the highest-value insurance additions available to septic homeowners given the cost of sewage remediation after a backup. See also <Link href='/articles/septic-tank-backing-up' className='text-amber-700 underline hover:text-amber-800'>Septic Tank Backing Up Into House</Link> and <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Service Line Coverage</h3>
+                <p className='text-slate-700 text-sm'>Service line coverage is an optional endorsement that protects underground utility lines on your property, including the sewer line between your house and the septic tank, against damage from wear, corrosion, tree root intrusion, and mechanical failure that a standard homeowners policy explicitly excludes. It costs 50 to 100 per year and provides limits typically ranging from 10,000 to 25,000, making it particularly valuable for older homes where the sewer line is more vulnerable to deterioration and root damage. See also <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link> and <Link href='/articles/signs-drainfield-is-failing' className='text-amber-700 underline hover:text-amber-800'>Signs Your Drainfield Is Failing</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Equipment Breakdown Coverage</h3>
+                <p className='text-slate-700 text-sm'>Equipment breakdown coverage is an optional insurance endorsement that covers the mechanical and electrical failure of home system components, which can include septic pumps, aerators, and control panels in aerobic treatment units that are not covered under a standard homeowners policy for normal mechanical breakdown. It costs 25 to 75 per year and is most valuable for homeowners with aerobic septic systems that have pumps, aerators, and control panels requiring periodic replacement at costs of 500 to 1,300 per component. See also <Link href='/articles/aerobic-vs-anaerobic-septic' className='text-amber-700 underline hover:text-amber-800'>Aerobic vs Anaerobic Septic Systems</Link> and <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Other Structures Coverage</h3>
+                <p className='text-slate-700 text-sm'>Other structures coverage is the portion of a standard homeowners policy that covers detached structures and systems on the property that are not part of the main dwelling, typically set at 10 percent of the dwelling coverage limit. When a septic system component is damaged by a covered peril and a claim is approved, the payout is drawn from this other structures limit, meaning a home with 300,000 in dwelling coverage has 30,000 available for other structures claims including septic, which is sufficient for most repairs but may not fully cover a complex engineered system replacement. See also <Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Installation Cost 2026</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Home Warranty</h3>
+                <p className='text-slate-700 text-sm'>A home warranty is a service contract, separate from homeowners insurance, that covers the repair or replacement of home systems and appliances that fail from normal wear and use, with septic system coverage available as an optional add-on at most providers. Home warranties for septic systems typically cover the pump, certain mechanical components, and sometimes the line from house to tank, with per-claim caps of 1,000 to 3,000 that are sufficient for minor repairs but fall well short of the cost of drainfield replacement or full system replacement. See also <Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800'>Drainfield Replacement Cost</Link> and <Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 underline hover:text-amber-800'>Septic Inspection Cost</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Deductible</h3>
+                <p className='text-slate-700 text-sm'>A deductible is the amount a homeowner pays out of pocket before insurance coverage begins on an approved claim, typically ranging from 1,000 to 2,500 on a standard homeowners policy. For septic repair claims where coverage applies, the deductible is subtracted from the total payout, meaning a 3,000 covered repair with a 1,500 deductible results in a 1,500 insurance payment, which significantly affects whether filing a claim is worth the potential premium increase. See also <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link>.</p>
+              </div>
+              <div>
+                <h3 className='font-bold text-slate-900 text-sm mb-1'>Gradual Damage Exclusion</h3>
+                <p className='text-slate-700 text-sm'>The gradual damage exclusion is a standard provision in virtually all homeowners insurance policies that denies coverage for damage that developed slowly over time from wear, deterioration, seepage, leakage, or neglect rather than from a sudden accidental event. For septic systems, this exclusion eliminates coverage for nearly all real-world failures including drainfield biomat accumulation, tank cracking from age, root intrusion into pipes, baffle deterioration, and any failure attributed to infrequent pumping, which is why most septic repairs are paid entirely out of pocket. See also <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800'>How Often Should You Pump Your Septic Tank?</Link> and <Link href='/articles/signs-drainfield-is-failing' className='text-amber-700 underline hover:text-amber-800'>Signs Your Drainfield Is Failing</Link>.</p>
+              </div>
+            </div>
+          </div>
+
+{/* FAQ */}
           <div className='mb-16'>
             <div className='flex items-center space-x-3 mb-4'>
               <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>FAQ</span>
