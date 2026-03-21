@@ -176,7 +176,51 @@ export default function InsuranceCoverSepticArticle() {
           </div>
         </div>
 
-                {/* Three Add-On Coverages */}
+                          {/* What Covers What Chart */}
+          <div className='mb-16'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Chart</span>
+              <div className='flex-1 h-px bg-slate-200'></div>
+            </div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Covers What? Match Your Situation to the Right Policy</h2>
+            <p className='text-slate-700 leading-relaxed mb-6 text-sm'>Use this table to find which coverage type applies to your specific scenario and what it realistically costs.</p>
+            <div className='overflow-x-auto my-6'>
+              <table className='w-full text-xs border-collapse'>
+                <thead>
+                  <tr className='bg-slate-900 text-white'>
+                    <th className='p-2 text-left font-semibold'>Situation</th>
+                    <th className='p-2 text-left font-semibold'>Standard HO-3</th>
+                    <th className='p-2 text-left font-semibold'>Water Backup Endorsement</th>
+                    <th className='p-2 text-left font-semibold'>Service Line Coverage</th>
+                    <th className='p-2 text-left font-semibold'>Equipment Breakdown</th>
+                    <th className='p-2 text-left font-semibold'>Home Warranty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Sewage backs up into home interior</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes (cleanup and restoration)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Sewer line between house and tank damaged by roots</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-amber-700'>Sometimes</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Sewer line crushed by fallen tree</td><td className='p-2 text-green-700'>Yes (covered peril)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Septic tank cracked from age</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-amber-700'>Sometimes, capped</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Septic tank destroyed by fallen tree</td><td className='p-2 text-green-700'>Yes (covered peril)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Septic pump fails from normal wear</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes</td><td className='p-2 text-amber-700'>Yes, capped</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Aerobic system aerator fails mechanically</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes</td><td className='p-2 text-amber-700'>Yes, capped</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Drainfield fails from deferred pumping</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Drainfield fails from storm flooding</td><td className='p-2 text-red-700'>No (flood excluded)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Drainfield saturated from heavy rain</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Tank lid cracked from age</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-amber-700'>Sometimes</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Lightning damages aerobic control panel</td><td className='p-2 text-green-700'>Yes (covered peril)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes</td><td className='p-2 text-amber-700'>Sometimes</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Interior damage from flooding after backup</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-green-700'>Yes (if backup endorsement held)</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2'>Full system replacement from age</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No (cap too low)</td></tr>
+                  <tr className='border-b border-slate-200'><td className='p-2'>Groundwater contamination from system failure</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td><td className='p-2 text-red-700'>No</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
+              <p className='text-slate-700 font-medium text-sm'><strong>The honest takeaway:</strong> For the scenarios that matter most financially — sewage backup interior damage and underground pipe failure — a water backup endorsement and service line coverage together cost 90 to 200 per year and close the two biggest gaps that a standard policy leaves open. Everything else is either covered by a specific sudden event or is an out-of-pocket maintenance expense regardless of what policies you carry.</p>
+            </div>
+          </div>
+
+{/* Three Add-On Coverages */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Add-On Coverage</span>
