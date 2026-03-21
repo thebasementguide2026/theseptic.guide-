@@ -567,28 +567,86 @@ export default function InsuranceCoverSepticArticle() {
 
                   {/* Related Guides */}
           <div className='mb-16'>
-            <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-            <div className='grid md:grid-cols-2 gap-4'>
-              <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-                <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
-              </Link>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Guides</span>
+              <div className='flex-1 h-px bg-slate-200'></div>
+            </div>
+            <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+
+            <h3 className='font-bold text-slate-900 text-sm mb-3'>On theseptic.guide</h3>
+            <div className='grid md:grid-cols-2 gap-4 mb-8'>
               <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost Guide</h3>
-                <p className='text-slate-600 text-xs'>Real repair costs by component, what affects pricing, and how to save.</p>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h4>
+                <p className='text-slate-600 text-xs'>Every repair priced out from a $50 filter cleaning to a  5,000 drainfield replacement, so you know exactly what you are facing before calling a contractor.</p>
+              </Link>
+              <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h4>
+                <p className='text-slate-600 text-xs'>The most expensive single septic repair in full detail, with a complete breakdown by system type and what drives cost from the low end to the high end.</p>
+              </Link>
+              <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h4>
+                <p className='text-slate-600 text-xs'>Full cost breakdown for new and replacement systems by type, relevant when insurance falls short and a full replacement is the only viable path.</p>
+              </Link>
+              <Link href='/articles/septic-tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h4>
+                <p className='text-slate-600 text-xs'>The emergency that water backup coverage is designed to protect against, with immediate steps, causes, and what the cleanup and restoration process involves.</p>
+              </Link>
+              <Link href='/articles/signs-drainfield-is-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h4>
+                <p className='text-slate-600 text-xs'>The warning sign progression that leads to the most expensive uninsured repair a homeowner can face, from earliest symptoms to complete failure.</p>
               </Link>
               <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-                <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-                <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h4>
+                <p className='text-slate-600 text-xs'>The maintenance schedule that prevents the deferred pumping that causes the drainfield failures insurance will not cover.</p>
               </Link>
               <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-                <p className='text-slate-600 text-xs'>Real pricing by tank size, region, hidden fees, and how to avoid overpaying.</p>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h4>
+                <p className='text-slate-600 text-xs'>The $300 to $600 service that is the most cost-effective financial protection against five-figure repair bills.</p>
               </Link>
+              <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h4>
+                <p className='text-slate-600 text-xs'>What a professional inspection costs and why documented inspection history strengthens any future insurance claim by demonstrating responsible maintenance.</p>
+              </Link>
+              <Link href='/articles/septic-system-maintenance' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h4>
+                <p className='text-slate-600 text-xs'>The complete maintenance schedule that keeps your system out of the failure scenarios that insurance consistently excludes from coverage.</p>
+              </Link>
+              <Link href='/articles/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
+                <p className='text-slate-600 text-xs'>How to evaluate septic system condition and insurance implications before purchasing a home, and how a failing system affects negotiation leverage.</p>
+              </Link>
+              <Link href='/articles/selling-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h4>
+                <p className='text-slate-600 text-xs'>How documented maintenance history and a pre-listing inspection protect your asking price and speed up closing when buyers raise septic insurance questions.</p>
+              </Link>
+              <Link href='/articles/aerobic-vs-anaerobic-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Aerobic vs Anaerobic Septic Systems</h4>
+                <p className='text-slate-600 text-xs'>Aerobic systems have mechanical components including pumps, aerators, and control panels that equipment breakdown coverage is specifically designed to protect.</p>
+              </Link>
+            </div>
+
+            <h3 className='font-bold text-slate-900 text-sm mb-3'>From Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-4 mb-8'>
+              <Link href='https://thebasement.guide/articles/does-insurance-cover-basement-flooding' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Does Homeowners Insurance Cover Basement Flooding?</h4>
+                <p className='text-slate-600 text-xs'>A parallel guide covering how homeowners insurance treats basement flooding events, which often occur alongside septic backups in homes where both systems are under stress simultaneously.</p>
+              </Link>
+              <Link href='https://thebasement.guide/articles/best-sump-pumps' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h4>
+                <p className='text-slate-600 text-xs'>For homes where groundwater management failures contribute to septic drainfield saturation, a reliable sump pump system reduces the risk of the uninsured failures covered in this guide.</p>
+              </Link>
+            </div>
+
+            <h3 className='font-bold text-slate-900 text-sm mb-3'>External Resource</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <a href='https://www.iii.org/article/homeowners-insurance-basics' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h4 className='font-bold text-slate-900 mb-1 text-sm'>Insurance Information Institute: Homeowners Insurance Basics</h4>
+                <p className='text-slate-600 text-xs'>Authoritative guidance on what standard HO-3 policies cover and exclude, including the gradual damage exclusion that affects most septic repair claims.</p>
+              </a>
             </div>
           </div>
 
-                  {/* CTA */}
+          {/* CTA */}
           <div className='bg-slate-900 rounded-2xl p-8 md:p-10 text-center'>
             <h2 className='text-xl md:text-2xl font-bold text-white mb-3'>Need Help With Your Septic System?</h2>
             <p className='text-slate-300 mb-6 max-w-xl mx-auto text-sm'>Connect with licensed septic professionals in your area. Get free, no-obligation quotes and compare prices before you commit.</p>
