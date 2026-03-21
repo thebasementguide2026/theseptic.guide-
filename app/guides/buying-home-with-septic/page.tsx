@@ -131,6 +131,9 @@ export default function BuyingHomeWithSepticPage() {
 
             {/* Main Article */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+                <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+            Buying a home with a septic system means purchasing a property that manages its own wastewater treatment through an on-site system consisting of a septic tank, drainfield, and connecting pipes rather than connecting to a municipal sewer, making the condition, age, and maintenance history of that system a direct financial liability that transfers to the buyer at closing. A septic system in poor condition can require $5,000 to $20,000 in repairs or replacement immediately after purchase, and unlike a roof or HVAC system, septic failures are almost never covered by standard homeowners insurance because they result from gradual deterioration rather than sudden accidental damage. The pre-purchase septic inspection is the only reliable tool for assessing system condition before closing, and a full inspection including tank pumping, baffle assessment, drainfield evaluation, and a backflow test costs $300 to $1,000 - a fraction of what a missed failure costs to fix.
+        </p>
         <p className="text-lg text-slate-700 mb-6 leading-relaxed">
           One in five homes in the United States uses a septic system. If you are buying one of them, the septic system should be as central to your due diligence as the roof, foundation, and HVAC. Over 30 states require a septic inspection before a home can be sold. Even if your state does not require one, skipping it is one of the most expensive mistakes a homebuyer can make.
         </p>
