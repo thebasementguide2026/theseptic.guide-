@@ -528,42 +528,84 @@ export default function SepticToSewerConversionCostPage() {
           </div>
         </div>
 
-        {/* Related Articles */}
-        <div className="mb-16">
+        {/* Related Guides */}
+        <div className="mt-16">
           <h2 className="text-xl font-bold text-slate-900 mb-4">Related Guides</h2>
-          <div className="grid md:grid-cols-2 gap-4">
+
+          <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3">On theseptic.guide</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
             <Link href="/comparisons/septic-vs-sewer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Septic System vs Sewer: Full Comparison</h3>
-              <p className="text-slate-600 text-xs">Complete 20-year cost comparison, pros and cons, and which is better for your property.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System vs Sewer: Full Comparison</h4>
+              <p className="text-slate-600 text-xs">The complete 20-year cost comparison, maintenance obligations, property value implications, and decision framework for homeowners weighing a permanent switch from septic to sewer.</p>
             </Link>
             <Link href="/cost-guides/septic-system-installation-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Septic System Installation Cost 2026</h3>
-              <p className="text-slate-600 text-xs">Full price breakdown for new septic system installation by type, components, and materials.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Installation Cost 2026</h4>
+              <p className="text-slate-600 text-xs">Full price breakdown for new septic system installation by type and region, relevant when comparing the cost of full septic replacement against conversion as alternatives for a failed system.</p>
             </Link>
             <Link href="/cost-guides/drainfield-replacement-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Drainfield Replacement Cost 2026</h3>
-              <p className="text-slate-600 text-xs">What a failed drainfield costs to replace and when conversion becomes the better financial option.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Drainfield Replacement Cost 2026</h4>
+              <p className="text-slate-600 text-xs">What a failed drainfield costs to replace by system type and site conditions &mdash; the most common triggering event that makes conversion the financially competitive alternative.</p>
             </Link>
             <Link href="/problems/drainfield-failing" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Signs Your Drainfield Is Failing</h3>
-              <p className="text-slate-600 text-xs">Warning signs, causes, and what to do &mdash; including when conversion is the right call.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Signs Your Drainfield Is Failing</h4>
+              <p className="text-slate-600 text-xs">The warning signs that appear before full drainfield failure, and the decision point at which conversion becomes worth evaluating alongside replacement.</p>
             </Link>
             <Link href="/cost-guides/septic-system-repair-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Septic System Repair Cost 2026</h3>
-              <p className="text-slate-600 text-xs">Every septic repair priced out from $50 filter cleaning to $15,000 drainfield replacement.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Repair Cost 2026</h4>
+              <p className="text-slate-600 text-xs">Every septic repair type priced out, useful for comparing the cumulative cost of keeping an aging system running against the one-time cost of conversion.</p>
             </Link>
             <Link href="/cost-guides/septic-inspection-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Septic Inspection Cost 2026</h3>
-              <p className="text-slate-600 text-xs">What each type of inspection costs and what&apos;s included &mdash; important before deciding to convert.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic Inspection Cost 2026</h4>
+              <p className="text-slate-600 text-xs">What each type of inspection costs and what it covers &mdash; an important first step before deciding whether to repair, replace, or convert.</p>
+            </Link>
+            <Link href="/articles/how-long-does-a-septic-system-last" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">How Long Does a Septic System Last?</h4>
+              <p className="text-slate-600 text-xs">Expected lifespan by system type and maintenance history, and the end-of-life window when conversion becomes the most cost-effective path forward.</p>
             </Link>
             <Link href="/guides/buying-home-with-septic" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Buying a Home with a Septic System</h3>
-              <p className="text-slate-600 text-xs">What to inspect and negotiate before closing on a home with septic &mdash; including conversion potential.</p>
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Buying a Home with a Septic System</h4>
+              <p className="text-slate-600 text-xs">What to inspect and negotiate before closing on a septic-served property, including how to evaluate whether sewer connection is available, voluntary, or mandatory in the area.</p>
             </Link>
-            <Link href="/does-insurance-cover-septic-repair-replacement" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900 mb-1 text-sm">Does Insurance Cover Septic Repair?</h3>
-              <p className="text-slate-600 text-xs">What homeowners insurance covers, what it doesn&apos;t, and how to protect yourself financially.</p>
+            <Link href="/guides/selling-home-with-septic-system" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Selling a Home with a Septic System</h4>
+              <p className="text-slate-600 text-xs">How to handle sewer availability disclosure during a home sale, including how mandatory connection timelines affect your disclosure obligations and buyer negotiations.</p>
             </Link>
+            <Link href="/articles/does-insurance-cover-septic-repair-replacement" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Does Insurance Cover Septic Repair?</h4>
+              <p className="text-slate-600 text-xs">What homeowners insurance covers for septic failures and whether a claim can offset part of the repair cost that makes conversion the more attractive option.</p>
+            </Link>
+            <Link href="/maintenance/septic-system-maintenance-checklist" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Maintenance Checklist</h4>
+              <p className="text-slate-600 text-xs">The ongoing maintenance schedule that keeps a septic system running until conversion is financially justified, avoiding premature failure that forces the decision before you are ready.</p>
+            </Link>
+            <Link href="/comparisons/aerobic-vs-anaerobic-septic-systems" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Aerobic vs Anaerobic Septic Systems</h4>
+              <p className="text-slate-600 text-xs">How advanced treatment system requirements and upgrade costs in environmentally regulated areas factor into the conversion decision for homeowners facing mandatory aerobic system upgrades.</p>
+            </Link>
+          </div>
+
+          <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3">From Our Network</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://thebasement.guide/articles/best-sump-pumps-2026" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Best Sump Pumps 2026 &middot; thebasement.guide</h4>
+              <p className="text-slate-600 text-xs">For homes converting to sewer where a basement ejector or grinder pump is required to handle below-grade wastewater, this guide covers pump selection, sizing, and installation for below-grade applications.</p>
+            </a>
+            <a href="https://thebasement.guide/articles/basement-flooding-insurance" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Does Homeowners Insurance Cover Basement Flooding? &middot; thebasement.guide</h4>
+              <p className="text-slate-600 text-xs">Homes converting from septic to sewer sometimes discover that basement drainage and backflow protection need to be addressed simultaneously. This guide covers how insurance treats basement water damage alongside the infrastructure changes a sewer conversion triggers.</p>
+            </a>
+          </div>
+
+          <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3">External Resources</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://www.epa.gov/septic/septic-systems-what-homebuyer-or-seller-needs-know" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">EPA Septic to Sewer &mdash; What Homebuyers and Sellers Need to Know</h4>
+              <p className="text-slate-600 text-xs">The EPA&apos;s guidance on septic system responsibilities during property transfers, including how sewer availability and mandatory connection requirements affect real estate transactions.</p>
+            </a>
+            <a href="https://www.rd.usda.gov/programs-services/water-environmental-programs/water-waste-disposal-loan-grant-program" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">USDA Water and Waste Disposal Loan and Grant Program</h4>
+              <p className="text-slate-600 text-xs">Federal low-interest loan and grant program for rural wastewater improvements including septic to sewer conversion, administered through USDA Rural Development.</p>
+            </a>
           </div>
         </div>
 
