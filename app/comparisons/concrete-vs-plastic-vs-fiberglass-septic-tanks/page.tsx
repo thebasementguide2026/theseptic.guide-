@@ -357,6 +357,101 @@ export default function ConcreteVsPlasticVsFiberglass() {
           </div>
         </div>
 
+        {/* Lifespan and Maintenance by Material */}
+        <div className='border-t border-slate-100 pt-16 mt-16 mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Lifespan &amp; Maintenance</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Lifespan and Maintenance by Material</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm border-collapse'>
+              <thead>
+                <tr className='bg-slate-800 text-white'>
+                  <th className='p-3 text-left font-semibold'>Factor</th>
+                  <th className='p-3 text-left font-semibold'>Concrete</th>
+                  <th className='p-3 text-left font-semibold'>Plastic (Polyethylene)</th>
+                  <th className='p-3 text-left font-semibold'>Fiberglass</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Expected lifespan</td>
+                  <td className='p-3 text-slate-700'>40 to 50 years</td>
+                  <td className='p-3 text-slate-700'>30 to 40 years</td>
+                  <td className='p-3 text-slate-700'>30 to 40 years</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Pumping interval</td>
+                  <td className='p-3 text-slate-700'>Every 3 to 5 years</td>
+                  <td className='p-3 text-slate-700'>Every 3 to 5 years</td>
+                  <td className='p-3 text-slate-700'>Every 3 to 5 years</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Primary aging threat</td>
+                  <td className='p-3 text-slate-700'>Hydrogen sulfide corrosion above waterline</td>
+                  <td className='p-3 text-slate-700'>UV exposure if above grade; physical damage during backfill</td>
+                  <td className='p-3 text-slate-700'>Delamination or surface crazing over decades</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Crack risk</td>
+                  <td className='p-3 text-slate-700'>Moderate (ground shift, root pressure, age)</td>
+                  <td className='p-3 text-slate-700'>Low (flexible material absorbs movement)</td>
+                  <td className='p-3 text-slate-700'>Low (rigid but resilient)</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Repairability</td>
+                  <td className='p-3 text-slate-700'>Yes &mdash; hydraulic cement or epoxy injection</td>
+                  <td className='p-3 text-slate-700'>No &mdash; cracked tanks require replacement</td>
+                  <td className='p-3 text-slate-700'>No &mdash; requires specialized materials, typically replaced</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Inspection method</td>
+                  <td className='p-3 text-slate-700'>Camera inspection or pump-out visual</td>
+                  <td className='p-3 text-slate-700'>Camera inspection or pump-out visual</td>
+                  <td className='p-3 text-slate-700'>Camera inspection or pump-out visual</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Recommended inspection frequency</td>
+                  <td className='p-3 text-slate-700'>Every 3 years</td>
+                  <td className='p-3 text-slate-700'>Every 3 years</td>
+                  <td className='p-3 text-slate-700'>Every 3 years</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Corrosion from hydrogen sulfide</td>
+                  <td className='p-3 text-slate-700'>Yes &mdash; accelerated without regular pumping</td>
+                  <td className='p-3 text-slate-700'>None</td>
+                  <td className='p-3 text-slate-700'>None</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Corrosion from acidic soil</td>
+                  <td className='p-3 text-slate-700'>Yes &mdash; exterior surface can degrade</td>
+                  <td className='p-3 text-slate-700'>None</td>
+                  <td className='p-3 text-slate-700'>None</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Flotation risk over lifespan</td>
+                  <td className='p-3 text-slate-700'>Very low</td>
+                  <td className='p-3 text-slate-700'>Increases if anti-flotation measures fail or degrade</td>
+                  <td className='p-3 text-slate-700'>Low to moderate</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>End-of-life indicator</td>
+                  <td className='p-3 text-slate-700'>Interior wall erosion, baffle failure, crack leaks</td>
+                  <td className='p-3 text-slate-700'>Deformation, lid failure, pipe joint separation</td>
+                  <td className='p-3 text-slate-700'>Surface crazing, joint separation, structural flex</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Replacement cost at end of life</td>
+                  <td className='p-3 text-slate-700'>$800 to $2,000 (tank) plus installation</td>
+                  <td className='p-3 text-slate-700'>$500 to $1,200 (tank) plus installation</td>
+                  <td className='p-3 text-slate-700'>$1,200 to $2,000 (tank) plus installation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* FAQ */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
