@@ -388,16 +388,92 @@ export default function GarbageDisposalSepticPage() {
           </div>
         </section>
 
-        {/* Related Articles */}
+        {/* Related Guides */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Related Articles</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/articles/what-can-cannot-flush-septic-system" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">What You Can and Cannot Flush</h3><p className="text-slate-600 text-sm mt-1">The complete list of safe and unsafe items for your septic system.</p></Link>
-            <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">How Often Should You Pump?</h3><p className="text-slate-600 text-sm mt-1">Find your exact pumping schedule by tank and household size.</p></Link>
-            <Link href="/guides/septic-dos-and-donts" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic System Dos and Don&rsquo;ts</h3><p className="text-slate-600 text-sm mt-1">Every rule that protects your $15,000 investment.</p></Link>
-            <Link href="/reviews/best-septic-tank-treatments" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Best Septic Tank Treatments</h3><p className="text-slate-600 text-sm mt-1">Honest reviews after real testing.</p></Link>
-            <Link href="/maintenance/septic-system-maintenance-checklist" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic System Maintenance Checklist</h3><p className="text-slate-600 text-sm mt-1">The complete seasonal guide for homeowners.</p></Link>
-            <Link href="/problems/drainfield-failing" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Signs Your Drainfield Is Failing</h3><p className="text-slate-600 text-sm mt-1">Warning signs, causes, and what to do.</p></Link>
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Guides</h2>
+
+          <h3 className="text-lg font-semibold text-slate-900 mb-4">On theseptic.guide</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <Link href="/articles/what-can-cannot-flush-septic-system" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">What You Can and Cannot Flush on a Septic System</span>
+              <p className="text-slate-600 text-sm mt-1">The complete list of safe and unsafe items for every drain in a septic-served home, including the full breakdown of kitchen drain items that the garbage disposal guide covers in detail.</p>
+            </Link>
+            <Link href="/articles/how-often-pump-septic-tank" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">How Often Should You Pump Your Septic Tank?</span>
+              <p className="text-slate-600 text-sm mt-1">The full pumping schedule by tank size and household size, including how garbage disposal use shortens the standard interval and how to calibrate your schedule to actual sludge depth readings.</p>
+            </Link>
+            <Link href="/articles/septic-tank-pumping-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Septic Tank Pumping Cost 2026</span>
+              <p className="text-slate-600 text-sm mt-1">What pump-outs cost by tank size and region, relevant for calculating the additional annual cost of the more frequent pumping schedule required with disposal use.</p>
+            </Link>
+            <Link href="/problems/drainfield-failing" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Signs Your Drainfield Is Failing</span>
+              <p className="text-slate-600 text-sm mt-1">The warning signs that indicate solids or grease have already reached the drainfield, the most serious consequence of unmanaged garbage disposal use on a septic system.</p>
+            </Link>
+            <Link href="/cost-guides/drainfield-replacement-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Drainfield Replacement Cost 2026</span>
+              <p className="text-slate-600 text-sm mt-1">The $5,000 to $15,000 cost of the drainfield failure that garbage disposal misuse most commonly causes, priced out by system type and site conditions.</p>
+            </Link>
+            <Link href="/maintenance/septic-system-maintenance-checklist" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Septic System Maintenance Checklist</span>
+              <p className="text-slate-600 text-sm mt-1">The complete maintenance schedule for septic homeowners, including the adjusted pumping intervals and effluent filter cleaning frequency required for disposal users.</p>
+            </Link>
+            <Link href="/guides/septic-dos-and-donts" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Septic System Dos and Don&apos;ts</span>
+              <p className="text-slate-600 text-sm mt-1">Every rule that protects a septic system, including the kitchen and drain practices that overlap with garbage disposal use.</p>
+            </Link>
+            <Link href="/reviews/best-septic-tank-treatments" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Best Septic Tank Treatments</span>
+              <p className="text-slate-600 text-sm mt-1">Why most bacterial and enzyme additives including those built into septic-specific disposal models are unnecessary in a healthy tank, with honest reviews of products that do and do not work.</p>
+            </Link>
+            <Link href="/guides/septic-tank-size-guide" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Septic Tank Size Guide</span>
+              <p className="text-slate-600 text-sm mt-1">How tank sizing accounts for garbage disposal use, including the recommendation to go one tank size larger than the minimum when a disposal will be used regularly.</p>
+            </Link>
+            <Link href="/articles/how-long-does-a-septic-system-last" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">How Long Does a Septic System Last?</span>
+              <p className="text-slate-600 text-sm mt-1">How disposal use affects overall system lifespan by accelerating drainfield loading, and what the research says about the long-term impact of regular disposal use on system longevity.</p>
+            </Link>
+            <Link href="/guides/buying-home-with-septic" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Buying a Home with a Septic System</span>
+              <p className="text-slate-600 text-sm mt-1">What to ask and inspect before closing on a home where a garbage disposal has been in use, including how to assess whether the tank and drainfield have been adequately maintained given the additional load.</p>
+            </Link>
+            <Link href="/cost-guides/septic-system-repair-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Septic System Repair Cost 2026</span>
+              <p className="text-slate-600 text-sm mt-1">Full pricing for every septic repair type, including the drainfield and tank repairs most commonly associated with disposal misuse.</p>
+            </Link>
+            <Link href="/articles/complete-septic-guide" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Complete Septic System Guide</span>
+              <p className="text-slate-600 text-sm mt-1">The foundational reference covering how anaerobic bacteria process waste, why food scraps are harder to break down than human waste, and how every component of the system is affected by what goes down the drain.</p>
+            </Link>
+            <Link href="/problems/tank-backing-up" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Tank Backing Up</span>
+              <p className="text-slate-600 text-sm mt-1">What to do when heavy disposal use has contributed to a backup, including the immediate steps and the longer-term maintenance changes needed to prevent recurrence.</p>
+            </Link>
+            <Link href="/problems/slow-drains" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Slow Drains on a Septic System</span>
+              <p className="text-slate-600 text-sm mt-1">How accumulated solids from disposal use contribute to slow whole-house drainage, and how to distinguish a disposal-related buildup problem from a drainfield failure.</p>
+            </Link>
+          </div>
+
+          <h3 className="text-lg font-semibold text-slate-900 mb-4">From Our Network</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://thebasement.guide/articles/best-basement-flooring" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Best Basement Flooring for 2026</span>
+              <p className="text-slate-600 text-sm mt-1">For homes where a basement kitchen or wet bar includes a garbage disposal connected to the septic system, the same rules apply as above-grade disposal use. This guide covers basement finishing considerations including plumbing connections that affect septic load.</p>
+            </a>
+            <a href="https://thebasement.guide/articles/basement-flooding-insurance" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">Does Homeowners Insurance Cover Basement Flooding?</span>
+              <p className="text-slate-600 text-sm mt-1">Sewage backup from a septic system overloaded by disposal use can cause basement damage. This guide covers what insurance covers when wastewater backs up into below-grade living spaces.</p>
+            </a>
+          </div>
+
+          <h3 className="text-lg font-semibold text-slate-900 mb-4">External Resource</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <span className="text-amber-700 font-semibold hover:text-amber-800">EPA Septic System Care Guidance</span>
+              <p className="text-slate-600 text-sm mt-1">The EPA&apos;s official residential septic maintenance guidance including recommendations on garbage disposal use, what to avoid putting down drains, and the pumping and inspection schedule that protects the system from overload.</p>
+            </a>
           </div>
         </section>
 
