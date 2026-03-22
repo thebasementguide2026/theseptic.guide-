@@ -477,6 +477,84 @@ export default function BestSepticSafeCleaningProducts() {
             </div>
           </section>
 
+          {/* Decision Table */}
+          <section className='mb-16'>
+            <h2 className='text-3xl font-bold text-slate-800 mb-6'>Which Products to Replace First</h2>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-sm border-collapse'>
+                <thead>
+                  <tr className='bg-slate-800 text-white'>
+                    <th className='p-3 text-left font-semibold'>Product You Currently Use</th>
+                    <th className='p-3 text-left font-semibold'>Septic Risk Level</th>
+                    <th className='p-3 text-left font-semibold'>Safe Replacement</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-gray-200'>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Chlorine bleach (regular cleaning use)</td>
+                    <td className='p-3 text-slate-700'>High &mdash; kills beneficial bacteria cumulatively</td>
+                    <td className='p-3 text-slate-700'>Seventh Generation Disinfecting Bathroom Cleaner (thymol-based)</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>Antibacterial hand soap (triclosan or quats)</td>
+                    <td className='p-3 text-slate-700'>High &mdash; persistent bacterial suppression</td>
+                    <td className='p-3 text-slate-700'>Any plant-based non-antibacterial liquid hand soap</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Clorox or Lysol disinfecting wipes</td>
+                    <td className='p-3 text-slate-700'>High &mdash; quats plus never flush the wipes</td>
+                    <td className='p-3 text-slate-700'>Seventh Generation spray plus paper towels disposed in trash</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>Ammonia-based glass or multi-surface cleaner</td>
+                    <td className='p-3 text-slate-700'>High &mdash; toxic to anaerobic bacteria</td>
+                    <td className='p-3 text-slate-700'>ECOS All-Purpose Cleaner or diluted white vinegar</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Chemical drain cleaner (lye or sulfuric acid)</td>
+                    <td className='p-3 text-slate-700'>Critical &mdash; destroys bacterial colony immediately</td>
+                    <td className='p-3 text-slate-700'>Biokleen Bac-Out Enzymatic Drain Cleaner</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>Phosphate dishwasher detergent</td>
+                    <td className='p-3 text-slate-700'>High &mdash; promotes drainfield algae and soil clogging</td>
+                    <td className='p-3 text-slate-700'>Seventh Generation or Ecover dishwasher tablets</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Pine-Sol or similar pine oil cleaner (daily use)</td>
+                    <td className='p-3 text-slate-700'>Moderate &mdash; tolerable occasionally, harmful with daily use</td>
+                    <td className='p-3 text-slate-700'>ECOS All-Purpose Cleaner</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>OxiClean (daily laundry additive)</td>
+                    <td className='p-3 text-slate-700'>Moderate &mdash; occasional use fine, daily use suppresses bacteria</td>
+                    <td className='p-3 text-slate-700'>Plant-based enzyme laundry booster used sparingly</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Conventional toilet bowl cleaner with hydrochloric acid</td>
+                    <td className='p-3 text-slate-700'>High &mdash; destroys bacteria on contact</td>
+                    <td className='p-3 text-slate-700'>Better Life Natural Toilet Bowl Cleaner</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>Petroleum-based floor cleaner or degreaser</td>
+                    <td className='p-3 text-slate-700'>High &mdash; does not biodegrade in tank</td>
+                    <td className='p-3 text-slate-700'>Aunt Fannie&apos;s Floor Cleaner Vinegar Wash</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 text-slate-900 font-semibold'>Conventional dish soap with synthetic surfactants</td>
+                    <td className='p-3 text-slate-700'>Low to moderate &mdash; less urgent than above</td>
+                    <td className='p-3 text-slate-700'>Mrs. Meyer&apos;s Clean Day Dish Soap when current supply runs out</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 text-slate-900 font-semibold'>&ldquo;Flushable&rdquo; wipes of any brand</td>
+                    <td className='p-3 text-slate-700'>Critical &mdash; never flush on septic, accumulate as solid mass</td>
+                    <td className='p-3 text-slate-700'>Dispose all wipes in trash regardless of labeling</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
           {/* Glossary */}
           <section className='mb-16'>
             <h2 className='text-3xl font-bold text-slate-800 mb-6'>Glossary</h2>
