@@ -429,21 +429,38 @@ export default function SepticToSewerConversionCostPage() {
           </div>
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Glossary</h2>
           <div className="grid md:grid-cols-2 gap-x-8 gap-y-3">
-            {[
-              { term: 'Tap fee (connection fee)', def: 'The one-time fee charged by a municipality to connect a property to the public sewer main. Ranges from $500 to $10,000+ depending on location.' },
-              { term: 'Sewer lateral', def: 'The pipe that runs from your house to the municipal sewer main in the street. Homeowners are typically responsible for maintaining the lateral on their side of the property line.' },
-              { term: 'Sewer main', def: 'The large underground pipe owned and maintained by the municipality that carries wastewater from multiple properties to the treatment plant.' },
-              { term: 'Decommissioning', def: 'The process of properly shutting down an old septic tank. Involves pumping waste, filling or collapsing the tank, and capping all pipes.' },
-              { term: 'Ejector pump (grinder pump)', def: 'A sewage pump that grinds waste and pumps it uphill to a sewer main. Required when the home sits below the elevation of the sewer connection point.' },
-              { term: 'Trenchless boring', def: 'A sewer line installation method that drills horizontally underground without digging an open trench. More expensive but preserves landscaping and avoids driveway cutting.' },
-              { term: 'BMAP', def: 'Basin Management Action Plan. Florida environmental regulations that in many cases require septic-to-sewer conversion in specified watersheds.' },
-              { term: 'CWSRF', def: 'Clean Water State Revolving Fund. A state-administered loan program funded by the EPA that provides low-interest financing for water quality improvements including septic conversion.' },
-            ].map(({ term, def }) => (
-              <div key={term} className="border-b border-slate-100 pb-3">
-                <dt className="font-bold text-slate-900 text-sm">{term}</dt>
-                <dd className="text-slate-600 text-xs mt-1">{def}</dd>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Tap fee (connection fee)</dt>
+                <dd className="text-slate-600 text-xs mt-1">The one-time fee charged by a municipality to connect a property to the public sewer main, ranging from $500 in smaller cities to $10,000 or more in areas where the municipality recently built new sewer infrastructure and is recovering construction costs from new users. Tap fees are set by the local water and sewer authority and are non-negotiable in most jurisdictions, though some municipalities reduce or waive the fee during initial sewer rollout periods to encourage early connection. Always request the current fee schedule in writing from your water and sewer authority before budgeting a conversion, as this single line item has the widest variance of any conversion cost component.</dd>
               </div>
-            ))}
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Sewer lateral</dt>
+                <dd className="text-slate-600 text-xs mt-1">The pipe that runs from a home&apos;s foundation to the municipal sewer main in the street, typically 4-inch PVC installed at a minimum grade of 1/4 inch drop per linear foot to maintain gravity flow. Homeowners are responsible for maintaining, repairing, and replacing the lateral on their side of the property line, while the municipality owns and maintains the section from the property line to the main. Lateral installation costs $50 to $250 per linear foot depending on depth, soil conditions, and whether open trenching or trenchless boring is used.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Sewer main</dt>
+                <dd className="text-slate-600 text-xs mt-1">The large underground pipe owned and maintained by the municipality that collects wastewater from individual sewer laterals and carries it to the regional treatment plant. Sewer mains typically run 8 to 24 inches in diameter and are installed at depths of 4 to 12 feet below grade depending on local frost depth and terrain. The depth of the sewer main relative to your home&apos;s foundation elevation is one of the key factors that determines whether your conversion requires a gravity connection or a grinder pump installation.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Decommissioning</dt>
+                <dd className="text-slate-600 text-xs mt-1">The required process of permanently shutting down an abandoned septic tank after sewer connection, involving pumping all remaining waste, collapsing the tank top or cutting access holes, filling the tank completely with sand, gravel, or concrete, and capping all inlet and outlet pipes. Decommissioning costs $500 to $2,000 for in-place filling and $1,500 to $6,000 for full tank excavation and removal. Never leave a septic tank empty and buried &mdash; an unfilled tank creates a collapse hazard that can form a sinkhole under surface load. See our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-700 underline hover:text-amber-800">septic system repair cost guide</Link> for related excavation and tank work pricing.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Ejector pump (grinder pump)</dt>
+                <dd className="text-slate-600 text-xs mt-1">A sewage pump that grinds solid waste into a slurry and pumps it under pressure uphill or over long distances to reach a sewer main when gravity flow is not achievable. Grinder pumps are required when the home&apos;s drain outlet sits below the elevation of the sewer main connection point, which is common in homes with below-grade finished basements or in flat terrain where the main runs shallower than expected. Installation costs $1,500 to $5,000 and adds an ongoing maintenance obligation &mdash; the pump motor typically lasts 7 to 15 years before requiring replacement. See our <a href="https://thebasement.guide/articles/best-sump-pumps-2026" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-800">best sump pumps guide</a> on The Basement Guide for related pump selection guidance for below-grade applications.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">Trenchless boring</dt>
+                <dd className="text-slate-600 text-xs mt-1">A sewer line installation method that uses horizontal directional drilling to bore a path underground and pull pipe through without digging an open trench. Trenchless boring costs 20 to 50 percent more than open trenching but preserves landscaping, avoids driveway and sidewalk cutting and repair, and causes minimal surface disruption &mdash; making it the preferred method when the sewer line path crosses mature trees, hardscaping, or established gardens. It is also required in some municipalities when the lateral must cross under a public sidewalk or road without cutting the pavement.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">BMAP</dt>
+                <dd className="text-slate-600 text-xs mt-1">Basin Management Action Plan &mdash; the Florida Department of Environmental Protection&apos;s regulatory framework for reducing nutrient pollution in impaired water bodies, which in many affected watersheds requires homeowners to convert from septic systems to sewer connection on a defined timeline. BMAP zones are concentrated around the Indian River Lagoon, Tampa Bay, and other nutrient-sensitive water bodies where septic system effluent is a documented contributor to algae blooms and ecosystem degradation. Homeowners in active BMAP zones should check with their county environmental agency for current conversion deadlines and available financial assistance programs, as grant funding in these areas can cover 50 to 85 percent of eligible conversion costs.</dd>
+              </div>
+              <div className="border-b border-slate-100 pb-3">
+                <dt className="font-bold text-slate-900 text-sm">CWSRF</dt>
+                <dd className="text-slate-600 text-xs mt-1">Clean Water State Revolving Fund &mdash; a state-administered loan program capitalized by EPA grants that provides below-market-rate financing for water quality improvement projects including septic to sewer conversion. Interest rates through CWSRF programs are typically 50 to 75 percent below conventional loan rates, and some states offer principal forgiveness components for low-income applicants. Contact your state environmental agency to find your state&apos;s CWSRF program administrator and current interest rates before financing a conversion through a conventional lender.</dd>
+              </div>
           </div>
         </div>
 
