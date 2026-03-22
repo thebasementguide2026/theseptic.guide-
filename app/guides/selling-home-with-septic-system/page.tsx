@@ -505,6 +505,30 @@ export default function SellingHomeWithSepticSystem() {
           </div>
         </div>
 
+        {/* Which Strategy Is Right for Your Situation */}
+        <div className='mb-16'>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Which Strategy Is Right for Your Situation</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full border-collapse text-sm'>
+              <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Your Situation</th><th className='px-4 py-3 text-left font-semibold'>Recommended Action</th><th className='px-4 py-3 text-left font-semibold'>Expected Outcome</th></tr></thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>System passes inspection, maintenance records exist</td><td className='px-4 py-3 text-slate-600'>List as-is with full documentation package</td><td className='px-4 py-3 text-slate-600'>Clean transaction, no septic negotiation</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>System passes inspection, no maintenance records</td><td className='px-4 py-3 text-slate-600'>Get inspection now, compile what records exist, add riser if none present</td><td className='px-4 py-3 text-slate-600'>Buyers may ask questions but system passes</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Minor issues found ($500 to $2,000)</td><td className='px-4 py-3 text-slate-600'>Fix before listing, document repairs</td><td className='px-4 py-3 text-slate-600'>Eliminates negotiation, preserves full price</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Moderate issues found ($2,000 to $5,000)</td><td className='px-4 py-3 text-slate-600'>Fix before listing if possible; offer documented repair credit if not</td><td className='px-4 py-3 text-slate-600'>Fixing preserves more price than crediting</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Major failure, drainfield replacement needed</td><td className='px-4 py-3 text-slate-600'>Get contractor bids, replace before listing if finances allow</td><td className='px-4 py-3 text-slate-600'>$10,000 repair typically preserves $15,000 to $25,000 in price</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Major failure, cannot fund repair before listing</td><td className='px-4 py-3 text-slate-600'>Disclose fully, price to reflect replacement cost, target cash buyers</td><td className='px-4 py-3 text-slate-600'>Smaller buyer pool, lower price, faster close</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>System undersized for bedroom count</td><td className='px-4 py-3 text-slate-600'>Repair or upgrade before listing; disclose if not</td><td className='px-4 py-3 text-slate-600'>Undersized system will fail inspection and lender review</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>System at end of life but still passing inspection</td><td className='px-4 py-3 text-slate-600'>Disclose age, provide inspection report, price to reflect remaining lifespan</td><td className='px-4 py-3 text-slate-600'>Buyers accept with documentation; avoid overpricing</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Mandatory compliance jurisdiction (e.g. Massachusetts Title 5)</td><td className='px-4 py-3 text-slate-600'>Confirm compliance status with county health department before listing</td><td className='px-4 py-3 text-slate-600'>Non-compliant system can block title transfer entirely</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Sewer connection mandatory within 1 to 3 years</td><td className='px-4 py-3 text-slate-600'>Disclose conversion requirement and estimated cost ($5,000 to $15,000)</td><td className='px-4 py-3 text-slate-600'>Buyers factor conversion cost into offer; disclose early</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Selling to FHA, VA, or USDA buyer</td><td className='px-4 py-3 text-slate-600'>System must pass inspection before loan closes; repair any failures first</td><td className='px-4 py-3 text-slate-600'>Failed system = loan cannot close without repair</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Selling as-is to cash buyer</td><td className='px-4 py-3 text-slate-600'>Disclose all known defects, price below market to reflect repair cost plus risk premium</td><td className='px-4 py-3 text-slate-600'>Faster close, lower price, no lender requirements</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* FAQ */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
