@@ -200,6 +200,32 @@ export default function HowLongSepticSystemLastPage() {
           </div>
         </section>
 
+        {/* What Should I Do Based on My System's Age? */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">What Should I Do Based on My System&apos;s Age?</h2>
+          <p className="text-slate-600 mb-4">Match your system&apos;s age and maintenance history to the recommended action:</p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead><tr className="bg-slate-800 text-white"><th className="px-4 py-3 text-left font-semibold">System Age</th><th className="px-4 py-3 text-left font-semibold">Maintenance History</th><th className="px-4 py-3 text-left font-semibold">Tank Material</th><th className="px-4 py-3 text-left font-semibold">Recommended Action</th><th className="px-4 py-3 text-left font-semibold">Priority</th></tr></thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Under 10 years</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Follow standard maintenance schedule, pump on time</td><td className="px-4 py-3 text-slate-600">Low</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">10 to 15 years</td><td className="px-4 py-3 text-slate-600">Regular pumping documented</td><td className="px-4 py-3 text-slate-600">Concrete or plastic</td><td className="px-4 py-3 text-slate-600">Continue maintenance, schedule inspection</td><td className="px-4 py-3 text-slate-600">Low</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">10 to 15 years</td><td className="px-4 py-3 text-slate-600">No records or sporadic</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Schedule pump-out and full inspection immediately</td><td className="px-4 py-3 text-slate-600">High</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">15 to 20 years</td><td className="px-4 py-3 text-slate-600">Regular pumping documented</td><td className="px-4 py-3 text-slate-600">Concrete</td><td className="px-4 py-3 text-slate-600">Inspect baffles, assess drainfield absorption, continue schedule</td><td className="px-4 py-3 text-slate-600">Medium</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">15 to 20 years</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Steel</td><td className="px-4 py-3 text-slate-600">Budget for tank replacement within 2 to 3 years</td><td className="px-4 py-3 text-slate-600">High</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">20 to 25 years</td><td className="px-4 py-3 text-slate-600">Regular pumping documented</td><td className="px-4 py-3 text-slate-600">Concrete</td><td className="px-4 py-3 text-slate-600">Full comprehensive inspection, camera scope sewer line</td><td className="px-4 py-3 text-slate-600">Medium</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">20 to 25 years</td><td className="px-4 py-3 text-slate-600">No records or sporadic</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Full inspection, assess drainfield, budget for replacement</td><td className="px-4 py-3 text-slate-600">High</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">25 to 30 years</td><td className="px-4 py-3 text-slate-600">Regular pumping documented</td><td className="px-4 py-3 text-slate-600">Concrete</td><td className="px-4 py-3 text-slate-600">Annual inspections, assess drainfield absorption rate, plan for replacement area</td><td className="px-4 py-3 text-slate-600">High</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">25 to 30 years</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Steel or plastic</td><td className="px-4 py-3 text-slate-600">Assess structural integrity, budget for imminent replacement</td><td className="px-4 py-3 text-slate-600">Very High</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">30 to 40 years</td><td className="px-4 py-3 text-slate-600">Excellent, documented</td><td className="px-4 py-3 text-slate-600">Concrete</td><td className="px-4 py-3 text-slate-600">System may have significant remaining life, annual inspections essential</td><td className="px-4 py-3 text-slate-600">High</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">30 to 40 years</td><td className="px-4 py-3 text-slate-600">Unknown or poor</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Professional assessment for replacement vs rejuvenation</td><td className="px-4 py-3 text-slate-600">Very High</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Over 40 years</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Full professional assessment, identify replacement area, budget for full replacement</td><td className="px-4 py-3 text-slate-600">Very High</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Any age, drainfield symptoms present</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Any</td><td className="px-4 py-3 text-slate-600">Professional drainfield assessment immediately regardless of age</td><td className="px-4 py-3 text-slate-600">Urgent</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* When to Repair vs Replace */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">When to Repair vs. Replace</h2>
@@ -219,7 +245,7 @@ export default function HowLongSepticSystemLastPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-slate-600 mt-4">For a full cost breakdown of every type of repair, see our <Link href="/cost-guides/septic-repair-cost" className="text-amber-700 underline hover:text-amber-900">septic system repair cost guide</Link>.</p>
+          <p className="text-slate-600 mt-4">For a full cost breakdown of every type of repair, see our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-700 underline hover:text-amber-900">septic system repair cost guide</Link>.</p>
         </section>
 
         {/* How to Extend Your System's Life */}
@@ -232,7 +258,7 @@ export default function HowLongSepticSystemLastPage() {
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">3</span><div><h4 className="font-bold text-slate-900 text-sm">Install risers</h4><p className="text-slate-600 text-sm">$100&ndash;$400 one-time. Makes pumping and inspections easier, cheaper, and more likely to happen on schedule. See our <Link href="/reviews/best-septic-tank-risers" className="text-amber-700 underline hover:text-amber-900">best septic tank risers guide</Link>.</p></div></div>
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">4</span><div><h4 className="font-bold text-slate-900 text-sm">Clean the effluent filter</h4><p className="text-slate-600 text-sm">$0 DIY, 5 minutes. Prevents solids from reaching the drainfield between pumpings. If your tank does not have one, add it for $50&ndash;$200.</p></div></div>
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">5</span><div><h4 className="font-bold text-slate-900 text-sm">Divert surface water away from the drainfield</h4><p className="text-slate-600 text-sm">$0&ndash;$500, depending on grading needs. Prevents hydraulic overload that is the second most common cause of drainfield failure.</p></div></div>
-            <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">6</span><div><h4 className="font-bold text-slate-900 text-sm">Follow septic-safe habits</h4><p className="text-slate-600 text-sm">$0. No chemical drain cleaners, no wipes, no grease, no garbage disposal overuse. See our <Link href="/guides/septic-dos-and-donts" className="text-amber-700 underline hover:text-amber-900">dos and don&rsquo;ts guide</Link> and <Link href="/articles/what-can-you-flush" className="text-amber-700 underline hover:text-amber-900">flushing guide</Link>.</p></div></div>
+            <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">6</span><div><h4 className="font-bold text-slate-900 text-sm">Follow septic-safe habits</h4><p className="text-slate-600 text-sm">$0. No chemical drain cleaners, no wipes, no grease, no garbage disposal overuse. See our <Link href="/guides/septic-dos-and-donts" className="text-amber-700 underline hover:text-amber-900">dos and don&rsquo;ts guide</Link> and <Link href="/articles/what-can-cannot-flush-septic-system" className="text-amber-700 underline hover:text-amber-900">flushing guide</Link>.</p></div></div>
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">7</span><div><h4 className="font-bold text-slate-900 text-sm">Use septic-safe products</h4><p className="text-slate-600 text-sm">Marginal cost. <Link href="/reviews/best-toilet-paper-for-septic" className="text-amber-700 underline hover:text-amber-900">Septic-safe toilet paper</Link> dissolves faster and reduces sludge buildup. <Link href="/reviews/best-drain-cleaners-for-septic" className="text-amber-700 underline hover:text-amber-900">Enzyme-based drain cleaners</Link> maintain pipes without killing tank bacteria. <Link href="/reviews/best-septic-tank-treatments" className="text-amber-700 underline hover:text-amber-900">Monthly treatments</Link> support bacterial health.</p></div></div>
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4"><span className="text-amber-600 font-bold text-lg">8</span><div><h4 className="font-bold text-slate-900 text-sm">Get inspections</h4><p className="text-slate-600 text-sm">$100&ndash;$400. Catches cracked baffles, failing components, and drainfield stress before they become emergencies. See our <Link href="/cost-guides/septic-inspection-cost" className="text-amber-700 underline hover:text-amber-900">inspection cost guide</Link>.</p></div></div>
           </div>
@@ -266,20 +292,82 @@ export default function HowLongSepticSystemLastPage() {
           </div>
         </section>
 
-        {/* Related Articles */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Related Articles</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">How Often Should You Pump?</h3><p className="text-slate-600 text-sm mt-1">Find your exact pumping schedule by tank and household size.</p></Link>
-            <Link href="/cost-guides/septic-system-installation-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic System Installation Cost</h3><p className="text-slate-600 text-sm mt-1">Complete price breakdown by system type.</p></Link>
-            <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Concrete vs Plastic vs Fiberglass Tanks</h3><p className="text-slate-600 text-sm mt-1">Full comparison of costs, lifespan, and pros and cons.</p></Link>
-            <Link href="/problems/drainfield-failing" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Signs Your Drainfield Is Failing</h3><p className="text-slate-600 text-sm mt-1">Warning signs, causes, and what to do.</p></Link>
-            <Link href="/maintenance/septic-system-maintenance-checklist" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Maintenance Checklist</h3><p className="text-slate-600 text-sm mt-1">Complete seasonal maintenance plan for your system.</p></Link>
-            <Link href="/guides/buying-home-with-septic" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Buying a Home with a Septic System</h3><p className="text-slate-600 text-sm mt-1">What to inspect and negotiate before closing.</p></Link>
-            <Link href="/guides/septic-tank-size-guide" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic Tank Size Guide</h3><p className="text-slate-600 text-sm mt-1">What size tank you need by bedroom count.</p></Link>
-            <Link href="/cost-guides/septic-repair-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic Repair Cost Guide</h3><p className="text-slate-600 text-sm mt-1">Every type of repair with real cost data.</p></Link>
+        {/* Related Guides */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Guides</h2>
+
+          <h3 className="text-lg font-bold text-slate-900 mb-4">On theseptic.guide</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <Link href="/maintenance/septic-system-maintenance-checklist" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Maintenance Checklist</h4>
+              <p className="text-slate-600 text-xs">The complete year-round maintenance schedule that determines which lifespan column your system falls into over its life.</p>
+            </Link>
+            <Link href="/articles/how-often-pump-septic-tank" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">How Often Should You Pump Your Septic Tank?</h4>
+              <p className="text-slate-600 text-xs">The pumping schedule by tank size and household size that is the single biggest determinant of how long the drainfield lasts.</p>
+            </Link>
+            <Link href="/problems/drainfield-failing" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Signs Your Drainfield Is Failing</h4>
+              <p className="text-slate-600 text-xs">The warning sign progression for the component most likely to end your system&apos;s functional life, from earliest symptoms to complete failure.</p>
+            </Link>
+            <Link href="/cost-guides/drainfield-replacement-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Drainfield Replacement Cost</h4>
+              <p className="text-slate-600 text-xs">What replacing the component most likely to fail first actually costs, by system type and site conditions.</p>
+            </Link>
+            <Link href="/cost-guides/septic-system-repair-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Repair Cost</h4>
+              <p className="text-slate-600 text-xs">Every individual component repair priced out, from a $150 baffle replacement to a $15,000 drainfield replacement.</p>
+            </Link>
+            <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Concrete vs Plastic vs Fiberglass Septic Tanks</h4>
+              <p className="text-slate-600 text-xs">A full comparison of the three tank materials covered in this guide including lifespan, failure modes, and cost differences.</p>
+            </Link>
+            <Link href="/cost-guides/septic-system-installation-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Installation Cost 2026</h4>
+              <p className="text-slate-600 text-xs">What full system replacement costs when the end of lifespan arrives, by system type and site conditions.</p>
+            </Link>
+            <Link href="/guides/buying-home-with-septic" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Buying a Home with a Septic System</h4>
+              <p className="text-slate-600 text-xs">How to evaluate the remaining lifespan of an existing system before purchasing a home and how to negotiate based on inspection findings.</p>
+            </Link>
+            <Link href="/cost-guides/septic-inspection-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic Inspection Cost</h4>
+              <p className="text-slate-600 text-xs">What the inspections that catch age-related problems before they become emergencies cost, and what each inspection level includes.</p>
+            </Link>
+            <Link href="/guides/septic-tank-size-guide" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic Tank Size Guide</h4>
+              <p className="text-slate-600 text-xs">How tank capacity relative to household size affects both pumping frequency and the rate at which the system ages toward failure.</p>
+            </Link>
+            <Link href="/guides/septic-dos-and-donts" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic Dos and Don&apos;ts</h4>
+              <p className="text-slate-600 text-xs">The daily household habits that determine whether your system reaches the high end or low end of its expected lifespan range.</p>
+            </Link>
+            <Link href="/articles/what-can-cannot-flush-septic-system" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">What You Can and Cannot Flush</h4>
+              <p className="text-slate-600 text-xs">What enters the system through drains that accelerates aging and shortens the drainfield&apos;s functional life.</p>
+            </Link>
+            <Link href="/reviews/best-septic-tank-risers" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Best Septic Tank Risers</h4>
+              <p className="text-slate-600 text-xs">The upgrade that makes every future inspection and pump-out easier and more likely to happen on schedule, directly protecting drainfield lifespan.</p>
+            </Link>
+            <Link href="/guides/septic-system-winter-care" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Winter Care</h4>
+              <p className="text-slate-600 text-xs">How freeze-thaw cycles and frost heave affect aging system components and what to do each season to protect them.</p>
+            </Link>
           </div>
-        </section>
+
+          <h3 className="text-lg font-bold text-slate-900 mb-4">From Our Network</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <a href="https://thebasement.guide/articles/best-sump-pumps-2026" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Best Sump Pumps 2026</h4>
+              <p className="text-slate-600 text-xs">For homes where basement groundwater management affects the septic drainfield, a properly functioning sump pump system protects drainfield lifespan by preventing hydraulic overload from external water sources.</p>
+            </a>
+            <a href="https://thebasement.guide/articles/sump-pump-design-ideas" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Sump Pump Design Ideas for 2026</h4>
+              <p className="text-slate-600 text-xs">How to route basement drainage equipment away from the septic drainfield area, protecting one of the most expensive components in the home from avoidable hydraulic stress.</p>
+            </a>
+          </div>
+        </div>
 
         {/* CTA */}
         <section className="bg-slate-800 rounded-2xl p-8 text-center">
