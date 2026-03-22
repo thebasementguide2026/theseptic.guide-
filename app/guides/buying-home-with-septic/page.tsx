@@ -164,7 +164,7 @@ export default function BuyingHomeWithSepticPage() {
             </div>
             <div className="border-l-4 border-amber-500 pl-4">
               <h3 className="font-bold text-slate-900">5. Where is the septic tank and drainfield located?</h3>
-              <p className="text-slate-600 mt-1">A seller who cannot point to their tank and drainfield likely has not maintained the system. The local health department should have a site plan on file.</p>
+              <p className="text-slate-600 mt-1">A seller who cannot point to their tank and drainfield likely has not maintained the system. The <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900">local health department</a> should have a site plan on file.</p>
             </div>
                         <div className="border-l-4 border-amber-500 pl-4">
               <h3 className="font-bold text-slate-900">6. What type of system is it?</h3>
@@ -357,7 +357,7 @@ export default function BuyingHomeWithSepticPage() {
           <div className="space-y-3">
                         <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4">
               <span className="text-green-600 font-bold text-lg">1</span>
-              <div><h4 className="font-bold text-slate-900 text-sm">Locate all components</h4><p className="text-slate-600 text-sm">Find the tank, risers/lids, distribution box, and drainfield boundaries. Get a copy of the site plan from your local health department if you do not have one.</p></div>
+              <div><h4 className="font-bold text-slate-900 text-sm">Locate all components</h4><p className="text-slate-600 text-sm">Find the tank, risers/lids, distribution box, and drainfield boundaries. Get a copy of the site plan from your <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900">local health department</a> if you do not have one.</p></div>
             </div>
             <div className="flex gap-3 items-start bg-gray-50 rounded-lg p-4">
               <span className="text-green-600 font-bold text-lg">2</span>
@@ -419,35 +419,35 @@ export default function BuyingHomeWithSepticPage() {
           <div className="space-y-4">
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Septic Inspection Contingency</h3>
-              <p className="text-slate-600 text-sm mt-1">A clause in the purchase agreement that allows the buyer to cancel the deal or renegotiate if the septic inspection reveals significant problems. This should always be included in your offer on a home with a septic system.</p>
+              <p className="text-slate-600 text-sm mt-1">A septic inspection contingency is a clause in the purchase agreement that gives the buyer the legal right to cancel the transaction or renegotiate the terms if the septic inspection reveals significant problems, without forfeiting their earnest money deposit. This contingency should always be included in any offer on a home with a septic system, and it should specify a timeframe for completing the inspection, what constitutes a failure triggering the contingency, and what remedies are available to the buyer.</p>
             </div>
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Point-of-Sale Inspection</h3>
-              <p className="text-slate-600 text-sm mt-1">A septic inspection required by state or local law before a property can be legally transferred to a new owner. Over 30 states have some form of this requirement.</p>
+              <p className="text-slate-600 text-sm mt-1">A point-of-sale inspection is a septic evaluation required by state or local law before a property with an on-site wastewater system can be legally transferred to a new owner, designed to ensure that failing systems are identified and addressed before the financial burden transfers to an unsuspecting buyer. Over 30 states have some form of this requirement, and in those states a system that fails the inspection must be repaired or replaced before the sale can close, giving buyers significant protection that does not exist in states without the requirement.</p>
             </div>
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Backflow Test</h3>
-              <p className="text-slate-600 text-sm mt-1">During a full septic inspection, the tank is pumped and the inspector watches for effluent flowing back from the drainfield into the tank. Significant backflow indicates drainfield failure or saturation.</p>
+              <p className="text-slate-600 text-sm mt-1">A backflow test is a diagnostic procedure performed during a full septic inspection in which the tank is pumped empty and the inspector monitors whether effluent flows back from the drainfield into the tank, which indicates that the drainfield soil is saturated or has lost its absorption capacity and can no longer accept effluent at a normal rate. Significant backflow is one of the clearest indicators of drainfield failure or severe saturation and is a finding that typically warrants either professional rejuvenation at $1,000 to $5,000 or full drainfield replacement at $5,000 to $15,000.</p>
             </div>
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">As-Built Drawing</h3>
-              <p className="text-slate-600 text-sm mt-1">A diagram showing the exact location, dimensions, and layout of the septic system as it was actually installed. Filed with the local health department at the time of installation and essential for future maintenance and repairs.</p>
+              <p className="text-slate-600 text-sm mt-1">An as-built drawing is a diagram filed with the <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900">local health department</a> at the time of septic system installation showing the exact location, dimensions, and layout of every system component including the tank, distribution box, drainfield trenches, and all connecting pipes as they were actually constructed. Requesting a copy of the as-built drawing before closing is essential for understanding where all components are located, confirming the system was built as permitted, and planning future maintenance access without excavating the entire yard to find buried components.</p>
             </div>
                         <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Reserve Drainfield Area</h3>
-              <p className="text-slate-600 text-sm mt-1">A designated section of the property set aside for a future replacement drainfield, identified in the original septic permit. If this area has been built on or paved, replacement options become limited and significantly more expensive.</p>
+              <p className="text-slate-600 text-sm mt-1">A reserve drainfield area is a section of the property designated in the original septic permit specifically for a future replacement drainfield, set aside at the time of initial installation to ensure a viable replacement location exists when the original field reaches the end of its lifespan. If the reserve area has been built on, paved, or otherwise compromised by the previous owner, replacement options become severely limited and may require expensive engineered alternatives or creative site engineering, significantly increasing the cost of an eventual drainfield replacement.</p>
             </div>
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Escrow Holdback</h3>
-              <p className="text-slate-600 text-sm mt-1">An arrangement where a portion of the sale proceeds is held by a third party (usually the title company) to cover the cost of agreed-upon repairs after closing. Commonly used when septic repairs cannot be completed before the closing date.</p>
+              <p className="text-slate-600 text-sm mt-1">An escrow holdback is an arrangement in a real estate transaction where an agreed-upon amount of money is withheld from the seller&apos;s proceeds at closing and held by the title company or escrow agent until specified repairs have been completed and verified, commonly used when septic repairs cannot be finished before the closing date. The holdback amount should equal the full estimated cost of the repairs plus a contingency buffer of 10 to 20 percent, because septic repair costs can increase once excavation begins and actual conditions are assessed.</p>
             </div>
             <div className="border-b border-gray-200 pb-3">
               <h3 className="font-bold text-slate-900">Certificate of Compliance</h3>
-              <p className="text-slate-600 text-sm mt-1">A document issued by the local health department confirming that the septic system meets current code requirements. Required in many states as part of the property transfer process.</p>
+              <p className="text-slate-600 text-sm mt-1">A certificate of compliance is a document issued by the <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900">local health department</a> confirming that the septic system meets current code requirements at the time of inspection, required in many states as a condition of property transfer. In states with point-of-sale inspection requirements, the certificate of compliance is the official document that allows the sale to proceed, and a system that cannot obtain one must be repaired or replaced before the transfer can be completed.</p>
             </div>
             <div className="pb-3">
               <h3 className="font-bold text-slate-900">Bedroom Count Capacity</h3>
-              <p className="text-slate-600 text-sm mt-1">Septic systems are sized based on the number of bedrooms in the home (typically 120 gallons per bedroom per day), not the number of bathrooms. If bedrooms have been added since the original installation, the system may be undersized and non-compliant.</p>
+              <p className="text-slate-600 text-sm mt-1">Bedroom count capacity is the method used by health departments to size residential septic systems, based on the assumption that each bedroom represents a potential additional occupant generating approximately 120 gallons of wastewater per day, which determines the minimum tank size and drainfield area required for the property. If bedrooms have been added to the home since the original septic permit was issued without a corresponding upgrade to the system, the tank may be undersized and non-compliant with current code, which can affect the sale, financing, and long-term system performance.</p>
             </div>
           </div>
         </section>
