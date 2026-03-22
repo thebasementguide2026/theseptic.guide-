@@ -131,6 +131,9 @@ export default function AerobicVsAnaerobicArticle() {
         <p className='text-base text-slate-700 leading-relaxed mb-12'>
           Anaerobic systems cost <strong>$3,000 to $8,000</strong>. Aerobic systems cost <strong>$10,000 to $20,000</strong>. But cost alone doesn&apos;t determine which system you need &mdash; your property&apos;s soil conditions and local regulations usually make the decision for you.
         </p>
+        <p className='text-lg text-slate-700 leading-relaxed mb-12'>
+          An anaerobic septic system is a passive, gravity-fed system with no mechanical components &mdash; wastewater flows from the home into a buried tank where solids settle and separate, and liquid effluent drains by gravity to a drainfield for final treatment in the soil. An aerobic treatment unit (ATU) is an active system that introduces oxygen into the treatment process using an electric air pump or compressor, accelerating bacterial breakdown of waste and producing a cleaner effluent that can be discharged in conditions where anaerobic systems cannot meet regulatory standards. The practical ownership difference is significant: an anaerobic system has no moving parts, requires pumping every 3 to 5 years, and has no electricity cost, while an aerobic system has a compressor, pump, and spray heads that require quarterly or annual maintenance by a licensed service provider, consume electricity continuously, and typically carry a mandatory service contract required by the health department. For most homeowners the choice is not a preference decision &mdash; it is determined by lot size, soil percolation rate, setback requirements, and local regulations.
+        </p>
 
         {/* How Each System Works */}
         <div className='mb-16'>
