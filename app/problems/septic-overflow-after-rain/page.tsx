@@ -292,6 +292,107 @@ export default function SepticOverflowAfterRain() {
           </div>
         </div>
 
+        {/* Prevention Priority Guide */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Prevention</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Prevention Priority Guide</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm border-collapse'>
+              <thead>
+                <tr className='bg-slate-800 text-white'>
+                  <th className='text-left p-3 font-bold'>Your Situation</th>
+                  <th className='text-left p-3 font-bold'>Priority Action</th>
+                  <th className='text-left p-3 font-bold'>Cost</th>
+                  <th className='text-left p-3 font-bold'>When to Do It</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Downspouts, sump pump, or foundation drains connected to septic</td>
+                  <td className='p-3 text-slate-700'>Disconnect and redirect immediately</td>
+                  <td className='p-3 text-slate-700'>$0 to $300</td>
+                  <td className='p-3 text-slate-700'>Before the next rain event</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Tank not pumped in 3 or more years</td>
+                  <td className='p-3 text-slate-700'>Schedule pump-out as soon as ground is dry</td>
+                  <td className='p-3 text-slate-700'>$300 to $600</td>
+                  <td className='p-3 text-slate-700'>Within 30 days</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Tank lids, risers, or pipe connections unsealed or cracked</td>
+                  <td className='p-3 text-slate-700'>Seal with waterproof sealant, replace gaskets</td>
+                  <td className='p-3 text-slate-700'>$50 to $400</td>
+                  <td className='p-3 text-slate-700'>Before the next rain event</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>No effluent filter installed</td>
+                  <td className='p-3 text-slate-700'>Install effluent filter at tank outlet</td>
+                  <td className='p-3 text-slate-700'>$80 to $200</td>
+                  <td className='p-3 text-slate-700'>At next pump-out visit</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Surface water drains toward drainfield</td>
+                  <td className='p-3 text-slate-700'>Regrade yard and install swales to redirect runoff</td>
+                  <td className='p-3 text-slate-700'>$500 to $3,000</td>
+                  <td className='p-3 text-slate-700'>Before wet season</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Drainfield sits at base of slope</td>
+                  <td className='p-3 text-slate-700'>Install curtain drain uphill of drainfield</td>
+                  <td className='p-3 text-slate-700'>$1,000 to $4,000</td>
+                  <td className='p-3 text-slate-700'>Before wet season</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Overflow only during extreme rain, system otherwise healthy</td>
+                  <td className='p-3 text-slate-700'>Reduce water use proactively during heavy rain forecasts</td>
+                  <td className='p-3 text-slate-700'>$0</td>
+                  <td className='p-3 text-slate-700'>Every significant rain event</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Overflow recurring after every moderate rain</td>
+                  <td className='p-3 text-slate-700'>Professional inspection to evaluate drainfield condition</td>
+                  <td className='p-3 text-slate-700'>$300 to $600</td>
+                  <td className='p-3 text-slate-700'>Immediately</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Drainfield soggy even in dry weather</td>
+                  <td className='p-3 text-slate-700'>Drainfield failure evaluation and likely replacement</td>
+                  <td className='p-3 text-slate-700'>$5,000 to $15,000</td>
+                  <td className='p-3 text-slate-700'>Immediately</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Distribution box cracked or tilted</td>
+                  <td className='p-3 text-slate-700'>D-box inspection, leveling, or replacement</td>
+                  <td className='p-3 text-slate-700'>$200 to $500</td>
+                  <td className='p-3 text-slate-700'>Within 60 days</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Overflow started after nearby construction or excavation</td>
+                  <td className='p-3 text-slate-700'>Check for new stormwater connections or soil compaction</td>
+                  <td className='p-3 text-slate-700'>$0 to $1,000</td>
+                  <td className='p-3 text-slate-700'>Immediately</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Well located near drainfield overflow area</td>
+                  <td className='p-3 text-slate-700'>Well water testing after every overflow event</td>
+                  <td className='p-3 text-slate-700'>$50 to $150 per test</td>
+                  <td className='p-3 text-slate-700'>After each overflow until resolved</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>Buying a home with history of rain-related overflow</td>
+                  <td className='p-3 text-slate-700'>Full septic inspection before closing</td>
+                  <td className='p-3 text-slate-700'>$300 to $600</td>
+                  <td className='p-3 text-slate-700'>Before making an offer</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* FAQ */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>FAQ</span><div className='flex-1 h-px bg-slate-200'></div></div>
