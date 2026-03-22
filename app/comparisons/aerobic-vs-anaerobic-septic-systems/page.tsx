@@ -442,6 +442,88 @@ export default function AerobicVsAnaerobicArticle() {
           </div>
         </div>
 
+                {/* Which System Do You Need - Decision Table */}
+        <div className='border-t border-slate-100 pt-16 mt-16 mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Decision Guide</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Which System Do You Need?</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm border-collapse'>
+              <thead>
+                <tr className='bg-slate-800 text-white'>
+                  <th className='p-3 text-left font-semibold'>Your Situation</th>
+                  <th className='p-3 text-left font-semibold'>System Required</th>
+                  <th className='p-3 text-left font-semibold'>Reason</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Soil passes perc test, lot large enough for standard drainfield</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Anaerobic (conventional)</td>
+                  <td className='p-3 text-slate-700'>Standard gravity system is approvable &mdash; no reason to pay for aerobic</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Soil fails perc test (too slow or too fast)</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic or alternative system</td>
+                  <td className='p-3 text-slate-700'>Conventional drainfield cannot achieve adequate treatment in failing soil</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Lot too small for required drainfield setbacks</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic or mound system</td>
+                  <td className='p-3 text-slate-700'>Smaller footprint of aerobic discharge area may fit where conventional cannot</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Property in environmentally sensitive area (lake shore, coastal zone, Chesapeake Bay watershed)</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic required</td>
+                  <td className='p-3 text-slate-700'>Higher effluent standard required to protect groundwater and surface water</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Texas or state with widespread ATU regulations</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic likely required</td>
+                  <td className='p-3 text-slate-700'>Many Texas counties default to aerobic regardless of soil conditions</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Shallow water table (less than 4 feet to seasonal high)</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic or mound system</td>
+                  <td className='p-3 text-slate-700'>Conventional drainfield needs adequate soil depth for treatment before groundwater contact</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Existing anaerobic system functioning, 10+ years of life remaining</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Keep anaerobic system</td>
+                  <td className='p-3 text-slate-700'>No financial or regulatory justification to switch</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Existing anaerobic system at end of life, soil still passes perc test</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Replace with anaerobic</td>
+                  <td className='p-3 text-slate-700'>Simpler, cheaper, no ongoing service contract obligation</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Existing anaerobic system failed, soil now failing perc test</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Aerobic or alternative system</td>
+                  <td className='p-3 text-slate-700'>Failing soil from drainfield overload may no longer support conventional replacement</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Buying a home with an aerobic system</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Verify service contract is current and transferable</td>
+                  <td className='p-3 text-slate-700'>Lapsed service contract is a permit violation that transfers with the property</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-700'>Buying a home with an anaerobic system</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Confirm tank size, last pump date, and drainfield condition</td>
+                  <td className='p-3 text-slate-700'>No service contract required but inspection history matters</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-700'>Adding bedrooms or ADU to existing system</td>
+                  <td className='p-3 text-slate-900 font-semibold'>Re-evaluate system capacity for new bedroom count</td>
+                  <td className='p-3 text-slate-700'>Both system types must be sized for maximum calculated occupancy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
                 {/* FAQ */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
