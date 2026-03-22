@@ -289,18 +289,86 @@ export default function SepticTankSizeGuidePage() {
           </div>
         </section>
 
-        {/* Related Articles */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Related Articles</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">How Often Should You Pump?</h3><p className="text-slate-600 text-sm mt-1">Find your exact pumping schedule by tank and household size.</p></Link>
-            <Link href="/cost-guides/septic-system-installation-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic System Installation Cost</h3><p className="text-slate-600 text-sm mt-1">Complete price breakdown by system type.</p></Link>
-            <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Concrete vs Plastic vs Fiberglass Tanks</h3><p className="text-slate-600 text-sm mt-1">Full comparison of costs, lifespan, and pros and cons.</p></Link>
-            <Link href="/articles/how-to-find-your-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">How to Find Your Septic Tank</h3><p className="text-slate-600 text-sm mt-1">5 methods that work to locate your buried tank.</p></Link>
-            <Link href="/comparisons/aerobic-vs-anaerobic-septic-systems" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Aerobic vs Anaerobic Systems</h3><p className="text-slate-600 text-sm mt-1">Differences, costs, and which you need.</p></Link>
-            <Link href="/articles/septic-tank-pumping-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow"><h3 className="font-bold text-slate-900">Septic Tank Pumping Cost</h3><p className="text-slate-600 text-sm mt-1">What you will actually pay in 2026.</p></Link>
+        {/* Related Guides */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Guides</h2>
+
+          <h3 className="text-lg font-bold text-slate-900 mb-4">On theseptic.guide</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <Link href="/articles/how-often-pump-septic-tank" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">How Often Should You Pump Your Septic Tank?</h4>
+              <p className="text-slate-600 text-xs">The pumping schedule by tank size and household size, showing exactly how choosing a larger tank directly extends your service interval and reduces lifetime pumping costs.</p>
+            </Link>
+            <Link href="/articles/septic-tank-pumping-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic Tank Pumping Cost 2026</h4>
+              <p className="text-slate-600 text-xs">What pump-outs cost by tank size and region, and the math on how a larger tank pays for itself through reduced pumping frequency over the system&apos;s life.</p>
+            </Link>
+            <Link href="/cost-guides/septic-system-installation-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Installation Cost 2026</h4>
+              <p className="text-slate-600 text-xs">Full cost breakdown for new installations by system type and tank material, including what upsizing from the minimum actually costs at installation.</p>
+            </Link>
+            <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Concrete vs Plastic vs Fiberglass Septic Tanks</h4>
+              <p className="text-slate-600 text-xs">A full comparison of the three tank materials available in standard sizes, covering lifespan, cost, installation conditions, and which is right for your property.</p>
+            </Link>
+            <Link href="/articles/how-long-does-a-septic-system-last" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">How Long Does a Septic System Last?</h4>
+              <p className="text-slate-600 text-xs">How tank size affects drainfield lifespan by determining effluent quality, and the full component-by-component lifespan breakdown.</p>
+            </Link>
+            <Link href="/problems/drainfield-failing" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Signs Your Drainfield Is Failing</h4>
+              <p className="text-slate-600 text-xs">What happens when a tank is undersized and sends partially settled effluent to the drainfield over years of inadequate retention time.</p>
+            </Link>
+            <Link href="/cost-guides/drainfield-replacement-cost" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Drainfield Replacement Cost</h4>
+              <p className="text-slate-600 text-xs">The $5,000 to $15,000 consequence of chronic undersizing, priced out by system type and site conditions.</p>
+            </Link>
+            <Link href="/articles/how-to-find-your-septic-tank" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">How to Find Your Septic Tank</h4>
+              <p className="text-slate-600 text-xs">How to locate and access your tank to confirm its size if you do not have property records available.</p>
+            </Link>
+            <Link href="/comparisons/aerobic-vs-anaerobic-septic-systems" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Aerobic vs Anaerobic Septic Systems</h4>
+              <p className="text-slate-600 text-xs">How tank sizing works differently for aerobic treatment units that use multiple chambers versus conventional gravity-fed single or two-compartment tanks.</p>
+            </Link>
+            <Link href="/guides/buying-home-with-septic" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Buying a Home with a Septic System</h4>
+              <p className="text-slate-600 text-xs">How to confirm that the existing tank is correctly sized for the bedroom count before closing, and what undersizing means for your negotiating position.</p>
+            </Link>
+            <Link href="/guides/garbage-disposal-septic-systems" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Garbage Disposal and Septic Systems</h4>
+              <p className="text-slate-600 text-xs">The full impact of garbage disposal use on tank sizing, pumping frequency, and drainfield health for homeowners deciding whether to use or remove their disposal.</p>
+            </Link>
+            <Link href="/maintenance/septic-system-maintenance-checklist" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Septic System Maintenance Checklist</h4>
+              <p className="text-slate-600 text-xs">The ongoing maintenance schedule that keeps any tank size functioning at its best, including pumping intervals, filter cleaning, and inspection timing.</p>
+            </Link>
+            <Link href="/problems/slow-drains" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Slow Drains on a Septic System</h4>
+              <p className="text-slate-600 text-xs">How an undersized tank contributes to the whole-house slow drains and backups that occur during peak flow events like holiday gatherings and house guests.</p>
+            </Link>
           </div>
-        </section>
+
+          <h3 className="text-lg font-bold text-slate-900 mb-4">From Our Network</h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://thebasement.guide/articles/best-sump-pumps-2026" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Best Sump Pumps 2026</h4>
+              <p className="text-slate-600 text-xs">For homes where basement sump pump discharge is currently routing to the septic system and adding to the hydraulic load, this guide covers how to choose and properly route a sump pump to protect the septic tank and drainfield.</p>
+            </a>
+            <a href="https://thebasement.guide/articles/sump-pump-design-ideas" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">Sump Pump Design Ideas for 2026</h4>
+              <p className="text-slate-600 text-xs">How to route basement drainage equipment away from the septic system, relevant for homeowners whose water softener or sump pump discharge is currently adding unnecessary volume to the tank.</p>
+            </a>
+          </div>
+
+          <h3 className="text-lg font-bold text-slate-900 mb-4">External Resource</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <a href="https://www.epa.gov/septic/how-care-your-septic-system" target="_blank" rel="noopener noreferrer" className="block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900 mb-1 text-sm">EPA Septic System Care Guidance</h4>
+              <p className="text-slate-600 text-xs">The EPA&apos;s official residential septic system guidance including the 75-gallon-per-person-per-day baseline used for tank sizing calculations and recommendations for maintenance schedules by system type.</p>
+            </a>
+          </div>
+        </div>
 
         {/* CTA */}
         <section className="bg-slate-800 rounded-2xl p-8 text-center">
