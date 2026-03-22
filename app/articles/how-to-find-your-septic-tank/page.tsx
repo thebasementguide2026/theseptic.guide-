@@ -516,23 +516,77 @@ export default function HowToFindYourSepticTank() {
         {/* Related Guides */}
         <div className='mt-16'>
           <h2 className='text-3xl font-black text-slate-900 mb-8'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-6'>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and more.</p>
-            </Link>
-            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h3>
-              <p className='text-slate-600 text-xs'>Find your exact pumping schedule by tank size and household size.</p>
+
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h4>
+              <p className='text-slate-600 text-xs'>The first upgrade to make after locating a buried tank, eliminating excavation fees at every future service visit and making routine maintenance permanently easier.</p>
             </Link>
             <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Real pricing by tank size, region, and hidden fees to watch for.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What to budget for the pump-out that should follow immediately after locating a tank with no known service history, by tank size and region.</p>
             </Link>
-            <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h3>
-              <p className='text-slate-600 text-xs'>Top-rated risers to bring your tank lids to ground level.</p>
+            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h4>
+              <p className='text-slate-600 text-xs'>The pumping schedule to establish once you have located and confirmed your tank size, by household size and tank capacity.</p>
             </Link>
+            <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h4>
+              <p className='text-slate-600 text-xs'>What a professional inspection costs and why scheduling one immediately after locating a previously unmaintained tank gives you a complete baseline picture of the system&apos;s condition.</p>
+            </Link>
+            <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h4>
+              <p className='text-slate-600 text-xs'>The complete ongoing maintenance schedule to follow once you have located all system components and established their condition.</p>
+            </Link>
+            <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>The full homebuyer&apos;s guide to septic due diligence including how to obtain the as-built drawing, what to look for during the pre-purchase inspection, and how to negotiate if problems are found.</p>
+            </Link>
+            <Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h4>
+              <p className='text-slate-600 text-xs'>How to confirm your tank&apos;s capacity once it has been located and opened, and whether it is correctly sized for the number of bedrooms in your home.</p>
+            </Link>
+            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>After locating the tank, the next step is locating and assessing the drainfield &mdash; this guide covers what warning signs to look for once you find it.</p>
+            </Link>
+            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h4>
+              <p className='text-slate-600 text-xs'>How every component of the system works and where each one is typically located relative to the tank, useful for understanding what else to locate after finding the tank itself.</p>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h4>
+              <p className='text-slate-600 text-xs'>What repairs cost when a professional locate reveals component problems such as a cracked lid, damaged riser, or inaccessible access point.</p>
+            </Link>
+            <Link href='/guides/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Don&apos;ts</h4>
+              <p className='text-slate-600 text-xs'>Now that you know where the tank and drainfield are, this guide covers the physical property rules including what cannot be built, parked, or planted over those areas.</p>
+            </Link>
+            <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How having a documented, located, and maintained system with an accessible as-built drawing strengthens your position when selling.</p>
+            </Link>
+          </div>
+
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h4>
+              <p className='text-slate-600 text-xs'>For homeowners locating both a septic system and basement drainage equipment on the same property, this guide covers how to integrate sump pump discharge routing away from the drainfield area.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h4>
+              <p className='text-slate-600 text-xs'>Once you have located your septic drainfield, ensuring that sump pump discharge is routed away from that area is one of the most important steps in protecting long-term drainfield performance.</p>
+            </a>
+          </div>
+
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6'>
+            <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>EPA Septic System Care Guidance</h4>
+              <p className='text-slate-600 text-xs'>The EPA&apos;s official guidance on septic system maintenance including recommendations for locating, documenting, and maintaining records for your on-site wastewater system.</p>
+            </a>
           </div>
         </div>
       {/* Lead Form */}
