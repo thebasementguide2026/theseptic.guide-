@@ -538,36 +538,122 @@ export default function SepticSystemWinterCare() {
           </div>
         </section>
 
-        {/* Related Articles */}
+        {/* Related Guides */}
         <section className='mb-16'>
-          <h2 className='text-3xl font-bold text-slate-800 mb-6'>Related Articles</h2>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+          <h2 className='text-3xl font-bold text-slate-800 mb-6'>Related Guides</h2>
+
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-10'>
             <Link href='/maintenance/septic-system-maintenance-checklist' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
               <div className='p-6'>
-                <p className='text-amber-600 text-sm font-semibold mb-1'>Maintenance</p>
-                <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Septic System Maintenance Checklist</h3>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic System Maintenance Checklist</h4>
+                <p className='text-slate-600 text-xs'>The complete year-round maintenance schedule that puts the winter care tasks on this page into a full seasonal calendar alongside spring, summer, and fall tasks.</p>
               </div>
             </Link>
-            <Link href='/problems/septic-smell-inside-house' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+            <Link href='/articles/septic-tank-pumping-cost' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
               <div className='p-6'>
-                <p className='text-amber-600 text-sm font-semibold mb-1'>Problems</p>
-                <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Septic Smell Inside the House</h3>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic Tank Pumping Cost 2026</h4>
+                <p className='text-slate-600 text-xs'>What fall pump-outs cost by tank size and region, and why scheduling before the ground freezes is always less expensive than emergency winter pumping.</p>
+              </div>
+            </Link>
+            <Link href='/articles/how-often-pump-septic-tank' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>How Often Should You Pump Your Septic Tank?</h4>
+                <p className='text-slate-600 text-xs'>The pumping schedule that determines whether your tank is due for fall service before winter, by household size and tank capacity.</p>
               </div>
             </Link>
             <Link href='/problems/drainfield-failing' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
               <div className='p-6'>
-                <p className='text-amber-600 text-sm font-semibold mb-1'>Problems</p>
-                <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Signs Your Drainfield Is Failing</h3>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Signs Your Drainfield Is Failing</h4>
+                <p className='text-slate-600 text-xs'>The warning sign progression to check for in spring after winter, when frost heave and freeze damage can produce the same symptoms as biological drainfield failure.</p>
+              </div>
+            </Link>
+            <Link href='/problems/tank-backing-up' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic Tank Backing Up Into House</h4>
+                <p className='text-slate-600 text-xs'>Emergency steps for when a frozen system produces a backup, including what to do while waiting for professional help.</p>
+              </div>
+            </Link>
+            <Link href='/problems/slow-drains' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Slow Drains on a Septic System</h4>
+                <p className='text-slate-600 text-xs'>How to distinguish between slow drains caused by a frozen line and slow drains from other causes, and what to do in each scenario.</p>
+              </div>
+            </Link>
+            <Link href='/problems/septic-smell-inside-house' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic Smell Inside the House</h4>
+                <p className='text-slate-600 text-xs'>Why a frozen vent pipe or frozen main line pushes septic gases back into the house and how to identify and address it during cold weather.</p>
+              </div>
+            </Link>
+            <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Aerobic vs Anaerobic Septic Systems</h4>
+                <p className='text-slate-600 text-xs'>A full comparison of the two system types and why aerobic treatment units require more winter attention than conventional gravity-fed systems.</p>
+              </div>
+            </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Drainfield Replacement Cost</h4>
+                <p className='text-slate-600 text-xs'>The cost of the worst-case winter outcome when frost heave or repeated freeze-thaw cycles cause permanent drainfield damage.</p>
+              </div>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic System Repair Cost</h4>
+                <p className='text-slate-600 text-xs'>What pipe repairs, connection fixes, and component replacements cost after a winter freeze event causes physical damage to system components.</p>
+              </div>
+            </Link>
+            <Link href='/reviews/best-septic-tank-risers' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Best Septic Tank Risers</h4>
+                <p className='text-slate-600 text-xs'>The upgrade that makes fall winterization and spring inspection faster and easier by eliminating excavation, with insulated riser covers specifically for winter protection.</p>
+              </div>
+            </Link>
+            <Link href='/cost-guides/septic-system-installation-cost' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic System Installation Cost 2026</h4>
+                <p className='text-slate-600 text-xs'>Relevant for homeowners whose winter inspection reveals a system that needs replacement rather than repair after sustained freeze damage.</p>
+              </div>
+            </Link>
+            <Link href='/guides/septic-dos-and-donts' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic Dos and Don&apos;ts</h4>
+                <p className='text-slate-600 text-xs'>The year-round household rules that include the winter-specific don&apos;ts covered in this guide, from keeping traffic off the drainfield to avoiding chemical use that harms cold-weather bacteria.</p>
+              </div>
+            </Link>
+            <Link href='/articles/what-can-cannot-flush-septic-system' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>What You Can and Cannot Flush</h4>
+                <p className='text-slate-600 text-xs'>Why RV antifreeze is the only antifreeze safe to introduce into a septic system, and what automotive antifreeze does to the tank&apos;s bacterial ecosystem.</p>
               </div>
             </Link>
           </div>
-        </section>
 
-        {/* Network Links */}
-        <section className='mb-16'>
-          <div className='bg-gray-50 border border-slate-200 rounded-xl p-6'>
-            <h3 className='text-slate-800 font-bold mb-3'>From Our Network</h3>
-            <p className='text-slate-700 text-sm'><a href='https://thebasement.guide/cost-guides/basement-waterproofing-cost' target='_blank' rel='noopener noreferrer' className='text-amber-600 underline hover:text-amber-700'>The Basement Guide</a> covers basement waterproofing cost and sump pump guides, which address water management systems that face similar winter freeze risks. <a href='https://thegarage.guide/problems/water-leaking-into-garage' target='_blank' rel='noopener noreferrer' className='text-amber-600 underline hover:text-amber-700'>The Garage Guide</a> covers water leaking into garage, which can involve frozen pipes and drainage issues connected to the septic system during winter months.</p>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>From Our Network</h3>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Best Sump Pumps 2026</h4>
+                <p className='text-slate-600 text-xs'>For homes managing both a septic system and a basement during winter, a reliable sump pump with battery backup prevents the groundwater infiltration that saturates drainfields during spring snowmelt.</p>
+              </div>
+            </a>
+            <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Sump Pump Design Ideas for 2026</h4>
+                <p className='text-slate-600 text-xs'>How to integrate basement drainage equipment properly so spring snowmelt and groundwater are directed away from the septic drainfield rather than toward it.</p>
+              </div>
+            </a>
+          </div>
+
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>External Resource</h3>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+            <a href='https://www.pca.state.mn.us/living-green/dont-let-your-septic-system-freeze' target='_blank' rel='noopener noreferrer' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Minnesota Pollution Control Agency &mdash; Don&apos;t Let Your Septic System Freeze</h4>
+                <p className='text-slate-600 text-xs'>The most detailed and authoritative state regulatory guidance on septic freeze prevention, with specific insulation depth recommendations and step-by-step winterization instructions from the state with some of the most challenging septic winter conditions in the country.</p>
+              </div>
+            </a>
           </div>
         </section>
 
