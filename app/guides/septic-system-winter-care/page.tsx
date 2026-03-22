@@ -175,6 +175,40 @@ export default function SepticSystemWinterCare() {
 
         <p className='text-slate-700 leading-relaxed mb-12 text-sm'>Septic system winter care encompasses the fall preparation tasks, cold-weather habits, and spring recovery steps that prevent a residential septic system from freezing, suffering frost heave damage, or failing during the season when it is most vulnerable. Most septic failures from winter causes are entirely preventable with $50 to $500 in fall preparation, making this the highest return-on-investment maintenance category for homeowners in cold climates. This guide covers every step in sequence from fall winterization through spring recovery, with specific costs, timing, and emergency response instructions for systems that freeze despite precautions.</p>
 
+        {/* Quick Reference Table */}
+        <section className='mb-16'>
+          <h2 className='text-3xl font-bold text-slate-800 mb-4'>Quick Reference: What Do I Need to Do?</h2>
+          <p className='text-slate-700 leading-relaxed mb-6'>Match your situation to the right action, timing, and cost:</p>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm text-left'>
+              <thead className='bg-slate-100 text-amber-600'>
+                <tr>
+                  <th className='px-4 py-3 font-semibold'>Your Situation</th>
+                  <th className='px-4 py-3 font-semibold'>Action Required</th>
+                  <th className='px-4 py-3 font-semibold'>When</th>
+                  <th className='px-4 py-3 font-semibold'>Cost</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-slate-200'>
+                <tr><td className='px-4 py-3 text-slate-700'>Occupied home, system functioning normally</td><td className='px-4 py-3 text-slate-700'>Add mulch insulation over tank and drainfield</td><td className='px-4 py-3 text-slate-700'>September to October</td><td className='px-4 py-3 text-slate-700'>$0 to $50</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Tank due for pumping this year</td><td className='px-4 py-3 text-slate-700'>Pump before first freeze</td><td className='px-4 py-3 text-slate-700'>September to October</td><td className='px-4 py-3 text-slate-700'>$300 to $600</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>Tank lids buried without risers</td><td className='px-4 py-3 text-slate-700'>Install insulated riser covers</td><td className='px-4 py-3 text-slate-700'>Before first freeze</td><td className='px-4 py-3 text-slate-700'>$200 to $400 installed</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Tank has risers but no insulated covers</td><td className='px-4 py-3 text-slate-700'>Add insulated riser lid covers</td><td className='px-4 py-3 text-slate-700'>Before first freeze</td><td className='px-4 py-3 text-slate-700'>$30 to $80 per riser</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>Leaky toilet or dripping faucet</td><td className='px-4 py-3 text-slate-700'>Fix all leaks before winter</td><td className='px-4 py-3 text-slate-700'>September</td><td className='px-4 py-3 text-slate-700'>$0 to $300</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Drainfield near driveway or snowmobile trail</td><td className='px-4 py-3 text-slate-700'>Install snow fencing or marker stakes</td><td className='px-4 py-3 text-slate-700'>Before first snowfall</td><td className='px-4 py-3 text-slate-700'>$30 to $100</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>Aerobic treatment unit</td><td className='px-4 py-3 text-slate-700'>Arrange backup power for compressor</td><td className='px-4 py-3 text-slate-700'>Before first freeze</td><td className='px-4 py-3 text-slate-700'>$200 to $1,000 for generator</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Leaving home vacant for winter</td><td className='px-4 py-3 text-slate-700'>Pump tank, shut off water, add RV antifreeze to all traps, add heavy insulation</td><td className='px-4 py-3 text-slate-700'>Before departure</td><td className='px-4 py-3 text-slate-700'>$300 to $700 total</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>Multiple fixtures slow or stopped in cold weather</td><td className='px-4 py-3 text-slate-700'>Stop all water use, call septic professional immediately</td><td className='px-4 py-3 text-slate-700'>As soon as noticed</td><td className='px-4 py-3 text-slate-700'>$200 to $500 to thaw</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Pump alarm activating in cold weather</td><td className='px-4 py-3 text-slate-700'>Shut off pump immediately, call professional</td><td className='px-4 py-3 text-slate-700'>Immediately</td><td className='px-4 py-3 text-slate-700'>$200 to $500</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>System froze, cannot be thawed until spring</td><td className='px-4 py-3 text-slate-700'>Enter holding tank mode, pump every 1 to 3 weeks</td><td className='px-4 py-3 text-slate-700'>Throughout winter</td><td className='px-4 py-3 text-slate-700'>$300 to $600 per pump-out</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>Ground thawed, spring arrived</td><td className='px-4 py-3 text-slate-700'>Remove mulch from drainfield, walk system for wet spots, schedule inspection if any winter symptoms occurred</td><td className='px-4 py-3 text-slate-700'>March to April</td><td className='px-4 py-3 text-slate-700'>$0 to $300</td></tr>
+                <tr><td className='px-4 py-3 text-slate-700'>ATU shut down for winter, spring restart</td><td className='px-4 py-3 text-slate-700'>Add biological supplement, run compressor several days before full use, gradually increase water use</td><td className='px-4 py-3 text-slate-700'>Spring</td><td className='px-4 py-3 text-slate-700'>$15 to $50 for supplement</td></tr>
+                <tr className='bg-slate-50'><td className='px-4 py-3 text-slate-700'>No issues during winter, routine spring check</td><td className='px-4 py-3 text-slate-700'>Walk drainfield, check for frost heave, resume normal schedule</td><td className='px-4 py-3 text-slate-700'>March to April</td><td className='px-4 py-3 text-slate-700'>Free</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* Intro */}
         <section className='mb-16'>
           <h2 className='text-3xl font-bold text-slate-800 mb-6'>Why Winter Is the Most Dangerous Season for Septic Systems</h2>
