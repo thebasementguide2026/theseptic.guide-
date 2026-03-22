@@ -164,6 +164,9 @@ export default function SepticToSewerConversionCostPage() {
         <p className="text-base text-slate-700 leading-relaxed mb-12">
           Septic to sewer conversion is one of the biggest infrastructure decisions a homeowner can make. The upfront cost is substantial, but it eliminates ongoing septic maintenance, pumping fees, and the risk of a catastrophic drainfield failure that can cost $5,000 to $20,000 to repair. In some cases, municipalities require conversion when sewer lines become available in your area. See our <Link href="/comparisons/septic-vs-sewer" className="text-amber-700 underline hover:text-amber-800">Septic System vs Sewer comparison</Link> for a full side-by-side analysis.
         </p>
+        <p className="text-lg text-slate-700 leading-relaxed mb-12">
+          Septic to sewer conversion is the process of disconnecting a home&apos;s wastewater system from a private on-site septic system and connecting it to a municipal sewer main, transferring ongoing wastewater management from the homeowner&apos;s responsibility to the public utility. The conversion permanently eliminates the maintenance, pumping, and repair obligations associated with a private septic system, but replaces them with a monthly sewer service bill and a one-time connection cost that varies significantly by municipality and site conditions. Unlike septic repair or replacement, which keeps the homeowner responsible for the entire wastewater system, sewer connection shifts that responsibility to the municipal utility at the property line. The decision to convert is driven by one of four factors: drainfield failure, municipal mandate, property sale strategy, or environmental regulation &mdash; and the financial case for conversion depends almost entirely on which of those factors applies.
+        </p>
 
         {/* Cost Breakdown Table */}
         <div className="mb-16">
