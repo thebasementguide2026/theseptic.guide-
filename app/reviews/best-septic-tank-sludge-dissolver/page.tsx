@@ -83,14 +83,8 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Best Septic Tank Sludge Dissolver 2026: 4 Products That Actually Work',
   description: 'Most sludge dissolvers make claims they cannot keep. These four biological products reduce organic sludge safely — and we explain exactly when each one is and is not worth using.',
-  image: 'https://theseptic.guide/septicsludge.jpg',
-  datePublished: '2026-03-22',
+  url: 'https://theseptic.guide/reviews/best-septic-tank-sludge-dissolver',
   dateModified: '2026-03-22',
-  author: {
-    '@type': 'Organization',
-    name: 'The Septic Guide',
-    url: 'https://theseptic.guide',
-  },
   publisher: {
     '@type': 'Organization',
     name: 'The Septic Guide',
