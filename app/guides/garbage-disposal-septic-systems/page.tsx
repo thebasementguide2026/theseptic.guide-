@@ -271,6 +271,84 @@ export default function GarbageDisposalSepticPage() {
           </div>
         </section>
 
+        {/* Decision Table */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Should You Keep, Remove, or Limit Your Garbage Disposal?</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-slate-800 text-white">
+                  <th className="p-3 text-left font-semibold">Your Situation</th>
+                  <th className="p-3 text-left font-semibold">Recommendation</th>
+                  <th className="p-3 text-left font-semibold">Action Required</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">New to septic, disposal already installed, system healthy</td>
+                  <td className="p-3 text-slate-700">Keep with strict limits</td>
+                  <td className="p-3 text-slate-700">Use for plate scrapings only, pump every 2 to 3 years, install effluent filter</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Considering installing a disposal on an existing septic system</td>
+                  <td className="p-3 text-slate-700">Install only if willing to adjust maintenance</td>
+                  <td className="p-3 text-slate-700">Commit to more frequent pumping and effluent filter before installing</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">Heavy daily disposal user, pumping on normal schedule</td>
+                  <td className="p-3 text-slate-700">Reduce use immediately</td>
+                  <td className="p-3 text-slate-700">Switch to trash or compost for bulk food waste, adjust pumping interval now</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Drainfield showing early stress signs (slow drains, wet spots)</td>
+                  <td className="p-3 text-slate-700">Stop using disposal entirely</td>
+                  <td className="p-3 text-slate-700">Remove or disconnect until drainfield condition is evaluated by a professional</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">Tank undersized for bedroom count already</td>
+                  <td className="p-3 text-slate-700">Do not use disposal</td>
+                  <td className="p-3 text-slate-700">Undersized tank has no capacity margin for additional solids load</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Disposing of grease, oil, or coffee grounds regularly</td>
+                  <td className="p-3 text-slate-700">Stop immediately</td>
+                  <td className="p-3 text-slate-700">These materials do not break down and will accelerate drainfield failure</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">Buying a home with disposal on septic, no pump records</td>
+                  <td className="p-3 text-slate-700">Get inspection and pump-out before closing</td>
+                  <td className="p-3 text-slate-700">Confirm sludge depth and drainfield condition before assuming system is healthy</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Selling a home with disposal on septic</td>
+                  <td className="p-3 text-slate-700">Disclose disposal use in maintenance history</td>
+                  <td className="p-3 text-slate-700">Buyers and inspectors will ask; document adjusted pumping schedule if you have one</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">Using a septic-specific disposal model with enzyme injection</td>
+                  <td className="p-3 text-slate-700">Keep the grind function, skip the enzymes</td>
+                  <td className="p-3 text-slate-700">Enzyme cartridges are unnecessary; invest the savings in an extra pump-out instead</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Large household (5 or more people) with disposal</td>
+                  <td className="p-3 text-slate-700">Pump every 2 years regardless</td>
+                  <td className="p-3 text-slate-700">High occupancy plus disposal use leaves minimal tank capacity margin</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-slate-900 font-semibold">Seasonal or vacation home with disposal</td>
+                  <td className="p-3 text-slate-700">Pump before each extended vacancy</td>
+                  <td className="p-3 text-slate-700">Food waste left in tank during vacancy can cause odor and bacterial imbalance</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3 text-slate-900 font-semibold">Disposal used only for small plate rinse residue</td>
+                  <td className="p-3 text-slate-700">Keep with standard maintenance plus one year shorter interval</td>
+                  <td className="p-3 text-slate-700">Light use is manageable with a modest adjustment to pumping schedule</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* Glossary */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Glossary</h2>
