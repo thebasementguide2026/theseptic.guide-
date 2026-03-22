@@ -81,6 +81,14 @@ export const articles: Article[] = [
     image: '/septicsavor.jpg',
   },
   {
+    title: 'Best Septic Tank Sludge Dissolver 2026: 4 Products That Actually Work',
+    description: 'Most sludge dissolvers make claims they cannot keep. These four biological products reduce organic sludge safely — and we explain exactly when each one is and is not worth using.',
+    slug: 'reviews/best-septic-tank-sludge-dissolver',
+    category: 'Review',
+    readTime: '18 min read',
+    image: '/septicsludge.jpg',
+  },
+  {
     title: 'Concrete vs. Plastic vs. Fiberglass Septic Tanks: Full 2025 Comparison',
     description: 'Compare concrete, plastic, and fiberglass septic tanks side by side. Costs, lifespan, pros and cons, installation differences, and which material is best for your property.',
     slug: 'comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks',
