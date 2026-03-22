@@ -632,57 +632,95 @@ export default function SellingHomeWithSepticSystem() {
         </div>
 
         {/* Related Guides */}
-        <div className='mb-16'>
+        <div className='mt-16'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
+
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
             <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h3>
-              <p className='text-slate-600 text-xs'>What buyers need to inspect, ask, and verify before closing.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>What buyers need to inspect, ask, and verify before closing on a home with an onsite system.</p>
             </Link>
             <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h3>
-              <p className='text-slate-600 text-xs'>Pricing by inspection type, region, and system complexity.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h4>
+              <p className='text-slate-600 text-xs'>Pricing by inspection type, region, and system complexity &mdash; so you know what to budget before listing.</p>
             </Link>
             <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h3>
-              <p className='text-slate-600 text-xs'>Complete pricing breakdown for every septic repair type.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost</h4>
+              <p className='text-slate-600 text-xs'>Complete pricing breakdown for every septic repair type, from baffle replacement to full drainfield rebuild.</p>
             </Link>
             <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h3>
-              <p className='text-slate-600 text-xs'>Conventional, mound, and alternative system replacement pricing.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost</h4>
+              <p className='text-slate-600 text-xs'>Conventional, mound, and alternative system replacement pricing by region and soil type.</p>
             </Link>
             <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost</h3>
-              <p className='text-slate-600 text-xs'>New system installation costs by type and region.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost</h4>
+              <p className='text-slate-600 text-xs'>New system installation costs by type, capacity, and region &mdash; useful if buyers ask about full replacement.</p>
             </Link>
             <Link href='/cost-guides/septic-to-sewer-conversion-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic to Sewer Conversion Cost</h3>
-              <p className='text-slate-600 text-xs'>What it costs to abandon septic and connect to municipal sewer.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic to Sewer Conversion Cost</h4>
+              <p className='text-slate-600 text-xs'>What it costs to abandon septic and connect to municipal sewer, including permits and lateral fees.</p>
             </Link>
             <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs, causes, and what to do before it becomes a deal-breaker.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>Warning signs, root causes, and corrective steps before a failing drainfield becomes a deal-breaker.</p>
             </Link>
             <Link href='/articles/how-long-does-a-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last</h3>
-              <p className='text-slate-600 text-xs'>Expected lifespan by system type and maintenance history.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last?</h4>
+              <p className='text-slate-600 text-xs'>Expected lifespan by system type, tank material, soil conditions, and maintenance history.</p>
             </Link>
             <Link href='/articles/how-to-find-your-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How to Find Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>Methods for locating your tank before inspection or sale.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How to Find Your Septic Tank</h4>
+              <p className='text-slate-600 text-xs'>Step-by-step methods for locating your tank, lid, and distribution box before inspection or sale.</p>
             </Link>
             <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h3>
-              <p className='text-slate-600 text-xs'>Top-rated risers to bring your tank access to ground level.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h4>
+              <p className='text-slate-600 text-xs'>Top-rated risers to bring your tank access to ground level &mdash; a low-cost upgrade buyers appreciate.</p>
             </Link>
             <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Does Insurance Cover Septic Repair?</h3>
-              <p className='text-slate-600 text-xs'>What homeowner&rsquo;s insurance covers and what it does not.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Does Insurance Cover Septic Repair?</h4>
+              <p className='text-slate-600 text-xs'>What homeowner&apos;s insurance covers and what it excludes for septic system damage and failure.</p>
             </Link>
             <Link href='/comparisons/septic-vs-sewer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic vs Sewer</h3>
-              <p className='text-slate-600 text-xs'>Cost, maintenance, and value comparison for buyers and sellers.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic vs Sewer</h4>
+              <p className='text-slate-600 text-xs'>Cost, maintenance, and long-term value comparison &mdash; the question every buyer eventually asks.</p>
             </Link>
+            <Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h4>
+              <p className='text-slate-600 text-xs'>How to determine whether your tank size meets code for your home&apos;s bedroom count and daily water usage.</p>
+            </Link>
+            <Link href='/cost-guides/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost</h4>
+              <p className='text-slate-600 text-xs'>Average pumping prices by tank size and region &mdash; a common pre-sale maintenance expense.</p>
+            </Link>
+            <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h4>
+              <p className='text-slate-600 text-xs'>Top-rated biological treatments to keep your system healthy through the listing and closing period.</p>
+            </Link>
+          </div>
+
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/guides/selling-a-home-with-a-wet-basement' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Wet Basement &middot; thebasement.guide</h4>
+              <p className='text-slate-600 text-xs'>Disclosure requirements, remediation options, and negotiation strategies for selling with water intrusion issues.</p>
+            </a>
+            <a href='https://thebasement.guide/guides/sump-pump-buyers-guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Buyer&apos;s Guide &middot; thebasement.guide</h4>
+              <p className='text-slate-600 text-xs'>How to choose the right sump pump &mdash; relevant when a high water table affects both basement and drainfield.</p>
+            </a>
+            <a href='https://thebasement.guide/guides/french-drain-cost-guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>French Drain Cost Guide &middot; thebasement.guide</h4>
+              <p className='text-slate-600 text-xs'>Pricing and installation details for French drains, which can help redirect groundwater away from drainfields.</p>
+            </a>
+          </div>
+
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How to Care for Your Septic System &middot; U.S. EPA</h4>
+              <p className='text-slate-600 text-xs'>The EPA&apos;s official homeowner guide to septic system maintenance &mdash; a trusted resource to share with prospective buyers.</p>
+            </a>
           </div>
         </div>
 
