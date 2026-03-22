@@ -537,26 +537,98 @@ export default function SepticSmellInsideHouse() {
           </div>
         </div>
 
-        {/* Related Articles */}
+        {/* Related Guides */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Articles</h2>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-            <Link href='/maintenance/septic-system-maintenance-checklist' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Septic System Maintenance Checklist</h3>
-              <p className='text-slate-600 text-xs'>Complete maintenance schedule to prevent problems including indoor smells.</p>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+          <p className='text-slate-700 text-sm mb-6'>Guides and resources related to diagnosing and fixing indoor septic smell.</p>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Smell in the Yard</h4>
+              <p className='text-slate-600 text-xs'>The companion problem guide covering outdoor septic odor, which originates at the tank or drainfield rather than inside the home&apos;s plumbing barrier and requires a different diagnosis approach.</p>
             </Link>
-            <Link href='/problems/slow-drains' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Slow Drains with a Septic System</h3>
-              <p className='text-slate-600 text-xs'>How to diagnose and fix slow drains when you have a septic system.</p>
+            <Link href='/problems/slow-drains' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Slow Drains on a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How to diagnose and fix slow drains that often accompany indoor septic smell, particularly when a full tank, blocked vent, or partial clog is the shared root cause.</p>
             </Link>
-            <Link href='/problems/drainfield-failing' className='border border-slate-200 rounded-lg p-4 hover:border-amber-700 transition-colors'>
-              <h3 className='font-bold text-slate-900 text-sm mb-1'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>How to identify drainfield problems before they become emergencies.</p>
+            <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Tank Backing Up</h4>
+              <p className='text-slate-600 text-xs'>What to do when a full tank or drainfield failure has progressed beyond odor to active sewage backup, including the immediate steps and when to call for emergency service.</p>
             </Link>
+            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>How to identify whether recurring indoor smell after rain is temporary saturation or early drainfield failure, and what the progression looks like before full system failure occurs.</p>
+            </Link>
+            <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic System Maintenance Checklist</h4>
+              <p className='text-slate-600 text-xs'>The complete maintenance schedule that prevents the most common indoor smell causes, including the drain-running schedule that prevents P-trap evaporation and the pumping intervals that prevent tank overflow.</p>
+            </Link>
+            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>How Often Should You Pump Your Septic Tank?</h4>
+              <p className='text-slate-600 text-xs'>Pumping intervals by tank size and household size, relevant when a full tank is the suspected cause of indoor odor and you need to determine whether you are overdue.</p>
+            </Link>
+            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Tank Pumping Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a pump-out costs by tank size and region, the most common professional fix for whole-house indoor septic smell caused by an overfull tank.</p>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic System Repair Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Full pricing for every septic repair type, including baffle replacement, tank repair, and drainfield work that may be identified once the odor source is diagnosed.</p>
+            </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Drainfield Replacement Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a full drainfield replacement costs when a failing field is confirmed as the source of persistent indoor odor that does not resolve after rain stops.</p>
+            </Link>
+            <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Inspection Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a professional septic inspection covers and costs when indoor smell persists after all DIY causes have been checked and a system-level problem is suspected.</p>
+            </Link>
+            <Link href='/reviews/best-drain-cleaners-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Best Drain Cleaners for Septic Systems 2026</h4>
+              <p className='text-slate-600 text-xs'>Septic-safe enzyme drain cleaners that address partial clogs contributing to indoor odor without killing the tank bacteria that chemical drain cleaners destroy.</p>
+            </Link>
+            <Link href='/reviews/best-septic-safe-cleaning-products' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Best Septic-Safe Cleaning Products 2026</h4>
+              <p className='text-slate-600 text-xs'>How chronic use of bleach and antibacterial products suppresses tank bacteria and contributes to the gas buildup that causes indoor smell, with safe alternatives for every room.</p>
+            </Link>
+            <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>What You Can and Cannot Flush on a Septic System</h4>
+              <p className='text-slate-600 text-xs'>Items that should never enter a septic system, including wipes and chemicals that contribute to the tank conditions that produce indoor odor.</p>
+            </Link>
+            <Link href='/guides/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic System Dos and Don&apos;ts</h4>
+              <p className='text-slate-600 text-xs'>The household practices that prevent the tank conditions and plumbing failures that cause indoor septic smell, including water use guidelines and product restrictions.</p>
+            </Link>
+            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Complete Septic System Guide</h4>
+              <p className='text-slate-600 text-xs'>The foundational reference explaining how sewer gases are produced, how the vent and trap system is designed to contain them, and why failures in that containment system cause indoor smell.</p>
+            </Link>
+          </div>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/musty-basement-smell' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Musty Basement Smell</h4>
+              <p className='text-slate-600 text-xs'>For homes where the indoor septic smell is localized to the basement, this guide helps distinguish between a septic gas source and a mold or moisture source, which present similarly but require completely different fixes.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/best-basement-air-purifiers' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Best Basement Air Purifiers</h4>
+              <p className='text-slate-600 text-xs'>Supplemental air quality options for below-grade spaces where a septic odor source is being actively repaired but residual odor remains while the repair is in progress.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/how-to-prevent-basement-mold' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>How to Prevent Basement Mold</h4>
+              <p className='text-slate-600 text-xs'>Homes addressing an ejector pump seal failure or P-trap issue in the basement often discover concurrent moisture problems. This guide covers below-grade moisture control alongside the odor repair.</p>
+            </a>
+          </div>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6'>
+            <a href='https://wwwn.cdc.gov/TSP/ToxFAQs/ToxFAQsDetails.aspx?faqid=388&toxid=67' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>ATSDR Hydrogen Sulfide ToxFAQs</h4>
+              <p className='text-slate-600 text-xs'>The Agency for Toxic Substances and Disease Registry&apos;s complete toxicological profile for hydrogen sulfide, including health effects by concentration level, exposure guidelines, and emergency response information.</p>
+            </a>
           </div>
         </div>
 
