@@ -453,25 +453,81 @@ export default function BuyingHomeWithSepticPage() {
         </section>
 
                 {/* Related Guides */}
-        <section className="mb-12">
+                <section className="mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Related Guides</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/articles/complete-septic-guide" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900">The Complete Guide to Septic Systems</h3>
-              <p className="text-slate-600 text-sm mt-1">How they work, types, and what every homeowner needs to know.</p>
+          <h3 className="text-lg font-semibold text-slate-800 mb-4">On theseptic.guide</h3>
+          <div className="grid md:grid-cols-2 gap-4 mb-8">
+            <Link href="/cost-guides/septic-inspection-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Septic Inspection Cost</h4>
+              <p className="text-slate-600 text-sm mt-1">Every inspection type priced out, what each level includes, what to insist on for a home purchase, and the hidden fees that inflate quotes.</p>
             </Link>
-            <Link href="/articles/what-can-cannot-flush-septic-system" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900">What You Can and Cannot Flush</h3>
-              <p className="text-slate-600 text-sm mt-1">The complete list of safe and unsafe items for your septic system.</p>
+            <Link href="/guides/selling-home-with-septic" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Selling a Home with a Septic System</h4>
+              <p className="text-slate-600 text-sm mt-1">The seller&apos;s counterpart to this guide covering pre-listing inspections, disclosure requirements, and how a well-documented system protects your asking price.</p>
             </Link>
-            <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900">How Often Should You Pump Your Septic Tank?</h3>
-              <p className="text-slate-600 text-sm mt-1">Find your exact pumping schedule by tank and household size.</p>
+            <Link href="/cost-guides/drainfield-replacement-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Drainfield Replacement Cost</h4>
+              <p className="text-slate-600 text-sm mt-1">The most expensive outcome of a failed pre-purchase inspection, with a full cost breakdown by system type and what drives the price from $5,000 to $20,000.</p>
+            </Link>
+            <Link href="/cost-guides/septic-system-repair-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Septic System Repair Cost</h4>
+              <p className="text-slate-600 text-sm mt-1">Every repair priced out from a $50 filter cleaning to a $15,000 drainfield replacement so you can evaluate inspection findings against realistic repair costs before negotiating.</p>
             </Link>
             <Link href="/cost-guides/septic-system-installation-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-slate-900">Septic System Installation Cost 2026</h3>
-              <p className="text-slate-600 text-sm mt-1">Complete price breakdown by system type, tank material, and more.</p>
+              <h4 className="font-bold text-slate-900">Septic System Installation Cost 2026</h4>
+              <p className="text-slate-600 text-sm mt-1">Full cost breakdown for new and replacement systems by type, relevant when an inspection reveals the system needs full replacement before or after closing.</p>
             </Link>
+            <Link href="/articles/signs-drainfield-is-failing" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Signs Your Drainfield Is Failing</h4>
+              <p className="text-slate-600 text-sm mt-1">The warning sign progression to look for during house tours and inspections, from earliest symptoms to complete failure.</p>
+            </Link>
+            <Link href="/articles/how-often-pump-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">How Often Should You Pump Your Septic Tank?</h4>
+              <p className="text-slate-600 text-sm mt-1">The pumping schedule you will need to follow as a new septic homeowner, by tank size and household size.</p>
+            </Link>
+            <Link href="/cost-guides/septic-tank-pumping-cost" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Septic Tank Pumping Cost 2026</h4>
+              <p className="text-slate-600 text-sm mt-1">What to budget for routine maintenance after closing, with real pricing by tank size and region.</p>
+            </Link>
+            <Link href="/articles/complete-septic-guide" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Complete Septic System Guide</h4>
+              <p className="text-slate-600 text-sm mt-1">How every component of the system works, what each one costs to repair or replace, and what responsible ownership looks like from day one.</p>
+            </Link>
+            <Link href="/articles/does-insurance-cover-septic" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Does Insurance Cover Septic Repair and Replacement?</h4>
+              <p className="text-slate-600 text-sm mt-1">Why most septic repairs are out-of-pocket expenses and what optional coverage is worth adding to your homeowners policy after closing.</p>
+            </Link>
+            <Link href="/articles/septic-system-maintenance-checklist" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Septic System Maintenance Checklist</h4>
+              <p className="text-slate-600 text-sm mt-1">The complete ongoing maintenance schedule to follow as a new septic homeowner to protect the system you just purchased.</p>
+            </Link>
+            <Link href="/articles/how-to-find-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">How to Find Your Septic Tank</h4>
+              <p className="text-slate-600 text-sm mt-1">Step-by-step instructions for locating the tank, distribution box, and drainfield boundaries on your new property if the seller cannot provide an as-built drawing.</p>
+            </Link>
+            <Link href="/articles/septic-tank-size-guide" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Septic Tank Size Guide</h4>
+              <p className="text-slate-600 text-sm mt-1">How to confirm the tank is correctly sized for the number of bedrooms in the home you are purchasing and what undersizing means for maintenance costs.</p>
+            </Link>
+            <Link href="/articles/what-can-cannot-flush-septic-system" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">What You Can and Cannot Flush</h4>
+              <p className="text-slate-600 text-sm mt-1">The household rules every new septic homeowner needs to know on day one to protect the system from the most common and preventable causes of failure.</p>
+            </Link>
+            <Link href="/articles/best-septic-tank-risers" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Best Septic Tank Risers</h4>
+              <p className="text-slate-600 text-sm mt-1">The first upgrade worth making after closing if the tank lids are buried, eliminating excavation fees at every future service visit.</p>
+            </Link>
+          </div>
+          <h3 className="text-lg font-semibold text-slate-800 mb-4">From Our Network</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="https://thebasement.guide/articles/does-homeowners-insurance-cover-basement-flooding" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Does Homeowners Insurance Cover Basement Flooding?</h4>
+              <p className="text-slate-600 text-sm mt-1">For homebuyers purchasing a home with both a septic system and a basement, this guide covers the insurance gaps that exist for both systems and how to close them.</p>
+            </a>
+            <a href="https://thebasement.guide/articles/best-sump-pumps" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+              <h4 className="font-bold text-slate-900">Best Sump Pumps 2026</h4>
+              <p className="text-slate-600 text-sm mt-1">Homes with septic systems often also have sump pumps managing groundwater. Reviewed and ranked options for homeowners managing both systems after closing.</p>
+            </a>
           </div>
         </section>
 
