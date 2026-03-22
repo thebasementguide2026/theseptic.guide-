@@ -148,6 +148,92 @@ export default function HowToFindYourSepticTank() {
           </p>
         </div>
 
+        {/* Which Method Should I Use? */}
+        <div className='mt-16'>
+          <h2 className='text-3xl font-black text-slate-900 mb-4'>Which Method Should I Use?</h2>
+          <p className='text-slate-600 leading-relaxed mb-6'>Match your situation to the fastest and most reliable starting point:</p>
+          <div className='overflow-x-auto mb-8'>
+            <table className='w-full border-collapse'>
+              <thead>
+                <tr className='bg-slate-900 text-white'>
+                  <th className='text-left p-4 font-bold'>Your Situation</th>
+                  <th className='text-left p-4 font-bold'>Best Starting Method</th>
+                  <th className='text-left p-4 font-bold'>Time Required</th>
+                  <th className='text-left p-4 font-bold'>Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Just bought a home, have inspection report</td>
+                  <td className='p-4 text-slate-700'>Method 1 &mdash; Check records</td>
+                  <td className='p-4 text-slate-700'>5 minutes</td>
+                  <td className='p-4 text-slate-700'>Free</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>New homeowner, no inspection report</td>
+                  <td className='p-4 text-slate-700'>Method 1 &mdash; Call county health department</td>
+                  <td className='p-4 text-slate-700'>15 minutes</td>
+                  <td className='p-4 text-slate-700'>Free</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Have rough idea where tank is, want to confirm</td>
+                  <td className='p-4 text-slate-700'>Method 2 &mdash; Follow sewer line and probe</td>
+                  <td className='p-4 text-slate-700'>15 to 30 minutes</td>
+                  <td className='p-4 text-slate-700'>$15 to $30 for probe</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>No idea where tank is, no records available</td>
+                  <td className='p-4 text-slate-700'>Method 2 &mdash; Follow sewer line from house</td>
+                  <td className='p-4 text-slate-700'>15 to 30 minutes</td>
+                  <td className='p-4 text-slate-700'>$15 to $30 for probe</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Yard has obvious visual clues (green grass, depression)</td>
+                  <td className='p-4 text-slate-700'>Method 3 &mdash; Visual inspection first</td>
+                  <td className='p-4 text-slate-700'>10 minutes</td>
+                  <td className='p-4 text-slate-700'>Free</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Concrete tank installed before 1990</td>
+                  <td className='p-4 text-slate-700'>Method 4 &mdash; Metal detector</td>
+                  <td className='p-4 text-slate-700'>30 minutes</td>
+                  <td className='p-4 text-slate-700'>$0 if borrowed, $20 to $50 to rent</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Plastic or fiberglass tank, no records</td>
+                  <td className='p-4 text-slate-700'>Method 2 &mdash; Soil probe (metal detector won&apos;t work)</td>
+                  <td className='p-4 text-slate-700'>15 to 30 minutes</td>
+                  <td className='p-4 text-slate-700'>$15 to $30 for probe</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>All DIY methods failed</td>
+                  <td className='p-4 text-slate-700'>Method 5 &mdash; Professional locate</td>
+                  <td className='p-4 text-slate-700'>30 to 60 minutes</td>
+                  <td className='p-4 text-slate-700'>$100 to $400</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Need tank located and pumped at same visit</td>
+                  <td className='p-4 text-slate-700'>Method 5 &mdash; Call pumping company</td>
+                  <td className='p-4 text-slate-700'>1 to 2 hours</td>
+                  <td className='p-4 text-slate-700'>Included in pump-out</td>
+                </tr>
+                <tr className='border-b border-slate-200 bg-slate-50'>
+                  <td className='p-4 text-slate-700'>Planning construction or landscaping near system</td>
+                  <td className='p-4 text-slate-700'>Method 1 first, Method 5 if needed</td>
+                  <td className='p-4 text-slate-700'>Varies</td>
+                  <td className='p-4 text-slate-700'>Free to $400</td>
+                </tr>
+                <tr className='border-b border-slate-200'>
+                  <td className='p-4 text-slate-700'>Preparing home for sale, need documentation</td>
+                  <td className='p-4 text-slate-700'>Method 1 &mdash; Get official as-built drawing</td>
+                  <td className='p-4 text-slate-700'>15 minutes</td>
+                  <td className='p-4 text-slate-700'>Free to $50</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* Method 1 */}
         <div className='mt-16'>
           <h2 className='text-3xl font-black text-slate-900 mb-2'>Method 1: Check Your Records</h2>
