@@ -165,6 +165,8 @@ export default function SepticSystemWinterCare() {
 
       <article className='max-w-4xl mx-auto px-4 py-16'>
 
+        <p className='text-slate-700 leading-relaxed mb-12 text-sm'>Septic system winter care is the set of preventive measures, seasonal maintenance tasks, and emergency response steps that protect a residential septic tank, connecting pipes, and drainfield from damage caused by freezing temperatures, frost heave, snow compaction, reduced bacterial activity, and power outages during cold weather months. A conventional septic system buried below the local frost line operates year-round without special attention in most climates, but systems with shallow components, infrequently used vacation properties, systems serving vacant homes, and any installation in a climate with sustained temperatures below zero are all vulnerable to partial or complete freezing that can cause expensive pipe damage, drainfield disruption, and emergency pump-outs. Prevention through fall insulation, timely pumping, leak repair, and proper snow management costs $50 to $500 and protects against freeze events that cost $200 to $500 to thaw professionally and $5,000 to $15,000 if drainfield damage results. Spring recovery after a cold season requires checking for frost heave damage, removing protective mulch, and scheduling an inspection if any warning signs appeared during winter.</p>
+
         {/* Intro */}
         <section className='mb-16'>
           <h2 className='text-3xl font-bold text-slate-800 mb-6'>Why Winter Is the Most Dangerous Season for Septic Systems</h2>
