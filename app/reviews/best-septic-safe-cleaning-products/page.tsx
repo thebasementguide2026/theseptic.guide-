@@ -594,37 +594,84 @@ export default function BestSepticSafeCleaningProducts() {
             </div>
           </section>
 
-          {/* Related Articles */}
+          {/* Related Guides */}
           <section className='mb-16'>
-            <h2 className='text-3xl font-bold text-slate-800 mb-6'>Related Articles</h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-              <Link href='/reviews/best-drain-cleaners-for-septic' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
-                <div className='relative h-48'>
-                  <Image src='/Drain cleaners (septic) .jpg' alt='Best Drain Cleaners for Septic Systems' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
-                </div>
-                <div className='p-4'>
-                  <p className='text-amber-600 text-sm font-semibold mb-1'>Review</p>
-                  <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Best Drain Cleaners for Septic Systems (2026)</h3>
-                </div>
+            <h2 className='text-3xl font-bold text-slate-800 mb-6'>Related Guides</h2>
+
+            <h3 className='text-lg font-semibold text-slate-900 mb-4'>On theseptic.guide</h3>
+            <div className='grid md:grid-cols-2 gap-6 mb-10'>
+              <Link href='/reviews/best-septic-safe-laundry-detergent' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Best Septic-Safe Laundry Detergent 2026</span>
+                <p className='text-slate-600 text-sm mt-1'>The companion review covering the laundry side of household chemical management, including which detergent ingredients are most harmful to septic systems and the top-rated plant-based alternatives.</p>
               </Link>
-              <Link href='/reviews/best-septic-safe-laundry-detergent' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
-                <div className='relative h-48'>
-                  <Image src='/septiclaundry.jpg' alt='Best Septic-Safe Laundry Detergent' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
-                </div>
-                <div className='p-4'>
-                  <p className='text-amber-600 text-sm font-semibold mb-1'>Review</p>
-                  <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Best Septic-Safe Laundry Detergent (2026)</h3>
-                </div>
+              <Link href='/reviews/best-drain-cleaners-for-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Best Drain Cleaners for Septic Systems 2026</span>
+                <p className='text-slate-600 text-sm mt-1'>The complete review of enzymatic and bacterial drain cleaners that clear slow drains without the lye or sulfuric acid that destroys septic tank bacteria on contact.</p>
               </Link>
-              <Link href='/reviews/best-septic-tank-treatments' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
-                <div className='relative h-48'>
-                  <Image src='/septictanktreatments.jpg' alt='Best Septic Tank Treatments' fill className='object-cover group-hover:scale-105 transition-transform duration-300' />
-                </div>
-                <div className='p-4'>
-                  <p className='text-amber-600 text-sm font-semibold mb-1'>Review</p>
-                  <h3 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors'>Best Septic Tank Treatments (2026)</h3>
-                </div>
+              <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Best Septic Tank Treatments 2026</span>
+                <p className='text-slate-600 text-sm mt-1'>Honest reviews of bacterial and enzyme additives, including why most are unnecessary in a tank that has not been exposed to chronic chemical damage from non-septic-safe cleaners.</p>
               </Link>
+              <Link href='/articles/what-can-cannot-flush-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>What You Can and Cannot Flush on a Septic System</span>
+                <p className='text-slate-600 text-sm mt-1'>The complete household product guide covering every drain and toilet, including wipes, medications, and personal care products that should never enter a septic system regardless of labeling.</p>
+              </Link>
+              <Link href='/guides/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Septic System Dos and Don&apos;ts</span>
+                <p className='text-slate-600 text-sm mt-1'>Every rule that protects a septic system from household chemical damage, including the full list of products to avoid and the practices that extend system lifespan without additional cost.</p>
+              </Link>
+              <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Septic System Maintenance Checklist</span>
+                <p className='text-slate-600 text-sm mt-1'>The complete maintenance schedule for septic homeowners, including the household product audit that should accompany any new septic ownership.</p>
+              </Link>
+              <Link href='/articles/how-long-does-a-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>How Long Does a Septic System Last?</span>
+                <p className='text-slate-600 text-sm mt-1'>How chronic exposure to non-septic-safe cleaning products accelerates bacterial suppression and shortens system lifespan, alongside the maintenance practices that extend it.</p>
+              </Link>
+              <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Signs Your Drainfield Is Failing</span>
+                <p className='text-slate-600 text-sm mt-1'>The warning signs that bacterial suppression from cleaning product damage has progressed to the point where solids are reaching the drainfield.</p>
+              </Link>
+              <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Drainfield Replacement Cost 2026</span>
+                <p className='text-slate-600 text-sm mt-1'>The $5,000 to $15,000 consequence of long-term bacterial suppression from household chemical misuse, priced out by system type and site conditions.</p>
+              </Link>
+              <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>How Often Should You Pump Your Septic Tank?</span>
+                <p className='text-slate-600 text-sm mt-1'>How a suppressed bacterial colony from chemical damage causes sludge to accumulate faster, shortening the pumping interval and increasing lifetime maintenance costs.</p>
+              </Link>
+              <Link href='/guides/garbage-disposal-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Garbage Disposal and Septic Systems</span>
+                <p className='text-slate-600 text-sm mt-1'>The other major household practice that increases the solid load entering the tank, relevant for homeowners auditing all the ways their daily habits affect system health.</p>
+              </Link>
+              <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Buying a Home with a Septic System</span>
+                <p className='text-slate-600 text-sm mt-1'>How to assess whether a previous owner&apos;s cleaning product habits have affected the tank&apos;s bacterial health, and what to look for during inspection.</p>
+              </Link>
+              <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Complete Septic System Guide</span>
+                <p className='text-slate-600 text-sm mt-1'>The foundational reference explaining how anaerobic bacteria function, why they are sensitive to chemical disruption, and how every component of the system depends on a healthy bacterial population.</p>
+              </Link>
+            </div>
+
+            <h3 className='text-lg font-semibold text-slate-900 mb-4'>From Our Network</h3>
+            <div className='grid md:grid-cols-2 gap-6 mb-10'>
+              <a href='https://thebasement.guide/articles/best-basement-air-purifiers' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>Best Basement Air Purifiers</span>
+                <p className='text-slate-600 text-sm mt-1'>For homes where cleaning product fumes accumulate in below-grade spaces, this guide covers air purification options for basements and utility rooms where septic-adjacent cleaning tasks often happen.</p>
+              </a>
+              <a href='https://thebasement.guide/articles/how-to-prevent-basement-mold' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>How to Prevent Basement Mold</span>
+                <p className='text-slate-600 text-sm mt-1'>Households switching to septic-safe cleaning products sometimes ask what to use for mold treatment in below-grade spaces. This guide covers mold prevention and treatment options that are safe for both the basement environment and the septic system.</p>
+              </a>
+            </div>
+
+            <h3 className='text-lg font-semibold text-slate-900 mb-4'>External Resource</h3>
+            <div className='grid md:grid-cols-2 gap-6 mb-10'>
+              <a href='https://www.epa.gov/saferchoice/products' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <span className='text-amber-700 font-semibold hover:text-amber-800'>EPA Safer Choice Product Search</span>
+                <p className='text-slate-600 text-sm mt-1'>The EPA&apos;s searchable database of all currently certified Safer Choice products, allowing homeowners to verify certification status and find certified alternatives in any cleaning product category.</p>
+              </a>
             </div>
           </section>
 
