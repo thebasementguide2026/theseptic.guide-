@@ -467,24 +467,100 @@ export default function SepticOverflowAfterRain() {
 
         {/* Related Guides */}
         <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Smell in Your Yard</h3>
-              <p className='text-slate-600 text-xs'>8 causes of outdoor septic odor and the specific fix for each one.</p>
-            </Link>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+          <p className='text-slate-700 text-sm mb-6'>Guides and resources related to diagnosing and preventing septic overflow after rain.</p>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
             <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
-              <p className='text-slate-600 text-xs'>Warning signs, causes, and what to do when your drainfield is struggling.</p>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>How to distinguish temporary rain-related drainfield saturation from permanent drainfield failure, and what the progression looks like from early stress indicators through full system failure.</p>
             </Link>
             <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up?</h3>
-              <p className='text-slate-600 text-xs'>Causes, emergency steps, and how to fix and prevent backups.</p>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Tank Backing Up</h4>
+              <p className='text-slate-600 text-xs'>What to do when rain-related overflow has progressed to active sewage backup inside the home, including the immediate emergency steps and when to call for professional service.</p>
+            </Link>
+            <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Smell in the Yard</h4>
+              <p className='text-slate-600 text-xs'>The companion problem guide covering outdoor septic odor that often accompanies surface overflow, particularly when effluent is surfacing over a saturated drainfield.</p>
+            </Link>
+            <Link href='/problems/septic-smell-inside-house' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Smell Inside the House</h4>
+              <p className='text-slate-600 text-xs'>How drainfield saturation and stormwater inflow push gases backward through the plumbing system into the home, and the 10-cause diagnostic guide for tracing the indoor smell to its source.</p>
+            </Link>
+            <Link href='/problems/slow-drains' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Slow Drains on a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How a partially saturated or failing drainfield causes whole-house slow drainage during and after rain events, and how to determine whether the cause is upstream in the plumbing or downstream in the drainfield.</p>
             </Link>
             <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>How Often Should You Pump Your Septic Tank?</h4>
+              <p className='text-slate-600 text-xs'>Pumping intervals by tank size and household size, and why a tank pumped on schedule has the reserve capacity to handle rain-related drainfield stress without overflowing.</p>
             </Link>
+            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Tank Pumping Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a pump-out costs by tank size and region, the most important preventive investment for avoiding rain-related overflow in a system that is approaching its normal pumping interval.</p>
+            </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Drainfield Replacement Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Full pricing for conventional, mound, and alternative drainfield replacement when rain-related overflow confirms a drainfield has failed rather than temporarily saturated.</p>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic System Repair Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Complete pricing for every repair type that rain events commonly expose, including D-box repair, pipe replacement, tank sealing, and drainfield rejuvenation.</p>
+            </Link>
+            <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Inspection Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a professional inspection covers and costs when rain-related overflow persists beyond 7 days of dry weather and a system-level diagnosis is needed.</p>
+            </Link>
+            <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic System Maintenance Checklist</h4>
+              <p className='text-slate-600 text-xs'>The full prevention schedule including pumping intervals, effluent filter cleaning, tank lid inspection, and the stormwater disconnection audit that eliminates the most common rain overflow cause.</p>
+            </Link>
+            <Link href='/articles/how-to-find-your-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>How to Find Your Septic Tank</h4>
+              <p className='text-slate-600 text-xs'>How to locate your tank, risers, and distribution box so you can inspect them for groundwater infiltration points before the next rain event.</p>
+            </Link>
+            <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Does Insurance Cover Septic Repair?</h4>
+              <p className='text-slate-600 text-xs'>What homeowners insurance covers when rain-related overflow causes sewage backup damage inside the home, and what riders or add-ons provide coverage that standard policies exclude.</p>
+            </Link>
+            <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Buying a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How to evaluate a property&apos;s rain overflow history during due diligence, including what questions to ask about stormwater drainage, drainfield condition, and previous overflow events.</p>
+            </Link>
+            <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Aerobic vs Anaerobic Septic Systems</h4>
+              <p className='text-slate-600 text-xs'>How aerobic treatment units handle high water table and drainage-challenged sites differently from conventional anaerobic systems, relevant when drainfield replacement is being evaluated after chronic rain overflow.</p>
+            </Link>
+            <Link href='/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Concrete vs Plastic vs Fiberglass Septic Tanks</h4>
+              <p className='text-slate-600 text-xs'>How tank material affects flotation risk during saturated soil conditions, and why concrete tanks are the safest choice on properties with high water tables or chronic flooding.</p>
+            </Link>
+          </div>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Best Sump Pumps 2026</h4>
+              <p className='text-slate-600 text-xs'>For homes where a sump pump discharge is currently connected to the septic system and contributing to rain-related overflow, this guide covers proper sump pump routing and discharge options that protect the septic system.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/basement-flooding-insurance' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Does Homeowners Insurance Cover Basement Flooding?</h4>
+              <p className='text-slate-600 text-xs'>Rain events that overwhelm the septic system often coincide with basement flooding from the same storm. This guide covers what insurance covers for basement water damage alongside the septic overflow event.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/basement-emergency-water-plan' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Basement Emergency Water Plan</h4>
+              <p className='text-slate-600 text-xs'>For homes where rain-related septic overflow has caused sewage to back up into the basement, this guide covers the immediate response steps for below-grade water and sewage intrusion events.</p>
+            </a>
+          </div>
+          <h3 className='text-lg font-bold text-slate-900 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6'>
+            <a href='https://www.epa.gov/septic/septic-systems-what-do-after-flood' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>EPA Septic System Flooding Guidance</h4>
+              <p className='text-slate-600 text-xs'>The EPA&apos;s official guidance on protecting and recovering a septic system after a flood or heavy rain event, including the specific warning against pumping during saturated conditions and steps for post-flood inspection and recovery.</p>
+            </a>
           </div>
         </div>
 
