@@ -122,6 +122,9 @@ export default function ConcreteVsPlasticVsFiberglass() {
           <p className='text-slate-700 leading-relaxed text-sm mb-4'>Concrete septic tanks cost $800 to $2,000, last 40+ years, and are the most durable option. Plastic tanks cost $500 to $1,200, last 30 to 40 years, and are the easiest to install. Fiberglass tanks cost $1,200 to $2,000, last 30 to 40 years, and offer the best balance of weight and durability.</p>
           <p className='text-slate-700 leading-relaxed text-sm mb-4'>For most residential installations, concrete is the best overall choice. For difficult-access sites or DIY-friendly installs, plastic is the most practical.</p>
           <p className='text-slate-700 leading-relaxed text-sm'>That&apos;s the summary. The rest of this guide breaks down exactly why each material works, where it fails, and which one is right for your specific property and soil conditions.</p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-12 mt-8'>
+            Septic tank material selection is the decision of which structural material (concrete, polyethylene plastic, or fiberglass) will be used to manufacture the buried tank that holds and begins treating a home&apos;s wastewater. All three materials perform the same function: they receive raw sewage from the home, hold it long enough for solids to separate from liquids, and pass clarified effluent to the drainfield. The material choice affects the tank&apos;s weight, structural durability, corrosion resistance, installation requirements, and susceptibility to flotation in high water table conditions, but it does not affect how the septic system treats waste or how often it needs to be pumped. The right material for a given property is determined primarily by three factors: water table level, site access for installation equipment, and local health department code requirements.
+          </p>
         </div>
 
         {/* Side-by-Side Comparison Table */}
