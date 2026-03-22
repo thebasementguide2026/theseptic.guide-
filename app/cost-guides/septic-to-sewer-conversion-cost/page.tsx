@@ -464,6 +464,35 @@ export default function SepticToSewerConversionCostPage() {
           </div>
         </div>
 
+        {/* Should You Convert? Decision Guide */}
+        <div className="mb-16">
+          <div className="flex items-center space-x-3 mb-4">
+            <span className="text-amber-700 font-bold tracking-[0.3em] text-xs uppercase">Decision Guide</span>
+            <div className="flex-1 h-px bg-slate-200"></div>
+          </div>
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Should You Convert? Decision Guide</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead><tr className="bg-slate-800 text-white"><th className="px-4 py-3 text-left font-semibold">Your Situation</th><th className="px-4 py-3 text-left font-semibold">Recommendation</th><th className="px-4 py-3 text-left font-semibold">Reason</th></tr></thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Drainfield has failed, replacement cost $10,000 to $20,000</td><td className="px-4 py-3 text-slate-600">Convert if sewer is available</td><td className="px-4 py-3 text-slate-600">Conversion costs similar amount and eliminates all future septic risk</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Septic system healthy, 10+ years of life remaining</td><td className="px-4 py-3 text-slate-600">Stay on septic</td><td className="px-4 py-3 text-slate-600">20-year sewer cost exceeds 20-year septic maintenance cost in most cases</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Municipality mandating connection within 1 to 3 years</td><td className="px-4 py-3 text-slate-600">Convert now</td><td className="px-4 py-3 text-slate-600">Mandatory &mdash; budget early and apply for assistance programs before deadlines</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Sewer available but connection is voluntary, system is aging</td><td className="px-4 py-3 text-slate-600">Convert if system is within 5 years of end of life</td><td className="px-4 py-3 text-slate-600">Avoid paying for major septic repairs on a system you will abandon shortly anyway</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Selling home in market where buyers prefer sewer</td><td className="px-4 py-3 text-slate-600">Convert before listing if sewer connection is close</td><td className="px-4 py-3 text-slate-600">Can add $5,000 to $15,000 to sale price in sewer-preferred markets</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Selling home, sewer main 200+ feet away</td><td className="px-4 py-3 text-slate-600">Stay on septic, disclose and document</td><td className="px-4 py-3 text-slate-600">High connection cost unlikely to be recovered in sale price</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">System recently installed or replaced</td><td className="px-4 py-3 text-slate-600">Stay on septic</td><td className="px-4 py-3 text-slate-600">No financial justification for conversion with a new system</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Environmental regulations tightening in your area</td><td className="px-4 py-3 text-slate-600">Evaluate conversion timeline and available grants</td><td className="px-4 py-3 text-slate-600">Proactive conversion may qualify for grant funding; waiting may mean higher mandatory cost later</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Home below elevation of sewer main</td><td className="px-4 py-3 text-slate-600">Get grinder pump cost before deciding</td><td className="px-4 py-3 text-slate-600">Grinder pump adds $1,500 to $5,000 and ongoing maintenance &mdash; factor into 20-year comparison</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Sewer main more than 200 feet away</td><td className="px-4 py-3 text-slate-600">Stay on septic unless mandated</td><td className="px-4 py-3 text-slate-600">High per-foot installation cost makes voluntary conversion difficult to justify financially</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Septic system at end of life (25 to 30 years old)</td><td className="px-4 py-3 text-slate-600">Strong convert candidate</td><td className="px-4 py-3 text-slate-600">Avoid full replacement cost ($7,000 to $20,000) by converting instead</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">BMAP zone or Chesapeake Bay watershed</td><td className="px-4 py-3 text-slate-600">Convert and apply for grant funding immediately</td><td className="px-4 py-3 text-slate-600">Mandatory conversion likely on the horizon; grant programs cover 50 to 85 percent of costs</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Rural area, no property value benefit from sewer</td><td className="px-4 py-3 text-slate-600">Stay on septic</td><td className="px-4 py-3 text-slate-600">Monthly sewer bills add cost with no offsetting property value increase in rural markets</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* FAQ */}
         <div className="mb-16">
           <div className="flex items-center space-x-3 mb-4">
