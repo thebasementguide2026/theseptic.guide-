@@ -531,25 +531,91 @@ export default function ConcreteVsPlasticVsFiberglass() {
         </div>
 
         {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
+        <div className='border-t border-slate-100 pt-16 mt-16 mb-16'>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
             <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost</h3>
-              <p className='text-slate-600 text-xs'>Complete price breakdown by system type, tank material, and components.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Complete price breakdown by system type, tank material, and all components, including how concrete, plastic, and fiberglass tank costs compare when total installed cost is calculated rather than tank price alone.</p>
             </Link>
             <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>The Complete Guide to Septic Systems</h3>
-              <p className='text-slate-600 text-xs'>How septic systems work, the different types, and what every homeowner needs to know.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h4>
+              <p className='text-slate-600 text-xs'>The foundational reference covering how septic systems work, what each component does, and what every homeowner needs to know before making any tank or system decision.</p>
+            </Link>
+            <Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h4>
+              <p className='text-slate-600 text-xs'>How to determine the correct tank capacity for your household, and how tank size interacts with material choice when selecting a replacement or new installation tank.</p>
             </Link>
             <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>How Often to Pump Your Septic Tank</h3>
-              <p className='text-slate-600 text-xs'>EPA-based pumping schedule by tank size and household size.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h4>
+              <p className='text-slate-600 text-xs'>Pumping intervals by tank size and household size, and why consistent pumping is the single most important factor in reaching the full lifespan of any tank material.</p>
             </Link>
-            <Link href='/reviews/best-septic-tank-treatments' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Treatments</h3>
-              <p className='text-slate-600 text-xs'>Honest reviews of bacterial and enzyme treatments that actually work.</p>
+            <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What pump-outs cost by tank size and region, relevant for calculating the 20-year maintenance cost of any tank material choice.</p>
             </Link>
+            <Link href='/articles/how-long-does-a-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last?</h4>
+              <p className='text-slate-600 text-xs'>Expected lifespan by system type and component, including how tank material affects the overall system lifespan and what typically fails first in each material type.</p>
+            </Link>
+            <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Aerobic vs Anaerobic Septic Systems</h4>
+              <p className='text-slate-600 text-xs'>How tank material selection differs between conventional anaerobic systems and aerobic treatment units, which often use fiberglass or plastic pre-treatment chambers rather than standard concrete tanks.</p>
+            </Link>
+            <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Full pricing for tank repairs by type, including concrete crack sealing, baffle replacement, and full tank replacement costs for all three materials.</p>
+            </Link>
+            <Link href='/articles/how-to-find-your-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How to Find Your Septic Tank</h4>
+              <p className='text-slate-600 text-xs'>Methods for locating your buried tank to determine its material and condition, particularly useful when buying a home with unknown tank history.</p>
+            </Link>
+            <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How to evaluate tank material, age, and condition before closing, including what a steel tank discovery means for your negotiating position and timeline.</p>
+            </Link>
+            <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How tank material and age factor into pre-listing inspection results and buyer negotiations, including when tank replacement before listing makes financial sense.</p>
+            </Link>
+            <Link href='/cost-guides/septic-inspection-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What a full septic inspection covers by material type, including how inspectors evaluate concrete tanks for interior corrosion and plastic tanks for deformation and joint separation.</p>
+            </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What drainfield replacement costs when a failed or leaking tank has allowed solids to reach and clog the drainfield, the most expensive consequence of delayed tank replacement.</p>
+            </Link>
+            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>How a deteriorating tank of any material contributes to drainfield failure by allowing partially settled effluent or solids to reach the drainfield before adequate treatment.</p>
+            </Link>
+            <Link href='/reviews/best-septic-tank-risers' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic Tank Risers</h4>
+              <p className='text-slate-600 text-xs'>Riser compatibility by tank material, including which risers work with concrete lids versus plastic tank access ports and how to bring any tank type to ground level for easier service access.</p>
+            </Link>
+          </div>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h4>
+              <p className='text-slate-600 text-xs'>For properties where high water table conditions are driving the tank material decision, this guide covers below-grade water management options that reduce hydrostatic pressure and flotation risk for any tank type.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/basement-flooding-insurance' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Does Homeowners Insurance Cover Basement Flooding?</h4>
+              <p className='text-slate-600 text-xs'>Homes with failing or leaking septic tanks sometimes experience sewage backup into below-grade spaces. This guide covers how insurance treats water and sewage damage in basements alongside the tank replacement decision.</p>
+            </a>
+          </div>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6'>
+            <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>EPA Septic System Maintenance Guidance</h4>
+              <p className='text-slate-600 text-xs'>The EPA&apos;s official residential septic system guidance covering maintenance schedules, pumping recommendations, and system care practices that apply to all three tank material types.</p>
+            </a>
           </div>
         </div>
 
