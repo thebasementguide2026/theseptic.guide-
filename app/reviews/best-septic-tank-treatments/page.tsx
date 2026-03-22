@@ -305,6 +305,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Homeowners who recently purchased a home with a neglected septic system, or anyone restarting bacterial health after heavy chemical use or a complete pump-out. Bio-Clean is also favored by septic professionals for systems that need aggressive biological restoration.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Bio-Clean costs more upfront than Rid-X or Green Gobbler, but the concentrated formula means you&apos;re getting more active bacteria per dollar. The powder must be mixed with warm (not hot) water before application. Hot water kills the bacteria.</p>
               <a href='https://amzn.to/4brTi0w' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <p className='text-slate-700 text-sm mt-4'>For homeowners specifically researching products to reduce sludge accumulation, see our dedicated guide: <Link href='/reviews/best-septic-tank-sludge-dissolver' className='text-amber-700 underline hover:text-amber-800'>Best Septic Tank Sludge Dissolver 2026</Link>.</p>
             </div>
 
             {/* Cabin Obsession */}
