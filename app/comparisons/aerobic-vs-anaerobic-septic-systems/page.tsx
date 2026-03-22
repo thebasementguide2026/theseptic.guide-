@@ -603,25 +603,95 @@ export default function AerobicVsAnaerobicArticle() {
         </div>
 
                 {/* Related Guides */}
-        <div className='mb-16'>
-          <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
+        <div className='border-t border-slate-100 pt-16 mt-16 mb-16'>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>On theseptic.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h4>
+              <p className='text-slate-600 text-xs'>The foundational reference covering how both anaerobic and aerobic septic systems work, how each component functions, and what every homeowner needs to know before making any system decision.</p>
+            </Link>
             <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Complete price breakdown by system type, materials, and hidden costs.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Full price breakdown for new system installation by type, including conventional anaerobic systems, aerobic treatment units, mound systems, and alternative technologies.</p>
             </Link>
             <Link href='/cost-guides/septic-system-repair-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>Every repair priced out, from filter cleaning to drainfield replacement.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Repair Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Every repair type priced out for both anaerobic and aerobic systems, including compressor replacement, pump replacement, drainfield repair, and spray head servicing.</p>
+            </Link>
+            <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h4>
+              <p className='text-slate-600 text-xs'>The full maintenance schedule for both system types, including what a licensed aerobic service visit covers, what anaerobic pumping visits should include, and how often each task needs to be done.</p>
+            </Link>
+            <Link href='/articles/how-often-pump-septic-tank' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Often Should You Pump Your Septic Tank?</h4>
+              <p className='text-slate-600 text-xs'>Pumping intervals by tank size and household size for anaerobic systems, and how aerobic system service schedules differ from conventional pumping schedules.</p>
             </Link>
             <Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h3>
-              <p className='text-slate-600 text-xs'>What pumping actually costs by tank size, region, and hidden fees.</p>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>What anaerobic system pump-outs cost by tank size and region, and how aerobic system service contract costs compare to conventional pumping costs over time.</p>
             </Link>
-            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
-              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
-              <p className='text-slate-600 text-xs'>How your system works, types, maintenance, and warning signs.</p>
+            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h4>
+              <p className='text-slate-600 text-xs'>Warning signs that apply to both system types, and how drainfield failure in an aerobic system differs from failure in a conventional anaerobic system.</p>
             </Link>
+            <Link href='/cost-guides/drainfield-replacement-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Drainfield Replacement Cost 2026</h4>
+              <p className='text-slate-600 text-xs'>Replacement costs for conventional, mound, and alternative drainfield configurations used with both system types.</p>
+            </Link>
+            <Link href='/reviews/best-septic-system-alarms' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Septic System Alarms</h4>
+              <p className='text-slate-600 text-xs'>Monitoring options for aerobic systems, including alarms that alert homeowners to compressor failure, high effluent levels, and pump malfunctions before they become permit violations.</p>
+            </Link>
+            <Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h4>
+              <p className='text-slate-600 text-xs'>How tank sizing works for both conventional anaerobic systems and aerobic treatment units, and when aerobic systems require additional pre-treatment or pump chambers.</p>
+            </Link>
+            <Link href='/articles/how-long-does-a-septic-system-last' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>How Long Does a Septic System Last?</h4>
+              <p className='text-slate-600 text-xs'>Expected lifespan by system type, including how aerobic system component lifespans differ from the lifespan of passive anaerobic systems.</p>
+            </Link>
+            <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>What to verify before closing on a property with either system type, including how to confirm an aerobic system&apos;s service contract status and permit compliance.</p>
+            </Link>
+            <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h4>
+              <p className='text-slate-600 text-xs'>How aerobic system permit status, service contract history, and inspection records affect disclosure obligations and buyer negotiations differently than anaerobic systems.</p>
+            </Link>
+            <Link href='/comparisons/septic-vs-sewer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic vs Sewer</h4>
+              <p className='text-slate-600 text-xs'>How the higher ongoing cost of aerobic system ownership factors into the 20-year cost comparison between staying on septic and converting to municipal sewer.</p>
+            </Link>
+            <Link href='/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Concrete vs Plastic vs Fiberglass Septic Tanks</h4>
+              <p className='text-slate-600 text-xs'>How tank material choices apply to both conventional anaerobic tanks and the pre-treatment tanks used in aerobic treatment unit installations.</p>
+            </Link>
+            <Link href='/guides/septic-dos-and-donts' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Don&apos;ts</h4>
+              <p className='text-slate-600 text-xs'>What household practices protect both system types, including specific aerobic system rules around spray zone safety, disinfectant tablet maintenance, and what never to flush.</p>
+            </Link>
+          </div>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://thebasement.guide/articles/basement-flooding-insurance' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Does Homeowners Insurance Cover Basement Flooding?</h4>
+              <p className='text-slate-600 text-xs'>For homes with aerobic systems that use surface spray irrigation, understanding how insurance treats water damage from system malfunctions is relevant alongside the septic permit and maintenance obligations covered in this guide.</p>
+            </a>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h4>
+              <p className='text-slate-600 text-xs'>Aerobic system installations in high water table areas are often paired with basement or crawl space drainage improvements. This guide covers pump selection for below-grade water management alongside the above-grade aerobic system work.</p>
+            </a>
+          </div>
+
+          <h3 className='text-lg font-semibold text-slate-800 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6'>
+            <a href='https://www.epa.gov/septic/types-of-septic-systems' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>EPA Septic Systems Overview</h4>
+              <p className='text-slate-600 text-xs'>The EPA&apos;s official guide to septic system types including conventional anaerobic systems, aerobic treatment units, mound systems, drip irrigation systems, and recirculating sand filters, with guidance on which systems are appropriate for different site conditions.</p>
+            </a>
           </div>
         </div>
 
