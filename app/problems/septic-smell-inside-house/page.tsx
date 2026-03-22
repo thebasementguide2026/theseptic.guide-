@@ -363,6 +363,114 @@ export default function SepticSmellInsideHouse() {
               <p className='text-slate-700 text-sm mt-6'>The presence of any septic smell indoors means gas is entering your living space and should be fixed promptly. Prolonged exposure, even at low concentrations, can cause chronic headaches, fatigue, and respiratory issues.</p>
             </div>
 
+        {/* Repair Cost and Urgency Table */}
+        <div className='mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Cost Guide</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Repair Cost and Urgency by Cause</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm border-collapse'>
+              <thead>
+                <tr className='bg-slate-800 text-white'>
+                  <th className='text-left p-3 font-bold'>Cause</th>
+                  <th className='text-left p-3 font-bold'>DIY Fix Cost</th>
+                  <th className='text-left p-3 font-bold'>Pro Fix Cost</th>
+                  <th className='text-left p-3 font-bold'>Urgency</th>
+                  <th className='text-left p-3 font-bold'>Who to Call</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>1. Dry P-trap</td>
+                  <td className='p-3 text-slate-700'>$0 to $5</td>
+                  <td className='p-3 text-slate-700'>Not needed</td>
+                  <td className='p-3 text-slate-700'>Low &mdash; fix today, not an emergency</td>
+                  <td className='p-3 text-slate-700'>Nobody &mdash; DIY only</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>2. Blocked vent stack</td>
+                  <td className='p-3 text-slate-700'>$0 (clear debris yourself)</td>
+                  <td className='p-3 text-slate-700'>$150 to $300</td>
+                  <td className='p-3 text-slate-700'>Moderate &mdash; causes whole-house smell and slow drains</td>
+                  <td className='p-3 text-slate-700'>Plumber</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>3. Full septic tank</td>
+                  <td className='p-3 text-slate-700'>Not a DIY fix</td>
+                  <td className='p-3 text-slate-700'>$300 to $600 (pump-out)</td>
+                  <td className='p-3 text-slate-700'>High &mdash; full tank causes backups if ignored</td>
+                  <td className='p-3 text-slate-700'>Septic company</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>4. Partial drain clog</td>
+                  <td className='p-3 text-slate-700'>$5 to $20 (enzyme cleaner)</td>
+                  <td className='p-3 text-slate-700'>$100 to $250</td>
+                  <td className='p-3 text-slate-700'>Moderate &mdash; worsens over time if untreated</td>
+                  <td className='p-3 text-slate-700'>Plumber if DIY fails</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>5. Failed wax seal</td>
+                  <td className='p-3 text-slate-700'>$3 to $10 (wax ring)</td>
+                  <td className='p-3 text-slate-700'>$100 to $200</td>
+                  <td className='p-3 text-slate-700'>Moderate &mdash; water damage risk if toilet is rocking</td>
+                  <td className='p-3 text-slate-700'>Plumber if uncomfortable with DIY</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>6. Ejector pump basin seal</td>
+                  <td className='p-3 text-slate-700'>$10 to $80 (gasket or lid)</td>
+                  <td className='p-3 text-slate-700'>$500 to $1,500 (pump replacement)</td>
+                  <td className='p-3 text-slate-700'>Moderate &mdash; enclosed basement spaces amplify risk</td>
+                  <td className='p-3 text-slate-700'>Plumber</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>7. Loose cleanout plug</td>
+                  <td className='p-3 text-slate-700'>$2 to $10 (replacement plug)</td>
+                  <td className='p-3 text-slate-700'>Not needed in most cases</td>
+                  <td className='p-3 text-slate-700'>Low &mdash; easy DIY fix</td>
+                  <td className='p-3 text-slate-700'>Nobody &mdash; DIY only</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>8. Saturated drainfield (temporary rain)</td>
+                  <td className='p-3 text-slate-700'>$0 &mdash; reduce water use and wait</td>
+                  <td className='p-3 text-slate-700'>Not needed if resolved in 48 hours</td>
+                  <td className='p-3 text-slate-700'>Low if temporary, high if recurring</td>
+                  <td className='p-3 text-slate-700'>Septic company if recurring</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>8. Failing drainfield</td>
+                  <td className='p-3 text-slate-700'>Not a DIY fix</td>
+                  <td className='p-3 text-slate-700'>$5,000 to $20,000 (replacement)</td>
+                  <td className='p-3 text-slate-700'>High &mdash; worsens with continued use</td>
+                  <td className='p-3 text-slate-700'>Septic company immediately</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>9. Vent stack too short or wind downdraft</td>
+                  <td className='p-3 text-slate-700'>$20 to $50 (vent cap DIY)</td>
+                  <td className='p-3 text-slate-700'>$200 to $500 (plumber to extend vent)</td>
+                  <td className='p-3 text-slate-700'>Low to moderate &mdash; intermittent smell on windy days</td>
+                  <td className='p-3 text-slate-700'>Plumber</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium text-slate-900'>10. Washing machine drain trap</td>
+                  <td className='p-3 text-slate-700'>$0 (adjust hose position)</td>
+                  <td className='p-3 text-slate-700'>$100 to $200 (plumber to install trap)</td>
+                  <td className='p-3 text-slate-700'>Low &mdash; localized to laundry area</td>
+                  <td className='p-3 text-slate-700'>Plumber if hose adjustment fails</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium text-slate-900'>Persistent smell after checking all causes</td>
+                  <td className='p-3 text-slate-700'>Not applicable</td>
+                  <td className='p-3 text-slate-700'>$300 to $1,000 (professional camera inspection)</td>
+                  <td className='p-3 text-slate-700'>High &mdash; unknown source requires professional diagnosis</td>
+                  <td className='p-3 text-slate-700'>Septic company or plumber</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* FAQ Section */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
