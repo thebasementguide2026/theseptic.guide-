@@ -205,6 +205,98 @@ export default function SepticVsSewer() {
           </ul>
         </div>
 
+        {/* Which Is Right for Your Situation? */}
+        <div className='border-t border-slate-100 pt-16 mt-16 mb-16'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Decision Guide</span>
+            <div className='flex-1 h-px bg-slate-200'></div>
+          </div>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Which Is Right for Your Situation?</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-sm border-collapse'>
+              <thead>
+                <tr className='bg-slate-800 text-white'>
+                  <th className='p-3 text-left font-semibold'>Your Situation</th>
+                  <th className='p-3 text-left font-semibold'>Recommendation</th>
+                  <th className='p-3 text-left font-semibold'>Reason</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Rural property, no sewer available</td>
+                  <td className='p-3 text-slate-700'>Septic &mdash; only option</td>
+                  <td className='p-3 text-slate-700'>Municipal sewer does not reach your property</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Urban or suburban property, sewer available</td>
+                  <td className='p-3 text-slate-700'>Sewer &mdash; likely required</td>
+                  <td className='p-3 text-slate-700'>Most jurisdictions require connection when sewer is at the property line</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Building new, both options available</td>
+                  <td className='p-3 text-slate-700'>Compare 20-year costs using local sewer rate</td>
+                  <td className='p-3 text-slate-700'>At rates above $80/month, septic is usually cheaper over 20 years</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Existing septic functioning, 10+ years of life remaining</td>
+                  <td className='p-3 text-slate-700'>Stay on septic</td>
+                  <td className='p-3 text-slate-700'>No financial justification to convert a healthy system</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Existing septic at end of life, sewer available</td>
+                  <td className='p-3 text-slate-700'>Strong convert candidate</td>
+                  <td className='p-3 text-slate-700'>Avoid full replacement cost by converting instead</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Existing septic failed, drainfield needs replacement</td>
+                  <td className='p-3 text-slate-700'>Evaluate conversion vs replacement</td>
+                  <td className='p-3 text-slate-700'>Conversion costs similar to drainfield replacement and eliminates future risk</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Local sewer rate under $30/month</td>
+                  <td className='p-3 text-slate-700'>Sewer is cheaper over 20 years</td>
+                  <td className='p-3 text-slate-700'>Low monthly rate means sewer wins the 20-year cost comparison</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Local sewer rate over $100/month</td>
+                  <td className='p-3 text-slate-700'>Septic is cheaper over 20 years</td>
+                  <td className='p-3 text-slate-700'>High monthly rate means well-maintained septic costs less long-term</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Sewer newly extended to area, connection voluntary</td>
+                  <td className='p-3 text-slate-700'>Run 20-year cost comparison before deciding</td>
+                  <td className='p-3 text-slate-700'>Factor in conversion cost plus monthly rate vs remaining septic lifespan</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Sewer mandatory connection notice received</td>
+                  <td className='p-3 text-slate-700'>Convert and apply for assistance programs</td>
+                  <td className='p-3 text-slate-700'>Check for grants or low-interest loans before paying full conversion cost</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>Selling home, sewer available but not connected</td>
+                  <td className='p-3 text-slate-700'>Evaluate whether connection increases sale price enough to justify cost</td>
+                  <td className='p-3 text-slate-700'>In sewer-preferred markets, connection can add $5,000 to $15,000 to sale price</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Buying home with septic in sewer-available area</td>
+                  <td className='p-3 text-slate-700'>Check whether connection is mandatory and on what timeline</td>
+                  <td className='p-3 text-slate-700'>Mandatory future connection is a disclosed expense that affects your offer</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 text-slate-900 font-semibold'>High household water usage, large family</td>
+                  <td className='p-3 text-slate-700'>Sewer handles volume better</td>
+                  <td className='p-3 text-slate-700'>Septic systems can be overwhelmed by concentrated heavy use events</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 text-slate-900 font-semibold'>Environmentally sensitive area with tightening regulations</td>
+                  <td className='p-3 text-slate-700'>Sewer or aerobic septic likely required</td>
+                  <td className='p-3 text-slate-700'>Conventional septic may not meet future effluent standards in sensitive watersheds</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>FAQ</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Frequently Asked Questions</h2>
