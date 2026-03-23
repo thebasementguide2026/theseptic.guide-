@@ -401,7 +401,7 @@ export default function SepticToSewerConversionCostPage() {
             </div>
             <div className="bg-white border border-slate-200 rounded-lg p-5">
               <h3 className="text-base font-bold text-slate-900 mb-2">Southern Nevada Water Authority (SNWA)</h3>
-              <p className="text-slate-700 text-sm">The <a href="https://www.snwa.com/water-resources/conservation-programs/septic-to-sewer/index.html" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-800">SNWA Septic to Sewer Conversion Program</a> covers up to <strong>85 percent of eligible costs</strong> with a maximum benefit of $40,000. The program exists because converting septic homes to sewer allows the water authority to recapture and recycle wastewater that would otherwise be lost to the ground.</p>
+              <p className="text-slate-700 text-sm">The <a href="https://www.snwa.com" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-800">SNWA Septic to Sewer Conversion Program</a> covers up to <strong>85 percent of eligible costs</strong> with a maximum benefit of $40,000. The program exists because converting septic homes to sewer allows the water authority to recapture and recycle wastewater that would otherwise be lost to the ground.</p>
             </div>
             <div className="bg-white border border-slate-200 rounded-lg p-5">
               <h3 className="text-base font-bold text-slate-900 mb-2">Chesapeake Bay Watershed (MD, VA, PA, DE)</h3>

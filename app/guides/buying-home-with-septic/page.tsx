@@ -520,7 +520,7 @@ export default function BuyingHomeWithSepticPage() {
           </div>
           <h3 className="text-lg font-semibold text-slate-800 mb-4">From Our Network</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="https://thebasement.guide/articles/does-homeowners-insurance-cover-basement-flooding" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+            <a href="https://thebasement.guide/articles/basement-flooding-insurance" target="_blank" rel="noopener noreferrer" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
               <h4 className="font-bold text-slate-900">Does Homeowners Insurance Cover Basement Flooding?</h4>
               <p className="text-slate-600 text-sm mt-1">For homebuyers purchasing a home with both a septic system and a basement, this guide covers the insurance gaps that exist for both systems and how to close them.</p>
             </a>

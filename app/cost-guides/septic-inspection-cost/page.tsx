@@ -683,7 +683,7 @@ export default function SepticInspectionCostPage() {
             <h3 className="text-lg font-bold text-gray-900 mt-2">Sump Pump Design Ideas for 2026</h3>
             <p className="text-sm text-gray-600 mt-1">For homes where a basement inspection and a septic inspection are being scheduled together, this guide covers basement water management equipment that protects both systems.</p>
           </a>
-          <a href="https://thebasement.guide/reviews/best-sump-pumps" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <a href="https://thebasement.guide/articles/best-sump-pumps-2026" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Review</span>
             <h3 className="text-lg font-bold text-gray-900 mt-2">Best Sump Pumps 2026</h3>
             <p className="text-sm text-gray-600 mt-1">Homes on septic systems with high water tables often need sump pumps to manage groundwater that would otherwise saturate the drainfield. Reviewed and ranked for every budget.</p>

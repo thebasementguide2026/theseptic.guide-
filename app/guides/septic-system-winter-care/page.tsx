@@ -246,7 +246,7 @@ export default function SepticSystemWinterCare() {
                 <h3 className='text-slate-800 font-semibold text-lg'>Insulate the Tank, Pipes, and Drainfield</h3>
                 <p className='text-slate-700 mb-3'>Insulation is the single most important freeze-prevention measure. The Minnesota Pollution Control Agency recommends placing a layer of mulch 8 to 12 inches thick over the pipes, tank, and soil treatment system. This can be straw, leaves, hay, or any loose material that will stay in place and not become compacted.</p>
                 <p className='text-slate-700 mb-3'>The mulch traps geothermal heat from the soil below and prevents cold air from penetrating down to system components. This is particularly important for systems installed late in the year that did not establish vegetative cover before winter.</p>
-                <p className='text-slate-700 mb-3'>For detailed freeze prevention guidance from a state regulatory authority, see the <a href='https://www.pca.state.mn.us/living-green/dont-let-your-septic-system-freeze' target='_blank' rel='noopener noreferrer' className='text-amber-600 underline hover:text-amber-700'>Minnesota Pollution Control Agency&#39;s septic freeze prevention guide</a>.</p>
+                <p className='text-slate-700 mb-3'>For detailed freeze prevention guidance from a state regulatory authority, see the <a href='https://www.pca.state.mn.us/business-with-us/septic-systems' target='_blank' rel='noopener noreferrer' className='text-amber-600 underline hover:text-amber-700'>Minnesota Pollution Control Agency&#39;s septic freeze prevention guide</a>.</p>
                 <p className='text-slate-700 mb-2'>For more permanent protection, consider adding expanded foam panels (rigid foam insulation) over the septic tank lids, replacing standard pipe with insulated pipe in exposed sections, and adding additional soil cover over shallow pipes.</p>
                 <p className='text-amber-600 font-semibold text-sm'>Cost: $0 (leaves and hay from your property) to $100&ndash;$200 (foam panels and pipe insulation)</p>
               </div>
@@ -648,7 +648,7 @@ export default function SepticSystemWinterCare() {
 
           <h3 className='text-lg font-bold text-slate-900 mb-4'>External Resource</h3>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-            <a href='https://www.pca.state.mn.us/living-green/dont-let-your-septic-system-freeze' target='_blank' rel='noopener noreferrer' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+            <a href='https://www.pca.state.mn.us/business-with-us/septic-systems' target='_blank' rel='noopener noreferrer' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
               <div className='p-6'>
                 <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Minnesota Pollution Control Agency &mdash; Don&apos;t Let Your Septic System Freeze</h4>
                 <p className='text-slate-600 text-xs'>The most detailed and authoritative state regulatory guidance on septic freeze prevention, with specific insulation depth recommendations and step-by-step winterization instructions from the state with some of the most challenging septic winter conditions in the country.</p>

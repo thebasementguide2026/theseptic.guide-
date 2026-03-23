@@ -627,7 +627,7 @@ export default function InsuranceCoverSepticArticle() {
 
             <h3 className='font-bold text-slate-900 text-sm mb-3'>From Our Network</h3>
             <div className='grid md:grid-cols-2 gap-4 mb-8'>
-              <Link href='https://thebasement.guide/articles/does-insurance-cover-basement-flooding' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='https://thebasement.guide/articles/basement-flooding-insurance' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Does Homeowners Insurance Cover Basement Flooding?</h4>
                 <p className='text-slate-600 text-xs'>A parallel guide covering how homeowners insurance treats basement flooding events, which often occur alongside septic backups in homes where both systems are under stress simultaneously.</p>
               </Link>

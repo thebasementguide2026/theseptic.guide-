@@ -497,11 +497,11 @@ export default function SepticTankBackingUp() {
               </div>
               <p className='text-slate-500 text-xs mt-6 mb-4'>From Our Network</p>
               <div className='grid md:grid-cols-2 gap-4'>
-                <a href='https://thebasement.guide/sump-pumps/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                   <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
                   <p className='text-slate-600 text-xs'>If heavy rain is repeatedly saturating your drainfield and triggering backups, a properly designed sump pump system can redirect groundwater away from the septic area.</p>
                 </a>
-                <a href='https://thebasement.guide/sump-pumps/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                   <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
                   <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners dealing with water intrusion and yard drainage problems that stress the septic system.</p>
                 </a>

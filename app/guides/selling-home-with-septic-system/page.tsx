@@ -701,15 +701,15 @@ export default function SellingHomeWithSepticSystem() {
 
           <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
           <div className='grid md:grid-cols-2 gap-6 mb-10'>
-            <a href='https://thebasement.guide/guides/selling-a-home-with-a-wet-basement' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <a href='https://thebasement.guide/articles/waterproofing-home-appraisal-value' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Wet Basement &middot; thebasement.guide</h4>
               <p className='text-slate-600 text-xs'>Disclosure requirements, remediation options, and negotiation strategies for selling with water intrusion issues.</p>
             </a>
-            <a href='https://thebasement.guide/guides/sump-pump-buyers-guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <a href='https://thebasement.guide/articles/sump-pump-buying-guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Buyer&apos;s Guide &middot; thebasement.guide</h4>
               <p className='text-slate-600 text-xs'>How to choose the right sump pump &mdash; relevant when a high water table affects both basement and drainfield.</p>
             </a>
-            <a href='https://thebasement.guide/guides/french-drain-cost-guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <a href='https://thebasement.guide/articles/french-drain-cost' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 mb-1 text-sm'>French Drain Cost Guide &middot; thebasement.guide</h4>
               <p className='text-slate-600 text-xs'>Pricing and installation details for French drains, which can help redirect groundwater away from drainfields.</p>
             </a>

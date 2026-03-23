@@ -439,7 +439,7 @@ export default function SepticSmellInYard() {
                 <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
                 <p className='text-slate-600 text-xs'>If seasonal groundwater or yard drainage issues are saturating your drainfield and causing recurring odor, a properly designed sump pump system can help redirect water away from the septic area.</p>
               </a>
-              <a href='https://thebasement.guide/reviews/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
                 <p className='text-slate-600 text-xs'>Reviewed and ranked sump pump options for homeowners dealing with water intrusion and drainage problems that stress the septic system and contribute to yard odor.</p>
               </a>
