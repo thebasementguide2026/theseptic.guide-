@@ -454,7 +454,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/problems/drainfield-failing" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/drainfieldfailing.jpg" alt="Signs Your Drainfield Is Failing" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/drainfieldexample.jpg" alt="Signs Your Drainfield Is Failing" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Problem Guide</p>
@@ -463,7 +463,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/problems/tank-backing-up" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/tankbackingup.jpg" alt="Septic Tank Backing Up" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/1.jpg" alt="Septic Tank Backing Up" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Problem Guide</p>
@@ -481,7 +481,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/reviews/best-septic-tank-treatments" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/septictanktreatments.jpg" alt="Best Septic Tank Treatments" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/septicsavor.jpg" alt="Best Septic Tank Treatments" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
@@ -490,7 +490,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/reviews/best-septic-tank-risers" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/septictankrisers.jpg" alt="Best Septic Tank Risers" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/riser.jpg" alt="Best Septic Tank Risers" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
@@ -499,7 +499,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/reviews/best-septic-safe-cleaning-products" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/septicsafecleaning.jpg" alt="Best Septic-Safe Cleaning Products" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/cleanerssepticsafe.jpg" alt="Best Septic-Safe Cleaning Products" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
@@ -508,7 +508,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/reviews/best-drain-cleaners-for-septic" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/bestdraincleaners.jpg" alt="Best Drain Cleaners for Septic Systems" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/Drain cleaners (septic) .jpg" alt="Best Drain Cleaners for Septic Systems" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Review</p>
@@ -517,7 +517,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/guides/septic-system-winter-care" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/septicwintercare.jpg" alt="Septic System Winter Care" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/septicwinter.jpg" alt="Septic System Winter Care" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Guide</p>
@@ -526,7 +526,7 @@ export default function SepticMaintenanceChecklistPage() {
             </Link>
             <Link href="/articles/complete-septic-guide" className="group bg-gray-50 border border-gray-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors">
               <div className="relative h-48">
-                <Image src="/completesepticguide.jpg" alt="Complete Septic System Guide" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/septic1.jpg" alt="Complete Septic System Guide" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-4">
                 <p className="text-amber-600 text-sm font-semibold mb-1">Guide</p>
