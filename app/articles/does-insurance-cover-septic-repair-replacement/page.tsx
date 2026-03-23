@@ -503,7 +503,7 @@ export default function InsuranceCoverSepticArticle() {
               </div>
               <div>
                 <h3 className='font-bold text-slate-900 text-sm mb-1'>Equipment Breakdown Coverage</h3>
-                <p className='text-slate-700 text-sm'>Equipment breakdown coverage is an optional insurance endorsement that covers the mechanical and electrical failure of home system components, which can include septic pumps, aerators, and control panels in aerobic treatment units that are not covered under a standard homeowners policy for normal mechanical breakdown. It costs 25 to 75 per year and is most valuable for homeowners with aerobic septic systems that have pumps, aerators, and control panels requiring periodic replacement at costs of 500 to 1,300 per component. See also <Link href='/articles/aerobic-vs-anaerobic-septic' className='text-amber-700 underline hover:text-amber-800'>Aerobic vs Anaerobic Septic Systems</Link> and <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link>.</p>
+                <p className='text-slate-700 text-sm'>Equipment breakdown coverage is an optional insurance endorsement that covers the mechanical and electrical failure of home system components, which can include septic pumps, aerators, and control panels in aerobic treatment units that are not covered under a standard homeowners policy for normal mechanical breakdown. It costs 25 to 75 per year and is most valuable for homeowners with aerobic septic systems that have pumps, aerators, and control panels requiring periodic replacement at costs of 500 to 1,300 per component. See also <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='text-amber-700 underline hover:text-amber-800'>Aerobic vs Anaerobic Septic Systems</Link> and <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>Septic System Repair Cost</Link>.</p>
               </div>
               <div>
                 <h3 className='font-bold text-slate-900 text-sm mb-1'>Other Structures Coverage</h3>
@@ -607,19 +607,19 @@ export default function InsuranceCoverSepticArticle() {
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic Inspection Cost</h4>
                 <p className='text-slate-600 text-xs'>What a professional inspection costs and why documented inspection history strengthens any future insurance claim by demonstrating responsible maintenance.</p>
               </Link>
-              <Link href='/articles/septic-system-maintenance' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Maintenance Checklist</h4>
                 <p className='text-slate-600 text-xs'>The complete maintenance schedule that keeps your system out of the failure scenarios that insurance consistently excludes from coverage.</p>
               </Link>
-              <Link href='/articles/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h4>
                 <p className='text-slate-600 text-xs'>How to evaluate septic system condition and insurance implications before purchasing a home, and how a failing system affects negotiation leverage.</p>
               </Link>
-              <Link href='/articles/selling-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h4>
                 <p className='text-slate-600 text-xs'>How documented maintenance history and a pre-listing inspection protect your asking price and speed up closing when buyers raise septic insurance questions.</p>
               </Link>
-              <Link href='/articles/aerobic-vs-anaerobic-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h4 className='font-bold text-slate-900 mb-1 text-sm'>Aerobic vs Anaerobic Septic Systems</h4>
                 <p className='text-slate-600 text-xs'>Aerobic systems have mechanical components including pumps, aerators, and control panels that equipment breakdown coverage is specifically designed to protect.</p>
               </Link>

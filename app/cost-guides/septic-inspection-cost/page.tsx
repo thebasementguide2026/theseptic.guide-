@@ -649,7 +649,7 @@ export default function SepticInspectionCostPage() {
             <h3 className="text-lg font-bold text-gray-900 mt-2">Selling a Home with a Septic System</h3>
             <p className="text-sm text-gray-600 mt-1">How a pre-listing inspection protects your asking price and speeds up the closing process.</p>
           </Link>
-          <Link href="/articles/septic-system-maintenance-checklist" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <Link href="/maintenance/septic-system-maintenance-checklist" className="block bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
             <span className="text-xs font-semibold text-amber-600 uppercase">Guide</span>
             <h3 className="text-lg font-bold text-gray-900 mt-2">Septic System Maintenance Checklist</h3>
             <p className="text-sm text-gray-600 mt-1">The full ongoing maintenance schedule that keeps your system in passing condition between professional inspections.</p>

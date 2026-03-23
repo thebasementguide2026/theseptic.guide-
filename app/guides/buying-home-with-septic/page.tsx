@@ -497,11 +497,11 @@ export default function BuyingHomeWithSepticPage() {
               <h4 className="font-bold text-slate-900">Does Insurance Cover Septic Repair and Replacement?</h4>
               <p className="text-slate-600 text-sm mt-1">Why most septic repairs are out-of-pocket expenses and what optional coverage is worth adding to your homeowners policy after closing.</p>
             </Link>
-            <Link href="/articles/septic-system-maintenance-checklist" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+            <Link href="/maintenance/septic-system-maintenance-checklist" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
               <h4 className="font-bold text-slate-900">Septic System Maintenance Checklist</h4>
               <p className="text-slate-600 text-sm mt-1">The complete ongoing maintenance schedule to follow as a new septic homeowner to protect the system you just purchased.</p>
             </Link>
-            <Link href="/articles/how-to-find-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
+            <Link href="/articles/how-to-find-your-septic-tank" className="block bg-gray-50 rounded-lg p-5 border border-gray-200 hover:shadow-md transition-shadow">
               <h4 className="font-bold text-slate-900">How to Find Your Septic Tank</h4>
               <p className="text-slate-600 text-sm mt-1">Step-by-step instructions for locating the tank, distribution box, and drainfield boundaries on your new property if the seller cannot provide an as-built drawing.</p>
             </Link>
