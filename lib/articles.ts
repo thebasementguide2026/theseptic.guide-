@@ -320,6 +320,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/septicinspectionguide.jpg',
   },
+  {
+    title: 'Mound Septic Systems: How They Work, When You Need One, and How to Maintain It',
+    description: 'A mound septic system is required when soil depth, water table, or bedrock prevents a conventional drainfield. How they work, what they cost to maintain, and how long they last.',
+    slug: 'guides/mound-septic-system',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/image.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
