@@ -18,6 +18,7 @@ const navItems = [
       { label: 'Septic Inspection Guide', href: '/guides/septic-inspection-guide' },
       { label: 'Mound Septic Systems', href: '/guides/mound-septic-system' },
       { label: 'Water Softeners & Septic', href: '/guides/water-softener-septic-systems' },
+      { label: 'Plants & Septic Systems', href: '/guides/plants-septic-system' },
     ],
   },
   {
