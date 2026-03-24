@@ -17,6 +17,7 @@ const footerSections = [
       { label: 'How Long Systems Last', href: '/articles/how-long-does-a-septic-system-last' },
       { label: 'Septic Inspection Guide', href: '/guides/septic-inspection-guide' },
       { label: 'Mound Septic Systems', href: '/guides/mound-septic-system' },
+      { label: 'Water Softeners & Septic', href: '/guides/water-softener-septic-systems' },
     ],
   },
   {
