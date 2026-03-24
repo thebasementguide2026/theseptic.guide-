@@ -112,12 +112,12 @@ const datasetSchema = {
   variableMeasured: ['Product Name', 'Category', 'Price USD', 'Key Ingredients', 'Certifications', 'Septic Safety Rating'],
   distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/ld+json', contentUrl: 'https://theseptic.guide/reviews/best-septic-safe-cleaning-products' }],
   mainEntity: [
-    { '@type': 'Product', name: 'ECOS All-Purpose Cleaner (Orange)', description: 'Category: All-Purpose. Price: $5-$7. Ingredients: 6 plant-based ingredients, orange oil. Certifications: EPA Safer Choice. Septic Safety: Excellent.' },
-    { '@type': 'Product', name: 'Seventh Generation Disinfecting Bathroom Cleaner', description: 'Category: Bathroom. Price: $5-$7. Ingredients: Thymol (thyme oil). Certifications: EPA-registered disinfectant. Septic Safety: Excellent.' },
-    { '@type': 'Product', name: 'Better Life Natural Toilet Bowl Cleaner', description: 'Category: Toilet. Price: $6-$8. Ingredients: Coconut, corn, citrus, tea tree oil. Certifications: Leaping Bunny. Septic Safety: Excellent.' },
-    { '@type': 'Product', name: 'Mrs. Meyers Clean Day Dish Soap', description: 'Category: Kitchen/Dish. Price: $4-$6. Ingredients: Plant-derived, essential oils. Certifications: Leaping Bunny. Septic Safety: Excellent.' },
-    { '@type': 'Product', name: 'Biokleen Bac-Out Enzymatic Drain Cleaner', description: 'Category: Drain Maintenance. Price: $8-$12. Ingredients: Live enzyme cultures, plant extracts. Certifications: Manufacturer septic-safe. Septic Safety: Excellent.' },
-    { '@type': 'Product', name: 'Aunt Fannies Floor Cleaner Vinegar Wash', description: 'Category: Floor. Price: $10-$14. Ingredients: Distilled white vinegar, plant surfactants. Certifications: EWG A-rated. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'ECOS All-Purpose Cleaner (Orange)', description: 'Category: All-Purpose. Price: $5-$7. Ingredients: 6 plant-based ingredients, orange oil. Certifications: EPA Safer Choice. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'Seventh Generation Disinfecting Bathroom Cleaner', description: 'Category: Bathroom. Price: $5-$7. Ingredients: Thymol (thyme oil). Certifications: EPA-registered disinfectant. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'Better Life Natural Toilet Bowl Cleaner', description: 'Category: Toilet. Price: $6-$8. Ingredients: Coconut, corn, citrus, tea tree oil. Certifications: Leaping Bunny. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'Mrs. Meyers Clean Day Dish Soap', description: 'Category: Kitchen/Dish. Price: $4-$6. Ingredients: Plant-derived, essential oils. Certifications: Leaping Bunny. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'Biokleen Bac-Out Enzymatic Drain Cleaner', description: 'Category: Drain Maintenance. Price: $8-$12. Ingredients: Live enzyme cultures, plant extracts. Certifications: Manufacturer septic-safe. Septic Safety: Excellent.' },
+    { '@type': 'Thing', name: 'Aunt Fannies Floor Cleaner Vinegar Wash', description: 'Category: Floor. Price: $10-$14. Ingredients: Distilled white vinegar, plant surfactants. Certifications: EWG A-rated. Septic Safety: Excellent.' },
   ],
 }
 
