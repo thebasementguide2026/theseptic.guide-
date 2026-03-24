@@ -18,6 +18,7 @@ const guides = [
   { title: 'Garbage Disposal and Septic Systems', href: '/guides/garbage-disposal-septic-systems', description: 'Can you use a garbage disposal with a septic system? Research-backed guide with costs, safe foods, rules, and recommendations.' },
         { title: 'Does Insurance Cover Septic Repair or Replacement?', href: '/articles/does-insurance-cover-septic-repair-replacement', description: 'What homeowners insurance covers, what it doesn\'t, add-on coverages worth buying, and how to protect yourself.' },
   { title: 'Septic System Inspection Guide', href: '/guides/septic-inspection-guide', description: 'What actually happens during a septic inspection, what inspectors look for at each component, how to prepare, and how to read the report.' },
+  { title: 'Mound Septic System Guide', href: '/guides/mound-septic-system', description: 'How mound septic systems work, when you need one, what they cost to maintain, and how long they last.' },
 ]
 
 export default function GuidesPage() {
