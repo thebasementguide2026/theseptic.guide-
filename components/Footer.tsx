@@ -15,6 +15,7 @@ const footerSections = [
       { label: 'Insurance Coverage', href: '/articles/does-insurance-cover-septic-repair-replacement' },
       { label: 'Tank Size Guide', href: '/guides/septic-tank-size-guide' },
       { label: 'How Long Systems Last', href: '/articles/how-long-does-a-septic-system-last' },
+      { label: 'Septic Inspection Guide', href: '/guides/septic-inspection-guide' },
     ],
   },
   {
