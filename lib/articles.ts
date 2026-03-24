@@ -328,6 +328,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/moundsystem.jpg',
   },
+  {
+    title: 'Water Softeners and Septic Systems: The Complete 2026 Guide',
+    description: 'Can you use a water softener with a septic system? Research-backed guide covering salt loads, drain field impact, system selection, and maintenance best practices.',
+    slug: 'guides/water-softener-septic-systems',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/water softener.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
