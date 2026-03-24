@@ -40,6 +40,7 @@ const footerSections = [
       { label: 'Overflow After Rain', href: '/problems/septic-overflow-after-rain' },
       { label: 'Slow Drains', href: '/problems/slow-drains' },
             { label: 'Septic Smell in House', href: '/problems/septic-smell-inside-house' },
+      { label: 'Tree Roots in Septic', href: '/problems/tree-roots-septic-system' },
     ],
   },
   {
