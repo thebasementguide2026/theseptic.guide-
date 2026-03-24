@@ -19,6 +19,7 @@ const navItems = [
       { label: 'Mound Septic Systems', href: '/guides/mound-septic-system' },
       { label: 'Water Softeners & Septic', href: '/guides/water-softener-septic-systems' },
       { label: 'Plants & Septic Systems', href: '/guides/plants-septic-system' },
+      { label: 'Safe Trees Near Septic', href: '/guides/safe-trees-near-septic-system' },
     ],
   },
   {
