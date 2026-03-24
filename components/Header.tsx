@@ -15,6 +15,7 @@ const navItems = [
                 { label: 'Selling a Home with Septic', href: '/guides/selling-home-with-septic-system' },
       { label: 'Find Your Septic Tank', href: '/guides/find-your-septic-tank' },
       { label: 'Dos and Don\'ts', href: '/guides/septic-dos-and-donts' },
+      { label: 'Septic Inspection Guide', href: '/guides/septic-inspection-guide' },
     ],
   },
   {
