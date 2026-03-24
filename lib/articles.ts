@@ -312,6 +312,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/septictanksadditives.jpg',
   },
+  {
+    title: 'Septic System Inspection Guide: What Happens, Step by Step',
+    description: 'What actually happens during a septic inspection, what inspectors look for at each component, how to prepare your property, and how to read the report when it arrives.',
+    slug: 'guides/septic-inspection-guide',
+    category: 'Guide',
+    readTime: '20 min read',
+    image: '/septicinspectionguide.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
