@@ -352,6 +352,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/septicplanthero.jpg',
   },
+  {
+    title: 'Safe Trees to Plant Near a Septic System',
+    description: 'Most trees threaten septic systems, but some species with compact, non-aggressive root systems can be planted at the right distances. Species-by-species guide with exact clearance distances and privacy screening solutions.',
+    slug: 'guides/safe-trees-near-septic-system',
+    category: 'Guide',
+    readTime: '24 min read',
+    image: '/Eastern Redbud  hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
