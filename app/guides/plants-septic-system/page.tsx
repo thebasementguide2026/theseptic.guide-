@@ -303,6 +303,20 @@ export default function PlantsSepticSystem() {
             </div>
           </div>
 
+          {/* Embedded YouTube Video */}
+          <div className='my-10 rounded-xl overflow-hidden shadow-sm border border-[#E8E4DE]'>
+            <div className='relative w-full' style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                className='absolute top-0 left-0 w-full h-full'
+                src='https://www.youtube.com/embed/u5y64if94hk'
+                title='Plants and Septic Systems'
+                frameBorder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowFullScreen
+              />
+            </div>
+          </div>
+
           <h3 className='text-2xl font-bold text-[#2C3E50] mb-4'>Plants to Avoid Directly Over the Drainfield</h3>
 
           <div className='space-y-4'>
