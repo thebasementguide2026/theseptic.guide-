@@ -360,6 +360,14 @@ export const articles: Article[] = [
     readTime: '24 min read',
     image: '/Eastern Redbud  hero.jpg',
   },
+  {
+    title: 'Septic System Permit Guide: What You Need and How to Get It',
+    description: 'When do you need a septic permit, what triggers the requirement, how the application process works, what a perc test is, what permits cost, and what happens if you skip one.',
+    slug: 'guides/septic-system-permits',
+    category: 'Guide',
+    readTime: '18 min read',
+    image: '/permithero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
