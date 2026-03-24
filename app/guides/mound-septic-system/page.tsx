@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://theseptic.guide/guides/mound-septic-system',
     siteName: 'The Septic Guide',
     type: 'article',
-    images: [{ url: 'https://theseptic.guide/image.jpg', width: 1200, height: 630, alt: 'Mound septic system guide' }],
+    images: [{ url: 'https://theseptic.guide/moundsystem.jpg', width: 1200, height: 630, alt: 'Mound septic system guide' }],
   },
   alternates: { canonical: 'https://theseptic.guide/guides/mound-septic-system' },
 }
@@ -23,7 +23,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Mound Septic Systems: How They Work, When You Need One, and How to Maintain It',
   description: 'A mound septic system is required when soil depth, water table, or bedrock prevents a conventional drainfield. Here is how they work, what they cost to maintain, and how long they last.',
-  image: 'https://theseptic.guide/image.jpg',
+  image: 'https://theseptic.guide/moundsystem.jpg',
   datePublished: '2026-03-24',
   dateModified: '2026-03-24',
   author: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
@@ -116,7 +116,7 @@ export default function MoundSepticSystemGuide() {
               <Breadcrumbs items={[{ label: 'Guides', href: '/guides' }, { label: 'Mound Septic System Guide' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <Image src='/image.jpg' alt='Mound septic system guide' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
+        <Image src='/moundsystem.jpg' alt='Mound septic system guide' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
@@ -197,7 +197,7 @@ export default function MoundSepticSystemGuide() {
 
           {/* Embedded image */}
           <div className='my-8 rounded-xl overflow-hidden'>
-            <Image src='/image.jpg' alt='Cross-section view of a mound septic system showing the sand bed, distribution pipes, and gravel layers' width={900} height={500} className='w-full h-auto' />
+            <Image src='/moundsystem.jpg' alt='Cross-section view of a mound septic system showing the sand bed, distribution pipes, and gravel layers' width={900} height={500} className='w-full h-auto' />
             <p className='text-xs text-slate-500 mt-2 italic'>A mound septic system uses a raised sand bed to treat effluent when native soil conditions are inadequate for a conventional drainfield.</p>
           </div>
 
