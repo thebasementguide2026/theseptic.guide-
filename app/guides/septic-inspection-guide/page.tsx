@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import Image from 'next/image'
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
 
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
     url: 'https://theseptic.guide/guides/septic-inspection-guide',
     siteName: 'The Septic Guide',
     type: 'article',
+    images: [{ url: 'https://theseptic.guide/septicinspectionguide.jpg', width: 1200, height: 630, alt: 'Septic system inspection guide' }],
   },
   alternates: { canonical: 'https://theseptic.guide/guides/septic-inspection-guide' },
 }
@@ -21,6 +23,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Septic System Inspection Guide: What Happens, Step by Step',
   description: 'What actually happens during a septic inspection, what inspectors look for at each component, how to prepare your property, and how to read the report when it arrives.',
+  image: 'https://theseptic.guide/septicinspectionguide.jpg',
   datePublished: '2026-03-23',
   dateModified: '2026-03-23',
   author: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
@@ -113,6 +116,7 @@ export default function SepticInspectionGuide() {
               <Breadcrumbs items={[{ label: 'Guides', href: '/guides' }, { label: 'Septic System Inspection Guide' }]} />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
+        <Image src='/septicinspectionguide.jpg' alt='Septic system inspection guide' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
