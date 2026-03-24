@@ -21,6 +21,7 @@ const navItems = [
       { label: 'Plants & Septic Systems', href: '/guides/plants-septic-system' },
       { label: 'Safe Trees Near Septic', href: '/guides/safe-trees-near-septic-system' },
       { label: 'Septic System Permits', href: '/guides/septic-system-permits' },
+      { label: 'Financial Assistance', href: '/guides/septic-system-financial-assistance' },
     ],
   },
   {
