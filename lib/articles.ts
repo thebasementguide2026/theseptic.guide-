@@ -368,6 +368,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/permithero.jpg',
   },
+  {
+    title: 'Septic System Financial Assistance: Grants, Loans & Programs for Homeowners',
+    description: 'Federal grants, low-interest loans, and state-by-state programs that help homeowners pay for septic system repair and replacement. Who qualifies, how much is available, and exactly how to apply.',
+    slug: 'guides/septic-system-financial-assistance',
+    category: 'Guide',
+    readTime: '22 min read',
+    image: '/loan application.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
