@@ -23,6 +23,7 @@ const guides = [
   { title: 'What to Plant Over and Around Your Septic System', href: '/guides/plants-septic-system', description: 'The right plants help your drainfield work better. Exactly what to plant over the tank, drainfield, and mound, what to avoid, and the vegetable garden question answered.' },
   { title: 'Safe Trees to Plant Near a Septic System', href: '/guides/safe-trees-near-septic-system', description: 'Most trees threaten septic systems, but some species with compact, non-aggressive root systems can be planted at the right distances. Species-by-species guide with exact clearance distances and privacy screening solutions.' },
   { title: 'Septic System Permit Guide', href: '/guides/septic-system-permits', description: 'When do you need a septic permit, what triggers the requirement, how the application process works, what a perc test is, what permits cost, and what happens if you skip one.' },
+  { title: 'Septic System Financial Assistance', href: '/guides/septic-system-financial-assistance', description: 'Federal grants, low-interest loans, and state-by-state programs that help homeowners pay for septic system repair and replacement. Who qualifies, how much is available, and exactly how to apply.' },
 ]
 
 export default function GuidesPage() {
