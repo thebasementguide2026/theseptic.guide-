@@ -326,7 +326,7 @@ export const articles: Article[] = [
     slug: 'guides/mound-septic-system',
     category: 'Guide',
     readTime: '20 min read',
-    image: '/image.jpg',
+    image: '/moundsystem.jpg',
   },
 ]
 
