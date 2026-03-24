@@ -344,6 +344,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/septictree.jpg',
   },
+  {
+    title: 'What to Plant Over and Around Your Septic System',
+    description: 'The right plants help your drainfield work better. Exactly what to plant over the tank, drainfield, and mound, what to avoid, and the vegetable garden question answered honestly.',
+    slug: 'guides/plants-septic-system',
+    category: 'Guide',
+    readTime: '22 min read',
+    image: '/septicplanthero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
