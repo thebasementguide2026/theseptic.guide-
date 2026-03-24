@@ -376,6 +376,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/loan application.jpg',
   },
+  {
+    title: 'What Happens If You Never Pump Your Septic Tank',
+    description: 'A step-by-step breakdown of what actually happens inside your septic system when pumping is skipped — from the first year of neglect to complete system failure — and what it costs to fix at each stage.',
+    slug: 'articles/what-happens-if-you-never-pump-septic-tank',
+    category: 'Article',
+    readTime: '16 min read',
+    image: '/neverpumptank.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
