@@ -22,6 +22,7 @@ const navItems = [
       { label: 'Safe Trees Near Septic', href: '/guides/safe-trees-near-septic-system' },
       { label: 'Septic System Permits', href: '/guides/septic-system-permits' },
       { label: 'Financial Assistance', href: '/guides/septic-system-financial-assistance' },
+      { label: 'Never Pump Your Septic Tank', href: '/articles/what-happens-if-you-never-pump-septic-tank' },
     ],
   },
   {
