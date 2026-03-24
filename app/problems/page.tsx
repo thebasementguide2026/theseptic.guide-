@@ -14,6 +14,7 @@ const problems = [
   { title: 'Septic Overflow After Rain', href: '/problems/overflow-after-rain', description: 'Why heavy rain causes septic problems and how to fix it.' },
   { title: 'Slow Drains with Septic', href: '/problems/slow-drains', description: 'Troubleshooting slow drains in homes with septic systems.' },
   { title: 'Septic Smell Inside the House', href: '/problems/septic-smell-inside-house', description: 'Hydrogen sulfide and methane gas causes, diagnosis, and fixes for indoor septic odors.' },
+  { title: 'Tree Roots in Your Septic System', href: '/problems/tree-roots-septic-system', description: 'Signs of root intrusion, how roots damage your tank and drainfield, removal options, and which trees to avoid planting near a septic system.' },
 ]
 
 export default function ProblemsPage() {
