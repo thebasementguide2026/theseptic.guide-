@@ -17,6 +17,7 @@ const navItems = [
       { label: 'Dos and Don\'ts', href: '/guides/septic-dos-and-donts' },
       { label: 'Septic Inspection Guide', href: '/guides/septic-inspection-guide' },
       { label: 'Mound Septic Systems', href: '/guides/mound-septic-system' },
+      { label: 'Water Softeners & Septic', href: '/guides/water-softener-septic-systems' },
     ],
   },
   {
