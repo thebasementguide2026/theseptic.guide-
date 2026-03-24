@@ -336,6 +336,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/water softener.jpg',
   },
+  {
+    title: 'Tree Roots in Your Septic System: Signs, Fixes, and How to Stop It Happening Again',
+    description: 'Tree roots are one of the most common causes of septic system failure. Learn the warning signs, what roots do to your tank and drainfield, removal options, and which trees to avoid planting near a septic system.',
+    slug: 'problems/tree-roots-septic-system',
+    category: 'Problem',
+    readTime: '25 min read',
+    image: '/septictree.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
