@@ -20,6 +20,7 @@ const navItems = [
       { label: 'Water Softeners & Septic', href: '/guides/water-softener-septic-systems' },
       { label: 'Plants & Septic Systems', href: '/guides/plants-septic-system' },
       { label: 'Safe Trees Near Septic', href: '/guides/safe-trees-near-septic-system' },
+      { label: 'Septic System Permits', href: '/guides/septic-system-permits' },
     ],
   },
   {
