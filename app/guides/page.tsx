@@ -21,6 +21,7 @@ const guides = [
   { title: 'Mound Septic System Guide', href: '/guides/mound-septic-system', description: 'How mound septic systems work, when you need one, what they cost to maintain, and how long they last.' },
   { title: 'Water Softeners and Septic Systems', href: '/guides/water-softener-septic-systems', description: 'Can you use a water softener with a septic system? Research-backed guide covering salt loads, drain field impact, system selection, and maintenance.' },
   { title: 'What to Plant Over and Around Your Septic System', href: '/guides/plants-septic-system', description: 'The right plants help your drainfield work better. Exactly what to plant over the tank, drainfield, and mound, what to avoid, and the vegetable garden question answered.' },
+  { title: 'Safe Trees to Plant Near a Septic System', href: '/guides/safe-trees-near-septic-system', description: 'Most trees threaten septic systems, but some species with compact, non-aggressive root systems can be planted at the right distances. Species-by-species guide with exact clearance distances and privacy screening solutions.' },
 ]
 
 export default function GuidesPage() {
