@@ -384,6 +384,14 @@ export const articles: Article[] = [
     readTime: '16 min read',
     image: '/neverpumptank.jpg',
   },
+  {
+    title: 'Cesspool vs. Septic System: What's the Difference and Which Do You Have?',
+    description: 'A complete guide to how cesspools and septic systems differ in design, treatment, cost, maintenance, and legal status — plus how to identify which system your property has, state-by-state regulations, and exactly what to do if you have a cesspool.',
+    slug: 'comparisons/cesspool-vs-septic-system',
+    category: 'Comparison',
+    readTime: '20 min read',
+    image: '/cesspool.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
