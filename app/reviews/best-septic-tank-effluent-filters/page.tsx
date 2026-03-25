@@ -326,7 +326,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://www.amazon.com/Polylok-3014-PL-122-PolyLok-Effluent/dp/B01H7MIONS' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4c4OazS' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #2 Zabel A1800 */}
@@ -359,7 +359,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://www.amazon.com/Zabel-A1800-Effluent-Filter-Cartridge/dp/B08B41YPH4' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4bsTqx2' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #3 SimTech STF-110 */}
@@ -394,7 +394,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://www.amazon.com/SimTech-Septic-Tank-Bristle-Filter/dp/B019YDB4H6' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4bwsQDb' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #4 Tuf-Tite EF-4 */}
@@ -426,7 +426,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://www.amazon.com/EF-4-Residential-Effluent-Filter-Only/dp/B00K7ID1LA' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4d8TjYS' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 
