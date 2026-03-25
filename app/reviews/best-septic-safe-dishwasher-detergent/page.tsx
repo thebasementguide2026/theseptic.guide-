@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
     url: 'https://theseptic.guide/reviews/best-septic-safe-dishwasher-detergent',
     siteName: 'The Septic Guide',
     type: 'article',
+    images: [{ url: 'https://theseptic.guide/diswasher.jpg', width: 1200, height: 630, alt: 'Best dishwasher detergent safe for septic systems 2026' }],
   },
   alternates: { canonical: 'https://theseptic.guide/reviews/best-septic-safe-dishwasher-detergent' },
 }
@@ -92,6 +94,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Best Dishwasher Detergent Safe for Septic Systems 2026',
   description: 'The best dishwasher detergent for septic systems is Seventh Generation Free & Clear — EPA Safer Choice certified, phosphate-free, enzyme-based. Reviews four top picks and answers whether Cascade, Finish, Method, and other common brands are safe.',
+  image: 'https://theseptic.guide/diswasher.jpg',
   datePublished: '2026-03-24',
   dateModified: '2026-03-24',
   author: {
@@ -121,7 +124,14 @@ export default function BestDishwasherDetergent() {
 
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/60' />
+        <Image
+          src='/diswasher.jpg'
+          alt='Best dishwasher detergent safe for septic systems 2026'
+          fill
+          className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
+          priority
+        />
+        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-amber-700'></div>
@@ -291,7 +301,10 @@ export default function BestDishwasherDetergent() {
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Top Picks</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Quick Reference: Top Picks</h2>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Quick Reference: Top Picks</h2>
+          <div className='relative w-full h-80 md:h-96 rounded-lg overflow-hidden mb-6'>
+            <Image src='/diswasher.jpg' alt='Septic-safe dishwasher detergent products comparison' fill className='object-cover' />
+          </div>
           <div className='overflow-x-auto mb-8'>
             <table className='w-full text-sm border-collapse'>
               <thead>
