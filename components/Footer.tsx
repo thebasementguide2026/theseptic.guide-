@@ -67,6 +67,7 @@ const footerSections = [
       { label: 'Best Drain Cleaners', href: '/reviews/best-drain-cleaners-for-septic' },
       { label: 'Best Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent' },
       { label: 'Best Cleaning Products', href: '/reviews/best-septic-safe-cleaning-products' },
+      { label: 'Best Effluent Filters', href: '/reviews/best-septic-tank-effluent-filters' },
     ],
   },
 ]
