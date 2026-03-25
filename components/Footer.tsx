@@ -54,6 +54,7 @@ const footerSections = [
       { label: 'Septic vs Sewer', href: '/comparisons/septic-vs-sewer' },
       { label: 'Aerobic vs Anaerobic', href: '/comparisons/aerobic-vs-anaerobic-septic-systems' },
       { label: 'Concrete vs Plastic vs Fiberglass', href: '/comparisons/concrete-vs-plastic-vs-fiberglass' },
+      { label: 'Cesspool vs. Septic System', href: '/comparisons/cesspool-vs-septic-system' },
     ],
   },
   {
