@@ -622,9 +622,6 @@ export default function BestDishwasherDetergent() {
             <Link href='/articles/what-happens-if-you-never-pump-septic-tank' className='block bg-white border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
               <p className='font-semibold text-slate-900 text-sm'>What Happens If You Never Pump Your Septic Tank</p>
             </Link>
-            <Link href='/guides/hard-water-septic-system' className='block bg-white border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
-              <p className='font-semibold text-slate-900 text-sm'>Hard Water and Your Septic System</p>
-            </Link>
             <Link href='/cost-guides/drainfield-replacement-cost' className='block bg-white border border-slate-200 rounded-lg p-4 hover:border-amber-300 transition-colors'>
               <p className='font-semibold text-slate-900 text-sm'>Drainfield Replacement Cost</p>
             </Link>
