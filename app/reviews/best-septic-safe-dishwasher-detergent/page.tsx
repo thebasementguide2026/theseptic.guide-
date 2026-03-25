@@ -301,11 +301,8 @@ export default function BestDishwasherDetergent() {
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Top Picks</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-4'>Quick Reference: Top Picks</h2>
-          <div className='relative w-full h-80 md:h-96 rounded-lg overflow-hidden mb-6'>
-            <Image src='/diswasher.jpg' alt='Septic-safe dishwasher detergent products comparison' fill className='object-cover' />
-          </div>
-          <div className='overflow-x-auto mb-8'>
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Quick Reference: Top Picks</h2>
+          <div className='overflow-x-auto mb-6'>
             <table className='w-full text-sm border-collapse'>
               <thead>
                 <tr className='bg-slate-100'>
@@ -347,6 +344,9 @@ export default function BestDishwasherDetergent() {
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className='relative w-full h-80 md:h-96 rounded-lg overflow-hidden mb-6'>
+            <Image src='/diswasher.jpg' alt='Septic-safe dishwasher detergent products comparison' fill className='object-cover' />
           </div>
         </div>
 
