@@ -41,6 +41,7 @@ const navItems = [
       { label: 'Drain Cleaners', href: '/reviews/best-drain-cleaners-for-septic' },
               { label: 'Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent' },
       { label: 'Cleaning Products', href: '/reviews/best-septic-safe-cleaning-products' },
+      { label: 'Effluent Filters', href: '/reviews/best-septic-tank-effluent-filters' },
     ],
   },
   {
