@@ -42,6 +42,7 @@ const navItems = [
               { label: 'Laundry Detergent', href: '/reviews/best-septic-safe-laundry-detergent' },
       { label: 'Cleaning Products', href: '/reviews/best-septic-safe-cleaning-products' },
       { label: 'Effluent Filters', href: '/reviews/best-septic-tank-effluent-filters' },
+      { label: 'Dishwasher Detergent', href: '/reviews/best-septic-safe-dishwasher-detergent' },
     ],
   },
   {
