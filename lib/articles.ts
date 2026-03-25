@@ -406,7 +406,7 @@ export const articles: Article[] = [
     slug: 'reviews/best-septic-safe-dishwasher-detergent',
     category: 'Review',
     readTime: '15 min read',
-    image: '',
+    image: '/diswasher.jpg',
   },
 ]
 
