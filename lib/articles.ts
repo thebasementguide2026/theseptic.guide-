@@ -400,6 +400,14 @@ export const articles: Article[] = [
     readTime: '17 min read',
     image: '/Effluent Filters.jpg',
   },
+  {
+    title: 'Best Dishwasher Detergent Safe for Septic Systems 2026',
+    description: 'The best dishwasher detergent for septic systems is Seventh Generation Free & Clear — phosphate-free, EPA Safer Choice certified, and enzyme-based. This guide reviews four top picks and answers whether Cascade, Finish, Method, and other common brands are safe.',
+    slug: 'reviews/best-septic-safe-dishwasher-detergent',
+    category: 'Review',
+    readTime: '15 min read',
+    image: '',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
