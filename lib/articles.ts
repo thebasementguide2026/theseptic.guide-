@@ -392,6 +392,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/cesspool.jpg',
   },
+  {
+    title: 'Best Septic Tank Effluent Filters 2026: Protect Your Drainfield for Under $100',
+    description: 'Honest reviews of the four best septic tank effluent filters available on Amazon — Polylok PL-122, Zabel A1800, SimTech STF-110, and Tuf-Tite EF-4 — with specs, pros, cons, and a plain-English explanation of why every septic tank should have one.',
+    slug: 'reviews/best-septic-tank-effluent-filters',
+    category: 'Review',
+    readTime: '17 min read',
+    image: '/Effluent Filters.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
