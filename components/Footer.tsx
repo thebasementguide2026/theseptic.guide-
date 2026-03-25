@@ -107,7 +107,7 @@ export default function Footer() {
         {/* Sister Sites */}
         <div className='border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4'>
           <p className='text-slate-500 text-xs'>
-            Our Network: <Link href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500'>The Basement Guide</Link> | <Link href='https://thegarage.guide/' className='text-slate-400 hover:text-amber-500'>The Garage Guide</Link>
+            Our Network: <Link href='https://thebasement.guide/' className='text-slate-400 hover:text-amber-500'>The Basement Guide</Link> | <Link href='https://thegarage.guide/' className='text-slate-400 hover:text-amber-500'>The Garage Guide</Link> | <Link href='https://www.thewell.guide/' className='text-slate-400 hover:text-amber-500'>The Well Guide</Link>
           </p>
         </div>
 
