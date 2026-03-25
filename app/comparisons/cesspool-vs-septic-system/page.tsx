@@ -295,6 +295,9 @@ export default function CesspoolVsSepticSystem() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Where Cesspools Are Still Found</h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-6'>
+            <Image src='/cesspool.jpg' alt='Old cesspool system found on residential property' fill className='object-cover' />
+          </div>
           <p className='text-base text-slate-700 leading-relaxed mb-6'>
             Cesspools are concentrated in specific regions and property types.
           </p>
