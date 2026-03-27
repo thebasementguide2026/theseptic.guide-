@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic System Maintenance Checklist: The Complete Seasonal Guide for Homeowners',
   description: 'The four essential septic maintenance tasks, seasonal checklists for spring, summer, fall, and winter, maintenance by system type, DIY vs pro tasks, and warning signs that mean call a pro now.',
+  alternates: { canonical: 'https://theseptic.guide/maintenance/septic-system-maintenance-checklist' },
 }
 
 const faqSchema = {

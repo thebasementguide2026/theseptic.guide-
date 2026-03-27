@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure | The Septic Guide',
   description: 'Learn about affiliate relationships and how The Septic Guide earns revenue while maintaining editorial independence.',
+  alternates: { canonical: 'https://theseptic.guide/affiliate-disclosure' },
 };
 
 export default function AffiliateDisclosurePage() {

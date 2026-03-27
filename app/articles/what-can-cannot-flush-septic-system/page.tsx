@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'What You Can and Cannot Flush with a Septic System: The Complete List | The Septic Guide',
   description: 'The complete list of what is safe to flush, what should never be flushed, and what to keep out of your drains. Protect your septic tank and drainfield from costly damage.',
+  alternates: { canonical: 'https://theseptic.guide/articles/what-can-cannot-flush-septic-system' },
 }
 
 const faqSchema = {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Aerobic vs Anaerobic Septic Systems: Differences, Costs, and Which You Need | The Septic Guide',
   description: 'Anaerobic septic systems cost $3,000 to $8,000. Aerobic systems cost $10,000 to $20,000. Complete comparison of costs, maintenance, pros, cons, and which system your property requires.',
+  alternates: { canonical: 'https://theseptic.guide/comparisons/aerobic-vs-anaerobic-septic-systems' },
 }
 
 const faqSchema = {

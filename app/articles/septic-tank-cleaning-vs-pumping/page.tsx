@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Tank Cleaning vs Pumping: What\u2019s the Difference? 2026 Guide | The Septic Guide',
   description: 'Pumping and cleaning are not the same thing. Here is exactly what each service includes, what to insist on at every service visit, and when a full cleaning is actually necessary.',
+  alternates: { canonical: 'https://theseptic.guide/articles/septic-tank-cleaning-vs-pumping' },
 }
 
 const faqSchema = {

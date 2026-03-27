@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How to Find Your Septic Tank: 5 Methods That Work | The Septic Guide',
   description: 'Your septic tank is buried 5 to 25 feet from your house. Learn 5 proven methods to locate it, from checking records to using a soil probe, plus what to do after you find it.',
+  alternates: { canonical: 'https://theseptic.guide/articles/how-to-find-your-septic-tank' },
 }
 
 const faqSchema = {

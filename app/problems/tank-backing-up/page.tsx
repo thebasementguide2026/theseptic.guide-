@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Tank Backing Up Into House: Causes, What to Do & How to Fix It | The Septic Guide',
   description: 'Sewage backing up into your home? Learn the immediate steps to take, how to diagnose the cause, the 7 most common reasons for septic backups, and how to fix and prevent them.',
+  alternates: { canonical: 'https://theseptic.guide/problems/tank-backing-up' },
 }
 
 const faqSchema = {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Signs Your Drainfield Is Failing: Warning Signs, Causes & What to Do | The Septic Guide',
   description: 'Learn the 7 warning signs of drainfield failure from earliest to latest. Understand what causes drainfield problems, which ones are fixable, and when you need a full replacement.',
+  alternates: { canonical: 'https://theseptic.guide/problems/drainfield-failing' },
 }
 
 const faqSchema = {

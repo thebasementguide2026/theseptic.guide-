@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Smell in Your Yard? 8 Causes and How to Fix Each One | The Septic Guide',
   description: 'A septic smell in your yard is caused by hydrogen sulfide and methane gas escaping from your septic system. Learn the 8 most common causes, how to diagnose each one, and the specific fix and cost for each.',
+  alternates: { canonical: 'https://theseptic.guide/problems/septic-smell-in-yard' },
 }
 
 const faqSchema = {

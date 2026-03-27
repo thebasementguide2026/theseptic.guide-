@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Overflow After Rain? Why It Happens and How to Fix It | The Septic Guide',
   description: 'Septic overflow after rain is caused by groundwater saturating your drainfield, stormwater entering your tank, or a system that was already near capacity. Learn the 5 mechanisms, emergency steps, and long-term fixes.',
+  alternates: { canonical: 'https://theseptic.guide/problems/septic-overflow-after-rain' },
 }
 
 const faqSchema = {

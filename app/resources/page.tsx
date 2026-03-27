@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Septic Resources | The Septic Guide',
   description: 'Helpful septic system resources including FAQs, guides, and tools for homeowners.',
+  alternates: { canonical: 'https://theseptic.guide/resources' },
 };
 
 const faqs = [

@@ -5,6 +5,7 @@ import LeadForm from '@/components/LeadForm'
 export const metadata = {
   title: 'Septic System Guides | The Septic Guide',
   description: 'Comprehensive guides for homeowners on septic systems, maintenance, installation, and more.',
+  alternates: { canonical: 'https://theseptic.guide/guides' },
 }
 
 const guides = [

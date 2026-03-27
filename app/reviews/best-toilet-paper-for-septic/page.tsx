@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Toilet Paper for Septic Systems 2026: Tested and Ranked | The Septic Guide',
   description: 'The best toilet paper for septic systems dissolves fast, skips the chemicals, and protects your tank. We tested and ranked the top septic-safe brands so you know exactly what to buy.',
+  alternates: { canonical: 'https://theseptic.guide/reviews/best-toilet-paper-for-septic' },
 }
 
 const faqSchema = {

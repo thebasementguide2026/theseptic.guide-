@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Inspection Cost 2026: What Each Type Costs and What\u2019s Actually Included | The Septic Guide',
   description: 'A septic inspection costs $150 to $650 depending on the type. Compare visual, routine, comprehensive, and real estate inspection costs, what each includes, hidden fees, and how to choose an inspector.',
+  alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-inspection-cost' },
 }
 
 const faqSchema = {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Does Insurance Cover Septic System Repair or Replacement? | The Septic Guide',
   description: 'Standard homeowners insurance does not cover most septic repairs. Learn exactly what is and isn\'t covered, which add-on coverages are worth buying, and how to protect yourself financially.',
+  alternates: { canonical: 'https://theseptic.guide/articles/does-insurance-cover-septic-repair-replacement' },
 }
 
 const faqSchema = {

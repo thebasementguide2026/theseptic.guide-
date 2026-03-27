@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Septic Maintenance Guide | The Septic Guide',
   description: 'Learn how to properly maintain your septic system. Tips, schedules, and expert advice for septic tank care.',
+  alternates: { canonical: 'https://theseptic.guide/maintenance' },
 };
 
 const tips = [

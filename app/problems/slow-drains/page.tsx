@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Slow Drains with a Septic System: How to Tell If It\u2019s a Clog, a Full Tank, or a Failing System | The Septic Guide',
   description: 'Slow drains in a home with a septic system mean one of three things: a localized pipe clog ($0 to $300 fix), a full septic tank that needs pumping ($300 to $600 fix), or a drainfield or system-level problem ($1,000 to $15,000 fix). Learn the step-by-step diagnostic process.',
+  alternates: { canonical: 'https://theseptic.guide/problems/slow-drains' },
 }
 
 const faqSchema = {

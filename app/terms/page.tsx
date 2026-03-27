@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Terms of Use | The Septic Guide',
   description: 'Terms of Use for The Septic Guide — your trusted resource for septic system information and guidance.',
+  alternates: { canonical: 'https://theseptic.guide/terms' },
 };
 
 export default function TermsPage() {

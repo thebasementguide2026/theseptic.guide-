@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Tank Pumping Cost 2026: What You\'ll Actually Pay | The Septic Guide',
   description: 'The average septic tank pumping costs $300 to $600. Learn real pricing by tank size, region, hidden fees to watch for, and the questions to ask before hiring.',
+  alternates: { canonical: 'https://theseptic.guide/articles/septic-tank-pumping-cost' },
 }
 
 const faqSchema = {

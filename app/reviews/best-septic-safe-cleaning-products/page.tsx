@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Septic-Safe Cleaning Products 2026: Bathroom, Kitchen, and Whole House | The Septic Guide',
   description: 'The best septic-safe cleaning products in 2026 are biodegradable, plant-based cleaners free of chlorine bleach, ammonia, and antibacterial agents. Top picks across 6 categories from $4 to $15 per bottle.',
+  alternates: { canonical: 'https://theseptic.guide/reviews/best-septic-safe-cleaning-products' },
 }
 
 const faqSchema = {

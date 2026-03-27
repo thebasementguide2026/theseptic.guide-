@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic Smell Inside the House: 10 Causes and How to Fix Each One | The Septic Guide',
   description: 'A septic smell inside the house is caused by hydrogen sulfide escaping through dry drain traps, blocked vent pipes, a full septic tank, failed wax seals, or cracked pipes. Most causes cost $0 to $50 to fix yourself.',
+  alternates: { canonical: 'https://theseptic.guide/problems/septic-smell-inside-house' },
 }
 
 const faqSchema = {

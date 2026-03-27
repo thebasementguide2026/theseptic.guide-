@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 export const metadata = {
   title: 'Get a Free Septic Quote | The Septic Guide',
   description: 'Connect with qualified septic professionals in your area. Get free, no-obligation quotes for pumping, installation, repair, and more.',
+  alternates: { canonical: 'https://theseptic.guide/get-quote' },
 }
 
 export default function GetQuotePage() {

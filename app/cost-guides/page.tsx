@@ -5,6 +5,7 @@ import LeadForm from '@/components/LeadForm'
 export const metadata = {
   title: 'Septic Cost Guides | The Septic Guide',
   description: 'Transparent cost breakdowns for septic services. Know what to expect before you call a contractor.',
+  alternates: { canonical: 'https://theseptic.guide/cost-guides' },
 }
 
 const costGuides = [

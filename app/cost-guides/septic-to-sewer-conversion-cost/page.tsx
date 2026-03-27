@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic to Sewer Conversion Cost 2026: Complete Price Breakdown | The Septic Guide',
   description: 'Septic to sewer conversion costs $5,000 to $15,000 in 2026, with a national average of $7,000 to $10,000. Full cost breakdown, when conversion makes financial sense, and available grants.',
+  alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-to-sewer-conversion-cost' },
 }
 
 const faqSchema = {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Do Septic Tank Additives Work? The Complete 2026 Guide | The Septic Guide',
   description: 'The EPA does not recommend septic additives for healthy systems. Here is exactly what each type does, what the research says, when a biological additive might actually help, and what to avoid entirely.',
+  alternates: { canonical: 'https://theseptic.guide/articles/septic-tank-additives' },
 }
 
 const faqSchema = {

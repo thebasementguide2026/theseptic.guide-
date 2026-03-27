@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Septic System Comparisons | The Septic Guide',
   description: 'Compare septic systems, materials, and service providers. Side-by-side comparisons to help you make informed decisions.',
+  alternates: { canonical: 'https://theseptic.guide/comparisons' },
 };
 
 const comparisons = [

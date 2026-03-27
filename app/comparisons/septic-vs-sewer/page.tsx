@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm'
 export const metadata: Metadata = {
   title: 'Septic System vs Sewer: Costs, Pros and Cons, and Which Is Better | The Septic Guide',
   description: 'Septic system costs $3,500 to $12,000 to install with no monthly bill. Sewer costs $1,500 to $6,000 plus $15 to $150/month. Complete 20-year cost comparison, pros and cons, and conversion guide.',
+  alternates: { canonical: 'https://theseptic.guide/comparisons/septic-vs-sewer' },
 }
 
 const faqSchema = {

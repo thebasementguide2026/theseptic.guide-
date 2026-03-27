@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Septic-Safe Laundry Detergent 2026: Top 6 Picks Ranked | The Septic Guide',
   description: 'The best septic-safe laundry detergents in 2026, ranked by septic impact, cleaning power, and value. Seventh Generation, ECOS, Earth Breeze, and more tested and reviewed.',
+  alternates: { canonical: 'https://theseptic.guide/reviews/best-septic-safe-laundry-detergent' },
 }
 
 const faqSchema = {

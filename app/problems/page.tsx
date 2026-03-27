@@ -5,6 +5,7 @@ import LeadForm from '@/components/LeadForm'
 export const metadata = {
   title: 'Septic System Problems | The Septic Guide',
   description: 'Diagnose and solve common septic system problems. Expert advice for homeowners.',
+  alternates: { canonical: 'https://theseptic.guide/problems' },
 }
 
 const problems = [

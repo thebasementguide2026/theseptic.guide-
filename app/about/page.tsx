@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'About The Septic Guide | Expert Septic System Resources',
   description: 'Learn about The Septic Guide \u2014 your trusted resource for septic system installation, maintenance, and repair information.',
+  alternates: { canonical: 'https://theseptic.guide/about' },
 };
 
 export default function AboutPage() {

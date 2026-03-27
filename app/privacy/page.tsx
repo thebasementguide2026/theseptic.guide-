@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Privacy Policy | The Septic Guide',
   description: 'Privacy Policy for The Septic Guide — learn how we collect, use, and protect your information.',
+  alternates: { canonical: 'https://theseptic.guide/privacy' },
 };
 
 export default function PrivacyPage() {

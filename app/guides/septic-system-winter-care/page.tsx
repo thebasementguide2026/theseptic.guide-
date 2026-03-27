@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic System Winter Care 2026: How to Winterize, Prevent Freezing, and Recover | The Septic Guide',
   description: 'Septic system winter care covers winterization, freeze prevention, and spring recovery. Learn how to protect your septic tank, pipes, and drainfield from freezing temperatures.',
+  alternates: { canonical: 'https://theseptic.guide/guides/septic-system-winter-care' },
 }
 
 const faqSchema = {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'The Complete Guide to Septic Systems: How They Work, Types & What Every Homeowner Needs to Know (2026) | The Septic Guide',
   description: 'Over 21 million homes in the US rely on septic systems. Learn how they work, the different types, maintenance schedules, costs, and warning signs of failure.',
+  alternates: { canonical: 'https://theseptic.guide/articles/complete-septic-guide' },
 }
 
 const faqSchema = {

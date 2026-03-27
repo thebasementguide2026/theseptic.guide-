@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How Often Should You Pump Your Septic Tank? 2026 Schedule | The Septic Guide',
   description: 'Find your exact septic pumping schedule by tank size and household size. EPA-based table, factors that change your interval, and how to measure when your tank actually needs pumping.',
+  alternates: { canonical: 'https://theseptic.guide/articles/how-often-pump-septic-tank' },
 }
 
 const faqSchema = {

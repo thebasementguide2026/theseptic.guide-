@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Concrete vs Plastic vs Fiberglass Septic Tanks: Which Is Best? | The Septic Guide',
   description: 'Concrete septic tanks cost $800 to $2,000 and last 40+ years. Plastic costs $500 to $1,200. Fiberglass costs $1,200 to $2,000. Compare all three materials by cost, lifespan, durability, and site conditions.',
+  alternates: { canonical: 'https://theseptic.guide/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks' },
 }
 
 const faqSchema = {

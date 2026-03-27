@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Septic Tank Risers 2026: The Upgrade That Pays for Itself | The Septic Guide',
   description: 'A septic tank riser costs $100 to $400 and eliminates the $50 to $200 digging fee at every service visit. Compare the best riser kits, learn how to choose the right size, and whether to DIY or hire a pro.',
+  alternates: { canonical: 'https://theseptic.guide/reviews/best-septic-tank-risers' },
 }
 
 const faqSchema = {

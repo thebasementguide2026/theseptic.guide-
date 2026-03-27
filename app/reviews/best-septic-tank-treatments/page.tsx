@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Septic Tank Treatments 2026: What Actually Works and What\u0027s a Waste of Money | The Septic Guide',
   description: 'Honest reviews of the best septic tank treatments. Learn which bacteria-based products actually work, which are a waste of money, and when you should and shouldn\u0027t use them.',
+  alternates: { canonical: 'https://theseptic.guide/reviews/best-septic-tank-treatments' },
 }
 
 const faqSchema = {

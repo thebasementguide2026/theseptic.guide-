@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Septic System Repair Cost 2026: Every Repair Priced Out | The Septic Guide',
   description: 'Septic system repairs cost $600 to $3,000 on average. Complete pricing for every repair from $50 filter cleaning to $15,000 drainfield replacement.',
+  alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-system-repair-cost' },
 }
 
 const faqSchema = {
