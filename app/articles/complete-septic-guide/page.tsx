@@ -410,42 +410,42 @@ export default function CompleteSepticGuideArticle() {
               <span className='text-amber-700 font-bold mt-0.5'>1</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Slow drains throughout the house</h4>
-                <p className='text-slate-600 text-xs'>Not just one fixture &mdash; often indicates a full tank or developing blockage.</p>
+                <p className='text-slate-600 text-xs'>When multiple drains throughout the house are slow simultaneously, and not just one fixture, it typically indicates the septic tank is approaching capacity or a blockage has developed in the main inlet line. A single slow drain is usually a localized pipe issue. Slow drains throughout the house are a septic system signal. Have the tank inspected and pumped if it has been more than 3 years since the last service.</p>
               </div>
             </div>
             <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-lg'>
               <span className='text-amber-700 font-bold mt-0.5'>2</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Sewage backup into lowest drains</h4>
-                <p className='text-slate-600 text-xs'>Sign the tank is full or there is a blockage in the inlet line. Requires immediate attention.</p>
+                <p className='text-slate-600 text-xs'>Sewage backing up into the lowest drains in the house, typically basement floor drains or ground-floor toilets, is an emergency signal that the tank is full, the inlet line is blocked, or both. Do not use any water in the house until the system is serviced. Raw sewage backing up indoors is a health hazard. Call a septic professional the same day.</p>
               </div>
             </div>
             <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-lg'>
               <span className='text-amber-700 font-bold mt-0.5'>3</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Foul odor near the tank or drainfield</h4>
-                <p className='text-slate-600 text-xs'>Means effluent is surfacing or gases are not being properly contained.</p>
+                <p className='text-slate-600 text-xs'>Persistent sewage odors outside near the tank lid or over the drainfield area indicate that gases are escaping through a compromised cover, that effluent is surfacing through saturated drainfield soil, or that the tank is full and venting through the inlet line. Occasional brief odors after heavy rain are less concerning. Persistent odors that do not dissipate require professional inspection.</p>
               </div>
             </div>
             <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-lg'>
               <span className='text-amber-700 font-bold mt-0.5'>4</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Standing water or soggy soil over the drainfield</h4>
-                <p className='text-slate-600 text-xs'>Strong indicator that the drainfield is failing and the soil can no longer absorb effluent.</p>
+                <p className='text-slate-600 text-xs'>Persistently wet or spongy soil directly over the drainfield, particularly in dry weather when the rest of the yard is dry, is one of the most serious warning signs. It means the drainfield soil can no longer absorb effluent at the rate it is arriving, and partially treated wastewater is reaching the surface. This is a late-stage failure sign. The longer it continues, the more the soil biomat develops and the more expensive the eventual repair.</p>
               </div>
             </div>
             <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-lg'>
               <span className='text-amber-700 font-bold mt-0.5'>5</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Unusually green or lush grass over the drainfield</h4>
-                <p className='text-slate-600 text-xs'>Indicates effluent is reaching the surface and fertilizing the grass. This is not a good sign.</p>
+                <p className='text-slate-600 text-xs'>A band of noticeably greener, faster-growing grass directly over the drainfield trench lines, particularly in a dry period when surrounding grass is brown, indicates that nutrient-rich effluent is reaching the root zone at the surface. This is not a cosmetic issue. It means effluent is not being treated at the designed depth before reaching the surface. Have the system inspected promptly.</p>
               </div>
             </div>
             <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-lg'>
               <span className='text-amber-700 font-bold mt-0.5'>6</span>
               <div>
                 <h4 className='font-bold text-slate-900 text-sm'>Gurgling sounds in the plumbing</h4>
-                <p className='text-slate-600 text-xs'>Can indicate a full tank or venting issues, especially after flushing or running water.</p>
+                <p className='text-slate-600 text-xs'>Gurgling or bubbling sounds coming from drains or toilets after flushing or running water, particularly if heard in multiple fixtures, indicate that air is being displaced as the system backs up. This can signal a full tank, a blocked inlet baffle, or a venting problem. It typically appears before more serious symptoms develop and is worth investigating before it progresses.</p>
               </div>
             </div>
           </div>
