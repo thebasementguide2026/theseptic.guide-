@@ -408,6 +408,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/diswasher.jpg',
   },
+  {
+    title: 'Swimming Pools and Septic Systems: The Complete Homeowner\'s Guide',
+    description: 'Everything homeowners need to know about having a swimming pool and a septic system on the same property. Setback distances, backwash rules, saltwater pool impacts, draining safely, and pool party bather loads.',
+    slug: 'guides/swimming-pool-septic-system',
+    category: 'Guide',
+    readTime: '14 min read',
+    image: '/septicpool.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
