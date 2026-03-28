@@ -26,6 +26,7 @@ const guides = [
   { title: 'Septic System Permit Guide', href: '/guides/septic-system-permits', description: 'When do you need a septic permit, what triggers the requirement, how the application process works, what a perc test is, what permits cost, and what happens if you skip one.' },
   { title: 'Septic System Financial Assistance', href: '/guides/septic-system-financial-assistance', description: 'Federal grants, low-interest loans, and state-by-state programs that help homeowners pay for septic system repair and replacement. Who qualifies, how much is available, and exactly how to apply.' },
   { title: 'Swimming Pools and Septic Systems', href: '/guides/swimming-pool-septic-system', description: 'Everything homeowners need to know about having a swimming pool and a septic system on the same property. Setback distances, backwash rules, saltwater pool impacts, draining safely, and pool party bather loads.' },
+  { title: 'Hard Water and Septic Systems', href: '/guides/hard-water-septic-system', description: 'Hard water itself does not damage a septic system - but what you do to treat it can. Covers softener brine risks, hydraulic loading, sodium effects on drainfield soil, and the practices that protect both systems.' },
 ]
 
 export default function GuidesPage() {
