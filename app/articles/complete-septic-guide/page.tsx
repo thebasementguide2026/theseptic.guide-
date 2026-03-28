@@ -81,25 +81,24 @@ const faqSchema = {
   ],
 }
 
-const articleSchema
- = {
+const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'The Complete Guide to Septic Systems: How They Work, Types, and What Every Homeowner Needs to Know',
-  description: 'Over 21 million homes in the US rely on septic systems. Learn how they work, the different types, maintenance schedules, costs, and warning signs of failure.',
+  description: 'The complete reference guide to residential septic systems — how they work, the different types, maintenance schedules, warning signs of failure, costs, and lifespan. Written for the 21 million American households that rely on private septic systems.',
   image: 'https://theseptic.guide/septic1.jpg',
   datePublished: '2026-03-05',
-  dateModified: '2026-03-05',
+  dateModified: '2026-03-25',
   author: {
     '@type': 'Organization',
     name: 'The Septic Guide',
-    url: 'https://theseptic.guide',
   },
   publisher: {
     '@type': 'Organization',
     name: 'The Septic Guide',
     url: 'https://theseptic.guide',
   },
+  mainEntityOfPage: 'https://theseptic.guide/articles/complete-septic-guide',
 }
 
 export default function CompleteSepticGuideArticle() {
