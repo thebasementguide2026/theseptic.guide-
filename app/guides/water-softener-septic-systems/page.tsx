@@ -686,6 +686,15 @@ export default function WaterSoftenerSepticSystems() {
             </a>
           </div>
 
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <a href='https://well.guide/guides/hard-water-well' target='_blank' rel='noopener noreferrer' className='block p-4 rounded-lg border-l-4 hover:shadow-md transition-shadow' style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Hard Water in Wells: Treatment, Softeners, and the Iron Co-Occurrence Problem</h4>
+              <p className='text-slate-600 text-xs'>The well-side companion to this guide — covers hard water testing, treatment options, and the iron co-occurrence problem that affects softener performance and septic health.</p>
+              <span className='text-xs mt-2 inline-block' style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+          </div>
+
           <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>External Resources</h3>
           <div className='grid md:grid-cols-2 gap-6 mb-10'>
             <a href='https://wqa.org/advocacy/wqa-white-papers/water-softeners-and-septic-systems/' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
