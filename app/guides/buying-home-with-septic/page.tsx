@@ -529,6 +529,15 @@ export default function BuyingHomeWithSepticPage() {
               <p className="text-slate-600 text-sm mt-1">Homes with septic systems often also have sump pumps managing groundwater. Reviewed and ranked options for homeowners managing both systems after closing.</p>
             </a>
           </div>
+
+          <h3 className="text-lg font-semibold text-slate-800 mt-6 mb-4">Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="https://well.guide/guides/buying-house-with-well" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-5 border-l-4 hover:shadow-md transition-shadow" style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <h4 className="font-bold text-slate-900">Buying a House With a Well: The Complete Inspection and Negotiation Guide</h4>
+              <p className="text-slate-600 text-sm mt-1">If the property also has a private well, this companion guide covers water testing, pump inspection, and negotiation strategies specific to well systems.</p>
+              <span className="text-xs mt-2 inline-block" style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+          </div>
         </section>
 
                 {/* CTA */}
