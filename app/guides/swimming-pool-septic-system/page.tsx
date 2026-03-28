@@ -474,6 +474,18 @@ export default function SwimmingPoolSepticSystemPage() {
             </Link>
           </div>
 
+          <h2 className="text-xl font-bold text-[#2C3E50] mt-8 mb-4">Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
+            <a href="https://well.guide/problems/well-running-dry" target="_blank" rel="noopener noreferrer" className="block p-4 rounded-lg border-l-4 hover:shadow-md transition-shadow bg-white" style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <span className="text-[#1D9E75] font-semibold text-sm">Well Running Dry: Causes, Fixes, and When to Drill Deeper →</span>
+              <span className="block text-xs mt-1" style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+            <a href="https://well.guide/guides/complete-well-guide" target="_blank" rel="noopener noreferrer" className="block p-4 rounded-lg border-l-4 hover:shadow-md transition-shadow bg-white" style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <span className="text-[#1D9E75] font-semibold text-sm">The Complete Guide to Private Well Water Systems →</span>
+              <span className="block text-xs mt-1" style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+          </div>
+
         </div>
       </article>
 
