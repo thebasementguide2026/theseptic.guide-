@@ -124,6 +124,12 @@ export default function CompleteSepticGuideArticle() {
 
         {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
+        <div style={{ backgroundColor: '#E1F5EE', borderLeft: '4px solid #1D9E75' }} className='rounded-r-lg p-5 mb-8'>
+          <p className='text-sm text-slate-800 leading-relaxed'>
+            <strong>Quick answer:</strong> A septic system is a self-contained underground wastewater treatment system used by approximately 21 million American homes not connected to municipal sewer. Wastewater flows from the house into a buried tank where solids settle and bacteria begin breaking down waste, then the clarified liquid flows to a drainfield where soil microorganisms complete the treatment. The single most important maintenance task is pumping the tank every 3 to 5 years to prevent sludge overflow into the drainfield &mdash; the most expensive repair a septic owner faces. A well-maintained system lasts 25 to 30 years.
+          </p>
+        </div>
+
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
         </p>
