@@ -218,6 +218,65 @@ export default function CompleteSepticGuideArticle() {
               <p className='text-slate-700 text-sm'>Uses drip irrigation tubing at shallow depth to distribute effluent. Works on sites where traditional drainfields will not fit but requires a pump, timer, and filter.</p>
             </div>
           </div>
+          <h3 className='text-lg font-bold text-slate-900 mt-10 mb-4'>At a Glance: Septic System Types Compared</h3>
+          <div className='overflow-x-auto rounded-lg border border-slate-200'>
+            <table className='w-full text-sm text-left'>
+              <thead>
+                <tr className='bg-slate-100'>
+                  <th className='px-4 py-3 font-bold text-slate-900 whitespace-nowrap'>System Type</th>
+                  <th className='px-4 py-3 font-bold text-slate-900 whitespace-nowrap'>Typical Requirement</th>
+                  <th className='px-4 py-3 font-bold text-slate-900 whitespace-nowrap'>Installed Cost</th>
+                  <th className='px-4 py-3 font-bold text-slate-900 whitespace-nowrap'>Best For</th>
+                  <th className='px-4 py-3 font-bold text-slate-900 whitespace-nowrap'>Complexity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style={{ backgroundColor: '#E1F5EE' }}>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Conventional gravity-fed</td>
+                  <td className='px-4 py-3 text-slate-700'>Adequate soil at 18 to 36 inches</td>
+                  <td className='px-4 py-3 text-slate-700'>$3,000 &ndash; $8,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Standard lots with good soil</td>
+                  <td className='px-4 py-3 text-slate-700'>Low</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Chamber system</td>
+                  <td className='px-4 py-3 text-slate-700'>High water table or limited gravel availability</td>
+                  <td className='px-4 py-3 text-slate-700'>$4,000 &ndash; $10,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Tight lots, variable soil</td>
+                  <td className='px-4 py-3 text-slate-700'>Low</td>
+                </tr>
+                <tr style={{ backgroundColor: '#FAEEDA' }}>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Mound system</td>
+                  <td className='px-4 py-3 text-slate-700'>Shallow soil or high water table</td>
+                  <td className='px-4 py-3 text-slate-700'>$10,000 &ndash; $20,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Poor drainage, rocky soil</td>
+                  <td className='px-4 py-3 text-slate-700'>Moderate</td>
+                </tr>
+                <tr style={{ backgroundColor: '#FAEEDA' }}>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Aerobic Treatment Unit (ATU)</td>
+                  <td className='px-4 py-3 text-slate-700'>Small lots with poor soil</td>
+                  <td className='px-4 py-3 text-slate-700'>$10,000 &ndash; $20,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Limited space, strict discharge requirements</td>
+                  <td className='px-4 py-3 text-slate-700'>High</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Sand filter system</td>
+                  <td className='px-4 py-3 text-slate-700'>Sites needing extra treatment before drainfield</td>
+                  <td className='px-4 py-3 text-slate-700'>$8,000 &ndash; $15,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Near sensitive water bodies</td>
+                  <td className='px-4 py-3 text-slate-700'>Moderate</td>
+                </tr>
+                <tr style={{ backgroundColor: '#FAEEDA' }}>
+                  <td className='px-4 py-3 font-semibold text-slate-900'>Drip distribution</td>
+                  <td className='px-4 py-3 text-slate-700'>Sites where standard trenches will not fit</td>
+                  <td className='px-4 py-3 text-slate-700'>$10,000 &ndash; $20,000</td>
+                  <td className='px-4 py-3 text-slate-700'>Irregular lots, very shallow soil</td>
+                  <td className='px-4 py-3 text-slate-700'>High</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <p className='text-slate-700 leading-relaxed mt-6 text-sm'>For a head-to-head breakdown, see our guide on <Link href='/comparisons' className='text-amber-700 underline hover:text-amber-800'>conventional vs alternative septic systems</Link>.</p>
         </div>
 
