@@ -16,10 +16,10 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How does a septic system work in simple terms?',
+      name: 'How does a septic system work?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Wastewater from your house flows into a buried tank where solids settle to the bottom and grease floats to the top. Bacteria break down some of the solids. The clarified liquid in the middle flows out to a drainfield, a network of pipes in gravel trenches buried in your yard. As the liquid filters through the soil, natural microorganisms remove harmful bacteria and contaminants.',
+        text: 'Wastewater from every drain in your home flows by gravity into a buried septic tank, typically holding 1,000 to 1,500 gallons. Inside the tank, heavy solids sink to form a sludge layer at the bottom, oils and grease float to form a scum layer at the top, and clarified liquid called effluent sits between them. Anaerobic bacteria in the tank break down a portion of the solid waste continuously. The effluent flows out of the tank through a distribution box that divides it equally among the drainfield pipes — a network of perforated pipes buried in gravel-filled trenches. As the effluent percolates through the gravel and soil, naturally occurring microorganisms remove harmful bacteria, viruses, and nutrients before the water reaches the groundwater table.',
       },
     },
     {
@@ -27,7 +27,7 @@ const faqSchema = {
       name: 'How often should a septic tank be pumped?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Every three to five years for a typical household, according to the EPA. The exact timing depends on tank size, household size, water usage, and whether you use a garbage disposal.',
+        text: 'The EPA recommends pumping every 3 to 5 years for a typical household. The exact interval depends on tank size, number of people in the household, daily water usage, and whether a garbage disposal is used. A 1,000-gallon tank serving 4 people needs pumping approximately every 2.5 years. The same tank serving 2 people can go 5.5 years between pumpings. Skipping pumping is the single most common cause of drainfield failure — when sludge and scum accumulate past the tank\'s capacity, solids overflow into the drainfield pipes and clog them permanently. Pumping costs $300 to $600 for most residential tanks.',
       },
     },
     {
@@ -35,7 +35,7 @@ const faqSchema = {
       name: 'What are the signs of a failing septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The most common warning signs are slow drains throughout the house, sewage backing up into drains, foul odors in the yard near the tank or drainfield, standing water or soggy soil over the drainfield, unusually lush green grass over the drainfield, and gurgling sounds in the plumbing.',
+        text: 'The six most common warning signs are: slow drains throughout the house (not just one fixture), sewage backing up into the lowest drains in the house, foul odors near the septic tank or drainfield, standing water or persistently soggy soil over the drainfield area, unusually lush or green grass growing directly over the drainfield, and gurgling sounds in the plumbing after flushing or running water. The first signs are typically slow drains and odors. Standing water over the drainfield is a late-stage sign indicating the soil can no longer absorb effluent. Any of these signs warrant a professional inspection before a manageable repair becomes a full drainfield replacement costing $5,000 to $20,000.',
       },
     },
     {
@@ -43,7 +43,15 @@ const faqSchema = {
       name: 'How long does a septic system last?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A well-maintained conventional system typically lasts 25 to 30 years. Concrete tanks can last 40 years. The drainfield usually fails before the tank. Regular pumping, responsible use, and annual inspections are the biggest factors in extending your system lifespan.',
+        text: 'A well-maintained conventional septic system typically lasts 25 to 30 years. Concrete tanks often last 40 years or more. The drainfield is usually the first component to fail, and its lifespan depends heavily on maintenance practices. Systems that are pumped on schedule, used responsibly, and inspected regularly routinely reach 30 years. Systems that are never pumped, subject to heavy chemical use, or have vehicles driven over the drainfield may fail in 15 years or less. The pump, pressure switch, and other mechanical components have shorter lifespans of 10 to 15 years and require periodic replacement regardless of overall system condition.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much does it cost to replace a septic system?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A full septic system replacement costs $5,000 to $20,000 depending on system type, property conditions, and local labor rates. A conventional gravity-fed system replacement runs $3,000 to $8,000 installed. A mound system or aerobic treatment unit replacement runs $10,000 to $20,000. Drainfield replacement alone — the most common major repair — costs $5,000 to $15,000. Minor repairs such as replacing a pump, baffle, or distribution box run $200 to $1,500. The most cost-effective investment is preventing replacement through regular pumping ($300 to $600 every 3 to 5 years) and annual inspections ($100 to $300).',
       },
     },
     {
@@ -51,7 +59,7 @@ const faqSchema = {
       name: 'Can you have a garbage disposal with a septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, but it is not ideal. Garbage disposals significantly increase the amount of solids entering the tank, which means more frequent pumping and faster sludge accumulation. Many septic professionals recommend avoiding garbage disposals entirely or using them sparingly.',
+        text: 'Yes, but it significantly increases the solids load in the tank and shortens the pumping interval. A garbage disposal can increase the amount of solids entering the tank by 50 percent or more, meaning a household that would normally pump every 4 years may need to pump every 2 years instead. Many septic professionals recommend avoiding garbage disposals entirely or using them sparingly. If you use one, budget for more frequent pumping and ensure your tank is adequately sized for the additional load.',
       },
     },
     {
@@ -59,7 +67,15 @@ const faqSchema = {
       name: 'Do septic additives work?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The EPA does not recommend septic additives, and most septic professionals agree. A properly maintained septic system has all the bacteria it needs to function. Additives that claim to eliminate the need for pumping can actually harm your system by breaking up the sludge layer, causing solids to flow into the drainfield and clog it.',
+        text: 'The EPA does not recommend septic additives, and most peer-reviewed research does not support their effectiveness. A healthy, properly maintained septic system contains all the anaerobic bacteria it needs — these bacteria occur naturally in human waste and establish themselves without any supplementation. Some additives that break up the sludge layer can actually cause harm by suspending solids that then flow into the drainfield and clog the pipes. The best thing you can do for your system\'s bacterial health is avoid pouring antibacterial cleaners, bleach, or chemical drain cleaners down the drain in large quantities.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the difference between a septic tank and a sewer system?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A septic system treats your household wastewater entirely on your property using a buried tank and drainfield — you own the system and are responsible for all maintenance and repair costs. A municipal sewer system collects wastewater from many homes through underground pipes and treats it at a centralized wastewater treatment plant — you pay a monthly sewer fee but have no maintenance responsibility. Septic systems are common in rural and semi-rural areas where properties are too spread out to connect economically to a central sewer. The long-term cost of owning and maintaining a septic system is generally comparable to sewer fees over a 25 to 30-year system lifespan, though septic ownership requires active maintenance management that sewer users do not have to think about.',
       },
     },
   ],
@@ -512,32 +528,36 @@ export default function CompleteSepticGuideArticle() {
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
-              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How does a septic system work in simple terms?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Wastewater from your house flows into a buried tank where solids settle to the bottom and grease floats to the top. Bacteria break down some of the solids. The clarified liquid flows out to a drainfield &mdash; a network of pipes in gravel trenches. As the liquid filters through the soil, natural microorganisms remove harmful bacteria and contaminants.</div>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How does a septic system work?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Wastewater from every drain in your home flows by gravity into a buried septic tank, typically holding 1,000 to 1,500 gallons. Inside the tank, heavy solids sink to form a sludge layer at the bottom, oils and grease float to form a scum layer at the top, and clarified liquid called effluent sits between them. Anaerobic bacteria in the tank break down a portion of the solid waste continuously. The effluent flows out of the tank through a distribution box that divides it equally among the drainfield pipes &mdash; a network of perforated pipes buried in gravel-filled trenches. As the effluent percolates through the gravel and soil, naturally occurring microorganisms remove harmful bacteria, viruses, and nutrients before the water reaches the groundwater table.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How often should a septic tank be pumped?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Every three to five years for a typical household. The exact timing depends on tank size, household size, water usage, and whether you use a garbage disposal.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA recommends pumping every 3 to 5 years for a typical household. The exact interval depends on tank size, number of people in the household, daily water usage, and whether a garbage disposal is used. A 1,000-gallon tank serving 4 people needs pumping approximately every 2.5 years. The same tank serving 2 people can go 5.5 years between pumpings. Skipping pumping is the single most common cause of drainfield failure &mdash; when sludge and scum accumulate past the tank&rsquo;s capacity, solids overflow into the drainfield pipes and clog them permanently. Pumping costs $300 to $600 for most residential tanks.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What are the signs of a failing septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Slow drains throughout the house, sewage backing up into drains, foul odors near the tank or drainfield, standing water or soggy soil over the drainfield, unusually lush grass over the drainfield, and gurgling sounds in the plumbing.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The six most common warning signs are: slow drains throughout the house (not just one fixture), sewage backing up into the lowest drains in the house, foul odors near the septic tank or drainfield, standing water or persistently soggy soil over the drainfield area, unusually lush or green grass growing directly over the drainfield, and gurgling sounds in the plumbing after flushing or running water. The first signs are typically slow drains and odors. Standing water over the drainfield is a late-stage sign indicating the soil can no longer absorb effluent. Any of these signs warrant a professional inspection before a manageable repair becomes a full drainfield replacement costing $5,000 to $20,000.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How long does a septic system last?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A well-maintained conventional system typically lasts 25 to 30 years. Concrete tanks can last 40 years. Regular pumping, responsible use, and annual inspections are the biggest factors.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A well-maintained conventional septic system typically lasts 25 to 30 years. Concrete tanks often last 40 years or more. The drainfield is usually the first component to fail, and its lifespan depends heavily on maintenance practices. Systems that are pumped on schedule, used responsibly, and inspected regularly routinely reach 30 years. Systems that are never pumped, subject to heavy chemical use, or have vehicles driven over the drainfield may fail in 15 years or less. The pump, pressure switch, and other mechanical components have shorter lifespans of 10 to 15 years and require periodic replacement regardless of overall system condition.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to replace a septic system?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A full septic system replacement costs $5,000 to $20,000 depending on system type, property conditions, and local labor rates. A conventional gravity-fed system replacement runs $3,000 to $8,000 installed. A mound system or aerobic treatment unit replacement runs $10,000 to $20,000. Drainfield replacement alone &mdash; the most common major repair &mdash; costs $5,000 to $15,000. Minor repairs such as replacing a pump, baffle, or distribution box run $200 to $1,500. The most cost-effective investment is preventing replacement through regular pumping ($300 to $600 every 3 to 5 years) and annual inspections ($100 to $300).</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can you have a garbage disposal with a septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, but it is not ideal. Garbage disposals significantly increase solids in the tank, meaning more frequent pumping. Many professionals recommend avoiding them or using them sparingly.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, but it significantly increases the solids load in the tank and shortens the pumping interval. A garbage disposal can increase the amount of solids entering the tank by 50 percent or more, meaning a household that would normally pump every 4 years may need to pump every 2 years instead. Many septic professionals recommend avoiding garbage disposals entirely or using them sparingly. If you use one, budget for more frequent pumping and ensure your tank is adequately sized for the additional load.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Do septic additives work?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA does not recommend septic additives. A properly maintained system has all the bacteria it needs. Additives can actually harm your system by breaking up the sludge layer, causing solids to clog the drainfield.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA does not recommend septic additives, and most peer-reviewed research does not support their effectiveness. A healthy, properly maintained septic system contains all the anaerobic bacteria it needs &mdash; these bacteria occur naturally in human waste and establish themselves without any supplementation. Some additives that break up the sludge layer can actually cause harm by suspending solids that then flow into the drainfield and clog the pipes. The best thing you can do for your system&rsquo;s bacterial health is avoid pouring antibacterial cleaners, bleach, or chemical drain cleaners down the drain in large quantities.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What is the difference between a septic tank and a sewer system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A septic system treats wastewater on your property using a buried tank and drainfield &mdash; you own and maintain it. A municipal sewer collects wastewater from many homes and treats it at a centralized plant, and you pay a sewer fee.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A septic system treats your household wastewater entirely on your property using a buried tank and drainfield &mdash; you own the system and are responsible for all maintenance and repair costs. A municipal sewer system collects wastewater from many homes through underground pipes and treats it at a centralized wastewater treatment plant &mdash; you pay a monthly sewer fee but have no maintenance responsibility. Septic systems are common in rural and semi-rural areas where properties are too spread out to connect economically to a central sewer. The long-term cost of owning and maintaining a septic system is generally comparable to sewer fees over a 25 to 30-year system lifespan, though septic ownership requires active maintenance management that sewer users do not have to think about.</div>
             </details>
           </div>
         </div>
