@@ -528,52 +528,80 @@ export default function CompleteSepticGuideArticle() {
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>Septic System Glossary</h2>
           <div className='grid md:grid-cols-2 gap-x-8 gap-y-3'>
             <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
+              <dt className='font-bold text-slate-900 text-sm'>Aerobic Bacteria</dt>
+              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function, used in aerobic treatment units (ATUs) for enhanced waste breakdown.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
-            </div>
-            <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
-            </div>
-            <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
-            </div>
-            <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-Box)</dt>
-              <dd className='text-slate-600 text-xs'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
+              <dt className='font-bold text-slate-900 text-sm'>Aerobic Treatment Unit (ATU)</dt>
+              <dd className='text-slate-600 text-xs'>An advanced septic system that injects air into the treatment tank to support aerobic bacteria &mdash; organisms that break down waste much more efficiently than the anaerobic bacteria in a conventional septic tank. ATUs produce higher quality effluent and are used on smaller lots, properties with poor soil conditions, or sites with strict effluent quality requirements. They require more maintenance than conventional systems and cost $10,000 to $20,000 installed.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
               <dd className='text-slate-600 text-xs'>Bacteria that break down waste without oxygen, found inside the septic tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Aerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that require oxygen to function, used in aerobic treatment units (ATUs) for enhanced waste breakdown.</dd>
-            </div>
-            <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Perc Test (Percolation Test)</dt>
-              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains, used to determine if a site is suitable for a septic drainfield.</dd>
-            </div>
-            <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
               <dd className='text-slate-600 text-xs'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
+              <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
+              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Cesspool</dt>
+              <dd className='text-slate-600 text-xs'>An older type of onsite wastewater disposal system consisting of a covered pit or perforated underground tank that receives raw household sewage and allows liquids to leach directly into surrounding soil without pretreatment. Unlike a septic system, a cesspool has no separate drainfield and provides minimal treatment before waste contacts soil. Cesspools are prohibited in new construction in all US states and are being phased out or required to be replaced with proper septic systems in many jurisdictions.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Conventional System</dt>
+              <dd className='text-slate-600 text-xs'>The most common residential septic system design, in which wastewater flows by gravity from the house to the septic tank and from the tank to the drainfield without any pumping. Conventional systems require adequate soil depth and percolation rates and are the least expensive and easiest to maintain of all septic system types.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-Box)</dt>
+              <dd className='text-slate-600 text-xs'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
+              <dd className='text-slate-600 text-xs'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
+              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Greywater</dt>
               <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, and laundry &mdash; everything except toilet waste.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
-              <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens.</dd>
+              <dt className='font-bold text-slate-900 text-sm'>Mound System</dt>
+              <dd className='text-slate-600 text-xs'>A septic system design used when the natural soil is too shallow, too wet, or too slowly draining to support a conventional below-ground drainfield. The drainfield is constructed above the natural soil surface within an engineered mound of imported sand fill, and a pump chamber delivers effluent from the tank to the mound at timed intervals. Mound systems cost $10,000 to $20,000 installed.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Perc Test (Percolation Test)</dt>
+              <dd className='text-slate-600 text-xs'>A soil test that measures how quickly water drains, used to determine if a site is suitable for a septic drainfield.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Pump Chamber</dt>
+              <dd className='text-slate-600 text-xs'>A watertight chamber installed between the septic tank and the drainfield in systems that cannot rely on gravity alone &mdash; typically mound systems and drip distribution systems. The pump chamber contains a submersible effluent pump that delivers measured doses of effluent to the drainfield on a timed schedule. The pump requires inspection and replacement every 7 to 15 years.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Reserve Area</dt>
+              <dd className='text-slate-600 text-xs'>A designated area of undisturbed land on a property, identified at the time of septic system permitting, set aside for drainfield expansion or replacement if the primary drainfield fails. Most states require a reserve area equal to 50 to 100 percent of the primary drainfield size. Building structures, pools, or driveways on the reserve area eliminates the most cost-effective future repair option and may be prohibited by local code.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
+              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
+              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Septic Tank</dt>
+              <dd className='text-slate-600 text-xs'>The buried, watertight primary treatment container in a septic system, typically made of concrete, fiberglass, or polyethylene and holding 1,000 to 1,500 gallons for a residential property. The tank receives all wastewater from the home, separates solids from liquids through settling, and provides the anaerobic bacterial environment that begins breaking down organic waste. The tank requires pumping every 3 to 5 years to remove accumulated sludge and scum.</dd>
+            </div>
+            <div className='border-b border-slate-100 pb-3'>
+              <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
+              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
             </div>
           </div>
         </div>
