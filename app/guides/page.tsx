@@ -25,6 +25,7 @@ const guides = [
   { title: 'Safe Trees to Plant Near a Septic System', href: '/guides/safe-trees-near-septic-system', description: 'Most trees threaten septic systems, but some species with compact, non-aggressive root systems can be planted at the right distances. Species-by-species guide with exact clearance distances and privacy screening solutions.' },
   { title: 'Septic System Permit Guide', href: '/guides/septic-system-permits', description: 'When do you need a septic permit, what triggers the requirement, how the application process works, what a perc test is, what permits cost, and what happens if you skip one.' },
   { title: 'Septic System Financial Assistance', href: '/guides/septic-system-financial-assistance', description: 'Federal grants, low-interest loans, and state-by-state programs that help homeowners pay for septic system repair and replacement. Who qualifies, how much is available, and exactly how to apply.' },
+  { title: 'Swimming Pools and Septic Systems', href: '/guides/swimming-pool-septic-system', description: 'Everything homeowners need to know about having a swimming pool and a septic system on the same property. Setback distances, backwash rules, saltwater pool impacts, draining safely, and pool party bather loads.' },
 ]
 
 export default function GuidesPage() {
