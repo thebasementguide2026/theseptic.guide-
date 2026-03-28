@@ -530,6 +530,8 @@ export default function BuyingHomeWithSepticPage() {
             </a>
           </div>
 
+          <p className="text-slate-600 text-sm mt-4">If the property also has a private well, see our guide on <a href='/guides/swimming-pool-septic-system' className='underline' style={{ color: '#1D9E75' }}>swimming pools and septic systems</a> for how a pool on the same property affects the septic system &mdash; a common scenario on rural and semi-rural properties with both systems.</p>
+
           <h3 className="text-lg font-semibold text-slate-800 mt-6 mb-4">Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
           <div className="grid md:grid-cols-2 gap-4">
             <a href="https://www.thewell.guide/guides/buying-house-with-well" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-5 border-l-4 hover:shadow-md transition-shadow" style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
