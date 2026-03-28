@@ -379,7 +379,7 @@ export default function CompleteSepticGuideArticle() {
               </ul>
             </div>
             <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-              <p className='text-red-900 font-bold mb-2 text-sm'>Never 308
+              <p className='text-red-900 font-bold mb-2 text-sm'>Never Flush
                 
               </p>
               <ul className='space-y-1 text-red-800 text-xs'>
