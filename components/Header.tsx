@@ -23,6 +23,7 @@ const navItems = [
       { label: 'Septic System Permits', href: '/guides/septic-system-permits' },
       { label: 'Financial Assistance', href: '/guides/septic-system-financial-assistance' },
       { label: 'Never Pump Your Septic Tank', href: '/articles/what-happens-if-you-never-pump-septic-tank' },
+      { label: 'Swimming Pools & Septic', href: '/guides/swimming-pool-septic-system' },
     ],
   },
   {
