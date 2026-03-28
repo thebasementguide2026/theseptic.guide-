@@ -416,6 +416,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/septicpool.jpg',
   },
+  {
+    title: 'How Hard Water Affects Your Septic System: What Homeowners Actually Need to Know',
+    description: 'Hard water itself does not damage a septic system - but what you do to treat it can. Covers softener brine risks, hydraulic loading, sodium effects on drainfield soil, aerobic system differences, and the practices that protect both systems.',
+    slug: 'guides/hard-water-septic-system',
+    category: 'Guide',
+    readTime: '13 min read',
+    image: '/hard-water-septic-system.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
