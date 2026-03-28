@@ -536,15 +536,15 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Anaerobic Bacteria</dt>
-              <dd className='text-slate-600 text-xs'>Bacteria that break down waste without oxygen, found inside the septic tank.</dd>
+              <dd className='text-slate-600 text-xs'>Bacteria that break down waste without oxygen, found inside the septic tank. Anaerobic bacteria are the primary treatment organisms in a conventional septic system, breaking down organic solids in the sludge layer continuously. They occur naturally in human waste and establish themselves in the tank without any additives or supplementation. While anaerobic bacteria reduce sludge volume over time, they cannot eliminate it entirely, which is why the tank requires pumping every 3 to 5 years.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank.</dd>
+              <dd className='text-slate-600 text-xs'>A device inside the septic tank that directs wastewater flow and prevents solids or scum from exiting the tank prematurely. The inlet baffle slows incoming wastewater so it does not disturb the settled sludge layer. The outlet baffle prevents the floating scum layer from flowing out of the tank into the drainfield. Failed or missing baffles are one of the most common causes of premature drainfield failure and are checked during a standard septic inspection.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Blackwater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from toilets containing human waste and pathogens. Blackwater carries the highest concentration of disease-causing organisms of any household wastewater stream and requires the full treatment process of the septic tank and drainfield before it can safely enter the soil. Blackwater is distinct from greywater, which comes from sinks, showers, and laundry and contains lower pathogen levels.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Cesspool</dt>
@@ -556,19 +556,19 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-Box)</dt>
-              <dd className='text-slate-600 text-xs'>A small box that evenly distributes effluent from the tank to the drainfield lines.</dd>
+              <dd className='text-slate-600 text-xs'>A small concrete or plastic box installed between the septic tank and the drainfield that receives effluent from the tank outlet and divides it equally among the drainfield pipe runs. Equal distribution is essential for even loading of the drainfield soil. If one pipe run receives more effluent than others, that section of the drainfield can become saturated and fail prematurely while the rest remains underused. A tilted, cracked, or clogged D-box is a common cause of uneven drainfield loading and is inspected during a professional septic inspection.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>A network of perforated pipes in gravel trenches where effluent is filtered through soil for final treatment.</dd>
+              <dd className='text-slate-600 text-xs'>A network of perforated pipes buried in gravel-filled trenches where effluent from the septic tank is slowly released into the surrounding soil for final treatment. As effluent percolates through the gravel and soil, naturally occurring microorganisms remove harmful bacteria, viruses, and excess nutrients before the water reaches the groundwater table. The drainfield is the most expensive component of the septic system to repair or replace, typically costing $5,000 to $15,000, and its lifespan depends heavily on regular tank pumping and responsible household water use.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
-              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield.</dd>
+              <dd className='text-slate-600 text-xs'>The partially treated liquid that flows out of the septic tank and into the drainfield for final treatment. Effluent is the clarified middle layer of the tank, sitting between the floating scum layer above and the settled sludge layer below. It still contains dissolved nutrients, pathogens, and organic compounds that require soil treatment before they can safely reach groundwater. The quality of effluent leaving the tank depends on how well the tank is maintained. A tank with excessive sludge buildup produces lower quality effluent with more suspended solids that can clog the drainfield.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Greywater</dt>
-              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, and laundry &mdash; everything except toilet waste.</dd>
+              <dd className='text-slate-600 text-xs'>Wastewater from sinks, showers, bathtubs, and laundry, which is everything except toilet waste. Greywater contains lower concentrations of pathogens than blackwater but still carries soaps, detergents, food particles, skin cells, and other organic material that requires treatment. In a standard septic system, greywater and blackwater are combined and treated together. Some alternative systems separate greywater for simpler treatment or reuse, but this requires specific permits and design in most jurisdictions.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Mound System</dt>
@@ -588,11 +588,11 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level for easy access during inspections and pumping.</dd>
+              <dd className='text-slate-600 text-xs'>A vertical pipe extending from the septic tank lid to ground level, allowing easy access to the tank for pumping and inspections without excavating the yard. Risers are typically made of concrete, fiberglass, or PVC and are capped with a secure lid at the surface. Without a riser, a pump truck must locate and excavate the buried tank lid each visit, adding $50 to $200 to the service cost. Installing risers on a tank that does not have them costs $200 to $600 and pays for itself within a few service visits.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the tank.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of fats, oils, and grease that floats on top of the wastewater in the septic tank. The scum layer forms because these materials are less dense than water and naturally rise to the surface. The outlet baffle prevents scum from flowing out of the tank into the drainfield, where it would clog the pipes and gravel bed. When the scum layer becomes thick enough to reach the outlet baffle, it can begin escaping into the drainfield, which is one reason why regular pumping before this threshold is reached is essential.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Septic Tank</dt>
@@ -600,7 +600,7 @@ export default function CompleteSepticGuideArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time.</dd>
+              <dd className='text-slate-600 text-xs'>The layer of solid waste that settles at the bottom of the septic tank over time. Sludge accumulates as heavy solids from household wastewater sink to the tank floor and are partially broken down by anaerobic bacteria. The bacteria reduce sludge volume but cannot eliminate it, so the layer grows gradually with each use of the system. When sludge builds up to within 12 inches of the outlet baffle, it can begin flowing into the drainfield and causing permanent clogging, which is the most common and most preventable cause of drainfield failure.</dd>
             </div>
           </div>
         </div>
