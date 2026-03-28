@@ -678,6 +678,15 @@ export default function PlantsSepticSystem() {
               <p className='text-sm text-[#5A6B7A]'>What it costs when drainfield damage from roots or compaction reaches the point of requiring replacement.</p>
             </Link>
           </div>
+
+          <h3 className='text-xl font-bold text-[#2C3E50] mt-8 mb-4'>Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            <a href='https://well.guide/guides/well-water-treatment-options' target='_blank' rel='noopener noreferrer' className='bg-white rounded-xl p-5 shadow-sm border-l-4 hover:shadow-md transition-shadow' style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <h3 className='text-base font-bold text-[#2C3E50] mb-1'>Well Water Treatment Options: The Complete Guide</h3>
+              <p className='text-sm text-[#5A6B7A]'>Treatment systems that affect what enters your septic system — understanding the upstream water source helps protect the downstream drainfield.</p>
+              <span className='text-xs mt-2 inline-block' style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+          </div>
         </section>
 
         {/* Lead Form */}
