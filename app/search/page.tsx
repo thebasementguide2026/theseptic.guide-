@@ -4,11 +4,6 @@ import { useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 import Link from 'next/link'
 import { searchArticles } from '@/lib/articles'
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  alternates: { canonical: 'https://theseptic.guide/search' },
-}
 
 function getArticleHref(slug: string): string {
   if (slug.includes('/')) return `/${slug}`
