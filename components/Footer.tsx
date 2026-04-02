@@ -118,6 +118,7 @@ export default function Footer() {
           <p className='text-slate-500 text-xs'>
             © {new Date().getFullYear()} The Septic Guide. All rights reserved.
           </p>
+          <p className='text-slate-500 text-xs'>Part of <a href='https://thehome.guide' className='hover:text-slate-300'>The Home Guide Network</a></p>
           <div className='flex gap-4'>
             <Link href='/privacy' className='text-slate-500 hover:text-slate-300 text-xs'>Privacy Policy</Link>
             <Link href='/terms' className='text-slate-500 hover:text-slate-300 text-xs'>Terms of Use</Link>
