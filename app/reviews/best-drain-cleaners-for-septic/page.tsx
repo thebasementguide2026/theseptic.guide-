@@ -5,8 +5,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Drain Cleaners for Septic Systems (2026): 5 Safe Picks That Won\u2019t Kill Your Tank',
-  description: 'The best drain cleaner for a septic system is an enzyme-based product that digests clogs without harming tank bacteria. Compare 5 septic-safe picks.',
+  title: 'Best Septic-Safe Drain Cleaners 2026: What\'s Actually Safe and What Isn\'t | The Septic Guide',
+  description: 'The best drain cleaners that are safe for septic systems. Enzyme-based picks that won\'t kill your tank bacteria, chemical cleaners to avoid, and what septic-friendly actually means on a label.',
   alternates: { canonical: 'https://theseptic.guide/reviews/best-drain-cleaners-for-septic' },
 }
 
