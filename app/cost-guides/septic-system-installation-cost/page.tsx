@@ -5,8 +5,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Septic System Installation Cost 2026: Complete Price Breakdown by Type | The Septic Guide',
-  description: 'A new septic system costs $3,000 to $20,000 installed. Complete price breakdown by system type, cost components, tank materials, hidden costs, and how to save money.',
+  title: 'Septic Tank & Drainfield Installation Cost 2026: Complete Price Breakdown | The Septic Guide',
+  description: 'How much does it cost to install a septic system? New septic tank and drainfield installation costs $3,000 to $20,000 depending on system type, soil conditions, and location.',
   alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-system-installation-cost' },
 }
 
