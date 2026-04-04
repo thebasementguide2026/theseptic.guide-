@@ -5,8 +5,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Septic System Repair Cost 2026: Every Repair Priced Out | The Septic Guide',
-  description: 'Septic system repairs cost $600 to $3,000 on average. Complete pricing for every repair from $50 filter cleaning to $15,000 drainfield replacement.',
+  title: 'Septic Tank & Drain Field Repair Cost 2026: Every Repair Priced | The Septic Guide',
+  description: 'Septic tank repair costs $500 to $3,000. Drain field repair runs $1,500 to $20,000 depending on damage. Covers baffle replacement, pump repair, root removal, and full drainfield restoration.',
   alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-system-repair-cost' },
 }
 
