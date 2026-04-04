@@ -5,8 +5,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'Drainfield Replacement Cost 2026: What to Expect and How to Save | The Septic Guide',
-  description: 'Drainfield replacement costs $5,000 to $15,000 for a conventional system. Mound system replacement costs $10,000 to $20,000. Complete cost breakdown, rejuvenation vs replacement, and how to save money.',
+  title: 'Drain Field Replacement Cost 2026: Average Prices & Full Breakdown | The Septic Guide',
+  description: 'Drain field replacement costs $5,000 to $20,000 on average. New drainfield installation, partial repair, and alternative system costs compared with what drives the price in your area.',
   alternates: { canonical: 'https://theseptic.guide/cost-guides/drainfield-replacement-cost' },
 }
 
