@@ -209,6 +209,7 @@ export default function SepticMaintenanceChecklistPage() {
             <p className="text-gray-700">If your system has any electrical component&mdash;a pump, aerator, alarm, float switch, or timer&mdash;it needs annual professional inspection. Conventional gravity-fed systems can go every 3 years between professional inspections as long as you do the seasonal checks in this guide.</p>
           </div>
           <p className="text-gray-500 text-sm mt-4">Learn more about the differences in our <Link href="/comparisons/aerobic-vs-anaerobic-septic-systems" className="text-amber-600 underline">aerobic vs anaerobic septic systems comparison</Link>.</p>
+          <p className="text-gray-500 text-sm mt-2">If your home has an aerobic treatment unit, see our dedicated <Link href="/guides/aerobic-septic-system-maintenance" className="text-amber-600 underline">aerobic septic system maintenance guide</Link> for the full quarterly service schedule, chlorine management, and aerator replacement timeline.</p>
         </section>
 
         {/* Spring Checklist */}
