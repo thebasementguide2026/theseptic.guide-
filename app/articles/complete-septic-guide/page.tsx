@@ -206,7 +206,8 @@ export default function CompleteSepticGuideArticle() {
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Aerobic Treatment Unit (ATU)</h3>
               <p className='text-slate-700 text-sm mb-2'>Injects oxygen into the treatment tank, supporting aerobic bacteria that break down waste much more efficiently. Common on smaller lots or properties with poor soil.</p>
-              <p className='text-amber-700 font-semibold text-sm'>Installation: $10,000 &ndash; $20,000</p>
+              <p className='text-amber-700 font-semibold text-sm mb-2'>Installation: $10,000 &ndash; $20,000</p>
+              <p className='text-slate-700 text-sm'>Aerobic system owners have significantly different maintenance obligations than conventional septic owners. See our <Link href='/guides/aerobic-septic-system-maintenance' className='text-amber-700 underline hover:text-amber-800'>aerobic septic system maintenance guide</Link> for the complete owner&apos;s schedule.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Sand Filter System</h3>
