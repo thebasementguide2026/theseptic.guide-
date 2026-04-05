@@ -424,6 +424,14 @@ export const articles: Article[] = [
     readTime: '13 min read',
     image: '/hard-water-septic-system.jpg',
   },
+  {
+    title: 'Aerobic Septic System Maintenance: The Complete Owner\'s Guide',
+    description: 'Complete aerobic septic system maintenance guide. Quarterly inspection schedule, chlorine tablets, aerator care, alarm troubleshooting, and what requires a licensed provider vs what you can do yourself.',
+    slug: 'guides/aerobic-septic-system-maintenance',
+    category: 'Guide',
+    readTime: '14 min read',
+    image: '/Aerobic septic maintenance.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
