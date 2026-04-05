@@ -25,6 +25,7 @@ const footerSections = [
       { label: 'Never Pump Your Septic Tank', href: '/articles/what-happens-if-you-never-pump-septic-tank' },
       { label: 'Swimming Pools and Septic', href: '/guides/swimming-pool-septic-system' },
       { label: 'Hard Water and Septic', href: '/guides/hard-water-septic-system' },
+      { label: 'Aerobic System Maintenance', href: '/guides/aerobic-septic-system-maintenance' },
     ],
   },
   {
