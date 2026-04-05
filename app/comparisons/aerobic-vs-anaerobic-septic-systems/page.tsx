@@ -291,6 +291,7 @@ export default function AerobicVsAnaerobicArticle() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg mt-6'>
             <p className='text-slate-700 font-medium text-sm'>The aerator runs continuously. Expect to hear a low hum similar to a refrigerator compressor. If the hum stops, check the aerator immediately &mdash; silence means the system isn&apos;t getting oxygen.</p>
           </div>
+          <p className='text-slate-700 text-sm mt-6'>For a complete breakdown of what aerobic system ownership actually requires month to month, see our <Link href='/guides/aerobic-septic-system-maintenance' className='text-amber-700 underline hover:text-amber-900'>aerobic septic system maintenance guide</Link>.</p>
         </div>
 
                 {/* Anaerobic Pros and Cons */}
