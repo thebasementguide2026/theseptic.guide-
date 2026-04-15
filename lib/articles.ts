@@ -393,6 +393,14 @@ export const articles: Article[] = [
     image: '/cesspool.jpg',
   },
   {
+    title: 'Holding Tank vs Septic Tank: Key Differences, Costs, and Which One You Need',
+    description: 'Holding tank vs septic tank: understand the key differences, 10-year cost of ownership, when each system makes sense, and which one your property actually needs.',
+    slug: 'comparisons/holding-tank-vs-septic-tank',
+    category: 'Comparison',
+    readTime: '18 min read',
+    image: '/Holding tank vs septic tank .jpg',
+  },
+  {
     title: 'Best Septic Tank Effluent Filters 2026: Protect Your Drainfield for Under $100',
     description: 'Honest reviews of the four best septic tank effluent filters available on Amazon — Polylok PL-122, Zabel A1800, SimTech STF-110, and Tuf-Tite EF-4 — with specs, pros, cons, and a plain-English explanation of why every septic tank should have one.',
     slug: 'reviews/best-septic-tank-effluent-filters',
