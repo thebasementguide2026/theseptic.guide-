@@ -528,7 +528,7 @@ export default function BestSepticTankTreatments() {
                 <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Dos and Donts</h3>
                 <p className='text-slate-600 text-xs'>Essential rules for protecting your septic system.</p>
               </Link>
-              <Link href='/articles/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/maintenance/septic-system-maintenance-checklist' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Maintenance Checklist</h3>
                 <p className='text-slate-600 text-xs'>A complete maintenance schedule to keep your system healthy.</p>
               </Link>
