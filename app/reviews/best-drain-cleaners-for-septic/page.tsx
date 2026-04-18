@@ -59,7 +59,7 @@ const faqSchema = {
       name: 'How often should I use an enzyme drain cleaner with a septic system?',
       acceptedAnswer: {
         '@type': 'Answer',
-                text: 'For preventive maintenance, use an enzyme drain cleaner once per month in each major drain in your home kitchen sink, bathroom sink, shower or tub, and laundry drain. Pour the recommended dose at night before bed so the enzymes have 6 to 8 hours of uninterrupted contact time with pipe walls while no water is running. If you are dealing with an active slow drain, increase frequency to nightly applications for 3 to 5 consecutive nights, then taper to weekly for 2 weeks, then switch to monthly maintenance once flow is fully restored. For homes with garbage disposals on septic systems, bi-weekly treatment of the kitchen drain is recommended because food waste creates heavier organic buildup than other drains. Monthly enzyme drain maintenance combined with a monthly septic tank treatment like RID-X provides comprehensive protection for both your pipes and your tank. The total annual cost of this combined approach is $50 to $100, which is negligible compared to the cost of a single professional drain clearing visit at $150 to $300.',
+                text: 'For preventive maintenance, use an enzyme drain cleaner once per month in each major drain in your home kitchen sink, bathroom sink, shower or tub, and laundry drain. Pour the recommended dose at night before bed so the enzymes have 6 to 8 hours of uninterrupted contact time with pipe walls while no water is running. If you are dealing with an active <a href="/problems/slow-drains">slow drain</a>, increase frequency to nightly applications for 3 to 5 consecutive nights, then taper to weekly for 2 weeks, then switch to monthly maintenance once flow is fully restored. For homes with garbage disposals on septic systems, bi-weekly treatment of the kitchen drain is recommended because food waste creates heavier organic buildup than other drains. Monthly enzyme drain maintenance combined with a monthly septic tank treatment like RID-X provides comprehensive protection for both your pipes and your tank. The total annual cost of this combined approach is $50 to $100, which is negligible compared to the cost of a single professional drain clearing visit at $150 to $300.',
       },
     },
   ],
@@ -180,7 +180,7 @@ export default function BestDrainCleanersPage() {
             Chemical drain cleaners like Drano, Liquid-Plumr, and store-brand lye-based products contain sodium hydroxide or sulfuric acid. These chemicals dissolve clogs quickly, but they also kill the beneficial bacteria colonies inside your septic tank that are responsible for breaking down solid waste.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Without healthy bacteria, solids accumulate faster, scum layers thicken, and your drain field can become clogged with undigested material. The result is often thousands of dollars in repairs or a complete system replacement that can exceed $15,000.
+            Without healthy bacteria, solids accumulate faster, scum layers thicken, and your drain field can become clogged with undigested material. The result is often thousands of dollars in repairs or a complete system replacement that can exceed $15,000. Homes with repeatedly poisoned bacterial colonies are also far more likely to experience a <Link href="/problems/tank-backing-up" className="text-amber-700 underline hover:text-amber-800">septic tank backing up</Link> into sinks, tubs, or floor drains.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
 
@@ -196,6 +196,7 @@ export default function BestDrainCleanersPage() {
               <li className="flex items-start gap-2"><span className="text-red-600 mt-1">&#10005;</span> Bleach-based cleaners (sodium hypochlorite)</li>
               <li className="flex items-start gap-2"><span className="text-red-600 mt-1">&#10005;</span> Copper sulfate root killers (damages tank biology)</li>
             </ul>
+            <p className="text-gray-700 text-sm mt-4">For a complete list of products that should never go into a septic system &mdash; including cleaners, wipes, food waste, and common household items &mdash; see our guide to <Link href="/articles/what-can-cannot-flush-septic-system" className="text-amber-700 underline hover:text-amber-800">what you can and cannot flush with a septic system</Link>.</p>
           </div>
         </section>
 
@@ -337,7 +338,7 @@ export default function BestDrainCleanersPage() {
             </div>
             <p className="text-amber-600 font-semibold mb-4">Best for Monthly Septic Maintenance</p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              RID-X has been the go-to septic maintenance product for over 50 years. Its formula contains a balanced blend of natural bacteria and enzymes specifically selected to break down household waste including proteins, fats, oils, grease, and paper. While primarily marketed as a septic tank treatment, it also helps keep drain lines clear by maintaining healthy bacterial activity throughout your plumbing system.
+              RID-X has been the go-to septic maintenance product for over 50 years. Its formula contains a balanced blend of natural bacteria and enzymes specifically selected to break down household waste including proteins, fats, oils, grease, and paper. While primarily marketed as a <Link href="/reviews/best-septic-tank-treatments" className="text-amber-700 underline hover:text-amber-800">septic tank treatment</Link>, it also helps keep drain lines clear by maintaining healthy bacterial activity throughout your plumbing system.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               The monthly treatment approach makes RID-X ideal for homeowners who want a set-it-and-forget-it maintenance routine. Simply flush one dose per month to keep your entire system running smoothly. It is also one of the most affordable options, typically costing under $10 for a single treatment or around $20 for a 3-month supply.
@@ -529,7 +530,7 @@ export default function BestDrainCleanersPage() {
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform text-xl">+</span>
                 </summary>
                 <div className="px-5 pb-5 text-gray-700 leading-relaxed">
-                  {faq.acceptedAnswer.text}
+                  <span dangerouslySetInnerHTML={{ __html: faq.acceptedAnswer.text }} />
                 </div>
               </details>
             ))}
