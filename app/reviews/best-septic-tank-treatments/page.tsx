@@ -390,7 +390,7 @@ export default function BestSepticTankTreatments() {
             </div>
             <div className='flex items-start gap-3 p-4 bg-green-50 border border-green-200 rounded-lg'>
               <span className='text-green-700 font-bold text-sm mt-0.5'>&#10003;</span>
-              <p className='text-slate-700 text-sm'><strong>Older or struggling systems.</strong> If your system is showing early signs of stress (mild odors, slightly slow drains, sluggish drainfield) but hasn&apos;t failed, biological treatments combined with proper maintenance may help stabilize performance.</p>
+              <p className='text-slate-700 text-sm'><strong>Older or struggling systems.</strong> If your system is showing early signs of stress (mild odors, slightly <Link href='/problems/slow-drains' className='text-amber-700 underline hover:text-amber-800'>slow drains</Link>, sluggish drainfield) but hasn&apos;t failed, biological treatments combined with proper maintenance may help stabilize performance. Pairing treatment with a basic <Link href='/reviews/best-septic-system-alarms' className='text-amber-700 underline hover:text-amber-800'>septic system alarm</Link> helps catch problems early before they become costly repairs.</p>
             </div>
           </div>
         </div>
@@ -405,7 +405,7 @@ export default function BestSepticTankTreatments() {
           <div className='space-y-3'>
             <div className='flex items-start gap-3 p-4 bg-slate-50 border border-slate-200 rounded-lg'>
               <span className='text-red-700 font-bold text-sm mt-0.5'>&#10007;</span>
-              <p className='text-slate-700 text-sm'><strong>A full tank that needs pumping.</strong> No additive can substitute for mechanical removal of sludge. If your tank is full, pump it. See our <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800'>pumping schedule guide</Link>.</p>
+              <p className='text-slate-700 text-sm'><strong>A full tank that needs pumping.</strong> No additive can substitute for mechanical removal of sludge. If your tank is full, pump it. If your tank is already <Link href='/problems/tank-backing-up' className='text-amber-700 underline hover:text-amber-800'>backing up</Link>, treatment will not help &mdash; see our <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800'>pumping schedule guide</Link>.</p>
             </div>
             <div className='flex items-start gap-3 p-4 bg-slate-50 border border-slate-200 rounded-lg'>
               <span className='text-red-700 font-bold text-sm mt-0.5'>&#10007;</span>
