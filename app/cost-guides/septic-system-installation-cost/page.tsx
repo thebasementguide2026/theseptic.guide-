@@ -51,7 +51,7 @@ const faqSchema = {
       name: 'Does a new septic system increase home value?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A new, code-compliant septic system protects and can increase your home value, particularly in areas where buyers are cautious about older systems. A failed or non-compliant system can reduce your home value by the full cost of replacement ($10,000 to $20,000) because buyers will factor that expense into their offers.',
+        text: 'A new, code-compliant septic system protects and can increase your home\'s value. A failed or non-compliant system can reduce value by $10,000 to $20,000 because buyers factor replacement cost into their offers. And because homeowners insurance rarely covers septic repairs or replacement, a new system is a meaningful de-risking of future out-of-pocket expense for buyers.',
       },
     },
     {
@@ -323,7 +323,7 @@ export default function SepticInstallationCostArticle() {
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Mound System &mdash; $10,000 to $20,000</h3>
-              <p className='text-slate-700 text-sm mb-2'>When natural soil is too shallow, the water table is too high, or bedrock is too close to the surface, a mound system is the solution. Effluent is pumped up to an engineered sand mound built above the natural ground surface. The sand provides additional filtration before water reaches the native soil.</p>
+              <p className='text-slate-700 text-sm mb-2'>When natural soil is too shallow, the water table is too high, or bedrock is too close to the surface, a <Link href='/guides/mound-septic-system' className='text-amber-700 underline hover:text-amber-800'>mound system</Link> is the solution. Effluent is pumped up to an engineered sand mound built above the natural ground surface. The sand provides additional filtration before water reaches the native soil.</p>
               <p className='text-slate-700 text-sm'>Mound systems are expensive because of the imported sand and gravel, the pump equipment, and the engineering required. They also create a visible raised area in the yard.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
@@ -372,6 +372,7 @@ export default function SepticInstallationCostArticle() {
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
             <p className='text-slate-700 font-medium text-sm'>For a conventional system serving a three-bedroom home, a realistic all-in budget is <strong>$5,000 to $8,000</strong> including permits, testing, and restoration. For an aerobic or mound system, budget <strong>$12,000 to $20,000</strong>.</p>
           </div>
+          <p className='text-slate-700 leading-relaxed text-sm mt-4'>Tank size is determined by bedroom count, not bathroom count &mdash; see our <Link href='/guides/septic-tank-size-guide' className='text-amber-700 underline hover:text-amber-800'>septic tank size guide</Link> to confirm what size your home requires before accepting a quote.</p>
         </div>
 
         {/* Section 4 - Tank Material */}
@@ -670,7 +671,7 @@ export default function SepticInstallationCostArticle() {
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does a new septic system increase home value?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>A new, code-compliant septic system protects and can increase your home&apos;s value. A failed or non-compliant system can reduce value by $10,000 to $20,000 because buyers factor replacement cost into their offers.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A new, code-compliant septic system protects and can increase your home&apos;s value. A failed or non-compliant system can reduce value by $10,000 to $20,000 because buyers factor replacement cost into their offers. And because <Link href='/articles/does-insurance-cover-septic-repair-replacement' className='text-amber-700 underline hover:text-amber-800'>homeowners insurance rarely covers septic repairs or replacement</Link>, a new system is a meaningful de-risking of future out-of-pocket expense for buyers.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What happens if my property fails the perc test?</summary>
@@ -713,7 +714,7 @@ export default function SepticInstallationCostArticle() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
               <p className='text-slate-600 text-xs'>The warning sign progression that indicates the drainfield installed with your system is beginning to fail, and what to do at each stage.</p>
             </Link>
-            <Link href='/comparisons/aerobic-vs-anaerobic-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <Link href='/comparisons/aerobic-vs-anaerobic-septic-systems' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Aerobic vs Anaerobic Septic Systems</h3>
               <p className='text-slate-600 text-xs'>A detailed comparison of conventional anaerobic systems and aerobic treatment units covering cost, maintenance, drainfield requirements, and which is right for different property conditions.</p>
             </Link>
@@ -721,11 +722,11 @@ export default function SepticInstallationCostArticle() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Concrete vs Plastic vs Fiberglass Septic Tanks</h3>
               <p className='text-slate-600 text-xs'>A full comparison of the three tank materials covered in this guide, including longevity, installation conditions, and cost differences.</p>
             </Link>
-            <Link href='/buying-a-home/septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <Link href='/guides/buying-home-with-septic' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Buying a Home with a Septic System</h3>
               <p className='text-slate-600 text-xs'>What to inspect, what questions to ask, and how to evaluate the condition and remaining lifespan of an existing system before purchasing a home.</p>
             </Link>
-            <Link href='/selling-a-home/septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <Link href='/guides/selling-home-with-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Selling a Home with a Septic System</h3>
               <p className='text-slate-600 text-xs'>How a new or recently serviced system affects home value, what disclosures are required, and how to handle septic inspections in a real estate transaction.</p>
             </Link>
@@ -741,7 +742,7 @@ export default function SepticInstallationCostArticle() {
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Sump Pump Design Ideas for 2026</h3>
               <p className='text-slate-600 text-xs'>For new construction projects installing both a septic system and a finished basement, this guide covers how to integrate basement water management equipment including sump pumps into the finished space.</p>
             </a>
-            <a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+            <a href='https://thebasement.guide/articles/best-sump-pumps-2026' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Best Sump Pumps 2026</h3>
               <p className='text-slate-600 text-xs'>Homes with new septic installations on properties with high water tables often require sump pump systems to manage groundwater alongside the septic drainfield. Reviewed and ranked options for every budget.</p>
             </a>
