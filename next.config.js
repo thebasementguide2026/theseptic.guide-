@@ -10,6 +10,7 @@ const nextConfig = {
       { source: '/articles/signs-drainfield-is-failing', destination: '/problems/drainfield-failing', statusCode: 301 },
       { source: '/articles/septic-system-maintenance-checklist', destination: '/maintenance/septic-system-maintenance-checklist', statusCode: 301 },
       { source: '/cost-guides/septic-tank-pumping-cost', destination: '/articles/septic-tank-pumping-cost', statusCode: 301 },
+      { source: '/cost-guides/pumping-cost', destination: '/articles/septic-tank-pumping-cost', statusCode: 301 },
       { source: '/articles/drainfield-replacement-cost', destination: '/cost-guides/drainfield-replacement-cost', statusCode: 301 },
       { source: '/articles/slow-drains-septic-system', destination: '/problems/slow-drains', statusCode: 301 },
       { source: '/articles/septic-tank-backing-up', destination: '/problems/tank-backing-up', statusCode: 301 },
