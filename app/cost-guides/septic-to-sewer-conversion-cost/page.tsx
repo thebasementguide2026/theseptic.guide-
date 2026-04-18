@@ -305,6 +305,7 @@ export default function SepticToSewerConversionCostPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-sm text-slate-700 mb-4">Ongoing maintenance habits &mdash; pumping on schedule, avoiding chemical drain cleaners, and using <Link href="/reviews/best-septic-tank-treatments" className="text-amber-700 underline hover:text-amber-800">quality septic tank treatments</Link> when the bacterial colony is stressed &mdash; reduce the likelihood of mid-life repairs and push out drainfield replacement. Homeowners insurance may or may not help with unexpected septic expenses depending on your policy and the cause of failure &mdash; see our guide to <Link href="/articles/does-insurance-cover-septic-repair-replacement" className="text-amber-700 underline hover:text-amber-800">what homeowners insurance covers for septic repair and replacement</Link> before budgeting for the worst case.</p>
 
           <h3 className="text-lg font-bold text-slate-900 mb-3 mt-8">Cost of Converting to Sewer (20-Year Estimate)</h3>
           <div className="overflow-x-auto my-4">
@@ -358,6 +359,7 @@ export default function SepticToSewerConversionCostPage() {
               </li>
             ))}
           </ul>
+          <p className="text-sm text-slate-700 mt-3">A basic <Link href="/reviews/best-septic-system-alarms" className="text-amber-700 underline hover:text-amber-800">septic system alarm</Link> ($50&ndash;$200) provides early warning of pump, high-water, or drainfield issues and extends the window where septic stays the cheaper option.</p>
         </div>
 
         {/* Step by Step Process */}
