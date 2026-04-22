@@ -26,6 +26,7 @@ const footerSections = [
       { label: 'Swimming Pools and Septic', href: '/guides/swimming-pool-septic-system' },
       { label: 'Hard Water and Septic', href: '/guides/hard-water-septic-system' },
       { label: 'Aerobic System Maintenance', href: '/guides/aerobic-septic-system-maintenance' },
+      { label: 'Flushable Wipes and Septic', href: '/guides/flushable-wipes-septic' },
     ],
   },
   {
