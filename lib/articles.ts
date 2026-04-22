@@ -440,6 +440,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/Aerobic septic maintenance.jpg',
   },
+  {
+    title: 'Are Flushable Wipes Safe for Septic? The Truth About \u2018Flushable\u2019 Labels',
+    description: 'Flushable wipes are not septic-safe despite their labels. Kimberly-Clark paid $20M in false-advertising settlements. Complete guide to wipe damage, disintegration tests, alternatives, and damage assessment for septic owners.',
+    slug: 'guides/flushable-wipes-septic',
+    category: 'Guide',
+    readTime: '13 min read',
+    image: '/flushablewipesseptic.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
