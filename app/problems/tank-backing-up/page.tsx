@@ -244,6 +244,7 @@ export default function SepticTankBackingUp() {
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>3. Blocked Inlet Baffle</h3>
               <p className='text-slate-700 text-sm mb-2'>The inlet baffle is the T-shaped fitting where the sewer line enters the tank. It directs incoming wastewater downward to prevent disturbing the scum layer. Over time, debris &mdash; especially non-flushable items &mdash; can accumulate around this fitting and block it.</p>
+              <p className='text-slate-700 text-sm mb-2'>One of the most common hidden causes of tank backup is accumulation of flushable wipes at the septic tank inlet baffle or in the drain line, even when the wipe packaging claims the products are septic-safe. If you have been using flushable wipes for hygiene, see our guide on <Link href='/guides/flushable-wipes-septic' className='text-amber-700 underline hover:text-amber-800'>flushable wipes and septic systems</Link> for damage assessment and next steps.</p>
               <p className='text-amber-700 font-semibold text-sm'>The fix: A septic professional can access the inlet baffle through the tank&apos;s inspection port and clear the obstruction. This is typically a low-cost repair. Prevent future blockages by only flushing human waste and toilet paper.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
