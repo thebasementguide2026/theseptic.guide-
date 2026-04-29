@@ -63,6 +63,8 @@ export default function DrainFieldReplacementCost() {
         </p>
 
         <p className='text-base text-slate-700 leading-relaxed mb-6'>Drainfield replacement is the <strong>most expensive septic repair a homeowner can face</strong>. This guide breaks down every cost component, explains what determines whether you need a full replacement or can get by with rejuvenation, and shows you how to avoid overpaying. To estimate your specific scenario in under a minute, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic system cost calculator</Link>.</p>
+
+        <p className='text-base text-slate-700 leading-relaxed mb-6'>Drainfield replacement is one of the four project types our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic cost calculator</Link> estimates. The tool factors in system type, home size, soil difficulty, and regional pricing to give you a planning estimate before you request installer quotes.</p>
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Cost Summary</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Quick Cost Summary</h2>
