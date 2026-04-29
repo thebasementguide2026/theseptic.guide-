@@ -256,6 +256,9 @@ export default function AerobicVsAnaerobicArticle() {
               <p className='text-slate-700 text-sm'>Aerobic systems require periodic component replacement: aerator replacement ($500 to $1,000 every 2-10 years), pump replacement ($500 to $1,300 every 7-15 years), and control panel replacement ($300 to $500 every 10-15 years).</p>
             </div>
           </div>
+          <p className='text-slate-700 leading-relaxed mt-6 text-sm'>
+            Aerobic and anaerobic systems have significantly different installed costs. Aerobic and engineered systems typically run $12,000 to $25,000, while conventional anaerobic systems run $5,000 to $10,000. For a personalized estimate factoring in your home size, soil conditions, and region, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic tank cost calculator</Link>.
+          </p>
         </div>
 
                 {/* Maintenance Comparison */}
