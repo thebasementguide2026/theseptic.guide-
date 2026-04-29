@@ -57,6 +57,14 @@ export const articles: Article[] = [
     image: '/drainfieldexample.jpg',
   },
   {
+    title: 'Septic Tank Cost Calculator',
+    description: 'Free homeowner septic cost calculator. Get an instant installed cost range for new installs, tank replacement, drainfield replacement, and full system replacement based on home size, system type, soil, tank material, and region.',
+    slug: 'cost-guides/septic-tank-cost-calculator',
+    category: 'Cost Guide',
+    readTime: 'Interactive tool',
+    image: '/costguide.jpg',
+  },
+  {
     title: 'Septic System Installation Cost 2026: Complete Price Breakdown by Type',
     description: 'A new septic system costs $3,000 to $20,000 installed. Complete price breakdown by system type, cost components, tank materials, hidden costs, and how to save money.',
     slug: 'cost-guides/septic-system-installation-cost',
