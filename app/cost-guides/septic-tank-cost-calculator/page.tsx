@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 import SepticCostCalculator from './Calculator'
+import CtaLink from './CtaLink'
 
 export const metadata: Metadata = {
   title: 'Septic Tank Cost Calculator (2026): Free Instant Estimate | The Septic Guide',
@@ -166,18 +167,22 @@ export default function SepticCostCalculatorPage() {
             A calculator estimate is the right number to walk into the quoting process with. To turn it into a real bid, get three to five itemized written quotes from licensed installers in your area, and ask each one to break out permitting, soil evaluation, excavation, tank, drainfield, and site restoration.
           </p>
           <div className='flex flex-col sm:flex-row gap-3'>
-            <Link
+            <CtaLink
               href='/cost-guides/septic-system-installation-cost'
               className='inline-block rounded-lg bg-amber-600 px-5 py-3 text-sm font-bold text-white hover:bg-amber-700 transition-colors text-center'
+              ctaText='Read the full installation cost guide'
+              placement='post_result'
             >
               Read the full installation cost guide
-            </Link>
-            <Link
+            </CtaLink>
+            <CtaLink
               href='/cost-guides'
               className='inline-block rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors text-center'
+              ctaText='Browse all septic cost guides'
+              placement='post_result'
             >
               Browse all septic cost guides
-            </Link>
+            </CtaLink>
           </div>
         </div>
 
