@@ -33,6 +33,7 @@ const footerSections = [
     title: 'COST GUIDES',
     links: [
       { label: 'Pumping Cost', href: '/articles/septic-tank-pumping-cost' },
+      { label: 'Cost Calculator', href: '/cost-guides/septic-tank-cost-calculator' },
       { label: 'Installation Cost', href: '/cost-guides/septic-system-installation-cost' },
       { label: 'Drainfield Replacement', href: '/cost-guides/drainfield-replacement-cost' },
       { label: 'Repair Cost', href: '/cost-guides/septic-system-repair-cost' },
