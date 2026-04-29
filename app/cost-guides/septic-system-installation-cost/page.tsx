@@ -137,6 +137,22 @@ export default function SepticInstallationCostArticle() {
           <p className='text-base text-slate-700 leading-relaxed mb-12'>
             The tables and sections below break down exactly what each system type costs, where your money goes component by component, what hidden costs most contractor estimates leave out, and how to avoid overpaying. For a quick budget target before you dig in, run your scenario through our free <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic installation cost calculator</Link>. If you&apos;re new to septic systems entirely, start with our <Link href='/articles/complete-septic-guide' className='text-amber-700 underline hover:text-amber-800'>complete guide to how septic systems work</Link>.
           </p>
+
+          {/* Calculator callout */}
+          <div className='mb-12 rounded-2xl border-2 border-amber-300 bg-amber-50 p-6'>
+            <div className='flex items-start space-x-4'>
+              <div className='flex-shrink-0 mt-1'>
+                <span className='inline-flex items-center justify-center w-10 h-10 rounded-full bg-amber-600 text-white font-bold'>$</span>
+              </div>
+              <div>
+                <p className='text-xs font-bold uppercase tracking-[0.2em] text-amber-700 mb-1'>Quick estimate</p>
+                <p className='text-base text-slate-800 leading-relaxed'>
+                  Use our <Link href='/cost-guides/septic-tank-cost-calculator' className='font-bold text-amber-700 underline hover:text-amber-800'>septic tank cost calculator</Link> to get an instant project estimate based on your system type, home size, soil conditions, and region. The calculator pulls from the same cost ranges discussed in this guide.
+                </p>
+              </div>
+            </div>
+          </div>
+
         {/* Section 1 - Cost by Type */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -678,6 +694,10 @@ export default function SepticInstallationCostArticle() {
               <div className='px-4 pb-4 text-slate-600 text-sm'>A failed perc test means conventional systems won&apos;t work. You&apos;ll need an engineered alternative (mound, ATU, sand filter) costing $10,000 to $20,000. In rare cases where no system type is viable, the property may not be buildable.</div>
             </details>
           </div>
+
+          <p className='text-base text-slate-700 leading-relaxed mt-8'>
+            For a personalized cost estimate based on your specific project, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic tank cost calculator</Link> before requesting installer quotes.
+          </p>
         </div>
 
         {/* Related Guides */}
