@@ -10,6 +10,7 @@ export const metadata = {
 
 const costGuides = [
   { title: 'Septic Tank Pumping Cost', range: '$300 - $600', href: '/cost-guides/pumping-cost', description: 'Average costs for septic tank pumping by tank size and location.' },
+  { title: 'Septic Tank Cost Calculator', range: 'Free tool', href: '/cost-guides/septic-tank-cost-calculator', description: 'Free instant estimate for new installs, tank replacement, drainfield replacement, and full system replacement.' },
   { title: 'Septic System Installation Cost', range: '$3,000 - $15,000+', href: '/cost-guides/installation-cost', description: 'Complete breakdown of new septic system installation costs.' },
   { title: 'Drainfield Replacement Cost', range: '$5,000 - $20,000+', href: '/cost-guides/drainfield-replacement-cost', description: 'What to expect when replacing a failed drainfield.' },
   { title: 'Septic System Repair Cost', range: '$150 - $5,000', href: '/cost-guides/repair-cost', description: 'Common septic repairs and their typical costs.' },
