@@ -246,6 +246,7 @@ export default function HowLongSepticSystemLastPage() {
             </table>
           </div>
           <p className="text-slate-600 mt-4">For a full cost breakdown of every type of repair, see our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-700 underline hover:text-amber-900">septic system repair cost guide</Link>.</p>
+          <p className="text-slate-600 mt-4">When your system reaches end of life and replacement becomes necessary, use our <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-700 underline hover:text-amber-900">septic cost calculator</Link> to estimate the project cost based on your specific home size, system type, and soil conditions. Walking into the quoting process with a planning estimate helps you spot inflated bids and budget realistically.</p>
         </section>
 
         {/* How to Extend Your System's Life */}
