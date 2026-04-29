@@ -292,6 +292,7 @@ export default function BuyingHomeWithSepticPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mt-6">
             <p className="text-amber-800 font-semibold">Always get it in writing. Whatever you negotiate, include it in the purchase agreement. Verbal assurances from sellers about septic system condition have no legal weight.</p>
           </div>
+          <p className="text-slate-600 mt-6">If the inspection identifies a failing or aging septic system, you need to budget for potential replacement before closing. Our <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-700 underline hover:text-amber-900">septic cost calculator</Link> estimates new install, tank replacement, drainfield replacement, and full system replacement costs based on system type and home size, helping you negotiate or plan accordingly.</p>
         </section>
 
                 {/* Red Flags */}
