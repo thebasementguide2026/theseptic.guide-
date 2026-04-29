@@ -149,7 +149,7 @@ export default function CompleteSepticGuideArticle() {
           Over 21 million homes in the United States rely on septic systems to treat their wastewater. If yours is one of them, your septic system is quietly doing one of the most important jobs on your property. Every flush, every shower, every load of laundry flows into a system buried in your yard that you probably never think about &mdash; until something goes wrong.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-12'>
-          This guide is the resource we wish existed when we started learning about septic systems. No contractor sales pitch, no government jargon. Just a clear, honest explanation of how your system works, what can go wrong, what maintenance actually matters, and how much things cost when they need fixing.
+          This guide is the resource we wish existed when we started learning about septic systems. No contractor sales pitch, no government jargon. Just a clear, honest explanation of how your system works, what can go wrong, what maintenance actually matters, and how much things cost when they need fixing. If you are sizing up a project, our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic system cost calculator</Link> gives you an instant installed cost range for new installs, tank replacements, drainfield replacements, and full system replacements.
         </p>
 
         {/* Section 1 - How Does a Septic System Work */}
