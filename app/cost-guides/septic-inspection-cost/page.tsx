@@ -486,7 +486,8 @@ export default function SepticInspectionCostPage() {
           <li><strong>Walk away</strong> if the problems are severe and the seller will not negotiate &mdash; this is what the inspection contingency in your contract protects</li>
           <li><strong>Accept the condition</strong> with full knowledge of what repairs you will need and their cost</li>
         </ul>
-        <p className="text-sm text-gray-500 mb-8">See our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-600 underline">septic system repair cost guide</Link> for pricing on every common repair.</p>
+        <p className="text-sm text-gray-500 mb-2">See our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-600 underline">septic system repair cost guide</Link> for pricing on every common repair.</p>
+        <p className="text-gray-700 mb-8">If inspection reveals tank or drainfield failure, use our <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-600 underline">septic tank cost calculator</Link> to estimate the cost of replacement before requesting contractor quotes.</p>
 
         {/* Septic Inspection for Sellers */}
         <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-12">Septic Inspection for Sellers</h2>
