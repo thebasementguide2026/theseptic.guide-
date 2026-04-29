@@ -3,6 +3,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 import SepticCostCalculator from './Calculator'
 import CtaLink from './CtaLink'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
+import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Septic Tank Cost Calculator (2026): Free Instant Estimate | The Septic Guide',
@@ -160,8 +162,23 @@ export default function SepticCostCalculatorPage() {
         {/* Calculator */}
         <SepticCostCalculator />
 
-        {/* CTA */}
-        <div className='mt-10 rounded-xl border border-slate-200 bg-slate-50 p-6'>
+        {/* Primary Quote CTA, directly below result */}
+        <div className='mt-8 rounded-2xl bg-slate-900 p-6 md:p-8 text-center'>
+          <h2 className='text-xl md:text-2xl font-bold text-white mb-2'>Now turn that estimate into a real quote</h2>
+          <p className='text-slate-300 text-sm md:text-base mb-5 max-w-xl mx-auto'>See what local septic pros would charge for your project. Free, no-obligation quotes from licensed installers.</p>
+          <CtaLink
+            href='#get-quotes'
+            scrollToId='get-quotes'
+            className='inline-block rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 text-sm transition-colors'
+            ctaText='Get a Free Quote'
+            placement='post_result'
+          >
+            Get a Free Quote
+          </CtaLink>
+        </div>
+
+        {/* Secondary CTA */}
+        <div className='mt-8 rounded-xl border border-slate-200 bg-slate-50 p-6'>
           <h2 className='text-lg font-bold text-slate-900 mb-2'>Use these numbers as your budget target</h2>
           <p className='text-sm text-slate-700 leading-relaxed mb-4'>
             A calculator estimate is the right number to walk into the quoting process with. To turn it into a real bid, get three to five itemized written quotes from licensed installers in your area, and ask each one to break out permitting, soil evaluation, excavation, tank, drainfield, and site restoration.
@@ -282,6 +299,18 @@ export default function SepticCostCalculatorPage() {
             </div>
           </div>
         </div>
+
+        {/* Newsletter (site standard order: Beehiiv first) */}
+        <BeehiivEmailCapture />
+
+        {/* Lead form section (site standard pattern) */}
+        <section id='get-quotes' className='py-12 bg-[#F5F0EB] rounded-2xl mt-8 scroll-mt-24'>
+          <div className='max-w-2xl mx-auto px-4'>
+            <h2 className='text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3'>Get Free Septic Quotes</h2>
+            <p className='text-gray-600 text-center mb-8'>Connect with qualified septic installers in your area. Free quotes, no obligation.</p>
+            <LeadForm />
+          </div>
+        </section>
 
         {/* Related cost guides */}
         <div className='mt-16'>
