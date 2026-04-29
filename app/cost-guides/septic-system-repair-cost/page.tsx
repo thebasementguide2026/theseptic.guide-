@@ -488,6 +488,7 @@ export default function SepticRepairCostArticle() {
               <p className='text-slate-700 text-sm'>When both the tank and drainfield need replacement, or when the entire system is non-compliant with current code, a complete replacement is necessary. Costs vary enormously based on system type. For a complete breakdown, see our <Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800'>septic system installation cost guide</Link>.</p>
             </div>
           </div>
+          <p className='text-slate-700 leading-relaxed mt-6 text-sm'>For repairs that escalate to full tank or drainfield replacement, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic tank cost calculator</Link> to estimate the larger project scope.</p>
         </div>
 
         {/* Repair vs Replace */}
