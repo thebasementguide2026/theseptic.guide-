@@ -332,7 +332,7 @@ export default function SepticRepairCostArticle() {
           Septic system repairs cost <strong>$600 to $3,000</strong> on average. Minor repairs (filter replacement, baffle repair, lid fix) cost <strong>$100 to $500</strong>. Mid-range repairs (pump replacement, distribution box, line repair) cost <strong>$500 to $1,500</strong>. Major repairs (drainfield rejuvenation, tank crack repair, root removal) cost <strong>$1,000 to $5,000</strong>. Full drainfield replacement costs <strong>$5,000 to $15,000</strong>. Full system replacement costs <strong>$8,000 to $20,000+</strong>.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-12'>
-          The range is enormous because septic repair covers everything from a $50 filter cleaning to a $15,000 drainfield replacement. This guide prices out every specific repair, so you know exactly what you&apos;re facing before calling a contractor.
+          The range is enormous because septic repair covers everything from a $50 filter cleaning to a $15,000 drainfield replacement. This guide prices out every specific repair, so you know exactly what you&apos;re facing before calling a contractor. If you are looking at a tank replacement, drainfield replacement, or full system replacement, you can <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>estimate septic system cost</Link> for your specific scenario before requesting quotes.
         </p>
 
         {/* Every Septic Repair Priced Out Table */}
