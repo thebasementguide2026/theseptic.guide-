@@ -182,6 +182,7 @@ export default function SepticTankSizeGuidePage() {
             </table>
           </div>
           <p className="text-slate-600 mt-4">The cost difference is small. A 1,000-gallon concrete tank costs approximately $800 to $1,500. A 1,500-gallon concrete tank costs approximately $1,200 to $2,000. The $400 to $500 difference at installation is trivial compared to the $5,000 to $15,000 cost of replacing a failed system that was undersized. For full pricing by material, see our <Link href="/cost-guides/septic-system-installation-cost" className="text-amber-700 underline hover:text-amber-900">septic system installation cost guide</Link>.</p>
+          <p className="text-slate-600 mt-4">Tank size is one of the inputs in our <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-700 underline hover:text-amber-900">septic tank cost calculator</Link>, which estimates new installation costs based on home size, system type, and regional pricing.</p>
         </section>
 
         {/* Tank Size by Material */}
