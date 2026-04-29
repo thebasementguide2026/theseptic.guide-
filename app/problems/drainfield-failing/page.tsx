@@ -473,6 +473,9 @@ export default function DrainfieldFailing() {
           <p className='text-slate-600 leading-relaxed'>
             The total project typically takes one to three weeks from evaluation to completed installation, depending on permitting timelines in your area. For a deeper cost breakdown, see our guide on <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-900'>septic system costs</Link>.
           </p>
+          <p className='text-slate-600 leading-relaxed mt-4'>
+            Drainfield replacement typically costs $5,000 to $20,000 depending on system type, soil conditions, and regional pricing. For a planning estimate based on your specific situation, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-900'>septic cost calculator</Link> before requesting installer quotes.
+          </p>
         </div>
 
         {/* How to Protect Your Drainfield */}
