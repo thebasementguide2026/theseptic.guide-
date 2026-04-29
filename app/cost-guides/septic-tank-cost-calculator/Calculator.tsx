@@ -1,6 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+
+type Gtag = (...args: unknown[]) => void
+function track(event: string, params: Record<string, unknown>) {
+  if (typeof window === 'undefined') return
+  const w = window as unknown as { gtag?: Gtag }
+  if (typeof w.gtag === 'function') w.gtag('event', event, params)
+}
 
 type ProjectType = 'new-install' | 'tank-replacement' | 'drainfield-replacement' | 'full-replacement'
 type SystemType = 'conventional-gravity' | 'conventional-pressure' | 'aerobic' | 'mound' | 'sand-filter'
@@ -136,32 +143,43 @@ export default function SepticCostCalculator() {
   const [result, setResult] = useState<Result | null>(null)
   const [started, setStarted] = useState(false)
 
+  // Page view: fire view_item once per mount
+  useEffect(() => {
+    track('view_item', {
+      item_name: 'Septic Tank Cost Calculator',
+      item_category: 'Cost Guide',
+      item_category2: 'Calculator',
+      item_id: 'septic-tank-cost-calculator',
+    })
+  }, [])
+
   const handleChange = <T,>(setter: (v: T) => void) => (e: React.ChangeEvent<HTMLSelectElement>) => {
     setter(e.target.value as T)
     if (!started) {
       setStarted(true)
-      if (typeof window !== 'undefined' && (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag) {
-        ;(window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'calculator_start', { calculator: 'septic_tank_cost' })
-      }
+      track('calculator_start', {
+        calculator_name: 'septic_tank_cost_calculator',
+        calculator_type: 'cost_estimator',
+        page_type: 'cost_guide',
+      })
     }
   }
 
   const handleCalculate = () => {
     const r = calculate(project, system, bedrooms, soil, material, region)
     setResult(r)
-    if (typeof window !== 'undefined' && (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag) {
-      ;(window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'calculator_complete', {
-        calculator: 'septic_tank_cost',
-        project,
-        system,
-        bedrooms,
-        soil,
-        material,
-        region,
-        low: r.low,
-        high: r.high,
-      })
-    }
+    track('calculator_complete', {
+      calculator_name: 'septic_tank_cost_calculator',
+      calculator_type: 'cost_estimator',
+      project_type: project,
+      system_type: system,
+      bedrooms,
+      soil,
+      material,
+      region,
+      estimated_low: r.low,
+      estimated_high: r.high,
+    })
     setTimeout(() => {
       const el = document.getElementById('septic-calc-result')
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -177,9 +195,7 @@ export default function SepticCostCalculator() {
     setRegion('average')
     setResult(null)
     setStarted(false)
-    if (typeof window !== 'undefined' && (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag) {
-      ;(window as unknown as { gtag: (...a: unknown[]) => void }).gtag('event', 'calculator_reset', { calculator: 'septic_tank_cost' })
-    }
+    track('calculator_reset', { calculator_name: 'septic_tank_cost_calculator' })
   }
 
   return (
