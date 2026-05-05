@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 import SepticCostCalculator from './Calculator'
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     url: 'https://theseptic.guide/cost-guides/septic-tank-cost-calculator',
     siteName: 'The Septic Guide',
     type: 'article',
-    images: [{ url: 'https://theseptic.guide/costguide.jpg', width: 1200, height: 630, alt: 'Residential septic tank installation in progress, showing a concrete tank being lowered into an excavated site with drainfield trenches visible nearby' }],
+    images: [{ url: 'https://theseptic.guide/SepticTankCostCalculator.jpg', width: 1200, height: 630, alt: 'Septic tank cost calculator hero image showing residential septic system installation' }],
   },
 }
 
@@ -98,7 +99,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Septic Tank Cost Calculator (2026): Free Instant Estimate | The Septic Guide',
   description: 'Free septic tank cost calculator with instant 2026 estimates. Calculate new install, tank replacement, drainfield replacement, or full system costs based on home size, soil, system type, and region.',
-  image: 'https://theseptic.guide/costguide.jpg',
+  image: 'https://theseptic.guide/SepticTankCostCalculator.jpg',
   datePublished: '2026-04-29',
   dateModified: '2026-04-29',
   author: {
@@ -151,7 +152,8 @@ export default function SepticCostCalculatorPage() {
 
       {/* Article Hero */}
       <section className='relative bg-slate-900 overflow-hidden'>
-        <div className='absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900' />
+        <Image src='/SepticTankCostCalculator.jpg' alt='Septic tank cost calculator hero image showing residential septic system installation' fill className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100' priority />
+        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-slate-900/30' />
         <div className='relative max-w-7xl mx-auto px-6 pt-20 pb-16'>
           <div className='flex items-center space-x-3 mb-6'>
             <div className='w-12 h-px bg-amber-700'></div>
