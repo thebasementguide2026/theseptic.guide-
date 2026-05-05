@@ -8,12 +8,12 @@ import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
-  title: 'Septic Tank Cost Calculator (2026): Free Instant Estimate | The Septic Guide',
-  description: 'Free septic tank cost calculator with instant 2026 estimates. Calculate new install, tank replacement, drainfield replacement, or full system costs based on home size, soil, system type, and region.',
+  title: 'Septic System Cost Calculator 2026: New Install, Tank and Drainfield Replacement | The Septic Guide',
+  description: 'Estimate septic system cost for new installs, tank-only replacement, drainfield replacement, or full system replacement. Adjust for system type, bedrooms, soil difficulty, tank material, and region to get a realistic 2026 budget range before requesting quotes.',
   alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-tank-cost-calculator' },
   openGraph: {
-    title: 'Septic Tank Cost Calculator (2026): Free Instant Estimate',
-    description: 'Free septic tank cost calculator with instant 2026 estimates. Calculate new install, tank replacement, drainfield replacement, or full system costs.',
+    title: 'Septic System Cost Calculator 2026: New Install, Tank and Drainfield Replacement',
+    description: 'Estimate septic system cost for new installs, tank-only replacement, drainfield replacement, or full system replacement. Adjust for system type, bedrooms, soil, tank material, and region for a realistic 2026 budget range.',
     url: 'https://theseptic.guide/cost-guides/septic-tank-cost-calculator',
     siteName: 'The Septic Guide',
     type: 'article',
@@ -97,8 +97,8 @@ const faqSchema = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Septic Tank Cost Calculator (2026): Free Instant Estimate | The Septic Guide',
-  description: 'Free septic tank cost calculator with instant 2026 estimates. Calculate new install, tank replacement, drainfield replacement, or full system costs based on home size, soil, system type, and region.',
+  headline: 'Septic System Cost Calculator 2026: New Install, Tank and Drainfield Replacement | The Septic Guide',
+  description: 'Estimate septic system cost for new installs, tank-only replacement, drainfield replacement, or full system replacement. Adjust for system type, bedrooms, soil difficulty, tank material, and region to get a realistic 2026 budget range before requesting quotes.',
   image: 'https://theseptic.guide/SepticTankCostCalculator.jpg',
   datePublished: '2026-04-29',
   dateModified: '2026-04-29',
@@ -123,7 +123,7 @@ const softwareSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   '@id': `${PAGE_URL}#calculator`,
-  name: 'Septic Tank Cost Calculator',
+  name: 'Septic System Cost Calculator',
   applicationCategory: 'FinanceApplication',
   operatingSystem: 'Web Browser',
   description: 'Free interactive calculator that estimates septic project costs for new installs, tank replacement, drainfield replacement, and full system replacement. Inputs cover project type, system type, home size, soil and site difficulty, tank material, and regional cost factor.',
@@ -138,7 +138,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theseptic.guide' },
     { '@type': 'ListItem', position: 2, name: 'Cost Guides', item: 'https://theseptic.guide/cost-guides' },
-    { '@type': 'ListItem', position: 3, name: 'Septic Tank Cost Calculator', item: PAGE_URL },
+    { '@type': 'ListItem', position: 3, name: 'Septic System Cost Calculator', item: PAGE_URL },
   ],
 }
 
@@ -160,10 +160,13 @@ export default function SepticCostCalculatorPage() {
             <span className='text-amber-500 font-bold tracking-[0.3em] text-sm uppercase'>Cost Guide</span>
           </div>
           <h1 className='text-4xl md:text-5xl font-black text-white mb-5 leading-[1] tracking-tight'>
-            Septic Tank Cost Calculator <span className='text-amber-500'>(2026)</span>
+            Septic System Cost Calculator <span className='text-amber-500'>2026</span>
           </h1>
-          <p className='text-lg text-slate-300 max-w-2xl mb-8 font-medium leading-relaxed'>
-            Free homeowner estimate. Pick your project, system, home size, soil difficulty, tank material, and region. Get an instant installed cost range anchored to published prices on The Septic Guide.
+          <p className='text-lg text-slate-300 max-w-2xl mb-3 font-medium leading-relaxed'>
+            Free planning-grade estimate for new installs, tank-only replacement, drainfield-only replacement, and full system replacement.
+          </p>
+          <p className='text-base text-slate-400 max-w-2xl mb-8 leading-relaxed'>
+            Pick your project, system, home size, soil difficulty, tank material, and region for an installed cost range anchored to published prices on The Septic Guide.
           </p>
           <div className='flex items-center space-x-4'>
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
@@ -178,7 +181,7 @@ export default function SepticCostCalculatorPage() {
       <Breadcrumbs items={[
         { label: 'Home', href: '/' },
         { label: 'Cost Guides', href: '/cost-guides' },
-        { label: 'Septic Tank Cost Calculator' },
+        { label: 'Septic System Cost Calculator' },
       ]} />
 
       <article className='max-w-4xl mx-auto px-4 py-12'>
@@ -190,7 +193,7 @@ export default function SepticCostCalculatorPage() {
             <p className='text-xs font-bold uppercase tracking-[0.2em] text-amber-800'>TL;DR</p>
           </div>
           <p className='text-sm text-slate-800 leading-relaxed'>
-            This free septic tank cost calculator gives homeowners an instant planning estimate for four common project types: new install, tank-only replacement, drainfield-only replacement, or full system replacement. The calculator factors in system type (conventional, aerobic, mound, sand filter), home size (number of bedrooms), soil and site difficulty, tank material, and regional cost factor to produce a realistic 2026 cost range. Results are anchored to published cost data on The Septic Guide so the output stays believable. New conventional installs typically run <span className='font-semibold'>$5,000 to $10,000</span>; engineered systems (mound, aerobic, sand filter) run <span className='font-semibold'>$12,000 to $25,000</span>; tank-only replacements run <span className='font-semibold'>$3,000 to $7,000</span>; drainfield-only replacements run <span className='font-semibold'>$5,000 to $15,000</span>; full system replacements run <span className='font-semibold'>$8,000 to $20,000 or more</span>. Use the estimate as your budget target before requesting written quotes from 3 to 5 licensed installers.
+            This free septic system cost calculator gives homeowners an instant planning estimate for four common project types: new install, tank-only replacement, drainfield-only replacement, or full system replacement. The calculator factors in system type (conventional, aerobic, mound, sand filter), home size (number of bedrooms), soil and site difficulty, tank material, and regional cost factor to produce a realistic 2026 cost range. Results are anchored to published cost data on The Septic Guide so the output stays believable. New conventional installs typically run <span className='font-semibold'>$5,000 to $10,000</span>; engineered systems (mound, aerobic, sand filter) run <span className='font-semibold'>$12,000 to $25,000</span>; tank-only replacements run <span className='font-semibold'>$3,000 to $7,000</span>; drainfield-only replacements run <span className='font-semibold'>$5,000 to $15,000</span>; full system replacements run <span className='font-semibold'>$8,000 to $20,000 or more</span>. Use the estimate as your budget target before requesting written quotes from 3 to 5 licensed installers.
           </p>
         </div>
 
