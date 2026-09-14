@@ -143,6 +143,7 @@ export default function Footer() {
             <Link href='/terms' className='text-slate-500 hover:text-slate-300 text-xs'>Terms of Use</Link>
             <Link href='/contact' className='text-slate-500 hover:text-slate-300 text-xs'>Contact Us</Link>
             <Link href='/affiliate-disclosure' className='text-slate-500 hover:text-slate-300 text-xs'>Affiliate Disclosure</Link>
+            <a href='/llms.txt' className='text-slate-500 hover:text-slate-300 text-xs' title='LLM/AI-friendly site index'>AI/LLMs</a>
           </div>
         </div>
       </div>
