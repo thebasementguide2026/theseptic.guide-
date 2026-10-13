@@ -316,7 +316,7 @@ export default function BestSepticAlarmsPage() {
                 </ul>
               </div>
             </div>
-            <a href="https://amzn.to/4bafACJ" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
+            <a href="https://link.amazon/B0f807gTY" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 2 - Zoeller */}
@@ -351,7 +351,7 @@ export default function BestSepticAlarmsPage() {
                 </ul>
               </div>
             </div>
-            <a href="https://amzn.to/4szD4Ir" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
+            <a href="https://link.amazon/B082HOz52" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 3 - Briidea */}
@@ -386,7 +386,7 @@ export default function BestSepticAlarmsPage() {
                 </ul>
               </div>
             </div>
-            <a href="https://amzn.to/40nBCgt" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
+            <a href="https://link.amazon/B0iq6uxBR" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 4 - Sump Alarm WiFi */}
@@ -421,7 +421,7 @@ export default function BestSepticAlarmsPage() {
                 </ul>
               </div>
             </div>
-            <a href="https://amzn.to/4bgHflJ" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
+            <a href="https://link.amazon/B00unuPWj" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
 
           {/* Product 5 - CINVEI */}
@@ -457,7 +457,7 @@ export default function BestSepticAlarmsPage() {
                 </ul>
               </div>
             </div>
-            <a href="https://amzn.to/4upfb8y" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
+            <a href="https://link.amazon/B07MvV6uv" target="_blank" rel="nofollow noopener noreferrer" className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors">Check Price on Amazon</a>
           </div>
         </section>
 

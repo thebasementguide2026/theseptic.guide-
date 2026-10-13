@@ -326,7 +326,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4c4OazS' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0gjAeqxp' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #2 Zabel A1800 */}
@@ -359,7 +359,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4bsTqx2' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0d6YzyOt' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #3 SimTech STF-110 */}
@@ -394,7 +394,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4bwsQDb' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0d280rva' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #4 Tuf-Tite EF-4 */}
@@ -426,7 +426,7 @@ export default function BestEffluentFilters() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4d8TjYS' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B08UAyx4B' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 

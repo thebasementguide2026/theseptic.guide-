@@ -166,12 +166,12 @@ export default function BestSepticSafeCleaningProducts() {
                   <tr><th className='text-left p-3 font-bold text-slate-900'>Category</th><th className='text-left p-3 font-bold text-slate-900'>Our Top Pick</th><th className='text-left p-3 font-bold text-slate-900'>Price</th></tr>
                 </thead>
                 <tbody>
-                  <tr className='border-t border-slate-200'><td className='p-3'>All-purpose</td><td className='p-3'><a href='https://amzn.to/3P8Fyzk' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>ECOS All-Purpose Cleaner (Orange)</a></td><td className='p-3'>$5–$7</td></tr>
-                  <tr className='border-t border-slate-200'><td className='p-3'>Bathroom</td><td className='p-3'><a href='https://amzn.to/47JIvfW' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Seventh Generation Disinfecting Bathroom Cleaner</a></td><td className='p-3'>$5–$7</td></tr>
-                  <tr className='border-t border-slate-200'><td className='p-3'>Toilet bowl</td><td className='p-3'><a href='https://amzn.to/4rtSH3h' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Better Life Natural Toilet Bowl Cleaner</a></td><td className='p-3'>$6–$8</td></tr>
-                  <tr className='border-t border-slate-200'><td className='p-3'>Kitchen/dish</td><td className='p-3'><a href='https://amzn.to/4ut5y8y' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Mrs. Meyer&apos;s Clean Day Dish Soap</a></td><td className='p-3'>$4–$6</td></tr>
-                  <tr className='border-t border-slate-200'><td className='p-3'>Drain maintenance</td><td className='p-3'><a href='https://amzn.to/4svokep' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Biokleen Bac-Out Enzymatic Drain Cleaner</a></td><td className='p-3'>$8–$12</td></tr>
-                  <tr className='border-t border-slate-200'><td className='p-3'>Floor</td><td className='p-3'><a href='https://amzn.to/4rtioRz' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Aunt Fannie&apos;s Floor Cleaner Vinegar Wash</a></td><td className='p-3'>$10–$14</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>All-purpose</td><td className='p-3'><a href='https://link.amazon/B0fYqwGRc' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>ECOS All-Purpose Cleaner (Orange)</a></td><td className='p-3'>$5–$7</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>Bathroom</td><td className='p-3'><a href='https://link.amazon/B04wTD2a4' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Seventh Generation Disinfecting Bathroom Cleaner</a></td><td className='p-3'>$5–$7</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>Toilet bowl</td><td className='p-3'><a href='https://link.amazon/B05pSyniw' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Better Life Natural Toilet Bowl Cleaner</a></td><td className='p-3'>$6–$8</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>Kitchen/dish</td><td className='p-3'><a href='https://link.amazon/B02qfQVXl' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Mrs. Meyer&apos;s Clean Day Dish Soap</a></td><td className='p-3'>$4–$6</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>Drain maintenance</td><td className='p-3'><a href='https://link.amazon/B09C9KsRm' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Biokleen Bac-Out Enzymatic Drain Cleaner</a></td><td className='p-3'>$8–$12</td></tr>
+                  <tr className='border-t border-slate-200'><td className='p-3'>Floor</td><td className='p-3'><a href='https://link.amazon/B0a45ANGe' target='_blank' rel='noopener noreferrer sponsored' className='text-amber-700 underline'>Aunt Fannie&apos;s Floor Cleaner Vinegar Wash</a></td><td className='p-3'>$10–$14</td></tr>
                 </tbody>
               </table>
             </div>
@@ -210,7 +210,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/4kVxMPG' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B03xLoUW5' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 2: Seventh Generation Disinfecting Bathroom Cleaner */}
@@ -242,7 +242,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/3YPqHFI' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0iFb6y4U' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 3: Better Life Natural Toilet Bowl Cleaner */}
@@ -274,7 +274,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/44dVEbl' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0bYCyEeO' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 4: Mrs. Meyer's Clean Day Dish Soap */}
@@ -306,7 +306,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/4kWp05q' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B03IJbF72' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 5: Biokleen Bac-Out Enzymatic Drain Cleaner */}
@@ -338,7 +338,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/3GqvOI0' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0bYatnL2' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 6: Aunt Fannie's Floor Cleaner Vinegar Wash */}
@@ -370,7 +370,7 @@ export default function BestSepticSafeCleaningProducts() {
                   </ul>
                 </div>
               </div>
-              <a href='https://amzn.to/3EJqVfz' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0f7I7vsO' target='_blank' rel='noopener noreferrer sponsored' className='mt-6 block w-full text-center bg-amber-500 hover:bg-amber-600 text-black font-semibold py-3 px-6 rounded-full transition-colors'>Check Price on Amazon</a>
             </div>
           </section>
 

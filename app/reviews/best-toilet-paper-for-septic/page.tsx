@@ -181,7 +181,7 @@ export default function BestToiletPaperForSeptic() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Scott 1000 is the gold standard for septic-safe toilet paper. It&apos;s single-ply, unscented, dye-free, and dissolves faster than virtually every other mainstream brand. The 1000-sheet roll makes it cost-competitive despite the higher per-roll price. Scott 1000 consistently passes dissolve testing and is explicitly certified for septic and sewer use.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Any household with a septic system. This is the safest, most proven choice available at regular grocery and big-box stores.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Single-ply is thinner than premium brands. Some users find it less comfortable than thick 2-ply options. If comfort is a priority, Cottonelle Clean Care or Seventh Generation are 2-ply alternatives that still perform well.</p>
-              <a href='https://amzn.to/scott1000' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0dhfwBRu' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Cottonelle */}
@@ -194,7 +194,7 @@ export default function BestToiletPaperForSeptic() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Cottonelle Ultra CleanCare is one of the few 2-ply mainstream brands that performs well in dissolve testing. It&apos;s labeled septic-safe, free of added fragrances and dyes in the Clean Care line, and breaks down significantly faster than thick premium brands like Charmin Ultra Soft. It&apos;s the best balance of comfort and septic compatibility in the 2-ply category.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Households that want more comfort than single-ply provides without significantly compromising septic health.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Cottonelle&apos;s Ultra Comfort line is thicker and slower-dissolving. Stick specifically to the CleanCare or Clean Care formulation, not the ultra or comfort lines.</p>
-              <a href='https://amzn.to/cottonelle' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0fDIMeEL' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Who Gives A Crap */}
@@ -207,7 +207,7 @@ export default function BestToiletPaperForSeptic() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Despite being 3-ply, Who Gives A Crap&apos;s bamboo formula uses short bamboo fibers that dissolve significantly faster than virgin wood pulp 3-ply products. It contains no inks, dyes, fragrances, or harsh chemicals. The bamboo fiber structure breaks apart in water quickly enough that it outperforms many 2-ply mainstream brands in dissolve testing.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Households that want a premium, eco-conscious product that doesn&apos;t compromise their septic system. Also a good option for sensitive skin since it&apos;s free of all additives.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> More expensive than mainstream brands and sold primarily online. The subscription model makes it convenient but you&apos;ll pay a premium. The environmental mission (50% of profits to sanitation charities) appeals to many buyers.</p>
-              <a href='https://amzn.to/whogivesacrap' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0fperMHc' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Seventh Generation */}
@@ -220,7 +220,7 @@ export default function BestToiletPaperForSeptic() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Seventh Generation uses 100% recycled paper with no chlorine bleach, no fragrances, and no dyes. The recycled fibers are shorter than virgin pulp, which translates to faster dissolve times. It&apos;s 2-ply but dissolves comparably to many single-ply mainstream brands. The unbleached formula is particularly good for preserving the bacterial balance in your tank.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Households that prioritize eco-friendly products and want strong septic performance. Good value compared to premium bamboo brands.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> The recycled paper has a slightly different texture than virgin pulp brands. Some users notice a difference in softness. Available at most major grocery chains and online.</p>
-              <a href='https://amzn.to/seventhgen' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0fBneMrg' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Angel Soft */}
@@ -233,7 +233,7 @@ export default function BestToiletPaperForSeptic() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Standard Angel Soft (not the Plus with lotion version) is a budget-friendly 2-ply option that carries a septic-safe label and performs adequately in dissolve testing. It&apos;s not as fast-dissolving as Scott 1000 or Seventh Generation, but it&apos;s significantly better than premium ultra-thick brands and costs less than specialty options.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Budget-conscious households who need a widely available option that won&apos;t damage their septic system. Available at virtually every grocery and dollar store.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Only the standard Angel Soft carries the septic-safe designation. The &quot;Plus with Lotion&quot; and &quot;Plus with Shea Butter&quot; varieties contain additives that are harmful to septic bacteria. Read the label carefully.</p>
-              <a href='https://amzn.to/angelsoft' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0arps5y4' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
           </div>

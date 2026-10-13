@@ -304,7 +304,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Households with septic systems who want the most thoroughly verified, EPA-certified option with strong everyday cleaning performance.</p>
-              <a href='https://amzn.to/4kNTGGu' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0iz1e1DU' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* 2. ECOS */}
@@ -340,7 +340,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Budget-conscious septic owners, large families, and households where cost per load is the primary concern.</p>
-              <a href='https://amzn.to/4b8Otcz' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0hg8sEdU' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* 3. Earth Breeze */}
@@ -375,7 +375,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Septic owners who want the simplest, zero-residue option. Great for households that tend to overuse liquid detergent.</p>
-              <a href='https://amzn.to/4uuA55S' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B01ACkXbi' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* 4. Charlie's Soap */}
@@ -412,7 +412,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Septic system purists who want the absolute safest, simplest formula with minimal ingredients. Recommended by septic professionals.</p>
-              <a href='https://amzn.to/4kLNIHt' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B08yuSUcq' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* 5. Molly's Suds */}
@@ -449,7 +449,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Households with sensitive skin concerns and septic systems. The EWG verification and dermatologist testing make it a top choice for families with allergies or skin sensitivities.</p>
-              <a href='https://amzn.to/44FIj8H' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B02T61a7A' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* 6. Arm & Hammer */}
@@ -486,7 +486,7 @@ export default function BestSepticSafeLaundryDetergent() {
                 </div>
               </div>
               <p className='text-slate-700 text-sm mb-4'><strong>Best for:</strong> Budget-conscious households that need strong stain-fighting power and want a widely available septic-safer alternative to conventional detergents like Tide or Gain.</p>
-              <a href='https://amzn.to/4mfNUaP' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B01rLx7QJ' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
           </div>

@@ -387,7 +387,7 @@ export default function BestDishwasherDetergent() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4lKY5xG' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B04smadwM' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #2 Grab Green */}
@@ -420,7 +420,7 @@ export default function BestDishwasherDetergent() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/4uPGFEd' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0i345qai' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #3 Ecover Zero */}
@@ -453,7 +453,7 @@ export default function BestDishwasherDetergent() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/3Nmgep6' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B07Nd5tlg' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* #4 Nellie's */}
@@ -487,7 +487,7 @@ export default function BestDishwasherDetergent() {
                 </ul>
               </div>
             </div>
-            <a href='https://amzn.to/41pUOKP' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
+            <a href='https://link.amazon/B0dWZMQFd' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors'>Check Price on Amazon</a>
           </div>
         </div>
 

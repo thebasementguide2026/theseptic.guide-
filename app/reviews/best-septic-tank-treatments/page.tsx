@@ -279,7 +279,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Rid-X is the most widely used septic treatment in the United States for a reason. Each dose contains natural bacteria plus four enzymes: cellulase (breaks down toilet paper), lipase (breaks down fats and grease), protease (breaks down proteins), and amylase (breaks down starches). The pre-measured monthly packets eliminate guesswork on dosing.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> General monthly maintenance for any household with a septic system. It&apos;s widely available, affordable, and has decades of consumer track record.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Rid-X is a supplement, not a replacement for regular pumping. Using it does not eliminate the need to pump your tank on schedule. It can help maintain bacterial health between pumpings, especially if your household uses any antibacterial products.</p>
-              <a href='https://amzn.to/4rYCxA4' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0dRPx6Xj' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Green Gobbler */}
@@ -292,7 +292,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Green Gobbler packs bacteria and enzymes into pre-measured pods that you flush monthly. The formula targets grease, fats, oils, paper, and other organic materials. It also includes odor-eliminating properties. At roughly half the per-month cost of Rid-X, it&apos;s the best value option for homeowners who want ongoing maintenance without overspending.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Budget-conscious homeowners who want a set-it-and-forget-it monthly treatment. The pod format makes dosing foolproof.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> The pods have a light scent, which some users notice. If you prefer unscented products, Rid-X or Bio-Clean may be better options.</p>
-              <a href='https://amzn.to/47boQ8w' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B064XwAuz' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Bio-Clean */}
@@ -305,7 +305,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Bio-Clean is a commercial-grade formula that delivers a higher concentration of bacteria and enzymes per dose than consumer-grade products. The initial treatment uses the full container mixed with warm water, establishing a strong bacterial colony quickly. Monthly maintenance doses follow. It targets grease, fats, oils, paper, and protein-based waste.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Homeowners who recently purchased a home with a neglected septic system, or anyone restarting bacterial health after heavy chemical use or a complete pump-out. Bio-Clean is also favored by septic professionals for systems that need aggressive biological restoration.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Bio-Clean costs more upfront than Rid-X or Green Gobbler, but the concentrated formula means you&apos;re getting more active bacteria per dollar. The powder must be mixed with warm (not hot) water before application. Hot water kills the bacteria.</p>
-              <a href='https://amzn.to/4brTi0w' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0ejZ8SZI' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
               <p className='text-slate-700 text-sm mt-4'>For homeowners specifically researching products to reduce sludge accumulation, see our dedicated guide: <Link href='/reviews/best-septic-tank-sludge-dissolver' className='text-amber-700 underline hover:text-amber-800'>Best Septic Tank Sludge Dissolver 2026</Link>.</p>
             </div>
 
@@ -319,7 +319,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Twelve pre-measured packets designed for 1,000-gallon tanks. Each packet contains billions of active bacteria plus a targeted enzyme blend. The full-year supply means you buy once and treat monthly for an entire year. Simple packaging, clear instructions, and strong user reviews for odor reduction and improved drain performance.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Homeowners who want a full year of treatment in a single purchase. Particularly good for vacation homes or seasonal properties where you want consistent treatment without remembering to reorder every few months.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Designed for tanks up to 1,000 gallons. For larger tanks (1,500+ gallons), you may need to use two packets per dose. Read the label carefully for your tank size.</p>
-              <a href='https://amzn.to/4rjVJXZ' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0cxNwcup' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
 
             {/* Walex Bio-Active */}
@@ -332,7 +332,7 @@ export default function BestSepticTankTreatments() {
               <p className='text-slate-700 text-sm mb-3'><strong>Why it works:</strong> Walex Bio-Active contains billions of bacteria specifically formulated to replace the bacterial colony that gets partially removed during pumping. The enzyme blend targets paper, fats, proteins, and other common household waste. Pre-measured pods make dosing consistent.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Using immediately after a tank pumping to jumpstart the biological process. The first dose after pumping is the most important treatment you can apply, as the tank&apos;s bacterial population is at its lowest point.</p>
               <p className='text-slate-700 text-sm mb-4'><strong>What to know:</strong> Some users report this product is less effective for heavy grease situations compared to Bio-Clean. For grease-heavy households (lots of cooking, frequent food waste down the drain), Bio-Clean may be the better choice.</p>
-              <a href='https://amzn.to/4racIf5' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B0ePmdtFy' target='_blank' rel='noopener noreferrer nofollow' className='inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-2.5 px-6 rounded-lg transition-colors text-sm'>Check Price on Amazon</a>
             </div>
           </div>
         </div>
