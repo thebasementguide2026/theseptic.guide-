@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import LeadForm from '@/components/LeadForm'
-import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import ArticleStructuredData from '@/components/ArticleStructuredData'
 import content from './content.json'
 import styles from './article.module.css'
@@ -101,16 +99,10 @@ export default function FrozenSepticSystem() {
           ))}</ul>
         </section>
       </div>
-      <div className="bg-slate-900 rounded-2xl p-8 md:p-10 text-center">
-        <h2 className="text-xl md:text-2xl font-bold text-white mb-3">Need Emergency Septic Service?</h2>
-        <p className="text-slate-300 mb-6 max-w-xl mx-auto text-sm">Connect with licensed septic professionals in your area. Get fast, reliable service when you need it most.</p>
-        <Link href="/get-quote" className="inline-block bg-amber-700 hover:bg-amber-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-sm">Get Free Quotes</Link>
-      </div>
       <section className="py-12 bg-[#F5F0EB] rounded-2xl mt-12">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-[#4A6741] text-center mb-3">Get Expert Septic Help</h2>
           <p className="text-gray-600 text-center mb-8">Connect with qualified septic professionals in your area. Free quotes, no obligation.</p>
-          <BeehiivEmailCapture description="Septic maintenance schedules, pumping reminders, and troubleshooting guides from The Septic Guide, free to your inbox." />
           <LeadForm />
         </div>
       </section>
