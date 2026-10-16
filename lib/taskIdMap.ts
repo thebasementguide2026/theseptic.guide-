@@ -41,6 +41,7 @@ export const TASK_ID_MAP: Record<string, number[]> = {
   'septic-system-maintenance-checklist': [...DEFAULT_TASK_IDS, 461, 130],
 
   // Problems
+  'frozen-septic-system': [...DEFAULT_TASK_IDS, 123, 234, 130],
   'slow-drains': [...DEFAULT_TASK_IDS, 123, 227, 130],
   'tank-backing-up': [...DEFAULT_TASK_IDS, 123, 234, 130],
   'drainfield-failing': [...DEFAULT_TASK_IDS, 483, 130],

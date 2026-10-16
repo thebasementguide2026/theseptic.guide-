@@ -230,6 +230,7 @@ export default function SepticTankBackingUp() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>The Seven Most Common Causes of Septic Backups</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>During a cold snap, a <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen septic system</Link> can cause the same whole-house backup symptoms. Identify whether the ice is in a line or in the drainfield before paying for a thaw.</p>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>1. The Tank Is Full and Overdue for Pumping</h3>
@@ -457,7 +458,11 @@ export default function SepticTankBackingUp() {
               <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
               <p className='text-slate-500 text-xs mb-4'>On theseptic.guide</p>
               <div className='grid md:grid-cols-2 gap-4'>
-                <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                  <h3 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h3>
+                  <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+                </Link>
+            <Link href='/problems/drainfield-failing' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                   <h3 className='font-bold text-slate-900 mb-1 text-sm'>Signs Your Drainfield Is Failing</h3>
                   <p className='text-slate-600 text-xs'>The complete warning sign progression from earliest to latest, what causes drainfield failure, and when replacement is unavoidable.</p>
                 </Link>

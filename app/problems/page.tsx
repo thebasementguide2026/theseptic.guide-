@@ -9,6 +9,7 @@ export const metadata = {
 }
 
 const problems = [
+  { title: 'Frozen Septic System', href: '/problems/frozen-septic-system', description: 'Find where your septic system froze, how each part is thawed, what it costs, and how to prevent it.' },
   { title: 'Septic Tank Backing Up Into House', href: '/problems/tank-backing-up', description: 'What to do when sewage backs up and how to prevent it.' },
   { title: 'Septic Smell in Your Yard', href: '/problems/septic-smell-in-yard', description: 'Causes and solutions for foul odors around your septic system.' },
   { title: 'Signs Your Drainfield Is Failing', href: '/problems/drainfield-failing', description: 'Warning signs and repair options for failing drainfields.' },

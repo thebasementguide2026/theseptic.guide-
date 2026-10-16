@@ -52,6 +52,7 @@ const navItems = [
     href: '/problems',
     dropdown: [
       { label: 'Tank Backing Up', href: '/problems/tank-backing-up' },
+      { label: 'Frozen Septic System', href: '/problems/frozen-septic-system' },
       { label: 'Septic Smell in Yard', href: '/problems/septic-smell-in-yard' },
       { label: 'Drainfield Failing', href: '/problems/drainfield-failing' },
       { label: 'Overflow After Rain', href: '/problems/overflow-after-rain' },

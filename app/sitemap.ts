@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${baseUrl}/${article.slug.startsWith('problems/') || article.slug.startsWith('cost-guides/') || article.slug.startsWith('reviews/') || article.slug.startsWith('comparisons/') || article.slug.startsWith('guides/') || article.slug.startsWith('maintenance/') ? article.slug : `articles/${article.slug}`}`,
-    lastModified: new Date(),
+    lastModified: article.slug === 'problems/frozen-septic-system' ? '2026-10-15' : new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))

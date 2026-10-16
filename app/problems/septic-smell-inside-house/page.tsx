@@ -237,6 +237,7 @@ export default function SepticSmellInsideHouse() {
             {/* Cause 2 */}
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>2. Blocked or Damaged Vent Stack</h3>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>If gurgling and indoor odor start during a cold snap, check for a <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen roof vent or septic line</Link> before assuming the tank needs pumping.</p>
               <p className='text-slate-700 text-sm mb-2'><strong>What it is:</strong> Your home&apos;s plumbing vent stack runs from drain pipes up through the roof. It allows sewer gases to escape above the roofline and equalizes air pressure in drain pipes. When blocked, gases push back down through drains into your home.</p>
               <p className='text-slate-700 text-sm mb-2'><strong>How to diagnose:</strong> The smell affects multiple rooms or the entire house. You may hear gurgling sounds from drains when toilets flush. Drains may run slowly even though individual pipes are clear.</p>
               <p className='text-amber-700 font-semibold text-sm mb-2'>The fix: Check the vent pipe on your roof. Clear visible obstructions (bird nests, leaves, debris, ice). Pour warm water down to melt ice blocks. For persistent blockages, a plumber can snake the vent line.</p>
@@ -548,6 +549,10 @@ export default function SepticSmellInsideHouse() {
           <p className='text-slate-700 text-sm mb-6'>Guides and resources related to diagnosing and fixing indoor septic smell.</p>
           <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
           <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 text-sm mb-1'>Frozen Septic System</h4>
+              <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+            </Link>
             <Link href='/problems/septic-smell-in-yard' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 text-sm mb-1'>Septic Smell in the Yard</h4>
               <p className='text-slate-600 text-xs'>The companion problem guide covering outdoor septic odor, which originates at the tank or drainfield rather than inside the home&apos;s plumbing barrier and requires a different diagnosis approach.</p>

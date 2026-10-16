@@ -271,6 +271,7 @@ export default function DrainfieldFailing() {
         {/* What Causes Drainfield Failure */}
         <div className='mt-16'>
           <h2 className='text-3xl font-black text-slate-900 mb-6'>What Causes Drainfield Failure</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>In a cold-climate winter, a <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen drainfield</Link> can stop accepting wastewater and mimic permanent failure. A saturated field may need scheduled tank pump-outs until spring before its underlying condition can be evaluated.</p>
           <p className='text-slate-600 leading-relaxed mb-8'>Understanding the cause determines whether the drainfield can be saved or needs to be replaced.</p>
 
           <div className='space-y-6'>
@@ -591,7 +592,11 @@ export default function DrainfieldFailing() {
 
             <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
             <div className='grid md:grid-cols-2 gap-6 mb-10'>
-              <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                <h3 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h3>
+                <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+              </Link>
+            <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
                 <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
                 <p className='text-slate-600 text-xs'>What to do when sewage backs up into your home and how to prevent it from happening again.</p>
               </Link>

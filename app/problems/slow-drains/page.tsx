@@ -337,6 +337,7 @@ export default function SlowDrains() {
             <div className='bg-white border border-slate-200 rounded-lg p-4'><p className='text-slate-700 text-sm'>Sewer gas smell inside the house (gas escaping through drain traps because the vacuum pulls water out of the P-traps)</p></div>
           </div>
           <h3 className='text-lg font-bold text-slate-900 mb-3'>Common Vent Blockages</h3>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>In cold weather, a <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen septic line</Link> can also slow or stop drains throughout the house. Check whether the blockage is at the roof vent, in a pipe, or in the drainfield before choosing a fix.</p>
           <div className='overflow-x-auto my-6'>
             <table className='w-full text-xs border-collapse'>
               <thead><tr className='bg-slate-900 text-white'><th className='p-2 text-left font-semibold'>Blockage</th><th className='p-2 text-left font-semibold'>How It Happens</th><th className='p-2 text-left font-semibold'>Fix</th></tr></thead>
@@ -429,6 +430,10 @@ export default function SlowDrains() {
         <div className='mb-16'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <div className='grid md:grid-cols-2 gap-4'>
+            <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h3>
+              <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+            </Link>
             <Link href='/problems/tank-backing-up' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Backing Up Into House</h3>
               <p className='text-slate-600 text-xs'>When slow drains escalate into a full backup, this guide covers emergency steps, causes, and how to fix and prevent it.</p>

@@ -464,6 +464,7 @@ export default function BestSepticAlarmsPage() {
         {/* When Your Alarm Goes Off */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">When Your Alarm Goes Off: What to Do</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>A <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>pump alarm in freezing weather</Link> can signal ice in the pump line or drainfield. If the pump is alarming or running nonstop against a blockage, shut it off and call a septic professional.</p>
           <div className="space-y-6">
             <div className="flex gap-4">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 font-bold">1</div>
@@ -586,7 +587,8 @@ export default function BestSepticAlarmsPage() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Link href="/problems/tank-backing-up" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Tank Backing Up: Causes and Fixes</h3></Link>
+              <Link href='/problems/frozen-septic-system' className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Frozen Septic System</h3></Link>
+            <Link href="/problems/tank-backing-up" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Tank Backing Up: Causes and Fixes</h3></Link>
               <Link href="/problems/septic-overflow-after-rain" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Overflow After Rain</h3></Link>
               <Link href="/problems/drainfield-failing" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Signs Your Drainfield Is Failing</h3></Link>
               <Link href="/problems/septic-smell-inside-house" className="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:border-amber-400 transition-colors"><h3 className="text-gray-900 font-bold hover:text-amber-600 transition-colors">Septic Smell Inside the House</h3></Link>

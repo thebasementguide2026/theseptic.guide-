@@ -83,7 +83,7 @@ const faqSchema = {
       name: 'Do I need a septic system heater?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most septic systems in cold climates do not need a dedicated heater if they are properly insulated, buried below the local frost line, and receive regular warm water use from normal household activity. The situations where a tank heater or heat tape becomes worth the investment are a system with a history of freezing despite normal preventive measures, a tank or pipe installation that is too shallow relative to the local frost line, a vacation or seasonal property where no warm water flows through the system for extended periods, or a system in an extremely cold climate where temperatures regularly drop below negative 20 degrees Fahrenheit for sustained periods. Tank heaters cost $100 to $300 and are designed to maintain a minimum temperature inside the tank during extreme cold, while heat tape applied to exposed or shallow pipe sections costs $50 to $150 and provides targeted protection for the most vulnerable part of the system. Before investing in a heater, adding insulation in the form of mulch over the system and foam panels over the tank lids is always the first and least expensive step, as it addresses the most common cause of freezing without adding any ongoing energy cost or maintenance requirement. Consult a septic professional about whether your specific system\'s installation depth and history justify the cost of a heater before purchasing one.',
+        text: 'Most septic systems in cold climates do not need a dedicated heater if they are properly insulated, buried below the local frost line, and receive regular warm water use from normal household activity. The situations where a tank heater or heat tape becomes worth the investment are a system with a history of freezing despite normal preventive measures, a tank or pipe installation that is too shallow relative to the local frost line, a vacation or seasonal property where no warm water flows through the system for extended periods, or a system in an extremely cold climate where temperatures regularly drop below negative 20 degrees Fahrenheit for sustained periods. Dedicated septic heater units cost roughly $1,400 to $2,500, and self-regulating heat cable rated for drain lines costs roughly $100 to $250. Before investing in a heater, adding insulation in the form of mulch over the system and foam panels over the tank lids is always the first and least expensive step, as it addresses the most common cause of freezing without adding any ongoing energy cost or maintenance requirement. Consult a septic professional about whether your specific system\'s installation depth and history justify the cost of a heater before purchasing one.',
       },
     },
     {
@@ -132,7 +132,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
   publisher: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
   datePublished: '2026-03-15',
-  dateModified: '2026-03-15',
+  dateModified: '2026-10-15',
 }
 
 export default function SepticSystemWinterCare() {
@@ -160,7 +160,7 @@ export default function SepticSystemWinterCare() {
             <div className='w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-gray-900 font-bold text-sm'>SG</div>
             <div>
               <p className='font-semibold'>The Septic Guide</p>
-              <p className='text-sm text-gray-300'>Updated Mar 2026 &middot; 30 min read</p>
+              <p className='text-sm text-gray-300'>Updated Oct 2026 &middot; 30 min read</p>
             </div>
           </div>
         </div>
@@ -400,6 +400,7 @@ export default function SepticSystemWinterCare() {
         {/* If System Freezes */}
         <section className='mb-16'>
           <h2 className='text-3xl font-bold text-slate-800 mb-6'>What to Do If Your Septic System Freezes</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>Use our <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen septic system guide</Link> to locate the freeze, compare thawing costs, and plan pump-outs if the drainfield cannot accept water.</p>
           <p className='text-slate-700 leading-relaxed mb-6'>If you suspect your system is frozen (drains stop working, backup occurs, pump alarm sounds), take these steps.</p>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8'>
@@ -545,6 +546,12 @@ export default function SepticSystemWinterCare() {
 
           <h3 className='text-lg font-bold text-slate-900 mb-4'>On theseptic.guide</h3>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-10'>
+            <Link href='/problems/frozen-septic-system' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
+              <div className='p-6'>
+                <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Frozen Septic System</h4>
+                <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+              </div>
+            </Link>
             <Link href='/maintenance/septic-system-maintenance-checklist' className='group bg-gray-50 border border-slate-200 rounded-xl overflow-hidden hover:border-amber-400 transition-colors'>
               <div className='p-6'>
                 <h4 className='text-slate-800 font-bold group-hover:text-amber-600 transition-colors mb-1'>Septic System Maintenance Checklist</h4>

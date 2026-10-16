@@ -52,7 +52,7 @@ const faqSchema = {
       name: 'When is the best time of year to pump a septic tank?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.',
+        text: 'Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into holding tank mode, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.',
       },
     },
     {
@@ -269,7 +269,7 @@ export default function SepticPumpingCostArticle() {
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Locating Fee &mdash; $50 to $150</h3>
               <p className='text-slate-700 text-sm mb-2'>If nobody knows where the tank is buried and there are no records, the technician has to locate it using a probe, electronic locator, or camera. Some companies include this in their base rate. Many don&apos;t.</p>
-              <p className='text-amber-700 font-semibold text-sm'>The fix: Locate your tank once, mark it permanently, and keep a diagram. See our <Link href='/guides/find-your-septic-tank' className='underline hover:text-amber-800'>guide on how to find your septic tank</Link>.</p>
+              <p className='text-amber-700 font-semibold text-sm'>The fix: Locate your tank once, mark it permanently, and keep a diagram. See our <Link href='/articles/how-to-find-your-septic-tank' className='underline hover:text-amber-800'>guide on how to find your septic tank</Link>.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Disposal Fees &mdash; Sometimes Separate</h3>
@@ -523,7 +523,7 @@ export default function SepticPumpingCostArticle() {
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>When is the best time of year to pump?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain &mdash; saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain &mdash; saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>holding tank mode</Link>, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Should I pump before selling my house?</summary>
@@ -540,7 +540,11 @@ export default function SepticPumpingCostArticle() {
                 <div className='mb-16'>
                             <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
                                       <div className='grid md:grid-cols-2 gap-4'>
-                                                    <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+                                                    <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h3>
+              <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+            </Link>
+            <Link href='/articles/complete-septic-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Complete Septic System Guide</h3>
               <p className='text-slate-600 text-xs'>How your system works, the different types, maintenance schedules, and warning signs of failure.</p>
             </Link>

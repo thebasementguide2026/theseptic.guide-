@@ -66,6 +66,7 @@ export default function BestSepticTankRisers() {
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Why It Matters</span><div className='flex-1 h-px bg-slate-200'></div></div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Why Risers Matter</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>Surface access is especially useful for <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>winter pump-outs on a frozen system</Link>, when buried lids add frozen-ground digging costs to every service visit.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Every time a septic professional services your tank, they need to access the lids. If those lids are buried 6 to 24 inches underground, someone has to dig them out. That&apos;s <strong>$50 to $200 added to every pumping, inspection, or repair visit</strong>.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Over the life of your system (20 to 30 years with pumping every 3 to 5 years), that&apos;s $300 to $1,500 in digging fees alone. A riser eliminates that cost permanently.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>It also means:</p>
@@ -274,7 +275,8 @@ export default function BestSepticTankRisers() {
             <div className='flex items-center space-x-3 mb-4'><span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Related Guides</span><div className='flex-1 h-px bg-slate-200'></div></div>
             <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
-              <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Tank Pumping Cost</Link>
+              <Link href='/problems/frozen-septic-system' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Frozen Septic System</Link>
+            <Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Tank Pumping Cost</Link>
               <Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>How Often to Pump Your Septic Tank</Link>
               <Link href='/articles/how-to-find-your-septic-tank' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>How to Find Your Septic Tank</Link>
               <Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 hover:text-amber-900 text-sm font-medium hover:underline'>Septic Inspection Cost</Link>

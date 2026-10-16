@@ -9,6 +9,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+  "title": "Frozen Septic System: How to Find It, Thaw It, and What It Costs",
+  "description": "Frozen septic system? Find out if it's the vent, line, tank, pump line, or drainfield, how each one gets thawed, what it costs, and what never to pour in.",
+  "slug": "problems/frozen-septic-system",
+  "category": "Problem",
+  "readTime": "26 min read",
+  "image": "/frozen-septic-system.jpg"
+},
+  {
     title: 'The Complete Guide to Septic Systems: How They Work, Types, and What Every Homeowner Needs to Know',
     description: 'Over 21 million homes in the US rely on septic systems. Learn how they work, the different types, maintenance costs, and warning signs of failure.',
     slug: 'complete-septic-guide',

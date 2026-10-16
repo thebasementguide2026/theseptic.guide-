@@ -28,6 +28,7 @@ The Septic Guide is an independent publication for the 20 percent of U.S. househ
 
 ## Problem Diagnosis & Repair
 
+- [Frozen Septic System](https://theseptic.guide/problems/frozen-septic-system): How to tell where a septic system froze (vent, line, tank, pump line, or drainfield), how each is thawed, costs, and how to prevent it.
 - [Signs Your Drainfield Is Failing: Warning Signs, Causes & What to Do](https://theseptic.guide/problems/drainfield-failing): Learn the 7 warning signs of drainfield failure from earliest to latest. Understand what causes drainfield problems, which ones are fixable, and when you need a full replacement.
 - [Septic Overflow After Rain? Why It Happens and How to Fix It](https://theseptic.guide/problems/septic-overflow-after-rain): Septic overflow after rain is caused by groundwater saturating your drainfield, stormwater entering your tank, or a system that was already near capacity. Learn the 5 mechanisms, emergency steps, a...
 - [Septic Smell in Your Yard? 8 Causes and How to Fix Each One](https://theseptic.guide/problems/septic-smell-in-yard): A septic smell in your yard is caused by hydrogen sulfide and methane gas escaping from your septic system. Learn the 8 most common causes, how to diagnose each one, and the specific fix and cost f...

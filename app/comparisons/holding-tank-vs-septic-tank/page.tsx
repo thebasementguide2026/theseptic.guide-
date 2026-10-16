@@ -220,6 +220,7 @@ export default function HoldingTankVsSepticTank() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>When a Holding Tank Is the Right Choice</h2>
+          <p className='text-slate-700 text-sm leading-relaxed mb-6'>An existing septic system with a <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>frozen drainfield</Link> also operates temporarily as a holding tank, with wastewater removed by truck until the soil thaws.</p>
           <p className='text-sm text-slate-700 leading-relaxed mb-3'><strong>Soil cannot support a drain field:</strong> If the soil fails a percolation test due to clay content, shallow bedrock, or a high water table, and no alternative septic system is feasible for the site, a holding tank may be the only legal option for on-site wastewater management.</p>
           <p className='text-sm text-slate-700 leading-relaxed mb-3'><strong>Temporary installation during construction:</strong> New construction on properties where the permanent septic system permit is pending or the system is being installed can use a holding tank as a bridge. This is the most common use case for holding tanks in residential construction.</p>
           <p className='text-sm text-slate-700 leading-relaxed mb-3'><strong>Seasonal or very low-use properties:</strong> A cabin used 20 to 30 days per year may need only 2 to 4 pump-outs annually, making the operating cost manageable. The lower installation cost of a holding tank versus a full septic system can make economic sense when annualized over low-use scenarios.</p>
@@ -335,6 +336,10 @@ export default function HoldingTankVsSepticTank() {
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <div className='grid md:grid-cols-2 gap-6 mb-6'>
+            <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
+              <h4 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h4>
+              <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
+            </Link>
             <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost</h4>
               <p className='text-slate-600 text-xs'>Full breakdown of installation costs by system type, including conventional, aerobic, and mound systems.</p>
