@@ -14,6 +14,7 @@ const categories = [
   { label: '💰 Cost Guides', href: '/cost-guides' },
   { label: '⭐ Reviews', href: '/reviews' },
   { label: '⚠️ Problems', href: '/problems' },
+  { label: 'Frozen Septic System', href: '/problems/frozen-septic-system' },
   { label: '🏡 Buying a Home', href: '/guides/buying-home-with-septic' },
   { label: '📖 Start Here', href: '/articles/complete-septic-guide' },
     { label: '\u2705 Dos & Don\u2019ts', href: '/guides/septic-dos-and-donts' },
