@@ -18,9 +18,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/septic-services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 
+  const datedSlugs: Record<string, string> = {
+    'problems/frozen-septic-system': '2026-10-15',
+    'cost-guides/septic-tank-removal-cost': '2026-10-21',
+    'cost-guides/septic-to-sewer-conversion-cost': '2026-10-21',
+    'cost-guides/septic-system-installation-cost': '2026-10-21',
+  }
+
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${baseUrl}/${article.slug.startsWith('problems/') || article.slug.startsWith('cost-guides/') || article.slug.startsWith('reviews/') || article.slug.startsWith('comparisons/') || article.slug.startsWith('guides/') || article.slug.startsWith('maintenance/') ? article.slug : `articles/${article.slug}`}`,
-    lastModified: article.slug === 'problems/frozen-septic-system' ? '2026-10-15' : new Date(),
+    lastModified: datedSlugs[article.slug] ?? new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))

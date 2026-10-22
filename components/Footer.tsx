@@ -39,6 +39,7 @@ const footerSections = [
       { label: 'Repair Cost', href: '/cost-guides/septic-system-repair-cost' },
       { label: 'Inspection Cost', href: '/cost-guides/septic-inspection-cost' },
             { label: 'Septic to Sewer Conversion', href: '/cost-guides/septic-to-sewer-conversion-cost' },
+      { label: 'Tank Removal Cost', href: '/cost-guides/septic-tank-removal-cost' },
     ],
   },
   {

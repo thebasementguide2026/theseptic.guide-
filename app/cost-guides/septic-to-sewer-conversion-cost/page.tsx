@@ -72,7 +72,7 @@ const articleSchema = {
   description: 'Septic to sewer conversion costs $5,000 to $15,000 in 2026. Full cost breakdown, 20-year financial comparison, grants, and step-by-step process.',
   image: 'https://theseptic.guide/septictosewer.jpg',
   datePublished: '2026-03-13',
-  dateModified: '2026-03-13',
+  dateModified: '2026-10-21',
   author: {
     '@type': 'Organization',
     name: 'The Septic Guide',
@@ -96,7 +96,7 @@ const datasetSchema = {
     name: 'The Septic Guide',
     url: 'https://theseptic.guide',
   },
-  dateModified: '2026-03-13',
+  dateModified: '2026-10-21',
   variableMeasured: [
     { '@type': 'PropertyValue', name: 'Sewer connection fee (tap fee)', minValue: 1000, maxValue: 5000, unitCode: 'USD' },
     { '@type': 'PropertyValue', name: 'Sewer line installation (house to street)', minValue: 2000, maxValue: 7000, unitCode: 'USD' },
@@ -137,7 +137,7 @@ export default function SepticToSewerConversionCostPage() {
             <div className="w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm">SG</div>
             <div>
               <p className="text-white font-semibold">The Septic Guide</p>
-              <p className="text-slate-400 text-sm">Updated Mar 2026 &middot; 22 min read</p>
+              <p className="text-slate-400 text-sm">Updated Oct 2026 &middot; 22 min read</p>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function SepticToSewerConversionCostPage() {
                 <tr className="border-b border-slate-200">
                   <td className="p-2 font-semibold text-slate-900">Septic tank decommissioning</td>
                   <td className="p-2 text-center text-slate-700">$500 &ndash; $2,000</td>
-                  <td className="p-2 text-slate-700">Pumping, collapsing or filling with sand/gravel, and capping pipes. Required by code. Full removal adds $1,000&ndash;$4,000 more.</td>
+                  <td className="p-2 text-slate-700">Pumping, collapsing or filling with sand/gravel, and capping pipes. Required by code. Full removal instead of filling: $1,500 to $6,000 total.</td>
                 </tr>
                 <tr className="border-b border-slate-200 bg-slate-50">
                   <td className="p-2 font-semibold text-slate-900">Permits and inspections</td>
@@ -271,7 +271,7 @@ export default function SepticToSewerConversionCostPage() {
             </div>
             <div className="bg-white border border-slate-200 rounded-lg p-5">
               <h3 className="text-lg font-bold text-slate-900 mb-2">Remove vs. fill the old septic tank</h3>
-              <p className="text-slate-700 text-sm">Filling the tank in place with sand or gravel costs <strong>$500 to $2,000</strong>. Full tank removal with excavation and hauling costs <strong>$1,500 to $6,000</strong>. Most homeowners choose in-place filling. Some municipalities require removal if the tank is in the path of future construction or poses a collapse risk.</p>
+              <p className="text-slate-700 text-sm">Old tanks are either filled in place, typically $500 to $2,000, or fully removed, typically $1,500 to $6,000 total. For when you need each, county requirements, and what quotes should include, see our <Link href="/cost-guides/septic-tank-removal-cost" className="text-amber-700 underline hover:text-amber-800">septic tank removal cost guide</Link>.</p>
             </div>
           </div>
         </div>

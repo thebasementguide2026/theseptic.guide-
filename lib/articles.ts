@@ -9,6 +9,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+  "title": "Old Septic Tank Removal Cost: Full Removal vs. Filling in Place (2026)",
+  "description": "Removing an old septic tank costs $1,500 to $6,000. Filling it in place runs $500 to $2,000. See which one you need, what's required, and what drives the price.",
+  "slug": "cost-guides/septic-tank-removal-cost",
+  "category": "Cost Guide",
+  "readTime": "12 min read",
+  "image": "/septic-tank-removal-hero.jpg"
+},
+  {
   "title": "Frozen Septic System: How to Find It, Thaw It, and What It Costs",
   "description": "Frozen septic system? Find out if it's the vent, line, tank, pump line, or drainfield, how each one gets thawed, what it costs, and what never to pour in.",
   "slug": "problems/frozen-septic-system",

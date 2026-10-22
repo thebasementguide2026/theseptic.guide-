@@ -30,7 +30,16 @@ const navItems = [
   {
     label: 'Cost Guides',
     href: '/cost-guides',
-    dropdown: null,
+    dropdown: [
+      { label: 'Tank Removal Cost', href: '/cost-guides/septic-tank-removal-cost' },
+      { label: 'Pumping Cost', href: '/articles/septic-tank-pumping-cost' },
+      { label: 'Cost Calculator', href: '/cost-guides/septic-tank-cost-calculator' },
+      { label: 'Installation Cost', href: '/cost-guides/septic-system-installation-cost' },
+      { label: 'Drainfield Replacement', href: '/cost-guides/drainfield-replacement-cost' },
+      { label: 'Repair Cost', href: '/cost-guides/septic-system-repair-cost' },
+      { label: 'Inspection Cost', href: '/cost-guides/septic-inspection-cost' },
+      { label: 'Septic to Sewer Conversion', href: '/cost-guides/septic-to-sewer-conversion-cost' },
+    ],
   },
   {
     label: 'Reviews',

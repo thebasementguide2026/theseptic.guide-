@@ -16,6 +16,7 @@ const costGuides = [
   { title: 'Septic System Repair Cost', range: '$150 - $5,000', href: '/cost-guides/repair-cost', description: 'Common septic repairs and their typical costs.' },
   { title: 'Septic Inspection Cost', range: '$100 - $250', href: '/cost-guides/inspection-cost', description: 'Costs for routine and pre-purchase septic inspections.' },
   { title: 'Septic to Sewer Conversion Cost', range: '$5,000 – $15,000', href: '/cost-guides/septic-to-sewer-conversion-cost', description: 'Full cost breakdown for converting from septic to municipal sewer. Includes connection fees, line installation, decommissioning, grants, and 20-year financial comparison.' },
+  { title: 'Septic Tank Removal Cost', range: '$500 – $6,000', href: '/cost-guides/septic-tank-removal-cost', description: 'What it costs to remove or fill in place an old septic tank, county requirements, and when full removal is needed.' },
 ]
 
 export default function CostGuidesPage() {

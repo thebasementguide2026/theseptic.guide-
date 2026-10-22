@@ -72,7 +72,7 @@ const articleSchema = {
   description: 'A new septic system costs $3,000 to $20,000 installed. Complete price breakdown by system type, cost components, tank materials, and how to save.',
   image: 'https://theseptic.guide/costguide.jpg',
   datePublished: '2026-03-05',
-  dateModified: '2026-03-05',
+  dateModified: '2026-10-21',
   author: {
     '@type': 'Organization',
     name: 'The Septic Guide',
@@ -117,7 +117,7 @@ export default function SepticInstallationCostArticle() {
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
             <div>
               <p className='text-white font-semibold'>The Septic Guide</p>
-              <p className='text-slate-400 text-sm'>Updated Mar 2026 &middot; 25 min read</p>
+              <p className='text-slate-400 text-sm'>Updated Oct 2026 &middot; 25 min read</p>
             </div>
           </div>
         </div>
@@ -524,7 +524,7 @@ export default function SepticInstallationCostArticle() {
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Existing system decommissioning &mdash; $500 to $2,000</h3>
-              <p className='text-slate-700 text-sm'>If you&apos;re replacing an old system, the existing tank must be properly decommissioned (pumped, crushed or filled with sand, and covered).</p>
+              <p className='text-slate-700 text-sm'>If you&apos;re replacing an old system, the existing tank must be properly decommissioned (pumped, crushed or filled with sand, and covered). See our <Link href='/cost-guides/septic-tank-removal-cost' className='text-amber-700 underline hover:text-amber-800'>septic tank removal cost guide</Link> for the full breakdown.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Electrical connection (ATU only) &mdash; $500 to $1,500</h3>
