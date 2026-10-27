@@ -7,71 +7,95 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Septic Tank Pumping Cost 2026: What You\'ll Actually Pay | The Septic Guide',
-  description: 'The average septic tank pumping costs $300 to $600. Learn real pricing by tank size, region, hidden fees to watch for, and the questions to ask before hiring.',
+  description: "Septic tank pumping costs $300 to $600, and most homeowners pay about $400. Prices by tank size and region, the hidden fees to ask about, and what a good pump-out should include.",
   alternates: { canonical: 'https://theseptic.guide/articles/septic-tank-pumping-cost' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'How much does it cost to pump a septic tank?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The national average cost to pump a septic tank in 2026 is $300 to $600 for a standard residential tank holding 1,000 to 1,500 gallons, with most homeowners paying around $400. Your actual cost depends on four main factors: tank size, your location, how accessible the tank lids are, and whether the company charges separately for disposal, inspection, and effluent filter cleaning. Always ask for a fully inclusive quote before scheduling -- some companies advertise a low base rate and then add $50 to $200 in access fees, disposal charges, and inspection costs that bring the real total significantly higher. Getting two to three quotes from licensed local companies is the best way to make sure you are paying a fair price for your area.',
-      },
+      "@type": "Question",
+      "name": "How much does it cost to pump a septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The national average cost to pump a septic tank in 2026 is $300 to $600 for a standard residential tank holding 1,000 to 1,500 gallons, with most homeowners paying around $400. Your actual cost depends on four main factors: tank size, your location, how accessible the tank lids are, and whether the company charges separately for disposal, inspection, and effluent filter cleaning. Always ask for a fully inclusive quote before scheduling: some companies advertise a low base rate and then add $50 to $200 in access fees, disposal charges, and inspection costs that bring the real total significantly higher. Getting two to three quotes from licensed local companies is the best way to make sure you are paying a fair price for your area."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How often should I pump my septic tank?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The EPA recommends pumping every three to five years for a typical household, but the right interval for your home depends on tank size, the number of people in the household, daily water usage, and whether you use a garbage disposal. A 1,000-gallon tank serving four people needs pumping roughly every 2.5 years, while the same tank serving two people can go 5.5 years between pump-outs. The most accurate way to determine your personal schedule is to have a technician measure your sludge and scum levels during each visit -- when the combined layers reach 30 percent of the tank\'s capacity, it is time to pump regardless of how long it has been.',
-      },
+      "@type": "Question",
+      "name": "How often should I pump my septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The EPA recommends pumping every three to five years for a typical household, but the right interval for your home depends on tank size, the number of people in the household, daily water usage, and whether you use a garbage disposal. A 1,000-gallon tank serving four people needs pumping roughly every 2.5 years, while the same tank serving two people can go 5.5 years between pump-outs. The most accurate way to determine your personal schedule is to have a technician measure your sludge and scum levels during each visit: when the combined layers reach 30 percent of the tank's capacity, it is time to pump regardless of how long it has been."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What happens if I don\'t pump my septic tank?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'If pumping is skipped long enough, sludge and scum accumulate past the outlet baffle and begin flowing into the drainfield, clogging the perforated pipes and surrounding soil with solid waste that the soil cannot filter. Once solids reach the drainfield, the damage is largely irreversible -- you cannot vacuum out a clogged drainfield the way you can pump a tank. The result is sewage backing up into your home, surfacing in your yard, or both, along with a repair bill of $5,000 to $30,000 for drainfield rejuvenation or full replacement. A homeowner who pumps on schedule for 20 years spends $2,000 to $3,000 total. A homeowner who skips pumping and suffers a drainfield failure spends that same amount in a single afternoon.',
-      },
+      "@type": "Question",
+      "name": "What happens if I don't pump my septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If pumping is skipped long enough, sludge and scum accumulate past the outlet baffle and begin flowing into the drainfield, clogging the perforated pipes and surrounding soil with solid waste that the soil cannot filter. Once solids reach the drainfield, the damage is largely irreversible: you cannot vacuum out a clogged drainfield the way you can pump a tank. The result is sewage backing up into your home, surfacing in your yard, or both. Drainfield rejuvenation costs $1,000 to $5,000 when it works, and a new drainfield costs $5,000 to $15,000. A homeowner who pumps on schedule for 20 years spends $1,500 to $3,000 total."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Is septic tank pumping the same as septic tank cleaning?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Pumping and cleaning are related but not the same thing. Standard pumping uses a vacuum truck to remove the liquid effluent, floating scum layer, and most of the sludge from the bottom of the tank -- this covers what most routine service calls include. Cleaning goes further by using hydro-jetting to break up and remove compacted or hardened sludge that has crusted along the tank walls and floor and cannot be removed by vacuum alone. Cleaning is recommended for tanks that have gone 7 or more years without service, tanks with an unusually thick sludge layer, or any tank where the technician finds material the vacuum cannot fully remove. If your tank is on a regular pumping schedule, standard pumping is sufficient -- cleaning is not needed every visit and adds $200 to $300 to the cost.',
-      },
+      "@type": "Question",
+      "name": "Is septic tank pumping the same as cleaning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pumping and cleaning are related but not the same thing. Standard pumping uses a vacuum truck to remove the liquid effluent, floating scum layer, and most of the sludge from the bottom of the tank: this covers what most routine service calls include. Cleaning goes further by using hydro-jetting to break up and remove compacted or hardened sludge that has crusted along the tank walls and floor and cannot be removed by vacuum alone. Cleaning is recommended for tanks that have gone 7 or more years without service, tanks with an unusually thick sludge layer, or any tank where the technician finds material the vacuum cannot fully remove. If your tank is on a regular pumping schedule, standard pumping is sufficient: cleaning is not needed every visit and adds $200 to $300 to the cost."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'When is the best time of year to pump a septic tank?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain -- saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into holding tank mode, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.',
-      },
+      "@type": "Question",
+      "name": "When is the best time of year to pump?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain: saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into holding tank mode, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Should I get my tank pumped before selling my house?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Pumping before listing your home for sale is strongly recommended and required by law in many states. More than 30 states require a septic inspection as part of a real estate transaction, and an inspector who finds a tank at or near capacity will flag it as a deficiency that the buyer can use to negotiate a price reduction or demand repairs before closing. A recent pumping receipt and a clean inspection report, on the other hand, remove a significant source of buyer anxiety and strengthen your negotiating position. The cost of pumping ($300 to $600) is minimal compared to the repair credit a buyer might request if the system shows signs of neglect.',
-      },
+      "@type": "Question",
+      "name": "Should I pump before selling my house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pumping before you list is strongly recommended. Some states and counties require a septic inspection when a home sells, and a full inspection usually includes pumping the tank. An inspector who finds a tank at or near capacity will flag it as a deficiency that the buyer can use to negotiate a price reduction or demand repairs before closing. A recent pumping receipt and a clean inspection report, on the other hand, remove a significant source of buyer anxiety and strengthen your negotiating position. The cost of pumping ($300 to $600) is minimal compared to the repair credit a buyer might request if the system shows signs of neglect."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Does homeowners insurance cover septic pumping?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No -- routine septic tank pumping is considered preventive maintenance and is never covered by homeowners insurance, the same way insurance does not cover oil changes or gutter cleaning. What some policies do cover is damage caused by a sudden and accidental septic system failure, such as sewage backing up into your home, but coverage for this typically requires a water backup and sewer endorsement that is not included in a standard policy. Even with that endorsement, insurers will investigate whether the failure resulted from lack of maintenance -- if pumping was overdue, a claim can be denied. The financially sound approach is to treat pumping as a non-negotiable maintenance expense every three to five years, which costs far less over time than the deductibles and out-of-pocket costs associated with a septic failure claim.',
-      },
+      "@type": "Question",
+      "name": "Does homeowners insurance cover septic pumping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Routine septic tank pumping is considered preventive maintenance and is never covered by homeowners insurance, the same way insurance does not cover oil changes or gutter cleaning. What some policies do cover is damage caused by a sudden and accidental septic system failure, such as sewage backing up into your home, but coverage for this typically requires a water backup and sewer endorsement that is not included in a standard policy. Even with that endorsement, insurers will investigate whether the failure resulted from lack of maintenance, if pumping was overdue, a claim can be denied. The financially sound approach is to treat pumping as a non-negotiable maintenance expense every three to five years, which costs far less over time than the deductibles and out-of-pocket costs associated with a septic failure claim."
+      }
     },
-  ],
+    {
+      "@type": "Question",
+      "name": "How much does it cost to pump a 1,000-gallon septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "$300 to $450 for most homes, depending on your region and how easy the lids are to reach. It's the most common tank size, found in most 3-bedroom homes. Add $50 to $200 if the crew has to dig to uncover the lids, and ask whether disposal is included. A 1,500-gallon tank typically costs $400 to $550 to pump, and a 500 to 750-gallon tank costs $200 to $350."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to empty a septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emptying, draining, and pumping a septic tank are the same service, and it typically costs $300 to $600. The price depends mostly on tank size, where you live, and whether the lids are easy to reach. If the tank hasn't been pumped in 7 years or more, the company may recommend a full cleaning with hydro-jetting, which adds $200 to $300."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does emergency septic pumping cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Emergency or after-hours pumping typically costs $500 to $1,000 total, because most companies add $150 to $300 to their standard rate for nights, weekends, and same-day calls. If sewage is backing up into the house, stop using water and call right away. If it's a slow drain with no backup, booking a regular visit in the next few days usually costs much less."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
@@ -81,10 +105,10 @@ const articleSchema = {
   description: 'The average septic tank pumping costs $300 to $600. Learn real pricing by tank size, region, hidden fees, and how to avoid overpaying.',
   image: 'https://theseptic.guide/pumpingcostguide.jpg',
   datePublished: '2026-03-05',
-  dateModified: '2026-03-05',
+  dateModified: '2026-10-27',
   author: {
     '@type': 'Organization',
-    name: 'The Septic Guide',
+    name: 'The Septic Guide Editorial Team',
     url: 'https://theseptic.guide',
   },
   publisher: {
@@ -114,13 +138,13 @@ export default function SepticPumpingCostArticle() {
             <span className='text-amber-500'>2026: What You&apos;ll Actually Pay</span>
           </h1>
           <p className='text-lg text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            Real pricing by tank size, region, and situation &mdash; plus the hidden fees nobody warns you about and the questions to ask before hiring.
+            Real pricing by tank size, region, and situation, plus the hidden fees nobody warns you about and the questions to ask before hiring.
           </p>
           <div className='flex items-center space-x-4'>
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
             <div>
-              <p className='text-white font-semibold'>The Septic Guide</p>
-              <p className='text-slate-400 text-sm'>Updated Mar 2026 &middot; 18 min read</p>
+              <p className='text-white font-semibold'>By The Septic Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &middot; 18 min read</p>
             </div>
           </div>
         </div>
@@ -130,10 +154,7 @@ export default function SepticPumpingCostArticle() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-4 py-12'>
-            <p className='text-base text-slate-700 leading-relaxed mb-6'>Septic tank pumping is the process of removing accumulated sludge, scum, and liquid waste from a residential septic tank using a vacuum truck, and it is the single most important maintenance task for any home on a septic system. The average cost to pump a septic tank in 2026 is $300 to $600 for a standard 1,000 to 1,500 gallon tank, with most homeowners paying around $400. Cost varies by tank size, region, accessibility, and whether the company charges separately for disposal, inspection, and effluent filter cleaning. This guide breaks down real 2026 pricing by tank size and region, covers every hidden fee to watch for, explains what a quality pumping service should include, and tells you exactly what to ask before hiring.</p>
-        <p className='text-base text-slate-700 leading-relaxed mb-6'>
-          The average septic tank pumping costs <strong>$300 to $600</strong> for a standard residential tank. Most homeowners pay around $400 to $450. But that national average hides a lot of variation, and the final number on your invoice depends on factors that most cost guides skip over entirely.
-        </p>
+            <p className='text-base text-slate-700 leading-relaxed mb-6'>Septic tank pumping costs $300 to $600 for most homes, and most homeowners pay about $400 to $450. A 1,000-gallon tank, the most common size, typically costs $300 to $450 to pump, and a 1,500-gallon tank runs $400 to $550. Pumping, emptying, and draining a septic tank are the same job, and most tanks need it every 3 to 5 years. Digging to uncover buried lids, separate disposal fees, and emergency service can add $50 to $300 or more, so ask for an all-in price before you book.</p>
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
           This guide breaks down real pricing by tank size, region, and situation. More importantly, it covers the hidden costs, the add-on fees nobody warns you about, and the specific questions you should ask before hiring a pumping company so you don&apos;t overpay.
         </p>
@@ -167,7 +188,7 @@ export default function SepticPumpingCostArticle() {
                 <tr className='border-b border-slate-200 bg-slate-50'>
                   <td className='p-2 font-semibold text-slate-900'>1,000 gallons</td>
                   <td className='p-2 text-center text-slate-700'>$300 &ndash; $450</td>
-                  <td className='p-2 text-slate-700'>Most 3-bedroom homes &mdash; most common size</td>
+                  <td className='p-2 text-slate-700'>Most 3-bedroom homes, most common size</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
                   <td className='p-2 font-semibold text-slate-900'>1,250 gallons</td>
@@ -193,7 +214,8 @@ export default function SepticPumpingCostArticle() {
             </table>
           </div>
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
-            <p className='text-slate-700 font-medium text-sm'>If you don&apos;t know your tank size, check your property records, the original septic permit on file with your local health department, or ask the pumping technician to read the stamp on the tank lid during the first service.</p>
+            <p className='text-slate-700 font-medium text-sm'><Link href='/guides/septic-tank-size-guide#how-to-find-out-what-size-tank-you-have' className='text-amber-700 underline hover:text-amber-800'>If you don&apos;t know your tank size</Link>, check your property records, the original septic permit on file with your local health department, or ask the pumping technician to read the stamp on the tank lid during the first service.</p>
+            <p className='text-slate-700 leading-relaxed mt-4 text-sm'>Looking for the cost to replace a septic pump? That&apos;s a repair, not a pump-out. The effluent pump in a mound or pressure distribution system typically costs $500 to $1,300 to replace. See our <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>septic system repair cost guide</Link>.</p>
           </div>
         </div>
 
@@ -262,35 +284,36 @@ export default function SepticPumpingCostArticle() {
 
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Digging and Access Fees &mdash; $50 to $200</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Digging and Access Fees: $50 to $200</h3>
               <p className='text-slate-700 text-sm mb-2'>If your tank lids are buried under soil, grass, gravel, or a deck, the crew has to dig to find them. This adds time and labor. Most companies charge $50 to $200 depending on depth and difficulty.</p>
               <p className='text-amber-700 font-semibold text-sm'>The fix: Install septic tank risers ($200&ndash;$400 one-time). Risers bring the access lids to ground level permanently, eliminating this fee for every future pumping. They pay for themselves in two to three pump-outs.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Locating Fee &mdash; $50 to $150</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Locating Fee: $50 to $150</h3>
               <p className='text-slate-700 text-sm mb-2'>If nobody knows where the tank is buried and there are no records, the technician has to locate it using a probe, electronic locator, or camera. Some companies include this in their base rate. Many don&apos;t.</p>
               <p className='text-amber-700 font-semibold text-sm'>The fix: Locate your tank once, mark it permanently, and keep a diagram. See our <Link href='/articles/how-to-find-your-septic-tank' className='underline hover:text-amber-800'>guide on how to find your septic tank</Link>.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Disposal Fees &mdash; Sometimes Separate</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Disposal Fees: Sometimes Separate</h3>
               <p className='text-slate-700 text-sm'>Some companies include waste disposal in their flat rate. Others charge the pumping labor separately from the disposal fee ($25 to $75 per load). Always ask: <em>&ldquo;Does your quoted price include disposal, or is that billed separately?&rdquo;</em></p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Pumping vs. Cleaning &mdash; $200 to $300 Extra</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Pumping vs. Cleaning: $200 to $300 Extra</h3>
               <p className='text-slate-700 text-sm'>Standard pumping removes liquid and floating solids. But in a neglected tank, hardened sludge can crust along the bottom and walls that the vacuum alone can&apos;t remove. Cleaning involves hydro-jetting the tank interior. If your tank hasn&apos;t been pumped in 7+ years, expect the technician to recommend cleaning.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Emergency and After-Hours Surcharges &mdash; $150 to $300 Extra</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Emergency and After-Hours Surcharges: $150 to $300 Extra</h3>
               <p className='text-slate-700 text-sm'>If sewage is backing up into your house on a Saturday night, you&apos;ll pay a premium. Emergency service typically adds $150 to $300, bringing the total to $500 to $1,000. The best way to avoid this is to never let it reach the emergency stage.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Effluent Filter Cleaning or Replacement &mdash; $50 to $200</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Effluent Filter Cleaning or Replacement: $50 to $200</h3>
               <p className='text-slate-700 text-sm'>Many modern septic tanks have an effluent filter at the outlet pipe that catches solids before they reach the drainfield. This filter needs to be cleaned or replaced during pumping. Some companies include this; others charge separately. If your tank has a filter and it&apos;s not being cleaned during pumping, ask why.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Baffle Inspection and Repair &mdash; $150 to $500</h3>
-              <p className='text-slate-700 text-sm'>A good pumping company inspects the baffles (inlet and outlet T-fittings) while the tank is empty. Cracked or missing baffles allow scum and sludge to escape into the drainfield &mdash; the fastest path to drainfield failure. If found, repair costs $150 to $500. Far cheaper than a $5,000&ndash;$15,000 drainfield replacement.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Baffle Inspection and Repair: $150 to $500</h3>
+              <p className='text-slate-700 text-sm'>A good pumping company inspects the baffles (inlet and outlet T-fittings) while the tank is empty. Cracked or missing baffles allow scum and sludge to escape into the drainfield, the fastest path to drainfield failure. If found, repair costs $150 to $500. Far cheaper than a $5,000&ndash;$15,000 drainfield replacement.</p>
             </div>
+          <div className='bg-white border border-slate-200 rounded-lg p-5'><h3 className='text-lg font-bold text-slate-900 mb-2'>$99 Pumping Specials</h3><p className='text-slate-700 text-sm'>A $99 pumping special usually doesn&apos;t cover the whole job. The low price often leaves out disposal, digging, or gallons over a set limit, and those get added to the invoice. Ask for the total price for your tank size before you book.</p></div>
           </div>
         </div>
 
@@ -300,7 +323,7 @@ export default function SepticPumpingCostArticle() {
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>What to Expect</span>
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
-          <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Pumping Actually Includes &mdash; And What It Should Include</h2>
+          <h2 className='text-2xl font-bold text-slate-900 mb-4'>What Pumping Actually Includes and What It Should Include</h2>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Not all pumping services are equal. A quality pumping visit should include all of the following:</p>
           <div className='space-y-2 mb-6'>
             {[
@@ -319,7 +342,7 @@ export default function SepticPumpingCostArticle() {
           </div>
           <div className='bg-amber-50 border border-amber-200 rounded-lg p-5'>
             <p className='text-amber-900 font-semibold mb-1 text-sm'>Important</p>
-            <p className='text-amber-800 text-xs'>If the company shows up, pumps the tank in 20 minutes, and leaves without telling you anything about the tank&apos;s condition, you didn&apos;t get a full service. The inspection portion is arguably more valuable than the pumping itself &mdash; it catches developing problems before they become expensive failures.</p>
+            <p className='text-amber-800 text-xs'>If the company shows up, pumps the tank in 20 minutes, and leaves without telling you anything about the tank&apos;s condition, you didn&apos;t get a full service. The inspection portion is arguably more valuable than the pumping itself: it catches developing problems before they become expensive failures.</p>
           </div>
         </div>
 
@@ -372,17 +395,17 @@ export default function SepticPumpingCostArticle() {
                 <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Septic tank repair (cracked baffle, damaged pipe)</td><td className='p-2 text-right text-amber-700 font-semibold'>$200 &ndash; $1,500</td></tr>
                 <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Drainfield rejuvenation (clogged from skipped pumping)</td><td className='p-2 text-right text-red-700 font-semibold'>$1,000 &ndash; $5,000</td></tr>
                 <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Full drainfield replacement</td><td className='p-2 text-right text-red-700 font-semibold'>$5,000 &ndash; $15,000</td></tr>
-                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Complete septic system replacement</td><td className='p-2 text-right text-red-700 font-semibold'>$15,000 &ndash; $30,000</td></tr>
+                <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Complete septic system replacement</td><td className='p-2 text-right text-red-700 font-semibold'>$8,000 &ndash; $20,000+</td></tr>
               </tbody>
             </table>
           </div>
           <div className='bg-slate-900 rounded-lg p-5'>
             <p className='text-white font-semibold mb-2 text-sm'>The Bottom Line</p>
-            <p className='text-slate-300 text-xs'>A homeowner who pumps every four years for 20 years spends roughly $2,000 to $3,000 total. A homeowner who skips pumping and suffers a drainfield failure at year 12 spends $10,000 to $15,000 in a single event, plus landscaping restoration and potential health department fines. Routine pumping is not an expense &mdash; it&apos;s insurance against a five-figure repair bill.</p>
+            <p className='text-slate-300 text-xs'>A homeowner who pumps every four years for 20 years spends roughly $1,500 to $3,000 total. A homeowner who skips pumping and needs a new drainfield at year 12 spends $5,000 to $15,000 at once, plus landscaping repair and possible health department fines. Routine pumping is cheap insurance against a five-figure repair bill.</p>
           </div>
         </div>
 
-        {/* When Should You Pump */}             <div className='mb-16'>               <div className='flex items-center space-x-3 mb-4'>                 <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Pump Timing</span>                 <div className='flex-1 h-px bg-slate-200'></div>               </div>               <h2 className='text-2xl font-bold text-slate-900 mb-4'>When Should You Pump Your Septic Tank?</h2>               <div className='overflow-x-auto my-6'>                 <table className='w-full text-xs border-collapse'>                   <thead>                     <tr className='bg-slate-900 text-white'>                       <th className='p-2 text-left font-semibold'>Situation</th>                       <th className='p-2 text-left font-semibold'>Recommended Action</th>                       <th className='p-2 text-left font-semibold'>Why</th>                     </tr>                   </thead>                   <tbody>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Last pumped 3 to 5 years ago, average household</td><td className='p-2 text-slate-900'>Schedule pumping now</td><td className='p-2 text-slate-600'>Standard EPA-recommended interval for a typical 3 to 4 person household</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Last pumped over 7 years ago</td><td className='p-2 text-slate-900'>Schedule pumping immediately</td><td className='p-2 text-slate-600'>Sludge overflow into drainfield is likely -- inspection needed at same visit</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Household of 5 or more people</td><td className='p-2 text-slate-900'>Pump every 2 to 3 years</td><td className='p-2 text-slate-600'>Higher daily water usage accelerates sludge accumulation significantly</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Home with a garbage disposal</td><td className='p-2 text-slate-900'>Pump every 2 to 3 years</td><td className='p-2 text-slate-600'>Disposals increase solid load by 50 percent compared to households without one</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Slow drains throughout the house</td><td className='p-2 text-slate-900'>Schedule pumping and inspection</td><td className='p-2 text-slate-600'>May indicate a full tank or early drainfield stress -- do not wait</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Buying or selling a home</td><td className='p-2 text-slate-900'>Pump before listing or closing</td><td className='p-2 text-slate-600'>Over 30 states require septic inspection for real estate transactions</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Sewage smell in yard or backing up inside</td><td className='p-2 text-slate-900'>Emergency pump-out immediately</td><td className='p-2 text-slate-600'>Active system failure -- call a pro same day</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Tank pumped recently but drains still slow</td><td className='p-2 text-slate-900'>Inspection only -- no pumping needed</td><td className='p-2 text-slate-600'>Problem is likely a baffle, filter, or drainfield issue rather than a full tank</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Vacation home or seasonal property</td><td className='p-2 text-slate-900'>Pump before winterizing</td><td className='p-2 text-slate-600'>Prevents solids from compacting over the off-season and reduces spring startup issues</td></tr>                   </tbody>                 </table>               </div>             </div>              {/* Section 7 - How to Save Money */}
+        {/* When Should You Pump */}             <div className='mb-16'>               <div className='flex items-center space-x-3 mb-4'>                 <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Pump Timing</span>                 <div className='flex-1 h-px bg-slate-200'></div>               </div>               <h2 className='text-2xl font-bold text-slate-900 mb-4'>When Should You Pump Your Septic Tank?</h2>               <div className='overflow-x-auto my-6'>                 <table className='w-full text-xs border-collapse'>                   <thead>                     <tr className='bg-slate-900 text-white'>                       <th className='p-2 text-left font-semibold'>Situation</th>                       <th className='p-2 text-left font-semibold'>Recommended Action</th>                       <th className='p-2 text-left font-semibold'>Why</th>                     </tr>                   </thead>                   <tbody>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Last pumped 3 to 5 years ago, average household</td><td className='p-2 text-slate-900'>Schedule pumping now</td><td className='p-2 text-slate-600'>Standard EPA-recommended interval for a typical 3 to 4 person household</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Last pumped over 7 years ago</td><td className='p-2 text-slate-900'>Schedule pumping immediately</td><td className='p-2 text-slate-600'>Sludge overflow into drainfield is likely: inspection needed at same visit</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Household of 5 or more people</td><td className='p-2 text-slate-900'>Pump every 2 to 3 years</td><td className='p-2 text-slate-600'>Higher daily water usage accelerates sludge accumulation significantly</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Home with a garbage disposal</td><td className='p-2 text-slate-900'>Pump every 2 to 3 years</td><td className='p-2 text-slate-600'>Disposals increase solids by 30 to 50 percent compared to households without one.</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Slow drains throughout the house</td><td className='p-2 text-slate-900'>Schedule pumping and inspection</td><td className='p-2 text-slate-600'>May indicate a full tank or early drainfield stress: do not wait</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Buying or selling a home</td><td className='p-2 text-slate-900'>Pump before listing or closing</td><td className='p-2 text-slate-600'>Some states and counties require a septic inspection when a home sells.</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Sewage smell in yard or backing up inside</td><td className='p-2 text-slate-900'>Emergency pump-out immediately</td><td className='p-2 text-slate-600'>Active system failure: call a pro same day</td></tr>                     <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Tank pumped recently but drains still slow</td><td className='p-2 text-slate-900'>Inspection only: no pumping needed</td><td className='p-2 text-slate-600'>Problem is likely a baffle, filter, or drainfield issue rather than a full tank</td></tr>                     <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Vacation home or seasonal property</td><td className='p-2 text-slate-900'>Pump before winterizing</td><td className='p-2 text-slate-600'>Prevents solids from compacting over the off-season and reduces spring startup issues</td></tr>                   </tbody>                 </table>               </div>             </div>              {/* Section 7 - How to Save Money */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='text-amber-700 font-bold tracking-[0.3em] text-xs uppercase'>Save Money</span>
@@ -442,7 +465,7 @@ export default function SepticPumpingCostArticle() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Does Insurance Cover Septic Pumping?</h2>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>No. Routine septic tank pumping is considered maintenance, and no homeowners insurance policy covers it. It&apos;s your responsibility as the system owner &mdash; the same way changing your furnace filter or cleaning your gutters is your responsibility.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>No. Routine septic tank pumping is considered maintenance, and no homeowners insurance policy covers it. It&apos;s the owner&apos;s responsibility, the same as changing a furnace filter or cleaning gutters.</p>
           <p className='text-slate-700 leading-relaxed text-sm'>Insurance can cover <em>damage caused by</em> a septic failure (like sewage backing up into your house) in certain circumstances, but it does not cover the maintenance that would have prevented the failure. Some policies require a water backup endorsement to cover any septic-related damage at all.</p>
         </div>
 
@@ -460,11 +483,11 @@ export default function SepticPumpingCostArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Sludge</dt>
-              <dd className='text-slate-600 text-xs'>Sludge is the layer of heavy solid waste that settles to the bottom of the septic tank over time and is the primary material targeted during pumping. Sludge accumulates faster than the anaerobic bacteria in the tank can digest it, which is why regular pump-outs every 3 to 5 years are essential to prevent overflow into the drainfield. When sludge depth reaches 30 percent of the tanks total capacity, pumping is overdue regardless of how recently the last service was performed -- see our how often to pump your septic tank guide for measurement guidelines.</dd>
+              <dd className='text-slate-600 text-xs'>Sludge is the layer of heavy solid waste that settles to the bottom of the septic tank over time and is the primary material targeted during pumping. Sludge accumulates faster than the anaerobic bacteria in the tank can digest it, which is why regular pump-outs every 3 to 5 years are essential to prevent overflow into the drainfield. When sludge depth reaches 30 percent of the tank&apos;s total capacity, pumping is overdue regardless of how recently the last service was performed: see our how often to pump your septic tank guide for measurement guidelines.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Scum</dt>
-              <dd className='text-slate-600 text-xs'>Scum is the layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the septic tank, held in place by the inlet baffle. Like sludge, scum builds up over time and must be removed during pumping before it grows thick enough to reach the outlet pipe and escape into the drainfield. Minimizing cooking grease, oils, and harsh cleaning products going down your drains slows scum accumulation between pump-outs -- see our best septic-safe cleaning products guide for product recommendations.</dd>
+              <dd className='text-slate-600 text-xs'>Scum is the layer of oils, grease, and lightweight solids that floats on top of the wastewater inside the septic tank, held in place by the inlet baffle. Like sludge, scum builds up over time and must be removed during pumping before it grows thick enough to reach the outlet pipe and escape into the drainfield. Minimizing cooking grease, oils, and harsh cleaning products going down your drains slows scum accumulation between pump-outs: see our best septic-safe cleaning products guide for product recommendations.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent</dt>
@@ -472,27 +495,27 @@ export default function SepticPumpingCostArticle() {
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Baffle</dt>
-              <dd className='text-slate-600 text-xs'>A baffle is a T-shaped fitting installed at the inlet and outlet of the septic tank that prevents scum and sludge from leaving the tank prematurely and entering the drainfield. The inlet baffle slows incoming wastewater so it does not disturb the settled sludge layer, while the outlet baffle blocks the floating scum layer from flowing out with the effluent. Baffles should be inspected during every pumping visit -- cracked or missing baffles are one of the most common causes of premature drainfield failure and cost 150 to 500 to repair, far less than the drainfield replacement they prevent.</dd>
+              <dd className='text-slate-600 text-xs'>A baffle is a T-shaped fitting installed at the inlet and outlet of the septic tank that prevents scum and sludge from leaving the tank prematurely and entering the drainfield. The inlet baffle slows incoming wastewater so it does not disturb the settled sludge layer, while the outlet baffle blocks the floating scum layer from flowing out with the effluent. Baffles should be inspected during every pumping visit: cracked or missing baffles are one of the most common causes of premature drainfield failure and cost $150 to $500 to repair, far less than the drainfield replacement they prevent.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Effluent Filter</dt>
-              <dd className='text-slate-600 text-xs'>An effluent filter is a screen installed at the tank outlet pipe that catches suspended solids in the effluent before they reach the drainfield, providing an additional layer of protection against clogs. Effluent filters need to be cleaned or replaced during every pumping visit -- a clogged filter can restrict flow and cause backups, while a filter that is never cleaned defeats its purpose entirely. If your tank has an effluent filter and your pumping company is not mentioning it during service, ask specifically whether it was inspected and cleaned.</dd>
+              <dd className='text-slate-600 text-xs'>An effluent filter is a screen installed at the tank outlet pipe that catches suspended solids in the effluent before they reach the drainfield, providing an additional layer of protection against clogs. Effluent filters need to be cleaned or replaced during every pumping visit: a clogged filter can restrict flow and cause backups, while a filter that is never cleaned defeats its purpose entirely. If your tank has an effluent filter and your pumping company is not mentioning it during service, ask specifically whether it was inspected and cleaned.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Riser</dt>
-              <dd className='text-slate-600 text-xs'>A septic tank riser is a vertical pipe that extends from the buried tank lid up to ground level, providing permanent above-ground access for pumping and inspection without requiring excavation. Installing risers is a one-time cost of 200 to 400 that eliminates the 50 to 200 digging fee charged at every future service visit, meaning they pay for themselves within two to three pump-outs. See our best septic tank risers guide for top-rated riser kits and installation guidance.</dd>
+              <dd className='text-slate-600 text-xs'>A septic tank riser is a vertical pipe that extends from the buried tank lid up to ground level, providing permanent above-ground access for pumping and inspection without requiring excavation. Installing risers is a one-time cost of $200 to $400 that eliminates the $50 to $200 digging fee charged at every future service visit, meaning they pay for themselves within two to three pump-outs. See our best septic tank risers guide for top-rated riser kits and installation guidance.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Hydro-jetting</dt>
-              <dd className='text-slate-600 text-xs'>Hydro-jetting is a tank cleaning method that uses high-pressure water to break up and dislodge compacted sludge that has hardened along the tank walls and floor and cannot be removed by the vacuum pump alone. It is typically recommended for tanks that have gone 7 or more years without pumping, tanks with an unusually thick sludge layer, or systems where standard pumping leaves significant material behind. Hydro-jetting adds 200 to 300 to a standard pump-out and is not needed on every visit -- only when compacted material is found that the vacuum cannot fully extract.</dd>
+              <dd className='text-slate-600 text-xs'>Hydro-jetting is a tank cleaning method that uses high-pressure water to break up and dislodge compacted sludge that has hardened along the tank walls and floor and cannot be removed by the vacuum pump alone. It is typically recommended for tanks that have gone 7 or more years without pumping, tanks with an unusually thick sludge layer, or systems where standard pumping leaves significant material behind. Hydro-jetting adds $200 to $300 to a standard pump-out and is not needed on every visit: only when compacted material is found that the vacuum cannot fully extract.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Distribution Box (D-box)</dt>
-              <dd className='text-slate-600 text-xs'>A distribution box is a small concrete or plastic underground box that receives clarified effluent from the septic tank outlet and divides it equally among the drainfield pipe lines to ensure even distribution across the entire drainfield area. An uneven or clogged D-box causes some drainfield sections to receive too much effluent while others receive too little, which accelerates failure in the overloaded sections. D-box condition is typically assessed during a full septic inspection -- see our septic inspection cost guide for what a comprehensive inspection includes.</dd>
+              <dd className='text-slate-600 text-xs'>A distribution box is a small concrete or plastic underground box that receives clarified effluent from the septic tank outlet and divides it equally among the drainfield pipe lines to ensure even distribution across the entire drainfield area. An uneven or clogged D-box causes some drainfield sections to receive too much effluent while others receive too little, which accelerates failure in the overloaded sections. D-box condition is typically assessed during a full septic inspection: see our septic inspection cost guide for what a comprehensive inspection includes.</dd>
             </div>
             <div className='border-b border-slate-100 pb-3'>
               <dt className='font-bold text-slate-900 text-sm'>Drainfield (Leach Field)</dt>
-              <dd className='text-slate-600 text-xs'>The drainfield is the network of perforated pipes laid in gravel-filled trenches where clarified effluent from the septic tank slowly filters down through the surrounding soil, where microorganisms remove pathogens and nutrients before the water re-enters the groundwater supply. The drainfield is the most expensive component of a septic system to repair or replace, typically costing 5,000 to 15,000, which is why protecting it through regular pumping is so critical. See our drainfield replacement cost guide and signs your drainfield is failing guide for full details.</dd>
+              <dd className='text-slate-600 text-xs'>The drainfield is the network of perforated pipes laid in gravel-filled trenches where clarified effluent from the septic tank slowly filters down through the surrounding soil, where microorganisms remove pathogens and nutrients before the water re-enters the groundwater supply. The drainfield is the most expensive component of a septic system to repair or replace, typically costing $5,000 to $15,000, which is why protecting it through regular pumping is so critical. See our drainfield replacement cost guide and signs your drainfield is failing guide for full details.</dd>
             </div>
           </div>
         </div>
@@ -507,39 +530,41 @@ export default function SepticPumpingCostArticle() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to pump a septic tank?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The national average cost to pump a septic tank in 2026 is $300 to $600 for a standard residential tank holding 1,000 to 1,500 gallons, with most homeowners paying around $400. Your actual cost depends on four main factors: tank size, your location, how accessible the tank lids are, and whether the company charges separately for disposal, inspection, and effluent filter cleaning. Always ask for a fully inclusive quote before scheduling -- some companies advertise a low base rate and then add $50 to $200 in access fees, disposal charges, and inspection costs that bring the real total significantly higher. Getting two to three quotes from licensed local companies is the best way to make sure you are paying a fair price for your area.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The national average cost to pump a septic tank in 2026 is $300 to $600 for a standard residential tank holding 1,000 to 1,500 gallons, with most homeowners paying around $400. Your actual cost depends on four main factors: tank size, your location, how accessible the tank lids are, and whether the company charges separately for disposal, inspection, and effluent filter cleaning. Always ask for a fully inclusive quote before scheduling: some companies advertise a low base rate and then add $50 to $200 in access fees, disposal charges, and inspection costs that bring the real total significantly higher. Getting two to three quotes from licensed local companies is the best way to make sure you are paying a fair price for your area.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How often should I pump my septic tank?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA recommends pumping every three to five years for a typical household, but the right interval for your home depends on tank size, the number of people in the household, daily water usage, and whether you use a garbage disposal. A 1,000-gallon tank serving four people needs pumping roughly every 2.5 years, while the same tank serving two people can go 5.5 years between pump-outs. The most accurate way to determine your personal schedule is to have a technician measure your sludge and scum levels during each visit -- when the combined layers reach 30 percent of the tank's capacity, it is time to pump regardless of how long it has been.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The EPA recommends pumping every three to five years for a typical household, but the right interval for your home depends on tank size, the number of people in the household, daily water usage, and whether you use a garbage disposal. A 1,000-gallon tank serving four people needs pumping roughly every 2.5 years, while the same tank serving two people can go 5.5 years between pump-outs. The most accurate way to determine your personal schedule is to have a technician measure your sludge and scum levels during each visit: when the combined layers reach 30 percent of the tank's capacity, it is time to pump regardless of how long it has been.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What happens if I don&apos;t pump my septic tank?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>If pumping is skipped long enough, sludge and scum accumulate past the outlet baffle and begin flowing into the drainfield, clogging the perforated pipes and surrounding soil with solid waste that the soil cannot filter. Once solids reach the drainfield, the damage is largely irreversible &mdash; you cannot vacuum out a clogged drainfield the way you can pump a tank. The result is sewage backing up into your home, surfacing in your yard, or both, along with a repair bill of $5,000 to $30,000 for drainfield rejuvenation or full replacement. A homeowner who pumps on schedule for 20 years spends $2,000 to $3,000 total. A homeowner who skips pumping and suffers a drainfield failure spends that same amount in a single afternoon.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>If pumping is skipped long enough, sludge and scum accumulate past the outlet baffle and begin flowing into the drainfield, clogging the perforated pipes and surrounding soil with solid waste that the soil cannot filter. Once solids reach the drainfield, the damage is largely irreversible: you cannot vacuum out a clogged drainfield the way you can pump a tank. The result is sewage backing up into your home, surfacing in your yard, or both. Drainfield rejuvenation costs $1,000 to $5,000 when it works, and a new drainfield costs $5,000 to $15,000. A homeowner who pumps on schedule for 20 years spends $1,500 to $3,000 total.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Is septic tank pumping the same as cleaning?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Pumping and cleaning are related but not the same thing. Standard pumping uses a vacuum truck to remove the liquid effluent, floating scum layer, and most of the sludge from the bottom of the tank &mdash; this covers what most routine service calls include. Cleaning goes further by using hydro-jetting to break up and remove compacted or hardened sludge that has crusted along the tank walls and floor and cannot be removed by vacuum alone. Cleaning is recommended for tanks that have gone 7 or more years without service, tanks with an unusually thick sludge layer, or any tank where the technician finds material the vacuum cannot fully remove. If your tank is on a regular pumping schedule, standard pumping is sufficient &mdash; cleaning is not needed every visit and adds $200 to $300 to the cost.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Pumping and cleaning are related but not the same thing. Standard pumping uses a vacuum truck to remove the liquid effluent, floating scum layer, and most of the sludge from the bottom of the tank: this covers what most routine service calls include. Cleaning goes further by using hydro-jetting to break up and remove compacted or hardened sludge that has crusted along the tank walls and floor and cannot be removed by vacuum alone. Cleaning is recommended for tanks that have gone 7 or more years without service, tanks with an unusually thick sludge layer, or any tank where the technician finds material the vacuum cannot fully remove. If your tank is on a regular pumping schedule, standard pumping is sufficient: cleaning is not needed every visit and adds $200 to $300 to the cost.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>When is the best time of year to pump?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain &mdash; saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>holding tank mode</Link>, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Fall and late summer are the best times to schedule septic pumping for most homeowners. The ground is dry and accessible, the water table is lower than in spring, and septic companies are less booked than during the busy spring rush when post-winter inspections drive high demand. Avoid pumping during or immediately after heavy rain: saturated soil creates pressure around the tank, and an empty tank in waterlogged ground can actually shift or float upward. Winter pumping is possible in most climates but can be complicated by frozen ground and buried lids that are harder to access. If a frozen drainfield forces the system into <Link href='/problems/frozen-septic-system' className='text-amber-700 underline hover:text-amber-800'>holding tank mode</Link>, plan for repeated pump-outs until spring. Scheduling in fall also means your tank goes into the high-usage winter season freshly pumped, which is the safest position to be in.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Should I pump before selling my house?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Pumping before listing your home for sale is strongly recommended and required by law in many states. More than 30 states require a septic inspection as part of a real estate transaction, and an inspector who finds a tank at or near capacity will flag it as a deficiency that the buyer can use to negotiate a price reduction or demand repairs before closing. A recent pumping receipt and a clean inspection report, on the other hand, remove a significant source of buyer anxiety and strengthen your negotiating position. The cost of pumping ($300 to $600) is minimal compared to the repair credit a buyer might request if the system shows signs of neglect.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Pumping before you list is strongly recommended. Some states and counties require a <Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 underline hover:text-amber-800'>septic inspection</Link> when a home sells, and a full inspection usually includes pumping the tank. An inspector who finds a tank at or near capacity will flag it as a deficiency that the buyer can use to negotiate a price reduction or demand repairs before closing. A recent pumping receipt and a clean inspection report, on the other hand, remove a significant source of buyer anxiety and strengthen your negotiating position. The cost of pumping ($300 to $600) is minimal compared to the repair credit a buyer might request if the system shows signs of neglect.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does homeowners insurance cover septic pumping?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>No &mdash; routine septic tank pumping is considered preventive maintenance and is never covered by homeowners insurance, the same way insurance does not cover oil changes or gutter cleaning. What some policies do cover is damage caused by a sudden and accidental septic system failure, such as sewage backing up into your home, but coverage for this typically requires a water backup and sewer endorsement that is not included in a standard policy. Even with that endorsement, insurers will investigate whether the failure resulted from lack of maintenance &mdash; if pumping was overdue, a claim can be denied. The financially sound approach is to treat pumping as a non-negotiable maintenance expense every three to five years, which costs far less over time than the deductibles and out-of-pocket costs associated with a septic failure claim.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>No. Routine septic tank pumping is considered preventive maintenance and is never covered by homeowners insurance, the same way insurance does not cover oil changes or gutter cleaning. What some policies do cover is damage caused by a sudden and accidental septic system failure, such as sewage backing up into your home, but coverage for this typically requires a water backup and sewer endorsement that is not included in a standard policy. Even with that endorsement, insurers will investigate whether the failure resulted from lack of maintenance, if pumping was overdue, a claim can be denied. The financially sound approach is to treat pumping as a non-negotiable maintenance expense every three to five years, which costs far less over time than the deductibles and out-of-pocket costs associated with a septic failure claim.</div>
             </details>
-          </div>
+          <details className='border border-slate-200 rounded-lg group'><summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to pump a 1,000-gallon septic tank?</summary><div className='px-4 pb-4 text-slate-600 text-sm'>$300 to $450 for most homes, depending on your region and how easy the lids are to reach. It&apos;s the most common tank size, found in most 3-bedroom homes. Add $50 to $200 if the crew has to dig to uncover the lids, and ask whether disposal is included. A 1,500-gallon tank typically costs $400 to $550 to pump, and a 500 to 750-gallon tank costs $200 to $350.</div></details>
+<details className='border border-slate-200 rounded-lg group'><summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to empty a septic tank?</summary><div className='px-4 pb-4 text-slate-600 text-sm'>Emptying, draining, and pumping a septic tank are the same service, and it typically costs $300 to $600. The price depends mostly on tank size, where you live, and whether the lids are easy to reach. If the tank hasn&apos;t been pumped in 7 years or more, the company may recommend a full cleaning with hydro-jetting, which adds $200 to $300.</div></details>
+<details className='border border-slate-200 rounded-lg group'><summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does emergency septic pumping cost?</summary><div className='px-4 pb-4 text-slate-600 text-sm'>Emergency or after-hours pumping typically costs $500 to $1,000 total, because most companies add $150 to $300 to their standard rate for nights, weekends, and same-day calls. If sewage is backing up into the house, stop using water and call right away. If it&apos;s a slow drain with no backup, booking a regular visit in the next few days usually costs much less.</div></details></div>
         </div>
 
         {/* Related Guides */}
                 <div className='mb-16'>
                             <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-                                      <div className='grid md:grid-cols-2 gap-4'>
+                                      <div className='grid md:grid-cols-2 gap-4'><Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'><h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h3></Link>
                                                     <Link href='/problems/frozen-septic-system' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>Frozen Septic System</h3>
               <p className='text-slate-600 text-xs'>Find the freeze, compare thawing costs, and prevent a repeat next winter.</p>
@@ -598,7 +623,7 @@ export default function SepticPumpingCostArticle() {
           <div className='grid md:grid-cols-2 gap-4'>
             <a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>The Basement Guide</h3>
-              <p className='text-slate-600 text-xs'>Sump pumps, French drains, and interior drainage systems &mdash; all directly relevant to homeowners managing groundwater around a drainfield.</p>
+              <p className='text-slate-600 text-xs'>Sump pumps, French drains, and interior drainage systems, all directly relevant to homeowners managing groundwater around a drainfield.</p>
             </a>
             <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h3 className='font-bold text-slate-900 mb-1 text-sm'>The Garage Guide</h3>
