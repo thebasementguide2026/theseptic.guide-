@@ -75,7 +75,7 @@ const faqSchema = {
       name: 'Should I combine the septic inspection with a well inspection?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'If the property has both a septic system and a private well, yes. Many inspectors offer a discount when both are done in the same visit. A well inspection ($250 to $550 with water quality testing) confirms that the septic system is not contaminating your drinking water, which is a critical health concern for properties with both systems.',
+        text: 'If the property has both a septic system and a private well, yes. Many inspectors offer a discount when both are done in the same visit. A well inspection ($350 to $550 with basic water testing) confirms that the septic system is not contaminating your drinking water, which is a critical health concern for properties with both systems.',
       },
     },
   ],
@@ -564,7 +564,9 @@ export default function SepticInspectionCostPage() {
                 {faq.name}
               </summary>
               <div className="px-6 pb-4 text-gray-700 text-sm leading-relaxed">
-                {faq.acceptedAnswer.text}
+                {faq.name === 'Should I combine the septic inspection with a well inspection?' ? (
+                  <>{faq.acceptedAnswer.text.split('A well inspection')[0]}<a href="https://www.thewell.guide/cost-guides/well-inspection-cost" className="text-amber-700 underline">A well inspection</a>{faq.acceptedAnswer.text.split('A well inspection')[1]}</>
+                ) : faq.acceptedAnswer.text}
               </div>
             </details>
           ))}
