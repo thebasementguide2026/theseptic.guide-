@@ -6,10 +6,10 @@ import LeadForm from '@/components/LeadForm'
 
 export const metadata: Metadata = {
   title: 'Septic Tank Size Guide: What Size Septic Tank Do You Need? | The Septic Guide',
-  description: 'The minimum septic tank size for most homes is 1,000 gallons. Size by bedroom count, how to calculate your actual need, when to go bigger, and how tank size affects pumping cost.',
+  description: "Septic tank size by bedrooms: 1,000 gallons for 3 bedrooms, 1,200 to 1,500 for 4, and 1,500 or more for 5. Plus standard tank dimensions, how many bedrooms each size supports, and when to go bigger.",
   openGraph: {
     title: 'Septic Tank Size Guide: What Size Septic Tank Do You Need?',
-    description: 'The minimum septic tank size for most homes is 1,000 gallons. Size by bedroom count, how to calculate your actual need, when to go bigger, and how tank size affects pumping cost.',
+    description: "Septic tank size by bedrooms: 1,000 gallons for 3 bedrooms, 1,200 to 1,500 for 4, and 1,500 or more for 5. Plus standard tank dimensions, how many bedrooms each size supports, and when to go bigger.",
     url: 'https://theseptic.guide/guides/septic-tank-size-guide',
     siteName: 'The Septic Guide',
     type: 'article',
@@ -25,25 +25,113 @@ const articleSchema = {
   description: 'Complete guide to septic tank sizing by bedroom count, how to calculate your actual need, when to go bigger than the minimum, and how size affects pumping costs.',
   image: 'https://theseptic.guide/septictanksize.jpg',
   datePublished: '2026-03-09',
-  dateModified: '2026-03-09',
-  author: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
+  dateModified: '2026-10-27',
+  author: { '@type': 'Organization', name: 'The Septic Guide Editorial Team', url: 'https://theseptic.guide' },
   publisher: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide', logo: { '@type': 'ImageObject', url: 'https://theseptic.guide/logo.png' } },
   mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://theseptic.guide/guides/septic-tank-size-guide' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'What size septic tank do I need for a 3-bedroom house?', acceptedAnswer: { '@type': 'Answer', text: 'A 1,000-gallon tank is the standard minimum for a 3-bedroom home and is the requirement in virtually every jurisdiction in the United States, based on the assumption that a 3-bedroom home can house up to six people generating approximately 75 gallons of wastewater per person per day. For a household of four or fewer people with average water use and no garbage disposal, a 1,000-gallon tank is adequate and will typically require pumping every two to three years. If your household has more than four people, uses a garbage disposal regularly, does multiple loads of laundry per day, or expects frequent guests, upgrading to a 1,250-gallon tank provides meaningful additional capacity and extends pumping intervals to three to four years without a significant cost increase at installation. The price difference between a 1,000-gallon and 1,250-gallon concrete tank is typically $200 to $400 at installation, which is recovered within one to two pump-out cycles through the extended service interval. Always verify the minimum requirement with your local health department before purchasing a tank, as some counties require 1,000 gallons as the absolute minimum regardless of bedroom count while others have specific requirements for your soil conditions and system type.' } },
-    { '@type': 'Question', name: 'What size septic tank do I need for a 4-bedroom house?', acceptedAnswer: { '@type': 'Answer', text: 'Most jurisdictions require 1,200 to 1,500 gallons for a 4-bedroom home, with the exact requirement varying by state and county based on local regulations and soil conditions. A 1,500-gallon tank is the recommended choice for most 4-bedroom homes because it provides a comfortable capacity margin above the minimum, reduces pumping frequency to every three to five years for a typical family of four, and accommodates the peak flow events from holiday gatherings and house guests that routinely stress undersized tanks. For households with a garbage disposal, a water softener discharging to the septic system, or any plan to add an in-law suite or additional bedroom in the future, sizing up to 1,500 gallons at installation is strongly recommended because upgrading tank size after the system is buried requires significant excavation and expense. The cost difference between a 1,250-gallon and 1,500-gallon concrete tank is typically $300 to $500 at installation, which is recovered in reduced pumping frequency within five to seven years. See our how often to pump guide at https://theseptic.guide/articles/how-often-pump-septic-tank for the exact pumping interval comparison between tank sizes for your household.' } },
-    { '@type': 'Question', name: 'Can a septic tank be too big?', acceptedAnswer: { '@type': 'Answer', text: 'No, a septic tank cannot be too large for a residential installation. A larger tank provides more retention time for solids to settle before effluent reaches the drainfield, which improves effluent quality, reduces the rate of biomat formation in the drainfield, and extends the drainfield\'s functional life. The only theoretical concern with an oversized tank is that very low water use relative to tank size could theoretically slow biological activity, but in practice no residential household generates so little wastewater that a reasonably oversized tank would have this problem. The cost difference between adjacent standard tank sizes is typically $200 to $500 at installation, which is a small fraction of the $5,000 to $15,000 cost of replacing a drainfield that failed prematurely because the tank was undersized and could not provide adequate retention time. When choosing between the minimum required size and one size larger, the larger tank is almost always the better long-term financial decision.' } },
-    { '@type': 'Question', name: 'What is the minimum septic tank size allowed?', acceptedAnswer: { '@type': 'Answer', text: 'In most United States jurisdictions, 1,000 gallons is the minimum tank size permitted for any residential installation regardless of the number of bedrooms, though some states allow 750-gallon tanks for one to two-bedroom homes or very small cabins with low water use. The minimum exists because a tank must hold at least two days of peak daily flow to provide adequate retention time for solids to separate from liquids before effluent reaches the drainfield, and a tank smaller than 1,000 gallons cannot reliably meet that standard for most households. Local requirements vary significantly by state and county, and some jurisdictions have increased their minimums above 1,000 gallons in response to research on effluent quality and drainfield longevity, so always verify the specific requirement with your local health department before purchasing a tank. Properties in environmentally sensitive areas near lakes, rivers, or coastal waters may face stricter sizing requirements than the standard minimum, as regulators in those areas impose additional standards to protect water quality. See your county health department or the EPA\'s septic system guidance at https://www.epa.gov/septic/how-care-your-septic-system for the standards applicable to your specific location.' } },
-    { '@type': 'Question', name: 'How do I know what size septic tank I have?', acceptedAnswer: { '@type': 'Answer', text: 'The most reliable method for confirming your tank size is checking the original septic permit filed with your county health department at the time of installation, which records the tank size, material, installation date, and system type and is usually available at no cost by calling the health department and providing your address. Many concrete tanks have the gallon capacity stamped directly on the lid or on the exterior wall near the top of the tank, which your pumping technician can read during the next service visit without any additional research. If no records exist and no stamp is visible, a septic professional can measure the interior dimensions of the tank while it is open during pumping and calculate the capacity using the formula: length times width times depth in feet times 7.48 equals approximate capacity in gallons. As a practical estimate, if your pumper removes approximately 900 to 1,100 gallons of septage, you have a 1,000-gallon tank, and if they remove 1,400 to 1,600 gallons, you have a 1,500-gallon tank. See our how to find your septic tank guide at https://theseptic.guide/articles/how-to-find-your-septic-tank for additional methods including using property records and physical probing to locate and access the tank.' } },
-    { '@type': 'Question', name: 'Does adding a bedroom require a bigger septic tank?', acceptedAnswer: { '@type': 'Answer', text: 'In most jurisdictions, adding a bedroom to a home that is served by a septic system requires a review of whether the existing system is sized appropriately for the increased occupancy that the additional bedroom represents, and in many cases it triggers a requirement to upgrade the tank or drainfield before a building permit is issued. The reason is that building codes size septic systems based on bedroom count as a proxy for maximum potential occupancy, and an additional bedroom increases the calculated wastewater generation the system must handle. Whether a tank upgrade is actually required depends on the current tank size relative to the new bedroom count, your local jurisdiction\'s specific requirements, and whether the existing drainfield has sufficient capacity for the additional load. If you are planning a bedroom addition, contact your local health department before beginning construction to understand whether a septic system upgrade will be required as a condition of the building permit, because discovering this requirement after construction begins can significantly complicate and delay the project. See our septic system installation cost guide at https://theseptic.guide/cost-guides/septic-system-installation-cost for what a system upgrade or replacement costs if the addition triggers that requirement.' } },
-    { '@type': 'Question', name: 'What size septic tank do I need for a mobile home?', acceptedAnswer: { '@type': 'Answer', text: 'Mobile homes and manufactured homes are sized using the same bedroom-based calculation as site-built homes, so a single-wide with two bedrooms requires a 750 to 1,000-gallon tank and a double-wide with three bedrooms requires a 1,000-gallon tank at minimum. Some jurisdictions apply the same absolute 1,000-gallon minimum to mobile homes regardless of bedroom count, and a few states have specific mobile home septic requirements that differ from their standard residential code, so verifying with your local health department before installation is essential. One consideration specific to mobile homes is that they are often placed on smaller lots in areas with marginal soil conditions, and in those situations upgrading to the next tank size above the minimum provides an important buffer against the hydraulic overloads that undersized systems experience during peak use periods. Mobile homes on permanent foundations with conventional septic systems are treated identically to stick-built homes for sizing purposes, while those on temporary foundations in mobile home parks may connect to a shared system with different sizing requirements. See our septic system installation cost guide at https://theseptic.guide/cost-guides/septic-system-installation-cost for pricing on new installations for any home type.' } },
-    { '@type': 'Question', name: 'Does a garbage disposal affect what size tank I need?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, using a garbage disposal regularly increases the volume of organic solids entering the septic tank by an estimated 30 to 50 percent compared to a household that disposes of food scraps in the trash or compost, which meaningfully affects both the appropriate tank size and the required pumping frequency. The additional food solids from a disposal are harder for the anaerobic bacteria in the tank to digest than human waste, which means a larger proportion accumulates as sludge rather than being broken down biologically, filling the tank faster and increasing the risk of solids escaping to the drainfield between pump-outs. Most septic professionals recommend choosing a tank one size larger than the bedroom-based minimum when a garbage disposal is in regular use, so a 3-bedroom home that would typically use a 1,000-gallon tank should use a 1,250-gallon tank, and a 4-bedroom home should use a 1,500-gallon tank rather than 1,250. Beyond tank size, garbage disposal use also requires pumping approximately 30 percent more frequently than the standard interval, so a household that would normally pump every three years should plan to pump every two years. See our complete guide to garbage disposals and septic systems at https://theseptic.guide/guides/garbage-disposal-septic-systems for the full impact on maintenance schedules and system health.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What size septic tank do I need for a 3-bedroom house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 1,000-gallon tank is the standard minimum for a 3-bedroom home and is the requirement in virtually every jurisdiction in the United States, based on the assumption that a 3-bedroom home can house up to six people generating approximately 75 gallons of wastewater per person per day. For a household of four or fewer people with average water use and no garbage disposal, a 1,000-gallon tank is adequate and will typically require pumping every two to three years. If your household has more than four people, uses a garbage disposal regularly, does multiple loads of laundry per day, or expects frequent guests, upgrading to a 1,250-gallon tank provides meaningful additional capacity and extends pumping intervals to three to four years without a significant cost increase at installation. The price difference between a 1,000-gallon and 1,250-gallon concrete tank is typically $200 to $400 at installation, which is recovered within one to two pump-out cycles through the extended service interval. Always verify the minimum requirement with your local health department before purchasing a tank, as some counties require 1,000 gallons as the absolute minimum regardless of bedroom count while others have specific requirements for your soil conditions and system type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size septic tank do I need for a 4-bedroom house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most jurisdictions require 1,200 to 1,500 gallons for a 4-bedroom home, with the exact requirement varying by state and county based on local regulations and soil conditions. A 1,500-gallon tank is the recommended choice for most 4-bedroom homes because it provides a comfortable capacity margin above the minimum, reduces pumping frequency to every three to five years for a typical family of four, and accommodates the peak flow events from holiday gatherings and house guests that routinely stress undersized tanks. For households with a garbage disposal, a water softener discharging to the septic system, or any plan to add an in-law suite or additional bedroom in the future, sizing up to 1,500 gallons at installation is strongly recommended because upgrading tank size after the system is buried requires significant excavation and expense. The cost difference between a 1,250-gallon and 1,500-gallon concrete tank is typically $300 to $500 at installation, which is recovered in reduced pumping frequency within five to seven years. See our how often to pump guide for the exact pumping interval comparison between tank sizes for your household."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a septic tank be too big?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, a septic tank cannot be too large for a residential installation. A larger tank provides more retention time for solids to settle before effluent reaches the drainfield, which improves effluent quality, reduces the rate of biomat formation in the drainfield, and extends the drainfield's functional life. The only theoretical concern with an oversized tank is that very low water use relative to tank size could theoretically slow biological activity, but in practice no residential household generates so little wastewater that a reasonably oversized tank would have this problem. The cost difference between adjacent standard tank sizes is typically $200 to $500 at installation, which is a small fraction of the $5,000 to $15,000 cost of replacing a drainfield that failed prematurely because the tank was undersized and could not provide adequate retention time. When choosing between the minimum required size and one size larger, the larger tank is almost always the better long-term financial decision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum septic tank size allowed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most United States jurisdictions, 1,000 gallons is the minimum tank size permitted for any residential installation regardless of the number of bedrooms, though some states allow 750-gallon tanks for one to two-bedroom homes or very small cabins with low water use. The minimum exists because a tank must hold at least two days of peak daily flow to provide adequate retention time for solids to separate from liquids before effluent reaches the drainfield, and a tank smaller than 1,000 gallons cannot reliably meet that standard for most households. Local requirements vary significantly by state and county, and some jurisdictions have increased their minimums above 1,000 gallons in response to research on effluent quality and drainfield longevity, so always verify the specific requirement with your local health department before purchasing a tank. Properties in environmentally sensitive areas near lakes, rivers, or coastal waters may face stricter sizing requirements than the standard minimum, as regulators in those areas impose additional standards to protect water quality. See your county health department or the EPA's septic system guidance for the standards applicable to your specific location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know what size septic tank I have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most reliable method for confirming your tank size is checking the original septic permit filed with your county health department at the time of installation, which records the tank size, material, installation date, and system type and is usually available at no cost by calling the health department and providing your address. Many concrete tanks have the gallon capacity stamped directly on the lid or on the exterior wall near the top of the tank, which your pumping technician can read during the next service visit without any additional research. If no records exist and no stamp is visible, a septic professional can measure the interior dimensions of the tank while it is open during pumping and calculate the capacity using the formula: length times width times depth in feet times 7.48 equals approximate capacity in gallons. As a practical estimate, if your pumper removes approximately 900 to 1,100 gallons of septage, you have a 1,000-gallon tank, and if they remove 1,400 to 1,600 gallons, you have a 1,500-gallon tank. See our how to find your septic tank guide for additional methods including using property records and physical probing to locate and access the tank."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does adding a bedroom require a bigger septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most jurisdictions, adding a bedroom to a home that is served by a septic system requires a review of whether the existing system is sized appropriately for the increased occupancy that the additional bedroom represents, and in many cases it triggers a requirement to upgrade the tank or drainfield before a building permit is issued. The reason is that building codes size septic systems based on bedroom count as a proxy for maximum potential occupancy, and an additional bedroom increases the calculated wastewater generation the system must handle. Whether a tank upgrade is actually required depends on the current tank size relative to the new bedroom count, your local jurisdiction's specific requirements, and whether the existing drainfield has sufficient capacity for the additional load. If you are planning a bedroom addition, contact your local health department before beginning construction to understand whether a septic system upgrade will be required as a condition of the building permit, because discovering this requirement after construction begins can significantly complicate and delay the project. See our septic system installation cost guide for what a system upgrade or replacement costs if the addition triggers that requirement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size septic tank do I need for a mobile home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mobile homes and manufactured homes are sized using the same bedroom-based calculation as site-built homes, so a single-wide with two bedrooms requires a 750 to 1,000-gallon tank and a double-wide with three bedrooms requires a 1,000-gallon tank at minimum. Some jurisdictions apply the same absolute 1,000-gallon minimum to mobile homes regardless of bedroom count, and a few states have specific mobile home septic requirements that differ from their standard residential code, so verifying with your local health department before installation is essential. One consideration specific to mobile homes is that they are often placed on smaller lots in areas with marginal soil conditions, and in those situations upgrading to the next tank size above the minimum provides an important buffer against the hydraulic overloads that undersized systems experience during peak use periods. Mobile homes on permanent foundations with conventional septic systems are treated identically to stick-built homes for sizing purposes, while those on temporary foundations in mobile home parks may connect to a shared system with different sizing requirements. See our septic system installation cost guide for pricing on new installations for any home type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a garbage disposal affect what size tank I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, using a garbage disposal regularly increases the volume of organic solids entering the septic tank by an estimated 30 to 50 percent compared to a household that disposes of food scraps in the trash or compost, which meaningfully affects both the appropriate tank size and the required pumping frequency. The additional food solids from a disposal are harder for the anaerobic bacteria in the tank to digest than human waste, which means a larger proportion accumulates as sludge rather than being broken down biologically, filling the tank faster and increasing the risk of solids escaping to the drainfield between pump-outs. Most septic professionals recommend choosing a tank one size larger than the bedroom-based minimum when a garbage disposal is in regular use, so a 3-bedroom home that would typically use a 1,000-gallon tank should use a 1,250-gallon tank, and a 4-bedroom home should use a 1,500-gallon tank rather than 1,250. Beyond tank size, garbage disposal use also requires pumping approximately 30 percent more frequently than the standard interval, so a household that would normally pump every three years should plan to pump every two years. See our complete guide to garbage disposals and septic systems for the full impact on maintenance schedules and system health."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many bedrooms can a 1,000-gallon septic tank support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Up to 3 bedrooms in most areas. Codes assume 2 people per bedroom, so a 1,000-gallon tank is sized for a 3-bedroom home with up to 6 people. It's also the minimum for any house in many counties. For 4 bedrooms, most codes require 1,200 to 1,500 gallons. If you're adding a bedroom to a home with a 1,000-gallon tank, expect the county to review the system before it issues a building permit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many bedrooms will a 1,500-gallon septic tank support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 4 to 5 bedrooms, depending on your county. A 1,500-gallon tank is the common choice for a 4-bedroom home and the minimum for a 5-bedroom home in many areas. At 2 people per bedroom, that's 8 to 10 people. Homes with 6 or more bedrooms typically need 2,000 gallons or more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the dimensions of a 1,000-gallon septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical 1,000-gallon concrete tank is about 8 feet long, 5 feet wide, and 5 to 6 feet tall, and weighs about 8,000 to 12,000 pounds. A 1,000-gallon plastic tank is longer and lower, about 10.5 feet long, 5 feet wide, and 4.25 feet tall, and weighs around 350 pounds. Exact dimensions vary by manufacturer, so check the spec sheet for the tank you're buying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is septic tank size based on bedrooms or bathrooms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bedrooms. Septic codes use bedroom count because it sets how many people could live in the home, at 2 per bedroom, no matter how many bathrooms there are or how many people live there now. Extra bathrooms don't change the minimum on their own, but a home with many fixtures, a large jetted tub, or heavy water use is a good reason to go one size up. Some codes also use a fixture count, and the larger of the two results sets the minimum."
+      }
+    }
+  ]
 }
 
 const datasetSchema = {
@@ -63,6 +151,36 @@ const datasetSchema = {
     { '@type': 'PropertyValue', name: 'Lifespan', description: 'Expected tank lifespan in years' },
     { '@type': 'PropertyValue', name: 'Pumping Frequency', description: 'How often pumping is needed by household size' },
   ],
+}
+
+const faqLinks = [
+  {
+    "text": "how often to pump guide",
+    "href": "/articles/how-often-pump-septic-tank"
+  },
+  {
+    "text": "EPA's septic system guidance",
+    "href": "https://www.epa.gov/septic/how-care-your-septic-system"
+  },
+  {
+    "text": "how to find your septic tank guide",
+    "href": "/articles/how-to-find-your-septic-tank"
+  },
+  {
+    "text": "septic system installation cost guide",
+    "href": "/cost-guides/septic-system-installation-cost"
+  },
+  {
+    "text": "complete guide to garbage disposals and septic systems",
+    "href": "/guides/garbage-disposal-septic-systems"
+  }
+]
+
+function renderFaqAnswer(text: string) {
+  return text.split(/(how often to pump guide|EPA's septic system guidance|how to find your septic tank guide|septic system installation cost guide|complete guide to garbage disposals and septic systems)/g).map((part, index) => {
+    const link = faqLinks.find(item => item.text === part)
+    return link ? <Link key={index} href={link.href} className="text-amber-700 underline hover:text-amber-900">{part}</Link> : part
+  })
 }
 
 export default function SepticTankSizeGuidePage() {
@@ -85,14 +203,14 @@ export default function SepticTankSizeGuidePage() {
           <p className="text-lg text-gray-200 max-w-2xl">The minimum septic tank size for most homes is 1,000 gallons. But the minimum is not always the right size for how your household actually uses water.</p>
           <div className="flex items-center gap-3 mt-4">
             <div className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white text-sm font-bold">SG</div>
-            <div><p className="text-white text-sm font-medium">The Septic Guide</p><p className="text-gray-300 text-xs">Updated Mar 2026 &middot; 25 min read</p></div>
+            <div><p className="text-white text-sm font-medium">By The Septic Guide Editorial Team</p><p className="text-gray-300 text-xs">Updated October 2026 &middot; 25 min read</p></div>
           </div>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <p className="text-lg text-slate-700 mb-6 leading-relaxed">A 1 to 2-bedroom home needs a 750 to 1,000-gallon tank, though many counties require 1,000 gallons for any house. A 3-bedroom home needs 1,000 gallons. A 4-bedroom home needs 1,200 to 1,500 gallons. A 5-bedroom home needs 1,500 gallons or more, and 6 or more bedrooms need 2,000 gallons or more. This guide explains how septic tank sizing works, what determines the right size for your home, when to go bigger than the minimum, and how tank size affects everything from pumping costs to drainfield life.</p>
         <p className="text-lg text-slate-700 mb-6 leading-relaxed">Septic tank size is the liquid capacity of the underground tank that collects and begins treating household wastewater, measured in gallons, and it determines how long wastewater remains in the tank before exiting to the drainfield, how frequently the tank needs to be pumped, and whether the system can handle peak water use events without sending partially settled effluent into the drainfield. Tank size requirements are set by local health department regulations and are calculated primarily from bedroom count rather than the actual number of occupants, because bedrooms represent potential occupancy that the system must be designed to handle regardless of current use. Choosing a tank that is larger than the code minimum costs only a few hundred dollars more at installation but meaningfully reduces pumping frequency, extends drainfield life by improving effluent quality, and provides a buffer for the peak flow events that cause backups in undersized systems. No residential septic tank can be too large, only too small, making the decision of whether to upsize from the minimum one of the highest-return choices available during new installation or replacement.</p>
-        <p className="text-lg text-slate-700 mb-6 leading-relaxed">A 1 to 2-bedroom home needs a 750 to 1,000-gallon tank. A 3-bedroom home needs 1,000 gallons. A 4-bedroom home needs 1,200 to 1,500 gallons. A 5-bedroom home needs 1,500 to 2,500 gallons. This guide explains exactly how septic tank sizing works, what determines the right size for your home, when to go bigger than the minimum, and how tank size affects everything from pumping costs to drainfield longevity.</p>
         <p className="text-lg text-slate-700 mb-10 leading-relaxed">If you are new to septic systems, start with our <Link href="/articles/complete-septic-guide" className="text-amber-700 underline hover:text-amber-900">complete guide to how septic systems work</Link>. To price out a tank-and-system install at the size your home actually needs, try our free <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-700 underline hover:text-amber-900">septic tank cost calculator</Link>.</p>
 
         {/* What Size Tank Do I Need? Find Your Situation */}
@@ -145,6 +263,13 @@ export default function SepticTankSizeGuidePage() {
 
         {/* How to Calculate */}
         <section className="mb-12">
+<h2 className="text-2xl font-bold text-slate-900 mb-4">How Many Bedrooms Does Each Tank Size Support?</h2>
+<p className="text-slate-600 my-4">If you know your tank size and want to know what it supports, use this table. Codes assume 2 people per bedroom.</p>
+<div className="overflow-x-auto"><table className="w-full border-collapse text-sm"><thead><tr className="bg-slate-800 text-white"><th className="px-4 py-3 text-left font-semibold">Tank Size</th><th className="px-4 py-3 text-left font-semibold">Bedrooms</th><th className="px-4 py-3 text-left font-semibold">People</th><th className="px-4 py-3 text-left font-semibold">Notes</th></tr></thead><tbody className="divide-y divide-gray-200"><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">500 gallons</td><td className="px-4 py-3 text-slate-600">Below most codes for a house</td><td className="px-4 py-3 text-slate-600">1 to 2</td><td className="px-4 py-3 text-slate-600">Cabins or seasonal use, where allowed</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">750 gallons</td><td className="px-4 py-3 text-slate-600">1 to 2</td><td className="px-4 py-3 text-slate-600">2 to 4</td><td className="px-4 py-3 text-slate-600">Allowed for small homes in some areas; many require 1,000</td></tr><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">1,000 gallons</td><td className="px-4 py-3 text-slate-600">Up to 3</td><td className="px-4 py-3 text-slate-600">Up to 6</td><td className="px-4 py-3 text-slate-600">The most common residential size</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">1,250 gallons</td><td className="px-4 py-3 text-slate-600">3 to 4</td><td className="px-4 py-3 text-slate-600">6 to 8</td><td className="px-4 py-3 text-slate-600">Meets the 4-bedroom minimum in some areas</td></tr><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">1,500 gallons</td><td className="px-4 py-3 text-slate-600">4 to 5</td><td className="px-4 py-3 text-slate-600">8 to 10</td><td className="px-4 py-3 text-slate-600">Common for 4 bedrooms, minimum for 5 in many areas</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">2,000 gallons</td><td className="px-4 py-3 text-slate-600">6 or more</td><td className="px-4 py-3 text-slate-600">12 or more</td><td className="px-4 py-3 text-slate-600">Large homes and in-law suites</td></tr></tbody></table></div>
+<p className="text-slate-600 my-4">Your county sets the actual minimum. Some require 1,000 gallons for any house, and many step up at 4 bedrooms to 1,250 or 1,500 gallons.</p>
+</section>
+
+        <section className="mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">How to Calculate Your Actual Tank Size Need</h2>
           <p className="text-slate-600 mb-4">The bedroom table gives you the minimum. Here is how to calculate whether you actually need more.</p>
           <div className="space-y-4">
@@ -176,12 +301,12 @@ export default function SepticTankSizeGuidePage() {
                 <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Plans to add a bedroom or in-law suite</td><td className="px-4 py-3 text-slate-600">Future expansion will increase occupancy and daily flow</td><td className="px-4 py-3 text-slate-600">Size for planned configuration</td></tr>
                 <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">Hot tub or jetted tub</td><td className="px-4 py-3 text-slate-600">Large-volume water use events stress the system</td><td className="px-4 py-3 text-slate-600">One size up</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Vacation rental or Airbnb</td><td className="px-4 py-3 text-slate-600">Occupancy fluctuates and can exceed assumptions</td><td className="px-4 py-3 text-slate-600">Size for max possible occupancy</td></tr>
-                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">High water table or challenging soil</td><td className="px-4 py-3 text-slate-600">Drainfield processes effluent slower&mdash;more tank retention helps</td><td className="px-4 py-3 text-slate-600">One size up for buffer</td></tr>
+                <tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">High water table or challenging soil</td><td className="px-4 py-3 text-slate-600">Drainfield processes effluent slower, so more tank retention helps</td><td className="px-4 py-3 text-slate-600">One size up for buffer</td></tr>
                 <tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">Water softener discharging to septic</td><td className="px-4 py-3 text-slate-600">Adds 50&ndash;100 gallons per regeneration cycle</td><td className="px-4 py-3 text-slate-600">One size up</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-slate-600 mt-4">The cost difference is small. A 1,000-gallon concrete tank costs approximately $800 to $1,500. A 1,500-gallon concrete tank costs approximately $1,200 to $2,000. The $400 to $500 difference at installation is trivial compared to the $5,000 to $15,000 cost of replacing a failed system that was undersized. For full pricing by material, see our <Link href="/cost-guides/septic-system-installation-cost" className="text-amber-700 underline hover:text-amber-900">septic system installation cost guide</Link>.</p>
+          <p className="text-slate-600 mt-4">The cost difference is small. A 1,000-gallon concrete tank costs about $800 to $2,000 for the tank itself, and each step up to the next standard size typically adds $200 to $500. That&apos;s minor compared to the $5,000 to $15,000 cost of replacing a drainfield that failed because the tank was undersized. For full pricing, see our <Link href="/cost-guides/septic-system-installation-cost" className="text-amber-700 underline hover:text-amber-900">septic system installation cost guide</Link> and our <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="text-amber-700 underline hover:text-amber-900">concrete vs. plastic vs. fiberglass septic tank comparison</Link>.</p>
           <p className="text-slate-600 mt-4">Tank size is one of the inputs in our <Link href="/cost-guides/septic-tank-cost-calculator" className="text-amber-700 underline hover:text-amber-900">septic tank cost calculator</Link>, which estimates new installation costs based on home size, system type, and regional pricing.</p>
         </section>
 
@@ -202,6 +327,13 @@ export default function SepticTankSizeGuidePage() {
           <p className="text-slate-600 mt-4">Concrete is the default choice for permanent residential installations. Plastic tanks are popular for smaller installations and sites with difficult access. For a full comparison, see our <Link href="/comparisons/concrete-vs-plastic-vs-fiberglass-septic-tanks" className="text-amber-700 underline hover:text-amber-900">concrete vs plastic vs fiberglass septic tank guide</Link>.</p>
         </section>
 
+<section className="mb-12">
+<h2 className="text-2xl font-bold text-slate-900 mb-4">Standard Septic Tank Sizes and Dimensions</h2>
+<p className="text-slate-600 my-4">Residential septic tanks come in standard sizes of 750, 1,000, 1,250, 1,500, 2,000, and 2,500 gallons. Typical outside dimensions:</p>
+<div className="overflow-x-auto"><table className="w-full border-collapse text-sm"><thead><tr className="bg-slate-800 text-white"><th className="px-4 py-3 text-left font-semibold">Tank Size</th><th className="px-4 py-3 text-left font-semibold">Concrete (L × W × H)</th><th className="px-4 py-3 text-left font-semibold">Concrete Weight</th><th className="px-4 py-3 text-left font-semibold">Plastic (L × W × H)</th></tr></thead><tbody className="divide-y divide-gray-200"><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">500 gallons</td><td className="px-4 py-3 text-slate-600">About 5.5 × 4 × 5.5 to 6 ft</td><td className="px-4 py-3 text-slate-600">About 5,000 to 7,500 lb</td><td className="px-4 py-3 text-slate-600">Varies by model</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">1,000 gallons</td><td className="px-4 py-3 text-slate-600">About 8 × 4.5 to 5.5 × 5 to 6 ft</td><td className="px-4 py-3 text-slate-600">About 8,000 to 12,000 lb</td><td className="px-4 py-3 text-slate-600">About 10.5 × 5 × 4.25 ft, around 350 lb</td></tr><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">1,250 gallons</td><td className="px-4 py-3 text-slate-600">About 9 × 5.5 × 5.5 ft</td><td className="px-4 py-3 text-slate-600">About 9,500 to 10,500 lb</td><td className="px-4 py-3 text-slate-600">About 13 × 5 × 4.25 ft, around 400 lb</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">1,500 gallons</td><td className="px-4 py-3 text-slate-600">About 12 × 5.5 to 6.75 × 4.5 to 6 ft</td><td className="px-4 py-3 text-slate-600">About 12,000 to 19,000 lb</td><td className="px-4 py-3 text-slate-600">About 12 × 4.5 × 5.5 ft</td></tr><tr className="bg-white"><td className="px-4 py-3 font-medium text-slate-900">2,000 gallons</td><td className="px-4 py-3 text-slate-600">About 12 × 6.75 × 5.5 to 6 ft</td><td className="px-4 py-3 text-slate-600">About 14,000 to 20,500 lb</td><td className="px-4 py-3 text-slate-600">Usually concrete</td></tr><tr className="bg-gray-50"><td className="px-4 py-3 font-medium text-slate-900">2,500 gallons</td><td className="px-4 py-3 text-slate-600">About 12 × 6.75 × 6.5 to 7 ft</td><td className="px-4 py-3 text-slate-600">About 15,000 to 22,000 lb</td><td className="px-4 py-3 text-slate-600">Usually concrete</td></tr></tbody></table></div>
+<p className="text-slate-600 my-4">Exact dimensions vary by manufacturer, compartment design, and whether the tank is rated for vehicle traffic, so check the spec sheet for the tank you&apos;re buying. For the same capacity, plastic tanks are longer and lower than concrete. To estimate the size of a tank you already have from its inside measurements, see <Link href="#how-to-find-out-what-size-tank-you-have" className="text-amber-700 underline hover:text-amber-900">How to Find Out What Size Tank You Have</Link> below.</p>
+</section>
+
         {/* Pumping Frequency */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">How Tank Size Affects Pumping Frequency</h2>
@@ -221,18 +353,18 @@ export default function SepticTankSizeGuidePage() {
           <p className="text-slate-600 mt-4 text-sm">These intervals assume no garbage disposal and standard water usage. A garbage disposal shortens each interval by approximately 30%. See our <Link href="/articles/how-often-pump-septic-tank" className="text-amber-700 underline hover:text-amber-900">complete pumping schedule guide</Link> for a more detailed table.</p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-5 mt-4">
             <h4 className="font-bold text-slate-900 mb-2">The Math</h4>
-            <p className="text-slate-600 text-sm">Pumping costs $300 to $600 per visit. A family of 4 with a 1,000-gallon tank pumps every 2 to 3 years and spends $2,000 to $3,600 over 12 years. The same family with a 1,500-gallon tank pumps every 3 to 5 years and spends $1,200 to $2,400. The larger tank saves $600 to $1,200 in pumping costs alone. See our <Link href="/articles/septic-tank-pumping-cost" className="text-amber-700 underline hover:text-amber-900">pumping cost guide</Link>.</p>
+            <p className="text-slate-600 text-sm">Pumping costs $300 to $600 per visit, and most homeowners pay around $400 to $450. Over 12 years, a family of 4 with a 1,000-gallon tank pumps about every 2.5 years, or about 5 times. The same family with a 1,500-gallon tank pumps about every 3.5 years, or 3 to 4 times. That&apos;s 1 to 2 fewer pump-outs, a savings of roughly $400 to $900. See our <Link href="/articles/septic-tank-pumping-cost" className="text-amber-700 underline hover:text-amber-900">pumping cost guide</Link>.</p>
           </div>
         </section>
 
         {/* How to Find Your Tank Size */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">How to Find Out What Size Tank You Have</h2>
+          <h2 id="how-to-find-out-what-size-tank-you-have" style={{ scrollMarginTop: '6rem' }} className="text-2xl font-bold text-slate-900 mb-4">How to Find Out What Size Tank You Have</h2>
           <p className="text-slate-600 mb-4">If you already have a septic system and do not know the tank size, here is how to find out.</p>
           <div className="space-y-4">
             <div className="border-l-4 border-amber-500 pl-4"><h4 className="font-bold text-slate-900">Check your property records</h4><p className="text-slate-600 mt-1 text-sm">The original septic permit filed with your county health department lists the tank size, material, and installation date. Most counties keep these records permanently.</p></div>
             <div className="border-l-4 border-amber-500 pl-4"><h4 className="font-bold text-slate-900">Check the tank itself</h4><p className="text-slate-600 mt-1 text-sm">Concrete tanks often have the gallon capacity stamped on the lid or on the side near the top. Your pumping technician can read this during the next service visit.</p></div>
-            <div className="border-l-4 border-amber-500 pl-4"><h4 className="font-bold text-slate-900">Measure it</h4><p className="text-slate-600 mt-1 text-sm">If no records exist and no stamp is visible, your septic professional can measure the interior dimensions while the tank is being pumped. Length &times; width &times; depth (in feet) &times; 7.48 = approximate capacity in gallons. A tank that is 8 feet long, 4 feet wide, and 4 feet deep holds approximately 958 gallons&mdash;roughly a 1,000-gallon tank.</p></div>
+            <div className="border-l-4 border-amber-500 pl-4"><h4 className="font-bold text-slate-900">Measure it</h4><p className="text-slate-600 mt-1 text-sm">If no records exist and no stamp is visible, your septic professional can measure the interior dimensions while the tank is being pumped. Length &times; width &times; depth (in feet) &times; 7.48 = approximate capacity in gallons. A tank that is 8 feet long, 4 feet wide, and 4 feet deep holds approximately 958 gallons, roughly a 1,000-gallon tank.</p></div>
             <div className="border-l-4 border-amber-500 pl-4"><h4 className="font-bold text-slate-900">Ask your pumping company</h4><p className="text-slate-600 mt-1 text-sm">Experienced pumpers can often estimate tank size based on the volume of septage they remove. If they pump approximately 900 to 1,100 gallons, you have a 1,000-gallon tank.</p></div>
           </div>
           <p className="text-slate-600 mt-4">For more methods, including finding the tank itself, see our <Link href="/articles/how-to-find-your-septic-tank" className="text-amber-700 underline hover:text-amber-900">guide to locating your septic tank</Link>.</p>
@@ -269,7 +401,7 @@ export default function SepticTankSizeGuidePage() {
             {faqSchema.mainEntity.map((faq: any, index: number) => (
               <details key={index} className="bg-gray-50 rounded-lg border border-gray-200">
                 <summary className="px-5 py-4 font-semibold text-slate-900 cursor-pointer hover:text-amber-600 transition-colors">{faq.name}<span className="ml-2 text-amber-500">+</span></summary>
-                <div className="px-5 pb-4 text-slate-600 text-sm">{faq.acceptedAnswer.text}</div>
+                <div className="px-5 pb-4 text-slate-600 text-sm">{renderFaqAnswer(faq.acceptedAnswer.text)}</div>
               </details>
             ))}
           </div>
