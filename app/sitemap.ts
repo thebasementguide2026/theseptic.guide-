@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const datedSlugs: Record<string, string> = {
+    'guides/septic-system-financial-assistance': '2026-10-27',
     'articles/septic-tank-pumping-cost': '2026-10-27',
     'guides/septic-tank-size-guide': '2026-10-27',
     'cost-guides/septic-inspection-cost': '2026-10-27',

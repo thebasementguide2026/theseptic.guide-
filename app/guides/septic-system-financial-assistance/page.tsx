@@ -25,8 +25,8 @@ const articleSchema = {
   description: 'Federal grants, low-interest loans, and state-by-state programs that help homeowners pay for septic system repair and replacement. Who qualifies, how much is available, and exactly how to apply.',
   image: 'https://theseptic.guide/loan%20application.jpg',
   datePublished: '2026-03-24',
-  dateModified: '2026-03-24',
-  author: { '@type': 'Organization', name: 'The Septic Guide', url: 'https://theseptic.guide' },
+  dateModified: '2026-10-27',
+  author: { '@type': 'Organization', name: 'The Septic Guide Editorial Team', url: 'https://theseptic.guide' },
   publisher: {
     '@type': 'Organization',
     name: 'The Septic Guide',
@@ -37,82 +37,98 @@ const articleSchema = {
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'Are there grants to replace a septic system that never need to be repaid?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, but they are limited and come with strict eligibility rules. The USDA Section 504 program offers grants of up to $10,000 to homeowners who are 62 or older, have very low income below 50 percent of area median income, live in a USDA-eligible rural area, and are unable to repay a loan. Maryland\'s Bay Restoration Fund provides grants for nitrogen-reducing septic upgrades with no minimum income requirement, limited to Maryland homeowners. Delaware\'s DNREC Septic Rehabilitation Grant Program provides grants to low-income homeowners. Washington State\'s Craft3 Clean Water program began offering full-cost grants to qualifying low-income homeowners in 2025. Some county-level programs also provide outright grants. For most homeowners who do not meet strict income and age requirements, low-interest loans are the more realistic category of assistance.',
-      },
+      "@type": "Question",
+      "name": "Are there grants to replace a septic system that never need to be repaid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but they are limited and come with strict eligibility rules. The USDA Section 504 program offers grants of up to $10,000 to homeowners who are 62 or older, have very low income below 50 percent of area median income, live in a USDA-eligible rural area, and are unable to repay a loan. Maryland’s Bay Restoration Fund provides grants for nitrogen-reducing septic upgrades with no minimum income requirement, though it is limited to Maryland homeowners and to systems that qualify for the BAT upgrade program. Delaware’s DNREC Septic Rehabilitation Grant Program provides grants to low-income homeowners. Washington State’s Craft3 Clean Water program began offering full-cost grants to qualifying low-income homeowners in 2025. Some county-level programs also provide outright grants, particularly when a health department has ordered a homeowner to correct a failing system. For most homeowners who do not meet strict income and age requirements, low-interest loans are the more realistic category of assistance."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What income level qualifies for federal septic assistance?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'For the USDA Section 504 program, household income must be below 50 percent of the area median income for the county, which the USDA calls very low income. For a family of four in a county with a median income of $70,000, this threshold is approximately $35,000 per year. Current income limits can be checked at rd.usda.gov. Programs using a low-to-moderate income threshold, such as SERCAP loans and several state programs, extend eligibility to households below 80 percent of area median income. Some programs including Pennsylvania\'s PENNVEST loan and Michigan\'s Tier 2 SRLP loan have no income limits at all.',
-      },
+      "@type": "Question",
+      "name": "What income level qualifies for federal septic assistance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For the USDA Section 504 program, the threshold is very low income, defined as household income below 50 percent of the area median income for the county. This varies by county and household size. For a family of four in a county with a median income of $70,000, the 50 percent threshold is approximately $35,000 per year. Current income limits for any specific county can be checked using the USDA’s income eligibility tools at rd.usda.gov. Programs using a low-to-moderate income threshold, such as SERCAP loans and several state programs, extend eligibility to households below 80 percent of area median income, a meaningfully higher threshold that reaches more homeowners. Some programs, such as Pennsylvania’s PENNVEST loan and Michigan’s Tier 2 SRLP loan, have no income limits at all and are available to any homeowner who needs a septic system replacement."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Does my property need to be in a rural area to qualify for septic assistance?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'For USDA programs, yes. Section 504 and the Rural Decentralized Water Systems program require properties to be in USDA-designated rural areas, defined as communities outside urban areas with populations of 50,000 or more. Many small towns, suburbs of smaller cities, and communities outside larger metro areas qualify. Use the USDA Property Eligibility Site at rd.usda.gov to check your specific address before assuming you do not qualify. State programs, county programs, and SERCAP and RCAP Solutions loan programs use their own eligibility criteria and most do not have a strict rural area requirement.',
-      },
+      "@type": "Question",
+      "name": "Does my property need to be in a rural area to qualify for assistance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For USDA programs, yes. Section 504 and the Rural Decentralized Water Systems program both require the property to be in a USDA-eligible rural area. For USDA housing programs, including Section 504, eligible areas are generally open country and towns of up to 35,000 people, depending on the area's location and history. Many small towns, suburbs of smaller cities, and communities outside larger metro areas qualify. Use the USDA Property Eligibility Site to check your specific address before assuming you do not qualify. State programs, county programs, and the SERCAP and RCAP Solutions loan programs use their own eligibility criteria, and most do not have a strict rural area requirement."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Can I get assistance if my septic system has not completely failed yet?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Some programs cover near-failing or aging systems before full failure. Michigan\'s Septic Replacement Loan Program explicitly covers near-failing systems. Maryland\'s Bay Restoration Fund can be accessed for nitrogen-reducing upgrades without documented failure. Washington State\'s Craft3 program also serves proactive homeowners. Most other federal and state programs require documented system failure or a health department notice of violation. For homeowners with aging systems, the right time to investigate program eligibility is before failure occurs so that an application can be submitted immediately when needed.',
-      },
+      "@type": "Question",
+      "name": "Can I get assistance if my septic system has not completely failed yet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some programs cover near-failing or aging systems before full failure. Michigan’s Septic Replacement Loan Program explicitly covers near-failing systems, not only those that have already failed. Maryland’s Bay Restoration Fund can be accessed for upgrades to nitrogen-reducing systems even without documented failure. Washington State’s Craft3 program also serves homeowners proactively. Most other federal and state programs require documented system failure or a health department notice of violation before assistance is available. For homeowners with aging systems who want to plan ahead, the right time to investigate program eligibility is before failure occurs, so that an application can be submitted immediately if the system fails and timelines are urgent."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What documents are needed to apply for septic financial assistance?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Most programs require proof of homeownership such as a deed or tax records, proof of income including tax returns or pay stubs, verification of primary residence, documentation of the septic system problem such as an inspection report or health department notice, and contractor estimates for the repair or replacement. The USDA Section 504 program additionally requires documentation that affordable credit cannot be obtained elsewhere, typically a bank denial letter or documentation of why conventional financing is unavailable.',
-      },
+      "@type": "Question",
+      "name": "What documents are typically needed to apply for septic financial assistance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Requirements vary by program, but most require proof of homeownership such as a deed or property tax records, proof of income including recent tax returns, pay stubs, or Social Security award letters, verification that the property is your primary residence, documentation of the septic system problem such as an inspection report, health department notice of violation, or a licensed contractor’s assessment, and at least one contractor estimate for the proposed repair or replacement. The USDA Section 504 program additionally requires documentation that affordable credit cannot be obtained elsewhere, typically a denial letter from a bank or credit union or written documentation of why conventional financing is not available on reasonable terms."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How long does it take to receive septic financial assistance?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Timelines vary significantly. USDA Section 504 prequalification can happen within days, but the full application and approval process typically takes 4 to 8 weeks and can be longer at offices with waitlists. State programs vary: Michigan\'s SRLP and Pennsylvania\'s PENNVEST have rolling applications with faster turnaround. Programs with seasonal application windows can result in multi-month waits. Delaware\'s program paused in early 2026 before reopening in March 2026. If your system is creating an immediate health hazard, state this clearly when contacting the administering agency, as emergency circumstances sometimes qualify for expedited processing.',
-      },
+      "@type": "Question",
+      "name": "How long does the application and funding process take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timelines vary significantly by program and by the volume of applications a local office is processing. The USDA Section 504 prequalification conversation can happen within a week, but the full application and approval process typically takes 4 to 8 weeks from submission to approval, and can take longer at offices with waitlists. State programs vary: Michigan’s SRLP and Pennsylvania’s PENNVEST program have rolling applications and relatively fast turnaround. Others, such as Maryland’s Bay Restoration Fund, require county-level administration that can add time. Programs with seasonal application windows, such as those that only accept applications once or twice a year, can result in multi-month waits if you miss a window. Delaware’s program paused and reopened in early 2026, illustrating that programs can be temporarily unavailable regardless of the timeline you need. If your system is creating an immediate health hazard, state that clearly when contacting the administering agency. Emergency circumstances sometimes qualify for expedited processing."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What is the USDA Section 504 program and how does it help with septic systems?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The USDA Section 504 Home Repair program provides loans of up to $20,000 at a fixed 1 percent interest rate over 20 years to very-low-income rural homeowners for home repairs including septic system replacement, and grants of up to $10,000 to homeowners who are 62 or older and cannot repay a loan. Combined loan and grant assistance can reach $50,000. To qualify, household income must be below 50 percent of area median income, the homeowner must own and occupy the home as a primary residence, and the property must be in a USDA-designated rural area. Applications are processed through local USDA Rural Development offices year-round while funding is available.',
-      },
+      "@type": "Question",
+      "name": "What if I own a rental property with a failing septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Almost every assistance program described in this guide requires the homeowner to occupy the property as their primary residence. The USDA Section 504 program explicitly cannot be used for income or rental properties. Some county-level programs may have provisions for small landlords in situations where tenant health is at immediate risk, but these exceptions are rare and must be confirmed directly with the local agency. Rental property owners with failing septic systems generally need to use private financing options such as a home equity loan, a business line of credit, or contractor financing."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What financing options exist for septic repair if I do not qualify for grants or assistance programs?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Homeowners who do not qualify for assistance programs have several private financing options. A home equity loan provides a fixed lump sum at a fixed rate, typically 6 to 9 percent, secured against home equity. A HELOC works as a revolving credit line at a variable rate, useful when project costs are uncertain. FHA Title I Property Improvement Loans do not require home equity and cover septic repair and replacement. Personal loans are unsecured with higher rates, typically 8 to 15 percent, best for smaller repairs. Contractor financing is available through many septic companies but should be compared carefully against other options on total cost. For smaller repairs under $6,000 that can be repaid quickly, a zero-percent introductory credit card may effectively provide an interest-free short-term loan.',
-      },
+      "@type": "Question",
+      "name": "Can I use assistance programs for a septic system on a property I am buying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most programs require you to already own and occupy the property before applying. The USDA Section 504 program explicitly cannot be used for systems associated with new home construction or a purchase in progress. For buyers purchasing a home with a failing septic system, the standard approach is to negotiate a price reduction or seller credit at closing sufficient to cover the repair cost, which the new owner then handles using assistance programs they qualify for once they take ownership and occupy the home. See our guide to buying a home with a septic system for how to handle a failing system in a real estate transaction."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Is there financial assistance for septic systems on tribal lands?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. The EPA Clean Water Indian Set-Aside Grant Program provides funding for wastewater infrastructure to Indian tribes and Alaska Native Villages, administered in cooperation with the Indian Health Service. Tribes must identify wastewater needs through the IHS Sanitation Deficiency System to receive funding. Individual tribal members should contact their tribal environmental or housing office to understand what programs are available for their specific situation.',
-      },
+      "@type": "Question",
+      "name": "Is there assistance available for septic systems on tribal lands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The EPA Clean Water Indian Set-Aside Grant Program provides funding for wastewater infrastructure to Indian tribes and Alaska Native Villages, administered in cooperation with the Indian Health Service. Tribes must identify wastewater needs through the IHS Sanitation Deficiency System to receive funding. Individual tribal members should contact their tribal environmental or housing office to understand what programs are available for their specific situation, as programs and access pathways vary significantly by tribe and location."
+      }
     },
-  ],
+    {
+      "@type": "Question",
+      "name": "What is the USDA Section 504 program and how does it help with septic systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The USDA Section 504 Home Repair program provides loans of up to $40,000 at a fixed 1 percent interest rate over 20 years to very-low-income rural homeowners for home repairs, including septic system replacement. It also provides grants of up to $10,000 to homeowners who are 62 or older and can't repay a loan. Loans and grants can be combined for up to $50,000. To qualify, household income must be below 50 percent of area median income, the homeowner must own and live in the home, and the property must be in a USDA-eligible rural area. Apply through your local USDA Rural Development office, which accepts applications year-round while funding is available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you finance a septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you don't qualify for a grant or assistance program, the main options are a home equity loan (a fixed lump sum, typically 6 to 9 percent), a HELOC (a variable-rate credit line, useful when costs are uncertain), an FHA Title I Property Improvement Loan (no home equity required), a personal loan (typically 8 to 15 percent, best for smaller repairs), and contractor financing or payment plans, which many septic companies offer through third-party lenders. Compare the total cost of contractor financing, including the rate after any promotional period ends. For repairs under about $6,000 that you can pay off within 12 to 18 months, a zero-percent introductory credit card can work as a short-term interest-free loan."
+      }
+    }
+  ]
 }
 
 export default function SepticSystemFinancialAssistance() {
@@ -141,8 +157,8 @@ export default function SepticSystemFinancialAssistance() {
           <div className='flex items-center space-x-4'>
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
             <div>
-              <p className='text-white font-semibold'>The Septic Guide</p>
-              <p className='text-slate-400 text-sm'>Updated Mar 2026 &middot; 22 min read</p>
+              <p className='text-white font-semibold'>By The Septic Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &middot; 22 min read</p>
             </div>
           </div>
         </div>
@@ -153,7 +169,7 @@ export default function SepticSystemFinancialAssistance() {
 
         {/* Intro */}
         <div className='mb-12'>
-          <p className='text-lg text-slate-700 leading-relaxed mb-8'>Replacing a failing septic system costs between <Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800'>$5,000 and $30,000</Link> in most parts of the country. <Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800'>Drainfield replacement</Link> alone runs $5,000 to $20,000. For the roughly one in four American homes that depend on a septic system, an unexpected failure is one of the most expensive emergency repairs a homeowner can face, and one that cannot be deferred.</p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>Replacing a failing septic system typically costs <Link href='/cost-guides/septic-system-repair-cost' className='text-amber-700 underline hover:text-amber-800'>$8,000 to $20,000 or more</Link>. A new drainfield alone runs $5,000 to $15,000, and more for a mound system. For the roughly one in four American homes that depend on a septic system, an unexpected failure is one of the most expensive emergency repairs a homeowner can face, and one that cannot be deferred.</p>
           <p className='text-lg text-slate-700 leading-relaxed mb-8'>What most homeowners do not know is that financial assistance exists at the federal, state, and local level specifically for septic system repair and replacement. Programs range from outright grants that never require repayment to low-interest loans at fixed rates as low as 1 percent. Eligibility varies by income, location, age, and system status.</p>
           <p className='text-lg text-slate-700 leading-relaxed mb-8'>This guide covers every major program available as of early 2026, who qualifies, how much assistance is available, and exactly how to apply. It also covers private financing options for homeowners who do not qualify for any assistance program, with honest comparisons of each.</p>
         </div>
@@ -181,10 +197,10 @@ export default function SepticSystemFinancialAssistance() {
           <h3 className='text-lg font-bold text-slate-900 mb-3'>USDA Section 504 Home Repair Loans and Grants</h3>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The USDA Single Family Housing Repair Loans and Grants program, known universally as the Section 504 program, is the most significant federal program available to individual homeowners for septic system repair and replacement. It is administered by USDA Rural Development through local offices across the country.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>What it covers:</strong> Loans can be used to repair, improve, or modernize a home, which explicitly includes septic system replacement and repair. Grants are restricted to removing health and safety hazards, and a failing septic system qualifies as a health and safety hazard under program guidelines.</p>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Loan terms:</strong> Up to $20,000 at a fixed interest rate of 1 percent, repaid over 20 years. Combined loan and grant assistance can reach $50,000, or $55,000 in presidentially declared disaster areas.</p>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Grant terms:</strong> Up to $10,000 lifetime per homeowner, increasing to $15,000 in presidentially declared disaster areas. Grants must be repaid if the home is sold within three years of the repair.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Loan terms:</strong> Up to $40,000 at a fixed interest rate of 1 percent, repaid over 20 years. Combined loan and grant assistance can reach $50,000.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Grant terms:</strong> Up to $10,000 lifetime per homeowner. Grants must be repaid if the home is sold within three years of the repair.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Who qualifies for loans:</strong> Household income must be below 50 percent of the area median income for the county. The homeowner must own and occupy the home as a primary residence. The property must be in a USDA-designated rural area. The applicant must be unable to obtain affordable credit elsewhere on reasonable terms.</p>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Who qualifies for grants:</strong> All loan eligibility requirements apply, plus the applicant must be 62 or older and unable to repay a loan. Loans and grants can be combined for the same project, allowing a homeowner who qualifies for both to receive up to $30,000 total (the $20,000 loan maximum plus the $10,000 grant maximum).</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Who qualifies for grants:</strong> All loan eligibility requirements apply, plus the applicant must be 62 or older and unable to repay a loan. Loans and grants can be combined for the same project, allowing a homeowner who qualifies for both to receive up to $50,000 total (the $40,000 loan maximum plus the $10,000 grant maximum).</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>How to apply:</strong> Contact your local USDA Rural Development office. The USDA encourages an informal prequalification conversation before a full application. Applications are accepted year-round while funding is available. Some local offices have waitlists. Use the USDA Property Eligibility Site at rd.usda.gov to verify rural eligibility for your address before contacting the office.</p>
           <p className='text-slate-700 leading-relaxed mb-6 text-sm'><strong>Important note on income threshold:</strong> This program requires &ldquo;very low&rdquo; income, defined as below 50 percent of area median income. Homeowners between 50 and 80 percent of area median income do not qualify for Section 504 but may qualify for SERCAP loans, state programs, and county programs described below.</p>
 
@@ -288,6 +304,7 @@ export default function SepticSystemFinancialAssistance() {
           <h3 className='text-lg font-bold text-slate-900 mb-3'>Florida: Regional Grant Programs</h3>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Brevard County: Save Our Indian River Lagoon Septic Upgrade Grant Program</strong> provides grants to Brevard County residents to upgrade from conventional septic to aerobic treatment units or to connect to sewer. Eligible costs include design, permits, inspections, materials, equipment, and contract labor. Contact the Save Our Indian River Lagoon Program at (321) 633-2016 or SepticUpgrade@brevardfl.gov.</p>
           <p className='text-slate-700 leading-relaxed mb-4 text-sm'>The Florida Department of Environmental Protection&rsquo;s Wastewater Grant Program funds governmental entities for wastewater projects, some of which reach individual homeowners through county programs. Contact your county health department for local programs.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Septic Upgrade Incentive Program: The Florida Department of Environmental Protection funds county-run incentives for homeowners near priority springs who add nitrogen-reducing features to a conventional septic system. Orange County offers up to $10,000 per household near Wekiwa Springs and Rock Springs, and Hernando County offers up to $7,500 per installation in the Weeki Wachee Springs area. These programs pay for upgrades, not routine repairs, and are limited to designated areas. Ask your county environmental or health department whether your address qualifies.</p>
         </div>
 
         {/* County-Level Programs */}
@@ -417,7 +434,7 @@ export default function SepticSystemFinancialAssistance() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Are there grants to replace a septic system that never need to be repaid?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, but they are limited and come with strict eligibility rules. The USDA Section 504 program offers grants of up to $10,000 (or $15,000 in presidentially declared disaster areas) to homeowners who are 62 or older, have very low income below 50 percent of area median income, live in a USDA-eligible rural area, and are unable to repay a loan. Maryland&rsquo;s Bay Restoration Fund provides grants for nitrogen-reducing septic upgrades with no minimum income requirement, though it is limited to Maryland homeowners and to systems that qualify for the BAT upgrade program. Delaware&rsquo;s DNREC Septic Rehabilitation Grant Program provides grants to low-income homeowners. Washington State&rsquo;s Craft3 Clean Water program began offering full-cost grants to qualifying low-income homeowners in 2025. Some county-level programs also provide outright grants, particularly when a health department has ordered a homeowner to correct a failing system. For most homeowners who do not meet strict income and age requirements, low-interest loans are the more realistic category of assistance.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Yes, but they are limited and come with strict eligibility rules. The USDA Section 504 program offers grants of up to $10,000 to homeowners who are 62 or older, have very low income below 50 percent of area median income, live in a USDA-eligible rural area, and are unable to repay a loan. Maryland&rsquo;s Bay Restoration Fund provides grants for nitrogen-reducing septic upgrades with no minimum income requirement, though it is limited to Maryland homeowners and to systems that qualify for the BAT upgrade program. Delaware&rsquo;s DNREC Septic Rehabilitation Grant Program provides grants to low-income homeowners. Washington State&rsquo;s Craft3 Clean Water program began offering full-cost grants to qualifying low-income homeowners in 2025. Some county-level programs also provide outright grants, particularly when a health department has ordered a homeowner to correct a failing system. For most homeowners who do not meet strict income and age requirements, low-interest loans are the more realistic category of assistance.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What income level qualifies for federal septic assistance?</summary>
@@ -425,7 +442,7 @@ export default function SepticSystemFinancialAssistance() {
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does my property need to be in a rural area to qualify for assistance?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>For USDA programs, yes. Section 504 and the Rural Decentralized Water Systems program both require properties to be in USDA-designated rural areas, defined as communities outside urban areas with populations of 50,000 or more and their immediately adjacent urbanized territory. Many small towns, suburbs of smaller cities, and communities outside larger metro areas qualify. Use the USDA Property Eligibility Site to check your specific address before assuming you do not qualify. State programs, county programs, and the SERCAP and RCAP Solutions loan programs use their own eligibility criteria, and most do not have a strict rural area requirement.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>For USDA programs, yes. Section 504 and the Rural Decentralized Water Systems program both require the property to be in a USDA-eligible rural area. For USDA housing programs, including Section 504, eligible areas are generally open country and towns of up to 35,000 people, depending on the area&apos;s location and history. Many small towns, suburbs of smaller cities, and communities outside larger metro areas qualify. Use the USDA Property Eligibility Site to check your specific address before assuming you do not qualify. State programs, county programs, and the SERCAP and RCAP Solutions loan programs use their own eligibility criteria, and most do not have a strict rural area requirement.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can I get assistance if my septic system has not completely failed yet?</summary>
@@ -451,7 +468,8 @@ export default function SepticSystemFinancialAssistance() {
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Is there assistance available for septic systems on tribal lands?</summary>
               <div className='px-4 pb-4 text-slate-600 text-sm'>Yes. The EPA Clean Water Indian Set-Aside Grant Program provides funding for wastewater infrastructure to Indian tribes and Alaska Native Villages, administered in cooperation with the Indian Health Service. Tribes must identify wastewater needs through the IHS Sanitation Deficiency System to receive funding. Individual tribal members should contact their tribal environmental or housing office to understand what programs are available for their specific situation, as programs and access pathways vary significantly by tribe and location.</div>
             </details>
-          </div>
+          <details className='border border-slate-200 rounded-lg group'><summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What is the USDA Section 504 program and how does it help with septic systems?</summary><div className='px-4 pb-4 text-slate-600 text-sm'>The USDA Section 504 Home Repair program provides loans of up to $40,000 at a fixed 1 percent interest rate over 20 years to very-low-income rural homeowners for home repairs, including septic system replacement. It also provides grants of up to $10,000 to homeowners who are 62 or older and can&apos;t repay a loan. Loans and grants can be combined for up to $50,000. To qualify, household income must be below 50 percent of area median income, the homeowner must own and live in the home, and the property must be in a USDA-eligible rural area. Apply through your local USDA Rural Development office, which accepts applications year-round while funding is available.</div></details>
+<details className='border border-slate-200 rounded-lg group'><summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Can you finance a septic system?</summary><div className='px-4 pb-4 text-slate-600 text-sm'>Yes. If you don&apos;t qualify for a grant or assistance program, the main options are a home equity loan (a fixed lump sum, typically 6 to 9 percent), a HELOC (a variable-rate credit line, useful when costs are uncertain), an FHA Title I Property Improvement Loan (no home equity required), a personal loan (typically 8 to 15 percent, best for smaller repairs), and contractor financing or payment plans, which many septic companies offer through third-party lenders. Compare the total cost of contractor financing, including the rate after any promotional period ends. For repairs under about $6,000 that you can pay off within 12 to 18 months, a zero-percent introductory credit card can work as a short-term interest-free loan.</div></details></div>
         </div>
 
         {/* Glossary */}
@@ -464,7 +482,7 @@ export default function SepticSystemFinancialAssistance() {
           <div className='space-y-3'>
             <div className='bg-white border border-slate-200 rounded-lg p-4'>
               <h3 className='font-bold text-slate-900 text-sm mb-1'>Section 504 Home Repair Program</h3>
-              <p className='text-slate-600 text-xs'>The Section 504 Home Repair Program, formally known as the USDA Single Family Housing Repair Loans and Grants program, is a USDA Rural Development program providing loans of up to $20,000 at a fixed 1 percent interest rate over 20 years to very-low-income rural homeowners for repairs including septic system replacement, and grants of up to $10,000 to homeowners who are 62 or older and cannot repay a loan. Loans and grants can be combined for up to $50,000 in total assistance per household. To qualify, household income must be below 50 percent of the area median income for the county, the homeowner must own and occupy the home as a primary residence, and the property must be in a USDA-designated rural area.</p>
+              <p className='text-slate-600 text-xs'>The Section 504 Home Repair Program, formally known as the USDA Single Family Housing Repair Loans and Grants program, is a USDA Rural Development program providing loans of up to $40,000 at a fixed 1 percent interest rate over 20 years to very-low-income rural homeowners for repairs including septic system replacement, and grants of up to $10,000 to homeowners who are 62 or older and cannot repay a loan. Loans and grants can be combined for up to $50,000 in total assistance per household. To qualify, household income must be below 50 percent of the area median income for the county, the homeowner must own and occupy the home as a primary residence, and the property must be in a USDA-designated rural area.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-4'>
               <h3 className='font-bold text-slate-900 text-sm mb-1'>Failing Septic System</h3>
@@ -484,7 +502,7 @@ export default function SepticSystemFinancialAssistance() {
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-4'>
               <h3 className='font-bold text-slate-900 text-sm mb-1'>USDA Rural Area Eligibility</h3>
-              <p className='text-slate-600 text-xs'>USDA rural area eligibility is the geographic requirement that must be met for a property to qualify for most USDA Rural Development programs, including Section 504. The USDA defines rural as areas outside urbanized areas with populations of 50,000 or more and their immediately adjacent densely settled territory. Many homeowners assume their property is too suburban to qualify and discover upon checking that they are eligible. The USDA provides a Property Eligibility Site at rd.usda.gov where any homeowner can enter their specific address and receive an immediate determination.</p>
+              <p className='text-slate-600 text-xs'>USDA rural area eligibility is the geographic requirement that must be met for a property to qualify for most USDA Rural Development programs, including Section 504. For USDA housing programs, including Section 504, eligible areas are generally open country and towns of up to 35,000 people, depending on the area&apos;s location and history. Many homeowners assume their property is too suburban to qualify and discover upon checking that they are eligible. The USDA provides a Property Eligibility Site at rd.usda.gov where any homeowner can enter their specific address and receive an immediate determination.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-4'>
               <h3 className='font-bold text-slate-900 text-sm mb-1'>Bay Restoration Fund (BRF)</h3>
@@ -509,7 +527,7 @@ export default function SepticSystemFinancialAssistance() {
         <div className='mt-16'>
           <h2 className='text-xl font-bold text-slate-900 mb-4'>Related Guides</h2>
           <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>On theseptic.guide</h3>
-          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'><Link href='/guides/septic-tank-size-guide' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'><h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Size Guide</h3></Link><Link href='/articles/septic-tank-pumping-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'><h3 className='font-bold text-slate-900 mb-1 text-sm'>Septic Tank Pumping Cost</h3></Link>
             <Link href='/cost-guides/septic-system-installation-cost' className='block p-4 border border-slate-200 rounded-lg hover:shadow-md transition-shadow'>
               <h4 className='font-bold text-slate-900 mb-1 text-sm'>Septic System Installation Cost 2026</h4>
               <p className='text-slate-600 text-xs'>What a new septic system costs by type, including all permitting, site evaluation, and installation expenses broken down by component.</p>
