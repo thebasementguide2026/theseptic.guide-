@@ -6,63 +6,87 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Septic Tank & Drain Field Repair Cost 2026: Every Repair Priced | The Septic Guide',
-  description: 'Septic tank repair costs $500 to $3,000. Drain field repair runs $1,500 to $20,000 depending on damage. Covers baffle replacement, pump repair, root removal, and full drainfield restoration.',
+  description: 'Septic repairs cost $600 to $3,000 on average. Every repair priced: pump replacement $500 to $1,300, D-box $500 to $1,500, line repair, baffles, cracked tanks, root removal, and drainfield fixes.',
   alternates: { canonical: 'https://theseptic.guide/cost-guides/septic-system-repair-cost' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'How much does it cost to repair a septic system?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The average septic system repair costs $600 to $3,000, but that range is wide because septic repair covers everything from a $50 effluent filter cleaning to a $15,000 drainfield replacement depending on which component has failed. Minor repairs including filter replacement, lid repair, and baffle replacement cost $50 to $900 and are the most common outcome of a routine inspection that catches problems early. Mid-range repairs including pump replacement, distribution box replacement, and sewer line repair cost $300 to $1,500 and typically indicate a component has worn out or failed after years of normal use. Major repairs including drainfield rejuvenation, root removal, and tank crack repair cost $500 to $5,000 and require professional diagnosis before committing to a repair path. Full drainfield replacement at $5,000 to $15,000 is the most expensive single repair and is almost always the result of deferred tank pumping that allowed solids to clog the drainfield over years of neglect.',
-      },
+      "@type": "Question",
+      "name": "How much does it cost to repair a septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average septic system repair costs $600 to $3,000, but that range is wide because septic repair covers everything from a $50 effluent filter cleaning to a $15,000 drainfield replacement depending on which component has failed. Minor repairs including filter replacement, lid repair, and baffle replacement cost $50 to $900 and are the most common outcome of a routine inspection that catches problems early. Mid-range repairs including pump replacement, baffle replacement, and distribution box replacement cost $250 to $1,500 and typically indicate a component has worn out or failed after years of normal use. Major repairs including drainfield rejuvenation, root removal, and tank crack repair cost $500 to $5,000 and require professional diagnosis before committing to a repair path. Full drainfield replacement at $5,000 to $15,000 is the most expensive single repair and is almost always the result of deferred tank pumping that allowed solids to clog the drainfield over years of neglect."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What is the most expensive septic repair?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Drainfield replacement at $5,000 to $15,000 is the most expensive single septic repair, and complete system replacement including both the tank and drainfield costs $8,000 to $20,000 or more depending on the system type required by the replacement area\'s soil conditions. What makes drainfield replacement particularly painful is that it is almost entirely preventable \u2014 the overwhelming majority of drainfield failures are caused by solid waste escaping from a septic tank that was not pumped on schedule, meaning a $300 to $600 pump-out every three to five years is the only thing standing between a homeowner and a five-figure repair. If the replacement area requires an engineered system such as a mound system or aerobic treatment unit because the soil fails the new perc test, costs can reach $20,000 to $25,000. Catching drainfield stress at the early warning sign stage (slow drains, mild yard odor, slightly wet soil) and addressing it with rejuvenation techniques at $1,000 to $5,000 is far less expensive than waiting for complete failure.',
-      },
+      "@type": "Question",
+      "name": "What is the most expensive septic repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drainfield replacement at $5,000 to $15,000 is the most expensive single septic repair, and complete system replacement including both the tank and drainfield costs $8,000 to $20,000 or more depending on the system type required by the replacement area's soil conditions. What makes drainfield replacement particularly painful is that it is almost entirely preventable, the overwhelming majority of drainfield failures are caused by solid waste escaping from a septic tank that was not pumped on schedule, meaning a $300 to $600 pump-out every three to five years is the only thing standing between a homeowner and a five-figure repair. If the replacement area requires an engineered system such as a mound system or aerobic treatment unit because the soil fails the new perc test, costs can reach $20,000 to $25,000. Catching drainfield stress at the early warning sign stage (slow drains, mild yard odor, slightly wet soil) and addressing it with rejuvenation techniques at $1,000 to $5,000 is far less expensive than waiting for complete failure."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Should I repair or replace my septic system?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The 50 percent rule is the standard decision framework: if the cost of the repair exceeds 50 percent of what full replacement would cost, replacement is usually the better long-term investment because you are spending significant money to extend the life of a system that is likely to need additional repairs soon. Beyond the 50 percent threshold, consider the system\'s age \u2014 a system under 15 years old with a single component failure is a strong repair candidate, while a system over 20 years old with multiple simultaneous failures is typically better replaced entirely. If the drainfield is still absorbing properly and the tank is structurally sound, repairing the specific failed component is almost always the right choice. If the drainfield shows signs of permanent failure such as standing water in dry weather, surfacing sewage, or sewage backing up into the house, no component-level repair will resolve the situation and replacement is the only viable path. Getting a professional inspection that clearly identifies the root cause of the problem is essential before committing to either path, because the wrong choice can mean spending $2,000 to $5,000 on rejuvenation for a drainfield that needed replacement, or spending $15,000 on replacement when a $500 D-box swap would have solved the problem.',
-      },
+      "@type": "Question",
+      "name": "Should I repair or replace my septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 50 percent rule is the standard decision framework: if the cost of the repair exceeds 50 percent of what full replacement would cost, replacement is usually the better long-term investment because you are spending significant money to extend the life of a system that is likely to need additional repairs soon. Beyond the 50 percent threshold, consider the system's age: a system under 15 years old with a single component failure is a strong repair candidate, while a system over 20 years old with multiple simultaneous failures is typically better replaced entirely. If the drainfield is still absorbing properly and the tank is structurally sound, repairing the specific failed component is almost always the right choice. If the drainfield shows signs of permanent failure such as standing water in dry weather, surfacing sewage, or sewage backing up into the house, no component-level repair will resolve the situation and replacement is the only viable path. Getting a professional inspection that clearly identifies the root cause of the problem is essential before committing to either path, because the wrong choice can mean spending $2,000 to $5,000 on rejuvenation for a drainfield that needed replacement, or spending $15,000 on replacement when a $500 D-box swap would have solved the problem."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Does homeowners insurance cover septic repairs?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Most standard homeowners insurance policies do not cover septic repairs because insurers classify septic system problems as maintenance issues resulting from gradual deterioration rather than sudden accidental losses, which is the standard trigger for property damage coverage. Some policies include limited coverage for damage caused by a specific sudden event such as a tree falling on the tank or an unexpected pipe collapse from external force, but slow failure from biomat accumulation, age, baffle deterioration, or deferred pumping is universally excluded. A water backup endorsement, which costs $30 to $250 per year to add to a standard policy, may cover damage inside the home from a sewage backup including cleanup and restoration, but it does not cover the cost of the septic repair itself. A small number of specialty carriers and home warranty products cover septic system components up to specified limits, and these are worth investigating before a failure occurs.',
-      },
+      "@type": "Question",
+      "name": "Does homeowners insurance cover septic repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard homeowners insurance policies do not cover septic repairs because insurers classify septic system problems as maintenance issues resulting from gradual deterioration rather than sudden accidental losses, which is the standard trigger for property damage coverage. Some policies include limited coverage for damage caused by a specific sudden event such as a tree falling on the tank or an unexpected pipe collapse from external force, but slow failure from biomat accumulation, age, baffle deterioration, or deferred pumping is universally excluded. A water backup endorsement, which costs $30 to $250 per year to add to a standard policy, may cover damage inside the home from a sewage backup including cleanup and restoration, but it does not cover the cost of the septic repair itself. A small number of specialty carriers and home warranty products cover septic system components up to specified limits, and these are worth investigating before a failure occurs."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How can I prevent expensive septic repairs?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The most expensive septic repairs are almost entirely preventable with consistent, inexpensive maintenance habits. Pump the tank every three to five years based on your household size and tank capacity, which is the single action that prevents the majority of drainfield failures and the most expensive repair outcomes. Have the effluent filter checked and cleaned at every pump-out visit, as a clogged filter is one of the most overlooked causes of whole-house slow drains and can be addressed for zero cost during a routine service call. Only flush human waste and toilet paper, keep chemical drain cleaners, bleach in large quantities, paint, and solvents out of the system, and fix leaky toilets and faucets promptly to prevent hydraulic overloading. Keep all vehicles, structures, and deep-rooted trees away from the drainfield area to prevent soil compaction and root intrusion, and make sure roof runoff and surface water are directed away from the tank and drainfield rather than toward them. An annual inspection at $100 to $300 that catches a $250 baffle problem or a $500 D-box issue before they cause drainfield damage is the highest-return maintenance investment available for any septic system.',
-      },
+      "@type": "Question",
+      "name": "How can I prevent expensive septic repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most expensive septic repairs are almost entirely preventable with consistent, inexpensive maintenance habits. Pump the tank every three to five years based on your household size and tank capacity, which is the single action that prevents the majority of drainfield failures and the most expensive repair outcomes. Have the effluent filter checked and cleaned at every pump-out visit, as a clogged filter is one of the most overlooked causes of whole-house slow drains and can be addressed for zero cost during a routine service call. Only flush human waste and toilet paper, keep chemical drain cleaners, bleach in large quantities, paint, and solvents out of the system, and fix leaky toilets and faucets promptly to prevent hydraulic overloading. Keep all vehicles, structures, and deep-rooted trees away from the drainfield area to prevent soil compaction and root intrusion, and make sure roof runoff and surface water are directed away from the tank and drainfield rather than toward them. An annual inspection at $100 to $300 that catches a $250 baffle problem or a $500 D-box issue before they cause drainfield damage is the highest-return maintenance investment available for any septic system."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How long do septic system components last?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Component lifespans vary significantly and knowing them helps you anticipate repairs before they become emergencies. Concrete tanks are the most durable component and typically last 40 or more years when properly maintained and not subjected to soil movement or structural stress. Plastic and fiberglass tanks last 30 to 40 years and are more resistant to cracking than concrete but more vulnerable to shifting in saturated soil. Drainfields last 15 to 30 years depending on whether solids were kept out through regular pumping, with neglected systems failing in under 10 years and well-maintained systems sometimes exceeding 30 years. Septic pumps in mound and pressure distribution systems last 7 to 15 years and should be tested annually as part of routine maintenance. Distribution boxes last 20 or more years but should be inspected at every pump-out for cracking or shifting that affects even effluent distribution. Effluent filters need cleaning every one to two years and replacement every three to five years at a cost of $50 to $200, making them the most frequently serviced component and one of the cheapest to maintain.',
-      },
+      "@type": "Question",
+      "name": "How long do septic system components last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Component lifespans vary significantly and knowing them helps you anticipate repairs before they become emergencies. Concrete tanks are the most durable component and typically last 40 or more years when properly maintained and not subjected to soil movement or structural stress. Plastic and fiberglass tanks last 30 to 40 years and are more resistant to cracking than concrete but more vulnerable to shifting in saturated soil. Drainfields last 15 to 30 years depending on whether solids were kept out through regular pumping, with neglected systems failing in under 10 years and well-maintained systems sometimes exceeding 30 years. Septic pumps in mound and pressure distribution systems last 7 to 15 years and should be tested annually as part of routine maintenance. Distribution boxes last 20 or more years but should be inspected at every pump-out for cracking or shifting that affects even effluent distribution. Effluent filters need cleaning every one to two years and replacement every three to five years at a cost of $50 to $200, making them the most frequently serviced component and one of the cheapest to maintain."
+      }
     },
-  ],
+    {
+      "@type": "Question",
+      "name": "How much does it cost to replace a septic pump?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing a septic pump typically costs $500 to $1,300, including the pump, labor, and electrical connections. If the pump only needs a repair, such as a new float switch or a fix to the wiring, expect $250 to $400. Pumps are used in mound systems, pressure distribution systems, aerobic systems, and anywhere the drainfield sits higher than the tank, and they typically last 7 to 15 years. A pump alarm going off is the usual first sign. If the alarm sounds, cut back on water use until it's checked, because the pump tank can fill and back up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does septic line repair cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Septic line repair typically costs $50 to $250 per linear foot, and most repairs run $500 to $3,800 total. That covers the pipe from the house to the tank or from the tank to the drainfield. A camera inspection ($125 to $500) usually comes first to find the break, crush, or root intrusion. Deep pipes, pipes under driveways or patios, and long runs cost the most. If roots caused the damage, plan to remove the tree or add a root barrier, or the problem will come back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to fix a cracked septic tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small cracks in a concrete tank can usually be sealed for $500 to $850. The tank is pumped dry and the cracks are filled with hydraulic cement or a specialized resin. Large structural cracks, a tank that has shifted, or a collapsed tank can't be patched reliably, and replacement typically costs $3,000 to $7,000. A cracked tank can let groundwater in and sewage out, so have it assessed at the next pump-out rather than waiting. A collapsed tank or sinking ground over the tank is a safety hazard: keep people and vehicles away and call a pro the same day."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
@@ -72,10 +96,10 @@ const articleSchema = {
   description: 'Septic system repairs cost $600 to $3,000 on average. Complete pricing for every repair from $50 filter cleaning to $15,000 drainfield replacement.',
   image: 'https://theseptic.guide/septic%20repair.jpg',
   datePublished: '2026-03-06',
-  dateModified: '2026-03-06',
+  dateModified: '2026-10-28',
   author: {
     '@type': 'Organization',
-    name: 'The Septic Guide',
+    name: 'The Septic Guide Editorial Team',
     url: 'https://theseptic.guide',
   },
   publisher: {
@@ -308,8 +332,8 @@ export default function SepticRepairCostArticle() {
           <div className='flex items-center space-x-4'>
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
             <div>
-              <p className='text-white font-semibold'>The Septic Guide</p>
-              <p className='text-slate-400 text-sm'>Updated Mar 2026 &middot; 22 min read</p>
+              <p className='text-white font-semibold'>By The Septic Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &middot; 22 min read</p>
             </div>
           </div>
         </div>
@@ -322,14 +346,15 @@ export default function SepticRepairCostArticle() {
       ]} />
 
       {/* Main Content */}
-      <article className='max-w-4xl mx-auto px-4 py-12'>
+      <div className='max-w-7xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8'>
+      <article className='max-w-4xl min-w-0 mx-auto px-4 py-12'>
 
                 <p className='text-base text-slate-700 leading-relaxed mb-6'>
           Septic system repair cost is the expense of diagnosing and fixing a specific failed or failing component of an on-site wastewater treatment system, which includes the tank, inlet and outlet baffles, effluent filter, distribution box, connecting pipes, pump, and drainfield. Each component can fail independently and at a different price point, meaning the cost of any specific repair is determined entirely by which part failed and how severely, not by the system as a whole. The most expensive repairs are almost always the result of deferred maintenance, particularly skipping regular tank pumping, which allows solids to escape into the drainfield and turns a $300 preventive pump-out into a $5,000 to $15,000 drainfield replacement.
         </p>
 
         <p className='text-base text-slate-700 leading-relaxed mb-6'>
-          Septic system repairs cost <strong>$600 to $3,000</strong> on average. Minor repairs (filter replacement, baffle repair, lid fix) cost <strong>$100 to $500</strong>. Mid-range repairs (pump replacement, distribution box, line repair) cost <strong>$500 to $1,500</strong>. Major repairs (drainfield rejuvenation, tank crack repair, root removal) cost <strong>$1,000 to $5,000</strong>. Full drainfield replacement costs <strong>$5,000 to $15,000</strong>. Full system replacement costs <strong>$8,000 to $20,000+</strong>.
+          Septic system repairs cost $600 to $3,000 on average. Minor repairs (effluent filter, tank lid, risers) cost $50 to $500. Mid-range repairs (baffles, pump, distribution box, control panel) cost $250 to $1,500. Major repairs (line repair, cracked tank, root removal, drainfield rejuvenation) cost $500 to $5,000. Full drainfield replacement costs $5,000 to $15,000, and a full system replacement costs $8,000 to $20,000 or more.
         </p>
         <p className='text-base text-slate-700 leading-relaxed mb-12'>
           The range is enormous because septic repair covers everything from a $50 filter cleaning to a $15,000 drainfield replacement. This guide prices out every specific repair, so you know exactly what you&apos;re facing before calling a contractor. If you are looking at a tank replacement, drainfield replacement, or full system replacement, you can <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>estimate septic system cost</Link> for your specific scenario before requesting quotes.
@@ -370,9 +395,6 @@ export default function SepticRepairCostArticle() {
               </tbody>
             </table>
           </div>
-          <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
-            <p className='text-slate-700 font-medium text-sm'>This table is the most complete septic repair cost reference available. Bookmark it for when you need it.</p>
-          </div>
         </div>
 
         {/* Minor Repairs */}
@@ -385,17 +407,17 @@ export default function SepticRepairCostArticle() {
           <p className='text-slate-700 leading-relaxed mb-6 text-sm'>These are routine maintenance items that are inexpensive and preventable with regular service.</p>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Effluent Filter Cleaning or Replacement &mdash; $50 to $200</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Effluent Filter Cleaning or Replacement: $50 to $200</h3>
               <p className='text-slate-700 text-sm mb-2'>The effluent filter sits at the tank outlet and catches solids before they reach the drainfield. It clogs naturally over time as part of normal operation.</p>
               <p className='text-slate-700 text-sm'>Cleaning is free if you do it yourself during a routine inspection, or $50 to $100 if the pumping crew does it. Replacement filters cost $50 to $200. This should be checked at every pumping visit.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Lid Replacement &mdash; $100 to $300</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Lid Replacement: $100 to $300</h3>
               <p className='text-slate-700 text-sm mb-2'>Concrete lids crack. Plastic lid gaskets deteriorate. A damaged lid allows septic gases to escape into your yard and creates a safety hazard.</p>
               <p className='text-slate-700 text-sm'>Replacement costs $100 to $300, depending on material and size. If your lids are buried, consider upgrading to risers at the same time.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Riser Installation or Repair &mdash; $200 to $400</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Riser Installation or Repair: $200 to $400</h3>
               <p className='text-slate-700 text-sm mb-2'>Risers bring tank access to ground level. Installing new risers costs $200 to $400 per access point. Repairing a cracked riser or replacing a damaged riser lid is typically $100 to $200.</p>
               <p className='text-slate-700 text-sm'>Risers are the single best investment for reducing future service costs because they eliminate digging fees at every pumping visit.</p>
             </div>
@@ -412,22 +434,22 @@ export default function SepticRepairCostArticle() {
           <p className='text-slate-700 leading-relaxed mb-6 text-sm'>These repairs indicate a component has worn out or failed. They&apos;re more expensive but still far cheaper than system replacement.</p>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Baffle Repair or Replacement &mdash; $250 to $900</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Baffle Repair or Replacement: $250 to $900</h3>
               <p className='text-slate-700 text-sm mb-2'>Your tank has two baffles: the inlet baffle directs incoming wastewater downward, and the outlet baffle prevents scum and sludge from exiting the tank. When baffles crack, deteriorate, or break off, solids escape into the drainfield.</p>
               <p className='text-slate-700 text-sm'>This is one of the most important repairs to make promptly because a missing outlet baffle is the fastest path to drainfield failure. The repair involves accessing the tank interior and installing a new PVC or concrete baffle.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Septic Pump Replacement &mdash; $500 to $1,300</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Septic Pump Replacement: $500 to $1,300</h3>
               <p className='text-slate-700 text-sm mb-2'>Systems that rely on a pump to move effluent to the drainfield (mound systems, pressure distribution systems, and any system where the drainfield is higher than the tank) will eventually need pump replacement. Pumps typically last 7 to 15 years.</p>
               <p className='text-slate-700 text-sm'>Repair costs $250 to $400. Full replacement costs $500 to $1,300, including the pump, labor, and electrical connections.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Distribution Box Replacement &mdash; $500 to $1,500</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Distribution Box Replacement: $500 to $1,500</h3>
               <p className='text-slate-700 text-sm mb-2'>The distribution box divides effluent equally among the drainfield lines. When a D-box cracks, shifts, or becomes unleveled, one section of the drainfield gets overloaded while the rest sits idle.</p>
               <p className='text-slate-700 text-sm'>Replacement involves excavating the box, installing a new one, and reconnecting the pipes. According to <a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800'>EPA septic system maintenance guidance</a>, ensuring equal distribution to all drainfield lines is critical for system longevity.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Control Panel Replacement &mdash; $300 to $500</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Control Panel Replacement: $300 to $500</h3>
               <p className='text-slate-700 text-sm mb-2'>Aerobic systems and pump-based systems have a control panel that monitors system functions, triggers pumps, and activates alarms. When the panel fails, the system can&apos;t regulate itself.</p>
               <p className='text-slate-700 text-sm'>Replacement includes the panel, wiring, and reconfiguration.</p>
             </div>
@@ -444,22 +466,22 @@ export default function SepticRepairCostArticle() {
           <p className='text-slate-700 leading-relaxed mb-6 text-sm'>These repairs indicate a significant problem that requires professional diagnosis and intervention.</p>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Septic Line Repair &mdash; $50 to $250 Per Linear Foot</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Septic Line Repair: $50 to $250 Per Linear Foot</h3>
               <p className='text-slate-700 text-sm mb-2'>The sewer line from your house to the tank, or the pipe from the tank to the drainfield, can crack, separate, or be crushed by roots or soil movement. Repair cost depends on the length of damaged pipe, depth, and accessibility.</p>
               <p className='text-slate-700 text-sm'>A camera inspection ($125 to $500) is usually needed first to locate and assess the damage. Total cost for a typical line repair runs $500 to $3,800.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Cracked Tank Repair &mdash; $500 to $850</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Cracked Tank Repair: $500 to $850</h3>
               <p className='text-slate-700 text-sm mb-2'>Small cracks in concrete tanks can be repaired by pumping the tank dry and filling the cracks with hydraulic cement or specialized resin. This extends the tank&apos;s life by years.</p>
               <p className='text-slate-700 text-sm'>However, large structural cracks or a tank that&apos;s shifted may require full tank replacement ($3,000 to $7,000). The pumping crew can assess crack severity during a routine pump-out.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Root Removal &mdash; $600 to $1,600</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Root Removal: $600 to $1,600</h3>
               <p className='text-slate-700 text-sm mb-2'>Tree roots infiltrate septic pipes and tanks through tiny cracks and joints. Removal uses a mechanical auger, drain cable machine, or hydro-jetting to cut through and clear the roots.</p>
               <p className='text-slate-700 text-sm'>The problem will recur unless the tree is removed ($400 to $1,200 additional) or a root barrier is installed. A camera inspection before and after confirms the roots are fully cleared.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Drainfield Rejuvenation &mdash; $1,000 to $5,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Drainfield Rejuvenation: $1,000 to $5,000</h3>
               <p className='text-slate-700 text-sm mb-2'>When a drainfield is struggling but hasn&apos;t completely failed, rejuvenation techniques can sometimes restore absorption capacity. Methods include soil aeration (fracturing compacted soil with pressurized air), hydro-jetting drainfield pipes to remove sediment, and bio-remediation (introducing bacteria to break down biomat).</p>
               <p className='text-slate-700 text-sm'>Success depends on the cause and severity of the problem. This costs far less than replacement but doesn&apos;t work in all cases.</p>
             </div>
@@ -476,15 +498,15 @@ export default function SepticRepairCostArticle() {
           <p className='text-slate-700 leading-relaxed mb-6 text-sm'>Some problems can&apos;t be fixed. Here&apos;s when replacement becomes necessary and what it costs.</p>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Replacement &mdash; $3,000 to $7,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tank Replacement: $3,000 to $7,000</h3>
               <p className='text-slate-700 text-sm'>Replace the tank when it has major structural failure (large cracks, shifting, or collapse), when it&apos;s undersized for the home (bedrooms added since installation), or when the tank material has reached the end of its lifespan (steel tanks especially). Tank replacement reuses the existing drainfield if it&apos;s still functioning.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Drainfield Replacement &mdash; $5,000 to $15,000</h3>
-              <p className='text-slate-700 text-sm'>Replace the drainfield when it has permanently lost absorption capacity from years of receiving solids, when pipes are crushed or collapsed, or when the system has reached the end of its natural lifespan (15 to 30 years). A new perc test and site evaluation ($500 to $1,500) are required. The replacement drainfield is installed in the designated reserve area identified in the original septic permit.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Drainfield Replacement: $5,000 to $15,000</h3>
+              <p className='text-slate-700 text-sm'><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800'>Replace the drainfield</Link> when it has permanently lost absorption capacity from years of receiving solids, when pipes are crushed or collapsed, or when the system has reached the end of its natural lifespan (15 to 30 years). A new perc test and site evaluation ($500 to $1,500) are required. The replacement drainfield is installed in the designated reserve area identified in the original septic permit.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Complete System Replacement &mdash; $8,000 to $20,000+</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Complete System Replacement: $8,000 to $20,000+</h3>
               <p className='text-slate-700 text-sm'>When both the tank and drainfield need replacement, or when the entire system is non-compliant with current code, a complete replacement is necessary. Costs vary enormously based on system type. For a complete breakdown, see our <Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800'>septic system installation cost guide</Link>.</p>
             </div>
           </div>
@@ -548,7 +570,7 @@ export default function SepticRepairCostArticle() {
                   <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Slow drains plus sewage odor in yard</td><td className='p-2 text-slate-700'>Early drainfield stress or broken pipe</td><td className='p-2 text-slate-700'>Camera inspection plus repair or rejuvenation</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $5,000</td></tr>
                   <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>One drainfield section wet, others dry</td><td className='p-2 text-slate-700'>Failing or unlevel distribution box</td><td className='p-2 text-slate-700'>D-box replacement</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $1,500</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Pump alarm activating on mound or ATU system</td><td className='p-2 text-slate-700'>Failed or failing septic pump</td><td className='p-2 text-slate-700'>Pump repair or replacement</td><td className='p-2 text-center text-slate-700'>$250 &ndash; $1,300</td></tr>
-                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage odor at specific point along house-to-tank route</td><td className='p-2 text-slate-700'>Cracked or separated sewer line</td><td className='p-2 text-slate-700'>Camera inspection plus pipe repair</td><td className='p-2 text-center text-slate-700'>$600 &ndash; $3,800</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Sewage odor at specific point along house-to-tank route</td><td className='p-2 text-slate-700'>Cracked or separated sewer line</td><td className='p-2 text-slate-700'>Camera inspection plus pipe repair</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $3,800</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Roots visible in tank or pipes on inspection</td><td className='p-2 text-slate-700'>Root intrusion</td><td className='p-2 text-slate-700'>Root removal plus camera inspection</td><td className='p-2 text-center text-slate-700'>$600 &ndash; $1,600</td></tr>
                   <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 text-slate-900'>Small crack visible in concrete tank on inspection</td><td className='p-2 text-slate-700'>Minor structural tank damage</td><td className='p-2 text-slate-700'>Tank crack repair with hydraulic cement</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $850</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-2 text-slate-900'>Large structural crack or shifting tank</td><td className='p-2 text-slate-700'>Major tank failure</td><td className='p-2 text-slate-700'>Full tank replacement</td><td className='p-2 text-center text-slate-700'>$3,000 &ndash; $7,000</td></tr>
@@ -616,15 +638,15 @@ export default function SepticRepairCostArticle() {
           <div className='space-y-3'>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to repair a septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The average septic system repair costs $600 to $3,000, but that range is wide because septic repair covers everything from a $50 effluent filter cleaning to a $15,000 drainfield replacement depending on which component has failed. Minor repairs including filter replacement, lid repair, and baffle replacement cost $50 to $900 and are the most common outcome of a routine inspection that catches problems early. Mid-range repairs including pump replacement, distribution box replacement, and sewer line repair cost $300 to $1,500 and typically indicate a component has worn out or failed after years of normal use. Major repairs including drainfield rejuvenation, root removal, and tank crack repair cost $500 to $5,000 and require professional diagnosis before committing to a repair path. Full drainfield replacement at $5,000 to $15,000 is the most expensive single repair and is almost always the result of deferred tank pumping that allowed solids to clog the drainfield over years of neglect.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The average septic system repair costs $600 to $3,000, but that range is wide because septic repair covers everything from a $50 effluent filter cleaning to a $15,000 drainfield replacement depending on which component has failed. Minor repairs including filter replacement, lid repair, and baffle replacement cost $50 to $900 and are the most common outcome of a routine inspection that catches problems early. Mid-range repairs including pump replacement, baffle replacement, and distribution box replacement cost $250 to $1,500 and typically indicate a component has worn out or failed after years of normal use. Major repairs including drainfield rejuvenation, root removal, and tank crack repair cost $500 to $5,000 and require professional diagnosis before committing to a repair path. Full drainfield replacement at $5,000 to $15,000 is the most expensive single repair and is almost always the result of deferred tank pumping that allowed solids to clog the drainfield over years of neglect.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>What is the most expensive septic repair?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>Drainfield replacement at $5,000 to $15,000 is the most expensive single septic repair, and complete system replacement including both the tank and drainfield costs $8,000 to $20,000 or more depending on the system type required by the replacement area&apos;s soil conditions. What makes drainfield replacement particularly painful is that it is almost entirely preventable &mdash; the overwhelming majority of drainfield failures are caused by solid waste escaping from a septic tank that was not pumped on schedule, meaning a $300 to $600 pump-out every three to five years is the only thing standing between a homeowner and a five-figure repair. If the replacement area requires an engineered system such as a mound system or aerobic treatment unit because the soil fails the new perc test, costs can reach $20,000 to $25,000. Catching drainfield stress at the early warning sign stage (slow drains, mild yard odor, slightly wet soil) and addressing it with rejuvenation techniques at $1,000 to $5,000 is far less expensive than waiting for complete failure.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Drainfield replacement at $5,000 to $15,000 is the most expensive single septic repair, and complete system replacement including both the tank and drainfield costs $8,000 to $20,000 or more depending on the system type required by the replacement area&apos;s soil conditions. What makes drainfield replacement particularly painful is that it is almost entirely preventable, the overwhelming majority of drainfield failures are caused by solid waste escaping from a septic tank that was not pumped on schedule, meaning a $300 to $600 pump-out every three to five years is the only thing standing between a homeowner and a five-figure repair. If the replacement area requires an engineered system such as a mound system or aerobic treatment unit because the soil fails the new perc test, costs can reach $20,000 to $25,000. Catching drainfield stress at the early warning sign stage (slow drains, mild yard odor, slightly wet soil) and addressing it with rejuvenation techniques at $1,000 to $5,000 is far less expensive than waiting for complete failure.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Should I repair or replace my septic system?</summary>
-              <div className='px-4 pb-4 text-slate-600 text-sm'>The 50 percent rule is the standard decision framework: if the cost of the repair exceeds 50 percent of what full replacement would cost, replacement is usually the better long-term investment because you are spending significant money to extend the life of a system that is likely to need additional repairs soon. Beyond the 50 percent threshold, consider the system&apos;s age &mdash; a system under 15 years old with a single component failure is a strong repair candidate, while a system over 20 years old with multiple simultaneous failures is typically better replaced entirely. If the drainfield is still absorbing properly and the tank is structurally sound, repairing the specific failed component is almost always the right choice. If the drainfield shows signs of permanent failure such as standing water in dry weather, surfacing sewage, or sewage backing up into the house, no component-level repair will resolve the situation and replacement is the only viable path. Getting a professional inspection that clearly identifies the root cause of the problem is essential before committing to either path, because the wrong choice can mean spending $2,000 to $5,000 on rejuvenation for a drainfield that needed replacement, or spending $15,000 on replacement when a $500 D-box swap would have solved the problem.</div>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>The 50 percent rule is the standard decision framework: if the cost of the repair exceeds 50 percent of what full replacement would cost, replacement is usually the better long-term investment because you are spending significant money to extend the life of a system that is likely to need additional repairs soon. Beyond the 50 percent threshold, consider the system&apos;s age: a system under 15 years old with a single component failure is a strong repair candidate, while a system over 20 years old with multiple simultaneous failures is typically better replaced entirely. If the drainfield is still absorbing properly and the tank is structurally sound, repairing the specific failed component is almost always the right choice. If the drainfield shows signs of permanent failure such as standing water in dry weather, surfacing sewage, or sewage backing up into the house, no component-level repair will resolve the situation and replacement is the only viable path. Getting a professional inspection that clearly identifies the root cause of the problem is essential before committing to either path, because the wrong choice can mean spending $2,000 to $5,000 on rejuvenation for a drainfield that needed replacement, or spending $15,000 on replacement when a $500 D-box swap would have solved the problem.</div>
             </details>
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>Does homeowners insurance cover septic repairs?</summary>
@@ -637,6 +659,18 @@ export default function SepticRepairCostArticle() {
             <details className='border border-slate-200 rounded-lg group'>
               <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How long do septic system components last?</summary>
               <div className='px-4 pb-4 text-slate-600 text-sm'>Component lifespans vary significantly and knowing them helps you anticipate repairs before they become emergencies. Concrete tanks are the most durable component and typically last 40 or more years when properly maintained and not subjected to soil movement or structural stress. Plastic and fiberglass tanks last 30 to 40 years and are more resistant to cracking than concrete but more vulnerable to shifting in saturated soil. Drainfields last 15 to 30 years depending on whether solids were kept out through regular pumping, with neglected systems failing in under 10 years and well-maintained systems sometimes exceeding 30 years. Septic pumps in mound and pressure distribution systems last 7 to 15 years and should be tested annually as part of routine maintenance. Distribution boxes last 20 or more years but should be inspected at every pump-out for cracking or shifting that affects even effluent distribution. Effluent filters need cleaning every one to two years and replacement every three to five years at a cost of $50 to $200, making them the most frequently serviced component and one of the cheapest to maintain.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to replace a septic pump?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Replacing a septic pump typically costs $500 to $1,300, including the pump, labor, and electrical connections. If the pump only needs a repair, such as a new float switch or a fix to the wiring, expect $250 to $400. Pumps are used in <Link href='/guides/mound-septic-system' className='text-amber-700 underline hover:text-amber-800'>mound systems</Link>, pressure distribution systems, aerobic systems, and anywhere the drainfield sits higher than the tank, and they typically last 7 to 15 years. A pump alarm going off is the usual first sign. If the alarm sounds, cut back on water use until it's checked, because the pump tank can fill and back up.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does septic line repair cost?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Septic line repair typically costs $50 to $250 per linear foot, and most repairs run $500 to $3,800 total. That covers the pipe from the house to the tank or from the tank to the drainfield. A camera inspection ($125 to $500) usually comes first to find the break, crush, or root intrusion. Deep pipes, pipes under driveways or patios, and long runs cost the most. If roots caused the damage, plan to remove the tree or add a root barrier, or the problem will come back.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to fix a cracked septic tank?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>Small cracks in a concrete tank can usually be sealed for $500 to $850. The tank is pumped dry and the cracks are filled with hydraulic cement or a specialized resin. Large structural cracks, a tank that has shifted, or a collapsed tank can't be patched reliably, and replacement typically costs $3,000 to $7,000. A cracked tank can let groundwater in and sewage out, so have it assessed at the next pump-out rather than waiting. A collapsed tank or sinking ground over the tank is a safety hazard: keep people and vehicles away and call a pro the same day.</div>
             </details>
           </div>
         </div>
@@ -689,29 +723,29 @@ export default function SepticRepairCostArticle() {
             <h2 className='text-xl font-bold text-slate-900 mb-2'>Related Guides</h2>
             <p className='text-sm font-semibold text-slate-600 mb-4'>On theseptic.guide</p>
             <ul className='space-y-3 text-sm text-slate-700'>
-              <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link> &mdash; The most expensive single septic repair priced out in full, with a complete breakdown by system type, site conditions, and what drives cost from the low end to the high end.</li>
-              <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link> &mdash; The full warning sign progression from earliest to latest, what causes drainfield failure, and when the situation calls for rejuvenation versus replacement.</li>
-              <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link> &mdash; Full cost breakdown for new and replacement systems by type, relevant when repairs have reached the point where full replacement is the better investment.</li>
-              <li><Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Inspection Cost</Link> &mdash; What a professional inspection costs and why an accurate diagnosis before committing to any repair is essential for avoiding the wrong fix at the wrong price.</li>
-              <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link> &mdash; The $300 to $600 service that prevents the majority of expensive repairs, with real pricing by tank size and region.</li>
-              <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link> &mdash; The pumping schedule that keeps solids out of the drainfield and prevents the repair cascade that starts with a neglected tank.</li>
-              <li><Link href='/problems/tank-backing-up' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Backing Up Into House</Link> &mdash; Emergency steps, causes, and what to do when a repair situation has escalated to sewage entering the home.</li>
-              <li><Link href='/problems/slow-drains' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link> &mdash; How to diagnose whether slow drains point to a localized pipe clog, a full tank, a clogged effluent filter, or a developing drainfield problem before calling for a repair.</li>
-              <li><Link href='/problems/septic-smell-in-yard' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Smell in Your Yard</Link> &mdash; Eight causes of outdoor septic odor, what each one means for the system&apos;s condition, and the specific repair or fix for each.</li>
-              <li><Link href='/maintenance/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link> &mdash; The complete ongoing maintenance schedule that prevents the majority of expensive repairs by catching developing problems at the inexpensive end of the repair spectrum.</li>
-              <li><Link href='/articles/does-insurance-cover-septic-repair-replacement' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link> &mdash; Why most repairs are out-of-pocket expenses and what policy options exist to reduce financial exposure before a failure occurs.</li>
-              <li><Link href='/articles/septic-tank-cleaning-vs-pumping' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Cleaning vs Pumping</Link> &mdash; The difference between a thorough pump-out and a basic service, and why incomplete pumping accelerates the solid accumulation that leads to the most expensive repairs.</li>
-              <li><Link href='/articles/septic-tank-additives' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Do Septic Tank Additives Work?</Link> &mdash; Why additives cannot replace repairs or pumping, and which additive types can actively cause the damage that leads to expensive system failures.</li>
-              <li><Link href='/reviews/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link> &mdash; The one upgrade that reduces the cost of every future repair and service visit by eliminating excavation fees and giving technicians immediate access to the tank.</li>
+              <li><Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Drainfield Replacement Cost</Link>: The most expensive single septic repair priced out in full, with a complete breakdown by system type, site conditions, and what drives cost from the low end to the high end.</li>
+              <li><Link href='/problems/drainfield-failing' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Signs Your Drainfield Is Failing</Link>: The full warning sign progression from earliest to latest, what causes drainfield failure, and when the situation calls for rejuvenation versus replacement.</li>
+              <li><Link href='/cost-guides/septic-system-installation-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Installation Cost 2026</Link>: Full cost breakdown for new and replacement systems by type, relevant when repairs have reached the point where full replacement is the better investment.</li>
+              <li><Link href='/cost-guides/septic-inspection-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Inspection Cost</Link>: What a professional inspection costs and why an accurate diagnosis before committing to any repair is essential for avoiding the wrong fix at the wrong price.</li>
+              <li><Link href='/articles/septic-tank-pumping-cost' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Pumping Cost 2026</Link>: The $300 to $600 service that prevents the majority of expensive repairs, with real pricing by tank size and region.</li>
+              <li><Link href='/articles/how-often-pump-septic-tank' className='text-amber-700 underline hover:text-amber-800 font-semibold'>How Often Should You Pump Your Septic Tank?</Link>: The pumping schedule that keeps solids out of the drainfield and prevents the repair cascade that starts with a neglected tank.</li>
+              <li><Link href='/problems/tank-backing-up' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Backing Up Into House</Link>: Emergency steps, causes, and what to do when a repair situation has escalated to sewage entering the home.</li>
+              <li><Link href='/problems/slow-drains' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Slow Drains on a Septic System</Link>: How to diagnose whether slow drains point to a localized pipe clog, a full tank, a clogged effluent filter, or a developing drainfield problem before calling for a repair.</li>
+              <li><Link href='/problems/septic-smell-in-yard' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Smell in Your Yard</Link>: Eight causes of outdoor septic odor, what each one means for the system&apos;s condition, and the specific repair or fix for each.</li>
+              <li><Link href='/maintenance/septic-system-maintenance-checklist' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic System Maintenance Checklist</Link>: The complete ongoing maintenance schedule that prevents the majority of expensive repairs by catching developing problems at the inexpensive end of the repair spectrum.</li>
+              <li><Link href='/articles/does-insurance-cover-septic-repair-replacement' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Does Insurance Cover Septic Repair and Replacement?</Link>: Why most repairs are out-of-pocket expenses and what policy options exist to reduce financial exposure before a failure occurs.</li>
+              <li><Link href='/articles/septic-tank-cleaning-vs-pumping' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Septic Tank Cleaning vs Pumping</Link>: The difference between a thorough pump-out and a basic service, and why incomplete pumping accelerates the solid accumulation that leads to the most expensive repairs.</li>
+              <li><Link href='/articles/septic-tank-additives' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Do Septic Tank Additives Work?</Link>: Why additives cannot replace repairs or pumping, and which additive types can actively cause the damage that leads to expensive system failures.</li>
+              <li><Link href='/reviews/best-septic-tank-risers' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Septic Tank Risers</Link>: The one upgrade that reduces the cost of every future repair and service visit by eliminating excavation fees and giving technicians immediate access to the tank.</li>
             </ul>
             <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>From Our Network</p>
             <ul className='space-y-3 text-sm text-slate-700'>
-              <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a> &mdash; For homes where groundwater management is contributing to drainfield saturation and accelerating repair costs, a properly designed sump pump system can redirect water away from the septic area.</li>
-              <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a> &mdash; Reviewed and ranked sump pump options for homeowners managing water intrusion and drainage problems that stress the septic system and increase repair frequency.</li>
+              <li><a href='https://thebasement.guide/articles/sump-pump-design-ideas' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Sump Pump Design Ideas for 2026</a>: For homes where groundwater management is contributing to drainfield saturation and accelerating repair costs, a properly designed sump pump system can redirect water away from the septic area.</li>
+              <li><a href='https://thebasement.guide/articles/best-sump-pumps' target='_blank' rel='noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>Best Sump Pumps 2026</a>: Reviewed and ranked sump pump options for homeowners managing water intrusion and drainage problems that stress the septic system and increase repair frequency.</li>
             </ul>
             <p className='text-sm font-semibold text-slate-600 mt-6 mb-4'>External Resource</p>
             <ul className='space-y-3 text-sm text-slate-700'>
-              <li><a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>EPA Septic System Maintenance Guidance</a> &mdash; The EPA&apos;s official guidance on septic system care including maintenance schedules, what to avoid, and how proper upkeep prevents the costly repairs covered in this guide.</li>
+              <li><a href='https://www.epa.gov/septic/how-care-your-septic-system' target='_blank' rel='nofollow noopener noreferrer' className='text-amber-700 underline hover:text-amber-800 font-semibold'>EPA Septic System Maintenance Guidance</a>: The EPA&apos;s official guidance on septic system care including maintenance schedules, what to avoid, and how proper upkeep prevents the costly repairs covered in this guide.</li>
             </ul>
           </div>
 {/* CTA */}
@@ -729,6 +763,13 @@ export default function SepticRepairCostArticle() {
               </div>
             </section>
           </article>
+          <aside className='hidden lg:block px-4 py-12'>
+            <div className='sticky top-24 rounded-2xl bg-[#F5F0EB] p-5'>
+              <p className='text-xl font-bold text-[#4A6741] mb-4'>Get Free Quotes</p>
+              <LeadForm />
+            </div>
+          </aside>
+      </div>
     </div>
   )
 }
