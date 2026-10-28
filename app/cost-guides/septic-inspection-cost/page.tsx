@@ -27,7 +27,7 @@ const faqSchema = {
       name: 'Is a septic inspection required when buying a house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Requirements vary significantly by state and municipality, and in some cases by the type of mortgage financing involved. Massachusetts, parts of New Jersey, Connecticut, and several other states mandate a septic inspection at every property transfer, and in those states a system that fails inspection must be repaired or replaced before the sale can close. Many mortgage lenders, particularly those issuing FHA and VA loans, require a septic inspection if the appraiser flags any concerns about the systems condition or age, and some lenders require one as standard practice for all properties on septic. Even where a septic inspection is not legally required, skipping it when buying a home is one of the costlier due diligence mistakes a buyer can make, because a failed or failing system that was not disclosed can cost $5,000 to $25,000 to repair or replace after closing with no recourse against the seller. Check your states specific requirements with your real estate agent and ask your lender directly whether they require a septic inspection before assuming it is optional.',
+        text: 'Requirements vary significantly by state and municipality, and in some cases by the type of mortgage financing involved. Massachusetts (Title 5) and Delaware require a septic inspection when most homes change hands, and many counties and towns elsewhere, including parts of New Jersey, New York, Minnesota, and Washington, have their own point-of-sale rules. Where an inspection is required, a system that fails usually has to be repaired or replaced, or the repair has to be agreed in writing, before the sale closes. Many mortgage lenders, particularly those issuing FHA and VA loans, require a septic inspection if the appraiser flags any concerns about the systems condition or age, and some lenders require one as standard practice for all properties on septic. Even where a septic inspection is not legally required, skipping it when buying a home is one of the costlier due diligence mistakes a buyer can make, because a failed or failing system that was not disclosed can cost $5,000 to $25,000 to repair or replace after closing with no recourse against the seller. Check your states specific requirements with your real estate agent and ask your lender directly whether they require a septic inspection before assuming it is optional.',
       },
     },
     {
@@ -51,7 +51,7 @@ const faqSchema = {
       name: 'Does the septic inspection include pumping?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Not always. Many companies quote the inspection and pumping as separate charges. A comprehensive inspection should include pumping because the inspector cannot fully evaluate the tank interior without removing the contents. Ask whether pumping is included in the quoted price. If not, budget an additional $300 to $600 for the pumping.',
+        text: 'Not always. Many companies quote the inspection and pumping as separate charges. A comprehensive inspection should include pumping because the inspector cannot fully evaluate the tank interior without removing the contents. Ask whether pumping is included in the quoted price. If not, budget an additional $300 to $600 for the pumping. A routine inspection plus pumping typically totals $450 to $900.',
       },
     },
     {
@@ -75,7 +75,23 @@ const faqSchema = {
       name: 'Should I combine the septic inspection with a well inspection?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'If the property has both a septic system and a private well, yes. Many inspectors offer a discount when both are done in the same visit. A well inspection ($350 to $550 with basic water testing) confirms that the septic system is not contaminating your drinking water, which is a critical health concern for properties with both systems.',
+        text: 'If the property has both a septic system and a private well, yes. Many inspectors offer a discount when both are done in the same visit. A combined well and septic inspection typically costs $600 to $1,200 when one company does both. A well inspection ($350 to $550 with basic water testing) confirms that the septic system is not contaminating your drinking water, which is a critical health concern for properties with both systems.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much is a Title 5 inspection in Massachusetts?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "A Title 5 inspection typically costs $400 to $900 in Massachusetts, depending on the size and type of the system, how hard the tank and drainfield are to reach, and whether pumping is billed separately. It's required in most home sales and must be done by a state-approved inspector. The seller usually pays for it. A passing report is generally good for two years, or three if the system has been pumped every year, so sellers who inspect early can often reuse the report.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Who pays for a septic inspection when buying a house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "The buyer usually pays, the same as a home inspection, because it's part of the buyer's due diligence. In states and towns that require an inspection at sale, such as Massachusetts under Title 5, the seller typically arranges and pays for it. Either way, the cost is negotiable. If the inspection finds problems, use the report to negotiate a repair, a credit at closing, or a lower price.",
       },
     },
   ],
@@ -128,7 +144,7 @@ const articleSchema = {
   image: 'https://theseptic.guide/septic inspection.jpg',
   author: {
     '@type': 'Organization',
-    name: 'The Septic Guide',
+    name: 'The Septic Guide Editorial Team',
     url: 'https://theseptic.guide',
   },
   publisher: {
@@ -137,7 +153,7 @@ const articleSchema = {
     url: 'https://theseptic.guide',
   },
   datePublished: '2026-03-09',
-  dateModified: '2026-03-09',
+  dateModified: '2026-10-28',
 }
 
 export default function SepticInspectionCostPage() {
@@ -181,8 +197,8 @@ export default function SepticInspectionCostPage() {
           <div className="flex items-center mt-6 space-x-4">
             <div className="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-sm">SG</div>
             <div>
-              <p className="font-semibold">The Septic Guide</p>
-              <p className="text-sm text-gray-300">Updated Mar 2026 &middot; 22 min read</p>
+              <p className="font-semibold">By The Septic Guide Editorial Team</p>
+              <p className="text-sm text-gray-300">Updated October 2026 &middot; 22 min read</p>
             </div>
           </div>
         </div>
@@ -191,7 +207,8 @@ export default function SepticInspectionCostPage() {
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Cost Guides', href: '/cost-guides' }, { label: 'Septic Inspection Cost' }]} />
 
       {/* Intro Section */}
-      <article className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8">
+      <article className="max-w-4xl min-w-0 mx-auto px-4 py-12">
                 <p className="text-base text-slate-700 leading-relaxed mb-6">
             A septic inspection is a professional evaluation of an on-site wastewater treatment system in which a licensed inspector assesses the condition and functionality of the septic tank, drainfield, baffles, effluent filter, and distribution box to determine whether the system is operating correctly and identify any deficiencies requiring repair. The EPA recommends inspections every one to three years for routine homeowner maintenance, and most real estate transactions involving a property with a septic system require one before closing. Unlike a home inspection, which covers the septic system only superficially, a dedicated septic inspection opens the tank, measures sludge and scum levels, and evaluates components that are entirely underground and invisible from the surface.
           </p>
@@ -388,7 +405,7 @@ export default function SepticInspectionCostPage() {
             <li>Documentation of system type, age, size, and maintenance history</li>
             <li>Assessment of remaining system lifespan</li>
             <li>Identification of code compliance issues</li>
-            <li>Flow test &mdash; run a specific volume of water to verify the system processes it</li>
+            <li>Flow test: run a specific volume of water to verify the system processes it</li>
             <li>May include water quality testing if the property also has a well</li>
           </ul>
           <h4 className="font-semibold text-gray-900 mb-2">What&#39;s NOT included:</h4>
@@ -483,7 +500,7 @@ export default function SepticInspectionCostPage() {
         <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-6">
           <li><strong>Negotiate a price reduction</strong> equal to the estimated repair cost</li>
           <li><strong>Require the seller to complete repairs</strong> before closing</li>
-          <li><strong>Walk away</strong> if the problems are severe and the seller will not negotiate &mdash; this is what the inspection contingency in your contract protects</li>
+          <li><strong>Walk away</strong> if the problems are severe and the seller will not negotiate. This is what the inspection contingency in your contract protects</li>
           <li><strong>Accept the condition</strong> with full knowledge of what repairs you will need and their cost</li>
         </ul>
         <p className="text-sm text-gray-500 mb-2">See our <Link href="/cost-guides/septic-system-repair-cost" className="text-amber-600 underline">septic system repair cost guide</Link> for pricing on every common repair.</p>
@@ -585,7 +602,7 @@ export default function SepticInspectionCostPage() {
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Title 5 inspection</h4>
-            <p className="text-sm text-gray-700">A Title 5 inspection is a state-mandated septic evaluation protocol required in Massachusetts at every property transfer, refinancing, and change of use, established under the Massachusetts Title 5 regulations to protect public health and groundwater quality. It is more rigorous and more expensive than a standard inspection, typically costing 400 to 900, and a system that fails Title 5 must be repaired or replaced before the property can be transferred.</p>
+            <p className="text-sm text-gray-700">A Title 5 inspection is the septic inspection Massachusetts requires under its Title 5 regulations, mainly when a property is sold, when a home is expanded or its use changes, and when property is divided. It is more rigorous than a standard inspection and typically costs $400 to $900. The seller usually arranges it, and a passing inspection is generally valid for two years, or three if the system has been pumped every year. A system that fails must be upgraded, and the timing is usually negotiated as part of the sale.</p>
           </div>
           <div className="border-b border-gray-200 pb-3">
             <h4 className="font-semibold text-gray-900">Flow test</h4>
@@ -713,6 +730,13 @@ export default function SepticInspectionCostPage() {
               </div>
             </section>
           </article>
+          <aside className="hidden lg:block px-4 py-12">
+            <div className="sticky top-24 rounded-2xl bg-[#F5F0EB] p-5">
+              <p className="text-xl font-bold text-[#4A6741] mb-4">Get Free Quotes</p>
+              <LeadForm />
+            </div>
+          </aside>
+      </div>
     </>
   )
 }
