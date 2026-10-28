@@ -11,58 +11,82 @@ export const metadata: Metadata = {
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'How much does it cost to install a septic system?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A conventional gravity-fed septic system costs $3,000 to $8,000 installed, making it the most affordable option and the one used on approximately 70 percent of residential installations where soil conditions are suitable. An aerobic treatment unit costs $10,000 to $20,000 installed due to the added mechanical components, electrical connections, and ongoing maintenance requirements. A mound system costs $10,000 to $20,000 installed because of the imported sand and gravel, pump equipment, and engineering required to build the elevated drainfield above natural soil. The national average across all system types is approximately $8,000, but that average is heavily skewed toward conventional systems and is not a reliable planning figure for properties that require engineered alternatives. For a realistic budget, start with a soil evaluation and perc test to determine which system type your property requires, then get three to five quotes from licensed installers in your area.',
-      },
+      "@type": "Question",
+      "name": "How much does it cost to install a septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A conventional gravity-fed septic system costs $3,000 to $8,000 installed, making it the most affordable option and the one used on approximately 70 percent of residential installations where soil conditions are suitable. An aerobic treatment unit costs $10,000 to $20,000 installed due to the added mechanical components, electrical connections, and ongoing maintenance requirements. A mound system costs $10,000 to $20,000 installed because of the imported sand and gravel, pump equipment, and engineering required to build the elevated drainfield above natural soil. The national average across all system types is approximately $8,000, but that average is heavily skewed toward conventional systems and is not a reliable planning figure for properties that require engineered alternatives. For a realistic budget, start with a soil evaluation and perc test to determine which system type your property requires, then get three to five quotes from licensed installers in your area."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How long does septic system installation take?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A conventional system typically takes one to two weeks from the start of excavation to completed installation and final inspection, assuming no unexpected site conditions such as rock, high groundwater, or access difficulties that require additional equipment or time. Aerobic treatment units and mound systems are more complex and typically take two to four weeks to complete because of the additional components, engineered sand beds, pump systems, and electrical connections involved. Permitting adds significant time before installation can begin, with the design review and approval process taking one to six weeks depending on the local health department&#39;s workload and whether the design requires revisions. The perc test and soil evaluation must be completed and approved before a permit is issued, so the full timeline from initial soil testing to a functioning system is typically four to twelve weeks for a straightforward installation and longer for complex sites. Scheduling in late summer or fall when contractors have more availability can reduce wait times compared to the busy spring season.',
-      },
+      "@type": "Question",
+      "name": "How long does septic system installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A conventional system typically takes one to two weeks from the start of excavation to completed installation and final inspection, assuming no unexpected site conditions such as rock, high groundwater, or access difficulties that require additional equipment or time. Aerobic treatment units and mound systems are more complex and typically take two to four weeks to complete because of the additional components, engineered sand beds, pump systems, and electrical connections involved. Permitting adds significant time before installation can begin, with the design review and approval process taking one to six weeks depending on the local health department's workload and whether the design requires revisions. The perc test and soil evaluation must be completed and approved before a permit is issued, so the full timeline from initial soil testing to a functioning system is typically four to twelve weeks for a straightforward installation and longer for complex sites. Scheduling in late summer or fall when contractors have more availability can reduce wait times compared to the busy spring season."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What determines which type of septic system I need?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Your soil percolation rate (measured by a perc test), the depth of the water table, the depth to bedrock, the available lot space, and local health department regulations. You don\'t choose a system type based on preference or budget. The site conditions and regulations determine what is allowed.',
-      },
+      "@type": "Question",
+      "name": "What determines which type of septic system I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your soil's percolation rate (measured by a perc test), the depth of the water table, the depth to bedrock, the available lot space, and local health department regulations. You don't choose a system type based on preference or budget."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Can I install a septic system myself?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'In most states, no. Septic installation requires permits issued to licensed installers, and the system must pass a health department inspection. Even where regulations are less strict, the excavation, engineering, and proper installation require equipment and expertise that make DIY impractical and risky.',
-      },
+      "@type": "Question",
+      "name": "Can I install a septic system myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most states, no. Septic installation requires permits issued to licensed installers, and the system must pass a health department inspection. The excavation, engineering, and proper installation require equipment and expertise that make DIY impractical and risky."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Does a new septic system increase home value?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A new, code-compliant septic system protects and can increase your home\'s value. A failed or non-compliant system can reduce value by $10,000 to $20,000 because buyers factor replacement cost into their offers. And because homeowners insurance rarely covers septic repairs or replacement, a new system is a meaningful de-risking of future out-of-pocket expense for buyers.',
-      },
+      "@type": "Question",
+      "name": "Does a new septic system increase home value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A new, code-compliant septic system protects and can increase your home's value. A failed or non-compliant system can reduce value by $10,000 to $20,000 because buyers factor replacement cost into their offers. And because homeowners insurance rarely covers septic repairs or replacement, a new system is a meaningful de-risking of future out-of-pocket expense for buyers."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'What happens if my property fails the perc test?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A failed perc test means conventional gravity-fed systems will not work on your property. You will need an engineered alternative such as a mound system, aerobic treatment unit, or sand filter system. These cost $10,000 to $20,000, significantly more than conventional systems. In rare cases where no system type is viable, the property may not be buildable.',
-      },
+      "@type": "Question",
+      "name": "What happens if my property fails the perc test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A failed perc test means conventional systems won't work. You'll need an engineered alternative (mound, ATU, sand filter) costing $10,000 to $20,000. In rare cases where no system type is viable, the property may not be buildable."
+      }
     },
-  ],
+    {
+      "@type": "Question",
+      "name": "How much does it cost to replace a septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A complete replacement, with a new tank and a new drainfield, typically costs $8,000 to $20,000, and more if the site now needs a mound or aerobic system. If only one part has failed, the cost drops: a new tank with the existing drainfield reused runs $3,000 to $7,000, and a new drainfield with the existing tank reused runs $5,000 to $15,000. Budget another $500 to $2,000 to decommission the old tank. An inspection will tell you which parts actually need replacing. See our drainfield replacement cost guide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a septic tank cost by itself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 1,000-gallon concrete tank costs about $800 to $2,000 for the tank alone, a plastic tank $500 to $1,200, and a fiberglass tank $1,200 to $2,000. Each step up to the next standard size typically adds $200 to $500. The tank is a small part of the total: installation labor, the drainfield, permits, and site work make up most of the cost of a new system. See our septic tank size guide to confirm the size your home needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to put in a well and septic system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For raw land, budget about $12,000 to $26,000 for a new well and a conventional septic system, and more if the site needs a mound or aerobic system. A conventional septic system typically costs $5,000 to $10,000 all-in, and a standard 100 to 200-foot well with a pump and pressure tank typically costs $7,000 to $16,000. Get the perc test done first, because it decides the septic system type and where the well can go. See The Well Guide's well drilling cost guide."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
@@ -72,10 +96,10 @@ const articleSchema = {
   description: 'A new septic system costs $3,000 to $20,000 installed. Complete price breakdown by system type, cost components, tank materials, and how to save.',
   image: 'https://theseptic.guide/costguide.jpg',
   datePublished: '2026-03-05',
-  dateModified: '2026-10-21',
+  dateModified: '2026-10-28',
   author: {
     '@type': 'Organization',
-    name: 'The Septic Guide',
+    name: 'The Septic Guide Editorial Team',
     url: 'https://theseptic.guide',
   },
   publisher: {
@@ -116,7 +140,7 @@ export default function SepticInstallationCostArticle() {
           <div className='flex items-center space-x-4'>
             <div className='w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center text-white font-bold text-sm'>SG</div>
             <div>
-              <p className='text-white font-semibold'>The Septic Guide</p>
+              <p className='text-white font-semibold'>By The Septic Guide Editorial Team</p>
               <p className='text-slate-400 text-sm'>Updated Oct 2026 &middot; 25 min read</p>
             </div>
           </div>
@@ -130,7 +154,8 @@ export default function SepticInstallationCostArticle() {
       ]} />
 
       {/* Main Content */}
-      <article className='max-w-4xl mx-auto px-4 py-12'>
+      <div className='max-w-7xl mx-auto lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8'>
+      <article className='max-w-4xl min-w-0 mx-auto px-4 py-12'>
                   <p className='text-base text-slate-700 leading-relaxed mb-6'>
             Septic system installation cost is the total expense of designing, permitting, excavating, and constructing a new on-site wastewater treatment system on a residential property, encompassing the septic tank, drainfield, connecting pipes, distribution box, and all associated labor, permitting, and site restoration. The installed cost ranges from $3,000 to $8,000 for a conventional gravity-fed system on a property with suitable soil to $10,000 to $20,000 or more for engineered alternatives such as aerobic treatment units and mound systems required when soil conditions, water table depth, or lot size prevent a conventional installation. The type of system required is determined entirely by a soil evaluation and percolation test conducted before permitting, meaning the homeowner&apos;s budget does not determine the system type the property&apos;s physical conditions do. Understanding what drives cost from the low end to the high end of the range, what hidden costs most contractor estimates omit, and what assistance programs exist is essential before requesting quotes or committing to a contractor.
           </p>
@@ -225,6 +250,8 @@ export default function SepticInstallationCostArticle() {
           </div>
         </div>
 
+        <p className='text-slate-700 leading-relaxed mb-12 text-sm'>These ranges cover the tank, drainfield, and installation labor. Permits, the perc test, system design, and site work typically add $1,000 to $4,000, which is why a realistic all-in budget for a conventional system is $5,000 to $10,000.</p>
+
         {/* Which System Do I Need */}
         <div className='mb-16'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -248,7 +275,7 @@ export default function SepticInstallationCostArticle() {
                   <td className='p-2 text-slate-700'>Good soil drainage, low water table, adequate space</td>
                   <td className='p-2 font-semibold text-slate-900'>Conventional (gravity-fed)</td>
                   <td className='p-2 text-center text-slate-700'>$3,000 &ndash; $8,000</td>
-                  <td className='p-2 text-slate-700'>Baseline &mdash; no additional requirements</td>
+                  <td className='p-2 text-slate-700'>Baseline, no additional requirements</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
                   <td className='p-2 text-slate-700'>Good soil but gravel is expensive or unavailable locally</td>
@@ -328,26 +355,26 @@ export default function SepticInstallationCostArticle() {
           <h2 className='text-2xl font-bold text-slate-900 mb-6'>System Type Details</h2>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Conventional System &mdash; $3,000 to $8,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Conventional System: $3,000 to $8,000</h3>
               <p className='text-slate-700 text-sm mb-2'>A conventional gravity-fed system is the simplest and least expensive to install. Wastewater flows by gravity from the house to the tank, then from the tank to the drainfield. No pumps, no mechanical components, no electricity required.</p>
               <p className='text-slate-700 text-sm'>It works well on properties with suitable soil (passes a perc test), adequate space for the drainfield, and a low water table. Roughly 70% of residential septic installations are conventional systems.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Aerobic Treatment Unit &mdash; $10,000 to $20,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Aerobic Treatment Unit: $10,000 to $20,000</h3>
               <p className='text-slate-700 text-sm mb-2'>Aerobic systems inject oxygen into the treatment tank, supporting bacteria that break down waste far more efficiently than the anaerobic bacteria in conventional tanks. The result is cleaner effluent that requires less drainfield area.</p>
               <p className='text-slate-700 text-sm'>ATUs are common on smaller lots or sites with poor soil. They cost more because they include an aerator, electrical connections, and often a pump chamber. They also require ongoing maintenance (annual inspections, sometimes quarterly) and electricity to run, adding $100 to $200 per year in operating costs.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Mound System &mdash; $10,000 to $20,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Mound System: $10,000 to $20,000</h3>
               <p className='text-slate-700 text-sm mb-2'>When natural soil is too shallow, the water table is too high, or bedrock is too close to the surface, a <Link href='/guides/mound-septic-system' className='text-amber-700 underline hover:text-amber-800'>mound system</Link> is the solution. Effluent is pumped up to an engineered sand mound built above the natural ground surface. The sand provides additional filtration before water reaches the native soil.</p>
               <p className='text-slate-700 text-sm'>Mound systems are expensive because of the imported sand and gravel, the pump equipment, and the engineering required. They also create a visible raised area in the yard.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Chamber System &mdash; $5,000 to $12,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Chamber System: $5,000 to $12,000</h3>
               <p className='text-slate-700 text-sm'>Chamber systems use connected plastic chambers instead of gravel-filled trenches. They&apos;re easier to install (no gravel hauling), work well in high water table areas, and are increasingly popular for residential installations. Cost falls between conventional and aerobic systems.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Sand Filter System &mdash; $7,000 to $18,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Sand Filter System: $7,000 to $18,000</h3>
               <p className='text-slate-700 text-sm'>Effluent is pumped through a lined box filled with sand before reaching the drainfield. The sand provides an extra treatment layer. These systems work on sites with challenging soil but add complexity and cost due to the pump, filter box, and additional piping.</p>
             </div>
           </div>
@@ -371,7 +398,7 @@ export default function SepticInstallationCostArticle() {
                 </tr>
               </thead>
               <tbody>
-                <tr className='border-b border-slate-200'><td className='p-2 font-semibold text-slate-900'>Septic tank (1,000 gal concrete)</td><td className='p-2 text-center text-slate-700'>$800 &ndash; $1,500</td><td className='p-2 text-slate-700'>Concrete most common; plastic $500&ndash;$1,200; fiberglass $1,200&ndash;$2,000</td></tr>
+                <tr className='border-b border-slate-200'><td className='p-2 font-semibold text-slate-900'>Septic tank (1,000 gal concrete)</td><td className='p-2 text-center text-slate-700'>$800 &ndash; $2,000</td><td className='p-2 text-slate-700'>Concrete most common; plastic $500&ndash;$1,200; fiberglass $1,200&ndash;$2,000</td></tr>
                 <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-semibold text-slate-900'>Drainfield installation</td><td className='p-2 text-center text-slate-700'>$2,000 &ndash; $5,000</td><td className='p-2 text-slate-700'>Includes trenching, gravel, perforated pipe, and distribution box</td></tr>
                 <tr className='border-b border-slate-200'><td className='p-2 font-semibold text-slate-900'>Excavation and site prep</td><td className='p-2 text-center text-slate-700'>$1,000 &ndash; $4,000</td><td className='p-2 text-slate-700'>Depends on soil conditions, slope, and access</td></tr>
                 <tr className='border-b border-slate-200 bg-slate-50'><td className='p-2 font-semibold text-slate-900'>Piping (house to tank to field)</td><td className='p-2 text-center text-slate-700'>$500 &ndash; $1,500</td><td className='p-2 text-slate-700'>PVC pipe, fittings, connections</td></tr>
@@ -386,9 +413,9 @@ export default function SepticInstallationCostArticle() {
             </table>
           </div>
           <div className='bg-slate-50 border-l-4 border-amber-700 p-5 rounded-r-lg'>
-            <p className='text-slate-700 font-medium text-sm'>For a conventional system serving a three-bedroom home, a realistic all-in budget is <strong>$5,000 to $8,000</strong> including permits, testing, and restoration. For an aerobic or mound system, budget <strong>$12,000 to $20,000</strong>.</p>
+            <p className='text-slate-700 font-medium text-sm'>For a conventional system serving a three-bedroom home, a realistic all-in budget is <strong>$5,000 to $10,000</strong> including permits, testing, and restoration. For an aerobic or mound system, budget <strong>$12,000 to $20,000</strong>.</p>
           </div>
-          <p className='text-slate-700 leading-relaxed text-sm mt-4'>Tank size is determined by bedroom count, not bathroom count &mdash; see our <Link href='/guides/septic-tank-size-guide' className='text-amber-700 underline hover:text-amber-800'>septic tank size guide</Link> to confirm what size your home requires before accepting a quote.</p>
+          <p className='text-slate-700 leading-relaxed text-sm mt-4'>Tank size is determined by bedroom count, not bathroom count. See our <Link href='/guides/septic-tank-size-guide' className='text-amber-700 underline hover:text-amber-800'>septic tank size guide</Link> to confirm what size your home requires before accepting a quote.</p>
         </div>
 
         {/* Section 4 - Tank Material */}
@@ -413,7 +440,7 @@ export default function SepticInstallationCostArticle() {
               <tbody>
                 <tr className='border-b border-slate-200'>
                   <td className='p-2 font-semibold text-slate-900'>Concrete</td>
-                  <td className='p-2 text-center text-slate-700'>$800 &ndash; $1,500</td>
+                  <td className='p-2 text-center text-slate-700'>$800 &ndash; $2,000</td>
                   <td className='p-2 text-center text-slate-700'>40+ years</td>
                   <td className='p-2 text-slate-700'>Most durable, heavy (won&apos;t float), proven track record</td>
                   <td className='p-2 text-slate-700'>Can crack over time, requires heavy equipment</td>
@@ -511,27 +538,27 @@ export default function SepticInstallationCostArticle() {
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>Hidden Costs Most Estimates Miss</h2>
           <div className='space-y-4'>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Failed perc test &mdash; $5,000 to $15,000 extra</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Failed perc test: $5,000 to $15,000 extra</h3>
               <p className='text-slate-700 text-sm'>If your soil fails the initial perc test, you can&apos;t install a conventional system. You&apos;ll need an engineered alternative (mound, ATU, sand filter), which costs $5,000 to $15,000 more than a conventional system.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tree and stump removal &mdash; $500 to $3,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Tree and stump removal: $500 to $3,000</h3>
               <p className='text-slate-700 text-sm'>If the designated drainfield area has trees, they must be removed along with their root systems. Budget $500 to $3,000, depending on the number and size of trees.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Rock removal &mdash; $1,000 to $5,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Rock removal: $1,000 to $5,000</h3>
               <p className='text-slate-700 text-sm'>If excavation encounters bedrock or large boulders, the contractor may need specialized equipment. This can add $1,000 to $5,000 to the project.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Existing system decommissioning &mdash; $500 to $2,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Existing system decommissioning: $500 to $2,000</h3>
               <p className='text-slate-700 text-sm'>If you&apos;re replacing an old system, the existing tank must be properly decommissioned (pumped, crushed or filled with sand, and covered). See our <Link href='/cost-guides/septic-tank-removal-cost' className='text-amber-700 underline hover:text-amber-800'>septic tank removal cost guide</Link> for the full breakdown.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Electrical connection (ATU only) &mdash; $500 to $1,500</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Electrical connection (ATU only): $500 to $1,500</h3>
               <p className='text-slate-700 text-sm'>Aerobic systems require a dedicated electrical circuit for the aerator and alarm. An electrician typically charges $500 to $1,500 for this work.</p>
             </div>
             <div className='bg-white border border-slate-200 rounded-lg p-5'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Landscaping restoration &mdash; $1,000 to $5,000</h3>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Landscaping restoration: $1,000 to $5,000</h3>
               <p className='text-slate-700 text-sm'>The basic estimate usually covers rough grading and seeding. If you want sod, retaining walls, or full landscape restoration, add $1,000 to $5,000.</p>
             </div>
           </div>
@@ -544,7 +571,7 @@ export default function SepticInstallationCostArticle() {
             <div className='flex-1 h-px bg-slate-200'></div>
           </div>
           <h2 className='text-2xl font-bold text-slate-900 mb-4'>New Installation vs. Replacement Cost Differences</h2>
-          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Replacing an existing system is often less expensive than a first-time installation because the site has already been evaluated, the permit history exists, and some infrastructure may be reusable.</p>
+          <p className='text-slate-700 leading-relaxed mb-4 text-sm'>Replacing just the tank or just the drainfield costs less than a new system. Replacing both usually costs more than a first-time conventional install, because the old system has to be pumped and decommissioned and the new one has to meet current code.</p>
           <div className='overflow-x-auto my-6'>
             <table className='w-full text-xs border-collapse'>
               <thead>
@@ -695,6 +722,21 @@ export default function SepticInstallationCostArticle() {
             </details>
           </div>
 
+          <div className='space-y-3 mt-3'>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to replace a septic system?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A complete replacement, with a new tank and a new drainfield, typically costs $8,000 to $20,000, and more if the site now needs a mound or aerobic system. If only one part has failed, the cost drops: a new tank with the existing drainfield reused runs $3,000 to $7,000, and a new drainfield with the existing tank reused runs $5,000 to $15,000. Budget another $500 to $2,000 to decommission the old tank. An inspection will tell you which parts actually need replacing. See our <Link href='/cost-guides/drainfield-replacement-cost' className='text-amber-700 underline hover:text-amber-800'>drainfield replacement cost guide</Link>.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does a septic tank cost by itself?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>A 1,000-gallon concrete tank costs about $800 to $2,000 for the tank alone, a plastic tank $500 to $1,200, and a fiberglass tank $1,200 to $2,000. Each step up to the next standard size typically adds $200 to $500. The tank is a small part of the total: installation labor, the drainfield, permits, and site work make up most of the cost of a new system. See our <Link href='/guides/septic-tank-size-guide' className='text-amber-700 underline hover:text-amber-800'>septic tank size guide</Link> to confirm the size your home needs.</div>
+            </details>
+            <details className='border border-slate-200 rounded-lg group'>
+              <summary className='p-4 font-semibold text-slate-900 text-sm cursor-pointer hover:bg-slate-50 rounded-lg'>How much does it cost to put in a well and septic system?</summary>
+              <div className='px-4 pb-4 text-slate-600 text-sm'>For raw land, budget about $12,000 to $26,000 for a new well and a conventional septic system, and more if the site needs a mound or aerobic system. A conventional septic system typically costs $5,000 to $10,000 all-in, and a standard 100 to 200-foot well with a pump and pressure tank typically costs $7,000 to $16,000. Get the perc test done first, because it decides the septic system type and where the well can go. See <a href='https://www.thewell.guide/cost-guides/well-drilling-cost' className='text-amber-700 underline hover:text-amber-800'>The Well Guide's well drilling cost guide</a>.</div>
+            </details>
+          </div>
+
           <p className='text-base text-slate-700 leading-relaxed mt-8'>
             For a personalized cost estimate based on your specific project, use our <Link href='/cost-guides/septic-tank-cost-calculator' className='text-amber-700 underline hover:text-amber-800'>septic tank cost calculator</Link> before requesting installer quotes.
           </p>
@@ -784,6 +826,13 @@ export default function SepticInstallationCostArticle() {
               </div>
             </section>
           </article>
+          <aside className='hidden lg:block px-4 py-12'>
+            <div className='sticky top-24 rounded-2xl bg-[#F5F0EB] p-5'>
+              <p className='text-xl font-bold text-[#4A6741] mb-4'>Get Free Quotes</p>
+              <LeadForm />
+            </div>
+          </aside>
+      </div>
     </div>
   )
 }
